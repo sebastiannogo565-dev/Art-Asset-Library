@@ -1,0 +1,62 @@
+{
+  "version": "V02",
+  "status": "review_required",
+  "units": "concept_meters",
+  "origin": "southwest",
+  "axes": {"x": "east", "y": "north"},
+  "extent": [640, 540],
+  "regions": [
+    {"id": "housing", "bounds": [60, 145, 220, 225], "phase": "P1"},
+    {"id": "station", "bounds": [180, 235, 260, 280], "phase": "background"},
+    {"id": "rail", "bounds": [0, 284, 640, 298], "phase": "background"},
+    {"id": "campus", "bounds": [390, 325, 550, 450], "phase": "P1"},
+    {"id": "shops", "bounds": [320, 150, 470, 270], "phase": "P1"},
+    {"id": "hospital", "bounds": [535, 185, 610, 265], "phase": "future", "entry": [535, 220]},
+    {"id": "civic", "bounds": [465, 150, 520, 210], "phase": "future"},
+    {"id": "shrine", "bounds": [215, 455, 290, 520], "phase": "future", "entry": [250, 455]},
+    {"id": "upscale", "bounds": [410, 455, 590, 530], "phase": "future", "entry": [410, 475]},
+    {"id": "river", "bounds": [0, 80, 640, 108], "phase": "background"}
+  ],
+  "nodes": {
+    "H": [115, 185], "L": [145, 195], "W": [145, 230], "S": [220, 230],
+    "C": [300, 230], "K": [300, 312], "F": [435, 312], "G": [435, 325],
+    "E": [440, 291], "T": [435, 245], "D": [350, 170],
+    "A": [330, 350], "U": [310, 405], "N": [250, 455], "R": [410, 475],
+    "B1": [245, 108], "B2": [505, 108]
+  },
+  "roads": [
+    {"id": "station_link", "points": [[145,195],[145,230],[220,230],[300,230],[360,230],[435,245],[520,230],[535,220]]},
+    {"id": "west_school", "points": [[300,230],[300,312],[435,312],[435,325]]},
+    {"id": "east_school", "points": [[435,312],[440,291],[435,245]]},
+    {"id": "south_housing", "points": [[145,195],[230,175],[350,170]]},
+    {"id": "shopping", "points": [[350,170],[385,195],[435,245]]},
+    {"id": "shortcut", "points": [[145,195],[230,195],[300,230]], "type": "public_footpath"},
+    {"id": "north_slope", "points": [[300,312],[330,350],[310,405]]},
+    {"id": "shrine_branch", "points": [[310,405],[270,430],[250,455]]},
+    {"id": "upscale_branch", "points": [[310,405],[370,405],[370,460],[410,460],[410,475]]},
+    {"id": "west_river", "points": [[350,170],[350,135],[245,120],[245,65]]},
+    {"id": "east_river", "points": [[520,230],[520,135],[505,120],[505,65]]},
+    {"id": "north_bank", "points": [[100,120],[580,120]]},
+    {"id": "south_bank", "points": [[245,65],[505,65]]}
+  ],
+  "loops": {
+    "A": ["L", "C", "K", "F", "E", "T", "D", "L"],
+    "B": ["L", "W", "S", "C", "T", "D", "L"]
+  },
+  "sightlines": [{"from": [230,195], "to": "A"}, {"from": [280,230], "to": "A"}, {"from": "T", "to": "A"}, {"from": "G", "to": "A"}],
+  "terrain": {"riverbank": 0, "housing_shops": [5,6], "station": 8, "campus_tower": [12,14], "upscale": 24, "shrine_back": 30},
+  "campus": {
+    "origin_in_city": [390,325], "extent": [160,125],
+    "gate": [45,0], "shoe_entry": [45,25],
+    "blocks": [
+      {"id": "forecourt", "bounds": [5,4,90,23]},
+      {"id": "teaching", "bounds": [15,25,85,43]},
+      {"id": "courtyard", "bounds": [15,43,95,70]},
+      {"id": "gym", "bounds": [100,27,132,51]},
+      {"id": "sports_club", "bounds": [100,54,132,66]},
+      {"id": "field", "bounds": [10,75,100,120]},
+      {"id": "culture_reserve", "bounds": [115,75,155,105]},
+      {"id": "bikes", "bounds": [105,5,150,20]}
+    ]
+  }
+}

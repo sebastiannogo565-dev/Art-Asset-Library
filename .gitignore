@@ -1,0 +1,45 @@
+# 本机工具、嵌套工具仓库与安装缓存（保留文件，不纳入美术历史）
+/blender_mcp/
+/blender-mcp-venv/
+/blender-mcp-addon.zip
+/blender-mcp-codex.toml
+/blender-mcp-verification.json
+
+# 缓存、验证预览、临时导出与日志；正式设计稿不要放在这些目录
+.cache/
+.tmp/
+Temp/
+Cache/
+Exports/Temporary/
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.bak
+*.blend1
+*.blend2
+~$*
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 本地环境与凭据
+.venv/
+venv/
+node_modules/
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+.aws/
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*service-account*.json
+*.local.toml
+*.local.json
+
+# 不忽略 ArtSource、设计 PNG/JPG、提示词和认可素材

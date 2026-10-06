@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="720" viewBox="0 0 1120 720">
+  <title>澄坂市 V02 高差折线观察带</title>
+  <desc>连接多个不同方位地点的高差示意，横向非比例，不能用于坡度或工程净空测量。</desc>
+  <rect width="1120" height="720" fill="#f7f4ec"/>
+  <g font-family="Microsoft YaHei, sans-serif" fill="#263b40">
+    <text x="60" y="42" font-size="27" font-weight="bold">澄坂市 · 高差与远景层次 V02</text>
+    <text x="60" y="74" font-size="15">折线观察带：河岸 → 生活街区 → 站前 → 校园／塔 → 北坡各支路</text>
+    <text x="60" y="103" font-size="15" fill="#985c42">横向非比例，地点不在同一直线上；标高候选，不是工程剖面。</text>
+  </g>
+  <g stroke="#c6ccc1" stroke-width="1" stroke-dasharray="4 4">
+    <path d="M60 560H1060M60 500H1060M60 440H1060M60 320H1060M60 260H1060"/>
+  </g>
+  <path d="M60 560H205L250 500H390L430 480H535L590 440H650L680 420H740L810 320H900L965 260H1060V590H60Z" fill="#d6ddc8" stroke="#86957c" stroke-width="2"/>
+  <rect x="65" y="560" width="105" height="21" fill="#9dcbd1"/>
+  <path d="M77 554H177M100 554V580M165 554V580" stroke="#8e9587" stroke-width="4"/>
+  <path d="M214 548H224V537H234V526H244V515H254V504" fill="none" stroke="#a48d6b" stroke-width="3"/>
+  <g fill="#d7bca2" stroke="#907a63" stroke-width="1.5">
+    <path d="M274 500V459L294 444L314 459V500Z"/>
+    <path d="M331 500V455H380V500Z"/>
+  </g>
+  <path d="M273 457L294 442L316 457M327 453H384" stroke="#74878c" stroke-width="5" fill="none"/>
+  <rect x="435" y="452" width="74" height="28" fill="#cbd7db" stroke="#82959b" stroke-width="1.5"/>
+  <path d="M432 451H513" stroke="#7e969c" stroke-width="4"/>
+  <path d="M510 452H562M517 452V478M552 452V458" stroke="#85959d" stroke-width="4"/>
+  <rect x="592" y="340" width="65" height="100" fill="#d9d8c6" stroke="#8c9993" stroke-width="1.5"/>
+  <path d="M589 337H659" stroke="#76939c" stroke-width="5"/>
+  <path d="M600 361H650M600 391H650M600 421H650" stroke="#8ba3ab" stroke-width="8"/>
+  <path d="M590 440V459" stroke="#8e9485" stroke-width="5"/>
+  <path d="M680 420V270H704V420Z" fill="#dedbcb" stroke="#8f9d95" stroke-width="1.5"/>
+  <path d="M676 270L692 260L708 270Z" fill="#448b88" stroke="#627f77" stroke-width="1.5"/>
+  <rect x="824" y="284" width="46" height="36" fill="#d3cbbb" stroke="#8e927e" stroke-width="1.5"/>
+  <path d="M820 283L847 275L875 283" stroke="#808e85" stroke-width="4" fill="none"/>
+  <path d="M904 311H916V300H928V289H940V278H952V267" stroke="#a18c70" stroke-width="3" fill="none"/>
+  <rect x="985" y="236" width="40" height="24" fill="#b99573" stroke="#8b7057"/>
+  <path d="M977 236L1005 228L1033 236" stroke="#717c6d" stroke-width="5" fill="none"/>
+  <g fill="#8faf85"><circle cx="804" cy="294" r="13"/><circle cx="1040" cy="225" r="21"/></g>
+  <g font-family="Microsoft YaHei, sans-serif" fill="#263b40" font-size="15">
+    <text x="60" y="543">±0</text><text x="60" y="486">+6</text><text x="60" y="426">+12</text><text x="60" y="306">+24</text><text x="60" y="246">+30m</text>
+    <text x="85" y="615">河岸</text><text x="260" y="615">住宅／旧街</text><text x="435" y="615">新站前</text><text x="588" y="615">校园</text><text x="681" y="615">塔基</text><text x="803" y="615">高端住宅</text><text x="966" y="615">神社支路</text>
+    <text x="255" y="421">低层屋顶</text><text x="438" y="429">约+8m</text><text x="578" y="311">三层教学体量</text>
+    <text x="672" y="225">青帽塔约16m</text><text x="791" y="242">退界／台地庭院</text><text x="963" y="198">林缘／台阶</text>
+    <text x="60" y="668">设计检查：坡道与台阶能读出高差；屋顶层次共同指向塔；实际坡度、桥坡及铁路净空另行验证。</text>
+    <text x="60" y="702" font-size="13">人工可编辑 SVG｜基于 V02 标高候选｜未建立三维地形｜2026-10-07</text>
+  </g>
+</svg>

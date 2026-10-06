@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="880" viewBox="0 0 1120 880">
+  <title>澄坂市 V02 城区平面与分期预留</title>
+  <desc>人工可编辑示意。城区坐标米制，北向上；布局待审阅，非工程地图。</desc>
+  <defs>
+    <pattern id="future" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M0 10L10 0" stroke="#c6bca7" stroke-width="1"/></pattern>
+    <marker id="sight" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#a05591"/></marker>
+  </defs>
+  <rect width="1120" height="880" fill="#f7f4ec"/>
+  <g font-family="Microsoft YaHei, sans-serif" fill="#263b40">
+    <text x="60" y="42" font-size="27" font-weight="bold">澄坂市 · 城区平面 V02</text>
+    <text x="60" y="71" font-size="15">供审阅｜河岸—生活街区—校园台地—北坡｜位置沿用同一布局数据</text>
+  </g>
+  <g transform="translate(60 748) scale(1.2 -1.2)">
+    <rect x="0" y="0" width="640" height="540" fill="#e9eddf" stroke="#87958b" stroke-width="1"/>
+    <path d="M0 420Q140 390 230 405T450 425T640 400V540H0Z" fill="#d3dfc9"/>
+    <path d="M0 468Q170 440 260 455T480 477T640 455" fill="none" stroke="#9fae90" stroke-width="1.5"/>
+    <path d="M0 510Q170 478 270 498T470 518T640 501" fill="none" stroke="#9fae90" stroke-width="1.5"/>
+    <rect x="0" y="80" width="640" height="28" fill="#9dcbd1"/>
+    <path d="M0 94H640" stroke="#d3eff1" stroke-width="2" stroke-dasharray="18 8"/>
+    <rect x="60" y="145" width="160" height="80" fill="#ebdcc6" stroke="#997f65" stroke-width="1.2"/>
+    <rect x="320" y="150" width="150" height="120" fill="#efd2b5" stroke="#b58969" stroke-width="1.2"/>
+    <rect x="180" y="235" width="80" height="45" fill="#c6d4d8" stroke="#6e8e96"/>
+    <rect x="390" y="325" width="160" height="125" fill="#d6e8dc" stroke="#508d76" stroke-width="1.8"/>
+    <rect x="535" y="185" width="75" height="80" fill="#e0e7e3" stroke="#88958d" stroke-dasharray="5 3"/>
+    <rect x="535" y="185" width="75" height="80" fill="url(#future)"/>
+    <rect x="465" y="150" width="55" height="60" fill="#e5e1d6" stroke="#9e917d" stroke-dasharray="5 3"/>
+    <rect x="465" y="150" width="55" height="60" fill="url(#future)"/>
+    <rect x="215" y="455" width="75" height="65" fill="#d8dfcb" stroke="#889575" stroke-dasharray="5 3"/>
+    <rect x="215" y="455" width="75" height="65" fill="url(#future)"/>
+    <rect x="410" y="455" width="180" height="75" fill="#dddccf" stroke="#9b957c" stroke-dasharray="5 3"/>
+    <rect x="410" y="455" width="180" height="75" fill="url(#future)"/>
+    <rect x="215" y="115" width="35" height="25" fill="#bbd6b4"/>
+    <rect x="315" y="337" width="30" height="26" fill="#c1d6c3" stroke="#6f9d83"/>
+    <rect x="0" y="284" width="640" height="14" fill="#a3adb3"/>
+    <path d="M0 288H640M0 294H640" stroke="#586972" stroke-width="1.5"/>
+    <g fill="none" stroke="#fbf7ef" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+      <polyline id="station-link" points="145,195 145,230 220,230 300,230 360,230 435,245 520,230 535,220"/>
+      <polyline id="west-school" points="300,230 300,312 435,312 435,325"/>
+      <polyline id="east-school" points="435,312 440,291 435,245"/>
+      <polyline id="south-housing" points="145,195 230,175 350,170"/>
+      <polyline id="shopping" points="350,170 385,195 435,245"/>
+      <polyline points="115,185 145,195"/>
+    </g>
+    <g fill="none" stroke="#d2c7b0" stroke-width="5" stroke-linejoin="round">
+      <polyline points="300,312 330,350 310,405"/>
+      <polyline points="310,405 270,430 250,455"/>
+      <polyline points="310,405 370,405 370,460 410,460 410,475"/>
+      <polyline points="350,170 350,135 245,120 245,65"/>
+      <polyline points="520,230 520,135 505,120 505,65"/>
+      <polyline points="100,120 580,120"/>
+      <polyline points="245,65 505,65"/>
+    </g>
+    <polyline id="shortcut" points="145,195 230,195 300,230" fill="none" stroke="#fbf7ef" stroke-width="4"/>
+    <rect x="241" y="76" width="8" height="38" fill="#ddd8c9" stroke="#8d948b"/>
+    <rect x="501" y="76" width="8" height="38" fill="#ddd8c9" stroke="#8d948b"/>
+    <g fill="#b3aa95" stroke="#817c70" stroke-width="0.7">
+      <rect x="83" y="203" width="19" height="14"/><rect x="110" y="204" width="19" height="13"/>
+      <rect x="164" y="202" width="19" height="14"/><rect x="195" y="202" width="15" height="14"/>
+      <rect x="82" y="157" width="19" height="15"/><rect x="146" y="153" width="20" height="15"/>
+      <rect x="185" y="157" width="19" height="15"/>
+      <rect x="333" y="222" width="15" height="15"/><rect x="365" y="240" width="16" height="17"/>
+      <rect x="403" y="236" width="16" height="19"/><rect x="438" y="213" width="20" height="16"/>
+      <rect x="389" y="178" width="20" height="15"/><rect x="346" y="190" width="17" height="15"/>
+      <rect x="364" y="158" width="18" height="15"/>
+    </g>
+    <rect x="108" y="175" width="14" height="20" fill="#ba8365" stroke="#815c47"/>
+    <g stroke="#6f8d83" stroke-width="0.8">
+      <rect x="405" y="350" width="70" height="18" fill="#bdcbd0"/>
+      <rect x="490" y="352" width="32" height="24" fill="#b9c6d0"/>
+      <rect x="490" y="379" width="32" height="12" fill="#c8d5c6"/>
+      <rect x="400" y="400" width="90" height="45" fill="#d6c6a1"/>
+      <rect x="505" y="400" width="40" height="30" fill="url(#future)" stroke-dasharray="3 2"/>
+    </g>
+    <path d="M435 325V350" stroke="#fcf7ec" stroke-width="4"/>
+    <circle cx="330" cy="350" r="6" fill="#458c89" stroke="#ffffff" stroke-width="1.5"/>
+    <g fill="#c7cbc5" stroke="#8d9b91" stroke-width="0.8">
+      <rect x="550" y="222" width="45" height="28"/>
+      <rect x="465" y="150" width="28" height="20"/>
+      <rect x="477" y="180" width="36" height="24"/>
+      <rect x="495" y="220" width="8" height="10"/>
+      <rect x="237" y="480" width="27" height="19"/>
+      <rect x="435" y="482" width="25" height="19"/><rect x="477" y="484" width="25" height="19"/>
+      <rect x="535" y="484" width="25" height="19"/>
+    </g>
+    <polyline points="145,195 230,195 300,230 300,312 435,312 440,291 435,245 385,195 350,170 230,175 145,195" fill="none" stroke="#32799c" stroke-width="2.2"/>
+    <polyline points="145,195 145,230 220,230 300,230 360,230 435,245 385,195 350,170 230,175 145,195" fill="none" stroke="#bc8136" stroke-width="1.7" stroke-dasharray="4 3"/>
+    <polyline points="145,195 230,195 300,230" fill="none" stroke="#c0648d" stroke-width="2.3" stroke-dasharray="3 2"/>
+    <g fill="#397b67" stroke="#ffffff" stroke-width="0.5">
+      <path d="M217 230L220 235L223 230Z"/>
+      <path d="M432 320L435 325L438 320Z"/>
+      <path d="M530 217L535 220L530 223Z"/>
+      <path d="M460 158L465 161L460 164Z"/>
+      <path d="M460 189L465 192L460 195Z"/>
+      <path d="M247 450L250 455L253 450Z"/>
+      <path d="M405 472L410 475L405 478Z"/>
+    </g>
+    <g stroke="#a05591" stroke-width="1.1" stroke-dasharray="3 3" opacity="0.7" marker-end="url(#sight)">
+      <path d="M230 195L330 350"/><path d="M280 230L330 350"/><path d="M435 245L330 350"/><path d="M435 325L330 350"/>
+    </g>
+    <g fill="#263b40" font-family="Microsoft YaHei, sans-serif" font-size="11">
+      <g transform="translate(75 224) scale(1 -1)"><text>一期：普通住宅 +5—6m</text></g>
+      <g transform="translate(85 140) scale(1 -1)"><text>H 玩家家</text></g>
+      <g transform="translate(150 190) scale(1 -1)"><text>L</text></g>
+      <g transform="translate(183 270) scale(1 -1)"><text>主站 S</text></g>
+      <g transform="translate(185 251) scale(1 -1)"><text font-size="9">站房背景／前场 +8m</text></g>
+      <g transform="translate(269 319) scale(1 -1)"><text>K</text></g>
+      <g transform="translate(284 219) scale(1 -1)"><text>C</text></g>
+      <g transform="translate(448 298) scale(1 -1)"><text>E</text></g>
+      <g transform="translate(445 316) scale(1 -1)"><text>F</text></g>
+      <g transform="translate(401 440) scale(1 -1)"><text>一期：校园 +12m</text></g>
+      <g transform="translate(404 358) scale(1 -1)"><text font-size="9">教学楼</text></g>
+      <g transform="translate(438 334) scale(1 -1)"><text font-size="9">G 校门</text></g>
+      <g transform="translate(352 338) scale(1 -1)"><text>青帽塔 A</text></g>
+      <g transform="translate(300 390) scale(1 -1)"><text>U</text></g>
+      <g transform="translate(219 510) scale(1 -1)"><text>神社预留 +30m</text></g>
+      <g transform="translate(418 516) scale(1 -1)"><text>高端住宅预留 +24m</text></g>
+      <g transform="translate(322 260) scale(1 -1)"><text>一期：旧商店街</text></g>
+      <g transform="translate(447 246) scale(1 -1)"><text>T</text></g>
+      <g transform="translate(331 153) scale(1 -1)"><text>D</text></g>
+      <g transform="translate(541 259) scale(1 -1)"><text>医院预留</text></g>
+      <g transform="translate(465 195) scale(1 -1)"><text font-size="8">公共图书馆</text></g>
+      <g transform="translate(465 161) scale(1 -1)"><text font-size="8">社区中心</text></g>
+      <g transform="translate(495 215) scale(1 -1)"><text font-size="8">交番</text></g>
+      <g transform="translate(175 130) scale(1 -1)"><text font-size="9">河岸小公园</text></g>
+      <g transform="translate(252 91) scale(1 -1)"><text>B1</text></g>
+      <g transform="translate(512 91) scale(1 -1)"><text>B2</text></g>
+      <g transform="translate(360 89) scale(1 -1)"><text>河流</text></g>
+      <g transform="translate(319 55) scale(1 -1)"><text>未来南岸步道 ±0m</text></g>
+    </g>
+  </g>
+  <g font-family="Microsoft YaHei, sans-serif" fill="#263b40" font-size="15">
+    <text x="870" y="125" font-size="21" font-weight="bold">北 ↑</text>
+    <text x="870" y="167" font-weight="bold">图例 / 分期</text>
+    <rect x="870" y="187" width="20" height="16" fill="#d6e8dc" stroke="#508d76"/><text x="900" y="201">一期重点设计</text>
+    <rect x="870" y="217" width="20" height="16" fill="url(#future)" stroke="#9b957c"/><text x="900" y="231">未来用地 / 入口固定</text>
+    <rect x="870" y="247" width="20" height="16" fill="#c6d4d8"/><text x="900" y="261">背景交通与城市体量</text>
+    <path d="M870 295H895" stroke="#32799c" stroke-width="3"/><text x="902" y="300">环路 A 上学 / 放学</text>
+    <path d="M870 325H895" stroke="#bc8136" stroke-width="3" stroke-dasharray="5 3"/><text x="902" y="330">环路 B 住宅 / 站前</text>
+    <path d="M870 355H895" stroke="#c0648d" stroke-width="3" stroke-dasharray="4 3"/><text x="902" y="360">公共通学捷径</text>
+    <path d="M870 385H895" stroke="#a05591" stroke-dasharray="4 3"/><text x="902" y="390">预留地标视线</text>
+    <text x="870" y="442" font-weight="bold">新旧过渡</text>
+    <text x="870" y="469">站前 → 过渡街 → 旧街</text>
+    <text x="870" y="494">退界 / 铺地 / 门面渐变</text>
+    <text x="870" y="541" font-weight="bold">未验证</text>
+    <text x="870" y="568">坡度、净空、三维视线</text>
+    <text x="870" y="593">人物比例、旋转遮挡</text>
+    <text x="870" y="640">未来区域不是已开放系统</text>
+    <text x="870" y="665">图中房屋为体量示意</text>
+    <text x="870" y="695">绿色三角：主要入口方向</text>
+    <path d="M60 790H180M60 785V795M120 785V795M180 785V795" stroke="#263b40" stroke-width="2"/>
+    <text x="60" y="816">0</text><text x="111" y="816">50</text><text x="168" y="816">100m</text>
+    <text x="320" y="801">规划框 640×540m｜西南原点｜概念占地，不是施工图</text>
+    <text x="60" y="854" font-size="13">源：layout-v02.json｜人工 SVG｜待用户审阅｜2026-10-07</text>
+  </g>
+</svg>
