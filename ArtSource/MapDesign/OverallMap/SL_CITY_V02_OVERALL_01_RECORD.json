@@ -1,0 +1,49 @@
+{
+  "name": "SL_CITY_V02_OVERALL_01",
+  "status": "prepared_blocked_not_generated",
+  "date": "2026-10-07",
+  "timezone": "Asia/Shanghai",
+  "baseline_commit": "b81aea8e7a17e8f3b0fe96b2e94499779d54eb6b",
+  "generator": "FrameRonin",
+  "site": null,
+  "module": null,
+  "model": null,
+  "task_id": null,
+  "submitted_count": 0,
+  "requested_size": [
+    3072,
+    2560
+  ],
+  "actual_original": null,
+  "reference": {
+    "svg": "SL_CITY_V02_OVERALL_01_REFERENCE.svg",
+    "png": "SL_CITY_V02_OVERALL_01_REFERENCE.png",
+    "format": "PNG",
+    "width": 3072,
+    "height": 2560,
+    "bytes": 664793,
+    "sha256": "51330cf1d021f4a3770e367c72795c7bcb0b219391f3c28f3f90124b2982760c"
+  },
+  "sources": [
+    {
+      "path": "../city-plan-v02.svg",
+      "sha256": "fcd1d1de1107649fc065c7eb8d4d3f669380508984d745c23b823ea8799bc315"
+    },
+    {
+      "path": "../layout-v02.json",
+      "sha256": "9f0de417e19109660f866d851561b83282c41ce2b0cdc3d083c6a7eb52d14d76"
+    }
+  ],
+  "prompt": "SL_CITY_V02_OVERALL_01_PROMPT.md",
+  "local_avoidance": [
+    "北坡路沿塔基绿地西侧绕行",
+    "两处店屋退离道路",
+    "玩家家接路从屋外入口起"
+  ],
+  "blockers": [
+    "Chrome浏览器连接未返回可操作页面",
+    "当前FrameRonin站点网址未提供"
+  ],
+  "fees_observed": null,
+  "validation": "参考是底图导出，不是生成概念图；结果验收未执行"
+}

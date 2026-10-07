@@ -14,6 +14,9 @@
 |D06|不改时间与玩法系统；不继承灰盒布局；未经指令不自动生成/建模/工程接入|[执行计划](execution-plan.md)|
 |D07|建立本地Git交接；若有独立远程推送并核对，无远程先提交再询问|本轮用户指令；[交接](handoff.md)|
 |D08|使用用户提供的独立美术远程 `https://github.com/sebastiannogo565-dev/Art-Asset-Library.git`，正常推送main|远程同步续轮用户指令；[交接](handoff.md)|
+|D09|本轮先做1张完整城区轻度斜俯概念图，北上、包含全部区域、采用当前FrameRonin流程，目标约3072×2560|最新用户指令；[候选01](MapDesign/overall-map-01.md)|
+|D10|V02.1剖面/局部深化与其他视角暂缓；已知压路/穿塔只局部避让；交付后等待评价|最新用户指令；[候选01](MapDesign/overall-map-01.md)|
+|D11|真实下载原图保留，地名/北向/图例独立可编辑，记录实际模型/格式/尺寸/参考/提示词和偏差|最新用户指令；[候选01](MapDesign/overall-map-01.md)|
 
 ## 候选：助手提案，待用户审阅
 
@@ -24,7 +27,7 @@
 |C03|640×540城市框、两铁路穿越口、两桥、四层标高、环路与捷径|未批准，几何示意未实测；[源图](../ArtSource/MapDesign/README.md)|
 |C04|160×125校园、70×18三层楼、体育东/图书西|未批准；[校园](MapDesign/campus-design.md)|
 |C05|便利店/书店/咖啡三重点店；校前街首个样板|未批准；[美术](MapDesign/art-direction.md)|
-|C06|3张城市、3张校园、5张样板概念图任务规格|仅订单草案，未执行；[提示词](MapDesign/generation-briefs.md)|
+|C06|3张城市、3张校园、5张样板概念图任务规格|历史订单，本轮被单张整体地图优先级替代，未执行；[提示词](MapDesign/generation-briefs.md)|
 
 ## 待确认
 
