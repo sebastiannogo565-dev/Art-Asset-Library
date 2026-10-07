@@ -1,0 +1,21 @@
+# 实际直接生图提示词（2026-10-08）
+
+用户授权从FrameRonin改为内置image_gen工具。仅生成1张，参考为SL_CITY_V02_OVERALL_01_REFERENCE.png，原FrameRonin提示词保留历史。本文件以下内容就是实际发送文本。
+
++Use case: stylized-concept.
+Asset type: a single overall city concept map for SchoolLife, not a flat infographic.
+Input image: the provided colored city-plan diagram is a strict spatial layout reference only. Transform the mapped city area into a finished Japanese anime HD2D city illustration. Ignore its outside legend, labels, diagram border and route overlay colors; do not reproduce diagram graphics. Render the full city as continuous terrain, with NORTH at TOP and SOUTH at BOTTOM; camera lightly tilted from above towards north, not a rotated diamond island. Aim for a 3072x2560 image, 6:5. Generate exactly ONE candidate. No labels, text, compass or legend baked in; those will be editable later.
+
+将提供的澄坂市V02平面底图转换为一张完整、精致、可生活的原创日式二次元HD2D城市鸟瞰概念地图。遵循参考图已有位置和道路连接，不重新设计城市。北在画面上方、南在下方，轻度倾斜的俯视正交感构图，避免横向旋转；能看见建筑屋顶与少量立面，但不牺牲整体平面可读性。全城及四边留少量边缘，完整显示，不能裁掉北坡、河岸、医院或任何区域。参考图外围标题和图例只是说明，不要将它们画成景物或保留文字；地名、北箭头和图例由后期添加。目标画面比例6:5，约3072×2560。
+
+空间顺序必须保持：南侧一条东西向河流，有西桥和东桥恰好两座桥，低河岸步道与小公园；西南普通住宅与玩家家；中央偏西的新主车站，主入口朝南，前场具有公交候车雨棚、停靠带和自行车停车；站后东西向抬高铁路贯穿全城，铁路下西、东两处短而通透的南北穿越口清楚接路；东北完整高中校园，南校门、前庭、三层横向教学楼、体育馆、体育社团小楼、北侧操场、自行车区和文化社团预留绿地；校园西侧台地的青帽塔，浅米灰修长旧配水塔，青绿色小塔顶；东南微折旧商店街，便利店、书店文具店、咖啡店是重点门面；东侧医院及其朝西门厅前庭；医院西南独立公共图书馆和社区中心两栋公共建筑，入口朝西，不合并为一个建筑；小型交番在公共服务路口；北坡分岔西北去树木中的小型社区神社，东北去高端住宅，不能穿校园或成为所有人的必经通勤。
+
+道路优先可读、连续、宽窄有区别。住宅东侧公共通学便道接站前东侧连接路口，形成合理捷径。上学环路为住宅—西铁路穿越口—校前街—东铁路穿越口—旧商店街—住宅南街—住宅；另一路为住宅北口—站前—新旧过渡街—商店街—住宅南街—住宅。两环共用合理路段，保持连接，不用彩线替代实际道路。青帽塔基座保持独立，北坡路沿其西侧绕行，有短维护入口但不穿塔身或基座；街屋退让道路，屋檐和绿化不能堵路。
+
+清楚呈现南侧河岸低地、住宅和旧商店街生活台地、新站前、东北校园台地、北坡的逐层高差。使用下河岸台阶、桥头缓坡、挡土墙、上坡街道、分层庭院和神社参道表达，不做全城同一水平面的模型沙盘。新站前规整明亮、浅灰米白与少量玻璃；旧商店街窄门面、木色格栅、旧米色墙、分段短雨棚和高低屋檐；二者逐渐过渡。普通住宅两层为主、坡屋顶、阳台、盆栽；高端住宅用较大退界、细致石木材质、修剪绿篱和顺坡庭院区分，不用金色或夸张宫殿。初夏晴天昼间，温暖青春、青灰屋顶、暖灰墙面、青绿色河水与树木。风格化3D建筑体块、清晰硬边、克制像素纹理与有限色阶、柔和阴影，原创二次元游戏城市概念美术。各区域有完整外墙和合理屋顶，树冠、雨棚、电线杆避开主要道路和入口。地图尺度而非角色肖像，不将全图做成128×128像素画。
+
+## 排除项
+
+不要裁切城市、旋转北向、移动主要区域、新增或删除桥梁/铁路穿越口、合并公共图书馆与社区中心、道路穿塔、建筑压路、树冠遮住入口、巨大旅游景点、赛博朋克、废土、密集高楼、豪华宫殿、写实航拍照片、模糊水彩、巨大景深、固定45度菱形岛屿、悬空地块、文字乱码、地图标题、地名、北箭头或图例烧入原图。
+
+Priority: faithful positions and ALL required districts come before decorative density. West/east railroad UNDERPASSES must be visually open connections; include station-side bus shelter. Public library and community center are TWO distinct buildings. Only TWO river bridges. Do not draw highway infrastructure or many high-rises. Make stepped terrain unmistakable while keeping streets readable. Finished game concept illustration, no leftover colored polygon plan or diagram UI.

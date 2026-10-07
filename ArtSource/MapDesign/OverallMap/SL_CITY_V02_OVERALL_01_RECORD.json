@@ -1,20 +1,54 @@
 {
   "name": "SL_CITY_V02_OVERALL_01",
-  "status": "prepared_blocked_not_generated",
-  "date": "2026-10-07",
+  "status": "generated_candidate_review_required",
+  "date": "2026-10-08",
   "timezone": "Asia/Shanghai",
-  "baseline_commit": "b81aea8e7a17e8f3b0fe96b2e94499779d54eb6b",
-  "generator": "FrameRonin",
-  "site": null,
-  "module": null,
+  "baseline_commit": "a498b688e5c3d04762bed8a6a22fede162129525",
+  "history": {
+    "prepared_date": "2026-10-07",
+    "prepared_generator": "FrameRonin",
+    "prepared_count": 0,
+    "prepared_baseline": "b81aea8e7a17e8f3b0fe96b2e94499779d54eb6b",
+    "superseded_reason": "用户要求直接调用生图模型"
+  },
+  "generator": "built-in image_gen",
   "model": null,
+  "model_disclosure": "底层模型ID/版本未由工具公开",
   "task_id": null,
-  "submitted_count": 0,
+  "submitted_count": 1,
+  "returned_candidates": 1,
   "requested_size": [
     3072,
     2560
   ],
-  "actual_original": null,
+  "actual_original": {
+    "file": "SL_CITY_V02_OVERALL_01.png",
+    "format": "PNG",
+    "width": 1374,
+    "height": 1145,
+    "channels": "RGB",
+    "color_space": "sRGB",
+    "alpha": false,
+    "bytes": 3836945,
+    "sha256": "475be881d54fbd67e246a7238a7620ad79733772c393b10a63568dd26d478092",
+    "preservation": "与工具实际返回文件字节一致，无缩放，无重绘",
+    "lfs": true
+  },
+  "annotations": {
+    "file": "SL_CITY_V02_OVERALL_01_ANNOTATED.svg",
+    "width": 1514,
+    "height": 1335,
+    "editable": "地名、北向、图例独立SVG分组；相对引用原图"
+  },
+  "preview": {
+    "file": "SL_CITY_V02_OVERALL_01_PREVIEW.png",
+    "format": "PNG",
+    "width": 1514,
+    "height": 1335,
+    "bytes": 4991841,
+    "derivation": "原图加SVG标注，非额外生图",
+    "lfs": true
+  },
   "reference": {
     "svg": "SL_CITY_V02_OVERALL_01_REFERENCE.svg",
     "png": "SL_CITY_V02_OVERALL_01_REFERENCE.png",
@@ -34,16 +68,24 @@
       "sha256": "9f0de417e19109660f866d851561b83282c41ce2b0cdc3d083c6a7eb52d14d76"
     }
   ],
-  "prompt": "SL_CITY_V02_OVERALL_01_PROMPT.md",
+  "prompt": "SL_CITY_V02_OVERALL_01_PROMPT_DIRECT.md",
+  "historical_prompt": "SL_CITY_V02_OVERALL_01_PROMPT.md",
   "local_avoidance": [
-    "北坡路沿塔基绿地西侧绕行",
+    "北坡路沿塔基绿地西側绕行",
     "两处店屋退离道路",
     "玩家家接路从屋外入口起"
   ],
-  "blockers": [
-    "Chrome浏览器连接未返回可操作页面",
-    "当前FrameRonin站点网址未提供"
-  ],
+  "blockers": [],
   "fees_observed": null,
-  "validation": "参考是底图导出，不是生成概念图；结果验收未执行"
+  "fees_disclosure": "工具未提供实际计费数据",
+  "deviations": [
+    "原图1374×1145低于约3072×2560目标，未插值或重生成",
+    "西穿越口被画到站西，底图在站东；车站向中心/东偏移",
+    "两环路和通学捷径连续性未通过核验",
+    "玩家家/公共图书馆/社区中心/公交候车处仅候选识别",
+    "像素纹理偏弱，更接近绘画插画",
+    "神社偏西、树冠遮挡支路、粉色开花树偏离初夏绿叶候选",
+    "塔基绕行可见但净空未工程验证"
+  ],
+  "validation": "主要区域类型、两桥、高差、新旧街区可辨；布局精度与HD2D最终风格尚未批准；交付后停止等待评价"
 }

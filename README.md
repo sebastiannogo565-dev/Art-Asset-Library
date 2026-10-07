@@ -22,7 +22,7 @@ ArtSource/
 ArtApproved/           预留：经用户认可的素材；当前未创建或导入
 ```
 
-优先阅读 [交接](Docs/handoff.md)，再阅读 [地图索引](Docs/MapDesign/README.md)。本轮图稿是人工整理的平面与高差示意，不是 AI 概念图、建模成品或已验证可导航地图。
+优先阅读 [交接](Docs/handoff.md)，再阅读 [地图索引](Docs/MapDesign/README.md)。V02图稿是人工整理的平面与高差示意；OverallMap/另有一张AI整体候选，未获批准，不是建模成品或已验证可导航地图。
 
 ## 工作范围
 
@@ -37,7 +37,7 @@ ArtApproved/           预留：经用户认可的素材；当前未创建或导
 - 原有三个 Python 帮助脚本保留未跟踪，不属于本轮成果。
 - `.gitignore` 排除缓存、临时导出、日志、凭据与本地配置；不要把 API Key 写进正文、提示词或图稿。
 - PSD、Blend、FBX、GLB、EXR、TIFF 使用 LFS；大型 PNG/JPG 按实际文件另配 LFS。设计稿、提示词、认可素材和必要源文件保留历史。
-- 当前只有文本、JSON 与 SVG，必要 LFS 对象数为 0。
+- 整体候选原图与派生预览共两个 LFS 对象；参考PNG普通Git。新检出需git lfs pull获取图片。
 - 本地作者配置为 `Codex <codex@local.invalid>`，不修改全局身份。
 - 独立美术远程 `origin`：[Art-Asset-Library](https://github.com/sebastiannogo565-dev/Art-Asset-Library)。当前分支 `main` 跟踪 `origin/main`。
 - 2026-10-07已将首轮设计提交正常推送并核对远端哈希；同步记录也纳入版本历史。最终提交与远端状态见 [交接](Docs/handoff.md) 和结束报告，不复用游戏仓库、不强制推送。

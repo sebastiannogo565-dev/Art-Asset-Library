@@ -1,38 +1,29 @@
 # 交接入口
 
-更新日期：2026-10-07（Asia/Shanghai）
+更新：2026-10-08。**整体概念候选01已生成，供评价，未获批准。**
 
 ## 当前成果
 
-当前轮：整体地图候选01的提示词与上传参考已准备，**没有生成候选图**。浏览器连接未能返回可操作FrameRonin页面、站点网址待提供，详见 [任务记录](MapDesign/overall-map-01.md)。参考PNG是底图导出，不是所请求的HD2D概念图。
-
-独立美术目录已建立 Git 与 Markdown 入口。成果为澄坂市 V02 的设计文件、可编辑平面/高差示意与未来生图订单，状态为供审阅。没有生成AI图片、模型或工程内容。
-
-本轮已完成链接/格式/校园边界/源数据关系/忽略与LFS属性检查，并渲染、目视检查四张SVG。19份暂存文件的差异空白与常见密钥模式检查通过。提交哈希见结束报告；设计批准和三维可见性仍待验证。
+用户直接模型指令替代FrameRonin浏览器路径。仅生成一次，保存真实1374×1145原图、实际提示词和元数据，另有可编辑标注SVG及派生预览。分辨率不足、西穿越口错位、环路/捷径未通过核验，详见[任务验收](MapDesign/overall-map-01.md)。
 
 ## 接续文件
 
-1. [地图设计索引](MapDesign/README.md)：阅读城市、校园、美术方向。
-2. [图稿索引](../ArtSource/MapDesign/README.md)：四张SVG与固定布局JSON。
-3. [生图任务](MapDesign/generation-briefs.md)：未来三类任务的规格、提示词和验收。
-4. [审阅清单](MapDesign/review-checklist.md)：待确认与未验证事项。
-5. [决策日志](decision-log.md)：需求与候选边界；[进展](progress.md) 与 [执行计划](execution-plan.md)：本轮工作状态。
+1. [任务与验收](MapDesign/overall-map-01.md)。
+2. [带标注预览](../ArtSource/MapDesign/OverallMap/SL_CITY_V02_OVERALL_01_PREVIEW.png) · [真实原图](../ArtSource/MapDesign/OverallMap/SL_CITY_V02_OVERALL_01.png)。
+3. [可编辑标注SVG](../ArtSource/MapDesign/OverallMap/SL_CITY_V02_OVERALL_01_ANNOTATED.svg)：与同目录原图一起使用。
+4. [实际提示词](../ArtSource/MapDesign/OverallMap/SL_CITY_V02_OVERALL_01_PROMPT_DIRECT.md) · [生成记录](../ArtSource/MapDesign/OverallMap/SL_CITY_V02_OVERALL_01_RECORD.json)。
+5. [地图正文索引](MapDesign/README.md) · [V02固定布局与图稿](../ArtSource/MapDesign/README.md) · [审阅清单](MapDesign/review-checklist.md)。
+6. [决策](decision-log.md) · [进展](progress.md) · [计划](execution-plan.md)。
 
 ## 下一步入口
 
-先取得用户现用FrameRonin网址并恢复Chrome连接，然后打开 [候选01任务](MapDesign/overall-map-01.md)，按已有单张提示词上传参考。核验当前模型/参数/费用后仅提交一次，保存真实原图、逐项记录偏差、添加独立可编辑标注层、同步Git/LFS并交付预览。交付后停止等待评价；V02.1剖面、局部深化、其他视角、建模及UE接入均暂缓。
-
-旧3张城区概念图任务保留为历史规划，不同时执行。用户授权本次一张整体候选，不等于批准此前地标、季节或所有尺寸，也不等于自动授权失败后的再次生成。
+等待用户评价布局、画风与偏差；收到新指令后再决定修订方式。当前不自动重试，不制作其他视角、V02.1详细剖面、局部深化、模型或UE资产。旧多视图订单仅作历史计划。
 
 ## 仓库交接
 
-- 当前分支main，只有本轮明确文件纳入提交；原有帮助脚本未跟踪，不自动提交。
-- 提交哈希以结束报告和 `git rev-parse HEAD` 为准，避免自引用哈希导致再次修改交接。
-- 用户提供并授权使用的独立美术远程：[Art-Asset-Library](https://github.com/sebastiannogo565-dev/Art-Asset-Library)，origin使用HTTPS地址，main跟踪origin/main。
-- 2026-10-07核验远端为空，正常创建并推送main；已记录的设计同步基线为 `ca7927cff0a3b8b71649e2f24242bb58cc3aae73`，通过 `git ls-remote` 核对一致。
-- 本续轮提交5份Markdown同步记录并正常推送；包含本记录的最终哈希以结束报告/HEAD为准。以后同步时核对本地HEAD与远端main，不强推、不改写历史。
-- 本轮LFS对象为0；未来导入PSD/Blend/FBX等前检查属性与LFS状态，大型PNG/JPG按具体文件配置。
+- 独立远程[Art-Asset-Library](https://github.com/sebastiannogo565-dev/Art-Asset-Library)，main跟踪origin/main；不强推或改写历史。
+- 本轮仅提交明确美术文件；三个原有帮助脚本未跟踪，工具缓存/配置忽略。
+- 原图/预览共两个LFS对象，参考PNG普通Git；新检出需git lfs pull获取图片。
+- 实际提交哈希、推送、LFS和远端核对结果见结束报告及Git记录，以git rev-parse HEAD和git ls-remote origin refs/heads/main核验，避免写自身提交哈希。
 
-## 保留约束
-
-只操作本美术项目。已确定的06:00/08:00/15:00用途背景及时间推进规则不改。体育训练与图书室是一期重点，文化社团和公共图书馆后续扩展。详细设计只维护MapDesign正文，交接文档引用而不复制。
+只操作美术项目，时间规则和游戏工程不改。提交同步不等于设计批准。

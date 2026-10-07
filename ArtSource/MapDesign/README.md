@@ -1,6 +1,6 @@
 # 可编辑地图源图 V02
 
-本目录只含本轮人工整理的设计源图，无AI生图、模型、纹理或UE资产。状态为待审阅。
+本目录保留人工整理的V02源图；OverallMap/新增一张AI整体候选及可编辑标注、派生预览、参考和提示词。无模型或UE资产，待审阅。
 
 |文件|用途|格式/尺寸|
 |---|---|---|
@@ -19,3 +19,8 @@ SVG本身是可编辑源文件，不需要另造不可编辑图片充当源稿�
 JSON与SVG都可人工编辑，当前没有自动同步脚本。修改时必须同时核对区域边界、道路折点、校园原点、入口和地标；必要时升版并更新Docs引用。高差图采用多地点折线观察带，不能按它测量实际水平距离、坡度或工程净空。
 
 设计正文：[城市](../../Docs/MapDesign/city-design.md)、[校园](../../Docs/MapDesign/campus-design.md)、[美术](../../Docs/MapDesign/art-direction.md)、[提示词](../../Docs/MapDesign/generation-briefs.md)。
+
+
+## 整体候选01
+
+[任务与验收](../../Docs/MapDesign/overall-map-01.md) · [真实原图](OverallMap/SL_CITY_V02_OVERALL_01.png) · [预览](OverallMap/SL_CITY_V02_OVERALL_01_PREVIEW.png) · [可编辑标注](OverallMap/SL_CITY_V02_OVERALL_01_ANNOTATED.svg) · [记录](OverallMap/SL_CITY_V02_OVERALL_01_RECORD.json)。原图1374×1145，预览1514×1335；两图使用LFS。SVG须与所引用原图同目录。
