@@ -1,0 +1,343 @@
+{
+  "name": "SL_CITY_V03_OVERALL_01",
+  "version": "V03_01",
+  "date": "2026-10-08",
+  "timezone": "Asia/Shanghai",
+  "status": "candidate_review_required",
+  "baseline_commit": "742ac787512ac4d36a2db7725e8ef9dab152b205",
+  "generator": "built-in image_gen",
+  "model": null,
+  "model_disclosure": "底层模型ID/版本未公开",
+  "task_id": null,
+  "fees_observed": null,
+  "fees_disclosure": "工具未公开实际费用",
+  "submitted_count": 1,
+  "returned_candidates": 1,
+  "requested_size": [
+    3072,
+    2560
+  ],
+  "actual_original": {
+    "file": "Originals/SL_CITY_V03_OVERALL_01.png",
+    "format": "PNG",
+    "width": 1374,
+    "height": 1145,
+    "channels": "RGB",
+    "color_space": "sRGB",
+    "alpha": false,
+    "bytes": 3825398,
+    "sha256": "0c784d168ef2275a0ed95a131de6faa7b796d55b741c448710aefa9734cec0fc",
+    "native_target_reached": false,
+    "resampled": false,
+    "source_copy_verified": true,
+    "lfs": true
+  },
+  "reference": {
+    "file": "SL_CITY_V03_REFERENCE_01.png",
+    "role": "唯一空间布局参考",
+    "format": "PNG",
+    "width": 3072,
+    "height": 2560,
+    "bytes": 1237837,
+    "sha256": "6b2ffe93dc43db8d172fab8f278f8b8b5d64d851f8cc7cc16e5468bd66c2630a",
+    "processing": "从定尺PNG裁取地图区域left80/top290/width2304/height1944，等比contain至3072×2560，米色补边；确定性导出，不是生图"
+  },
+  "layout": {
+    "file": "SL_CITY_V03_LAYOUT_01.json",
+    "sha256": "b262231214d7f7f136181a016d4c9ac6f3d493842fb548a40bec3db618f3fcc8",
+    "units": "concept_meters",
+    "extent": [
+      1280,
+      1080
+    ],
+    "authoritative": true
+  },
+  "plan": {
+    "svg": "SL_CITY_V03_PLAN_01.svg",
+    "svg_sha256": "eaeda781dd4aa233970e17aab47a03d283e815b54a7934d89e018409aefbcdb1",
+    "png": "SL_CITY_V03_PLAN_01.png",
+    "size": [
+      3072,
+      2560
+    ],
+    "png_sha256": "bca56f477f86ab22e2e48aee781deeee73c57267265ee62bb5927e4c0c75fd5b",
+    "processing": "SVG以sharp渲染PNG，不透明"
+  },
+  "prompt": {
+    "file": "SL_CITY_V03_PROMPT_01.md",
+    "sha256": "6834183be12f2609c81fd20b1640b93360ddb86b34962835d0e02f5dbdffd842"
+  },
+  "old_reference": {
+    "file": "../OverallMap/SL_CITY_V02_OVERALL_01.png",
+    "role": "仅目视参考温暖气质，未传入此次生成；旧图错位不采用"
+  },
+  "annotations": {
+    "svg": "SL_CITY_V03_ANNOTATED_01.svg",
+    "png": "SL_CITY_V03_ANNOTATED_01.png",
+    "size": [
+      2034,
+      1345
+    ],
+    "png_bytes": 4751306,
+    "png_sha256": "ad76b2d38ba7f1da85051ad22feb91f8c1e7601f68d5753ed58d1f6eb28603e6",
+    "processing": "同一原图加独立SVG文字/ID/北向；无缩放原图，无追加生图",
+    "lfs": true,
+    "pins": [
+      {
+        "id": "B01",
+        "pixel_xy": [
+          458,
+          676
+        ],
+        "status": "candidate",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "B02",
+        "pixel_xy": [
+          691,
+          649
+        ],
+        "status": "candidate",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "B03",
+        "pixel_xy": [
+          693,
+          599
+        ],
+        "status": "candidate",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "B04",
+        "pixel_xy": [
+          804,
+          707
+        ],
+        "status": "candidate",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "B05",
+        "pixel_xy": [
+          807,
+          611
+        ],
+        "status": "candidate",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "B06",
+        "pixel_xy": [
+          751,
+          447
+        ],
+        "status": "candidate",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "B07",
+        "pixel_xy": [
+          806,
+          450
+        ],
+        "status": "candidate",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "B09",
+        "pixel_xy": [
+          573,
+          536
+        ],
+        "status": "visible",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "B10",
+        "pixel_xy": [
+          730,
+          551
+        ],
+        "status": "candidate",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "B11",
+        "pixel_xy": [
+          1038,
+          553
+        ],
+        "status": "candidate",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "B12",
+        "pixel_xy": [
+          732,
+          323
+        ],
+        "status": "visible",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "B20",
+        "pixel_xy": [
+          226,
+          654
+        ],
+        "status": "visible",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "B21",
+        "pixel_xy": [
+          314,
+          759
+        ],
+        "status": "candidate",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "B22",
+        "pixel_xy": [
+          177,
+          772
+        ],
+        "status": "candidate",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "B30",
+        "pixel_xy": [
+          1255,
+          461
+        ],
+        "status": "candidate",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "B31",
+        "pixel_xy": [
+          1258,
+          766
+        ],
+        "status": "candidate",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "B32",
+        "pixel_xy": [
+          1256,
+          650
+        ],
+        "status": "candidate",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "B40",
+        "pixel_xy": [
+          483,
+          77
+        ],
+        "status": "visible",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "B41",
+        "pixel_xy": [
+          1075,
+          48
+        ],
+        "status": "candidate",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "C01",
+        "pixel_xy": [
+          879,
+          382
+        ],
+        "status": "visible",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "C02",
+        "pixel_xy": [
+          789,
+          302
+        ],
+        "status": "candidate",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "C03",
+        "pixel_xy": [
+          850,
+          294
+        ],
+        "status": "candidate",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "C04",
+        "pixel_xy": [
+          938,
+          294
+        ],
+        "status": "candidate",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "C05",
+        "pixel_xy": [
+          1073,
+          265
+        ],
+        "status": "candidate",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "C06",
+        "pixel_xy": [
+          801,
+          218
+        ],
+        "status": "candidate",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "C07",
+        "pixel_xy": [
+          918,
+          353
+        ],
+        "status": "candidate",
+        "coordinate_space": "原图1374×1145，原点左上"
+      },
+      {
+        "id": "C08",
+        "pixel_xy": [
+          1045,
+          363
+        ],
+        "status": "visible",
+        "coordinate_space": "原图1374×1145，原点左上"
+      }
+    ]
+  },
+  "check": "SL_CITY_V03_CHECK_01.json",
+  "deviations": [
+    "原生1374×1145低于约3072×2560目标，未插值或重生成",
+    "两联系均在站东，但模型把铁路下穿改画跨线桥",
+    "校园体量/层数偏离；食堂翼身份不清晰，八组功能未全核验",
+    "模型自加附楼与建筑，底图51背景数不代表生成建筑数",
+    "小店/玩家家/公共馆/公交/交番具体对应为候选；后门和捷径不清晰",
+    "像素纹理弱，画面更偏绘画/写实材质",
+    "出现粉色开花树，与初夏绿叶方案有偏差",
+    "历史细部与四方向出口表达较弱或构图压缩，不全核验"
+  ],
+  "validation": "二维底图检查通过；生成供审阅，未认定布局精确/3D/工程或最终HD2D风格已批准"
+}

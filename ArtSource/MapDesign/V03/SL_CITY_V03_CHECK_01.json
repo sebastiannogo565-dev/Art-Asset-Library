@@ -1,0 +1,13 @@
+{
+  "scope": "二维概念几何检查，不是3D/坡度/净空/容量或玩家耗时实测",
+  "important_buildings": 27,
+  "campus_groups": 8,
+  "background_instances": 51,
+  "footprint_overlap": [],
+  "public_street_footprint_overlap": [],
+  "rail_footprint_overlap": [],
+  "entry_off_network": [],
+  "route_off_network": [],
+  "out_of_extent": [],
+  "source_geometry_status": "pass"
+}
