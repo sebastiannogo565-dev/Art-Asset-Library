@@ -24,8 +24,9 @@
 
 - 当前分支main，只有本轮明确文件纳入提交；原有帮助脚本未跟踪，不自动提交。
 - 提交哈希以结束报告和 `git rev-parse HEAD` 为准，避免自引用哈希导致再次修改交接。
-- 当前没有远程，本轮没有推送或远端哈希；等待用户提供**独立美术仓库地址**。
-- 获取地址后先核验归属、远端历史和当前分支，再正常推送并对照 `git ls-remote`；不复用游戏仓库、强推或改写历史。
+- 用户提供并授权使用的独立美术远程：[Art-Asset-Library](https://github.com/sebastiannogo565-dev/Art-Asset-Library)，origin使用HTTPS地址，main跟踪origin/main。
+- 2026-10-07核验远端为空，正常创建并推送main；已记录的设计同步基线为 `ca7927cff0a3b8b71649e2f24242bb58cc3aae73`，通过 `git ls-remote` 核对一致。
+- 本续轮提交5份Markdown同步记录并正常推送；包含本记录的最终哈希以结束报告/HEAD为准。以后同步时核对本地HEAD与远端main，不强推、不改写历史。
 - 本轮LFS对象为0；未来导入PSD/Blend/FBX等前检查属性与LFS状态，大型PNG/JPG按具体文件配置。
 
 ## 保留约束

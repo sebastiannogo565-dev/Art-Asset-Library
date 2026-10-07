@@ -39,4 +39,5 @@ ArtApproved/           预留：经用户认可的素材；当前未创建或导
 - PSD、Blend、FBX、GLB、EXR、TIFF 使用 LFS；大型 PNG/JPG 按实际文件另配 LFS。设计稿、提示词、认可素材和必要源文件保留历史。
 - 当前只有文本、JSON 与 SVG，必要 LFS 对象数为 0。
 - 本地作者配置为 `Codex <codex@local.invalid>`，不修改全局身份。
-- 未配置远程。获得独立美术仓库地址后再核验并正常推送，不复用游戏仓库，不强制推送。
+- 独立美术远程 `origin`：[Art-Asset-Library](https://github.com/sebastiannogo565-dev/Art-Asset-Library)。当前分支 `main` 跟踪 `origin/main`。
+- 2026-10-07已将首轮设计提交正常推送并核对远端哈希；同步记录也纳入版本历史。最终提交与远端状态见 [交接](Docs/handoff.md) 和结束报告，不复用游戏仓库、不强制推送。
