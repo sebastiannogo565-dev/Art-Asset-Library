@@ -27,3 +27,6 @@
 - 实际提交哈希、推送、LFS和远端核对结果见结束报告及Git记录，以git rev-parse HEAD和git ls-remote origin refs/heads/main核验，避免写自身提交哈希。
 
 只操作美术项目，时间规则和游戏工程不改。提交同步不等于设计批准。
+## 同步阻塞与恢复入口
+
+成果已本地提交e9c44e08ef7d03342ce3d1ba6015adeddbef7ca2。GitHub LFS batch连续HTTP 502，0/2对象上传，origin/main仍为a498b688e5c3d04762bed8a6a22fede162129525；不能声称云端已同步。未绕过LFS钩子推送空指针。远端恢复后执行git push origin main，再核对远端哈希及两个LFS对象。远端锁API不支持，已按Git提示仅配置本仓库该远端locksverify=false。
