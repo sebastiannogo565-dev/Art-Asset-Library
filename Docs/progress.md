@@ -4,7 +4,15 @@
 
 [V06正文](MapDesign/V06/README.md) · [世界图](../ArtSource/MapDesign/V06/SL_WORLD_V06_PLAN_01.png) · [生活经济图](../ArtSource/MapDesign/V06/SL_WORLD_V06_LIFE_ECONOMY_01.png) · [唯一候选](../ArtSource/MapDesign/V06/Originals/SL_WORLD_V06_CANDIDATE_01.png) · [标注SVG](../ArtSource/MapDesign/V06/SL_WORLD_V06_ANNOTATED_01.svg)。
 
-布局、用途/索引/容量、六住户图、一次候选和标注已落盘并目视检查。二维306节点、27入口/26出口/6站连通，40住户路段闭合，无重要足迹/公交穿校/中部铁路错误。候选原图尺寸不足/新增桥/伸海道、生活绕行、角色参考缺失和三维/运营未验证均留review。无执行阻塞；Git/LFS正常提交推送与远端收尾核验正在完成。完成后停止供用户评价。
+布局、用途/索引/容量、六住户图、一次候选和标注已落盘并目视检查。二维306节点、27入口/26出口/6站连通，40住户路段闭合，无重要足迹/公交穿校/中部铁路错误。候选原图尺寸不足/新增桥/伸海道、生活绕行、角色参考缺失和三维/运营未验证均留review。无执行阻塞；Git/LFS正常提交推送与远端核验已完成。已停止供用户评价。
+
+## V06 实际同步结果（2026-10-08）
+
+32个本轮相关文件成果提交 [7f8036cfb359241f53f80aea60f48cf3dcd3b93b](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/7f8036cfb359241f53f80aea60f48cf3dcd3b93b) 已正常推送origin/main，git ls-remote完整哈希与本地一致。LFS实际上传2/2对象、8.1MB（唯一原图与标注PNG），后续lfs push --dry-run无待上传对象。17图稿/记录的暂存字节或LFS指针与SHA256清单匹配；凭据模式检查无命中，V02—V05旧文件未修改。
+
+已跟踪工作区干净，仅保留setup_blender_mcp.py、setup_codex_blender_mcp.py、verify_blender_mcp.py三个原未跟踪脚本；缓存不纳入提交。无执行阻塞。未完成项是用户审阅、原图目标尺寸/生成偏差、生活绕行/支线及此前列出的三维、容量和运营验证，不转为已批准美术。
+
+此同步记录另作正常收尾提交推送，最终HEAD/远端完整哈希在结束报告提供，避免自引用。V06步骤1–9完成并停止供审阅，不再生图、建模或接入UE。
 
 ## V05及更早记录（保留）
 
