@@ -13,6 +13,15 @@
 
 下一步仅用户评价；通过后另行授权校园/生活核心玩家视角HD2D样板。独立origin/main正常提交推送，保留无关三脚本，LFS2新对象；实际Git收尾追加。
 
+
+## V05 实际同步结果（2026-10-08）
+
+37个本轮相关文件成果提交 [14577193d0e49af5d8cb6fe2fa487d158f85f67e](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/14577193d0e49af5d8cb6fe2fa487d158f85f67e) 已正常推送origin/main，git ls-remote完整哈希与本地一致。LFS实际上传2/2、8.5MB（唯一原图与标注PNG）；后续lfs push --dry-run无待上传对象。21图稿的暂存字节/LFS指针与SHA256清单一致，凭据模式检查无命中，旧V02/V03/V04未修改。
+
+已跟踪工作区干净，只保留setup_blender_mcp.py、setup_codex_blender_mcp.py、verify_blender_mcp.py三个原未跟踪脚本；缓存工具被忽略，没有纳入提交。执行计划步骤1–7完成；未完成项为用户审阅及此前明确未验证的原生尺寸、HD2D画风/局部错位与三维工程事项，不转为美术已批准。
+
+本同步记录另作正常提交推送，最终HEAD与远端核验由结束报告提供，避免自引用。停止供评价，不再生图/建模或接入UE。
+
 ---
 
 ## V04及更早历史记录（保留）
