@@ -1,0 +1,1112 @@
+{
+  "date": "2026-10-09",
+  "units": "m",
+  "coverage": {
+    "m2": 19190082.644628096,
+    "ratio_to_calibrated_v06": 4,
+    "ratio_to_v07": 1
+  },
+  "campus_m": [
+    360,
+    320
+  ],
+  "core_m": [
+    520,
+    400
+  ],
+  "targets": [
+    {
+      "id": "B01",
+      "reachable": true
+    },
+    {
+      "id": "B02",
+      "reachable": true
+    },
+    {
+      "id": "B03",
+      "reachable": true
+    },
+    {
+      "id": "B04",
+      "reachable": true
+    },
+    {
+      "id": "B05",
+      "reachable": true
+    },
+    {
+      "id": "B06",
+      "reachable": true
+    },
+    {
+      "id": "B07",
+      "reachable": true
+    },
+    {
+      "id": "B09",
+      "reachable": true
+    },
+    {
+      "id": "B10",
+      "reachable": true
+    },
+    {
+      "id": "B11",
+      "reachable": true
+    },
+    {
+      "id": "B12",
+      "reachable": true
+    },
+    {
+      "id": "B20",
+      "reachable": true
+    },
+    {
+      "id": "B21",
+      "reachable": true
+    },
+    {
+      "id": "B22",
+      "reachable": true
+    },
+    {
+      "id": "B30",
+      "reachable": true
+    },
+    {
+      "id": "B31",
+      "reachable": true
+    },
+    {
+      "id": "B32",
+      "reachable": true
+    },
+    {
+      "id": "B40",
+      "reachable": true
+    },
+    {
+      "id": "B41",
+      "reachable": true
+    },
+    {
+      "id": "C01",
+      "reachable": true
+    },
+    {
+      "id": "C02",
+      "reachable": true
+    },
+    {
+      "id": "C03",
+      "reachable": true
+    },
+    {
+      "id": "C04",
+      "reachable": true
+    },
+    {
+      "id": "C05",
+      "reachable": true
+    },
+    {
+      "id": "C06",
+      "reachable": true
+    },
+    {
+      "id": "C07",
+      "reachable": true
+    },
+    {
+      "id": "C08",
+      "reachable": true
+    },
+    {
+      "id": "C09",
+      "reachable": true
+    },
+    {
+      "id": "B42",
+      "reachable": true
+    },
+    {
+      "id": "B43",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_01",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_02",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_03",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_04",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_05",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_06",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_07",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_08",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_09",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_10",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_11",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_12",
+      "reachable": true
+    },
+    {
+      "id": "BG_S_01",
+      "reachable": true
+    },
+    {
+      "id": "BG_S_02",
+      "reachable": true
+    },
+    {
+      "id": "BG_S_03",
+      "reachable": true
+    },
+    {
+      "id": "BG_S_04",
+      "reachable": true
+    },
+    {
+      "id": "BG_S_05",
+      "reachable": true
+    },
+    {
+      "id": "BG_S_06",
+      "reachable": true
+    },
+    {
+      "id": "BG_W_01",
+      "reachable": true
+    },
+    {
+      "id": "BG_W_02",
+      "reachable": true
+    },
+    {
+      "id": "BG_W_03",
+      "reachable": true
+    },
+    {
+      "id": "BG_W_04",
+      "reachable": true
+    },
+    {
+      "id": "BG_W_05",
+      "reachable": true
+    },
+    {
+      "id": "BG_W_06",
+      "reachable": true
+    },
+    {
+      "id": "BG_W_07",
+      "reachable": true
+    },
+    {
+      "id": "BG_E_01",
+      "reachable": true
+    },
+    {
+      "id": "BG_E_02",
+      "reachable": true
+    },
+    {
+      "id": "BG_E_03",
+      "reachable": true
+    },
+    {
+      "id": "BG_E_04",
+      "reachable": true
+    },
+    {
+      "id": "BG_E_05",
+      "reachable": true
+    },
+    {
+      "id": "BG_G_01",
+      "reachable": true
+    },
+    {
+      "id": "BG_G_02",
+      "reachable": true
+    },
+    {
+      "id": "BG_G_03",
+      "reachable": true
+    },
+    {
+      "id": "BG_G_04",
+      "reachable": true
+    },
+    {
+      "id": "BG_G_05",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_001",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_002",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_003",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_004",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_005",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_006",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_007",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_008",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_009",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_010",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_011",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_012",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_013",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_014",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_015",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_016",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_017",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_018",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_019",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_020",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_021",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_022",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_023",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_024",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_025",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_026",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_027",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_028",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_029",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_030",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_031",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_032",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_033",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_034",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_035",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_036",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_037",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_038",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_039",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_040",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_041",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_042",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_043",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_044",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_045",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_046",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_047",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_048",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_049",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_050",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_051",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_052",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_053",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_054",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_055",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_056",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_057",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_058",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_059",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_060",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_061",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_062",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_063",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_064",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_065",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_066",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_067",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_068",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_069",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_070",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_071",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_072",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_073",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_074",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_075",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_076",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_077",
+      "reachable": true
+    },
+    {
+      "id": "E02_N",
+      "reachable": true
+    },
+    {
+      "id": "E01_S",
+      "reachable": true
+    },
+    {
+      "id": "E02_W",
+      "reachable": true
+    },
+    {
+      "id": "E03_E",
+      "reachable": true
+    },
+    {
+      "id": "E02_E",
+      "reachable": true
+    },
+    {
+      "id": "E04_W",
+      "reachable": true
+    },
+    {
+      "id": "E04_E",
+      "reachable": true
+    },
+    {
+      "id": "E05_W",
+      "reachable": true
+    },
+    {
+      "id": "E02_NW",
+      "reachable": true
+    },
+    {
+      "id": "E06_S",
+      "reachable": true
+    },
+    {
+      "id": "E06_N",
+      "reachable": true
+    },
+    {
+      "id": "E08_SW",
+      "reachable": true
+    },
+    {
+      "id": "E07_NE",
+      "reachable": true
+    },
+    {
+      "id": "E08_SE",
+      "reachable": true
+    },
+    {
+      "id": "E06_E",
+      "reachable": true
+    },
+    {
+      "id": "E07_W",
+      "reachable": true
+    },
+    {
+      "id": "E02_S",
+      "reachable": true
+    },
+    {
+      "id": "E09_N",
+      "reachable": true
+    },
+    {
+      "id": "E04_SW",
+      "reachable": true
+    },
+    {
+      "id": "E09_E",
+      "reachable": true
+    },
+    {
+      "id": "E03_NE",
+      "reachable": true
+    },
+    {
+      "id": "E06_SW",
+      "reachable": true
+    },
+    {
+      "id": "E03_S",
+      "reachable": true
+    },
+    {
+      "id": "E09_W",
+      "reachable": true
+    },
+    {
+      "id": "E01_E",
+      "reachable": true
+    },
+    {
+      "id": "E02_NE",
+      "reachable": true
+    },
+    {
+      "id": "P15_A",
+      "reachable": true
+    },
+    {
+      "id": "P15_B",
+      "reachable": true
+    },
+    {
+      "id": "P16_A",
+      "reachable": true
+    },
+    {
+      "id": "P16_B",
+      "reachable": true
+    },
+    {
+      "id": "N01",
+      "reachable": true
+    },
+    {
+      "id": "N02",
+      "reachable": true
+    },
+    {
+      "id": "N03",
+      "reachable": true
+    },
+    {
+      "id": "N04",
+      "reachable": true
+    },
+    {
+      "id": "N05",
+      "reachable": true
+    },
+    {
+      "id": "N06",
+      "reachable": true
+    },
+    {
+      "id": "N07",
+      "reachable": true
+    },
+    {
+      "id": "N08",
+      "reachable": true
+    },
+    {
+      "id": "N09",
+      "reachable": true
+    },
+    {
+      "id": "N10",
+      "reachable": true
+    },
+    {
+      "id": "N11",
+      "reachable": true
+    },
+    {
+      "id": "N12",
+      "reachable": true
+    },
+    {
+      "id": "N13",
+      "reachable": true
+    },
+    {
+      "id": "N14",
+      "reachable": true
+    },
+    {
+      "id": "N15",
+      "reachable": true
+    },
+    {
+      "id": "N16",
+      "reachable": true
+    },
+    {
+      "id": "N17",
+      "reachable": true
+    }
+  ],
+  "failed": [],
+  "household_walk_legs": [
+    {
+      "id": "HH01",
+      "from": "B01",
+      "to": "CLASS",
+      "reachable": true
+    },
+    {
+      "id": "HH01",
+      "from": "CLASS",
+      "to": "C03",
+      "reachable": true
+    },
+    {
+      "id": "HH01",
+      "from": "C03",
+      "to": "C08",
+      "reachable": true
+    },
+    {
+      "id": "HH01",
+      "from": "C08",
+      "to": "B03",
+      "reachable": true
+    },
+    {
+      "id": "HH01",
+      "from": "B03",
+      "to": "B02",
+      "reachable": true
+    },
+    {
+      "id": "HH01",
+      "from": "B02",
+      "to": "B01",
+      "reachable": true
+    },
+    {
+      "id": "HH02",
+      "from": "BG_W_01",
+      "to": "B20_staff",
+      "reachable": true
+    },
+    {
+      "id": "HH02",
+      "from": "B20_staff",
+      "to": "BG_W_02",
+      "reachable": true
+    },
+    {
+      "id": "HH02",
+      "from": "BG_W_02",
+      "to": "B22",
+      "reachable": true
+    },
+    {
+      "id": "HH02",
+      "from": "B22",
+      "to": "BG_W_01",
+      "reachable": true
+    },
+    {
+      "id": "HH03",
+      "from": "BG_W_07",
+      "to": "S01",
+      "reachable": true
+    },
+    {
+      "id": "HH03",
+      "from": "S06",
+      "to": "B09",
+      "reachable": true
+    },
+    {
+      "id": "HH03",
+      "from": "B09",
+      "to": "S06",
+      "reachable": true
+    },
+    {
+      "id": "HH03",
+      "from": "S05",
+      "to": "B32",
+      "reachable": true
+    },
+    {
+      "id": "HH03",
+      "from": "B32",
+      "to": "S05",
+      "reachable": true
+    },
+    {
+      "id": "HH03",
+      "from": "S01",
+      "to": "BG_W_02",
+      "reachable": true
+    },
+    {
+      "id": "HH03",
+      "from": "BG_W_02",
+      "to": "BG_W_07",
+      "reachable": true
+    },
+    {
+      "id": "HH04",
+      "from": "BG_E_03",
+      "to": "B04_staff",
+      "reachable": true
+    },
+    {
+      "id": "HH04",
+      "from": "B04_staff",
+      "to": "BG_S_01",
+      "reachable": true
+    },
+    {
+      "id": "HH04",
+      "from": "BG_S_01",
+      "to": "LOOKOUT",
+      "reachable": true
+    },
+    {
+      "id": "HH04",
+      "from": "LOOKOUT",
+      "to": "BG_E_03",
+      "reachable": true
+    },
+    {
+      "id": "HH05",
+      "from": "BG_S_01",
+      "to": "B03",
+      "reachable": true
+    },
+    {
+      "id": "HH05",
+      "from": "B03",
+      "to": "BG_S_04",
+      "reachable": true
+    },
+    {
+      "id": "HH05",
+      "from": "BG_S_04",
+      "to": "WELL",
+      "reachable": true
+    },
+    {
+      "id": "HH05",
+      "from": "WELL",
+      "to": "BG_S_01",
+      "reachable": true
+    },
+    {
+      "id": "HH06",
+      "from": "BG_G_01",
+      "to": "SN1",
+      "reachable": true
+    },
+    {
+      "id": "HH06",
+      "from": "S01",
+      "to": "B21",
+      "reachable": true
+    },
+    {
+      "id": "HH06",
+      "from": "B21",
+      "to": "BG_W_02",
+      "reachable": true
+    },
+    {
+      "id": "HH06",
+      "from": "BG_W_02",
+      "to": "S01",
+      "reachable": true
+    },
+    {
+      "id": "HH06",
+      "from": "SN1",
+      "to": "PARK",
+      "reachable": true
+    },
+    {
+      "id": "HH06",
+      "from": "PARK",
+      "to": "BG_G_01",
+      "reachable": true
+    }
+  ],
+  "failed_walk_legs": [],
+  "logistics": [
+    {
+      "id": "LP01",
+      "reachable": true
+    },
+    {
+      "id": "LP02",
+      "reachable": true
+    },
+    {
+      "id": "LP03",
+      "reachable": true
+    },
+    {
+      "id": "LP04",
+      "reachable": true
+    },
+    {
+      "id": "LP05",
+      "reachable": true
+    },
+    {
+      "id": "LP06",
+      "reachable": true
+    },
+    {
+      "id": "LP07",
+      "reachable": true
+    },
+    {
+      "id": "LP08",
+      "reachable": true
+    },
+    {
+      "id": "LP09",
+      "reachable": true
+    }
+  ],
+  "bus_public_road_errors": [],
+  "wetland_new_path_errors": [],
+  "pool_field_existing_building_overlap": [],
+  "area_categories_unchanged": true,
+  "candidate_pool_water_not_natural_lake_area": 250,
+  "paired_connections": 15,
+  "major_preserved": 27,
+  "uses_preserved": 24,
+  "new_buildings": 3,
+  "new_reused_uses": 2,
+  "bridge_decision": {
+    "id": "BR08_OPTION_01",
+    "candidate_path": [
+      [
+        2550,
+        1460
+      ],
+      [
+        2780,
+        1460
+      ]
+    ],
+    "formal_bridge_added": false,
+    "adopted": false,
+    "pairs": [
+      {
+        "use": "西石阶→东草坡低频休憩",
+        "a": [
+          2550,
+          1460
+        ],
+        "b": [
+          2780,
+          1460
+        ],
+        "existing_length_m": 468.3442094330791,
+        "candidate_length_m": 230,
+        "saving_m": 238.34420943307907
+      },
+      {
+        "use": "旧街口→东文化馆主要访问",
+        "a": [
+          2351.818181818182,
+          1728.181818181818
+        ],
+        "b": [
+          2848.0590909090906,
+          1624.3463636363635
+        ],
+        "existing_length_m": 657.3727209935162,
+        "candidate_length_m": 657.3727209935162,
+        "saving_m": 0
+      },
+      {
+        "use": "学校外→东商公交接驳",
+        "a": [
+          2191.818181818182,
+          1888.181818181818
+        ],
+        "b": [
+          3090.909090909091,
+          1900
+        ],
+        "existing_length_m": 1113.5582323403758,
+        "candidate_length_m": 1113.5582323403758,
+        "saving_m": 0
+      }
+    ],
+    "decision": "低频两岸休憩有缩短，但主要旧街文化/校外商业路径收益不足；近旧桥约104m纵向，与BR_OLD慢行功能重叠。保留旧桥与连续岸径，候选不进正式道路/生成参考；无新增桥出口。",
+    "engineering": "新桥跨度/水力/无障碍/河岸结构未测，判断为本轮空间取舍非工程可行性"
+  },
+  "route_comparison": [
+    {
+      "id": "home_gate",
+      "v07_m": 170.16442592921186,
+      "v08_m": 170.16442592921186,
+      "delta_m": 0,
+      "vertical_unverified": true
+    },
+    {
+      "id": "gate_class",
+      "v07_m": 99.1547594742265,
+      "v08_m": 99.1547594742265,
+      "delta_m": 0,
+      "vertical_unverified": true
+    },
+    {
+      "id": "teach_library",
+      "v07_m": 103.24865969177553,
+      "v08_m": 103.24865969177553,
+      "delta_m": 0,
+      "vertical_unverified": true
+    },
+    {
+      "id": "teach_sport",
+      "v07_m": 98.31797780234433,
+      "v08_m": 98.31797780234433,
+      "delta_m": 0,
+      "vertical_unverified": true
+    },
+    {
+      "id": "gate_shop_home",
+      "v07_m": 480.60374142019435,
+      "v08_m": 480.60374142019435,
+      "delta_m": 0,
+      "vertical_unverified": true
+    }
+  ],
+  "scope": "2D plan geometry/access only; not actual slopes, water, operations, navigation, camera, game time or construction"
+}

@@ -28,3 +28,6 @@ ArtSource/MapDesign/V06/SL_WORLD_V06_ANNOTATED_01.png filter=lfs diff=lfs merge=
 
 ArtSource/MapDesign/V07/Originals/SL_WORLD_V07_CANDIDATE_01.png filter=lfs diff=lfs merge=lfs -text
 ArtSource/MapDesign/V07/SL_WORLD_V07_ANNOTATED_01.png filter=lfs diff=lfs merge=lfs -text
+
+ArtSource/MapDesign/V08/Originals/SL_WORLD_V08_CANDIDATE_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V08/SL_WORLD_V08_ANNOTATED_01.png filter=lfs diff=lfs merge=lfs -text

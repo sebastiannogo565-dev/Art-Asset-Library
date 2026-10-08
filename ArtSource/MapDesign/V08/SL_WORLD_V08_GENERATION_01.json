@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-09",
+  "version": "V08",
+  "revision": "01",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "entry": "direct built-in, same verified V05–V07 channel",
+  "model_id": null,
+  "unknown_model_reason": "not exposed by tool",
+  "reference": "SL_WORLD_V08_INPUT_01.png",
+  "reference_sha256": "ee42e8fb3e54eee333382845c31e927292005416ae2b7f3425e2020ed6612380",
+  "layout": "SL_WORLD_V08_LAYOUT_AT_GENERATION_01.json",
+  "layout_sha256": "7446bb792d5cd7ac89a56675e29adf6d95b9ad40954460f1f089175c67fcd272",
+  "prompt": "SL_WORLD_V08_PROMPT_01.md",
+  "prompt_sha256": "c7e8936c040188b521afb997e34df1df94faf8251d31ec57ceaee76605e8b392",
+  "target": [
+    3072,
+    2560
+  ],
+  "character_file": null,
+  "geometry_changed_after_generation": false,
+  "source_layout": "../V07/SL_WORLD_V07_LAYOUT_01a.json",
+  "old_candidate_as_generation_reference": false,
+  "actual_source": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-bcbcaf35-fb53-47e7-a2ed-d52c1f06f512.png",
+  "original": "Originals/SL_WORLD_V08_CANDIDATE_01.png",
+  "actual_format": "png",
+  "native_size": [
+    1374,
+    1145
+  ],
+  "channels": 3,
+  "has_alpha": false,
+  "bytes": 3486005,
+  "original_sha256": "8e93756d227a5f64e41fd174c5b39e4493b64bfc5fff43752d82618cc7d86cce",
+  "saved_sha256": "8e93756d227a5f64e41fd174c5b39e4493b64bfc5fff43752d82618cc7d86cce",
+  "byte_copy_identical": true,
+  "target_reached": false,
+  "model_version": null,
+  "task_id": null,
+  "cost": null,
+  "processing": "copy original bytes; no crop/upscale/re-encoding. Editable3400x2900 annotation embeds original at1:1",
+  "annotated_canvas": [
+    3400,
+    2900
+  ],
+  "post_generation_revision": null,
+  "current_layout": "SL_WORLD_V08_LAYOUT_01.json",
+  "layout_hash_still_matches": true,
+  "prompt_matches_file": true,
+  "review": "../../../Docs/MapDesign/V08/review.md"
+}

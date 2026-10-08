@@ -1,0 +1,310 @@
+{
+  "date": "2026-10-09",
+  "scope": "V08 art/docs files; excludes self; file bytes before Git line-ending normalization",
+  "checks": {
+    "date": "2026-10-09",
+    "current_revision": "01",
+    "world_coverage_m2": 19190082.644628096,
+    "ratio_to_v07": 1,
+    "ratio_to_calibrated_v06": 4,
+    "campus_m": [
+      360,
+      320
+    ],
+    "core_m": [
+      520,
+      400
+    ],
+    "preserved_building_ids": 27,
+    "new_building_candidates": 3,
+    "preserved_use_units": 24,
+    "new_reused_use_candidates": 2,
+    "background_instances": 112,
+    "all_targets": 189,
+    "walk_legs": 31,
+    "household_bus_endpoints": [
+      {
+        "id": "HH03",
+        "from": "S01",
+        "to": "S06",
+        "endpoint_match": true
+      },
+      {
+        "id": "HH03",
+        "from": "S06",
+        "to": "S05",
+        "endpoint_match": true
+      },
+      {
+        "id": "HH03",
+        "from": "S05",
+        "to": "S01",
+        "endpoint_match": true
+      },
+      {
+        "id": "HH06",
+        "from": "SN1",
+        "to": "S02",
+        "endpoint_match": true
+      },
+      {
+        "id": "HH06",
+        "from": "S02",
+        "to": "S01",
+        "endpoint_match": true
+      },
+      {
+        "id": "HH06",
+        "from": "S01",
+        "to": "S02",
+        "endpoint_match": true
+      },
+      {
+        "id": "HH06",
+        "from": "S02",
+        "to": "SN1",
+        "endpoint_match": true
+      }
+    ],
+    "logistics_anchors": 9,
+    "geometry_errors": 0,
+    "broken_links": [],
+    "bridge_added": false,
+    "pool_surface_m2_candidate": 250,
+    "frozen_input_bytes_verified": true,
+    "native_image": [
+      1374,
+      1145
+    ],
+    "image_target_met": false,
+    "generated_once": true,
+    "scope": "2D planning and artifact consistency, not 3D navigation/engineering/operating/time or art style acceptance"
+  },
+  "files": [
+    {
+      "file": "ArtSource/MapDesign/V08/Originals/SL_WORLD_V08_CANDIDATE_01.png",
+      "bytes": 3486005,
+      "sha256": "8e93756d227a5f64e41fd174c5b39e4493b64bfc5fff43752d82618cc7d86cce",
+      "format": "png",
+      "width": 1374,
+      "height": 1145,
+      "has_alpha": false,
+      "role": "native_generated_original"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/README.md",
+      "bytes": 1737,
+      "sha256": "c4224d52524faf09c8ddc38042efafae9de4cb17553d00dcdff8cc9ab9346069"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_ANNOTATED_01.png",
+      "bytes": 5847828,
+      "sha256": "f644b618b8b602686685db9c38cad8a764e557402b36b9fbc30742a1f9cc2697",
+      "format": "png",
+      "width": 3400,
+      "height": 2900,
+      "has_alpha": true,
+      "role": "vector_annotation_page_original_1to1"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_ANNOTATED_01.svg",
+      "bytes": 130073,
+      "sha256": "778a8ac098da1ac8f413c050d9c05932ef67bb15bc45de1f21a54570d8c232e8"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_AREA_01.json",
+      "bytes": 2430,
+      "sha256": "3c4183af2c3a916441b4fc287be6993b9ff33486dddfaf773522852da1b01d6a"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_BOARD_01_CAMPUS_SHRINE.png",
+      "bytes": 473257,
+      "sha256": "70a9a0b4efcd5838da9a87277d83a6ce1393c98c45e75e55727e8369e94faad3",
+      "format": "png",
+      "width": 2560,
+      "height": 2048,
+      "has_alpha": true,
+      "role": "vector_plan_render_or_input_snapshot"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_BOARD_01_CAMPUS_SHRINE.svg",
+      "bytes": 256169,
+      "sha256": "4c9089b27a8c2209c91d3e52dc7e0b604f4c461f26b75b7252da1f2f660b93a2"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_BOARD_02_COMMERCE_STATION.png",
+      "bytes": 525450,
+      "sha256": "7de20f315a60b2b79d21fd908902b3100413902db7ab0022e07433232cb0674d",
+      "format": "png",
+      "width": 2560,
+      "height": 2048,
+      "has_alpha": true,
+      "role": "vector_plan_render_or_input_snapshot"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_BOARD_02_COMMERCE_STATION.svg",
+      "bytes": 379012,
+      "sha256": "2962f8245230c56ed48414bffa99d6acc375f5a38f5dd4f30bcf123d0b79f699"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_BOARD_03_ROUTES_RIVER_BRIDGES.png",
+      "bytes": 540800,
+      "sha256": "c4625ee2ee490f57b87895ed0aaf8fb492a093c4b6f02661d572e3b5c780701b",
+      "format": "png",
+      "width": 2560,
+      "height": 2048,
+      "has_alpha": true,
+      "role": "vector_plan_render_or_input_snapshot"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_BOARD_03_ROUTES_RIVER_BRIDGES.svg",
+      "bytes": 131377,
+      "sha256": "29e9635269af61d522d3aafac467330d582379b3d411b4de48247b5be0edffbd"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_BOARD_04_COAST_LAKE_EXPLORATION.png",
+      "bytes": 416082,
+      "sha256": "193325b27df7d6fcff1ac83479ef257823cf2d49b4e0f3525c9b08738adf3665",
+      "format": "png",
+      "width": 2560,
+      "height": 2048,
+      "has_alpha": true,
+      "role": "vector_plan_render_or_input_snapshot"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_BOARD_04_COAST_LAKE_EXPLORATION.svg",
+      "bytes": 503490,
+      "sha256": "b3d25f10b25d2db45c04a1ac3b0a016ea8e1b9250f2797aaba7dd14d84256aeb"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_CHECK_01.json",
+      "bytes": 1860,
+      "sha256": "75cf46b3e7406b773b02fe0a4434085b759bb96cf6680d60a550abf825977d22"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_GENERATION_01.json",
+      "bytes": 1869,
+      "sha256": "6333fe56b060460729babc2e5e4651cd612fcd047648b7aff7b9c364a16ed8d1"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_INPUT_01.png",
+      "bytes": 755817,
+      "sha256": "ee42e8fb3e54eee333382845c31e927292005416ae2b7f3425e2020ed6612380",
+      "format": "png",
+      "width": 3072,
+      "height": 2560,
+      "has_alpha": true,
+      "role": "vector_plan_render_or_input_snapshot"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_INPUT_RECORD_01.json",
+      "bytes": 871,
+      "sha256": "a5b8ca2a0897f759ff93d25ee33bf8ed9de3ac1f0b367ce7dbdfb30a293258dc"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_LAYOUT_01.json",
+      "bytes": 674352,
+      "sha256": "7446bb792d5cd7ac89a56675e29adf6d95b9ad40954460f1f089175c67fcd272"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_LAYOUT_AT_GENERATION_01.json",
+      "bytes": 674352,
+      "sha256": "7446bb792d5cd7ac89a56675e29adf6d95b9ad40954460f1f089175c67fcd272"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_LIFE_ROUTES_01.png",
+      "bytes": 965844,
+      "sha256": "3a1f4fa984cb7ac789fe44e35bc0a101288056213e10efc53fc2d64bcd2d7630",
+      "format": "png",
+      "width": 3072,
+      "height": 2560,
+      "has_alpha": true,
+      "role": "vector_plan_render_or_input_snapshot"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_LIFE_ROUTES_01.svg",
+      "bytes": 122140,
+      "sha256": "a2d3ddd6018edc3a75297f03fbda2ed337e88328998b52a502eb72b920386b5b"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_NETWORK_01.json",
+      "bytes": 18074,
+      "sha256": "f5acab8c7bbb40d5b708849d727888fdaf575f65c0b5bfa569877f27bab9a2e2"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_PLAN_01.png",
+      "bytes": 955368,
+      "sha256": "c34508376c10fe125c2c3d6958b4baaf92100f0da9fcc640ca769fc46683a735",
+      "format": "png",
+      "width": 3072,
+      "height": 2560,
+      "has_alpha": true,
+      "role": "vector_plan_render_or_input_snapshot"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_PLAN_01.svg",
+      "bytes": 110106,
+      "sha256": "523f54c1b5fb34a63caa949059abba7d46021d39e177ff55e4b383647201c7c2"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_PROMPT_01.md",
+      "bytes": 6984,
+      "sha256": "c7e8936c040188b521afb997e34df1df94faf8251d31ec57ceaee76605e8b392"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_REFERENCE_01.png",
+      "bytes": 755817,
+      "sha256": "ee42e8fb3e54eee333382845c31e927292005416ae2b7f3425e2020ed6612380",
+      "format": "png",
+      "width": 3072,
+      "height": 2560,
+      "has_alpha": true,
+      "role": "vector_plan_render_or_input_snapshot"
+    },
+    {
+      "file": "ArtSource/MapDesign/V08/SL_WORLD_V08_REFERENCE_01.svg",
+      "bytes": 96158,
+      "sha256": "0dba4707f4fcd5c5e2a1b124928c802eef16dd52ce6dfbed998870f2a1db4cde"
+    },
+    {
+      "file": "Docs/MapDesign/V08/area-water-life.md",
+      "bytes": 4280,
+      "sha256": "e3fbb7afc37fa8f0ea47fb2d831a7406562ff88defa398f5ffcfa21c5b2026dd"
+    },
+    {
+      "file": "Docs/MapDesign/V08/building-use-index.md",
+      "bytes": 15625,
+      "sha256": "d64ace95f18190a415dab3ce09a1160f2dff6d36bbd3d6a107df37ecd46d8ed6"
+    },
+    {
+      "file": "Docs/MapDesign/V08/campus-shrine.md",
+      "bytes": 2673,
+      "sha256": "67237bb2b8d46d5874f2546d1329a9792bda0b5ed8541d5eae6270fe70252b50"
+    },
+    {
+      "file": "Docs/MapDesign/V08/change-log.md",
+      "bytes": 2242,
+      "sha256": "82cd5239855f51c3bca87a2023092d7cfe57b2d0566dc8293f912de924bcf2ca"
+    },
+    {
+      "file": "Docs/MapDesign/V08/commerce-exploration.md",
+      "bytes": 2606,
+      "sha256": "c50c2815a09c7b12b9348b77d8e5f75d97fd9ba68d80bea9c6762898ee57ff76"
+    },
+    {
+      "file": "Docs/MapDesign/V08/README.md",
+      "bytes": 2598,
+      "sha256": "2393c34c094c204f5bce709c0719c532a1159d341c496a0ba63509014a27cef5"
+    },
+    {
+      "file": "Docs/MapDesign/V08/review.md",
+      "bytes": 3811,
+      "sha256": "cb99ee21ce7eebd81facf35a2e72cfba796f6dc97ade5c7166c8da3ac2ceeb52"
+    },
+    {
+      "file": "Docs/MapDesign/V08/routes-transport.md",
+      "bytes": 7062,
+      "sha256": "3aa49ad3b86e45be153f4681e4b7d12638a2a2a76cfd33e130f0d4cb3b977aaf"
+    }
+  ]
+}

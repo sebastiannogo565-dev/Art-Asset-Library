@@ -1,4 +1,19 @@
-# 交接入口 · 当前V07
+# 交接入口 · 当前V08
+
+## V08 当前交付01（2026-10-09）
+
+[V08正文](MapDesign/V08/README.md) · [变更](MapDesign/V08/change-log.md) · [总图](../ArtSource/MapDesign/V08/SL_WORLD_V08_PLAN_01.png) · [四规划板](../ArtSource/MapDesign/V08/README.md) · [原图](../ArtSource/MapDesign/V08/Originals/SL_WORLD_V08_CANDIDATE_01.png) · [标注](../ArtSource/MapDesign/V08/SL_WORLD_V08_ANNOTATED_01.svg)。
+
+权威[LAYOUT_01](../ArtSource/MapDesign/V08/SL_WORLD_V08_LAYOUT_01.json)与[源码索引](../ArtSource/MapDesign/V08/README.md)。读[建筑用途节点](MapDesign/V08/building-use-index.md)、[校园神社](MapDesign/V08/campus-shrine.md)、[商业探索](MapDesign/V08/commerce-exploration.md)、[路线交通/未采用桥](MapDesign/V08/routes-transport.md)、[面积水系/住户后勤](MapDesign/V08/area-water-life.md)、[验收偏差](MapDesign/V08/review.md)。
+
+V07 01a准确骨架不变：19.19008km²统一米制，校园360×320/核心520×400，独立湖盆/东北主河/5m溪/外缘铁路，15对道路出口。八原校翼、27原ID24U保留，体育区整合泳池附属C09不新增独立第九功能组；B42低白塔/B43水务小屋未来候选。天台、神社阶与缓坡、双商业/站前步行、可选岸径深化，原通学不强加风景绕路。
+
+图像原生1374×1145/PNG/RGB不透明，冻结INPUT/LAYOUT_01一次生成，原字节与工具源SHA256一致；无生图后底稿修改。模型具体名称/费用/任务ID未知。标注3400×2900页嵌原图1:1，不冒充原生达标/精确图像位置。学校操场、支溪、桥、塔与纹理偏差未通过；底稿与功能索引是依据。
+
+四局部板各2560×2048 SVG/PNG，非额外AI场景。189目标、31步行授权、9后勤/公交公共路核验仅二维；人物源图、安全/容量/水力/实际导航镜头耗时待验证。下一步仅用户审阅，随后另行安排家巷口—旧街—校前—校门样板；不自动建模/UE/玩法。Git同步收尾记录另附。
+
+## V07及更早记录（保留）
+
 
 ## V07 当前交付01a（2026-10-09）
 

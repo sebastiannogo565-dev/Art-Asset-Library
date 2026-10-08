@@ -1,5 +1,13 @@
 # 本轮进展
 
+## V08 当前交付01（2026-10-09）
+
+[V08正文](MapDesign/V08/README.md) · [变更](MapDesign/V08/change-log.md) · [总图](../ArtSource/MapDesign/V08/SL_WORLD_V08_PLAN_01.png) · [四规划板](../ArtSource/MapDesign/V08/README.md) · [原图](../ArtSource/MapDesign/V08/Originals/SL_WORLD_V08_CANDIDATE_01.png) · [标注](../ArtSource/MapDesign/V08/SL_WORLD_V08_ANNOTATED_01.svg)。
+
+完成统一米制总图/4可编辑板/六户图/索引与一次生成。19.19008km²/V07一倍，校园360×320m/核心520×400m；通学170.16m、经店480.60m不变。保留27ID24U112背景，新增C09泳池附属/B42小灯塔/B43巡检小屋3候选、U25/U26复用2项、17环境锚点；天台/泳池/祭场/新店/探索均未来空间。新桥低频省238.34m/两主要线省0m，未采用；不增港口/堤。
+
+189目标/31住户步行授权接入、9后勤、公交公共路/15对出口、池场足迹和新增路径不穿校园私院湿地的二维检查完成。冻结01生成后未变更底稿。一张原生1374×1145不透明PNG，尺寸不足/学校操场/支溪/桥/塔/HD2D偏差留review。认可人物源图仍待提供、比例/三维安全坡度水力运力导航镜头耗时容量未验。无执行阻塞，Git/LFS同步收尾进行中；结束停止供审阅。
+
 ## V07 当前交付01a（2026-10-09）
 
 [V07正文](MapDesign/V07/README.md) · [面积](MapDesign/V07/area-verification.md) · [定尺图](../ArtSource/MapDesign/V07/SL_WORLD_V07_PLAN_01a.png) · [湖河](../ArtSource/MapDesign/V07/SL_WORLD_V07_HYDROLOGY_01.png) · [唯一候选](../ArtSource/MapDesign/V07/Originals/SL_WORLD_V07_CANDIDATE_01.png) · [标注](../ArtSource/MapDesign/V07/SL_WORLD_V07_ANNOTATED_01.svg)。
