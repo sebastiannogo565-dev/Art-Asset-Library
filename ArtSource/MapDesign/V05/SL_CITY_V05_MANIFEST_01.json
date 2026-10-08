@@ -1,0 +1,113 @@
+{
+  "version": "V05",
+  "revision": "01",
+  "date": "2026-10-08",
+  "note": "不含自引用manifest；原图/标注按精确路径LFS，其他图稿普通Git",
+  "files": [
+    {
+      "file": "Originals/SL_CITY_V05_OVERALL_01.png",
+      "bytes": 3574783,
+      "sha256": "2bc8e2b00c55cb0a52d4291b5fabac8a128bf4b7e17fc46fe8aa137a27d18aee"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2687,
+      "sha256": "2d704218c1dc85ea64932d18ef2983476309e3d0e39c56b1ac1313a30764fe49"
+    },
+    {
+      "file": "SL_CITY_V05_ANNOTATED_01.png",
+      "bytes": 4936004,
+      "sha256": "275e072375045fbbae45c9d3741e9858fb4eab1546ee87a586fbfa4292d0785c"
+    },
+    {
+      "file": "SL_CITY_V05_ANNOTATED_01.svg",
+      "bytes": 34647,
+      "sha256": "40892ff957403cdc62ff3c9454e79bb1681e75a524d345526033ae293810a3a8"
+    },
+    {
+      "file": "SL_CITY_V05_CAMPUS_01.png",
+      "bytes": 245155,
+      "sha256": "1ac6a1cf8c301acdd072c434bc8a6fd13b921866feb48109145980113455bba0"
+    },
+    {
+      "file": "SL_CITY_V05_CAMPUS_01.svg",
+      "bytes": 9612,
+      "sha256": "127bf15d48b134a4e06e951812d97ad44a1fee8c754158e5aea622be08d321d4"
+    },
+    {
+      "file": "SL_CITY_V05_CHECK_01.json",
+      "bytes": 8353,
+      "sha256": "b9092c77862cf81b65a979c9d6a9dab02b8de0accab159feb054b337c9cca4f4"
+    },
+    {
+      "file": "SL_CITY_V05_CORE_01.png",
+      "bytes": 263697,
+      "sha256": "56d18771bc1590a8836dc0d37ac9f4c7261935c30d417bba84fa33e291caba11"
+    },
+    {
+      "file": "SL_CITY_V05_CORE_01.svg",
+      "bytes": 13174,
+      "sha256": "16aa4b3f1a949a35cb33e28562b5387b1e631df356d8a95c37ecddc50bfc0185"
+    },
+    {
+      "file": "SL_CITY_V05_GENERATION_01.json",
+      "bytes": 2054,
+      "sha256": "267287dc35d36e8fd9723fa78f4863c30b1b4f0482f8a0dc0e1a192ac05d0dbd"
+    },
+    {
+      "file": "SL_CITY_V05_INPUT_01.png",
+      "bytes": 595641,
+      "sha256": "8126a8745657e56227b8bdc9b6e0548ae7229c93482e737738eb334eb9c97ea5"
+    },
+    {
+      "file": "SL_CITY_V05_INPUT_RECORD_01.json",
+      "bytes": 682,
+      "sha256": "e0c11377e8e935bb0a76946f627798a2ebacfc068836038014e6b76e9e22946d"
+    },
+    {
+      "file": "SL_CITY_V05_LAYOUT_01.json",
+      "bytes": 179727,
+      "sha256": "08ad426c47b16643b1a2bd31bb428da523c5fe30ac7dfda872982b544f8f69a7"
+    },
+    {
+      "file": "SL_CITY_V05_LAYOUT_AT_GENERATION_01.json",
+      "bytes": 179727,
+      "sha256": "08ad426c47b16643b1a2bd31bb428da523c5fe30ac7dfda872982b544f8f69a7"
+    },
+    {
+      "file": "SL_CITY_V05_PROMPT_01.md",
+      "bytes": 7188,
+      "sha256": "fe4fa82767ae415e649758502eeabf577f72145432a0840dd8d7828758416f26"
+    },
+    {
+      "file": "SL_CITY_V05_REFERENCE_01.png",
+      "bytes": 595641,
+      "sha256": "8126a8745657e56227b8bdc9b6e0548ae7229c93482e737738eb334eb9c97ea5"
+    },
+    {
+      "file": "SL_CITY_V05_REFERENCE_01.svg",
+      "bytes": 46215,
+      "sha256": "2f670c9239f90c8d19c6975df34275ef091fa874af4405ac9453f893e5c42b3f"
+    },
+    {
+      "file": "SL_CITY_V05_TOPOLOGY_01.png",
+      "bytes": 505255,
+      "sha256": "193abc5de1eb081bba0296b914768cc16c304ba4c2d0b457393d7df18944a3f5"
+    },
+    {
+      "file": "SL_CITY_V05_TOPOLOGY_01.svg",
+      "bytes": 9109,
+      "sha256": "827d565f28537f5d3cab6ad84691bb5a03941b8001a5f9143f8f311347eb7e70"
+    },
+    {
+      "file": "SL_CITY_V05_WORLD_01.png",
+      "bytes": 800752,
+      "sha256": "8e23c664bcbe5729837e2e93dd3cc0cf50d40cf17d9dd15a98790c2db55881eb"
+    },
+    {
+      "file": "SL_CITY_V05_WORLD_01.svg",
+      "bytes": 60656,
+      "sha256": "caf72649f383c69cf30131d2e3a341b229fddec8497beb6def3763f9ff6c2d2d"
+    }
+  ]
+}

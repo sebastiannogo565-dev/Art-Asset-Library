@@ -1,0 +1,19 @@
+{
+  "reference": "SL_CITY_V05_INPUT_01.png",
+  "reference_source": "SL_CITY_V05_REFERENCE_01.png",
+  "layout": "SL_CITY_V05_LAYOUT_AT_GENERATION_01.json",
+  "reference_sha256": "8126a8745657e56227b8bdc9b6e0548ae7229c93482e737738eb334eb9c97ea5",
+  "layout_sha256": "08ad426c47b16643b1a2bd31bb428da523c5fe30ac7dfda872982b544f8f69a7",
+  "prompt_sha256": "fe4fa82767ae415e649758502eeabf577f72145432a0840dd8d7828758416f26",
+  "layout_revision": "01",
+  "tool": "image_gen.imagegen",
+  "attempt": 1,
+  "model_id": null,
+  "reason_model_null": "工具不暴露具体模型标识",
+  "requested_size": [
+    3072,
+    2560
+  ],
+  "background": "opaque",
+  "character_reference_file": null
+}

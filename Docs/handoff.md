@@ -1,4 +1,22 @@
-# 交接入口
+# 交接入口 · 当前V05
+
+更新2026-10-08。当前为V05底稿01与唯一候选01，停止供审阅。
+
+先读[V05总索引](MapDesign/V05/README.md)、[验收/偏差](MapDesign/V05/review.md)，看[世界示意](../ArtSource/MapDesign/V05/SL_CITY_V05_WORLD_01.png)、[真实原图](../ArtSource/MapDesign/V05/Originals/SL_CITY_V05_OVERALL_01.png)、[标注SVG](../ArtSource/MapDesign/V05/SL_CITY_V05_ANNOTATED_01.svg)。
+[建筑迁移](MapDesign/V05/building-index.md)、[成对出口](MapDesign/V05/connections.md)、[交通路线](MapDesign/V05/transport-and-routes.md)、[校园历史](MapDesign/V05/campus-and-history.md)、[源图资料](../ArtSource/MapDesign/V05/README.md)为接续入口。
+
+27重要ID/功能/阶段保留，35背景规划实例；校园360×320m、核心520×400m候选，世界DU示意无米制比例尺。主通学170.2m、校门经店回家480.6m仅局部纸面长度，不是实际耗时。13对/26内部出口，3未来出口单端预留，公交6站逆序同路；公共道路绕校，铁路东外缘东北离城。
+
+一次内置image_gen，原生RGB PNG1374×1145无alpha，原图复制字节哈希一致，未放大/重编码；尺寸低于目标且偏细密写实。湖面/岸线/小店/部分翼与候车细节有偏差，标注分近似形象与规划功能定位。实际输入INPUT_01、LAYOUT_AT_GENERATION_01冻结01；生成后没有移动底稿，无再生图。模型具体标识不公开，字段null。
+
+人物仍Q版128×128，认可图片未找到，不能声称比例实测。镜头/导航/容量/坡度/水力/加载/真实耗时未验证。没有建模或实现系统/规则。
+
+下一步仅用户评价；通过后另行授权校园/生活核心玩家视角HD2D样板。独立origin/main正常提交推送，保留无关三脚本，LFS2新对象；实际Git收尾追加。
+
+---
+
+## V04及更早历史记录（保留）
+
 
 更新：2026-10-08。当前成果：**澄坂市V04布局01b与一次概念候选01，等待用户审阅。**
 
@@ -32,3 +50,8 @@ main跟踪独立[Art-Asset-Library](https://github.com/sebastiannogo565-dev/Art-
 成果提交 98913ae16079752937556af5a780c3e51cef2001 已正常推送origin/main，git ls-remote完整哈希一致。LFS实际上传2/2、8.7MB（V04原图与功能标注PNG），没有强推/跳钩子。31个相关文件纳入本轮成果，旧V02/V03不变；13个图稿/输入文件哈希、17份Markdown链接、四SVG XML和27ID/用途/阶段一致性核对通过。已跟踪工作区干净，仅三个原帮助脚本未跟踪保留。
 
 本同步记录另作正常提交/推送，最终HEAD由结束报告提供以避免自引用。制作停止供审阅；画风、分辨率、额外穿越/局部错位及三维/工程未验证项保持原验收状态，不因推送转为批准。
+
+
+## V05 文件核验收尾（推送前）
+
+16份Markdown链接无失效，6份SVG XML可解析；27重要ID/用途/阶段一致，26内部出口唯一配对，8张PNG真实尺寸与不透明属性记录，21个图稿/输入文件SHA256清单齐全。原图字节和冻结参考/布局哈希一致。局部水渠显示层序修正不改变JSON/世界参考；没有新增生图。V02/V03/V04未修改，三个原有脚本保留未跟踪。下一项仅Git/LFS正常提交推送与远端完整哈希核对。

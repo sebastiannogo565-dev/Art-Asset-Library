@@ -1,0 +1,49 @@
+{
+  "version": "V05",
+  "layout_revision": "01",
+  "date": "2026-10-08",
+  "tool": "image_gen.imagegen",
+  "entry": "内置工具直接调用，沿用V04渠道",
+  "model_id": null,
+  "model_version": null,
+  "task_id": null,
+  "cost": null,
+  "unknown_reason": "接口仅返回image_url与output_hint，没有模型/任务/计费字段",
+  "attempts": 1,
+  "prompt": "SL_CITY_V05_PROMPT_01.md",
+  "reference": "SL_CITY_V05_INPUT_01.png",
+  "reference_sha256": "8126a8745657e56227b8bdc9b6e0548ae7229c93482e737738eb334eb9c97ea5",
+  "layout_at_generation": "SL_CITY_V05_LAYOUT_AT_GENERATION_01.json",
+  "layout_sha256": "08ad426c47b16643b1a2bd31bb428da523c5fe30ac7dfda872982b544f8f69a7",
+  "prompt_sha256": "fe4fa82767ae415e649758502eeabf577f72145432a0840dd8d7828758416f26",
+  "character_file": null,
+  "character_direction": "Q版128×128；认可图片未在仓库找到；未生成人物素材",
+  "requested_canvas": [
+    3072,
+    2560
+  ],
+  "native_size": [
+    1374,
+    1145
+  ],
+  "actual_format": "png",
+  "color_space": "srgb",
+  "channels": 3,
+  "alpha": false,
+  "opaque": true,
+  "target_reached": false,
+  "original_source": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-b98db45e-98d0-4422-b96c-221d1cae99f5.png",
+  "original_saved": "Originals/SL_CITY_V05_OVERALL_01.png",
+  "original_sha256": "2bc8e2b00c55cb0a52d4291b5fabac8a128bf4b7e17fc46fe8aa137a27d18aee",
+  "source_sha256": "2bc8e2b00c55cb0a52d4291b5fabac8a128bf4b7e17fc46fe8aa137a27d18aee",
+  "byte_copy_identical": true,
+  "processing": "原图复制字节不重编码、不裁切、不插值；SVG仅新增文字、规划定位与功能索引面板，预览合成不改变原图1:1大小",
+  "annotation_canvas": [
+    2400,
+    2160
+  ],
+  "reference_revision_after_generation": "none",
+  "deviations": "../../../Docs/MapDesign/V05/review.md",
+  "stop": "one_candidate_completed_user_review",
+  "local_preview_note": "生成后修正校园/核心SVG水层显示顺序，仅可视层不改变JSON/世界参考/Input_01；没有追加生图"
+}

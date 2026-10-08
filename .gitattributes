@@ -19,3 +19,6 @@ ArtSource/MapDesign/V03/Originals/SL_CITY_V03_OVERALL_01.png filter=lfs diff=lfs
 ArtSource/MapDesign/V03/SL_CITY_V03_ANNOTATED_01.png filter=lfs diff=lfs merge=lfs -text
 ArtSource/MapDesign/V04/Originals/SL_CITY_V04_OVERALL_01.png filter=lfs diff=lfs merge=lfs -text
 ArtSource/MapDesign/V04/SL_CITY_V04_ANNOTATED_01.png filter=lfs diff=lfs merge=lfs -text
+
+ArtSource/MapDesign/V05/Originals/SL_CITY_V05_OVERALL_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V05/SL_CITY_V05_ANNOTATED_01.png filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,9953 @@
+{
+  "version": "V05",
+  "revision": "01",
+  "date": "2026-10-08",
+  "status": "review_required",
+  "source": {
+    "version": "V04",
+    "revision": "01b",
+    "file": "../V04/SL_CITY_V04_LAYOUT_01.json",
+    "commit": "6485d030bfdc49525b3da42072cfad3a7422cc8a",
+    "note": "保留ID/功能/阶段与历史方法，坐标/路程不沿用；额外生成铁路穿越不采纳"
+  },
+  "world": {
+    "units": "schematic_design_units_not_meters",
+    "extent": [
+      2700,
+      2150
+    ],
+    "canvas": [
+      3072,
+      2560
+    ],
+    "north": "up",
+    "note": "连续世界示意：距离压缩、校园有视觉放大；此导出框不是世界永久边界，禁止米制总图比例尺。"
+  },
+  "local_plans": {
+    "R01": {
+      "units": "m",
+      "extent": [
+        360,
+        320
+      ],
+      "world_origin": [
+        930,
+        1120
+      ],
+      "world_du_per_local_m": 1.6,
+      "reason": "分期校园/剧情院落与训练场需要更充分退界，候选占地较V04扩大；容量未验证"
+    },
+    "R02": {
+      "units": "m",
+      "extent": [
+        520,
+        400
+      ],
+      "world_origin": [
+        750,
+        680
+      ],
+      "world_du_per_local_m": 1.1,
+      "reason": "一期住宅/校前/旧街同一室外图，主通学短循环；局部尺度是候选"
+    }
+  },
+  "regions": [
+    {
+      "id": "R01",
+      "name": "澄坂高中",
+      "polygon": [
+        [
+          930,
+          1120
+        ],
+        [
+          1506,
+          1120
+        ],
+        [
+          1518,
+          1450
+        ],
+        [
+          1506,
+          1632
+        ],
+        [
+          1060,
+          1645
+        ],
+        [
+          930,
+          1600
+        ]
+      ],
+      "type": "campus",
+      "color": "#e2e6c9",
+      "phase": "一期高频+未来翼",
+      "people": "学生/教师；教室、图书、体育及长期剧情",
+      "identity": "旧校院与现代屋顶群；钟楼角和校门",
+      "boundary": "校园围墙与校门为管理边界；公共跨区道路不穿校",
+      "world_units": "schematic_design_units_not_meters"
+    },
+    {
+      "id": "R02",
+      "name": "通学生活核心",
+      "polygon": [
+        [
+          750,
+          790
+        ],
+        [
+          750,
+          1059.5
+        ],
+        [
+          959,
+          1120
+        ],
+        [
+          1179,
+          1120
+        ],
+        [
+          1322,
+          1109
+        ],
+        [
+          1322,
+          768
+        ],
+        [
+          1135,
+          680
+        ],
+        [
+          838,
+          713
+        ]
+      ],
+      "type": "core",
+      "color": "#ecd9bf",
+      "phase": "一期同一室外图",
+      "people": "家庭/学生/老商号/兼职帮工；上学、采购、邻里",
+      "identity": "井台/泉渠/工坊改店、校前短檐",
+      "boundary": "公巷与私人院门区分；校园独立成图，买东西不连切小图",
+      "world_units": "schematic_design_units_not_meters"
+    },
+    {
+      "id": "R03",
+      "name": "西部成熟生活与公共服务",
+      "polygon": [
+        [
+          200,
+          775
+        ],
+        [
+          300,
+          1170
+        ],
+        [
+          570,
+          1300
+        ],
+        [
+          820,
+          1260
+        ],
+        [
+          750,
+          1054
+        ],
+        [
+          750,
+          790
+        ],
+        [
+          540,
+          740
+        ]
+      ],
+      "type": "west",
+      "color": "#d4e1df",
+      "phase": "未来+背景公寓",
+      "people": "成熟家庭/医护/社区；医院/公共馆/社区",
+      "identity": "不同年代阳台组团、砖配楼和 civic 小庭",
+      "boundary": "医院后勤与住宅私院不作公共捷径",
+      "world_units": "schematic_design_units_not_meters"
+    },
+    {
+      "id": "R04",
+      "name": "东部现代商业文化",
+      "polygon": [
+        [
+          1700,
+          680
+        ],
+        [
+          1920,
+          650
+        ],
+        [
+          2180,
+          760
+        ],
+        [
+          2260,
+          1170
+        ],
+        [
+          2240,
+          1350
+        ],
+        [
+          1910,
+          1390
+        ],
+        [
+          1700,
+          1220
+        ],
+        [
+          1780,
+          911
+        ]
+      ],
+      "type": "east",
+      "color": "#d9dfea",
+      "phase": "未来+背景天际线",
+      "people": "办公/文化/青年；商业与职业未来",
+      "identity": "不等裙房、陶板/玻璃、中高楼与旧库翼",
+      "boundary": "现代大道有秩序，楼群不镜像西区；不沿海岸排墙",
+      "world_units": "schematic_design_units_not_meters"
+    },
+    {
+      "id": "R05",
+      "name": "外缘站前交通",
+      "polygon": [
+        [
+          2240,
+          980
+        ],
+        [
+          2360,
+          880
+        ],
+        [
+          2600,
+          940
+        ],
+        [
+          2640,
+          1510
+        ],
+        [
+          2500,
+          1580
+        ],
+        [
+          2270,
+          1340
+        ]
+      ],
+      "type": "station",
+      "color": "#d5dde2",
+      "phase": "背景空间/系统未来",
+      "people": "通勤者/来访者；换乘与远区",
+      "identity": "低横站房、明确候车/入口、独立换乘前场",
+      "boundary": "轨道仅外缘东北离城，不截通学/湖岸/沙滩",
+      "world_units": "schematic_design_units_not_meters"
+    },
+    {
+      "id": "R06",
+      "name": "北坡神社与旧林路",
+      "polygon": [
+        [
+          780,
+          1200
+        ],
+        [
+          925,
+          1260
+        ],
+        [
+          930,
+          1600
+        ],
+        [
+          1240,
+          1640
+        ],
+        [
+          1280,
+          1770
+        ],
+        [
+          1090,
+          1840
+        ],
+        [
+          920,
+          1700
+        ],
+        [
+          760,
+          1450
+        ]
+      ],
+      "type": "shrine",
+      "color": "#d3dfbd",
+      "phase": "未来/近侧地标背景",
+      "people": "散步者/神社维护；可选慢游与历史",
+      "identity": "青帽塔公共绿坡、旧石路、公共参道",
+      "boundary": "参道公共、社务院私有；跨区道绕校西侧",
+      "world_units": "schematic_design_units_not_meters"
+    },
+    {
+      "id": "R07",
+      "name": "北坡庭院住宅",
+      "polygon": [
+        [
+          1610,
+          1550
+        ],
+        [
+          1880,
+          1510
+        ],
+        [
+          2220,
+          1630
+        ],
+        [
+          2260,
+          1820
+        ],
+        [
+          2050,
+          1890
+        ],
+        [
+          1790,
+          1840
+        ],
+        [
+          1590,
+          1760
+        ]
+      ],
+      "type": "garden",
+      "color": "#d7dfc6",
+      "phase": "未来",
+      "people": "庭院住户；静谧归家/林缘慢游",
+      "identity": "顺坡院墙、低坡屋顶和大退界",
+      "boundary": "公路在院外，庭院宅不默认开放",
+      "world_units": "schematic_design_units_not_meters"
+    },
+    {
+      "id": "R08",
+      "name": "北山与湖畔",
+      "polygon": [
+        [
+          430,
+          1630
+        ],
+        [
+          550,
+          2000
+        ],
+        [
+          1180,
+          2130
+        ],
+        [
+          1980,
+          2090
+        ],
+        [
+          2450,
+          1980
+        ],
+        [
+          2350,
+          1850
+        ],
+        [
+          2050,
+          1890
+        ],
+        [
+          1810,
+          1850
+        ],
+        [
+          1570,
+          1750
+        ],
+        [
+          1280,
+          1770
+        ],
+        [
+          1090,
+          1910
+        ],
+        [
+          920,
+          1700
+        ]
+      ],
+      "type": "mountain",
+      "color": "#cbdac2",
+      "phase": "背景远景+未来入口",
+      "people": "林缘散步/湖岸访问；自然特色地图",
+      "identity": "北山峰线、山麓湖盆、溪口与疏林",
+      "boundary": "站点止于入口，最后一段步行；山路不是通学必经",
+      "world_units": "schematic_design_units_not_meters"
+    },
+    {
+      "id": "R09",
+      "name": "河岸、河口与海湾",
+      "polygon": [
+        [
+          540,
+          740
+        ],
+        [
+          1135,
+          680
+        ],
+        [
+          1450,
+          730
+        ],
+        [
+          1680,
+          680
+        ],
+        [
+          1850,
+          530
+        ],
+        [
+          2210,
+          590
+        ],
+        [
+          2640,
+          680
+        ],
+        [
+          2700,
+          0
+        ],
+        [
+          750,
+          0
+        ],
+        [
+          750,
+          250
+        ],
+        [
+          770,
+          510
+        ]
+      ],
+      "type": "coast",
+      "color": "#d4e7db",
+      "phase": "背景海湾+未来岸线",
+      "people": "家庭/学生/邻里；河岸与海边停留",
+      "identity": "旧桥基座位、湿地堤岸、背风沙滩与岩岸",
+      "boundary": "城市墙降为岸边矮墙；候车入口不占沙滩，湿地不作骑行捷径",
+      "world_units": "schematic_design_units_not_meters"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "B01",
+      "name": "玩家家（泉巷之家候选）",
+      "use": "家庭生活；门廊、邮箱与小院识别",
+      "phase": "P1",
+      "floors": 2,
+      "roof": "蓝灰坡顶",
+      "story": "老水道边的家用洗物台保留为盆栽台",
+      "old_region": "housing",
+      "new_region": "R02",
+      "coordinate_space": "R02_local_m",
+      "center": [
+        260,
+        250
+      ],
+      "size": [
+        18,
+        18
+      ],
+      "rotation_deg": 20,
+      "footprint": [
+        [
+          254.621,
+          238.465
+        ],
+        [
+          271.535,
+          244.621
+        ],
+        [
+          265.379,
+          261.535
+        ],
+        [
+          248.465,
+          255.379
+        ]
+      ],
+      "entry": [
+        268.457,
+        253.078
+      ],
+      "world_center": [
+        1036,
+        955
+      ],
+      "world_footprint": [
+        [
+          1030.083,
+          942.312
+        ],
+        [
+          1048.688,
+          949.083
+        ],
+        [
+          1041.917,
+          967.688
+        ],
+        [
+          1023.312,
+          960.917
+        ]
+      ],
+      "world_entry": [
+        1045.303,
+        958.386
+      ],
+      "epoch": "住宅扩展",
+      "formation_reason": "井台西北通学校巷旁，不等大私人小院",
+      "access": "private_home"
+    },
+    {
+      "id": "B02",
+      "name": "澄日便利店（候选）",
+      "use": "日常消费空间；侧后勤入口",
+      "phase": "P1",
+      "floors": 1,
+      "roof": "浅色平顶",
+      "story": "旧街更新中的一层新店",
+      "old_region": "shops",
+      "new_region": "R02",
+      "coordinate_space": "R02_local_m",
+      "center": [
+        342.82,
+        259.83
+      ],
+      "size": [
+        20,
+        24
+      ],
+      "rotation_deg": -6,
+      "footprint": [
+        [
+          331.62,
+          248.941
+        ],
+        [
+          351.511,
+          246.85
+        ],
+        [
+          354.02,
+          270.719
+        ],
+        [
+          334.129,
+          272.81
+        ]
+      ],
+      "entry": [
+        352.765,
+        258.785
+      ],
+      "world_center": [
+        1127.102,
+        965.813
+      ],
+      "world_footprint": [
+        [
+          1114.782,
+          953.835
+        ],
+        [
+          1136.662,
+          951.535
+        ],
+        [
+          1139.422,
+          977.791
+        ],
+        [
+          1117.542,
+          980.091
+        ]
+      ],
+      "world_entry": [
+        1138.042,
+        964.664
+      ],
+      "epoch": "当代更新",
+      "formation_reason": "小型便利店退让旧交易口，朝东巷开门",
+      "access": "public_front_future_depth"
+    },
+    {
+      "id": "B03",
+      "name": "泉页书店文具（候选）",
+      "use": "学生买书文具与街角停留",
+      "phase": "P1",
+      "floors": 2,
+      "roof": "青灰窄坡顶",
+      "story": "旧商号木框与新低陈列共存",
+      "old_region": "shops",
+      "new_region": "R02",
+      "coordinate_space": "R02_local_m",
+      "center": [
+        324.5601999059643,
+        203.20333741461315
+      ],
+      "size": [
+        18,
+        30
+      ],
+      "rotation_deg": 58.3925,
+      "footprint": [
+        [
+          332.618,
+          187.677
+        ],
+        [
+          342.052,
+          203.007
+        ],
+        [
+          316.502,
+          218.73
+        ],
+        [
+          307.068,
+          203.4
+        ]
+      ],
+      "entry": [
+        337.335,
+        195.342
+      ],
+      "world_center": [
+        1107.016,
+        903.524
+      ],
+      "world_footprint": [
+        [
+          1115.88,
+          886.445
+        ],
+        [
+          1126.257,
+          903.308
+        ],
+        [
+          1098.152,
+          920.603
+        ],
+        [
+          1087.775,
+          903.74
+        ]
+      ],
+      "world_entry": [
+        1121.069,
+        894.876
+      ],
+      "epoch": "染织/教育",
+      "formation_reason": "旧贸易路西侧窄面深进书文具店",
+      "access": "public_front_future_depth"
+    },
+    {
+      "id": "B04",
+      "name": "染庭咖啡（候选）",
+      "use": "通用帮工：街面顾客门、柜台、后场与员工后门",
+      "phase": "P1",
+      "floors": 2,
+      "roof": "旧瓦坡顶",
+      "story": "由染织整理工坊改用，侧墙旧水槽变花槽",
+      "old_region": "shops",
+      "new_region": "R02",
+      "coordinate_space": "R02_local_m",
+      "center": [
+        305.7085415687128,
+        174.47743480688868
+      ],
+      "size": [
+        20,
+        34
+      ],
+      "rotation_deg": 58.3925,
+      "footprint": [
+        [
+          314.946,
+          157.051
+        ],
+        [
+          325.428,
+          174.084
+        ],
+        [
+          296.471,
+          191.904
+        ],
+        [
+          285.989,
+          174.871
+        ]
+      ],
+      "entry": [
+        320.187,
+        165.568
+      ],
+      "world_center": [
+        1086.279,
+        871.925
+      ],
+      "world_footprint": [
+        [
+          1096.441,
+          852.756
+        ],
+        [
+          1107.971,
+          871.492
+        ],
+        [
+          1076.118,
+          891.094
+        ],
+        [
+          1064.588,
+          872.358
+        ]
+      ],
+      "world_entry": [
+        1102.206,
+        862.125
+      ],
+      "epoch": "染织/教育",
+      "formation_reason": "旧整理工坊改通用帮工咖啡；后院仍送货",
+      "access": "shop_front_staff_rear",
+      "staff_entry": [
+        291.23,
+        183.387
+      ]
+    },
+    {
+      "id": "B05",
+      "name": "旧染织工坊店（候选）",
+      "use": "地方手艺店外观预留",
+      "phase": "future",
+      "floors": 2,
+      "roof": "低锯齿屋顶",
+      "story": "锯齿屋面与染渠检修盖",
+      "old_region": "shops",
+      "new_region": "R02",
+      "coordinate_space": "R02_local_m",
+      "center": [
+        332.361,
+        118.82
+      ],
+      "size": [
+        30,
+        28
+      ],
+      "rotation_deg": 63.435,
+      "footprint": [
+        [
+          338.175,
+          99.143
+        ],
+        [
+          351.591,
+          125.975
+        ],
+        [
+          326.547,
+          138.497
+        ],
+        [
+          313.131,
+          111.665
+        ]
+      ],
+      "entry": [
+        319.839,
+        125.081
+      ],
+      "world_center": [
+        1115.597,
+        810.702
+      ],
+      "world_footprint": [
+        [
+          1121.993,
+          789.057
+        ],
+        [
+          1136.75,
+          818.572
+        ],
+        [
+          1109.202,
+          832.347
+        ],
+        [
+          1094.444,
+          802.832
+        ]
+      ],
+      "world_entry": [
+        1101.823,
+        817.589
+      ],
+      "epoch": "染织/教育",
+      "formation_reason": "贸易路东侧工坊，锯齿翼后场临旧渠检修路",
+      "access": "public_front_future_depth"
+    },
+    {
+      "id": "B06",
+      "name": "校前小食店（候选）",
+      "use": "学生常去的小店与集合侧凹口",
+      "phase": "P1",
+      "floors": 1,
+      "roof": "短坡顶",
+      "story": "小店尺度对比校园体量",
+      "old_region": "campus",
+      "new_region": "R02",
+      "coordinate_space": "R02_local_m",
+      "center": [
+        340,
+        335
+      ],
+      "size": [
+        32,
+        12
+      ],
+      "rotation_deg": 0,
+      "footprint": [
+        [
+          324,
+          329
+        ],
+        [
+          356,
+          329
+        ],
+        [
+          356,
+          341
+        ],
+        [
+          324,
+          341
+        ]
+      ],
+      "entry": [
+        340,
+        341
+      ],
+      "world_center": [
+        1124,
+        1048.5
+      ],
+      "world_footprint": [
+        [
+          1106.4,
+          1041.9
+        ],
+        [
+          1141.6,
+          1041.9
+        ],
+        [
+          1141.6,
+          1055.1
+        ],
+        [
+          1106.4,
+          1055.1
+        ]
+      ],
+      "world_entry": [
+        1124,
+        1055.1
+      ],
+      "epoch": "住宅扩展",
+      "formation_reason": "校前小食店有短檐、台地集合退界",
+      "access": "public_front_future_depth"
+    },
+    {
+      "id": "B07",
+      "name": "校前运动用品（候选）",
+      "use": "体育训练相关店面外观预留",
+      "phase": "future",
+      "floors": 1,
+      "roof": "窄坡顶",
+      "story": "",
+      "old_region": "campus",
+      "new_region": "R02",
+      "coordinate_space": "R02_local_m",
+      "center": [
+        416,
+        334
+      ],
+      "size": [
+        28,
+        14
+      ],
+      "rotation_deg": 0,
+      "footprint": [
+        [
+          402,
+          327
+        ],
+        [
+          430,
+          327
+        ],
+        [
+          430,
+          341
+        ],
+        [
+          402,
+          341
+        ]
+      ],
+      "entry": [
+        416,
+        341
+      ],
+      "world_center": [
+        1207.6,
+        1047.4
+      ],
+      "world_footprint": [
+        [
+          1192.2,
+          1039.7
+        ],
+        [
+          1223,
+          1039.7
+        ],
+        [
+          1223,
+          1055.1
+        ],
+        [
+          1192.2,
+          1055.1
+        ]
+      ],
+      "world_entry": [
+        1207.6,
+        1055.1
+      ],
+      "epoch": "当代更新",
+      "formation_reason": "校前体育店小铺留明确入口",
+      "access": "public_front_future_depth"
+    },
+    {
+      "id": "B09",
+      "name": "澄坂主站",
+      "use": "站前与候车交通识别，站内后续",
+      "phase": "background",
+      "floors": 2,
+      "roof": "横向浅坡大屋面",
+      "story": "旧货台石边做座凳",
+      "old_region": "station",
+      "new_region": "R05",
+      "coordinate_space": "world_schematic_du",
+      "center": [
+        2432,
+        1172
+      ],
+      "size": [
+        92,
+        32
+      ],
+      "rotation_deg": 0,
+      "footprint": [
+        [
+          2386,
+          1156
+        ],
+        [
+          2478,
+          1156
+        ],
+        [
+          2478,
+          1188
+        ],
+        [
+          2386,
+          1188
+        ]
+      ],
+      "entry": [
+        2432,
+        1156
+      ],
+      "world_center": [
+        2432,
+        1172
+      ],
+      "world_footprint": [
+        [
+          2386,
+          1156
+        ],
+        [
+          2478,
+          1156
+        ],
+        [
+          2478,
+          1188
+        ],
+        [
+          2386,
+          1188
+        ]
+      ],
+      "world_entry": [
+        2432,
+        1156
+      ],
+      "epoch": "外缘交通更新",
+      "formation_reason": "站移东缘，轨线从后场向东北离城",
+      "access": "public_front_future_depth"
+    },
+    {
+      "id": "B10",
+      "name": "公交候车棚",
+      "use": "公交空间接口，不设计班次",
+      "phase": "background",
+      "floors": 1,
+      "roof": "低透明分段棚",
+      "story": "",
+      "old_region": "station",
+      "new_region": "R05",
+      "coordinate_space": "world_schematic_du",
+      "center": [
+        2385,
+        1120
+      ],
+      "size": [
+        24,
+        8
+      ],
+      "rotation_deg": 0,
+      "footprint": [
+        [
+          2373,
+          1116
+        ],
+        [
+          2397,
+          1116
+        ],
+        [
+          2397,
+          1124
+        ],
+        [
+          2373,
+          1124
+        ]
+      ],
+      "entry": [
+        2385,
+        1116
+      ],
+      "world_center": [
+        2385,
+        1120
+      ],
+      "world_footprint": [
+        [
+          2373,
+          1116
+        ],
+        [
+          2397,
+          1116
+        ],
+        [
+          2397,
+          1124
+        ],
+        [
+          2373,
+          1124
+        ]
+      ],
+      "world_entry": [
+        2385,
+        1116
+      ],
+      "epoch": "外缘交通更新",
+      "formation_reason": "站前公交短棚与步行换乘前场",
+      "access": "public_front_future_depth"
+    },
+    {
+      "id": "B11",
+      "name": "站前交番",
+      "use": "公共安全外观与入口识别",
+      "phase": "future",
+      "floors": 1,
+      "roof": "浅平顶",
+      "story": "",
+      "old_region": "station",
+      "new_region": "R05",
+      "coordinate_space": "world_schematic_du",
+      "center": [
+        2320,
+        1075
+      ],
+      "size": [
+        18,
+        14
+      ],
+      "rotation_deg": 0,
+      "footprint": [
+        [
+          2311,
+          1068
+        ],
+        [
+          2329,
+          1068
+        ],
+        [
+          2329,
+          1082
+        ],
+        [
+          2311,
+          1082
+        ]
+      ],
+      "entry": [
+        2320,
+        1082
+      ],
+      "world_center": [
+        2320,
+        1075
+      ],
+      "world_footprint": [
+        [
+          2311,
+          1068
+        ],
+        [
+          2329,
+          1068
+        ],
+        [
+          2329,
+          1082
+        ],
+        [
+          2311,
+          1082
+        ]
+      ],
+      "world_entry": [
+        2320,
+        1082
+      ],
+      "epoch": "公共服务扩展",
+      "formation_reason": "交番面向站前公共街而非轨后场",
+      "access": "public_front_future_depth"
+    },
+    {
+      "id": "B12",
+      "name": "青帽塔（旧配水塔）",
+      "use": "共同城市地标，围栏与低植栽",
+      "phase": "background",
+      "floors": 5,
+      "roof": "青绿小圆帽",
+      "story": "旧供水设施保留，维护门不作日常穿行",
+      "old_region": "campus",
+      "new_region": "R06",
+      "coordinate_space": "world_schematic_du",
+      "center": [
+        870,
+        1400
+      ],
+      "size": [
+        26,
+        26
+      ],
+      "rotation_deg": 0,
+      "footprint": [
+        [
+          857,
+          1387
+        ],
+        [
+          883,
+          1387
+        ],
+        [
+          883,
+          1413
+        ],
+        [
+          857,
+          1413
+        ]
+      ],
+      "entry": [
+        870,
+        1387
+      ],
+      "world_center": [
+        870,
+        1400
+      ],
+      "world_footprint": [
+        [
+          857,
+          1387
+        ],
+        [
+          883,
+          1387
+        ],
+        [
+          883,
+          1413
+        ],
+        [
+          857,
+          1413
+        ]
+      ],
+      "world_entry": [
+        870,
+        1387
+      ],
+      "epoch": "公共配水年代",
+      "formation_reason": "青帽塔维护围栏，公共步道绕基座",
+      "access": "maintenance_gate_public_park_outside"
+    },
+    {
+      "id": "B20",
+      "name": "澄坂市民医院（候选）",
+      "use": "医院识别、前庭及侧后勤占地",
+      "phase": "future",
+      "floors": 6,
+      "roof": "平顶主翼/低砖配楼",
+      "story": "早期公共服务砖翼旁的新门厅",
+      "old_region": "west",
+      "new_region": "R03",
+      "coordinate_space": "world_schematic_du",
+      "center": [
+        460,
+        1000
+      ],
+      "size": [
+        86,
+        65
+      ],
+      "rotation_deg": 0,
+      "footprint": [
+        [
+          417,
+          967.5
+        ],
+        [
+          503,
+          967.5
+        ],
+        [
+          503,
+          1032.5
+        ],
+        [
+          417,
+          1032.5
+        ]
+      ],
+      "entry": [
+        503,
+        1000
+      ],
+      "world_center": [
+        460,
+        1000
+      ],
+      "world_footprint": [
+        [
+          417,
+          967.5
+        ],
+        [
+          503,
+          967.5
+        ],
+        [
+          503,
+          1032.5
+        ],
+        [
+          417,
+          1032.5
+        ]
+      ],
+      "world_entry": [
+        503,
+        1000
+      ],
+      "epoch": "公共服务扩展",
+      "formation_reason": "医院前庭朝东公共支路，后勤朝西",
+      "access": "public_front_future_depth"
+    },
+    {
+      "id": "B21",
+      "name": "独立公共图书馆（候选）",
+      "use": "后续晚间学习用途；与校内图书室分开",
+      "phase": "future",
+      "floors": 3,
+      "roof": "低斜金属顶",
+      "story": "旧公共阅览室砖段与现代安静窗带",
+      "old_region": "west",
+      "new_region": "R03",
+      "coordinate_space": "world_schematic_du",
+      "center": [
+        490,
+        840
+      ],
+      "size": [
+        64,
+        42
+      ],
+      "rotation_deg": -7,
+      "footprint": [
+        [
+          455.679,
+          823.056
+        ],
+        [
+          519.202,
+          815.257
+        ],
+        [
+          524.321,
+          856.944
+        ],
+        [
+          460.798,
+          864.743
+        ]
+      ],
+      "entry": [
+        521.761,
+        836.1
+      ],
+      "world_center": [
+        490,
+        840
+      ],
+      "world_footprint": [
+        [
+          455.679,
+          823.056
+        ],
+        [
+          519.202,
+          815.257
+        ],
+        [
+          524.321,
+          856.944
+        ],
+        [
+          460.798,
+          864.743
+        ]
+      ],
+      "world_entry": [
+        521.761,
+        836.1
+      ],
+      "epoch": "公共服务扩展",
+      "formation_reason": "独立公共图书馆候选，未来晚间用途",
+      "access": "public_front_future_depth"
+    },
+    {
+      "id": "B22",
+      "name": "社区中心（候选）",
+      "use": "社区活动与邻里联络空间",
+      "phase": "future",
+      "floors": 2,
+      "roof": "暖灰平顶",
+      "story": "保留修补公告墙",
+      "old_region": "west",
+      "new_region": "R03",
+      "coordinate_space": "world_schematic_du",
+      "center": [
+        345,
+        873
+      ],
+      "size": [
+        48,
+        28
+      ],
+      "rotation_deg": 5,
+      "footprint": [
+        [
+          322.312,
+          856.962
+        ],
+        [
+          370.129,
+          861.145
+        ],
+        [
+          367.688,
+          889.038
+        ],
+        [
+          319.871,
+          884.855
+        ]
+      ],
+      "entry": [
+        368.909,
+        875.092
+      ],
+      "world_center": [
+        345,
+        873
+      ],
+      "world_footprint": [
+        [
+          322.312,
+          856.962
+        ],
+        [
+          370.129,
+          861.145
+        ],
+        [
+          367.688,
+          889.038
+        ],
+        [
+          319.871,
+          884.855
+        ]
+      ],
+      "world_entry": [
+        368.909,
+        875.092
+      ],
+      "epoch": "公共服务扩展",
+      "formation_reason": "社区中心小庭连接成熟住宅边缘",
+      "access": "public_front_future_depth"
+    },
+    {
+      "id": "B30",
+      "name": "东区事务办公楼（候选）",
+      "use": "未来职业生活外观与入口广场",
+      "phase": "future",
+      "floors": 14,
+      "roof": "退台平顶",
+      "story": "砖库基座与现代陶板高层，非财富宫殿",
+      "old_region": "east",
+      "new_region": "R04",
+      "coordinate_space": "world_schematic_du",
+      "center": [
+        2090,
+        1220
+      ],
+      "size": [
+        55,
+        60
+      ],
+      "rotation_deg": 0,
+      "footprint": [
+        [
+          2062.5,
+          1190
+        ],
+        [
+          2117.5,
+          1190
+        ],
+        [
+          2117.5,
+          1250
+        ],
+        [
+          2062.5,
+          1250
+        ]
+      ],
+      "entry": [
+        2062.5,
+        1220
+      ],
+      "world_center": [
+        2090,
+        1220
+      ],
+      "world_footprint": [
+        [
+          2062.5,
+          1190
+        ],
+        [
+          2117.5,
+          1190
+        ],
+        [
+          2117.5,
+          1250
+        ],
+        [
+          2062.5,
+          1250
+        ]
+      ],
+      "world_entry": [
+        2062.5,
+        1220
+      ],
+      "epoch": "当代更新",
+      "formation_reason": "东部职业天际线，有不等裙房广场",
+      "access": "public_front_future_depth"
+    },
+    {
+      "id": "B31",
+      "name": "东文化馆（候选）",
+      "use": "现代文化节点、展廊外观预留",
+      "phase": "future",
+      "floors": 4,
+      "roof": "折面屋顶/旧砖翼",
+      "story": "运材库局部砖翼保留为入口侧墙",
+      "old_region": "east",
+      "new_region": "R04",
+      "coordinate_space": "world_schematic_du",
+      "center": [
+        1850,
+        802
+      ],
+      "size": [
+        75,
+        46
+      ],
+      "rotation_deg": 8,
+      "footprint": [
+        [
+          1816.066,
+          774.005
+        ],
+        [
+          1890.336,
+          784.443
+        ],
+        [
+          1883.934,
+          829.995
+        ],
+        [
+          1809.664,
+          819.557
+        ]
+      ],
+      "entry": [
+        1812.865,
+        796.781
+      ],
+      "world_center": [
+        1850,
+        802
+      ],
+      "world_footprint": [
+        [
+          1816.066,
+          774.005
+        ],
+        [
+          1890.336,
+          784.443
+        ],
+        [
+          1883.934,
+          829.995
+        ],
+        [
+          1809.664,
+          819.557
+        ]
+      ],
+      "world_entry": [
+        1812.865,
+        796.781
+      ],
+      "epoch": "库翼改造/当代更新",
+      "formation_reason": "旧库砖翼与文化新馆相接",
+      "access": "public_front_future_depth"
+    },
+    {
+      "id": "B32",
+      "name": "东街商业裙房（候选）",
+      "use": "新消费街段，具体店铺后续",
+      "phase": "future",
+      "floors": 3,
+      "roof": "退台平顶",
+      "story": "",
+      "old_region": "east",
+      "new_region": "R04",
+      "coordinate_space": "world_schematic_du",
+      "center": [
+        2050,
+        998
+      ],
+      "size": [
+        74,
+        32
+      ],
+      "rotation_deg": 0,
+      "footprint": [
+        [
+          2013,
+          982
+        ],
+        [
+          2087,
+          982
+        ],
+        [
+          2087,
+          1014
+        ],
+        [
+          2013,
+          1014
+        ]
+      ],
+      "entry": [
+        2013,
+        998
+      ],
+      "world_center": [
+        2050,
+        998
+      ],
+      "world_footprint": [
+        [
+          2013,
+          982
+        ],
+        [
+          2087,
+          982
+        ],
+        [
+          2087,
+          1014
+        ],
+        [
+          2013,
+          1014
+        ]
+      ],
+      "world_entry": [
+        2013,
+        998
+      ],
+      "epoch": "当代更新",
+      "formation_reason": "商业裙房前场接现代大道，保留后街",
+      "access": "public_front_future_depth"
+    },
+    {
+      "id": "B40",
+      "name": "泉源神社（候选）",
+      "use": "公共参道与林缘散步，私人社务边界",
+      "phase": "future",
+      "floors": 1,
+      "roof": "木构灰瓦弯坡",
+      "story": "泉水渠首石槽继续作为洁净水景，非大旅游点",
+      "old_region": "north",
+      "new_region": "R06",
+      "coordinate_space": "world_schematic_du",
+      "center": [
+        1088,
+        1730
+      ],
+      "size": [
+        50,
+        36
+      ],
+      "rotation_deg": -10,
+      "footprint": [
+        [
+          1060.254,
+          1716.615
+        ],
+        [
+          1109.495,
+          1707.932
+        ],
+        [
+          1115.746,
+          1743.385
+        ],
+        [
+          1066.505,
+          1752.068
+        ]
+      ],
+      "entry": [
+        1084.874,
+        1712.273
+      ],
+      "world_center": [
+        1088,
+        1730
+      ],
+      "world_footprint": [
+        [
+          1060.254,
+          1716.615
+        ],
+        [
+          1109.495,
+          1707.932
+        ],
+        [
+          1115.746,
+          1743.385
+        ],
+        [
+          1066.505,
+          1752.068
+        ]
+      ],
+      "world_entry": [
+        1084.874,
+        1712.273
+      ],
+      "epoch": "泉源聚落",
+      "formation_reason": "神社公共参道分支，私有社务院不穿行",
+      "access": "public_front_future_depth"
+    },
+    {
+      "id": "B41",
+      "name": "北坡庭院宅（候选）",
+      "use": "高端住宅代表，私人院落不开放",
+      "phase": "future",
+      "floors": 2,
+      "roof": "宽低坡瓦顶",
+      "story": "大退界、细石/木格栅、顺坡庭院",
+      "old_region": "north",
+      "new_region": "R07",
+      "coordinate_space": "world_schematic_du",
+      "center": [
+        1940,
+        1700
+      ],
+      "size": [
+        48,
+        28
+      ],
+      "rotation_deg": -10,
+      "footprint": [
+        [
+          1913.934,
+          1690.38
+        ],
+        [
+          1961.204,
+          1682.045
+        ],
+        [
+          1966.066,
+          1709.62
+        ],
+        [
+          1918.796,
+          1717.955
+        ]
+      ],
+      "entry": [
+        1937.569,
+        1686.213
+      ],
+      "world_center": [
+        1940,
+        1700
+      ],
+      "world_footprint": [
+        [
+          1913.934,
+          1690.38
+        ],
+        [
+          1961.204,
+          1682.045
+        ],
+        [
+          1966.066,
+          1709.62
+        ],
+        [
+          1918.796,
+          1717.955
+        ]
+      ],
+      "world_entry": [
+        1937.569,
+        1686.213
+      ],
+      "epoch": "庭院住宅扩展",
+      "formation_reason": "顺坡私院内，入口退到公共林缘路",
+      "access": "private_home"
+    },
+    {
+      "id": "C01",
+      "name": "主教学翼",
+      "use": "鞋柜、职员室、保健室、二层玩家教室",
+      "phase": "P1",
+      "floors": 3,
+      "roof": "米白平顶/青灰檐",
+      "story": "门厅边缘的历届班级照片凹廊",
+      "old_region": "campus",
+      "new_region": "R01",
+      "coordinate_space": "R01_local_m",
+      "center": [
+        175,
+        65
+      ],
+      "size": [
+        150,
+        28
+      ],
+      "rotation_deg": 0,
+      "footprint": [
+        [
+          100,
+          51
+        ],
+        [
+          250,
+          51
+        ],
+        [
+          250,
+          79
+        ],
+        [
+          100,
+          79
+        ]
+      ],
+      "entry": [
+        125,
+        51
+      ],
+      "world_center": [
+        1210,
+        1224
+      ],
+      "world_footprint": [
+        [
+          1090,
+          1201.6
+        ],
+        [
+          1330,
+          1201.6
+        ],
+        [
+          1330,
+          1246.4
+        ],
+        [
+          1090,
+          1246.4
+        ]
+      ],
+      "world_entry": [
+        1130,
+        1201.6
+      ],
+      "epoch": "教学扩建",
+      "formation_reason": "南台地整治翼，主门后高频廊与北后门/东门相接",
+      "access": "school_controlled",
+      "secondary_entries": [
+        {
+          "id": "C01_N",
+          "at": [
+            190,
+            79
+          ]
+        },
+        {
+          "id": "C01_E",
+          "at": [
+            250,
+            65
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "name": "历史旧校舍",
+      "use": "旧教室与文化活动预留",
+      "phase": "future",
+      "floors": 2,
+      "roof": "旧青灰瓦坡顶 / 旧钟楼附角",
+      "story": "修补木楼梯外窗与旧泉院铭牌",
+      "old_region": "campus",
+      "new_region": "R01",
+      "coordinate_space": "R01_local_m",
+      "center": [
+        73,
+        165
+      ],
+      "size": [
+        24,
+        70
+      ],
+      "rotation_deg": -8,
+      "footprint": [
+        [
+          56.246,
+          132.011
+        ],
+        [
+          80.012,
+          128.671
+        ],
+        [
+          89.754,
+          197.989
+        ],
+        [
+          65.988,
+          201.329
+        ]
+      ],
+      "entry": [
+        84.883,
+        163.33
+      ],
+      "world_center": [
+        1046.8,
+        1384
+      ],
+      "world_footprint": [
+        [
+          1019.994,
+          1331.218
+        ],
+        [
+          1058.019,
+          1325.874
+        ],
+        [
+          1073.606,
+          1436.782
+        ],
+        [
+          1035.581,
+          1442.126
+        ]
+      ],
+      "world_entry": [
+        1065.813,
+        1381.328
+      ],
+      "epoch": "旧校院",
+      "formation_reason": "旧轴与新教学轴不同，钟楼附角非新独立ID",
+      "access": "school_controlled"
+    },
+    {
+      "id": "C03",
+      "name": "图书学习翼",
+      "use": "校内图书室、学习桌；放学30/60分钟学习空间",
+      "phase": "P1",
+      "floors": 2,
+      "roof": "浅金属折坡顶",
+      "story": "向泉院的安静低窗座位，入口小展廊",
+      "old_region": "campus",
+      "new_region": "R01",
+      "coordinate_space": "R01_local_m",
+      "center": [
+        163,
+        154
+      ],
+      "size": [
+        66,
+        28
+      ],
+      "rotation_deg": 4,
+      "footprint": [
+        [
+          131.057,
+          137.732
+        ],
+        [
+          196.896,
+          142.336
+        ],
+        [
+          194.943,
+          170.268
+        ],
+        [
+          129.104,
+          165.664
+        ]
+      ],
+      "entry": [
+        163.977,
+        140.034
+      ],
+      "world_center": [
+        1190.8,
+        1366.4
+      ],
+      "world_footprint": [
+        [
+          1139.691,
+          1340.371
+        ],
+        [
+          1245.034,
+          1347.738
+        ],
+        [
+          1241.909,
+          1392.429
+        ],
+        [
+          1136.566,
+          1385.062
+        ]
+      ],
+      "world_entry": [
+        1192.363,
+        1344.054
+      ],
+      "epoch": "学习翼更新",
+      "formation_reason": "折坡学习翼与泉院相邻，直接接主教学后门",
+      "access": "school_controlled"
+    },
+    {
+      "id": "C04",
+      "name": "特别教学翼",
+      "use": "实验、艺术、技术共享空间",
+      "phase": "future",
+      "floors": 3,
+      "roof": "浅灰平顶/设备小盒",
+      "story": "可看见作品但不进入课堂的展示墙",
+      "old_region": "campus",
+      "new_region": "R01",
+      "coordinate_space": "R01_local_m",
+      "center": [
+        251,
+        155
+      ],
+      "size": [
+        66,
+        38
+      ],
+      "rotation_deg": 0,
+      "footprint": [
+        [
+          218,
+          136
+        ],
+        [
+          284,
+          136
+        ],
+        [
+          284,
+          174
+        ],
+        [
+          218,
+          174
+        ]
+      ],
+      "entry": [
+        218,
+        155
+      ],
+      "world_center": [
+        1331.6,
+        1368
+      ],
+      "world_footprint": [
+        [
+          1278.8,
+          1337.6
+        ],
+        [
+          1384.4,
+          1337.6
+        ],
+        [
+          1384.4,
+          1398.4
+        ],
+        [
+          1278.8,
+          1398.4
+        ]
+      ],
+      "world_entry": [
+        1278.8,
+        1368
+      ],
+      "epoch": "特教扩建",
+      "formation_reason": "实验/艺术分翼内共享，展示檐接公共庭",
+      "access": "school_controlled"
+    },
+    {
+      "id": "C05",
+      "name": "社团活动翼",
+      "use": "文化社团未来扩展，部分共用活动室",
+      "phase": "future",
+      "floors": 2,
+      "roof": "低坡顶",
+      "story": "体育放包与文化作品擦肩的走廊转角",
+      "old_region": "campus",
+      "new_region": "R01",
+      "coordinate_space": "R01_local_m",
+      "center": [
+        310,
+        195
+      ],
+      "size": [
+        60,
+        26
+      ],
+      "rotation_deg": -3,
+      "footprint": [
+        [
+          279.361,
+          183.588
+        ],
+        [
+          339.279,
+          180.448
+        ],
+        [
+          340.639,
+          206.412
+        ],
+        [
+          280.721,
+          209.552
+        ]
+      ],
+      "entry": [
+        309.32,
+        182.018
+      ],
+      "world_center": [
+        1426,
+        1432
+      ],
+      "world_footprint": [
+        [
+          1376.978,
+          1413.741
+        ],
+        [
+          1472.846,
+          1408.717
+        ],
+        [
+          1475.022,
+          1450.259
+        ],
+        [
+          1379.154,
+          1455.283
+        ]
+      ],
+      "world_entry": [
+        1424.912,
+        1411.229
+      ],
+      "epoch": "文化预留扩建",
+      "formation_reason": "东院文化翼及私密小院，不挤占训练场",
+      "access": "school_controlled"
+    },
+    {
+      "id": "C06",
+      "name": "讲堂与校史馆",
+      "use": "讲堂、校史共享一建筑",
+      "phase": "future",
+      "floors": 2,
+      "roof": "砖基座/灰瓦大坡顶",
+      "story": "讲堂铭牌和历届活动展墙；其保管旧校钟移至每日回廊BELL",
+      "old_region": "campus",
+      "new_region": "R01",
+      "coordinate_space": "R01_local_m",
+      "center": [
+        126,
+        244
+      ],
+      "size": [
+        68,
+        38
+      ],
+      "rotation_deg": -8,
+      "footprint": [
+        [
+          89.687,
+          229.917
+        ],
+        [
+          157.025,
+          220.453
+        ],
+        [
+          162.313,
+          258.083
+        ],
+        [
+          94.975,
+          267.547
+        ]
+      ],
+      "entry": [
+        123.356,
+        225.185
+      ],
+      "world_center": [
+        1131.6,
+        1510.4
+      ],
+      "world_footprint": [
+        [
+          1073.499,
+          1487.867
+        ],
+        [
+          1181.24,
+          1472.725
+        ],
+        [
+          1189.701,
+          1532.933
+        ],
+        [
+          1081.96,
+          1548.075
+        ]
+      ],
+      "world_entry": [
+        1127.37,
+        1480.296
+      ],
+      "epoch": "讲堂校史年代",
+      "formation_reason": "旧轴延续讲堂，保留活动展墙与校史院",
+      "access": "school_controlled"
+    },
+    {
+      "id": "C07",
+      "name": "食堂与生活服务",
+      "use": "食堂、学生生活服务和送货侧门",
+      "phase": "future",
+      "floors": 1,
+      "roof": "宽浅坡顶",
+      "story": "午休面向中庭的短檐与旧水槽花台",
+      "old_region": "campus",
+      "new_region": "R01",
+      "coordinate_space": "R01_local_m",
+      "center": [
+        159,
+        114
+      ],
+      "size": [
+        42,
+        22
+      ],
+      "rotation_deg": -4,
+      "footprint": [
+        [
+          137.284,
+          104.492
+        ],
+        [
+          179.182,
+          101.562
+        ],
+        [
+          180.716,
+          123.508
+        ],
+        [
+          138.818,
+          126.438
+        ]
+      ],
+      "entry": [
+        138.051,
+        115.465
+      ],
+      "world_center": [
+        1184.4,
+        1302.4
+      ],
+      "world_footprint": [
+        [
+          1149.654,
+          1287.187
+        ],
+        [
+          1216.691,
+          1282.499
+        ],
+        [
+          1219.146,
+          1317.613
+        ],
+        [
+          1152.109,
+          1322.301
+        ]
+      ],
+      "world_entry": [
+        1150.882,
+        1304.744
+      ],
+      "epoch": "生活服务扩建",
+      "formation_reason": "午休浅坡檐与送货侧门，避让高频学习径",
+      "access": "school_controlled"
+    },
+    {
+      "id": "C08",
+      "name": "体育馆与储物翼",
+      "use": "体育馆、器材储物、放包；操场另列空间",
+      "phase": "P1",
+      "floors": 2,
+      "roof": "青灰大跨弧顶",
+      "story": "训练前后的低墙长凳与旧比赛板",
+      "old_region": "campus",
+      "new_region": "R01",
+      "coordinate_space": "R01_local_m",
+      "center": [
+        303,
+        90
+      ],
+      "size": [
+        72,
+        50
+      ],
+      "rotation_deg": 0,
+      "footprint": [
+        [
+          267,
+          65
+        ],
+        [
+          339,
+          65
+        ],
+        [
+          339,
+          115
+        ],
+        [
+          267,
+          115
+        ]
+      ],
+      "entry": [
+        267,
+        90
+      ],
+      "world_center": [
+        1414.8,
+        1264
+      ],
+      "world_footprint": [
+        [
+          1357.2,
+          1224
+        ],
+        [
+          1472.4,
+          1224
+        ],
+        [
+          1472.4,
+          1304
+        ],
+        [
+          1357.2,
+          1304
+        ]
+      ],
+      "world_entry": [
+        1357.2,
+        1264
+      ],
+      "epoch": "体育扩建",
+      "formation_reason": "东体育馆大跨屋顶，绕楼公共径接训练场",
+      "access": "school_controlled"
+    }
+  ],
+  "roads": [
+    {
+      "id": "L02_bus",
+      "region": "R02",
+      "points": [
+        [
+          0,
+          340
+        ],
+        [
+          100,
+          340
+        ],
+        [
+          200,
+          370
+        ],
+        [
+          310,
+          370
+        ],
+        [
+          450,
+          370
+        ],
+        [
+          470,
+          300
+        ],
+        [
+          470,
+          210
+        ],
+        [
+          520,
+          210
+        ]
+      ],
+      "width": 14,
+      "units": "m",
+      "world_points": [
+        [
+          750,
+          1054
+        ],
+        [
+          860,
+          1054
+        ],
+        [
+          970,
+          1087
+        ],
+        [
+          1091,
+          1087
+        ],
+        [
+          1245,
+          1087
+        ],
+        [
+          1267,
+          1010
+        ],
+        [
+          1267,
+          911
+        ],
+        [
+          1322,
+          911
+        ]
+      ],
+      "world_width": 15.400000000000002,
+      "type": "public_bus_road",
+      "formation_reason": "绕旧小地块的生活外缘公共街"
+    },
+    {
+      "id": "L02_approach",
+      "region": "R02",
+      "points": [
+        [
+          309.094,
+          400
+        ],
+        [
+          310,
+          370
+        ]
+      ],
+      "width": 5,
+      "units": "m",
+      "world_points": [
+        [
+          1090.003,
+          1120
+        ],
+        [
+          1091,
+          1087
+        ]
+      ],
+      "world_width": 5.5,
+      "type": "school_access",
+      "formation_reason": "校牌屋顶前可读的通学支巷"
+    },
+    {
+      "id": "L02_commute",
+      "region": "R02",
+      "points": [
+        [
+          295,
+          260
+        ],
+        [
+          310,
+          300
+        ],
+        [
+          310,
+          370
+        ]
+      ],
+      "width": 5,
+      "units": "m",
+      "world_points": [
+        [
+          1074.5,
+          966
+        ],
+        [
+          1091,
+          1010
+        ],
+        [
+          1091,
+          1087
+        ]
+      ],
+      "world_width": 5.5,
+      "type": "public_footpath",
+      "formation_reason": "井台家巷直达校门，不经铁路"
+    },
+    {
+      "id": "L02_trade",
+      "region": "R02",
+      "points": [
+        [
+          285,
+          80
+        ],
+        [
+          310,
+          130
+        ],
+        [
+          320,
+          150
+        ],
+        [
+          327,
+          161.375
+        ],
+        [
+          345,
+          190.625
+        ],
+        [
+          360,
+          215
+        ],
+        [
+          364,
+          251
+        ],
+        [
+          365,
+          260
+        ],
+        [
+          385,
+          305
+        ],
+        [
+          430,
+          305
+        ],
+        [
+          470,
+          300
+        ]
+      ],
+      "width": 7,
+      "units": "m",
+      "world_points": [
+        [
+          1063.5,
+          768
+        ],
+        [
+          1091,
+          823
+        ],
+        [
+          1102,
+          845
+        ],
+        [
+          1109.7,
+          857.513
+        ],
+        [
+          1129.5,
+          889.688
+        ],
+        [
+          1146,
+          916.5
+        ],
+        [
+          1150.4,
+          956.1
+        ],
+        [
+          1151.5,
+          966
+        ],
+        [
+          1173.5,
+          1015.5
+        ],
+        [
+          1223,
+          1015.5
+        ],
+        [
+          1267,
+          1010
+        ]
+      ],
+      "world_width": 7.700000000000001,
+      "type": "old_public_street",
+      "formation_reason": "泉渠贸易路的斜地块及窄面深进"
+    },
+    {
+      "id": "L02_schoolshop",
+      "region": "R02",
+      "points": [
+        [
+          310,
+          370
+        ],
+        [
+          365,
+          370
+        ],
+        [
+          385,
+          305
+        ]
+      ],
+      "width": 6,
+      "units": "m",
+      "world_points": [
+        [
+          1091,
+          1087
+        ],
+        [
+          1151.5,
+          1087
+        ],
+        [
+          1173.5,
+          1015.5
+        ]
+      ],
+      "world_width": 6.6000000000000005,
+      "type": "public_footpath",
+      "formation_reason": "放学购物短环"
+    },
+    {
+      "id": "L02_well",
+      "region": "R02",
+      "points": [
+        [
+          100,
+          340
+        ],
+        [
+          170,
+          310
+        ],
+        [
+          230,
+          270
+        ],
+        [
+          225,
+          225
+        ],
+        [
+          250,
+          210
+        ],
+        [
+          285,
+          210
+        ],
+        [
+          310,
+          220
+        ],
+        [
+          345,
+          235
+        ],
+        [
+          360,
+          215
+        ]
+      ],
+      "width": 4.5,
+      "units": "m",
+      "world_points": [
+        [
+          860,
+          1054
+        ],
+        [
+          937,
+          1021
+        ],
+        [
+          1003,
+          977
+        ],
+        [
+          997.5,
+          927.5
+        ],
+        [
+          1025,
+          911
+        ],
+        [
+          1063.5,
+          911
+        ],
+        [
+          1091,
+          922
+        ],
+        [
+          1129.5,
+          938.5
+        ],
+        [
+          1146,
+          916.5
+        ]
+      ],
+      "world_width": 4.95,
+      "type": "public_lane",
+      "formation_reason": "共用井台取水旧路与私院后界"
+    },
+    {
+      "id": "L02_short",
+      "region": "R02",
+      "points": [
+        [
+          310,
+          220
+        ],
+        [
+          295,
+          260
+        ]
+      ],
+      "width": 4,
+      "units": "m",
+      "world_points": [
+        [
+          1091,
+          922
+        ],
+        [
+          1074.5,
+          966
+        ]
+      ],
+      "world_width": 4.4,
+      "type": "public_lane",
+      "formation_reason": "书店后的公共横巷接家，无40m回头"
+    },
+    {
+      "id": "L02_wellhome",
+      "region": "R02",
+      "points": [
+        [
+          285,
+          210
+        ],
+        [
+          270,
+          230
+        ],
+        [
+          295,
+          260
+        ]
+      ],
+      "width": 4,
+      "units": "m",
+      "world_points": [
+        [
+          1063.5,
+          911
+        ],
+        [
+          1047,
+          933
+        ],
+        [
+          1074.5,
+          966
+        ]
+      ],
+      "world_width": 4.4,
+      "type": "public_lane",
+      "formation_reason": "绕私人院墙的邻里凹口"
+    },
+    {
+      "id": "L02_shrinespur",
+      "region": "R02",
+      "points": [
+        [
+          100,
+          340
+        ],
+        [
+          90,
+          371.053
+        ]
+      ],
+      "width": 12,
+      "units": "m",
+      "world_points": [
+        [
+          860,
+          1054
+        ],
+        [
+          849,
+          1088.158
+        ]
+      ],
+      "world_width": 13.200000000000001,
+      "type": "public_road",
+      "formation_reason": "校外坡脚公共接路"
+    },
+    {
+      "id": "L02_coast",
+      "region": "R02",
+      "points": [
+        [
+          470,
+          210
+        ],
+        [
+          500,
+          110
+        ],
+        [
+          420,
+          40
+        ],
+        [
+          350,
+          0
+        ]
+      ],
+      "width": 10,
+      "units": "m",
+      "world_points": [
+        [
+          1267,
+          911
+        ],
+        [
+          1300,
+          801
+        ],
+        [
+          1212,
+          724
+        ],
+        [
+          1135,
+          680
+        ]
+      ],
+      "world_width": 11,
+      "type": "public_road",
+      "formation_reason": "街墙变低至河湾，不让公交进旧巷"
+    },
+    {
+      "id": "L02_oldpier",
+      "region": "R02",
+      "points": [
+        [
+          285,
+          80
+        ],
+        [
+          320,
+          65
+        ],
+        [
+          350,
+          0
+        ]
+      ],
+      "width": 5,
+      "units": "m",
+      "world_points": [
+        [
+          1063.5,
+          768
+        ],
+        [
+          1102,
+          751.5
+        ],
+        [
+          1135,
+          680
+        ]
+      ],
+      "world_width": 5.5,
+      "type": "public_footpath",
+      "formation_reason": "旧贸易口与泉渠踏步至旧桥头慢游"
+    },
+    {
+      "id": "L02_ne",
+      "region": "R02",
+      "points": [
+        [
+          470,
+          300
+        ],
+        [
+          500,
+          380
+        ],
+        [
+          520,
+          390
+        ]
+      ],
+      "width": 10,
+      "units": "m",
+      "world_points": [
+        [
+          1267,
+          1010
+        ],
+        [
+          1300,
+          1098
+        ],
+        [
+          1322,
+          1109
+        ]
+      ],
+      "world_width": 11,
+      "type": "public_road",
+      "formation_reason": "侧门后勤走校外台地"
+    },
+    {
+      "id": "L02_back",
+      "region": "R02",
+      "points": [
+        [
+          275,
+          190
+        ],
+        [
+          290,
+          240
+        ],
+        [
+          320,
+          285
+        ],
+        [
+          345,
+          325
+        ]
+      ],
+      "width": 3.5,
+      "units": "m",
+      "world_points": [
+        [
+          1052.5,
+          889
+        ],
+        [
+          1069,
+          944
+        ],
+        [
+          1102,
+          993.5
+        ],
+        [
+          1129.5,
+          1037.5
+        ]
+      ],
+      "world_width": 3.8500000000000005,
+      "type": "public_delivery_lane",
+      "formation_reason": "送货后巷在工坊私后院外"
+    },
+    {
+      "id": "E_B01",
+      "region": "R02",
+      "points": [
+        [
+          268.457,
+          253.078
+        ],
+        [
+          295,
+          260
+        ]
+      ],
+      "width": 2.8,
+      "units": "m",
+      "world_points": [
+        [
+          1045.303,
+          958.386
+        ],
+        [
+          1074.5,
+          966
+        ]
+      ],
+      "world_width": 3.08,
+      "type": "owned_entry",
+      "formation_reason": "只访问自家院门",
+      "owner": "B01"
+    },
+    {
+      "id": "E_B02",
+      "region": "R02",
+      "points": [
+        [
+          352.765,
+          258.785
+        ],
+        [
+          365,
+          260
+        ]
+      ],
+      "width": 2.6,
+      "units": "m",
+      "world_points": [
+        [
+          1138.042,
+          964.664
+        ],
+        [
+          1151.5,
+          966
+        ]
+      ],
+      "world_width": 2.8600000000000003,
+      "type": "owned_entry",
+      "formation_reason": "退界门径接公街",
+      "owner": "B02"
+    },
+    {
+      "id": "E_B03",
+      "region": "R02",
+      "points": [
+        [
+          337.335,
+          195.342
+        ],
+        [
+          345,
+          190.625
+        ]
+      ],
+      "width": 2.6,
+      "units": "m",
+      "world_points": [
+        [
+          1121.069,
+          894.876
+        ],
+        [
+          1129.5,
+          889.688
+        ]
+      ],
+      "world_width": 2.8600000000000003,
+      "type": "owned_entry",
+      "formation_reason": "退界门径接公街",
+      "owner": "B03"
+    },
+    {
+      "id": "E_B04",
+      "region": "R02",
+      "points": [
+        [
+          320.187,
+          165.568
+        ],
+        [
+          327,
+          161.375
+        ]
+      ],
+      "width": 2.6,
+      "units": "m",
+      "world_points": [
+        [
+          1102.206,
+          862.125
+        ],
+        [
+          1109.7,
+          857.513
+        ]
+      ],
+      "world_width": 2.8600000000000003,
+      "type": "owned_entry",
+      "formation_reason": "退界门径接公街",
+      "owner": "B04"
+    },
+    {
+      "id": "E_B05",
+      "region": "R02",
+      "points": [
+        [
+          319.839,
+          125.081
+        ],
+        [
+          310,
+          130
+        ]
+      ],
+      "width": 2.6,
+      "units": "m",
+      "world_points": [
+        [
+          1101.823,
+          817.589
+        ],
+        [
+          1091,
+          823
+        ]
+      ],
+      "world_width": 2.8600000000000003,
+      "type": "owned_entry",
+      "formation_reason": "退界门径接公街",
+      "owner": "B05"
+    },
+    {
+      "id": "E_B06",
+      "region": "R02",
+      "points": [
+        [
+          340,
+          341
+        ],
+        [
+          340,
+          370
+        ]
+      ],
+      "width": 2.6,
+      "units": "m",
+      "world_points": [
+        [
+          1124,
+          1055.1
+        ],
+        [
+          1124,
+          1087
+        ]
+      ],
+      "world_width": 2.8600000000000003,
+      "type": "owned_entry",
+      "formation_reason": "退界门径接公街",
+      "owner": "B06"
+    },
+    {
+      "id": "E_B07",
+      "region": "R02",
+      "points": [
+        [
+          416,
+          341
+        ],
+        [
+          416,
+          370
+        ]
+      ],
+      "width": 2.6,
+      "units": "m",
+      "world_points": [
+        [
+          1207.6,
+          1055.1
+        ],
+        [
+          1207.6,
+          1087
+        ]
+      ],
+      "world_width": 2.8600000000000003,
+      "type": "owned_entry",
+      "formation_reason": "退界门径接公街",
+      "owner": "B07"
+    },
+    {
+      "id": "E_B04_staff",
+      "region": "R02",
+      "points": [
+        [
+          291.23,
+          183.387
+        ],
+        [
+          275,
+          190
+        ]
+      ],
+      "width": 2.2,
+      "units": "m",
+      "world_points": [
+        [
+          1070.353,
+          881.726
+        ],
+        [
+          1052.5,
+          889
+        ]
+      ],
+      "world_width": 2.4200000000000004,
+      "type": "owned_entry",
+      "formation_reason": "员工后门接公共送货巷",
+      "owner": "B04"
+    },
+    {
+      "id": "LINK_P03",
+      "region": "world",
+      "points": [
+        [
+          1322,
+          911
+        ],
+        [
+          1450,
+          911
+        ],
+        [
+          1651,
+          911
+        ],
+        [
+          1780,
+          911
+        ]
+      ],
+      "width": 18,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          1322,
+          911
+        ],
+        [
+          1450,
+          911
+        ],
+        [
+          1651,
+          911
+        ],
+        [
+          1780,
+          911
+        ]
+      ],
+      "world_width": 18,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "LINK_P04",
+      "region": "world",
+      "points": [
+        [
+          2240,
+          1100
+        ],
+        [
+          2290,
+          1100
+        ]
+      ],
+      "width": 10,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          2240,
+          1100
+        ],
+        [
+          2290,
+          1100
+        ]
+      ],
+      "world_width": 10,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "LINK_P05",
+      "region": "world",
+      "points": [
+        [
+          849,
+          1088.158
+        ],
+        [
+          855,
+          1170
+        ],
+        [
+          855,
+          1260
+        ]
+      ],
+      "width": 10,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          849,
+          1088.158
+        ],
+        [
+          855,
+          1170
+        ],
+        [
+          855,
+          1260
+        ]
+      ],
+      "world_width": 10,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "LINK_P06",
+      "region": "world",
+      "points": [
+        [
+          1090,
+          1840
+        ],
+        [
+          1090,
+          1910
+        ]
+      ],
+      "width": 10,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          1090,
+          1840
+        ],
+        [
+          1090,
+          1910
+        ]
+      ],
+      "world_width": 10,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "LINK_P07",
+      "region": "world",
+      "points": [
+        [
+          2050,
+          1890
+        ],
+        [
+          1990,
+          1960
+        ]
+      ],
+      "width": 10,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          2050,
+          1890
+        ],
+        [
+          1990,
+          1960
+        ]
+      ],
+      "world_width": 10,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "LINK_P08",
+      "region": "world",
+      "points": [
+        [
+          1280,
+          1760
+        ],
+        [
+          1490,
+          1760
+        ],
+        [
+          1590,
+          1760
+        ]
+      ],
+      "width": 10,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          1280,
+          1760
+        ],
+        [
+          1490,
+          1760
+        ],
+        [
+          1590,
+          1760
+        ]
+      ],
+      "world_width": 10,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "LINK_P09",
+      "region": "world",
+      "points": [
+        [
+          1135,
+          680
+        ],
+        [
+          1135,
+          600
+        ]
+      ],
+      "width": 10,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          1135,
+          680
+        ],
+        [
+          1135,
+          600
+        ]
+      ],
+      "world_width": 10,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "LINK_P10",
+      "region": "world",
+      "points": [
+        [
+          1780,
+          730
+        ],
+        [
+          1680,
+          730
+        ],
+        [
+          1570,
+          730
+        ],
+        [
+          1450,
+          730
+        ]
+      ],
+      "width": 10,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          1780,
+          730
+        ],
+        [
+          1680,
+          730
+        ],
+        [
+          1570,
+          730
+        ],
+        [
+          1450,
+          730
+        ]
+      ],
+      "world_width": 10,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "LINK_P11",
+      "region": "world",
+      "points": [
+        [
+          720,
+          1230
+        ],
+        [
+          810,
+          1330
+        ]
+      ],
+      "width": 10,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          720,
+          1230
+        ],
+        [
+          810,
+          1330
+        ]
+      ],
+      "world_width": 10,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "LINK_P12",
+      "region": "world",
+      "points": [
+        [
+          540,
+          740
+        ],
+        [
+          640,
+          630
+        ],
+        [
+          770,
+          510
+        ]
+      ],
+      "width": 16,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          540,
+          740
+        ],
+        [
+          640,
+          630
+        ],
+        [
+          770,
+          510
+        ]
+      ],
+      "world_width": 16,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "LINK_P14",
+      "region": "world",
+      "points": [
+        [
+          1506,
+          1312
+        ],
+        [
+          1550,
+          1312
+        ],
+        [
+          1550,
+          1100
+        ],
+        [
+          1470,
+          1100
+        ],
+        [
+          1322,
+          1109
+        ]
+      ],
+      "width": 10,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          1506,
+          1312
+        ],
+        [
+          1550,
+          1312
+        ],
+        [
+          1550,
+          1100
+        ],
+        [
+          1470,
+          1100
+        ],
+        [
+          1322,
+          1109
+        ]
+      ],
+      "world_width": 10,
+      "type": "school_access",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "W03_main",
+      "region": "world",
+      "points": [
+        [
+          550,
+          1054
+        ],
+        [
+          620,
+          1054
+        ],
+        [
+          750,
+          1054
+        ]
+      ],
+      "width": 18,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          550,
+          1054
+        ],
+        [
+          620,
+          1054
+        ],
+        [
+          750,
+          1054
+        ]
+      ],
+      "world_width": 18,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "W03_north",
+      "region": "world",
+      "points": [
+        [
+          550,
+          1054
+        ],
+        [
+          560,
+          1130
+        ],
+        [
+          630,
+          1230
+        ],
+        [
+          720,
+          1230
+        ]
+      ],
+      "width": 14,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          550,
+          1054
+        ],
+        [
+          560,
+          1130
+        ],
+        [
+          630,
+          1230
+        ],
+        [
+          720,
+          1230
+        ]
+      ],
+      "world_width": 14,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "W03_south",
+      "region": "world",
+      "points": [
+        [
+          620,
+          1054
+        ],
+        [
+          620,
+          870
+        ],
+        [
+          540,
+          740
+        ]
+      ],
+      "width": 16,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          620,
+          1054
+        ],
+        [
+          620,
+          870
+        ],
+        [
+          540,
+          740
+        ]
+      ],
+      "world_width": 16,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "W03_housing",
+      "region": "world",
+      "points": [
+        [
+          300,
+          1150
+        ],
+        [
+          420,
+          1210
+        ],
+        [
+          630,
+          1230
+        ]
+      ],
+      "width": 9,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          300,
+          1150
+        ],
+        [
+          420,
+          1210
+        ],
+        [
+          630,
+          1230
+        ]
+      ],
+      "world_width": 9,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "W04_main",
+      "region": "world",
+      "points": [
+        [
+          1780,
+          911
+        ],
+        [
+          1890,
+          911
+        ],
+        [
+          1960,
+          1020
+        ],
+        [
+          2080,
+          1100
+        ],
+        [
+          2240,
+          1100
+        ]
+      ],
+      "width": 22,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          1780,
+          911
+        ],
+        [
+          1890,
+          911
+        ],
+        [
+          1960,
+          1020
+        ],
+        [
+          2080,
+          1100
+        ],
+        [
+          2240,
+          1100
+        ]
+      ],
+      "world_width": 22,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "W04_north",
+      "region": "world",
+      "points": [
+        [
+          2080,
+          1100
+        ],
+        [
+          2010,
+          1180
+        ],
+        [
+          2010,
+          1270
+        ],
+        [
+          1910,
+          1340
+        ]
+      ],
+      "width": 18,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          2080,
+          1100
+        ],
+        [
+          2010,
+          1180
+        ],
+        [
+          2010,
+          1270
+        ],
+        [
+          1910,
+          1340
+        ]
+      ],
+      "world_width": 18,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "W04_south",
+      "region": "world",
+      "points": [
+        [
+          1960,
+          1020
+        ],
+        [
+          1960,
+          800
+        ],
+        [
+          1910,
+          745
+        ],
+        [
+          1780,
+          730
+        ]
+      ],
+      "width": 18,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          1960,
+          1020
+        ],
+        [
+          1960,
+          800
+        ],
+        [
+          1910,
+          745
+        ],
+        [
+          1780,
+          730
+        ]
+      ],
+      "world_width": 18,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "W04_old",
+      "region": "world",
+      "points": [
+        [
+          1780,
+          730
+        ],
+        [
+          1725,
+          802
+        ],
+        [
+          1780,
+          911
+        ]
+      ],
+      "width": 6,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          1780,
+          730
+        ],
+        [
+          1725,
+          802
+        ],
+        [
+          1780,
+          911
+        ]
+      ],
+      "world_width": 6,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "W05_forecourt",
+      "region": "world",
+      "points": [
+        [
+          2290,
+          1100
+        ],
+        [
+          2400,
+          1100
+        ],
+        [
+          2432,
+          1156
+        ]
+      ],
+      "width": 16,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          2290,
+          1100
+        ],
+        [
+          2400,
+          1100
+        ],
+        [
+          2432,
+          1156
+        ]
+      ],
+      "world_width": 16,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "W06_slope",
+      "region": "world",
+      "points": [
+        [
+          855,
+          1260
+        ],
+        [
+          850,
+          1300
+        ],
+        [
+          800,
+          1380
+        ],
+        [
+          850,
+          1500
+        ],
+        [
+          890,
+          1660
+        ],
+        [
+          1040,
+          1680
+        ],
+        [
+          1020,
+          1790
+        ],
+        [
+          1090,
+          1840
+        ]
+      ],
+      "width": 12,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          855,
+          1260
+        ],
+        [
+          850,
+          1300
+        ],
+        [
+          800,
+          1380
+        ],
+        [
+          850,
+          1500
+        ],
+        [
+          890,
+          1660
+        ],
+        [
+          1040,
+          1680
+        ],
+        [
+          1020,
+          1790
+        ],
+        [
+          1090,
+          1840
+        ]
+      ],
+      "world_width": 12,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "W06_ridge",
+      "region": "world",
+      "points": [
+        [
+          1040,
+          1680
+        ],
+        [
+          1200,
+          1680
+        ],
+        [
+          1280,
+          1760
+        ]
+      ],
+      "width": 6,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          1040,
+          1680
+        ],
+        [
+          1200,
+          1680
+        ],
+        [
+          1280,
+          1760
+        ]
+      ],
+      "world_width": 6,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "W06_park",
+      "region": "world",
+      "points": [
+        [
+          800,
+          1380
+        ],
+        [
+          828,
+          1410
+        ],
+        [
+          828,
+          1450
+        ],
+        [
+          900,
+          1450
+        ],
+        [
+          925,
+          1420
+        ],
+        [
+          925,
+          1260
+        ],
+        [
+          855,
+          1260
+        ]
+      ],
+      "width": 4,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          800,
+          1380
+        ],
+        [
+          828,
+          1410
+        ],
+        [
+          828,
+          1450
+        ],
+        [
+          900,
+          1450
+        ],
+        [
+          925,
+          1420
+        ],
+        [
+          925,
+          1260
+        ],
+        [
+          855,
+          1260
+        ]
+      ],
+      "world_width": 4,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "W07_public",
+      "region": "world",
+      "points": [
+        [
+          1590,
+          1760
+        ],
+        [
+          1770,
+          1750
+        ],
+        [
+          1940,
+          1770
+        ],
+        [
+          2050,
+          1890
+        ]
+      ],
+      "width": 7,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          1590,
+          1760
+        ],
+        [
+          1770,
+          1750
+        ],
+        [
+          1940,
+          1770
+        ],
+        [
+          2050,
+          1890
+        ]
+      ],
+      "world_width": 7,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "W08_lake",
+      "region": "world",
+      "points": [
+        [
+          1090,
+          1910
+        ],
+        [
+          1390,
+          1910
+        ],
+        [
+          1570,
+          1920
+        ],
+        [
+          1600,
+          1960
+        ],
+        [
+          1640,
+          2000
+        ]
+      ],
+      "width": 5,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          1090,
+          1910
+        ],
+        [
+          1390,
+          1910
+        ],
+        [
+          1570,
+          1920
+        ],
+        [
+          1600,
+          1960
+        ],
+        [
+          1640,
+          2000
+        ]
+      ],
+      "world_width": 5,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "W08_eastlake",
+      "region": "world",
+      "points": [
+        [
+          1990,
+          1960
+        ],
+        [
+          1970,
+          2020
+        ],
+        [
+          1840,
+          2050
+        ],
+        [
+          1640,
+          2000
+        ]
+      ],
+      "width": 4,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          1990,
+          1960
+        ],
+        [
+          1970,
+          2020
+        ],
+        [
+          1840,
+          2050
+        ],
+        [
+          1640,
+          2000
+        ]
+      ],
+      "world_width": 4,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "W08_future",
+      "region": "world",
+      "points": [
+        [
+          1390,
+          1910
+        ],
+        [
+          1430,
+          2020
+        ],
+        [
+          1370,
+          2110
+        ]
+      ],
+      "width": 4,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          1390,
+          1910
+        ],
+        [
+          1430,
+          2020
+        ],
+        [
+          1370,
+          2110
+        ]
+      ],
+      "world_width": 4,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "W09_beach",
+      "region": "world",
+      "points": [
+        [
+          770,
+          510
+        ],
+        [
+          930,
+          480
+        ],
+        [
+          1135,
+          600
+        ],
+        [
+          1200,
+          520
+        ],
+        [
+          1320,
+          500
+        ],
+        [
+          1450,
+          730
+        ]
+      ],
+      "width": 5,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          770,
+          510
+        ],
+        [
+          930,
+          480
+        ],
+        [
+          1135,
+          600
+        ],
+        [
+          1200,
+          520
+        ],
+        [
+          1320,
+          500
+        ],
+        [
+          1450,
+          730
+        ]
+      ],
+      "world_width": 5,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "W09_coast",
+      "region": "world",
+      "points": [
+        [
+          930,
+          480
+        ],
+        [
+          980,
+          380
+        ],
+        [
+          1100,
+          350
+        ],
+        [
+          1260,
+          270
+        ],
+        [
+          1390,
+          245
+        ]
+      ],
+      "width": 5,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          930,
+          480
+        ],
+        [
+          980,
+          380
+        ],
+        [
+          1100,
+          350
+        ],
+        [
+          1260,
+          270
+        ],
+        [
+          1390,
+          245
+        ]
+      ],
+      "world_width": 5,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "W09_future",
+      "region": "world",
+      "points": [
+        [
+          980,
+          380
+        ],
+        [
+          850,
+          320
+        ],
+        [
+          770,
+          220
+        ]
+      ],
+      "width": 6,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          980,
+          380
+        ],
+        [
+          850,
+          320
+        ],
+        [
+          770,
+          220
+        ]
+      ],
+      "world_width": 6,
+      "type": "public_connection",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "E_B09",
+      "region": "world",
+      "points": [
+        [
+          2432,
+          1156
+        ],
+        [
+          2432,
+          1156
+        ]
+      ],
+      "width": 2.8,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          2432,
+          1156
+        ],
+        [
+          2432,
+          1156
+        ]
+      ],
+      "world_width": 2.8,
+      "type": "owned_entry",
+      "owner": "B09",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "E_B10",
+      "region": "world",
+      "points": [
+        [
+          2385,
+          1116
+        ],
+        [
+          2385,
+          1100
+        ]
+      ],
+      "width": 2.8,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          2385,
+          1116
+        ],
+        [
+          2385,
+          1100
+        ]
+      ],
+      "world_width": 2.8,
+      "type": "owned_entry",
+      "owner": "B10",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "E_B11",
+      "region": "world",
+      "points": [
+        [
+          2320,
+          1082
+        ],
+        [
+          2320,
+          1100
+        ]
+      ],
+      "width": 2.8,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          2320,
+          1082
+        ],
+        [
+          2320,
+          1100
+        ]
+      ],
+      "world_width": 2.8,
+      "type": "owned_entry",
+      "owner": "B11",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "E_B12",
+      "region": "world",
+      "points": [
+        [
+          870,
+          1387
+        ],
+        [
+          870,
+          1370
+        ],
+        [
+          828,
+          1410
+        ]
+      ],
+      "width": 2.8,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          870,
+          1387
+        ],
+        [
+          870,
+          1370
+        ],
+        [
+          828,
+          1410
+        ]
+      ],
+      "world_width": 2.8,
+      "type": "owned_entry",
+      "owner": "B12",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "E_B20",
+      "region": "world",
+      "points": [
+        [
+          503,
+          1000
+        ],
+        [
+          525,
+          1000
+        ],
+        [
+          550,
+          1054
+        ]
+      ],
+      "width": 2.8,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          503,
+          1000
+        ],
+        [
+          525,
+          1000
+        ],
+        [
+          550,
+          1054
+        ]
+      ],
+      "world_width": 2.8,
+      "type": "owned_entry",
+      "owner": "B20",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "E_B21",
+      "region": "world",
+      "points": [
+        [
+          521.761,
+          836.1
+        ],
+        [
+          565,
+          860
+        ],
+        [
+          620,
+          870
+        ]
+      ],
+      "width": 2.8,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          521.761,
+          836.1
+        ],
+        [
+          565,
+          860
+        ],
+        [
+          620,
+          870
+        ]
+      ],
+      "world_width": 2.8,
+      "type": "owned_entry",
+      "owner": "B21",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "E_B22",
+      "region": "world",
+      "points": [
+        [
+          368.909,
+          875.092
+        ],
+        [
+          440,
+          870
+        ],
+        [
+          620,
+          870
+        ]
+      ],
+      "width": 2.8,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          368.909,
+          875.092
+        ],
+        [
+          440,
+          870
+        ],
+        [
+          620,
+          870
+        ]
+      ],
+      "world_width": 2.8,
+      "type": "owned_entry",
+      "owner": "B22",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "E_B30",
+      "region": "world",
+      "points": [
+        [
+          2062.5,
+          1220
+        ],
+        [
+          2010,
+          1220
+        ]
+      ],
+      "width": 2.8,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          2062.5,
+          1220
+        ],
+        [
+          2010,
+          1220
+        ]
+      ],
+      "world_width": 2.8,
+      "type": "owned_entry",
+      "owner": "B30",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "E_B31",
+      "region": "world",
+      "points": [
+        [
+          1812.865,
+          796.781
+        ],
+        [
+          1725,
+          802
+        ]
+      ],
+      "width": 2.8,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          1812.865,
+          796.781
+        ],
+        [
+          1725,
+          802
+        ]
+      ],
+      "world_width": 2.8,
+      "type": "owned_entry",
+      "owner": "B31",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "E_B32",
+      "region": "world",
+      "points": [
+        [
+          2013,
+          998
+        ],
+        [
+          1960,
+          998
+        ]
+      ],
+      "width": 2.8,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          2013,
+          998
+        ],
+        [
+          1960,
+          998
+        ]
+      ],
+      "world_width": 2.8,
+      "type": "owned_entry",
+      "owner": "B32",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "E_B40",
+      "region": "world",
+      "points": [
+        [
+          1084.874,
+          1712.273
+        ],
+        [
+          1085,
+          1680
+        ]
+      ],
+      "width": 2.8,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          1084.874,
+          1712.273
+        ],
+        [
+          1085,
+          1680
+        ]
+      ],
+      "world_width": 2.8,
+      "type": "owned_entry",
+      "owner": "B40",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "E_B41",
+      "region": "world",
+      "points": [
+        [
+          1937.569,
+          1686.213
+        ],
+        [
+          1895,
+          1675
+        ],
+        [
+          1895,
+          1764.706
+        ]
+      ],
+      "width": 2.8,
+      "units": "schematic_du",
+      "world_points": [
+        [
+          1937.569,
+          1686.213
+        ],
+        [
+          1895,
+          1675
+        ],
+        [
+          1895,
+          1764.706
+        ]
+      ],
+      "world_width": 2.8,
+      "type": "owned_entry",
+      "owner": "B41",
+      "formation_reason": "按区域入口及地形连接，不穿校园/私院"
+    },
+    {
+      "id": "L02_canalwalk",
+      "region": "R02",
+      "points": [
+        [
+          285,
+          80
+        ],
+        [
+          255,
+          140
+        ],
+        [
+          240,
+          200
+        ],
+        [
+          275,
+          200
+        ],
+        [
+          285,
+          210
+        ]
+      ],
+      "width": 3.5,
+      "units": "m",
+      "world_points": [
+        [
+          1063.5,
+          768
+        ],
+        [
+          1030.5,
+          834
+        ],
+        [
+          1014,
+          900
+        ],
+        [
+          1052.5,
+          900
+        ],
+        [
+          1063.5,
+          911
+        ]
+      ],
+      "world_width": 3.85,
+      "type": "public_footpath",
+      "formation_reason": "泉渠旁平行慢径，井台用踏步小桥，不占渠中心"
+    }
+  ],
+  "campus_paths": [
+    {
+      "id": "C_gate",
+      "region": "R01",
+      "points": [
+        [
+          100,
+          0
+        ],
+        [
+          100,
+          25
+        ],
+        [
+          125,
+          40
+        ],
+        [
+          125,
+          51
+        ]
+      ],
+      "width": 5,
+      "type": "outdoor",
+      "world_points": [
+        [
+          1090,
+          1120
+        ],
+        [
+          1090,
+          1160
+        ],
+        [
+          1130,
+          1184
+        ],
+        [
+          1130,
+          1201.6
+        ]
+      ],
+      "world_width": 8
+    },
+    {
+      "id": "C_hall",
+      "region": "R01",
+      "points": [
+        [
+          125,
+          51
+        ],
+        [
+          125,
+          65
+        ],
+        [
+          250,
+          65
+        ]
+      ],
+      "width": 3,
+      "type": "indoor",
+      "owner": "C01",
+      "world_points": [
+        [
+          1130,
+          1201.6
+        ],
+        [
+          1130,
+          1224
+        ],
+        [
+          1330,
+          1224
+        ]
+      ],
+      "world_width": 4.800000000000001
+    },
+    {
+      "id": "C_class",
+      "region": "R01",
+      "points": [
+        [
+          125,
+          65
+        ],
+        [
+          145,
+          65
+        ]
+      ],
+      "width": 3,
+      "type": "indoor",
+      "owner": "C01",
+      "world_points": [
+        [
+          1130,
+          1224
+        ],
+        [
+          1162,
+          1224
+        ]
+      ],
+      "world_width": 4.800000000000001
+    },
+    {
+      "id": "C_back",
+      "region": "R01",
+      "points": [
+        [
+          190,
+          65
+        ],
+        [
+          190,
+          79
+        ]
+      ],
+      "width": 3,
+      "type": "indoor",
+      "owner": "C01",
+      "world_points": [
+        [
+          1234,
+          1224
+        ],
+        [
+          1234,
+          1246.4
+        ]
+      ],
+      "world_width": 4.800000000000001
+    },
+    {
+      "id": "C_library",
+      "region": "R01",
+      "points": [
+        [
+          190,
+          79
+        ],
+        [
+          193,
+          120
+        ],
+        [
+          194,
+          133
+        ],
+        [
+          164,
+          135
+        ],
+        [
+          163.977,
+          140.034
+        ]
+      ],
+      "width": 4,
+      "type": "outdoor",
+      "world_points": [
+        [
+          1234,
+          1246.4
+        ],
+        [
+          1238.8,
+          1312
+        ],
+        [
+          1240.4,
+          1332.8
+        ],
+        [
+          1192.4,
+          1336
+        ],
+        [
+          1192.363,
+          1344.054
+        ]
+      ],
+      "world_width": 6.4
+    },
+    {
+      "id": "C_court",
+      "region": "R01",
+      "points": [
+        [
+          190,
+          79
+        ],
+        [
+          190,
+          88
+        ],
+        [
+          125,
+          88
+        ],
+        [
+          113,
+          110
+        ],
+        [
+          113,
+          155
+        ],
+        [
+          113,
+          182
+        ]
+      ],
+      "width": 3.5,
+      "type": "outdoor",
+      "world_points": [
+        [
+          1234,
+          1246.4
+        ],
+        [
+          1234,
+          1260.8
+        ],
+        [
+          1130,
+          1260.8
+        ],
+        [
+          1110.8,
+          1296
+        ],
+        [
+          1110.8,
+          1368
+        ],
+        [
+          1110.8,
+          1411.2
+        ]
+      ],
+      "world_width": 5.6000000000000005
+    },
+    {
+      "id": "C_old",
+      "region": "R01",
+      "points": [
+        [
+          113,
+          155
+        ],
+        [
+          94,
+          155
+        ],
+        [
+          84.883,
+          163.33
+        ]
+      ],
+      "width": 3,
+      "type": "outdoor",
+      "world_points": [
+        [
+          1110.8,
+          1368
+        ],
+        [
+          1080.4,
+          1368
+        ],
+        [
+          1065.813,
+          1381.328
+        ]
+      ],
+      "world_width": 4.800000000000001
+    },
+    {
+      "id": "C_library_court",
+      "region": "R01",
+      "points": [
+        [
+          113,
+          155
+        ],
+        [
+          126,
+          132
+        ],
+        [
+          164,
+          135
+        ]
+      ],
+      "width": 3,
+      "type": "outdoor",
+      "world_points": [
+        [
+          1110.8,
+          1368
+        ],
+        [
+          1131.6,
+          1331.2
+        ],
+        [
+          1192.4,
+          1336
+        ]
+      ],
+      "world_width": 4.800000000000001
+    },
+    {
+      "id": "C_lunch",
+      "region": "R01",
+      "points": [
+        [
+          113,
+          110
+        ],
+        [
+          132,
+          121
+        ],
+        [
+          138.051,
+          115.465
+        ]
+      ],
+      "width": 3,
+      "type": "outdoor",
+      "world_points": [
+        [
+          1110.8,
+          1296
+        ],
+        [
+          1141.2,
+          1313.6
+        ],
+        [
+          1150.882,
+          1304.744
+        ]
+      ],
+      "world_width": 4.800000000000001
+    },
+    {
+      "id": "C_hallcourt",
+      "region": "R01",
+      "points": [
+        [
+          113,
+          182
+        ],
+        [
+          112,
+          210
+        ],
+        [
+          126,
+          211
+        ],
+        [
+          123.356,
+          225.185
+        ]
+      ],
+      "width": 3,
+      "type": "outdoor",
+      "world_points": [
+        [
+          1110.8,
+          1411.2
+        ],
+        [
+          1109.2,
+          1456
+        ],
+        [
+          1131.6,
+          1457.6
+        ],
+        [
+          1127.37,
+          1480.296
+        ]
+      ],
+      "world_width": 4.800000000000001
+    },
+    {
+      "id": "C_special",
+      "region": "R01",
+      "points": [
+        [
+          194,
+          133
+        ],
+        [
+          210,
+          133
+        ],
+        [
+          210,
+          155
+        ],
+        [
+          218,
+          155
+        ]
+      ],
+      "width": 3,
+      "type": "outdoor",
+      "world_points": [
+        [
+          1240.4,
+          1332.8
+        ],
+        [
+          1266,
+          1332.8
+        ],
+        [
+          1266,
+          1368
+        ],
+        [
+          1278.8,
+          1368
+        ]
+      ],
+      "world_width": 4.800000000000001
+    },
+    {
+      "id": "C_sport",
+      "region": "R01",
+      "points": [
+        [
+          250,
+          65
+        ],
+        [
+          263,
+          65
+        ],
+        [
+          267,
+          90
+        ]
+      ],
+      "width": 4,
+      "type": "outdoor",
+      "world_points": [
+        [
+          1330,
+          1224
+        ],
+        [
+          1350.8,
+          1224
+        ],
+        [
+          1357.2,
+          1264
+        ]
+      ],
+      "world_width": 6.4
+    },
+    {
+      "id": "C_club",
+      "region": "R01",
+      "points": [
+        [
+          267,
+          90
+        ],
+        [
+          263,
+          120
+        ],
+        [
+          292,
+          120
+        ],
+        [
+          302,
+          172
+        ],
+        [
+          309.32,
+          182.018
+        ]
+      ],
+      "width": 3,
+      "type": "outdoor",
+      "world_points": [
+        [
+          1357.2,
+          1264
+        ],
+        [
+          1350.8,
+          1312
+        ],
+        [
+          1397.2,
+          1312
+        ],
+        [
+          1413.2,
+          1395.2
+        ],
+        [
+          1424.912,
+          1411.229
+        ]
+      ],
+      "world_width": 4.800000000000001
+    },
+    {
+      "id": "C_field",
+      "region": "R01",
+      "points": [
+        [
+          302,
+          172
+        ],
+        [
+          345,
+          172
+        ],
+        [
+          345,
+          225
+        ]
+      ],
+      "width": 3,
+      "type": "outdoor",
+      "world_points": [
+        [
+          1413.2,
+          1395.2
+        ],
+        [
+          1482,
+          1395.2
+        ],
+        [
+          1482,
+          1480
+        ]
+      ],
+      "world_width": 4.800000000000001
+    },
+    {
+      "id": "C_crossyard",
+      "region": "R01",
+      "points": [
+        [
+          210,
+          134
+        ],
+        [
+          206,
+          210
+        ],
+        [
+          208,
+          225
+        ]
+      ],
+      "width": 3,
+      "type": "outdoor",
+      "world_points": [
+        [
+          1266,
+          1334.4
+        ],
+        [
+          1259.6,
+          1456
+        ],
+        [
+          1262.8,
+          1480
+        ]
+      ],
+      "world_width": 4.800000000000001
+    },
+    {
+      "id": "C_sidegate",
+      "region": "R01",
+      "points": [
+        [
+          292,
+          120
+        ],
+        [
+          345,
+          120
+        ],
+        [
+          360,
+          120
+        ]
+      ],
+      "width": 4,
+      "type": "outdoor",
+      "world_points": [
+        [
+          1397.2,
+          1312
+        ],
+        [
+          1482,
+          1312
+        ],
+        [
+          1506,
+          1312
+        ]
+      ],
+      "world_width": 6.4
+    }
+  ],
+  "connections": [
+    {
+      "id": "P01",
+      "endpoints": [
+        {
+          "id": "E02_N",
+          "region": "R02",
+          "position": [
+            309.094,
+            400
+          ],
+          "coordinate_space": "R02_local_m",
+          "world": [
+            1090.003,
+            1120
+          ],
+          "outbound_direction": "N",
+          "arrival_facing": "S",
+          "boundary_side": "N"
+        },
+        {
+          "id": "E01_S",
+          "region": "R01",
+          "position": [
+            100,
+            0
+          ],
+          "coordinate_space": "R01_local_m",
+          "world": [
+            1090,
+            1120
+          ],
+          "outbound_direction": "S",
+          "arrival_facing": "N",
+          "boundary_side": "S"
+        }
+      ],
+      "world_path": [
+        [
+          1090.003,
+          1120
+        ],
+        [
+          1090,
+          1120
+        ]
+      ],
+      "modes": [
+        "walk",
+        "cycle_to_gate_then_push"
+      ],
+      "condition": "校门管理界；自行车接近校门后校内推行空间候选",
+      "transition": "支巷展开为校墙/前庭，提前見校牌钟楼",
+      "status": "space_planned_system_future",
+      "units": "schematic_du_not_travel_m"
+    },
+    {
+      "id": "P02",
+      "endpoints": [
+        {
+          "id": "E02_W",
+          "region": "R02",
+          "position": [
+            0,
+            340
+          ],
+          "coordinate_space": "R02_local_m",
+          "world": [
+            750,
+            1054
+          ],
+          "outbound_direction": "W",
+          "arrival_facing": "E",
+          "boundary_side": "W"
+        },
+        {
+          "id": "E03_E",
+          "region": "R03",
+          "position": [
+            750,
+            1054
+          ],
+          "coordinate_space": "world_schematic_du",
+          "world": [
+            750,
+            1054
+          ],
+          "outbound_direction": "E",
+          "arrival_facing": "W",
+          "boundary_side": "E"
+        }
+      ],
+      "world_path": [
+        [
+          750,
+          1054
+        ],
+        [
+          750,
+          1054
+        ]
+      ],
+      "modes": [
+        "walk",
+        "cycle",
+        "bus"
+      ],
+      "condition": "公共街",
+      "transition": "旧住宅/砖配楼过渡到成熟公寓",
+      "status": "space_planned_system_future",
+      "units": "schematic_du_not_travel_m"
+    },
+    {
+      "id": "P03",
+      "endpoints": [
+        {
+          "id": "E02_E",
+          "region": "R02",
+          "position": [
+            520,
+            210
+          ],
+          "coordinate_space": "R02_local_m",
+          "world": [
+            1322,
+            911
+          ],
+          "outbound_direction": "E",
+          "arrival_facing": "W",
+          "boundary_side": "E"
+        },
+        {
+          "id": "E04_W",
+          "region": "R04",
+          "position": [
+            1780,
+            911
+          ],
+          "coordinate_space": "world_schematic_du",
+          "world": [
+            1780,
+            911
+          ],
+          "outbound_direction": "W",
+          "arrival_facing": "E",
+          "boundary_side": "W"
+        }
+      ],
+      "world_path": [
+        [
+          1322,
+          911
+        ],
+        [
+          1450,
+          911
+        ],
+        [
+          1651,
+          911
+        ],
+        [
+          1780,
+          911
+        ]
+      ],
+      "modes": [
+        "walk",
+        "cycle",
+        "bus"
+      ],
+      "condition": "现代公共桥，坡度净空未验证",
+      "transition": "旧门面→翻新店面→桥头→商业裙房",
+      "status": "space_planned_system_future",
+      "units": "schematic_du_not_travel_m"
+    },
+    {
+      "id": "P04",
+      "endpoints": [
+        {
+          "id": "E04_E",
+          "region": "R04",
+          "position": [
+            2240,
+            1100
+          ],
+          "coordinate_space": "world_schematic_du",
+          "world": [
+            2240,
+            1100
+          ],
+          "outbound_direction": "E",
+          "arrival_facing": "W",
+          "boundary_side": "E"
+        },
+        {
+          "id": "E05_W",
+          "region": "R05",
+          "position": [
+            2290,
+            1100
+          ],
+          "coordinate_space": "world_schematic_du",
+          "world": [
+            2290,
+            1100
+          ],
+          "outbound_direction": "W",
+          "arrival_facing": "E",
+          "boundary_side": "W"
+        }
+      ],
+      "world_path": [
+        [
+          2240,
+          1100
+        ],
+        [
+          2290,
+          1100
+        ]
+      ],
+      "modes": [
+        "walk",
+        "cycle",
+        "bus"
+      ],
+      "condition": "公共换乘街；轨道乘车为未来选目的地",
+      "transition": "文化退界至候车前场",
+      "status": "space_planned_system_future",
+      "units": "schematic_du_not_travel_m"
+    },
+    {
+      "id": "P05",
+      "endpoints": [
+        {
+          "id": "E02_NW",
+          "region": "R02",
+          "position": [
+            90,
+            371.053
+          ],
+          "coordinate_space": "R02_local_m",
+          "world": [
+            849,
+            1088.158
+          ],
+          "outbound_direction": "N",
+          "arrival_facing": "S",
+          "boundary_side": "NW"
+        },
+        {
+          "id": "E06_S",
+          "region": "R06",
+          "position": [
+            855,
+            1260
+          ],
+          "coordinate_space": "world_schematic_du",
+          "world": [
+            855,
+            1260
+          ],
+          "outbound_direction": "S",
+          "arrival_facing": "N",
+          "boundary_side": "S"
+        }
+      ],
+      "world_path": [
+        [
+          849,
+          1088.158
+        ],
+        [
+          855,
+          1170
+        ],
+        [
+          855,
+          1260
+        ]
+      ],
+      "modes": [
+        "walk",
+        "cycle_on_gentle_road",
+        "bus_reserved_to_entry"
+      ],
+      "condition": "公共缓坡，石阶仅步行；不穿校",
+      "transition": "校西绿带/林缘到坡脚",
+      "status": "space_planned_system_future",
+      "units": "schematic_du_not_travel_m"
+    },
+    {
+      "id": "P06",
+      "endpoints": [
+        {
+          "id": "E06_N",
+          "region": "R06",
+          "position": [
+            1090,
+            1840
+          ],
+          "coordinate_space": "world_schematic_du",
+          "world": [
+            1090,
+            1840
+          ],
+          "outbound_direction": "N",
+          "arrival_facing": "S",
+          "boundary_side": "N"
+        },
+        {
+          "id": "E08_SW",
+          "region": "R08",
+          "position": [
+            1090,
+            1910
+          ],
+          "coordinate_space": "world_schematic_du",
+          "world": [
+            1090,
+            1910
+          ],
+          "outbound_direction": "S",
+          "arrival_facing": "N",
+          "boundary_side": "S"
+        }
+      ],
+      "world_path": [
+        [
+          1090,
+          1840
+        ],
+        [
+          1090,
+          1910
+        ]
+      ],
+      "modes": [
+        "walk",
+        "cycle_on_gentle_road",
+        "bus_reserved_to_entry"
+      ],
+      "condition": "林缘站止于入口，湖岸最后步行",
+      "transition": "旧石路→疏林→湖盆",
+      "status": "space_planned_system_future",
+      "units": "schematic_du_not_travel_m"
+    },
+    {
+      "id": "P07",
+      "endpoints": [
+        {
+          "id": "E07_NE",
+          "region": "R07",
+          "position": [
+            2050,
+            1890
+          ],
+          "coordinate_space": "world_schematic_du",
+          "world": [
+            2050,
+            1890
+          ],
+          "outbound_direction": "NW",
+          "arrival_facing": "SE",
+          "boundary_side": "NW"
+        },
+        {
+          "id": "E08_SE",
+          "region": "R08",
+          "position": [
+            1990,
+            1960
+          ],
+          "coordinate_space": "world_schematic_du",
+          "world": [
+            1990,
+            1960
+          ],
+          "outbound_direction": "SE",
+          "arrival_facing": "NW",
+          "boundary_side": "SE"
+        }
+      ],
+      "world_path": [
+        [
+          2050,
+          1890
+        ],
+        [
+          1990,
+          1960
+        ]
+      ],
+      "modes": [
+        "walk",
+        "cycle_on_public_road"
+      ],
+      "condition": "私人院外；湖岸栈道仅步行",
+      "transition": "绿篱→疏林→自然岸",
+      "status": "space_planned_system_future",
+      "units": "schematic_du_not_travel_m"
+    },
+    {
+      "id": "P08",
+      "endpoints": [
+        {
+          "id": "E06_E",
+          "region": "R06",
+          "position": [
+            1280,
+            1760
+          ],
+          "coordinate_space": "world_schematic_du",
+          "world": [
+            1280,
+            1760
+          ],
+          "outbound_direction": "E",
+          "arrival_facing": "W",
+          "boundary_side": "E"
+        },
+        {
+          "id": "E07_W",
+          "region": "R07",
+          "position": [
+            1590,
+            1760
+          ],
+          "coordinate_space": "world_schematic_du",
+          "world": [
+            1590,
+            1760
+          ],
+          "outbound_direction": "W",
+          "arrival_facing": "E",
+          "boundary_side": "W"
+        }
+      ],
+      "world_path": [
+        [
+          1280,
+          1760
+        ],
+        [
+          1490,
+          1760
+        ],
+        [
+          1590,
+          1760
+        ]
+      ],
+      "modes": [
+        "walk",
+        "cycle_on_gentle_road"
+      ],
+      "condition": "上游溪桥/缓坡，支石阶仅步行",
+      "transition": "公共林缘路与私院外墙",
+      "status": "space_planned_system_future",
+      "units": "schematic_du_not_travel_m"
+    },
+    {
+      "id": "P09",
+      "endpoints": [
+        {
+          "id": "E02_S",
+          "region": "R02",
+          "position": [
+            350,
+            0
+          ],
+          "coordinate_space": "R02_local_m",
+          "world": [
+            1135,
+            680
+          ],
+          "outbound_direction": "S",
+          "arrival_facing": "N",
+          "boundary_side": "S"
+        },
+        {
+          "id": "E09_N",
+          "region": "R09",
+          "position": [
+            1135,
+            600
+          ],
+          "coordinate_space": "world_schematic_du",
+          "world": [
+            1135,
+            600
+          ],
+          "outbound_direction": "N",
+          "arrival_facing": "S",
+          "boundary_side": "N"
+        }
+      ],
+      "world_path": [
+        [
+          1135,
+          680
+        ],
+        [
+          1135,
+          600
+        ]
+      ],
+      "modes": [
+        "walk",
+        "cycle"
+      ],
+      "condition": "公共街岸径，湿地/沙滩非骑行通路",
+      "transition": "街墙降低、渠水展开",
+      "status": "space_planned_system_future",
+      "units": "schematic_du_not_travel_m"
+    },
+    {
+      "id": "P10",
+      "endpoints": [
+        {
+          "id": "E04_SW",
+          "region": "R04",
+          "position": [
+            1780,
+            730
+          ],
+          "coordinate_space": "world_schematic_du",
+          "world": [
+            1780,
+            730
+          ],
+          "outbound_direction": "W",
+          "arrival_facing": "E",
+          "boundary_side": "W"
+        },
+        {
+          "id": "E09_E",
+          "region": "R09",
+          "position": [
+            1450,
+            730
+          ],
+          "coordinate_space": "world_schematic_du",
+          "world": [
+            1450,
+            730
+          ],
+          "outbound_direction": "E",
+          "arrival_facing": "W",
+          "boundary_side": "E"
+        }
+      ],
+      "world_path": [
+        [
+          1780,
+          730
+        ],
+        [
+          1680,
+          730
+        ],
+        [
+          1570,
+          730
+        ],
+        [
+          1450,
+          730
+        ]
+      ],
+      "modes": [
+        "walk",
+        "cycle_then_dismount_at_lookout"
+      ],
+      "condition": "旧桥慢行、观水座位只步行；公交不走",
+      "transition": "旧库翼→桥头→湿地边",
+      "status": "space_planned_system_future",
+      "units": "schematic_du_not_travel_m"
+    },
+    {
+      "id": "P11",
+      "endpoints": [
+        {
+          "id": "E03_NE",
+          "region": "R03",
+          "position": [
+            720,
+            1230
+          ],
+          "coordinate_space": "world_schematic_du",
+          "world": [
+            720,
+            1230
+          ],
+          "outbound_direction": "NE",
+          "arrival_facing": "SW",
+          "boundary_side": "NE"
+        },
+        {
+          "id": "E06_SW",
+          "region": "R06",
+          "position": [
+            810,
+            1330
+          ],
+          "coordinate_space": "world_schematic_du",
+          "world": [
+            810,
+            1330
+          ],
+          "outbound_direction": "SW",
+          "arrival_facing": "NE",
+          "boundary_side": "SW"
+        }
+      ],
+      "world_path": [
+        [
+          720,
+          1230
+        ],
+        [
+          810,
+          1330
+        ]
+      ],
+      "modes": [
+        "walk",
+        "cycle_on_gentle_road"
+      ],
+      "condition": "公共坡路，非医院后场",
+      "transition": "公寓退为配水坡公共绿地",
+      "status": "space_planned_system_future",
+      "units": "schematic_du_not_travel_m"
+    },
+    {
+      "id": "P12",
+      "endpoints": [
+        {
+          "id": "E03_S",
+          "region": "R03",
+          "position": [
+            540,
+            740
+          ],
+          "coordinate_space": "world_schematic_du",
+          "world": [
+            540,
+            740
+          ],
+          "outbound_direction": "SE",
+          "arrival_facing": "NW",
+          "boundary_side": "SE"
+        },
+        {
+          "id": "E09_W",
+          "region": "R09",
+          "position": [
+            770,
+            510
+          ],
+          "coordinate_space": "world_schematic_du",
+          "world": [
+            770,
+            510
+          ],
+          "outbound_direction": "NW",
+          "arrival_facing": "SE",
+          "boundary_side": "NW"
+        }
+      ],
+      "world_path": [
+        [
+          540,
+          740
+        ],
+        [
+          640,
+          630
+        ],
+        [
+          770,
+          510
+        ]
+      ],
+      "modes": [
+        "walk",
+        "cycle",
+        "bus_reserved_to_entry"
+      ],
+      "condition": "公共宽接路止海岸入口，不上滩",
+      "transition": "社区庭院→低墙→海岸步行",
+      "status": "space_planned_system_future",
+      "units": "schematic_du_not_travel_m"
+    },
+    {
+      "id": "P14",
+      "endpoints": [
+        {
+          "id": "E01_E",
+          "region": "R01",
+          "position": [
+            360,
+            120
+          ],
+          "coordinate_space": "R01_local_m",
+          "world": [
+            1506,
+            1312
+          ],
+          "outbound_direction": "E",
+          "arrival_facing": "W",
+          "boundary_side": "E"
+        },
+        {
+          "id": "E02_NE",
+          "region": "R02",
+          "position": [
+            520,
+            390
+          ],
+          "coordinate_space": "R02_local_m",
+          "world": [
+            1322,
+            1109
+          ],
+          "outbound_direction": "E",
+          "arrival_facing": "W",
+          "boundary_side": "NE"
+        }
+      ],
+      "world_path": [
+        [
+          1506,
+          1312
+        ],
+        [
+          1550,
+          1312
+        ],
+        [
+          1550,
+          1100
+        ],
+        [
+          1470,
+          1100
+        ],
+        [
+          1322,
+          1109
+        ]
+      ],
+      "modes": [
+        "walk",
+        "cycle_to_gate_then_push",
+        "service_access_reserved"
+      ],
+      "condition": "校内侧门管理界；公交不走",
+      "transition": "沿校外东墙绕行",
+      "status": "space_planned_system_future",
+      "units": "schematic_du_not_travel_m"
+    }
+  ],
+  "bus": {
+    "line_id": "BL01",
+    "name": "双向生活线候选",
+    "world_points": [
+      [
+        550,
+        1054
+      ],
+      [
+        750,
+        1054
+      ],
+      [
+        860,
+        1054
+      ],
+      [
+        970,
+        1087
+      ],
+      [
+        1091,
+        1087
+      ],
+      [
+        1245,
+        1087
+      ],
+      [
+        1267,
+        1010
+      ],
+      [
+        1267,
+        911
+      ],
+      [
+        1322,
+        911
+      ],
+      [
+        1450,
+        911
+      ],
+      [
+        1651,
+        911
+      ],
+      [
+        1780,
+        911
+      ],
+      [
+        1890,
+        911
+      ],
+      [
+        1960,
+        1020
+      ],
+      [
+        2080,
+        1100
+      ],
+      [
+        2240,
+        1100
+      ],
+      [
+        2290,
+        1100
+      ],
+      [
+        2400,
+        1100
+      ]
+    ],
+    "stops": [
+      {
+        "id": "S01",
+        "region": "R03",
+        "name": "医院/公共馆",
+        "at": [
+          550,
+          1054
+        ],
+        "world": [
+          550,
+          1054
+        ],
+        "coordinate_space": "world_schematic_du",
+        "phase": "future",
+        "paired_curb_pads": "双向分别设站牌/短棚/人行候车；精确转弯与坡度未验证"
+      },
+      {
+        "id": "S02",
+        "region": "R02",
+        "name": "住宅北口",
+        "at": [
+          200,
+          370
+        ],
+        "world": [
+          970,
+          1087
+        ],
+        "coordinate_space": "R02_local_m",
+        "phase": "space_P1_system_future",
+        "paired_curb_pads": "双向分别设站牌/短棚/人行候车；精确转弯与坡度未验证"
+      },
+      {
+        "id": "S03",
+        "region": "R02",
+        "name": "校门外",
+        "at": [
+          310,
+          370
+        ],
+        "world": [
+          1091,
+          1087
+        ],
+        "coordinate_space": "R02_local_m",
+        "phase": "space_P1_system_future",
+        "paired_curb_pads": "双向分别设站牌/短棚/人行候车；精确转弯与坡度未验证"
+      },
+      {
+        "id": "S04",
+        "region": "R02",
+        "name": "旧商店街外口",
+        "at": [
+          470,
+          290
+        ],
+        "world": [
+          1267,
+          999
+        ],
+        "coordinate_space": "R02_local_m",
+        "phase": "space_P1_system_future",
+        "paired_curb_pads": "双向分别设站牌/短棚/人行候车；精确转弯与坡度未验证"
+      },
+      {
+        "id": "S05",
+        "region": "R04",
+        "name": "东部商业",
+        "at": [
+          2080,
+          1100
+        ],
+        "world": [
+          2080,
+          1100
+        ],
+        "coordinate_space": "world_schematic_du",
+        "phase": "future",
+        "paired_curb_pads": "双向分别设站牌/短棚/人行候车；精确转弯与坡度未验证"
+      },
+      {
+        "id": "S06",
+        "region": "R05",
+        "name": "外缘主站",
+        "at": [
+          2400,
+          1100
+        ],
+        "world": [
+          2400,
+          1100
+        ],
+        "coordinate_space": "world_schematic_du",
+        "phase": "background_system_future",
+        "paired_curb_pads": "双向分别设站牌/短棚/人行候车；精确转弯与坡度未验证"
+      }
+    ],
+    "reserved_branches": [
+      {
+        "id": "BL_N",
+        "world_points": [
+          [
+            970,
+            1087
+          ],
+          [
+            860,
+            1054
+          ],
+          [
+            849,
+            1088.158
+          ],
+          [
+            855,
+            1170
+          ],
+          [
+            855,
+            1260
+          ],
+          [
+            850,
+            1300
+          ],
+          [
+            800,
+            1380
+          ],
+          [
+            850,
+            1500
+          ],
+          [
+            890,
+            1660
+          ],
+          [
+            1040,
+            1680
+          ],
+          [
+            1020,
+            1790
+          ],
+          [
+            1090,
+            1840
+          ],
+          [
+            1090,
+            1910
+          ]
+        ],
+        "entry_stops": [
+          {
+            "id": "SN1",
+            "at": [
+              850,
+              1300
+            ],
+            "name": "神社坡脚入口"
+          },
+          {
+            "id": "SN2",
+            "at": [
+              1090,
+              1910
+            ],
+            "name": "山湖步行入口"
+          }
+        ],
+        "note": "候选支线需道路实测，最后景观段步行"
+      },
+      {
+        "id": "BL_S",
+        "world_points": [
+          [
+            550,
+            1054
+          ],
+          [
+            620,
+            1054
+          ],
+          [
+            620,
+            870
+          ],
+          [
+            540,
+            740
+          ],
+          [
+            640,
+            630
+          ],
+          [
+            770,
+            510
+          ]
+        ],
+        "entry_stops": [
+          {
+            "id": "SC1",
+            "at": [
+              770,
+              510
+            ],
+            "name": "河湾入口"
+          }
+        ],
+        "note": "止于入口，不上沙滩湿地"
+      }
+    ],
+    "rules_not_set": [
+      "票价",
+      "班次",
+      "等待",
+      "旅行分钟",
+      "疲劳",
+      "交通速度"
+    ],
+    "actual_ride_implemented": false
+  },
+  "waters": [
+    {
+      "id": "LAKE",
+      "type": "lake",
+      "center": [
+        1770,
+        1950
+      ],
+      "radii": [
+        155,
+        90
+      ],
+      "name": "山麓湖盆（候选）",
+      "outlet": [
+        1642,
+        1900
+      ],
+      "units": "schematic_du"
+    },
+    {
+      "id": "MAIN_RIVER",
+      "type": "river",
+      "points": [
+        [
+          1642,
+          1900
+        ],
+        [
+          1560,
+          1760
+        ],
+        [
+          1550,
+          1680
+        ],
+        [
+          1650,
+          1490
+        ],
+        [
+          1690,
+          1350
+        ],
+        [
+          1660,
+          1110
+        ],
+        [
+          1660,
+          930
+        ],
+        [
+          1560,
+          720
+        ],
+        [
+          1600,
+          530
+        ],
+        [
+          1740,
+          405
+        ],
+        [
+          1850,
+          330
+        ]
+      ],
+      "width": 34,
+      "name": "主河：校园东侧至河口",
+      "units": "schematic_du"
+    },
+    {
+      "id": "CANAL",
+      "type": "spring_canal",
+      "points": [
+        [
+          844,
+          1400
+        ],
+        [
+          865,
+          1200
+        ],
+        [
+          882,
+          1065
+        ],
+        [
+          981,
+          1010
+        ],
+        [
+          981,
+          944
+        ],
+        [
+          1025,
+          911
+        ],
+        [
+          1063.5,
+          911
+        ],
+        [
+          1047,
+          878
+        ],
+        [
+          1058,
+          823
+        ],
+        [
+          1063.5,
+          768
+        ],
+        [
+          1250,
+          700
+        ],
+        [
+          1430,
+          690
+        ],
+        [
+          1545,
+          690
+        ]
+      ],
+      "width": 3,
+      "name": "旧泉渠/井台/踏步/清理口",
+      "units": "schematic_du"
+    },
+    {
+      "id": "SCHOOL_SPRING",
+      "type": "canal_branch",
+      "points": [
+        [
+          844,
+          1400
+        ],
+        [
+          844,
+          1450
+        ],
+        [
+          940,
+          1470
+        ],
+        [
+          970,
+          1420
+        ],
+        [
+          994,
+          1384
+        ],
+        [
+          1002,
+          1304
+        ],
+        [
+          1110.8,
+          1296
+        ]
+      ],
+      "width": 2,
+      "name": "泉院支渠绕旧校院",
+      "units": "schematic_du"
+    },
+    {
+      "id": "BAY",
+      "type": "sea",
+      "polygon": [
+        [
+          750,
+          0
+        ],
+        [
+          2700,
+          0
+        ],
+        [
+          2700,
+          630
+        ],
+        [
+          2440,
+          610
+        ],
+        [
+          2260,
+          520
+        ],
+        [
+          2100,
+          400
+        ],
+        [
+          1850,
+          330
+        ],
+        [
+          1740,
+          190
+        ],
+        [
+          1380,
+          190
+        ],
+        [
+          1100,
+          300
+        ],
+        [
+          880,
+          350
+        ],
+        [
+          750,
+          250
+        ]
+      ],
+      "name": "背风海湾",
+      "units": "schematic_du"
+    }
+  ],
+  "features": [
+    {
+      "id": "PEAK_A",
+      "name": "北山主峰（候选）",
+      "at": [
+        1240,
+        2060
+      ],
+      "type": "mountain_peak"
+    },
+    {
+      "id": "PEAK_B",
+      "name": "西山肩峰（候选）",
+      "at": [
+        730,
+        1970
+      ],
+      "type": "mountain_peak"
+    },
+    {
+      "id": "PEAK_C",
+      "name": "东林峰（候选）",
+      "at": [
+        2220,
+        2050
+      ],
+      "type": "mountain_peak"
+    },
+    {
+      "id": "BEACH",
+      "name": "背风沙滩",
+      "polygon": [
+        [
+          880,
+          350
+        ],
+        [
+          1100,
+          300
+        ],
+        [
+          1380,
+          190
+        ],
+        [
+          1400,
+          245
+        ],
+        [
+          1250,
+          330
+        ],
+        [
+          1060,
+          390
+        ],
+        [
+          930,
+          425
+        ]
+      ],
+      "type": "sand_beach"
+    },
+    {
+      "id": "WETLAND",
+      "name": "河口草地/湿地边缘",
+      "polygon": [
+        [
+          1540,
+          620
+        ],
+        [
+          1670,
+          580
+        ],
+        [
+          1780,
+          440
+        ],
+        [
+          1850,
+          330
+        ],
+        [
+          1730,
+          305
+        ],
+        [
+          1610,
+          430
+        ]
+      ],
+      "type": "wetland"
+    },
+    {
+      "id": "ROCK",
+      "name": "东湾岩岸",
+      "polygon": [
+        [
+          2190,
+          490
+        ],
+        [
+          2360,
+          555
+        ],
+        [
+          2620,
+          605
+        ],
+        [
+          2620,
+          680
+        ],
+        [
+          2370,
+          625
+        ],
+        [
+          2220,
+          565
+        ]
+      ],
+      "type": "rock_coast"
+    },
+    {
+      "id": "PIER",
+      "name": "旧橋基座位",
+      "at": [
+        1430,
+        730
+      ],
+      "type": "public_lookout",
+      "access": "walk_only"
+    },
+    {
+      "id": "WELL",
+      "name": "井台踏步/清理口",
+      "at": [
+        1063.5,
+        911
+      ],
+      "type": "well_stop"
+    },
+    {
+      "id": "TANK",
+      "name": "旧配水槽",
+      "at": [
+        844,
+        1400
+      ],
+      "type": "old_waterworks"
+    },
+    {
+      "id": "BELL",
+      "name": "旧钟廊/旧楼钟楼附角",
+      "at": [
+        1110.8,
+        1296
+      ],
+      "type": "school_history"
+    }
+  ],
+  "background_groups": [
+    {
+      "id": "BG_H",
+      "region": "R02",
+      "name": "邻里私院住宅",
+      "phase": "P1",
+      "instances": [
+        {
+          "id": "BG_H_01",
+          "region": "R02",
+          "center": [
+            90,
+            290
+          ],
+          "size": [
+            18,
+            22
+          ],
+          "rotation_deg": 12,
+          "floors": 2,
+          "phase": "P1",
+          "footprint": [
+            [
+              83.484,
+              277.369
+            ],
+            [
+              101.09,
+              281.112
+            ],
+            [
+              96.516,
+              302.631
+            ],
+            [
+              78.91,
+              298.888
+            ]
+          ],
+          "world_center": [
+            849,
+            999
+          ],
+          "world_footprint": [
+            [
+              841.832,
+              985.106
+            ],
+            [
+              861.199,
+              989.223
+            ],
+            [
+              856.168,
+              1012.894
+            ],
+            [
+              836.801,
+              1008.777
+            ]
+          ],
+          "formation_reason": "井台后界不等私院，公共巷不进入"
+        },
+        {
+          "id": "BG_H_02",
+          "region": "R02",
+          "center": [
+            150,
+            235
+          ],
+          "size": [
+            20,
+            18
+          ],
+          "rotation_deg": -8,
+          "floors": 2,
+          "phase": "P1",
+          "footprint": [
+            [
+              138.845,
+              227.479
+            ],
+            [
+              158.65,
+              224.696
+            ],
+            [
+              161.155,
+              242.521
+            ],
+            [
+              141.35,
+              245.304
+            ]
+          ],
+          "world_center": [
+            915,
+            938.5
+          ],
+          "world_footprint": [
+            [
+              902.73,
+              930.227
+            ],
+            [
+              924.515,
+              927.166
+            ],
+            [
+              927.271,
+              946.773
+            ],
+            [
+              905.485,
+              949.834
+            ]
+          ],
+          "formation_reason": "井台后界不等私院，公共巷不进入"
+        },
+        {
+          "id": "BG_H_03",
+          "region": "R02",
+          "center": [
+            210,
+            180
+          ],
+          "size": [
+            18,
+            24
+          ],
+          "rotation_deg": 20,
+          "floors": 2,
+          "phase": "P1",
+          "footprint": [
+            [
+              205.647,
+              165.646
+            ],
+            [
+              222.561,
+              171.802
+            ],
+            [
+              214.353,
+              194.354
+            ],
+            [
+              197.439,
+              188.198
+            ]
+          ],
+          "world_center": [
+            981,
+            878
+          ],
+          "world_footprint": [
+            [
+              976.212,
+              862.211
+            ],
+            [
+              994.817,
+              868.982
+            ],
+            [
+              985.788,
+              893.789
+            ],
+            [
+              967.183,
+              887.018
+            ]
+          ],
+          "formation_reason": "井台后界不等私院，公共巷不进入"
+        },
+        {
+          "id": "BG_H_04",
+          "region": "R02",
+          "center": [
+            75,
+            190
+          ],
+          "size": [
+            20,
+            26
+          ],
+          "rotation_deg": 10,
+          "floors": 3,
+          "phase": "P1",
+          "footprint": [
+            [
+              67.409,
+              175.461
+            ],
+            [
+              87.106,
+              178.934
+            ],
+            [
+              82.591,
+              204.539
+            ],
+            [
+              62.894,
+              201.066
+            ]
+          ],
+          "world_center": [
+            832.5,
+            889
+          ],
+          "world_footprint": [
+            [
+              824.15,
+              873.007
+            ],
+            [
+              845.817,
+              876.827
+            ],
+            [
+              840.85,
+              904.993
+            ],
+            [
+              819.183,
+              901.173
+            ]
+          ],
+          "formation_reason": "井台后界不等私院，公共巷不进入"
+        },
+        {
+          "id": "BG_H_05",
+          "region": "R02",
+          "center": [
+            120,
+            135
+          ],
+          "size": [
+            19,
+            19
+          ],
+          "rotation_deg": 0,
+          "floors": 2,
+          "phase": "P1",
+          "footprint": [
+            [
+              110.5,
+              125.5
+            ],
+            [
+              129.5,
+              125.5
+            ],
+            [
+              129.5,
+              144.5
+            ],
+            [
+              110.5,
+              144.5
+            ]
+          ],
+          "world_center": [
+            882,
+            828.5
+          ],
+          "world_footprint": [
+            [
+              871.55,
+              818.05
+            ],
+            [
+              892.45,
+              818.05
+            ],
+            [
+              892.45,
+              838.95
+            ],
+            [
+              871.55,
+              838.95
+            ]
+          ],
+          "formation_reason": "井台后界不等私院，公共巷不进入"
+        },
+        {
+          "id": "BG_H_06",
+          "region": "R02",
+          "center": [
+            180,
+            105
+          ],
+          "size": [
+            22,
+            20
+          ],
+          "rotation_deg": -9,
+          "floors": 2,
+          "phase": "P1",
+          "footprint": [
+            [
+              167.571,
+              96.844
+            ],
+            [
+              189.3,
+              93.402
+            ],
+            [
+              192.429,
+              113.156
+            ],
+            [
+              170.7,
+              116.598
+            ]
+          ],
+          "world_center": [
+            948,
+            795.5
+          ],
+          "world_footprint": [
+            [
+              934.328,
+              786.528
+            ],
+            [
+              958.23,
+              782.742
+            ],
+            [
+              961.672,
+              804.472
+            ],
+            [
+              937.77,
+              808.258
+            ]
+          ],
+          "formation_reason": "井台后界不等私院，公共巷不进入"
+        },
+        {
+          "id": "BG_H_07",
+          "region": "R02",
+          "center": [
+            220,
+            95
+          ],
+          "size": [
+            19,
+            25
+          ],
+          "rotation_deg": 13,
+          "floors": 2,
+          "phase": "P1",
+          "footprint": [
+            [
+              213.555,
+              80.683
+            ],
+            [
+              232.068,
+              84.957
+            ],
+            [
+              226.445,
+              109.317
+            ],
+            [
+              207.932,
+              105.043
+            ]
+          ],
+          "world_center": [
+            992,
+            784.5
+          ],
+          "world_footprint": [
+            [
+              984.91,
+              768.751
+            ],
+            [
+              1005.275,
+              773.453
+            ],
+            [
+              999.09,
+              800.249
+            ],
+            [
+              978.725,
+              795.547
+            ]
+          ],
+          "formation_reason": "井台后界不等私院，公共巷不进入"
+        },
+        {
+          "id": "BG_H_08",
+          "region": "R02",
+          "center": [
+            215,
+            350
+          ],
+          "size": [
+            20,
+            16
+          ],
+          "rotation_deg": 0,
+          "floors": 2,
+          "phase": "P1",
+          "footprint": [
+            [
+              205,
+              342
+            ],
+            [
+              225,
+              342
+            ],
+            [
+              225,
+              358
+            ],
+            [
+              205,
+              358
+            ]
+          ],
+          "world_center": [
+            986.5,
+            1065
+          ],
+          "world_footprint": [
+            [
+              975.5,
+              1056.2
+            ],
+            [
+              997.5,
+              1056.2
+            ],
+            [
+              997.5,
+              1073.8
+            ],
+            [
+              975.5,
+              1073.8
+            ]
+          ],
+          "formation_reason": "井台后界不等私院，公共巷不进入"
+        },
+        {
+          "id": "BG_H_09",
+          "region": "R02",
+          "center": [
+            120,
+            290
+          ],
+          "size": [
+            21,
+            18
+          ],
+          "rotation_deg": 16,
+          "floors": 2,
+          "phase": "P1",
+          "footprint": [
+            [
+              112.387,
+              278.454
+            ],
+            [
+              132.574,
+              284.243
+            ],
+            [
+              127.613,
+              301.546
+            ],
+            [
+              107.426,
+              295.757
+            ]
+          ],
+          "world_center": [
+            882,
+            999
+          ],
+          "world_footprint": [
+            [
+              873.626,
+              986.299
+            ],
+            [
+              895.831,
+              992.667
+            ],
+            [
+              890.374,
+              1011.701
+            ],
+            [
+              868.169,
+              1005.333
+            ]
+          ],
+          "formation_reason": "井台后界不等私院，公共巷不进入"
+        },
+        {
+          "id": "BG_H_10",
+          "region": "R02",
+          "center": [
+            180,
+            255
+          ],
+          "size": [
+            19,
+            20
+          ],
+          "rotation_deg": -12,
+          "floors": 2,
+          "phase": "P1",
+          "footprint": [
+            [
+              168.628,
+              247.194
+            ],
+            [
+              187.213,
+              243.243
+            ],
+            [
+              191.372,
+              262.806
+            ],
+            [
+              172.787,
+              266.757
+            ]
+          ],
+          "world_center": [
+            948,
+            960.5
+          ],
+          "world_footprint": [
+            [
+              935.491,
+              951.913
+            ],
+            [
+              955.934,
+              947.567
+            ],
+            [
+              960.509,
+              969.087
+            ],
+            [
+              940.066,
+              973.433
+            ]
+          ],
+          "formation_reason": "井台后界不等私院，公共巷不进入"
+        },
+        {
+          "id": "BG_H_11",
+          "region": "R02",
+          "center": [
+            250,
+            315
+          ],
+          "size": [
+            18,
+            19
+          ],
+          "rotation_deg": 0,
+          "floors": 2,
+          "phase": "P1",
+          "footprint": [
+            [
+              241,
+              305.5
+            ],
+            [
+              259,
+              305.5
+            ],
+            [
+              259,
+              324.5
+            ],
+            [
+              241,
+              324.5
+            ]
+          ],
+          "world_center": [
+            1025,
+            1026.5
+          ],
+          "world_footprint": [
+            [
+              1015.1,
+              1016.05
+            ],
+            [
+              1034.9,
+              1016.05
+            ],
+            [
+              1034.9,
+              1036.95
+            ],
+            [
+              1015.1,
+              1036.95
+            ]
+          ],
+          "formation_reason": "井台后界不等私院，公共巷不进入"
+        },
+        {
+          "id": "BG_H_12",
+          "region": "R02",
+          "center": [
+            235,
+            295
+          ],
+          "size": [
+            18,
+            21
+          ],
+          "rotation_deg": 20,
+          "floors": 2,
+          "phase": "P1",
+          "footprint": [
+            [
+              230.134,
+              282.055
+            ],
+            [
+              247.048,
+              288.211
+            ],
+            [
+              239.866,
+              307.945
+            ],
+            [
+              222.952,
+              301.789
+            ]
+          ],
+          "world_center": [
+            1008.5,
+            1004.5
+          ],
+          "world_footprint": [
+            [
+              1003.147,
+              990.261
+            ],
+            [
+              1021.753,
+              997.032
+            ],
+            [
+              1013.853,
+              1018.74
+            ],
+            [
+              995.247,
+              1011.968
+            ]
+          ],
+          "formation_reason": "井台后界不等私院，公共巷不进入"
+        }
+      ],
+      "count": 12
+    },
+    {
+      "id": "BG_S",
+      "region": "R02",
+      "name": "旧商号/送货院",
+      "phase": "P1",
+      "instances": [
+        {
+          "id": "BG_S_01",
+          "region": "R02",
+          "center": [
+            296.6642425845017,
+            149.16787870774914
+          ],
+          "size": [
+            10,
+            25
+          ],
+          "rotation_deg": 63.43494882292201,
+          "floors": 2,
+          "phase": "P1",
+          "footprint": [
+            [
+              305.609,
+              139.106
+            ],
+            [
+              310.081,
+              148.05
+            ],
+            [
+              287.72,
+              159.23
+            ],
+            [
+              283.248,
+              150.286
+            ]
+          ],
+          "world_center": [
+            1076.331,
+            844.085
+          ],
+          "world_footprint": [
+            [
+              1086.17,
+              833.017
+            ],
+            [
+              1091.089,
+              842.855
+            ],
+            [
+              1066.492,
+              855.153
+            ],
+            [
+              1061.573,
+              845.315
+            ]
+          ],
+          "formation_reason": "窄面深进随贸易折线，公共后巷在私送货院外"
+        },
+        {
+          "id": "BG_S_02",
+          "region": "R02",
+          "center": [
+            339.7106538091477,
+            141.0069053482168
+          ],
+          "size": [
+            12,
+            27
+          ],
+          "rotation_deg": 58.392497753751094,
+          "floors": 2,
+          "phase": "P1",
+          "footprint": [
+            [
+              348.063,
+              128.822
+            ],
+            [
+              354.353,
+              139.042
+            ],
+            [
+              331.358,
+              153.192
+            ],
+            [
+              325.069,
+              142.972
+            ]
+          ],
+          "world_center": [
+            1123.682,
+            835.108
+          ],
+          "world_footprint": [
+            [
+              1132.869,
+              821.704
+            ],
+            [
+              1139.788,
+              832.946
+            ],
+            [
+              1114.494,
+              848.511
+            ],
+            [
+              1107.576,
+              837.269
+            ]
+          ],
+          "formation_reason": "窄面深进随贸易折线，公共后巷在私送货院外"
+        },
+        {
+          "id": "BG_S_03",
+          "region": "R02",
+          "center": [
+            353.45899549244314,
+            165.25600277388114
+          ],
+          "size": [
+            10,
+            25
+          ],
+          "rotation_deg": 58.392497753751094,
+          "floors": 2,
+          "phase": "P1",
+          "footprint": [
+            [
+              361.484,
+              154.446
+            ],
+            [
+              366.725,
+              162.963
+            ],
+            [
+              345.434,
+              176.066
+            ],
+            [
+              340.193,
+              167.549
+            ]
+          ],
+          "world_center": [
+            1138.805,
+            861.782
+          ],
+          "world_footprint": [
+            [
+              1147.632,
+              849.891
+            ],
+            [
+              1153.398,
+              859.259
+            ],
+            [
+              1129.977,
+              873.673
+            ],
+            [
+              1124.212,
+              864.304
+            ]
+          ],
+          "formation_reason": "窄面深进随贸易折线，公共后巷在私送货院外"
+        },
+        {
+          "id": "BG_S_04",
+          "region": "R02",
+          "center": [
+            369.5331663340909,
+            192.33055148671332
+          ],
+          "size": [
+            10,
+            24
+          ],
+          "rotation_deg": 58.392497753751094,
+          "floors": 2,
+          "phase": "P1",
+          "footprint": [
+            [
+              377.133,
+              181.783
+            ],
+            [
+              382.374,
+              190.3
+            ],
+            [
+              361.934,
+              202.878
+            ],
+            [
+              356.693,
+              194.361
+            ]
+          ],
+          "world_center": [
+            1156.486,
+            891.564
+          ],
+          "world_footprint": [
+            [
+              1164.846,
+              879.961
+            ],
+            [
+              1170.611,
+              889.33
+            ],
+            [
+              1148.127,
+              903.166
+            ],
+            [
+              1142.362,
+              893.797
+            ]
+          ],
+          "formation_reason": "窄面深进随贸易折线，公共后巷在私送货院外"
+        },
+        {
+          "id": "BG_S_05",
+          "region": "R02",
+          "center": [
+            394.3624194237849,
+            279.2833691449845
+          ],
+          "size": [
+            10,
+            22
+          ],
+          "rotation_deg": 66.03751102542182,
+          "floors": 2,
+          "phase": "P1",
+          "footprint": [
+            [
+              402.384,
+              270.247
+            ],
+            [
+              406.445,
+              279.385
+            ],
+            [
+              386.341,
+              288.32
+            ],
+            [
+              382.28,
+              279.182
+            ]
+          ],
+          "world_center": [
+            1183.799,
+            987.212
+          ],
+          "world_footprint": [
+            [
+              1192.622,
+              977.272
+            ],
+            [
+              1197.09,
+              987.323
+            ],
+            [
+              1174.975,
+              997.152
+            ],
+            [
+              1170.508,
+              987.1
+            ]
+          ],
+          "formation_reason": "窄面深进随贸易折线，公共后巷在私送货院外"
+        },
+        {
+          "id": "BG_S_06",
+          "region": "R02",
+          "center": [
+            447.51930530821585,
+            282.6544424657267
+          ],
+          "size": [
+            11,
+            24
+          ],
+          "rotation_deg": -7.125016348901798,
+          "floors": 2,
+          "phase": "P1",
+          "footprint": [
+            [
+              440.573,
+              271.429
+            ],
+            [
+              451.488,
+              270.065
+            ],
+            [
+              454.465,
+              293.88
+            ],
+            [
+              443.55,
+              295.244
+            ]
+          ],
+          "world_center": [
+            1242.271,
+            990.92
+          ],
+          "world_footprint": [
+            [
+              1234.63,
+              978.572
+            ],
+            [
+              1246.637,
+              977.072
+            ],
+            [
+              1249.911,
+              1003.268
+            ],
+            [
+              1237.905,
+              1004.768
+            ]
+          ],
+          "formation_reason": "窄面深进随贸易折线，公共后巷在私送货院外"
+        }
+      ],
+      "count": 6
+    },
+    {
+      "id": "BG_W",
+      "region": "R03",
+      "name": "分期公寓/砖配楼",
+      "phase": "background",
+      "instances": [
+        {
+          "id": "BG_W_01",
+          "region": "R03",
+          "center": [
+            300,
+            1040
+          ],
+          "size": [
+            32,
+            45
+          ],
+          "rotation_deg": 12,
+          "floors": 4,
+          "phase": "background",
+          "footprint": [
+            [
+              289.028,
+              1014.665
+            ],
+            [
+              320.328,
+              1021.318
+            ],
+            [
+              310.972,
+              1065.335
+            ],
+            [
+              279.672,
+              1058.682
+            ]
+          ],
+          "world_center": [
+            300,
+            1040
+          ],
+          "world_footprint": [
+            [
+              289.028,
+              1014.665
+            ],
+            [
+              320.328,
+              1021.318
+            ],
+            [
+              310.972,
+              1065.335
+            ],
+            [
+              279.672,
+              1058.682
+            ]
+          ],
+          "formation_reason": "不同购地年代/朝向/退界的成熟公寓与配楼"
+        },
+        {
+          "id": "BG_W_02",
+          "region": "R03",
+          "center": [
+            345,
+            975
+          ],
+          "size": [
+            62,
+            24
+          ],
+          "rotation_deg": -6,
+          "floors": 6,
+          "phase": "background",
+          "footprint": [
+            [
+              312.915,
+              966.306
+            ],
+            [
+              374.576,
+              959.825
+            ],
+            [
+              377.085,
+              983.694
+            ],
+            [
+              315.424,
+              990.175
+            ]
+          ],
+          "world_center": [
+            345,
+            975
+          ],
+          "world_footprint": [
+            [
+              312.915,
+              966.306
+            ],
+            [
+              374.576,
+              959.825
+            ],
+            [
+              377.085,
+              983.694
+            ],
+            [
+              315.424,
+              990.175
+            ]
+          ],
+          "formation_reason": "不同购地年代/朝向/退界的成熟公寓与配楼"
+        },
+        {
+          "id": "BG_W_03",
+          "region": "R03",
+          "center": [
+            410,
+            785
+          ],
+          "size": [
+            40,
+            22
+          ],
+          "rotation_deg": 10,
+          "floors": 3,
+          "phase": "background",
+          "footprint": [
+            [
+              392.214,
+              770.694
+            ],
+            [
+              431.606,
+              777.64
+            ],
+            [
+              427.786,
+              799.306
+            ],
+            [
+              388.394,
+              792.36
+            ]
+          ],
+          "world_center": [
+            410,
+            785
+          ],
+          "world_footprint": [
+            [
+              392.214,
+              770.694
+            ],
+            [
+              431.606,
+              777.64
+            ],
+            [
+              427.786,
+              799.306
+            ],
+            [
+              388.394,
+              792.36
+            ]
+          ],
+          "formation_reason": "不同购地年代/朝向/退界的成熟公寓与配楼"
+        },
+        {
+          "id": "BG_W_04",
+          "region": "R03",
+          "center": [
+            660,
+            970
+          ],
+          "size": [
+            34,
+            43
+          ],
+          "rotation_deg": 0,
+          "floors": 7,
+          "phase": "background",
+          "footprint": [
+            [
+              643,
+              948.5
+            ],
+            [
+              677,
+              948.5
+            ],
+            [
+              677,
+              991.5
+            ],
+            [
+              643,
+              991.5
+            ]
+          ],
+          "world_center": [
+            660,
+            970
+          ],
+          "world_footprint": [
+            [
+              643,
+              948.5
+            ],
+            [
+              677,
+              948.5
+            ],
+            [
+              677,
+              991.5
+            ],
+            [
+              643,
+              991.5
+            ]
+          ],
+          "formation_reason": "不同购地年代/朝向/退界的成熟公寓与配楼"
+        },
+        {
+          "id": "BG_W_05",
+          "region": "R03",
+          "center": [
+            430,
+            1235
+          ],
+          "size": [
+            55,
+            22
+          ],
+          "rotation_deg": -7,
+          "floors": 6,
+          "phase": "background",
+          "footprint": [
+            [
+              401.364,
+              1227.433
+            ],
+            [
+              455.954,
+              1220.731
+            ],
+            [
+              458.636,
+              1242.567
+            ],
+            [
+              404.046,
+              1249.269
+            ]
+          ],
+          "world_center": [
+            430,
+            1235
+          ],
+          "world_footprint": [
+            [
+              401.364,
+              1227.433
+            ],
+            [
+              455.954,
+              1220.731
+            ],
+            [
+              458.636,
+              1242.567
+            ],
+            [
+              404.046,
+              1249.269
+            ]
+          ],
+          "formation_reason": "分期购地成熟公寓或低配楼，不等朝向/退界"
+        },
+        {
+          "id": "BG_W_06",
+          "region": "R03",
+          "center": [
+            350,
+            1100
+          ],
+          "size": [
+            32,
+            44
+          ],
+          "rotation_deg": 8,
+          "floors": 5,
+          "phase": "background",
+          "footprint": [
+            [
+              337.218,
+              1075.987
+            ],
+            [
+              368.906,
+              1080.441
+            ],
+            [
+              362.782,
+              1124.013
+            ],
+            [
+              331.094,
+              1119.559
+            ]
+          ],
+          "world_center": [
+            350,
+            1100
+          ],
+          "world_footprint": [
+            [
+              337.218,
+              1075.987
+            ],
+            [
+              368.906,
+              1080.441
+            ],
+            [
+              362.782,
+              1124.013
+            ],
+            [
+              331.094,
+              1119.559
+            ]
+          ],
+          "formation_reason": "分期购地成熟公寓或低配楼，不等朝向/退界"
+        },
+        {
+          "id": "BG_W_07",
+          "region": "R03",
+          "center": [
+            650,
+            1120
+          ],
+          "size": [
+            52,
+            24
+          ],
+          "rotation_deg": -3,
+          "floors": 7,
+          "phase": "background",
+          "footprint": [
+            [
+              623.408,
+              1109.377
+            ],
+            [
+              675.336,
+              1106.656
+            ],
+            [
+              676.592,
+              1130.623
+            ],
+            [
+              624.664,
+              1133.344
+            ]
+          ],
+          "world_center": [
+            650,
+            1120
+          ],
+          "world_footprint": [
+            [
+              623.408,
+              1109.377
+            ],
+            [
+              675.336,
+              1106.656
+            ],
+            [
+              676.592,
+              1130.623
+            ],
+            [
+              624.664,
+              1133.344
+            ]
+          ],
+          "formation_reason": "分期购地成熟公寓或低配楼，不等朝向/退界"
+        }
+      ],
+      "count": 7
+    },
+    {
+      "id": "BG_E",
+      "region": "R04",
+      "name": "办公/裙房/旧库翼",
+      "phase": "background",
+      "instances": [
+        {
+          "id": "BG_E_01",
+          "region": "R04",
+          "center": [
+            2160,
+            1260
+          ],
+          "size": [
+            44,
+            52
+          ],
+          "rotation_deg": 0,
+          "floors": 12,
+          "phase": "background",
+          "footprint": [
+            [
+              2138,
+              1234
+            ],
+            [
+              2182,
+              1234
+            ],
+            [
+              2182,
+              1286
+            ],
+            [
+              2138,
+              1286
+            ]
+          ],
+          "world_center": [
+            2160,
+            1260
+          ],
+          "world_footprint": [
+            [
+              2138,
+              1234
+            ],
+            [
+              2182,
+              1234
+            ],
+            [
+              2182,
+              1286
+            ],
+            [
+              2138,
+              1286
+            ]
+          ],
+          "formation_reason": "大小不同更新地块，现代高楼与旧库翼混合"
+        },
+        {
+          "id": "BG_E_02",
+          "region": "R04",
+          "center": [
+            2140,
+            1160
+          ],
+          "size": [
+            62,
+            24
+          ],
+          "rotation_deg": 3,
+          "floors": 8,
+          "phase": "background",
+          "footprint": [
+            [
+              2109.671,
+              1146.394
+            ],
+            [
+              2171.586,
+              1149.639
+            ],
+            [
+              2170.329,
+              1173.606
+            ],
+            [
+              2108.414,
+              1170.361
+            ]
+          ],
+          "world_center": [
+            2140,
+            1160
+          ],
+          "world_footprint": [
+            [
+              2109.671,
+              1146.394
+            ],
+            [
+              2171.586,
+              1149.639
+            ],
+            [
+              2170.329,
+              1173.606
+            ],
+            [
+              2108.414,
+              1170.361
+            ]
+          ],
+          "formation_reason": "大小不同更新地块，现代高楼与旧库翼混合"
+        },
+        {
+          "id": "BG_E_03",
+          "region": "R04",
+          "center": [
+            2190,
+            970
+          ],
+          "size": [
+            40,
+            48
+          ],
+          "rotation_deg": 0,
+          "floors": 10,
+          "phase": "background",
+          "footprint": [
+            [
+              2170,
+              946
+            ],
+            [
+              2210,
+              946
+            ],
+            [
+              2210,
+              994
+            ],
+            [
+              2170,
+              994
+            ]
+          ],
+          "world_center": [
+            2190,
+            970
+          ],
+          "world_footprint": [
+            [
+              2170,
+              946
+            ],
+            [
+              2210,
+              946
+            ],
+            [
+              2210,
+              994
+            ],
+            [
+              2170,
+              994
+            ]
+          ],
+          "formation_reason": "大小不同更新地块，现代高楼与旧库翼混合"
+        },
+        {
+          "id": "BG_E_04",
+          "region": "R04",
+          "center": [
+            2040,
+            820
+          ],
+          "size": [
+            58,
+            28
+          ],
+          "rotation_deg": -8,
+          "floors": 6,
+          "phase": "background",
+          "footprint": [
+            [
+              2009.334,
+              810.172
+            ],
+            [
+              2066.769,
+              802.1
+            ],
+            [
+              2070.666,
+              829.828
+            ],
+            [
+              2013.231,
+              837.9
+            ]
+          ],
+          "world_center": [
+            2040,
+            820
+          ],
+          "world_footprint": [
+            [
+              2009.334,
+              810.172
+            ],
+            [
+              2066.769,
+              802.1
+            ],
+            [
+              2070.666,
+              829.828
+            ],
+            [
+              2013.231,
+              837.9
+            ]
+          ],
+          "formation_reason": "大小不同更新地块，现代高楼与旧库翼混合"
+        },
+        {
+          "id": "BG_E_05",
+          "region": "R04",
+          "center": [
+            2120,
+            870
+          ],
+          "size": [
+            30,
+            48
+          ],
+          "rotation_deg": 0,
+          "floors": 11,
+          "phase": "background",
+          "footprint": [
+            [
+              2105,
+              846
+            ],
+            [
+              2135,
+              846
+            ],
+            [
+              2135,
+              894
+            ],
+            [
+              2105,
+              894
+            ]
+          ],
+          "world_center": [
+            2120,
+            870
+          ],
+          "world_footprint": [
+            [
+              2105,
+              846
+            ],
+            [
+              2135,
+              846
+            ],
+            [
+              2135,
+              894
+            ],
+            [
+              2105,
+              894
+            ]
+          ],
+          "formation_reason": "大小不同更新地块，现代高楼与旧库翼混合"
+        }
+      ],
+      "count": 5
+    },
+    {
+      "id": "BG_G",
+      "region": "R07",
+      "name": "庭院私宅",
+      "phase": "future",
+      "instances": [
+        {
+          "id": "BG_G_01",
+          "region": "R07",
+          "center": [
+            1730,
+            1640
+          ],
+          "size": [
+            40,
+            28
+          ],
+          "rotation_deg": -12,
+          "floors": 2,
+          "phase": "future",
+          "footprint": [
+            [
+              1707.526,
+              1630.464
+            ],
+            [
+              1746.652,
+              1622.148
+            ],
+            [
+              1752.474,
+              1649.536
+            ],
+            [
+              1713.348,
+              1657.852
+            ]
+          ],
+          "world_center": [
+            1730,
+            1640
+          ],
+          "world_footprint": [
+            [
+              1707.526,
+              1630.464
+            ],
+            [
+              1746.652,
+              1622.148
+            ],
+            [
+              1752.474,
+              1649.536
+            ],
+            [
+              1713.348,
+              1657.852
+            ]
+          ],
+          "formation_reason": "顺坡院墙和大退界，私人庭院不开放"
+        },
+        {
+          "id": "BG_G_02",
+          "region": "R07",
+          "center": [
+            1810,
+            1660
+          ],
+          "size": [
+            34,
+            24
+          ],
+          "rotation_deg": -9,
+          "floors": 2,
+          "phase": "future",
+          "footprint": [
+            [
+              1791.332,
+              1650.807
+            ],
+            [
+              1824.913,
+              1645.488
+            ],
+            [
+              1828.668,
+              1669.193
+            ],
+            [
+              1795.087,
+              1674.512
+            ]
+          ],
+          "world_center": [
+            1810,
+            1660
+          ],
+          "world_footprint": [
+            [
+              1791.332,
+              1650.807
+            ],
+            [
+              1824.913,
+              1645.488
+            ],
+            [
+              1828.668,
+              1669.193
+            ],
+            [
+              1795.087,
+              1674.512
+            ]
+          ],
+          "formation_reason": "顺坡院墙和大退界，私人庭院不开放"
+        },
+        {
+          "id": "BG_G_03",
+          "region": "R07",
+          "center": [
+            2040,
+            1720
+          ],
+          "size": [
+            38,
+            25
+          ],
+          "rotation_deg": 7,
+          "floors": 2,
+          "phase": "future",
+          "footprint": [
+            [
+              2022.665,
+              1705.278
+            ],
+            [
+              2060.382,
+              1709.909
+            ],
+            [
+              2057.335,
+              1734.722
+            ],
+            [
+              2019.618,
+              1730.091
+            ]
+          ],
+          "world_center": [
+            2040,
+            1720
+          ],
+          "world_footprint": [
+            [
+              2022.665,
+              1705.278
+            ],
+            [
+              2060.382,
+              1709.909
+            ],
+            [
+              2057.335,
+              1734.722
+            ],
+            [
+              2019.618,
+              1730.091
+            ]
+          ],
+          "formation_reason": "顺坡院墙和大退界，私人庭院不开放"
+        },
+        {
+          "id": "BG_G_04",
+          "region": "R07",
+          "center": [
+            2110,
+            1790
+          ],
+          "size": [
+            35,
+            27
+          ],
+          "rotation_deg": -10,
+          "floors": 2,
+          "phase": "future",
+          "footprint": [
+            [
+              2090.422,
+              1779.744
+            ],
+            [
+              2124.89,
+              1773.666
+            ],
+            [
+              2129.578,
+              1800.256
+            ],
+            [
+              2095.11,
+              1806.334
+            ]
+          ],
+          "world_center": [
+            2110,
+            1790
+          ],
+          "world_footprint": [
+            [
+              2090.422,
+              1779.744
+            ],
+            [
+              2124.89,
+              1773.666
+            ],
+            [
+              2129.578,
+              1800.256
+            ],
+            [
+              2095.11,
+              1806.334
+            ]
+          ],
+          "formation_reason": "顺坡院墙和大退界，私人庭院不开放"
+        },
+        {
+          "id": "BG_G_05",
+          "region": "R07",
+          "center": [
+            1780,
+            1810
+          ],
+          "size": [
+            34,
+            24
+          ],
+          "rotation_deg": -8,
+          "floors": 2,
+          "phase": "future",
+          "footprint": [
+            [
+              1761.495,
+              1800.483
+            ],
+            [
+              1795.164,
+              1795.751
+            ],
+            [
+              1798.505,
+              1819.517
+            ],
+            [
+              1764.836,
+              1824.249
+            ]
+          ],
+          "world_center": [
+            1780,
+            1810
+          ],
+          "world_footprint": [
+            [
+              1761.495,
+              1800.483
+            ],
+            [
+              1795.164,
+              1795.751
+            ],
+            [
+              1798.505,
+              1819.517
+            ],
+            [
+              1764.836,
+              1824.249
+            ]
+          ],
+          "formation_reason": "顺坡院墙和大退界，私人庭院不开放"
+        }
+      ],
+      "count": 5
+    }
+  ],
+  "routes": [
+    {
+      "id": "home_gate",
+      "region": "R02",
+      "name": "家→校门",
+      "points": [
+        [
+          268.457,
+          253.078
+        ],
+        [
+          295,
+          260
+        ],
+        [
+          310,
+          300
+        ],
+        [
+          310,
+          370
+        ],
+        [
+          309.094,
+          400
+        ]
+      ],
+      "height_change_m_candidate": 8,
+      "note": "校园台地比家巷候选高8m，未实测坡度",
+      "plan_length_m": 170.2,
+      "estimate_note": "只对本区米制底稿计算二维折线，未验证游戏速度/楼梯/切图/旅行耗时；世界示意DU不换算米或分钟"
+    },
+    {
+      "id": "gate_class",
+      "region": "R01",
+      "name": "校门→鞋柜→教室投影",
+      "points": [
+        [
+          100,
+          0
+        ],
+        [
+          100,
+          25
+        ],
+        [
+          125,
+          40
+        ],
+        [
+          125,
+          51
+        ],
+        [
+          125,
+          65
+        ],
+        [
+          145,
+          65
+        ]
+      ],
+      "height_change_m_candidate": 4,
+      "note": "二层+4m候选，未计楼梯步长",
+      "plan_length_m": 99.2,
+      "estimate_note": "只对本区米制底稿计算二维折线，未验证游戏速度/楼梯/切图/旅行耗时；世界示意DU不换算米或分钟"
+    },
+    {
+      "id": "teach_library",
+      "region": "R01",
+      "name": "公共走廊→后门→图书室",
+      "points": [
+        [
+          190,
+          65
+        ],
+        [
+          190,
+          79
+        ],
+        [
+          193,
+          120
+        ],
+        [
+          194,
+          133
+        ],
+        [
+          164,
+          135
+        ],
+        [
+          163.977,
+          140.034
+        ]
+      ],
+      "height_change_m_candidate": 0,
+      "plan_length_m": 103.2,
+      "estimate_note": "只对本区米制底稿计算二维折线，未验证游戏速度/楼梯/切图/旅行耗时；世界示意DU不换算米或分钟"
+    },
+    {
+      "id": "teach_sport",
+      "region": "R01",
+      "name": "公共走廊→体育入口",
+      "points": [
+        [
+          190,
+          65
+        ],
+        [
+          250,
+          65
+        ],
+        [
+          263,
+          65
+        ],
+        [
+          267,
+          90
+        ]
+      ],
+      "height_change_m_candidate": 0,
+      "plan_length_m": 98.3,
+      "estimate_note": "只对本区米制底稿计算二维折线，未验证游戏速度/楼梯/切图/旅行耗时；世界示意DU不换算米或分钟"
+    },
+    {
+      "id": "gate_shop_home",
+      "region": "R02",
+      "name": "校门→便利店/书店→家",
+      "points": [
+        [
+          309.094,
+          400
+        ],
+        [
+          310,
+          370
+        ],
+        [
+          365,
+          370
+        ],
+        [
+          385,
+          305
+        ],
+        [
+          365,
+          260
+        ],
+        [
+          352.765,
+          258.785
+        ],
+        [
+          365,
+          260
+        ],
+        [
+          364,
+          251
+        ],
+        [
+          360,
+          215
+        ],
+        [
+          345,
+          190.625
+        ],
+        [
+          337.335,
+          195.342
+        ],
+        [
+          345,
+          190.625
+        ],
+        [
+          360,
+          215
+        ],
+        [
+          345,
+          235
+        ],
+        [
+          310,
+          220
+        ],
+        [
+          295,
+          260
+        ],
+        [
+          268.457,
+          253.078
+        ]
+      ],
+      "height_change_m_candidate": -8,
+      "note": "店门短支进出计入，不含跨图/停留/等待",
+      "plan_length_m": 480.6,
+      "estimate_note": "只对本区米制底稿计算二维折线，未验证游戏速度/楼梯/切图/旅行耗时；世界示意DU不换算米或分钟"
+    },
+    {
+      "id": "loopA",
+      "region": "R02",
+      "name": "主学生生活圈",
+      "points": [
+        [
+          268.457,
+          253.078
+        ],
+        [
+          295,
+          260
+        ],
+        [
+          310,
+          300
+        ],
+        [
+          310,
+          370
+        ],
+        [
+          309.094,
+          400
+        ],
+        [
+          310,
+          370
+        ],
+        [
+          365,
+          370
+        ],
+        [
+          385,
+          305
+        ],
+        [
+          365,
+          260
+        ],
+        [
+          364,
+          251
+        ],
+        [
+          360,
+          215
+        ],
+        [
+          345,
+          235
+        ],
+        [
+          310,
+          220
+        ],
+        [
+          295,
+          260
+        ],
+        [
+          268.457,
+          253.078
+        ]
+      ],
+      "height_change_m_candidate": 0,
+      "plan_length_m": 550.9,
+      "estimate_note": "只对本区米制底稿计算二维折线，未验证游戏速度/楼梯/切图/旅行耗时；世界示意DU不换算米或分钟"
+    },
+    {
+      "id": "loopB",
+      "region": "R02",
+      "name": "井台/贸易/渠边可选慢圈",
+      "points": [
+        [
+          285,
+          210
+        ],
+        [
+          310,
+          220
+        ],
+        [
+          345,
+          235
+        ],
+        [
+          360,
+          215
+        ],
+        [
+          345,
+          190.625
+        ],
+        [
+          327,
+          161.375
+        ],
+        [
+          320,
+          150
+        ],
+        [
+          310,
+          130
+        ],
+        [
+          285,
+          80
+        ],
+        [
+          255,
+          140
+        ],
+        [
+          240,
+          200
+        ],
+        [
+          275,
+          200
+        ],
+        [
+          285,
+          210
+        ]
+      ],
+      "height_change_m_candidate": 0,
+      "plan_length_m": 422.7,
+      "estimate_note": "只对本区米制底稿计算二维折线，未验证游戏速度/楼梯/切图/旅行耗时；世界示意DU不换算米或分钟"
+    }
+  ],
+  "history_nodes": [
+    {
+      "id": "HN1",
+      "name": "旧桥头",
+      "at": [
+        1430,
+        730
+      ],
+      "past": "河运集散、跨河交通",
+      "boundary_effect": "旧贸易路偏斜起点与桥头不等大地块",
+      "today": "旧桥基观水台、河运坡道和树荫停留",
+      "old_at": [
+        550,
+        280
+      ],
+      "coordinates": "world_schematic_du"
+    },
+    {
+      "id": "HN2",
+      "name": "染织工坊",
+      "at": [
+        1115.597,
+        810.702
+      ],
+      "past": "用水/卸货/交易节点",
+      "boundary_effect": "窄面深进前店后院、后巷斜向",
+      "today": "B04工坊改咖啡、B05手艺店，柜台后场和后门",
+      "old_at": [
+        695.87,
+        383.16
+      ],
+      "coordinates": "world_schematic_du"
+    },
+    {
+      "id": "HN3",
+      "name": "井台/泉渠",
+      "at": [
+        1063.5,
+        911
+      ],
+      "past": "住宅共用取水点与水道维护",
+      "boundary_effect": "斜巷、短横巷和不等大私院边界",
+      "today": "邻里井台长凳与小花槽，通学出口",
+      "old_at": [
+        580,
+        470
+      ],
+      "coordinates": "world_schematic_du"
+    },
+    {
+      "id": "HN4",
+      "name": "旧校院",
+      "at": [
+        1110.8,
+        1368
+      ],
+      "past": "水源附近的教育院落",
+      "boundary_effect": "旧轴-7度，新教学按台地整治线扩建",
+      "today": "泉院午休、安静角、每日回廊中的旧校钟",
+      "old_at": [
+        770,
+        740
+      ],
+      "coordinates": "world_schematic_du"
+    },
+    {
+      "id": "HN5",
+      "name": "配水坡/青帽塔",
+      "at": [
+        870,
+        1400
+      ],
+      "past": "早期泉源维护坡，后来公共配水设施",
+      "boundary_effect": "旧维护道绕设施基座、台地挡墙",
+      "today": "公共坡地公园、水槽、长凳与塔共同地标",
+      "old_at": [
+        630,
+        745
+      ],
+      "coordinates": "world_schematic_du"
+    }
+  ],
+  "character_reference": {
+    "direction": "最新认可Q版像素高中生；单帧128×128，仅角色限制",
+    "approved_file": null,
+    "note": "仓库未找到认可角色图；不退回高头身，不宣称人物比例已核验"
+  },
+  "unverified": [
+    "UE导航与地图切换",
+    "30°/25–40°旋转镜头",
+    "坡度/净空/容量/水力",
+    "实际步行耗时及旅行规则"
+  ],
+  "campus": {
+    "region": "R01",
+    "bounds": [
+      0,
+      0,
+      360,
+      320
+    ],
+    "gate": [
+      100,
+      0
+    ],
+    "shoe_entry": [
+      125,
+      51
+    ],
+    "hall_hub": [
+      190,
+      65
+    ],
+    "classroom": [
+      145,
+      65
+    ],
+    "floor": 2,
+    "stair_projection": [
+      125,
+      65
+    ],
+    "height_change_m_candidate": 4,
+    "backdoor": [
+      190,
+      79
+    ],
+    "features": [
+      {
+        "id": "FG",
+        "name": "校门前庭/公告",
+        "bounds": [
+          70,
+          8,
+          142,
+          40
+        ],
+        "access": "school_controlled",
+        "tier": "optional"
+      },
+      {
+        "id": "CQ",
+        "name": "泉院/旧钟回廊",
+        "bounds": [
+          97,
+          125,
+          125,
+          185
+        ],
+        "access": "school_controlled",
+        "tier": "optional"
+      },
+      {
+        "id": "STORY",
+        "name": "旧校史院与文化私密角",
+        "bounds": [
+          96,
+          205,
+          122,
+          219
+        ],
+        "access": "school_controlled_future",
+        "tier": "story"
+      },
+      {
+        "id": "FIELD",
+        "name": "非标准体育训练场",
+        "bounds": [
+          208,
+          225,
+          348,
+          310
+        ],
+        "access": "school_controlled",
+        "tier": "daily"
+      },
+      {
+        "id": "LUNCH",
+        "name": "食堂短檐午休边缘",
+        "bounds": [
+          135,
+          87,
+          175,
+          99
+        ],
+        "access": "school_controlled_future",
+        "tier": "optional"
+      }
+    ],
+    "tiers": {
+      "daily": [
+        "C01",
+        "C03",
+        "C08",
+        "FIELD"
+      ],
+      "optional": [
+        "CQ",
+        "FG",
+        "LUNCH",
+        "图书窗边"
+      ],
+      "story": [
+        "C02",
+        "C06",
+        "C05",
+        "STORY"
+      ]
+    }
+  },
+  "future_connections": [
+    {
+      "id": "F05_NE",
+      "region": "R05",
+      "exit": [
+        2700,
+        1810
+      ],
+      "direction": "NE",
+      "modes": [
+        "rail"
+      ],
+      "destination": "外地/未来都市组团"
+    },
+    {
+      "id": "F08_N",
+      "region": "R08",
+      "exit": [
+        1370,
+        2110
+      ],
+      "direction": "N",
+      "modes": [
+        "walk"
+      ],
+      "destination": "未来山地特色图"
+    },
+    {
+      "id": "F09_SW",
+      "region": "R09",
+      "exit": [
+        770,
+        220
+      ],
+      "direction": "SW",
+      "modes": [
+        "walk",
+        "cycle_on_public_coastal_road"
+      ],
+      "destination": "未来南岸特色图"
+    }
+  ],
+  "rail": {
+    "region": "R05",
+    "world_points": [
+      [
+        2500,
+        940
+      ],
+      [
+        2500,
+        1190
+      ],
+      [
+        2590,
+        1370
+      ],
+      [
+        2520,
+        1490
+      ],
+      [
+        2660,
+        1690
+      ],
+      [
+        2700,
+        1810
+      ]
+    ],
+    "note": "东外缘东北离城；不穿R01/R02/湖岸/沙滩，未来城轨仅预留一个节点"
+  },
+  "bridges": [
+    {
+      "id": "BR_OLD",
+      "path": [
+        [
+          1450,
+          730
+        ],
+        [
+          1680,
+          730
+        ]
+      ],
+      "width": 8,
+      "name": "旧桥/桥基座位",
+      "modes": [
+        "walk",
+        "cycle"
+      ]
+    },
+    {
+      "id": "BR_NEW",
+      "path": [
+        [
+          1600,
+          911
+        ],
+        [
+          1710,
+          911
+        ]
+      ],
+      "width": 18,
+      "name": "现代公共桥",
+      "modes": [
+        "walk",
+        "cycle",
+        "bus"
+      ]
+    },
+    {
+      "id": "BR_CREEK",
+      "path": [
+        [
+          1515,
+          1760
+        ],
+        [
+          1600,
+          1760
+        ]
+      ],
+      "width": 6,
+      "name": "上游溪桥",
+      "modes": [
+        "walk",
+        "cycle_on_gentle_path"
+      ]
+    }
+  ],
+  "parcels": [
+    {
+      "id": "PRIVATE_HOME",
+      "owner": "B01",
+      "region": "R02",
+      "access": "private",
+      "polygon": [
+        [
+          252.358,
+          234.448
+        ],
+        [
+          275.85,
+          242.999
+        ],
+        [
+          267.642,
+          265.552
+        ],
+        [
+          244.15,
+          257.001
+        ]
+      ],
+      "world_polygon": [
+        [
+          1027.594,
+          937.893
+        ],
+        [
+          1053.435,
+          947.299
+        ],
+        [
+          1044.406,
+          972.107
+        ],
+        [
+          1018.565,
+          962.701
+        ]
+      ]
+    },
+    {
+      "id": "CAFE_BACK",
+      "owner": "B04",
+      "region": "R02",
+      "access": "private_workyard",
+      "polygon": [
+        [
+          316.027,
+          154.038
+        ],
+        [
+          328.605,
+          174.477
+        ],
+        [
+          295.39,
+          194.917
+        ],
+        [
+          282.812,
+          174.477
+        ]
+      ],
+      "world_polygon": [
+        [
+          1097.63,
+          849.442
+        ],
+        [
+          1111.466,
+          871.925
+        ],
+        [
+          1074.929,
+          894.409
+        ],
+        [
+          1061.093,
+          871.925
+        ]
+      ]
+    },
+    {
+      "id": "PRIVATE_GARDEN",
+      "owner": "B41",
+      "region": "R07",
+      "access": "private",
+      "polygon": [
+        [
+          1898.729,
+          1681.892
+        ],
+        [
+          1972.589,
+          1668.868
+        ],
+        [
+          1981.271,
+          1718.108
+        ],
+        [
+          1907.411,
+          1731.132
+        ]
+      ],
+      "world_polygon": [
+        [
+          1898.729,
+          1681.892
+        ],
+        [
+          1972.589,
+          1668.868
+        ],
+        [
+          1981.271,
+          1718.108
+        ],
+        [
+          1907.411,
+          1731.132
+        ]
+      ]
+    }
+  ],
+  "background_count": 35,
+  "terrain": {
+    "candidate_local_height_m": {
+      "home_lane": 16,
+      "campus_terrace": 24,
+      "waterworks_park": 32,
+      "north_garden": 48,
+      "shrine": 56,
+      "riverbank": 5,
+      "bay": 0
+    },
+    "mountain_lake": "只做峰线/湖盆及河流关系，不从示意图推算高程或水力",
+    "status": "candidate_not_engineered"
+  }
+}
