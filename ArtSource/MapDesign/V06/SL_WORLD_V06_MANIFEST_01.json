@@ -1,0 +1,117 @@
+{
+  "version": "V06",
+  "date": "2026-10-08",
+  "scope": "assets_except_this_manifest",
+  "original_byte_copy": true,
+  "files": [
+    {
+      "path": "Originals/SL_WORLD_V06_CANDIDATE_01.png",
+      "bytes": 3096355,
+      "sha256": "16d2e4e37fbf69940fa627886929b098c5d80b84b22584bf2f007611b4d1fbe3",
+      "format": "png",
+      "width": 1374,
+      "height": 1145,
+      "has_alpha": false
+    },
+    {
+      "path": "README.md",
+      "bytes": 2749,
+      "sha256": "7384f18e18291d343ec3016d7319616450a1aa2a1ff1287555932bde39a1de51"
+    },
+    {
+      "path": "SL_WORLD_V06_ANNOTATED_01.png",
+      "bytes": 4989209,
+      "sha256": "16a132dff96f19d944b36ca93aa9c566a9b3ee1af1b03580546d3a6a2ef902cf",
+      "format": "png",
+      "width": 2880,
+      "height": 2200,
+      "has_alpha": false
+    },
+    {
+      "path": "SL_WORLD_V06_ANNOTATED_01.svg",
+      "bytes": 44331,
+      "sha256": "9855d035d85046e33bc5ae68142d7c5259aeb03cf099c2e8e6cd60db0ef35f33"
+    },
+    {
+      "path": "SL_WORLD_V06_CHECK_01.json",
+      "bytes": 6219,
+      "sha256": "a178637a7464c47365bef20747c5393a8519c81ee5bb881c5c07bb6be05b785b"
+    },
+    {
+      "path": "SL_WORLD_V06_GENERATION_01.json",
+      "bytes": 1794,
+      "sha256": "c77a021cb6cc4abf8bb8899f1a72bb65fa5dc022e172c05aa0276a0a7b943acf"
+    },
+    {
+      "path": "SL_WORLD_V06_INPUT_01.png",
+      "bytes": 623505,
+      "sha256": "0af5181e6026052bd2cb3b32684a5be74f89100d34676c6c0a7f03df8a30a9e5",
+      "format": "png",
+      "width": 3072,
+      "height": 2560,
+      "has_alpha": false
+    },
+    {
+      "path": "SL_WORLD_V06_INPUT_RECORD_01.json",
+      "bytes": 713,
+      "sha256": "cabbdbeaf4fe4242baf4ea120e8138489fd932a3a495cd1c641574c2e1996c83"
+    },
+    {
+      "path": "SL_WORLD_V06_LAYOUT_01.json",
+      "bytes": 337934,
+      "sha256": "4b5330226fa455b64eebcacadecd9cdb2a6812ee919c4b4e32fd61faef6997fa"
+    },
+    {
+      "path": "SL_WORLD_V06_LAYOUT_AT_GENERATION_01.json",
+      "bytes": 337934,
+      "sha256": "4b5330226fa455b64eebcacadecd9cdb2a6812ee919c4b4e32fd61faef6997fa"
+    },
+    {
+      "path": "SL_WORLD_V06_LIFE_ECONOMY_01.png",
+      "bytes": 1015972,
+      "sha256": "837da4463d3896884b20426e097b634834db0860f1bc05fb553814f5e05480be",
+      "format": "png",
+      "width": 3072,
+      "height": 2560,
+      "has_alpha": false
+    },
+    {
+      "path": "SL_WORLD_V06_LIFE_ECONOMY_01.svg",
+      "bytes": 89844,
+      "sha256": "c0189931c7a8158f0039d2ea601ff7dea834b0451600944a19400abd6be4d591"
+    },
+    {
+      "path": "SL_WORLD_V06_PLAN_01.png",
+      "bytes": 902646,
+      "sha256": "4e1f49cc6650d8138c6d861e7c013ae73de7a043d1cc75a8c4dd383a7674890f",
+      "format": "png",
+      "width": 3072,
+      "height": 2560,
+      "has_alpha": false
+    },
+    {
+      "path": "SL_WORLD_V06_PLAN_01.svg",
+      "bytes": 71933,
+      "sha256": "f5e0d5b9c5778f10e01e53ba60793d1888a2e6e2024ae135c0031f30af60173c"
+    },
+    {
+      "path": "SL_WORLD_V06_PROMPT_01.md",
+      "bytes": 8435,
+      "sha256": "6d25600530067d1cf4f227db1b3fa8b6c26fed9f2fbc53198e0e3c8375f1c239"
+    },
+    {
+      "path": "SL_WORLD_V06_REFERENCE_01.png",
+      "bytes": 623505,
+      "sha256": "0af5181e6026052bd2cb3b32684a5be74f89100d34676c6c0a7f03df8a30a9e5",
+      "format": "png",
+      "width": 3072,
+      "height": 2560,
+      "has_alpha": false
+    },
+    {
+      "path": "SL_WORLD_V06_REFERENCE_01.svg",
+      "bytes": 53128,
+      "sha256": "f5c5b439c9e73a137bcf76777c3beab8c34e116f2142586fb2302b3ddba16270"
+    }
+  ]
+}

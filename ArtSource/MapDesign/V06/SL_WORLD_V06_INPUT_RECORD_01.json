@@ -1,0 +1,21 @@
+{
+  "version": "V06",
+  "revision": "01",
+  "tool": "image_gen.imagegen",
+  "entry": "直接内置生图，沿用V05已核验渠道",
+  "model_id": null,
+  "model_unknown": "接口不暴露具体模型",
+  "attempt": 1,
+  "target_size": [
+    3072,
+    2560
+  ],
+  "input": "SL_WORLD_V06_INPUT_01.png",
+  "input_sha256": "0af5181e6026052bd2cb3b32684a5be74f89100d34676c6c0a7f03df8a30a9e5",
+  "layout": "SL_WORLD_V06_LAYOUT_AT_GENERATION_01.json",
+  "layout_sha256": "4b5330226fa455b64eebcacadecd9cdb2a6812ee919c4b4e32fd61faef6997fa",
+  "prompt": "SL_WORLD_V06_PROMPT_01.md",
+  "prompt_sha256": "6d25600530067d1cf4f227db1b3fa8b6c26fed9f2fbc53198e0e3c8375f1c239",
+  "character_file": null,
+  "background": "opaque"
+}

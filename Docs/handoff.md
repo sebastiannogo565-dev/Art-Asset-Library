@@ -1,4 +1,19 @@
-# 交接入口 · 当前V05
+# 交接入口 · 当前V06
+
+## V06 当前交付（2026-10-08）
+
+[V06正文](MapDesign/V06/README.md) · [世界图](../ArtSource/MapDesign/V06/SL_WORLD_V06_PLAN_01.png) · [生活经济图](../ArtSource/MapDesign/V06/SL_WORLD_V06_LIFE_ECONOMY_01.png) · [唯一候选](../ArtSource/MapDesign/V06/Originals/SL_WORLD_V06_CANDIDATE_01.png) · [标注SVG](../ArtSource/MapDesign/V06/SL_WORLD_V06_ANNOTATED_01.svg)。
+
+接续先读[建筑/复用用途](MapDesign/V06/building-index.md)、[生活经济与六住户](MapDesign/V06/life-economy.md)、[连接/交通](MapDesign/V06/connections-transport.md)、[容量](MapDesign/V06/capacity-assumptions.md)、[偏差/验收](MapDesign/V06/review.md)，源文件在[V06图稿索引](../ArtSource/MapDesign/V06/README.md)。
+
+V05九区骨架、27重要ID/阶段/功能、35背景足迹、校园八组不变；24复用用途与成人就业/全年客源、53接入/5公共前场/8后勤接驳点、六住户40段补清。世界DU非米，不以住房示例推人口；3背景体量层数调整。小学初中/大型处理配送图外方向待定。西区采购仍绕行、退休依赖未来支线，未声称通勤舒适性通过。
+
+一次内置image_gen，原图1374×1145 RGB不透明PNG、未达目标，字节SHA一致。标注2880×2200原图1:1；额外桥/伸海步道/用途错位记录，不采纳错误为布局。模型标识未返回，字段null；参考/提示词/布局冻结记录完整，无生图后底稿变更。
+
+认可人物图未找到；Q版128×128仅方向。坡度/容量/水力/镜头/导航/游戏耗时/运营待验证。没有建模/UE/交通开发。下一步只用户审阅，通过后另行安排家巷口—校前街—校门HD2D样板。Git/LFS正常同步结果收尾记录追加，保留原无关三脚本。
+
+## V05及更早交接（保留）
+
 
 更新2026-10-08。当前为V05底稿01与唯一候选01，停止供审阅。
 

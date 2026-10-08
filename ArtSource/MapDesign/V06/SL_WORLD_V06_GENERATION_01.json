@@ -1,0 +1,49 @@
+{
+  "version": "V06",
+  "revision": "01",
+  "tool": "image_gen.imagegen",
+  "entry": "直接内置生图，沿用V05已核验渠道",
+  "model_id": null,
+  "model_unknown": "接口不暴露具体模型",
+  "attempt": 1,
+  "target_size": [
+    3072,
+    2560
+  ],
+  "input": "SL_WORLD_V06_INPUT_01.png",
+  "input_sha256": "0af5181e6026052bd2cb3b32684a5be74f89100d34676c6c0a7f03df8a30a9e5",
+  "layout": "SL_WORLD_V06_LAYOUT_AT_GENERATION_01.json",
+  "layout_sha256": "4b5330226fa455b64eebcacadecd9cdb2a6812ee919c4b4e32fd61faef6997fa",
+  "prompt": "SL_WORLD_V06_PROMPT_01.md",
+  "prompt_sha256": "6d25600530067d1cf4f227db1b3fa8b6c26fed9f2fbc53198e0e3c8375f1c239",
+  "character_file": null,
+  "background": "opaque",
+  "date": "2026-10-08",
+  "attempts": 1,
+  "model_version": null,
+  "task_id": null,
+  "cost": null,
+  "unknown_reason": "工具只返回image_url和output_hint，不猜测模型/计费标识",
+  "original_saved": "Originals/SL_WORLD_V06_CANDIDATE_01.png",
+  "original_download": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-3e0dd5c2-b2a8-4c1d-b9e4-ef2d0ba92d88.png",
+  "native_size": [
+    1374,
+    1145
+  ],
+  "actual_format": "png",
+  "channels": 3,
+  "has_alpha": false,
+  "opaque": true,
+  "target_reached": false,
+  "original_sha256": "16d2e4e37fbf69940fa627886929b098c5d80b84b22584bf2f007611b4d1fbe3",
+  "saved_sha256": "16d2e4e37fbf69940fa627886929b098c5d80b84b22584bf2f007611b4d1fbe3",
+  "byte_copy_identical": true,
+  "processing": "原图复制字节不重编码/裁切/插值；标注页新增矢量索引与定位面板，原图保持1:1",
+  "annotated_canvas": [
+    2880,
+    2200
+  ],
+  "reference_revision_after_generation": "none",
+  "review": "../../../Docs/MapDesign/V06/review.md",
+  "stop": "once_generated_user_review"
+}

@@ -1,0 +1,374 @@
+{
+  "nodes": 306,
+  "reachable_nodes": 306,
+  "targets": [
+    {
+      "id": "B01",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "B02",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "B03",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "B04",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "B05",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "B06",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "B07",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "B09",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "B10",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "B11",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "B12",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "B20",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "B21",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "B22",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "B30",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "B31",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "B32",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "B40",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "B41",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "C01",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "C02",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "C03",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "C04",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "C05",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "C06",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "C07",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "C08",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E02_N",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E01_S",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E02_W",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E03_E",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E02_E",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E04_W",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E04_E",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E05_W",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E02_NW",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E06_S",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E06_N",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E08_SW",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E07_NE",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E08_SE",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E06_E",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E07_W",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E02_S",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E09_N",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E04_SW",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E09_E",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E03_NE",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E06_SW",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E03_S",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E09_W",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E01_E",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "E02_NE",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "S01",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "S02",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "S03",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "S04",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "S05",
+      "reachable": true,
+      "on_path": true
+    },
+    {
+      "id": "S06",
+      "reachable": true,
+      "on_path": true
+    }
+  ],
+  "publicCampus": [],
+  "railCore": false,
+  "busInCampus": false,
+  "busOff": [],
+  "stopOrder": [
+    {
+      "id": "S01",
+      "along_schematic_du": 0
+    },
+    {
+      "id": "S02",
+      "along_schematic_du": 424.84337159801606
+    },
+    {
+      "id": "S03",
+      "along_schematic_du": 545.8433715980161
+    },
+    {
+      "id": "S04",
+      "along_schematic_du": 790.9245803801018
+    },
+    {
+      "id": "S05",
+      "along_schematic_du": 1775.688130540828
+    },
+    {
+      "id": "S06",
+      "along_schematic_du": 2095.688130540828
+    }
+  ],
+  "method": "二维交点分裂BFS；世界DU只用于纸面连通，不是米制旅行时间/UE导航",
+  "version": "V06",
+  "geometry_errors": [],
+  "household_loops": [
+    {
+      "id": "HH01",
+      "closed": true,
+      "all_legs_connected": true,
+      "legs": 6
+    },
+    {
+      "id": "HH02",
+      "closed": true,
+      "all_legs_connected": true,
+      "legs": 4
+    },
+    {
+      "id": "HH03",
+      "closed": true,
+      "all_legs_connected": true,
+      "legs": 12
+    },
+    {
+      "id": "HH04",
+      "closed": true,
+      "all_legs_connected": true,
+      "legs": 4
+    },
+    {
+      "id": "HH05",
+      "closed": true,
+      "all_legs_connected": true,
+      "legs": 4
+    },
+    {
+      "id": "HH06",
+      "closed": true,
+      "all_legs_connected": true,
+      "legs": 10
+    }
+  ],
+  "major_geometry_preserved": true,
+  "bicycle_display_objects": 0
+}
