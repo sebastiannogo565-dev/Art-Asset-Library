@@ -10,7 +10,7 @@
 
 ## 目录与入口
 
-当前成果：[澄坂市V03整体设计](Docs/MapDesign/V03/README.md)，1280×1080m候选、八组校园、27重要建筑与51背景体量，以及一张整城概念候选。真实原图1374×1145，偏差单独记录；V02保留。源文件位于ArtSource/MapDesign/V03/，Originals/保留原图。
+当前成果：[澄坂市V04生长史修订](Docs/MapDesign/V04/README.md)，1280×1080m、八组分期校园、27重要建筑与46背景体量，一张整城候选。定尺3072×2560，真实原图1374×1145；修订01b与实际参考快照分别保留。V02/V03不覆盖。源文件ArtSource/MapDesign/V04/，Originals/保留原下载字节。
 
 ```text
 Docs/
@@ -39,7 +39,7 @@ ArtApproved/           预留：经用户认可的素材；当前未创建或导
 - 原有三个 Python 帮助脚本保留未跟踪，不属于本轮成果。
 - `.gitignore` 排除缓存、临时导出、日志、凭据与本地配置；不要把 API Key 写进正文、提示词或图稿。
 - PSD、Blend、FBX、GLB、EXR、TIFF 使用 LFS；大型 PNG/JPG 按实际文件另配 LFS。设计稿、提示词、认可素材和必要源文件保留历史。
-- V02与V03原图/标注预览共四个 LFS 对象；定尺及参考PNG普通Git。新检出需git lfs pull获取图片；云端结果以本轮报告为准。
+- V02/V03原图和预览四个对象，V04原图/标注新增两个 LFS 对象；定尺及参考PNG普通Git。新检出需git lfs pull获取图片；云端结果以本轮报告为准。
 - 本地作者配置为 `Codex <codex@local.invalid>`，不修改全局身份。
 - 独立美术远程 `origin`：[Art-Asset-Library](https://github.com/sebastiannogo565-dev/Art-Asset-Library)。当前分支 `main` 跟踪 `origin/main`。
 - 2026-10-07已将首轮设计提交正常推送并核对远端哈希；同步记录也纳入版本历史。最终提交与远端状态见 [交接](Docs/handoff.md) 和结束报告，不复用游戏仓库、不强制推送。

@@ -1,0 +1,376 @@
+{
+  "version": "V04",
+  "date": "2026-10-08",
+  "methods": {
+    "footprints": "Oriented polygons; segment to polygon road width bands; endpoint door and owned indoor path exceptions.",
+    "network": "二维交点分裂图BFS，从校门到全部重要入口及班级楼梯投影/后门/操场；不是3D导航或楼梯容量验证",
+    "units": "m",
+    "epsilon_m": 0.03
+  },
+  "important_buildings": 27,
+  "campus_groups": 8,
+  "background_instances": 46,
+  "preservation": [
+    {
+      "id": "B01",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "B02",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "B03",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "B04",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "B05",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "B06",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "B07",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "B09",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "B10",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "B11",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "B12",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "B20",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "B21",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "B22",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "B30",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "B31",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "B32",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "B40",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "B41",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "C01",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "C02",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "C03",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "C04",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "C05",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "C06",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "C07",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    },
+    {
+      "id": "C08",
+      "id_preserved": true,
+      "use_preserved": true,
+      "phase_preserved": true
+    }
+  ],
+  "conflicts": [],
+  "reachability": [
+    {
+      "id": "B01",
+      "reachable": true
+    },
+    {
+      "id": "B02",
+      "reachable": true
+    },
+    {
+      "id": "B03",
+      "reachable": true
+    },
+    {
+      "id": "B04",
+      "reachable": true
+    },
+    {
+      "id": "B05",
+      "reachable": true
+    },
+    {
+      "id": "B06",
+      "reachable": true
+    },
+    {
+      "id": "B07",
+      "reachable": true
+    },
+    {
+      "id": "B09",
+      "reachable": true
+    },
+    {
+      "id": "B10",
+      "reachable": true
+    },
+    {
+      "id": "B11",
+      "reachable": true
+    },
+    {
+      "id": "B12",
+      "reachable": true
+    },
+    {
+      "id": "B20",
+      "reachable": true
+    },
+    {
+      "id": "B21",
+      "reachable": true
+    },
+    {
+      "id": "B22",
+      "reachable": true
+    },
+    {
+      "id": "B30",
+      "reachable": true
+    },
+    {
+      "id": "B31",
+      "reachable": true
+    },
+    {
+      "id": "B32",
+      "reachable": true
+    },
+    {
+      "id": "B40",
+      "reachable": true
+    },
+    {
+      "id": "B41",
+      "reachable": true
+    },
+    {
+      "id": "C01",
+      "reachable": true
+    },
+    {
+      "id": "C02",
+      "reachable": true
+    },
+    {
+      "id": "C03",
+      "reachable": true
+    },
+    {
+      "id": "C04",
+      "reachable": true
+    },
+    {
+      "id": "C05",
+      "reachable": true
+    },
+    {
+      "id": "C06",
+      "reachable": true
+    },
+    {
+      "id": "C07",
+      "reachable": true
+    },
+    {
+      "id": "C08",
+      "reachable": true
+    },
+    {
+      "id": "class_2F_projection",
+      "reachable": true
+    },
+    {
+      "id": "C01_back",
+      "reachable": true
+    },
+    {
+      "id": "field",
+      "reachable": true
+    }
+  ],
+  "routeIssues": [],
+  "graph_nodes": 196,
+  "reachable_nodes": 196,
+  "note": "二维交点分裂图BFS，从校门到全部重要入口及班级楼梯投影/后门/操场；不是3D导航或楼梯容量验证",
+  "status": "2D_checks_passed",
+  "unverified": [
+    "三维镜头/视线/遮挡",
+    "实际游戏耗时/坡速/楼梯步长",
+    "坡度/排水与水渠水力",
+    "铁路净空/结构/无障碍/容量",
+    "校园体育场和室内容量"
+  ],
+  "rail_road_crossings": [
+    {
+      "road": "commute",
+      "at": [
+        670,
+        570
+      ],
+      "defined": true
+    },
+    {
+      "road": "eastcross",
+      "at": [
+        900,
+        570
+      ],
+      "defined": true
+    }
+  ],
+  "revision": "01b",
+  "post_generation_correction": {
+    "date": "2026-10-08",
+    "reason": "复核发现西区公共连接首段跨铁路但无对应下穿，删除首段；原实际生图参考01保留，现底稿01b/参考02一致。不是依据生成图搬楼。",
+    "road": "westinternal",
+    "before": [
+      [
+        70,
+        630
+      ],
+      [
+        85,
+        505
+      ],
+      [
+        170,
+        498
+      ],
+      [
+        270,
+        510
+      ],
+      [
+        380,
+        510
+      ]
+    ],
+    "after": [
+      [
+        85,
+        505
+      ],
+      [
+        170,
+        498
+      ],
+      [
+        270,
+        510
+      ],
+      [
+        380,
+        510
+      ]
+    ]
+  }
+}

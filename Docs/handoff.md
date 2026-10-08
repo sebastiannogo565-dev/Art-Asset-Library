@@ -1,33 +1,28 @@
 # 交接入口
 
-更新：2026-10-08。**当前成果为澄坂市V03布局01和整城候选01，等待用户审阅。**
+更新：2026-10-08。当前成果：**澄坂市V04布局01b与一次概念候选01，等待用户审阅。**
 
-## 先看这些文件
+## 阅读入口
 
-1. [V03总索引](MapDesign/V03/README.md) · [相对V02变化与总设计](MapDesign/V03/city-design.md)。
-2. [定尺平面PNG](../ArtSource/MapDesign/V03/SL_CITY_V03_PLAN_01.png) · [可编辑SVG](../ArtSource/MapDesign/V03/SL_CITY_V03_PLAN_01.svg) · [权威布局JSON](../ArtSource/MapDesign/V03/SL_CITY_V03_LAYOUT_01.json)。
-3. [真实整城原图](../ArtSource/MapDesign/V03/Originals/SL_CITY_V03_OVERALL_01.png) · [标注预览](../ArtSource/MapDesign/V03/SL_CITY_V03_ANNOTATED_01.png) · [可编辑标注SVG](../ArtSource/MapDesign/V03/SL_CITY_V03_ANNOTATED_01.svg)。
-4. [建筑索引/城区身份](MapDesign/V03/building-index.md) · [八组校园](MapDesign/V03/campus-design.md) · [参考来源](MapDesign/V03/references.md)。
-5. [验收偏差](MapDesign/V03/review.md) · [实际提示词](../ArtSource/MapDesign/V03/SL_CITY_V03_PROMPT_01.md) · [生成记录](../ArtSource/MapDesign/V03/SL_CITY_V03_GENERATION_01.json)。
-6. [计划](execution-plan.md) · [进展](progress.md) · [决策](decision-log.md)。
+1. [V04总索引](MapDesign/V04/README.md) · [历史骨架与修改](MapDesign/V04/history-and-revisions.md)。
+2. [定尺总平面](../ArtSource/MapDesign/V04/SL_CITY_V04_PLAN_01.png) · [可编辑SVG](../ArtSource/MapDesign/V04/SL_CITY_V04_PLAN_01.svg) · [唯一当前布局JSON](../ArtSource/MapDesign/V04/SL_CITY_V04_LAYOUT_01.json)。
+3. [真实原图](../ArtSource/MapDesign/V04/Originals/SL_CITY_V04_OVERALL_01.png) · [功能标注预览](../ArtSource/MapDesign/V04/SL_CITY_V04_ANNOTATED_01.png) · [独立标注SVG](../ArtSource/MapDesign/V04/SL_CITY_V04_ANNOTATED_01.svg)。
+4. [27建筑索引](MapDesign/V04/building-index.md) · [城区身份](MapDesign/V04/district-identity.md) · [校园扩建](MapDesign/V04/campus-design.md) · [路线对照](MapDesign/V04/routes-comparison.md)。
+5. [验收/偏差](MapDesign/V04/review.md) · [方法参考](MapDesign/V04/references.md) · [提示词](../ArtSource/MapDesign/V04/SL_CITY_V04_PROMPT_01.md) · [实际生成记录](../ArtSource/MapDesign/V04/SL_CITY_V04_GENERATION_01.json)。
+6. [源稿索引](../ArtSource/MapDesign/V04/README.md)说明真实参考01/输入快照与校正后参考02的区别。
 
-## 成果边界与下一步
+## 成果与接续规则
 
-底图1280×1080m，校园300×240m，27重要建筑和51背景体量；二维关系检查通过。仅生成一次，真实PNG1374×1145低于目标；铁路下穿变跨线、校园层数/体量及像素质感等偏差明确记录。概念图不作为尺寸或导航依据，不替换JSON/SVG。
+1280×1080m候选框，300×240m八组校园，27重要ID/用途/阶段保留、46背景体量。底稿二维检查通过；校园C01后门/公共回廊补齐，校门到所有组团整体可达，铁路只两定义下穿。家→校门223.3m，校门经书店/便利店→家611.9m，仅算术长度/步行估计，通勤容忍尚未批准。
 
-标注SVG相对引用Originals/SL_CITY_V03_OVERALL_01.png，保持目录关系。黄色点为候选对应，名字不证明身份；LFS新检出需git lfs pull。
+一次生图实际1374×1145，未达目标且仍偏写实；铁路抬高形象改善但新增西穿越，部分翼/小店/路口与出口偏离。标签是可辨形象或候选对应，不能当精确建筑归属证明。未实测的3D/工程/耗时项目保持未验证。
 
-交付后停止。等用户评价布局、校园丰富度、现代高度比例、生活历史气质和偏差；校园细化与单段HD2D样板由用户另行安排。不自动重生成、追加视角、模型、完整室内或UE接入。
+当前底稿revision01b：专项复核删除无定义跨铁路首段，不移动建筑。REFERENCE_02与当前底稿相同；本次实际上传REFERENCE_01和LAYOUT_AT_GENERATION_01保存真实历史，未用修订02追加生成。任何下一视图必须使用当前LAYOUT_01/PLAN_01/REFERENCE_02，不依据概念图反写布局。
 
-## Git接续
+标注SVG外链Originals/SL_CITY_V04_OVERALL_01.png，原图1:1，不改图像字节；下载LFS后保持相对目录。历史标注层可在SVG编辑器分别开关。V02/V03完整保留。
 
-当前main跟踪独立[Art-Asset-Library](https://github.com/sebastiannogo565-dev/Art-Asset-Library)。只暂存本轮文件，三个旧帮助脚本保留未跟踪。V02本地成果提交e9c44e08ef7d03342ce3d1ba6015adeddbef7ca2和收尾742ac787512ac4d36a2db7725e8ef9dab152b205保留。
+## 下一步与Git
 
-上轮LFS HTTP502未同步；本轮推送会包括旧待同步提交与两旧图，加上两新图。锁校验按远端不支持API提示仅本仓库关闭，上传钩子仍启用，不强推或跳过LFS。实际最终HEAD、远端哈希与LFS结果见收尾记录/最终报告，避免文档自引用自身提交哈希。
+停止供评价。用户认可后另行安排校园局部深化或单段HD2D样板；不自动重生成/批量视角、建模、完整室内、UE或玩法规则。最新认可角色图仍未提供，人物比例不能据此宣称实测。
 
-V02文件未覆盖，详情[旧任务](MapDesign/overall-map-01.md)。只操作美术项目，不改时间、玩法、NPC、存档或游戏工程。
-## V03 同步收尾（2026-10-08）
-
-成果提交3de8ba88b0fb93f9f71d644de77bd11ddfa1fe75已正常推送origin/main，远端完整哈希核对一致。LFS实际上传4/4、约17MB，包括此前V02两图和本轮V03两图；旧HTTP502同步阻塞解除。全部7项文件哈希与生成记录一致，Markdown链接、SVG/JSON和27建筑ID检查通过；已跟踪工作区干净，三个原帮助脚本保留未跟踪。
-
-本收尾记录另作提交并正常推送；最终HEAD与远端核对值由结束报告提供，避免自引用。制作已停止供审阅，无模型、完整室内、额外视角或UE接入。V03画风/布局与生成偏差仍未获用户批准。
+main跟踪独立[Art-Asset-Library](https://github.com/sebastiannogo565-dev/Art-Asset-Library)。本轮仅暂存V04目录、必要索引/README/四交接与精确LFS属性。原3帮助脚本未跟踪保留，无关工具忽略。起始提交61986ca8d88ed15c6588e462141ef13571f9ab4c与远端一致；原图/标注2个新对象沿用LFS。实际提交、推送与完整远端hash由收尾及最终报告提供，不强推或跳过LFS钩子。

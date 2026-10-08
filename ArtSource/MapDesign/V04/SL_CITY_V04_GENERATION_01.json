@@ -1,0 +1,166 @@
+{
+  "asset": "SL_CITY_V04_OVERALL_01",
+  "version": "V04",
+  "date": "2026-10-08",
+  "approval_status": "review_required",
+  "request_count": 1,
+  "returned_candidates": 1,
+  "tool": "image_gen.imagegen",
+  "model_id": null,
+  "model_version": null,
+  "model_task_id": null,
+  "cost": null,
+  "unknown_fields_note": "工具返回只公开生成文件路径；模型ID/版本/计费/任务ID不可核验，不推断。",
+  "request": {
+    "transparent_background": false,
+    "target_width": 3072,
+    "target_height": 2560,
+    "target_note": "工具未提供强制尺寸参数，实际低于目标",
+    "prompt_file": "SL_CITY_V04_PROMPT_01.md",
+    "prompt_exact": "Create ONE finished original anime Japanese commuter city concept map named Sumisaka (SchoolLife 澄坂市 V04), following the attached NEW V04 spatial plan. The attachment is the authoritative spatial input, not a style reference. Transform its flat top-down footprints into a coherent slightly oblique panoramic bird's-eye view showing roofs AND facades. North remains at the TOP, west LEFT, river SOUTH bottom. Entire 1280x1080m planning rectangle must fit fully with a small margin, no district cropping. Target 3072x2560 PNG or closest native supported large resolution, opaque background. No labels, letters, numbers, legend, title or drawn routes: editable text will be overlaid later.\n\nSTYLE: warm, clean, lived-in contemporary Japanese anime town, early summer clear daylight, green foliage NOT spring cherry blossom. Stylized 3D buildings with strongly legible roof volumes, controlled color steps and subtle fine pixel-like material grain, HD2D environment for chibi 128x128 sprite characters. Do not make a low resolution pixel map, photoreal photo, watercolor wash, fantasy diorama, symmetrical suburb, tourist attraction collection or futuristic megacity. Preserve distinct public roads, visible entrances and gaps beside canopies/trees/buildings. Roof/side/back construction believable for horizontal 360-degree game viewing.\n\nSPATIAL RULES: follow exact north/south and adjacency from reference, with older center southwest of school and asymmetric modern districts west and east. Irregular old plots and short angled streets are inherited from water, slope and walls, not random curved roads. Keep southern river a continuous east-west lowland, exactly TWO river bridges aligned near x540 and x980. Raised east-west railway is a continuous elevated viaduct/embankment at y570. At x670 and x900, the north-south roads go UNDER the rail deck: show visible dark underpass mouths on BOTH sides, continuous railway ABOVE; NO road bridge crossing over the railway, no ramp flyovers. B09 low horizontal station is on SOUTH side of the railway west of both underpasses; B10 modest bus waiting shelter east of station. Preserve railway to both map edges and road continuations west/east/north/south. A slim covered canal culvert under rail is separate from pedestrian underpasses.\n\nCITY GROWTH: lowland old river landing/old bridge foundation in south; narrow deep plots extend northeast along kinked trade street through old textile workshops B05, cafe B04 (renovated workshop with side/back staff door), bookstore/stationery B03, modern one-story convenience B02. Different narrow storefront widths, pitched tiles, segmented awnings, front shops/back courts and delivery alley. Ordinary homes west of old trade street: unequal small yards along angled well lane, neighborhood well/stone basin at (580,470), small familiar house B01 at (585,490) east of well, distinct blue-grey pitched roof, front porch connected to canal-side public commute exit (625,495). Direct slim PUBLIC walk heads northeast through x670 rail UNDERPASS then school main gate (730,635); not through private gardens. Old trade circuit and short cross-alley remain legible alternative paths. No long empty central boulevard replacing the old lanes.\n\nCENTRAL HILLSIDE: green public old waterworks park immediately west of school, not a dense forest. Blue-cap tower B12 at (630,745), modest pale masonry water tower with teal cap as single shared landmark, old tank, retaining walls, terraced paths, benches. Park paths skirt tower's solid base, none pierce it. Spring canal leaves old tank just west of tower, follows slope south past well/old trade and river; slim school branch follows old courtyard edge without cutting any building. Top/northern slope higher than campus, gardens follow contours. Shrine B40 upper LEFT at (460,998), public approach branches away from daily commute; understated wood shrine/torii and stone stairs. High-end homes upper RIGHT with walls, planting, greater setbacks, discreet low roofs, no gold luxury, private gardens separate from public hillside path. Blue-cap tower visible as landmark from school-front, station and river bridge, not skyscraper competing with school.\n\nWESTERN MODERN LIFE: varied mature apartment compounds 3-9 stories, DIFFERENT lengths/heights/orientation/setbacks, balcony slabs mixed with smaller brick ancillary wings, no rows of repeated same buildings. Hospital B20 at (217,452), clearly civic white/soft-green multiwing volume and entry forecourt; community center B22 at (175,348) low familiar building; separate public library B21 at (286,333), recognizable calm civic reading pavilion, modest folded roof. Public paths weave into old housing edge, not a broad road enclosing every district.\n\nEASTERN CONTEMPORARY CULTURE: asymmetrically different from west; office B30 at (1127,654), 14-storey stepped glass/ceramic tower, 6-12-storey varied supporting office/retail buildings. Public cultural B31 at (1137,390), low brick old warehouse wing with modern exhibition extension; B32 retail podium at (1103,510). Different plazas and podium sizes, old freight lane survives toward old trade street. High buildings in eastern distance support urban atmosphere; SCHOOL remains foreground narrative focus. Modern streets can be orderly; do not mirror west or randomly curve everything.\n\nSCHOOL campus northeast, APPROX 300x240m at x690-990,y635-875. Eight functional wings with visibly distinct construction phases, not eight equal rectangles:\nC01 southern MAIN TEACHING long THREE-storey cream flat-roof wing, south shoe entrance off southwest forecourt; north backdoor visibly connects courtyard arcade and east exit to sports.\nC02 western HISTORIC SCHOOL narrow north-south -7degree aligned grey tiled pitched roof, masonry/wood facade.\nC03 central-north LIBRARY/LEARNING TWO-storey soft metal folded roof with quiet glazing, entrance SOUTH toward spring courtyard.\nC04 central-east SPECIAL TEACHING THREE-storey simple equipment roof, art/lab windows.\nC05 northeastern CLUB low TWO-storey shallow roof, future culture/athletics shared expansion.\nC06 northwestern LECTURE/HISTORY brick hall, large grey pitched roof, plaque arcade.\nC07 small CENTRAL CANTEEN/life service single-storey wide shallow roof opening into lunch court.\nC08 southeastern SPORTS large teal arched-roof gym with storage and bench forecourt, courtyard bypass on its north/east; northeast/northern open green sports field separate from buildings.\nSouthwest main gate, southeast cycle gate and bicycle racks, rear service gate on east. Connect ALL wings via visible covered arcade + outdoor public courts; old school and spring court are historic axis. Explicit C01 NORTH backdoor → arcade → spring court → library, C01 EAST door → gym, and walkway bypass around gym to club and field. Do not draw paths straight through exterior buildings. Small shade trees preserve entrance and court visibility; three construction periods differentiated by roofs/materials, not abandonment.\n\nRIVER AND LANDSCAPE: open public paths on both banks, old stone bridge foundation as lookout, former landing slope, small shade seating pockets and maintained grass; two bridges different eras (west older, east modern). River +0m, banks +3m, old core +8m, campus +18m, northern gardens/shrine +34-38m: use retaining wall levels, gradual slopes and optional steps, clearly visible height hierarchy. Maintain real living details, clean repaired old plaster, utility meters, bicycle stands, awnings and small shop fronts; history still serves current residents. Do not replace city content with a mass of trees. Preserve parcel asymmetry and both modern living identities. No copied real/fictional city shape or signature buildings. One coherent complete city image only.",
+    "referenced_image_paths": [
+      "D:/Art Asset Library/ArtSource/MapDesign/V04/SL_CITY_V04_REFERENCE_01.png"
+    ],
+    "num_last_images_to_include": null
+  },
+  "input_layout_snapshot": "SL_CITY_V04_LAYOUT_AT_GENERATION_01.json",
+  "input_reference_png": "SL_CITY_V04_REFERENCE_01.png",
+  "input_reference_svg": "SL_CITY_V04_REFERENCE_01.svg",
+  "current_layout": "SL_CITY_V04_LAYOUT_01.json",
+  "current_revision": "01b",
+  "current_reference": "SL_CITY_V04_REFERENCE_02.png",
+  "current_reference_generated": false,
+  "post_generation_geometry_correction": {
+    "date": "2026-10-08",
+    "reason": "复核发现西区公共连接首段跨铁路但无对应下穿，删除首段；原实际生图参考01保留，现底稿01b/参考02一致。不是依据生成图搬楼。",
+    "road": "westinternal",
+    "before": [
+      [
+        70,
+        630
+      ],
+      [
+        85,
+        505
+      ],
+      [
+        170,
+        498
+      ],
+      [
+        270,
+        510
+      ],
+      [
+        380,
+        510
+      ]
+    ],
+    "after": [
+      [
+        85,
+        505
+      ],
+      [
+        170,
+        498
+      ],
+      [
+        270,
+        510
+      ],
+      [
+        380,
+        510
+      ]
+    ]
+  },
+  "original": {
+    "path": "Originals/SL_CITY_V04_OVERALL_01.png",
+    "format": "png",
+    "width": 1374,
+    "height": 1145,
+    "space": "srgb",
+    "channels": 3,
+    "opaque": true,
+    "bytes": 4004167,
+    "sha256": "a298cd98a64ebf218e06b4ee1d4b95569577f5c9691b87d15b32fa4b5338ebac",
+    "tool_download_path": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-0de0b7bb-14b9-4313-8030-e084ed8dbf87.png",
+    "tool_download_sha256_matches": true
+  },
+  "processing": {
+    "original": "文件原样复制，无编辑/插值/重编码；源下载文件保留。",
+    "plan": "SVG由sharp确定性渲染3072×2560，不是模型生成原生尺寸。",
+    "reference01": "独立SVG渲染3072×2560，实际上传快照不修改。",
+    "reference02": "01b校正后的同布局空间参考；3072×2560，仅保存，未再次生成。",
+    "annotation": "SVG精确字/功能对应/北向/偏差层，原图1:1(1374×1145)放到2064×1465画布，PNG为SVG派生预览，不是原图插值放大。"
+  },
+  "deviations_document": "../../../Docs/MapDesign/V04/review.md",
+  "manifest": [
+    {
+      "path": "SL_CITY_V04_ANNOTATED_01.png",
+      "bytes": 4741248,
+      "sha256": "edb0889afd1c6322a83628003a015349adcec0310939facab55ca5e5b8009b54"
+    },
+    {
+      "path": "SL_CITY_V04_ANNOTATED_01.svg",
+      "bytes": 17980,
+      "sha256": "86f2453f355714e0ad139e3cf0a14d77935c48f7ab46074426d695257822fff2"
+    },
+    {
+      "path": "SL_CITY_V04_CHECK_01.json",
+      "bytes": 6881,
+      "sha256": "227a4d535bdbd4eeadc704462eadb57397d1eccb782b80d856ef29158f920659"
+    },
+    {
+      "path": "SL_CITY_V04_LAYOUT_01.json",
+      "bytes": 136942,
+      "sha256": "3c62150ef34b24ced9c8b8d2f4c5d8a2af23b93e629e8394683e3f598d06ff4a"
+    },
+    {
+      "path": "SL_CITY_V04_LAYOUT_AT_GENERATION_01.json",
+      "bytes": 136245,
+      "sha256": "87829e311dc4a15124cb2bb436aa48106da01aa8fa5b88e7a1c2b645637657ce"
+    },
+    {
+      "path": "SL_CITY_V04_PLAN_01.png",
+      "bytes": 988342,
+      "sha256": "ead091e67534b16f82101d7f9c478d3b37acd5d09bfd6345e88cd382438895e6"
+    },
+    {
+      "path": "SL_CITY_V04_PLAN_01.svg",
+      "bytes": 71827,
+      "sha256": "89d4a106e45b72a2a6980bc249b87ba1e2396ea1d1cdcc3da0ed2858d2144ee6"
+    },
+    {
+      "path": "SL_CITY_V04_PROMPT_01.md",
+      "bytes": 8852,
+      "sha256": "5b5b61accd758ffbadf040393a79c01100858f05745b977fa079d103346023a0"
+    },
+    {
+      "path": "SL_CITY_V04_REFERENCE_01.png",
+      "bytes": 766676,
+      "sha256": "f350d69190c5a2aceb3c49c2707b28a8a9263488729230f18c7aa52de23e44a3"
+    },
+    {
+      "path": "SL_CITY_V04_REFERENCE_01.svg",
+      "bytes": 57951,
+      "sha256": "7e9ea4fe7705decb4060f33622e4ed836ececfe98caf4771e399b12ed886bfb9"
+    },
+    {
+      "path": "SL_CITY_V04_REFERENCE_02.png",
+      "bytes": 667590,
+      "sha256": "24ed981c08fff1a6c2fe39b41db33ee64ff3c366cdd6bcc5dfe168c4538fc536"
+    },
+    {
+      "path": "SL_CITY_V04_REFERENCE_02.svg",
+      "bytes": 57937,
+      "sha256": "4849c0d62fff0e1cde1afbdb60a2f4f26b98c2e13b0081e337fcc72ad14b9eb6"
+    },
+    {
+      "path": "Originals/SL_CITY_V04_OVERALL_01.png",
+      "bytes": 4004167,
+      "sha256": "a298cd98a64ebf218e06b4ee1d4b95569577f5c9691b87d15b32fa4b5338ebac"
+    }
+  ]
+}
