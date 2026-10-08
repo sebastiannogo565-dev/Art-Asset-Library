@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-09",
+  "version": "V07",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "entry": "direct built-in, same verified V05/V06 channel",
+  "model_id": null,
+  "unknown_model_reason": "not exposed by tool",
+  "reference": "SL_WORLD_V07_INPUT_01.png",
+  "reference_sha256": "e6c33237d1a36d97568dca376e9c73f27bbf0b365495ace2a80e79a374d4f3cd",
+  "layout": "SL_WORLD_V07_LAYOUT_AT_GENERATION_01.json",
+  "layout_sha256": "e1e120a1fc77f2dcd4f1bd69c2fc2c0041635da7515c223f272dcfc4f6117c24",
+  "prompt": "SL_WORLD_V07_PROMPT_01.md",
+  "prompt_sha256": "128b3630b01f95342303eebdffb7691a5c5b6c741cc49c6bf9af709f25c0bb39",
+  "target": [
+    3072,
+    2560
+  ],
+  "character_file": null,
+  "geometry_changed_after_generation": false
+}

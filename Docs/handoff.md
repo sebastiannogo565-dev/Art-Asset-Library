@@ -1,4 +1,19 @@
-# 交接入口 · 当前V06
+# 交接入口 · 当前V07
+
+## V07 当前交付01a（2026-10-09）
+
+[V07正文](MapDesign/V07/README.md) · [面积](MapDesign/V07/area-verification.md) · [定尺图](../ArtSource/MapDesign/V07/SL_WORLD_V07_PLAN_01a.png) · [湖河](../ArtSource/MapDesign/V07/SL_WORLD_V07_HYDROLOGY_01.png) · [唯一候选](../ArtSource/MapDesign/V07/Originals/SL_WORLD_V07_CANDIDATE_01.png) · [标注](../ArtSource/MapDesign/V07/SL_WORLD_V07_ANNOTATED_01.svg)。
+
+当前源[LAYOUT_01a](../ArtSource/MapDesign/V07/SL_WORLD_V07_LAYOUT_01a.json)与[源图索引](../ArtSource/MapDesign/V07/README.md)；继续读[建筑/用途](MapDesign/V07/building-use-index.md)、[区域/水系](MapDesign/V07/regions-water.md)、[交通/出口](MapDesign/V07/connections-transport.md)、[生活/后勤](MapDesign/V07/life-logistics.md)、[偏差](MapDesign/V07/review.md)。
+
+V06_CALIBRATED为新规划校准不是历史测绘，旧校园符号523.64×465.45m说明旧视觉倍率；V07恢复360×320m，与世界统一1:1。覆盖4909.09×3909.09m矩形本身面积4倍，陆域15.25156km²/街区5.47345km²/山林5.86193km²，非靠天空海水凑面积。日常核心与原通学保持。112背景不推全城人口，0模型资产。
+
+原图1374×1145不透明PNG、字节保存，一次内置生图；模型标识未知。冻结INPUT01/布局01生成，01a仅南公交支线改接既有公共路；生成后没有据错误增加桥、扩大校园或移动塔。候选相对比例、支溪/桥/塔和画风未通过，功能标注区分近似画面与准确规划坐标。
+
+27重要ID/24复用用途/成人与全年客源保留，六住户40段与15对30出口可达；坡度/水力/镜头/导航/容量/运营未验证。仅供审阅，下一轮局部深化由用户安排；不建模/UE/交通或游戏规则。同步结果收尾追加。
+
+## V06及更早记录（保留）
+
 
 ## V06 当前交付（2026-10-08）
 

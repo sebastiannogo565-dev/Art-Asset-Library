@@ -1,0 +1,750 @@
+{
+  "targets": [
+    {
+      "id": "B01",
+      "reachable": true
+    },
+    {
+      "id": "B02",
+      "reachable": true
+    },
+    {
+      "id": "B03",
+      "reachable": true
+    },
+    {
+      "id": "B04",
+      "reachable": true
+    },
+    {
+      "id": "B05",
+      "reachable": true
+    },
+    {
+      "id": "B06",
+      "reachable": true
+    },
+    {
+      "id": "B07",
+      "reachable": true
+    },
+    {
+      "id": "B09",
+      "reachable": true
+    },
+    {
+      "id": "B10",
+      "reachable": true
+    },
+    {
+      "id": "B11",
+      "reachable": true
+    },
+    {
+      "id": "B12",
+      "reachable": true
+    },
+    {
+      "id": "B20",
+      "reachable": true
+    },
+    {
+      "id": "B21",
+      "reachable": true
+    },
+    {
+      "id": "B22",
+      "reachable": true
+    },
+    {
+      "id": "B30",
+      "reachable": true
+    },
+    {
+      "id": "B31",
+      "reachable": true
+    },
+    {
+      "id": "B32",
+      "reachable": true
+    },
+    {
+      "id": "B40",
+      "reachable": true
+    },
+    {
+      "id": "B41",
+      "reachable": true
+    },
+    {
+      "id": "C01",
+      "reachable": true
+    },
+    {
+      "id": "C02",
+      "reachable": true
+    },
+    {
+      "id": "C03",
+      "reachable": true
+    },
+    {
+      "id": "C04",
+      "reachable": true
+    },
+    {
+      "id": "C05",
+      "reachable": true
+    },
+    {
+      "id": "C06",
+      "reachable": true
+    },
+    {
+      "id": "C07",
+      "reachable": true
+    },
+    {
+      "id": "C08",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_01",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_02",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_03",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_04",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_05",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_06",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_07",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_08",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_09",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_10",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_11",
+      "reachable": true
+    },
+    {
+      "id": "BG_H_12",
+      "reachable": true
+    },
+    {
+      "id": "BG_S_01",
+      "reachable": true
+    },
+    {
+      "id": "BG_S_02",
+      "reachable": true
+    },
+    {
+      "id": "BG_S_03",
+      "reachable": true
+    },
+    {
+      "id": "BG_S_04",
+      "reachable": true
+    },
+    {
+      "id": "BG_S_05",
+      "reachable": true
+    },
+    {
+      "id": "BG_S_06",
+      "reachable": true
+    },
+    {
+      "id": "BG_W_01",
+      "reachable": true
+    },
+    {
+      "id": "BG_W_02",
+      "reachable": true
+    },
+    {
+      "id": "BG_W_03",
+      "reachable": true
+    },
+    {
+      "id": "BG_W_04",
+      "reachable": true
+    },
+    {
+      "id": "BG_W_05",
+      "reachable": true
+    },
+    {
+      "id": "BG_W_06",
+      "reachable": true
+    },
+    {
+      "id": "BG_W_07",
+      "reachable": true
+    },
+    {
+      "id": "BG_E_01",
+      "reachable": true
+    },
+    {
+      "id": "BG_E_02",
+      "reachable": true
+    },
+    {
+      "id": "BG_E_03",
+      "reachable": true
+    },
+    {
+      "id": "BG_E_04",
+      "reachable": true
+    },
+    {
+      "id": "BG_E_05",
+      "reachable": true
+    },
+    {
+      "id": "BG_G_01",
+      "reachable": true
+    },
+    {
+      "id": "BG_G_02",
+      "reachable": true
+    },
+    {
+      "id": "BG_G_03",
+      "reachable": true
+    },
+    {
+      "id": "BG_G_04",
+      "reachable": true
+    },
+    {
+      "id": "BG_G_05",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_001",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_002",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_003",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_004",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_005",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_006",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_007",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_008",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_009",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_010",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_011",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_012",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_013",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_014",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_015",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_016",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_017",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_018",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_019",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_020",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_021",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_022",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_023",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_024",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_025",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_026",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_027",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_028",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_029",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_030",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_031",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_032",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_033",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_034",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_035",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_036",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_037",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_038",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_039",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_040",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_041",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_042",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_043",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_044",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_045",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_046",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_047",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_048",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_049",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_050",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_051",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_052",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_053",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_054",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_055",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_056",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_057",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_058",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_059",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_060",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_061",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_062",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_063",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_064",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_065",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_066",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_067",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_068",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_069",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_070",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_071",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_072",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_073",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_074",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_075",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_076",
+      "reachable": true
+    },
+    {
+      "id": "BG_N_077",
+      "reachable": true
+    },
+    {
+      "id": "E02_N",
+      "reachable": true
+    },
+    {
+      "id": "E01_S",
+      "reachable": true
+    },
+    {
+      "id": "E02_W",
+      "reachable": true
+    },
+    {
+      "id": "E03_E",
+      "reachable": true
+    },
+    {
+      "id": "E02_E",
+      "reachable": true
+    },
+    {
+      "id": "E04_W",
+      "reachable": true
+    },
+    {
+      "id": "E04_E",
+      "reachable": true
+    },
+    {
+      "id": "E05_W",
+      "reachable": true
+    },
+    {
+      "id": "E02_NW",
+      "reachable": true
+    },
+    {
+      "id": "E06_S",
+      "reachable": true
+    },
+    {
+      "id": "E06_N",
+      "reachable": true
+    },
+    {
+      "id": "E08_SW",
+      "reachable": true
+    },
+    {
+      "id": "E07_NE",
+      "reachable": true
+    },
+    {
+      "id": "E08_SE",
+      "reachable": true
+    },
+    {
+      "id": "E06_E",
+      "reachable": true
+    },
+    {
+      "id": "E07_W",
+      "reachable": true
+    },
+    {
+      "id": "E02_S",
+      "reachable": true
+    },
+    {
+      "id": "E09_N",
+      "reachable": true
+    },
+    {
+      "id": "E04_SW",
+      "reachable": true
+    },
+    {
+      "id": "E09_E",
+      "reachable": true
+    },
+    {
+      "id": "E03_NE",
+      "reachable": true
+    },
+    {
+      "id": "E06_SW",
+      "reachable": true
+    },
+    {
+      "id": "E03_S",
+      "reachable": true
+    },
+    {
+      "id": "E09_W",
+      "reachable": true
+    },
+    {
+      "id": "E01_E",
+      "reachable": true
+    },
+    {
+      "id": "E02_NE",
+      "reachable": true
+    },
+    {
+      "id": "P15_A",
+      "reachable": true
+    },
+    {
+      "id": "P15_B",
+      "reachable": true
+    },
+    {
+      "id": "P16_A",
+      "reachable": true
+    },
+    {
+      "id": "P16_B",
+      "reachable": true
+    },
+    {
+      "id": "S01",
+      "on_public_bus_path": true
+    },
+    {
+      "id": "S02",
+      "on_public_bus_path": true
+    },
+    {
+      "id": "S03",
+      "on_public_bus_path": true
+    },
+    {
+      "id": "S04",
+      "on_public_bus_path": true
+    },
+    {
+      "id": "S05",
+      "on_public_bus_path": true
+    },
+    {
+      "id": "S06",
+      "on_public_bus_path": true
+    }
+  ],
+  "failed": [],
+  "household_bus_endpoints": [
+    {
+      "id": "HH03",
+      "from": "S01",
+      "to": "S06",
+      "endpoint_match": true
+    },
+    {
+      "id": "HH03",
+      "from": "S06",
+      "to": "S05",
+      "endpoint_match": true
+    },
+    {
+      "id": "HH03",
+      "from": "S05",
+      "to": "S01",
+      "endpoint_match": true
+    },
+    {
+      "id": "HH06",
+      "from": "SN1",
+      "to": "S02",
+      "endpoint_match": true
+    },
+    {
+      "id": "HH06",
+      "from": "S02",
+      "to": "S01",
+      "endpoint_match": true
+    },
+    {
+      "id": "HH06",
+      "from": "S01",
+      "to": "S02",
+      "endpoint_match": true
+    },
+    {
+      "id": "HH06",
+      "from": "S02",
+      "to": "SN1",
+      "endpoint_match": true
+    }
+  ],
+  "scope": "2D metric public/authorized route check, not traffic/navigation/grades"
+}

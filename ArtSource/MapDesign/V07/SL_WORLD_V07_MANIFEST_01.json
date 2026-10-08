@@ -1,0 +1,284 @@
+{
+  "date": "2026-10-09",
+  "scope": "files under V07 art/docs; excludes self; raw file bytes before Git line-ending normalization",
+  "checks": {
+    "date": "2026-10-09",
+    "current": "01a",
+    "coverage_ratio": 4,
+    "campus_m": [
+      360,
+      320
+    ],
+    "core_m": [
+      520,
+      400
+    ],
+    "preserved_building_ids": 27,
+    "preserved_uses": 24,
+    "geometry_errors": 0,
+    "reachable_targets": 175,
+    "closed_households": 6,
+    "markdown_broken_links": [],
+    "post_generation_differences": [
+      "revision",
+      "bus.reserved_branches.1.world_points.4.0",
+      "bus.reserved_branches.1.world_points.4.1",
+      "bus.reserved_branches.1.world_points.5.0",
+      "bus.reserved_branches.1.world_points.5.1",
+      "bus.reserved_branches.1.world_points.6.0",
+      "bus.reserved_branches.1.world_points.6.1",
+      "bus.reserved_branches.1.world_points.7.0",
+      "bus.reserved_branches.1.world_points.7.1",
+      "bus.reserved_branches.1.world_points.8",
+      "post_generation_changes"
+    ],
+    "raw_bytes_identical": true,
+    "scope": "2D planning and file consistency only; image deviations recorded separately, no 3D/engineering/operations verification"
+  },
+  "files": [
+    {
+      "file": "ArtSource/MapDesign/V07/Originals/SL_WORLD_V07_CANDIDATE_01.png",
+      "bytes": 3488701,
+      "sha256": "a2b67dbc78ea69337aac8cb8cd2a6f45ab98fc8ab26c8e42ee3f73441140a4e4",
+      "format": "png",
+      "width": 1374,
+      "height": 1145,
+      "has_alpha": false
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/README.md",
+      "bytes": 3003,
+      "sha256": "a6c120192d995f00f51bc0c82c40610ad07aaf8cfd1a74ab2f4317a5991f552c"
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V06_CALIBRATED_01.json",
+      "bytes": 109042,
+      "sha256": "85497bde459b5d25bc529c8dfde7532dd336621dc679f2d2010fb73c060aac9c"
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V06_CALIBRATED_01.png",
+      "bytes": 635377,
+      "sha256": "486de4d9bcd81892fab04de5d78926d67f4c19cfc410c7a6944c46f3c68d76c6",
+      "format": "png",
+      "width": 3072,
+      "height": 2560,
+      "has_alpha": true
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V06_CALIBRATED_01.svg",
+      "bytes": 63994,
+      "sha256": "aa7c7731ce7162072e1f94eaaad1752b34af35b38e272081872e4262f425827a"
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_ANNOTATED_01.png",
+      "bytes": 5695453,
+      "sha256": "59f149d5e6d015244c8a721b8ae63565c0d31d9ee592c9b59f71ce4d9d04225d",
+      "format": "png",
+      "width": 3000,
+      "height": 2520,
+      "has_alpha": true
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_ANNOTATED_01.svg",
+      "bytes": 110386,
+      "sha256": "f484e8065a9682c55edd696d0e492058388fe63f541b1c8cddf2305b32145a4b"
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_AREA_01.json",
+      "bytes": 2430,
+      "sha256": "c650256135fda351e650394aef49c6b56808594708b15615b20edfd644cf9880"
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_CHECK_01.json",
+      "bytes": 1860,
+      "sha256": "75cf46b3e7406b773b02fe0a4434085b759bb96cf6680d60a550abf825977d22"
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_CHECK_01a.json",
+      "bytes": 1860,
+      "sha256": "75cf46b3e7406b773b02fe0a4434085b759bb96cf6680d60a550abf825977d22"
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_GENERATION_01.json",
+      "bytes": 2096,
+      "sha256": "a2341317d71b17eb9049df5a764b2e4717fe52f424ab3f762b06ce4a9a227fb1"
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_HYDROLOGY_01.png",
+      "bytes": 379620,
+      "sha256": "e8fbdf932b915a57cc1e30eeb8a71a1f9bacf02797aa44517e908caaaf2b7624",
+      "format": "png",
+      "width": 3072,
+      "height": 2560,
+      "has_alpha": true
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_HYDROLOGY_01.svg",
+      "bytes": 10533,
+      "sha256": "bfd216aff58f4f93d7a4a2bf907d023a0da3a98b18feb016572fc1d6893a544a"
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_INPUT_01.png",
+      "bytes": 725983,
+      "sha256": "e6c33237d1a36d97568dca376e9c73f27bbf0b365495ace2a80e79a374d4f3cd",
+      "format": "png",
+      "width": 3072,
+      "height": 2560,
+      "has_alpha": true
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_INPUT_RECORD_01.json",
+      "bytes": 741,
+      "sha256": "405ec76b142d662a8584555b15b225ebd30fe3600cb10253fa9950f5cb7c1d6f"
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_LAYOUT_01.json",
+      "bytes": 616097,
+      "sha256": "e1e120a1fc77f2dcd4f1bd69c2fc2c0041635da7515c223f272dcfc4f6117c24"
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_LAYOUT_01a.json",
+      "bytes": 616381,
+      "sha256": "f02f151884beda5968b2533a2e880b837e9dca304c8d6db358cf51e852e7d654"
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_LAYOUT_AT_GENERATION_01.json",
+      "bytes": 616097,
+      "sha256": "e1e120a1fc77f2dcd4f1bd69c2fc2c0041635da7515c223f272dcfc4f6117c24"
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_LIFE_ROUTES_01.png",
+      "bytes": 862180,
+      "sha256": "86ba5d0088691f84391339a800783a8fb8aa7235a86a22bd7d8e116a53cbf028",
+      "format": "png",
+      "width": 3072,
+      "height": 2560,
+      "has_alpha": true
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_LIFE_ROUTES_01.svg",
+      "bytes": 105873,
+      "sha256": "54d17148bb83524672fec9c5cdfc7c338c4ad56867a521c7dffc634bb7569ad5"
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_LIFE_ROUTES_01a.png",
+      "bytes": 861612,
+      "sha256": "e5554d048786e10b9975edb4442ac3d49580a0443faf6058150193c342846789",
+      "format": "png",
+      "width": 3072,
+      "height": 2560,
+      "has_alpha": true
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_LIFE_ROUTES_01a.svg",
+      "bytes": 105855,
+      "sha256": "c6e3b09a90219a3645dfa8a80d83daaf92e006132a1f5a8cc0f33c46f5e554fc"
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_NETWORK_01.json",
+      "bytes": 11319,
+      "sha256": "ad176021a3b329776e59a51a87994646ddd7ae60a7f5eaf8b3ae176402017377"
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_NETWORK_01a.json",
+      "bytes": 11319,
+      "sha256": "ad176021a3b329776e59a51a87994646ddd7ae60a7f5eaf8b3ae176402017377"
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_PLAN_01.png",
+      "bytes": 849642,
+      "sha256": "b4bda5bd9097d5115bc628de8dbe00e4d84ac2b24d76e0816ca3b6226497e6aa",
+      "format": "png",
+      "width": 3072,
+      "height": 2560,
+      "has_alpha": true
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_PLAN_01.svg",
+      "bytes": 93839,
+      "sha256": "39f9cb0f627944d68159e51457fad9260d8aee0f3d6b161cd5b7e847d3c8956c"
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_PLAN_01a.png",
+      "bytes": 849164,
+      "sha256": "b01bb221c00d8f1ef721fcc21d3f08941e1225e8af9f81129c38f46c13eefafa",
+      "format": "png",
+      "width": 3072,
+      "height": 2560,
+      "has_alpha": true
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_PLAN_01a.svg",
+      "bytes": 93821,
+      "sha256": "6a448ef3b3cf9dd762a8864539e82beddb5029100734d620954dee7e24894468"
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_PROMPT_01.md",
+      "bytes": 7211,
+      "sha256": "128b3630b01f95342303eebdffb7691a5c5b6c741cc49c6bf9af709f25c0bb39"
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_REFERENCE_01.png",
+      "bytes": 725983,
+      "sha256": "e6c33237d1a36d97568dca376e9c73f27bbf0b365495ace2a80e79a374d4f3cd",
+      "format": "png",
+      "width": 3072,
+      "height": 2560,
+      "has_alpha": true
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_REFERENCE_01.svg",
+      "bytes": 85781,
+      "sha256": "ef9c6a4929dc35c3d4f580da4f3428dfdfd238c203e5740a01665fa76ae6fb9c"
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_SECTION_01.png",
+      "bytes": 217881,
+      "sha256": "5fab542825928f1194e235cfde956bceed081e53097cc0cd42e74f975ccdc688",
+      "format": "png",
+      "width": 2560,
+      "height": 1680,
+      "has_alpha": true
+    },
+    {
+      "file": "ArtSource/MapDesign/V07/SL_WORLD_V07_SECTION_01.svg",
+      "bytes": 5596,
+      "sha256": "2eb712de32941997e443caa46f72420ead2f1caa78acb90ec3b6bdf10650b534"
+    },
+    {
+      "file": "Docs/MapDesign/V07/area-verification.md",
+      "bytes": 3544,
+      "sha256": "2753a548ba874e268d7687c425388cf08eb6557dc67c631b6b7d3de00c91fb5f"
+    },
+    {
+      "file": "Docs/MapDesign/V07/building-use-index.md",
+      "bytes": 12526,
+      "sha256": "ad7dc4874554e3f325a8b3cc72f2c971339f693ff0095a953e295afc8253b989"
+    },
+    {
+      "file": "Docs/MapDesign/V07/connections-transport.md",
+      "bytes": 7818,
+      "sha256": "ed2f71176483f7bbd3d4a2f9c1edced42cdc2f03651f77bdd355528bfbc4b4ff"
+    },
+    {
+      "file": "Docs/MapDesign/V07/life-logistics.md",
+      "bytes": 6050,
+      "sha256": "5f98dfae3a2cfa3102ff2ede3c95228ebc0722a85e8ae8108daa60d7fafe9cba"
+    },
+    {
+      "file": "Docs/MapDesign/V07/README.md",
+      "bytes": 3051,
+      "sha256": "5514e293a580ffb167de5f4e525bda11936232203a8251eec30684f1704e4e22"
+    },
+    {
+      "file": "Docs/MapDesign/V07/regions-water.md",
+      "bytes": 5678,
+      "sha256": "cbfab560f3ffc28a4a9f067bd9ccedc10c7c4c16cef404f15709be84d543bf5a"
+    },
+    {
+      "file": "Docs/MapDesign/V07/review.md",
+      "bytes": 4043,
+      "sha256": "7cd3a0f324662c3ed1da8b3696a31741562a551a47c0e7388b75b01f04be1c71"
+    }
+  ]
+}

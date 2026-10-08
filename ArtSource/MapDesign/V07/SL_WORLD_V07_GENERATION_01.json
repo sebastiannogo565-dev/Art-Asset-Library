@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-09",
+  "version": "V07",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "entry": "direct built-in, same verified V05/V06 channel",
+  "model_id": null,
+  "unknown_model_reason": "not exposed by tool",
+  "reference": "SL_WORLD_V07_INPUT_01.png",
+  "reference_sha256": "e6c33237d1a36d97568dca376e9c73f27bbf0b365495ace2a80e79a374d4f3cd",
+  "layout": "SL_WORLD_V07_LAYOUT_AT_GENERATION_01.json",
+  "layout_sha256": "e1e120a1fc77f2dcd4f1bd69c2fc2c0041635da7515c223f272dcfc4f6117c24",
+  "prompt": "SL_WORLD_V07_PROMPT_01.md",
+  "prompt_sha256": "128b3630b01f95342303eebdffb7691a5c5b6c741cc49c6bf9af709f25c0bb39",
+  "target": [
+    3072,
+    2560
+  ],
+  "character_file": null,
+  "geometry_changed_after_generation": false,
+  "actual_source": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-ec1115cc-0583-4b5a-b308-ca4b2a424872.png",
+  "original": "Originals/SL_WORLD_V07_CANDIDATE_01.png",
+  "actual_format": "png",
+  "native_size": [
+    1374,
+    1145
+  ],
+  "has_alpha": false,
+  "channels": 3,
+  "original_sha256": "a2b67dbc78ea69337aac8cb8cd2a6f45ab98fc8ab26c8e42ee3f73441140a4e4",
+  "saved_sha256": "a2b67dbc78ea69337aac8cb8cd2a6f45ab98fc8ab26c8e42ee3f73441140a4e4",
+  "byte_copy_identical": true,
+  "target_reached": false,
+  "model_version": null,
+  "task_id": null,
+  "cost": null,
+  "processing": "byte copy only, no upscale/crop/re-encoding; annotation external editable SVG",
+  "review": "../../../Docs/MapDesign/V07/review.md",
+  "post_generation_revision": "01a",
+  "current_layout": "SL_WORLD_V07_LAYOUT_01a.json",
+  "post_generation_adjustment": {
+    "current": "01a",
+    "generation_reference": "SL_WORLD_V07_LAYOUT_AT_GENERATION_01.json",
+    "fields": [
+      "bus.reserved_branches.BL_S.world_points"
+    ],
+    "reason": "post-generation final public road collinearity review found one unmapped segment",
+    "geometry": "building/roads/water/coverage polygons unchanged",
+    "area_changed": false,
+    "image_reference_changed": false,
+    "do_not_regenerate": true
+  },
+  "annotated_canvas": [
+    3000,
+    2520
+  ]
+}
