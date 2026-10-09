@@ -1,5 +1,14 @@
 # V10 执行计划 · 2026-10-09
 
+### V10实际Git/LFS同步与停止记录
+
+成果提交[7194074892afa3a201f32d3a3b0cebf9181089bc](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/7194074892afa3a201f32d3a3b0cebf9181089bc)，49个相关文件已正常推送origin/main；git ls-remote完整哈希与本地一致。LFS 2/2上传成功，原图3468226字节/标注3976132字节，共7444358字节（终端7.4MB）；随后lfs push --dry-run无待上传。原图OID 637ea597db8ab38906fa976905767066fcbcbebde06b58bff593b5585853372e，标注OID 4bdccd1af847df717f34c120ea88be2dccc8b3b9438f1a145dd87fa2d1e5388f。
+
+已跟踪工作区干净，仅原setup_blender_mcp.py/setup_codex_blender_mcp.py/verify_blender_mcp.py三个未跟踪工具保留，不改不提交；V02—V09无修改，角色源图只读且副本hash一致，凭据/缓存不入仓库。此四交接实际结果另作普通收尾提交推送，最终完整HEAD与远端核验在交付报告给出，避免文档自引用。
+
+本轮完成并停止供审阅：原生1374×1145未达目标，额外桥/校园及站场体量/渔业增物/HD2D细碎写实偏差留review；新候选仍待批准。没有第二次生图、模型/UE/新玩法或子代理；二维结果不是实际导航/相机/坡度水力/安全运营验收。
+
+
 起始main 2cf0f7098a4e56b4ecdfb87ae10d7d899fa91ee7；独立origin保留，三个原未跟踪工具脚本不改不提交。已读V09权威底稿与正文/四交接；V02—V09全部保留。
 
 1. 固定统一米制、30重要/候选建筑、27复用用途、112背景、桥/水系/入口/六路线/15对出口；人物只读按用户约1.8m可见高度对照。
@@ -10,7 +19,7 @@
 6. 同尺寸可编辑标注、索引/比较/路线/后勤/review、四交接；只本轮相关文件正常提交推送当前main，核完整远端哈希及LFS。
 7. 停止供审阅；不模型/UE/新系统/批量视角/子代理。
 
-状态：布局/四编辑板/来源与二维检查、一次概念和同尺寸标注/正文已完成；正在完成本轮Git/LFS同步，随后停止供审阅。
+状态：布局/四编辑板/来源与二维检查、一次概念和同尺寸标注/正文已完成；本轮Git/LFS同步和完整远端核验已完成，停止供审阅。
 
 [V10正文](MapDesign/V10/README.md) · [总平面与四板](../ArtSource/MapDesign/V10/README.md) · [候选比较](MapDesign/V10/candidate-comparison.md) · [建筑用途](MapDesign/V10/building-use-change-index.md) · [路线出口](MapDesign/V10/routes.md) · [公共后勤](MapDesign/V10/public-logistics-cards.md) · [偏差](MapDesign/V10/review.md)。
 
