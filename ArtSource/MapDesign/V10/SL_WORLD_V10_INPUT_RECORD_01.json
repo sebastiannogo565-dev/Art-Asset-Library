@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-09",
+  "tool": "image_gen.imagegen",
+  "model_version": null,
+  "model_version_reason": "Tool does not expose concrete model identifier",
+  "planned_calls": 1,
+  "reference": "SL_WORLD_V10_INPUT_01.png",
+  "reference_sha256": "43b2c236c808d3df957a7c3219b4c0bbf026482ffb37ccfd289fe069383e732b",
+  "frozen_json": "SL_WORLD_V10_LAYOUT_AT_GENERATION_01.json",
+  "json_sha256": "15e0c6b2cc7d1f12ae5c40985a520060b042a19c237a49d61c1f8ba6095a18b2",
+  "prompt": "SL_WORLD_V10_PROMPT_01.md",
+  "prompt_sha256": "997dc89db7f70f904d237036e9ae2ff72c3888e8e2643fb6d088af01d8dee161",
+  "native_target": [
+    3072,
+    2560
+  ],
+  "not_upscaled": true,
+  "role": "authoritative spatial reference; former generated image NOT input"
+}

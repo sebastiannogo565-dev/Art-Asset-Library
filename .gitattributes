@@ -34,3 +34,7 @@ ArtSource/MapDesign/V08/SL_WORLD_V08_ANNOTATED_01.png filter=lfs diff=lfs merge=
 
 ArtSource/MapDesign/V09/Originals/SL_WORLD_V09_CONCEPT_01.png filter=lfs diff=lfs merge=lfs -text
 ArtSource/MapDesign/V09/SL_WORLD_V09_ANNOTATED_01.png filter=lfs diff=lfs merge=lfs -text
+
+ArtSource/MapDesign/V10/Originals/SL_WORLD_V10_CONCEPT_01.png filter=lfs diff=lfs merge=lfs -text
+
+ArtSource/MapDesign/V10/SL_WORLD_V10_ANNOTATED_01.png filter=lfs diff=lfs merge=lfs -text

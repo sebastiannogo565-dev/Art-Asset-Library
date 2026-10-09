@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-09",
+  "precision": "unrounded IEEE double for calculations; displayed rounded; rational W0=27000/11 H0=21500/11, W1=54000/11 H1=43000/11",
+  "calibrated_is_not_historical_measurement": true,
+  "V06_CALIBRATED": {
+    "sea": 581694.2148758139,
+    "inland_water": 88430.80381763002,
+    "built": 1230888.350559406,
+    "forest": 499139.6950907523,
+    "other_land": 2397367.596812533,
+    "total": 4797520.661157024,
+    "land": 4127395.6424626913,
+    "water": 670125.018693444,
+    "conservation_error": 8.888309821486473e-7,
+    "slabs": 175
+  },
+  "V10": {
+    "sea": 3275604.5454546073,
+    "inland_water": 662920.4966230702,
+    "built": 5479472.094652888,
+    "forest": 5861928.060236087,
+    "other_land": 3910157.4476618026,
+    "total": 19190082.644628096,
+    "land": 15251557.602550779,
+    "water": 3938525.0420776773,
+    "conservation_error": -3.594905138015747e-7,
+    "slabs": 208
+  },
+  "width_ratio": 2,
+  "height_ratio": 2,
+  "area_ratio": 4,
+  "coverage_polygon_area": 19190082.644628096,
+  "rectangle_and_polygon_same": true,
+  "new_fringe_outside_old_overlay": {
+    "sea": 3275604.5454546073,
+    "inland_water": 530491.5675095153,
+    "built": 2794585.4711884214,
+    "forest": 5333347.002010522,
+    "other_land": 2458533.3973092535,
+    "land": 10586465.870508198,
+    "water": 3806096.1129641226,
+    "total": 14392561.983471073
+  },
+  "net_changes_vs_calibrated": {
+    "sea": 2693910.3305787933,
+    "inland_water": 574489.6928054402,
+    "built": 4248583.744093482,
+    "forest": 5362788.365145335,
+    "other_land": 1512789.8508492694,
+    "land": 11124161.960088087,
+    "water": 3268400.0233842335,
+    "total": 14392561.983471073
+  },
+  "definitions": {
+    "built": "规划建成街区（含公共路庭院及后续地块），非建筑屋顶面积",
+    "land": "built+forest+other_land, excludes all mapped surface water",
+    "water": "sea+inland_water",
+    "other_land": "沙滩/岩岸/湿地陆缘/河谷缓冲/绿带/自然过渡",
+    "method": "all edge x intersections create vertical slabs; at midpoint sum linear intervals with priority sea>inland>built>forest>other, clip actual coverage polygon rectangle; no double counting",
+    "baseline_caveat": "V06 uses calibrated old schematic polygons as comparison, not verified real land use"
+  },
+  "campus_extent_m": [
+    360,
+    320
+  ],
+  "core_extent_m": [
+    520,
+    400
+  ],
+  "unique_models_created": 0
+}

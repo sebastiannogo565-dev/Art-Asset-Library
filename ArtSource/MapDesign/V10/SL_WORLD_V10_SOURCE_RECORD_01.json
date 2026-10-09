@@ -1,0 +1,48 @@
+{
+  "authority": "V09正式01",
+  "base_sha256": "bc3d64f5abed5fd44289b716390f396c751548e11d49d90a91179f34073aae89",
+  "source_documents": [
+    {
+      "file": "Docs/MapDesign/V09/README.md",
+      "sha256": "a86295e608f7718ffabee3d54b5c0d8215a514e78571aba34466742b9e500d70"
+    },
+    {
+      "file": "Docs/MapDesign/V09/building-change-index.md",
+      "sha256": "4485b4e0c01cee80b6558e4f7a16e631aacc3d10be8ec2991f9f333fe137de24"
+    },
+    {
+      "file": "Docs/MapDesign/V09/routes.md",
+      "sha256": "89a96ac5bc25689faf5a9fe3e2a9e6223d692ea886e799aa27c31e371d47af91"
+    },
+    {
+      "file": "Docs/MapDesign/V09/public-space-cards.md",
+      "sha256": "a0df110d2e480b03ba7f2c549a152ac97ded46061765faedd116279bd9275adb"
+    },
+    {
+      "file": "Docs/MapDesign/V09/station-visual.md",
+      "sha256": "e4f25eba2bba6867dbce4a77343dd0472fbc6e73605134601cde2494f82aea30"
+    },
+    {
+      "file": "Docs/MapDesign/V09/exits-transport.md",
+      "sha256": "421ff4583e4e41b68b8551d6c41b12a0610c0e2f28b749e449950f3f4d8c01aa"
+    },
+    {
+      "file": "Docs/MapDesign/V09/review.md",
+      "sha256": "2df2cf886dc3c3cbb0de061309c9c4047bb03e0f2132e6a8549edbec60f75f73"
+    }
+  ],
+  "source_svg_sha256": "3e20aad59e4cce42eaef818e40a04951eef51565fdca3222304442a372df8c63",
+  "character": {
+    "source": "D:/UE project/SchoolLife/ArtSource/Characters/StudentChibi/FrontIdle/StudentChibi_Front_Idle.png",
+    "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd",
+    "copy_sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd",
+    "canvas": [
+      128,
+      128
+    ],
+    "visible_height_px": 116,
+    "user_visible_scale_m": 1.8,
+    "not_engine_measured": true
+  },
+  "model_scope": "no models/UE/assets implementation"
+}

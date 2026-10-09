@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-09",
+  "tool": "image_gen.imagegen",
+  "entry": "built-in image_gen tool",
+  "model_id": null,
+  "model_version": null,
+  "reason_unknown_model": "tool exposes image and output path but no concrete model/version",
+  "generation_calls": 1,
+  "requested_native": [
+    3072,
+    2560
+  ],
+  "native_size": [
+    1374,
+    1145
+  ],
+  "actual_format": "png",
+  "channels": 3,
+  "has_alpha": false,
+  "opaque_background": true,
+  "original": "Originals/SL_WORLD_V10_CONCEPT_01.png",
+  "original_bytes": 3468226,
+  "original_sha256": "637ea597db8ab38906fa976905767066fcbcbebde06b58bff593b5585853372e",
+  "download_source": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-f7406e7c-d873-4284-958c-a93214cfdc7a.png",
+  "download_source_sha256": "637ea597db8ab38906fa976905767066fcbcbebde06b58bff593b5585853372e",
+  "processing": "byte-for-byte Copy-Item; no upscale/resize/reencode; SVG overlays only",
+  "reference": "SL_WORLD_V10_INPUT_01.png",
+  "reference_sha256": "43b2c236c808d3df957a7c3219b4c0bbf026482ffb37ccfd289fe069383e732b",
+  "layout_sha256": "15e0c6b2cc7d1f12ae5c40985a520060b042a19c237a49d61c1f8ba6095a18b2",
+  "prompt": "SL_WORLD_V10_PROMPT_01.md",
+  "prompt_normalization": "LF normalized and trailing newline removed when passed to tool",
+  "actual_prompt_sha256": "4308a1a86e775a6ad9ad4376ce2f20d545107d2144cfb9362d452a48daa9d519",
+  "size_target_met": false,
+  "layout_changed_after_generation": false,
+  "no_retry": true
+}

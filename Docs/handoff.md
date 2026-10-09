@@ -1,3 +1,13 @@
+# V10 当前交接 · 2026-10-09
+
+[V10正文](MapDesign/V10/README.md) · [总平面与四板](../ArtSource/MapDesign/V10/README.md) · [候选比较](MapDesign/V10/candidate-comparison.md) · [建筑用途](MapDesign/V10/building-use-change-index.md) · [路线出口](MapDesign/V10/routes.md) · [公共后勤](MapDesign/V10/public-logistics-cards.md) · [偏差](MapDesign/V10/review.md)。
+
+统一世界19.19008km²/校园360×320/核心520×400和3正式桥/水系/重要入口/六路线保持。强化已有设施、四客厅、湖岸短折返和市政剖面；新B44渔务一栋及U28背景店屋钱汤候选，原27U+U28/U29，31重要/候选+112背景=143体量，模型0。渔务7000m²地块去重净增built6025.26m²，陆水森林不变。
+
+接续先审review及候选比较，再看四板/总JSON；尺寸、原图及冻结依据在V10源文件README。1次生成原生1374×1145，原字节SHA 637ea597db8ab38906fa976905767066fcbcbebde06b58bff593b5585853372e，精确模型版本未知。不要使用额外桥/扩校/钟楼/渔棚或站场夸张反写底稿。人物按用户约1.8m只读对照，源图未改。
+
+当前冻结01与生成时JSON一致；只有原图副本/同原生标注，不升格未来候选。Git/LFS收尾中，实际结果会追加。完成后停止，下一步玩家视角样板需用户另行安排。
+
 # 交接入口 · 当前V09
 
 
