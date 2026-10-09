@@ -700,6 +700,11 @@
     "sha256": "97c748f8c55b5d16be754dcf761d4b489a3ae24f67c54703983b183faa1329d1"
   },
   {
+    "path": "Docs/MapDesign/V13/git-sync.md",
+    "bytes": 849,
+    "sha256": "292fb0be93e69e19724c5bde44f570bdd4d42a45f2cc72c357ec6a90497b5353"
+  },
+  {
     "path": "Docs/MapDesign/V13/latest-scope.md",
     "bytes": 1078,
     "sha256": "695db8f524fb2722015e6ff5140d39d5cb2bc18c20a2a8ebed1172b06d0b1d11"
@@ -786,8 +791,8 @@
   },
   {
     "path": "Docs/MapDesign/V13/README.md",
-    "bytes": 4890,
-    "sha256": "b6309b618361eb4e9c89a42fe4bb4b026fa71fa7b10f3337ebe2e3d652bb94c1"
+    "bytes": 5088,
+    "sha256": "6955af58d87b85aee18510715b1affb8b39d389fd900e4f980fbdc86804f80fc"
   },
   {
     "path": "Docs/MapDesign/V13/review.md",

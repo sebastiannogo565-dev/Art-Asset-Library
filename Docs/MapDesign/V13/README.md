@@ -1,3 +1,5 @@
+[Git/LFS实际同步](git-sync.md)：成果提交e2113167fb1a8dd428924f154bfe402281aebf49已推送远端匹配，23对象80 MB、fsck通过；本记录另作普通收尾提交。停止供审阅。
+
 # 最新主审阅图：原图底层＋限定修改图层
 
 [限定组稿PNG](../../../ArtSource/MapDesign/V13/SL_WORLD_V13_SCOPED_COMPOSITION_01.png)／[可编辑分层SVG](../../../ArtSource/MapDesign/V13/SL_WORLD_V13_SCOPED_COMPOSITION_01.svg)／[中文标注SVG](../../../ArtSource/MapDesign/V13/SL_WORLD_V13_SCOPED_ANNOTATED_01.svg)／[标注PNG](../../../ArtSource/MapDesign/V13/SL_WORLD_V13_SCOPED_ANNOTATED_01.png)。V12附件作未改底层，只在8个局部图层引用一次AI编辑候选，图层可逐一关闭。其余区域RGB完全一致（核验排除裁切边缘2px抗锯齿）。这不是模型原生整图，1374×1145是SVG原尺寸组稿，不冒称3072达标。AI原图与处理来源完整保留。
