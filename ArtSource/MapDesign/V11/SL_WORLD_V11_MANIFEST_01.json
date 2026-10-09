@@ -1,0 +1,428 @@
+{
+  "date": "2026-10-09",
+  "scope": "V11 artifacts before Git LF normalization; excludes manifest and top-level handoffs",
+  "files": [
+    {
+      "path": "ArtSource/MapDesign/V11/Originals/SL_CORE_V11_PS02_VIEW_A.png",
+      "bytes": 3217782,
+      "sha256": "a819df86240b208637b6a7a20f624ace21214f3dd716e58c4ed4e5ef4b463ff2",
+      "image": {
+        "format": "png",
+        "width": 1672,
+        "height": 941,
+        "channels": 3,
+        "hasAlpha": false
+      }
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/Originals/SL_CORE_V11_PS02_VIEW_B.png",
+      "bytes": 3408937,
+      "sha256": "0c89ddb5266474e5d0fc2a55e6f8e3e6de2f83b8c2d0bde253e26204590bee1e",
+      "image": {
+        "format": "png",
+        "width": 1672,
+        "height": 941,
+        "channels": 3,
+        "hasAlpha": false
+      }
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/Originals/SL_WORLD_V11_CONCEPT_01.png",
+      "bytes": 3578798,
+      "sha256": "66634dfdb73b5d25980a543bb3bf031f371393af6eee3d5df2f34cf223f9cc47",
+      "image": {
+        "format": "png",
+        "width": 1374,
+        "height": 1145,
+        "channels": 3,
+        "hasAlpha": false
+      }
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/README.md",
+      "bytes": 901,
+      "sha256": "817b0067ebe90101e18b9834891666c47417afc929c4f0b94d361c11c69a0c0d"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/References/External_Edited_Candidate.png",
+      "bytes": 1800717,
+      "sha256": "6abb753b8a8adb1f215adae1e613c997ac945ac0fec37ab1c228557fd9d3fa6a",
+      "image": {
+        "format": "png",
+        "width": 1024,
+        "height": 853,
+        "channels": 3,
+        "hasAlpha": false
+      }
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/References/FormalCity-External-Edited-Candidate-Review.md",
+      "bytes": 7759,
+      "sha256": "e4df90f7af76c4f3b5ef99a5a9ec16f3a8f603611f85a43684314ee281f2d926"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/References/FormalCity-V10-Candidate-Review.md",
+      "bytes": 7787,
+      "sha256": "68e68f16db22f281d76a0315793e96a1b91f40d6d97e8e4695eb1a26c2e22f52"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/References/FormalCity-V10-POI-Hydrology-Social-Aesthetics-Review.md",
+      "bytes": 10270,
+      "sha256": "ce31cb41f0265c9852a1e988b5b157ae5b1c9f2c75ac5d3622d0c78d4c99cd93"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/References/StudentChibi_Front_Idle.png",
+      "bytes": 2076,
+      "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd",
+      "image": {
+        "format": "png",
+        "width": 128,
+        "height": 128,
+        "channels": 4,
+        "hasAlpha": true
+      }
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_CORE_V11_PS02_GUIDE_A.png",
+      "bytes": 299763,
+      "sha256": "53496d88ad581a3d9c64b46d37abbb5693bdb9ba2b31ba36afad4c168d8005c2",
+      "image": {
+        "format": "png",
+        "width": 2560,
+        "height": 1440,
+        "channels": 4,
+        "hasAlpha": true
+      }
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_CORE_V11_PS02_GUIDE_A.svg",
+      "bytes": 103163,
+      "sha256": "43e5dbd687fb025d96c1057d52cfc13128ccb43cc1bc4c012399555df5ab2fdd"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_CORE_V11_PS02_GUIDE_B.png",
+      "bytes": 303085,
+      "sha256": "94cab1d6a92a360036b9a58cf4040be5361fe899128014e4003d9dd67e93c6ba",
+      "image": {
+        "format": "png",
+        "width": 2560,
+        "height": 1440,
+        "channels": 4,
+        "hasAlpha": true
+      }
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_CORE_V11_PS02_GUIDE_B.svg",
+      "bytes": 102607,
+      "sha256": "89dd6670a1226067991e25e62290de64f46fb255fbbe990e0cde62e6cbfe5c7b"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_CORE_V11_PS02_PLAN_01.png",
+      "bytes": 370170,
+      "sha256": "fc986f5289559de53b79807a610d45ee963077e579fab2d3e4a31410d730c0d5",
+      "image": {
+        "format": "png",
+        "width": 2560,
+        "height": 1440,
+        "channels": 4,
+        "hasAlpha": true
+      }
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_CORE_V11_PS02_PLAN_01.svg",
+      "bytes": 156426,
+      "sha256": "5607ffeea7b1d0d7a67b20452f63aa907081e57987f02eacc588f1b328e17788"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_CORE_V11_PS02_VIEW_A.png",
+      "bytes": 3217782,
+      "sha256": "a819df86240b208637b6a7a20f624ace21214f3dd716e58c4ed4e5ef4b463ff2",
+      "image": {
+        "format": "png",
+        "width": 1672,
+        "height": 941,
+        "channels": 3,
+        "hasAlpha": false
+      }
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_CORE_V11_PS02_VIEW_B.png",
+      "bytes": 3408937,
+      "sha256": "0c89ddb5266474e5d0fc2a55e6f8e3e6de2f83b8c2d0bde253e26204590bee1e",
+      "image": {
+        "format": "png",
+        "width": 1672,
+        "height": 941,
+        "channels": 3,
+        "hasAlpha": false
+      }
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_ANNOTATED_01.png",
+      "bytes": 4035607,
+      "sha256": "97e7bb359ef6e286e42c1dab8c1d5b5c6df6883ba8892c25060eec38dbdc8f01",
+      "image": {
+        "format": "png",
+        "width": 1374,
+        "height": 1145,
+        "channels": 4,
+        "hasAlpha": true
+      }
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_ANNOTATED_01.svg",
+      "bytes": 9809,
+      "sha256": "4419b2b87053dd3efe589e85327073c6d8d89b1eba7467a7a8fc3e3b1f7da7c3"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_AREA_01.json",
+      "bytes": 2430,
+      "sha256": "6e52b5b3c650d670ab077ea26051c64dff39d15ef4967afe13c772a868e52cf8"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_BOARD_01_DAILY_IDENTITY.png",
+      "bytes": 712264,
+      "sha256": "47a29f3a93cdefec5bce867aa1455ff3856eaecb5172260924d851e30e59f2df",
+      "image": {
+        "format": "png",
+        "width": 3072,
+        "height": 2048,
+        "channels": 4,
+        "hasAlpha": true
+      }
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_BOARD_01_DAILY_IDENTITY.svg",
+      "bytes": 551794,
+      "sha256": "d9bae9724c81f1c57a79f79dd41ac535a294e24ec934472d47ff2b8d5adb70d4"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_BOARD_02_STATION_TERRAIN_WATER.png",
+      "bytes": 599885,
+      "sha256": "e143f94fbc6a5f0bc48560fcc9a3f1f2e7107c0e459fad0278bc1351c1154d25",
+      "image": {
+        "format": "png",
+        "width": 3072,
+        "height": 2048,
+        "channels": 4,
+        "hasAlpha": true
+      }
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_BOARD_02_STATION_TERRAIN_WATER.svg",
+      "bytes": 420135,
+      "sha256": "0800786d3320a92ec14f1e920cde535d305d212c6d382b8fa7be5d53c37bb0e9"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_BOARD_03_PUBLIC_HISTORY.png",
+      "bytes": 480239,
+      "sha256": "130a5f13c0651a79b67e96ffa87c1c981fa22329300770d3361b8ffec345595f",
+      "image": {
+        "format": "png",
+        "width": 3072,
+        "height": 2048,
+        "channels": 4,
+        "hasAlpha": true
+      }
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_BOARD_03_PUBLIC_HISTORY.svg",
+      "bytes": 788968,
+      "sha256": "162c842e70d8253bf7973f2b61d396bd1934c10736c14d8b67814e986931aa57"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_BOARD_04_NATURE_COAST.png",
+      "bytes": 608463,
+      "sha256": "0a7c9fdc37b5196bfdb19fa9a042d2b0b6bae8bd4010764b0e499778c9064796",
+      "image": {
+        "format": "png",
+        "width": 3072,
+        "height": 2048,
+        "channels": 4,
+        "hasAlpha": true
+      }
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_BOARD_04_NATURE_COAST.svg",
+      "bytes": 640070,
+      "sha256": "4af78ad0037d28a965162816898d0d5a2b56eb1c1e31b95a610d84633ee0dd99"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_CHECK_01.json",
+      "bytes": 1860,
+      "sha256": "75cf46b3e7406b773b02fe0a4434085b759bb96cf6680d60a550abf825977d22"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_CONCEPT_01.png",
+      "bytes": 3578798,
+      "sha256": "66634dfdb73b5d25980a543bb3bf031f371393af6eee3d5df2f34cf223f9cc47",
+      "image": {
+        "format": "png",
+        "width": 1374,
+        "height": 1145,
+        "channels": 3,
+        "hasAlpha": false
+      }
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_EXPLORATION_01.json",
+      "bytes": 518,
+      "sha256": "9042d7d79c9198fe9d85a6f3926b69ffa52d8217054396c12f5b623e33d1f7b6"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_GENERATION_01.json",
+      "bytes": 5713,
+      "sha256": "32f83b070d2a9f9917f354b3d24a230d2c6ea9445551ee0c9a7acff882bebec1"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_INPUT_RECORD_01.json",
+      "bytes": 1573,
+      "sha256": "73ddfae7b6ee66cdc6acbe008c58523be6126788d585e320aaf49ce5cc7da62c"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_LAYOUT_01.json",
+      "bytes": 783729,
+      "sha256": "f4ac6d6046df3ad902be9042d9f1722435ab3dea203ef9028fccec5abc0f9019"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_LAYOUT_AT_GENERATION_01.json",
+      "bytes": 783729,
+      "sha256": "f4ac6d6046df3ad902be9042d9f1722435ab3dea203ef9028fccec5abc0f9019"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_NETWORK_01.json",
+      "bytes": 18242,
+      "sha256": "d42716ff6bc6ffbc1d83d1acf34343efe4593d61c62d988f8a7903ef9ac8ae12"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_PLAN_01.png",
+      "bytes": 822414,
+      "sha256": "56a4344ae094475cf4834ac05555415f71a690bf3224506be3925d04c1717474",
+      "image": {
+        "format": "png",
+        "width": 3072,
+        "height": 2560,
+        "channels": 4,
+        "hasAlpha": true
+      }
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_PLAN_01.svg",
+      "bytes": 170554,
+      "sha256": "24b7815eea95dc51cea00727e4c4e1de6095d29c58658334e1341952463c5067"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_PROMPT_A_01.md",
+      "bytes": 2597,
+      "sha256": "92e449c6bd57ca2aa0d933c903b641b4446632d9ac7f54059bbae8e1a4a181b2"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_PROMPT_B_01.md",
+      "bytes": 2766,
+      "sha256": "55e1f361846a72e232a5598f42709a1bcae59f4baee2888b75ec643c86a81e82"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_PROMPT_WORLD_01.md",
+      "bytes": 3817,
+      "sha256": "1e1b983ea23e9b1482a813a9da5c05bec838983bca00f89d9fefe789d7523b40"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_REFERENCE_01.png",
+      "bytes": 676173,
+      "sha256": "e41e70d60003440d249ea665706df3c80a8f8cb0294bd51e9b6b6a5c50d7b44a",
+      "image": {
+        "format": "png",
+        "width": 3072,
+        "height": 2560,
+        "channels": 4,
+        "hasAlpha": true
+      }
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_REFERENCE_01.svg",
+      "bytes": 156295,
+      "sha256": "5e91f5d860a6c9ef6f91ea4422b987705f1379adb82c550c2930c6c4eda5c49a"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_ROUTE_COMPARISON_01.json",
+      "bytes": 9260,
+      "sha256": "833856f0dd013a4fcf9eccdbec8ed5e82deac9b3e9daa0e4216983cf1dfded6b"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_SOURCE_RECORD_01.json",
+      "bytes": 1860,
+      "sha256": "89035bf3e9ca373a84e2aa10a928f7d297d4a4d660d89ecf691d1bc294714a47"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/SL_WORLD_V11_SPACE_CHECK_01.json",
+      "bytes": 1795,
+      "sha256": "38ccbaeff20b8f786c3bb2a0ac9f05342d0cd71edb109ba5a929017b6dc428cf"
+    },
+    {
+      "path": "Docs/MapDesign/V11/building-use-phase-index.md",
+      "bytes": 10351,
+      "sha256": "cd7ce6326d13ccf924d3aec0fcc28419b878ba3ebe59fc9777329f3883430d23"
+    },
+    {
+      "path": "Docs/MapDesign/V11/candidate-change-comparison.md",
+      "bytes": 1992,
+      "sha256": "b590d2c3e23a17acacda763a19d7f63f2d541d14b530369e02cb595d4edc8dbc"
+    },
+    {
+      "path": "Docs/MapDesign/V11/exits-transport.md",
+      "bytes": 3157,
+      "sha256": "42f8eb2597f161221e7e907f1fa0de0c87e74e66ab5915ae1db40b466c72c516"
+    },
+    {
+      "path": "Docs/MapDesign/V11/external-reference-adoption.md",
+      "bytes": 1575,
+      "sha256": "48ab6c36357deff5a1f7f6ac65f4a0bfaba758d2f9e0b515b0feecce561f78db"
+    },
+    {
+      "path": "Docs/MapDesign/V11/generation.md",
+      "bytes": 905,
+      "sha256": "8205d2e74d286547f451ea925a682201482612dc1501528574d5911dbe078c66"
+    },
+    {
+      "path": "Docs/MapDesign/V11/local-sample.md",
+      "bytes": 1027,
+      "sha256": "db0946d6b78013bc180727312d4762a10abb1087c95744bb19900d9bc822a221"
+    },
+    {
+      "path": "Docs/MapDesign/V11/phases-capacity-area.md",
+      "bytes": 1351,
+      "sha256": "bf251421734909be832737b4d198129e055fc9f77c8c4942db036298859e3571"
+    },
+    {
+      "path": "Docs/MapDesign/V11/public-logistics-cards.md",
+      "bytes": 3577,
+      "sha256": "b3dceda75df48e90caf3811664128d0a052e5bf142bb03006519a143d66c0be0"
+    },
+    {
+      "path": "Docs/MapDesign/V11/README.md",
+      "bytes": 2400,
+      "sha256": "7b106d371bfd53465c3e8cbfe3a5df93f269b58ccf5e83edf422d14914f16100"
+    },
+    {
+      "path": "Docs/MapDesign/V11/review.md",
+      "bytes": 4237,
+      "sha256": "315d7a13a45dcbab88053c506065af20154e461e89052d87f4f012f27e13295a"
+    },
+    {
+      "path": "Docs/MapDesign/V11/routes.md",
+      "bytes": 1240,
+      "sha256": "ec2763eee6c3ab692e39459ae3b85d795828da775a3e5c7ed7df8b40d1a4fd4d"
+    }
+  ],
+  "checks": {
+    "frozen_json_same": true,
+    "raw_download_byte_same": true,
+    "character_read_only_same": true,
+    "three_calls_no_retry": true,
+    "geometry_area_routes_pass_2D": true,
+    "opposite_camera_guides": true,
+    "generated_B_opposite_view_pass": false,
+    "native_target_met": false,
+    "candidate_review_pending": true
+  }
+}

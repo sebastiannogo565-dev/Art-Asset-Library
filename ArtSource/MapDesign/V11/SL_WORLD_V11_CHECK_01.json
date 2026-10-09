@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-09",
+  "geometry_errors": [],
+  "public_roads_in_campus": [],
+  "river_crossings": [
+    {
+      "road": "LINK_P03",
+      "water": "MAIN_RIVER",
+      "point": [
+        2700.865800865801,
+        1728.181818181818
+      ],
+      "bridge_near": "BR_NEW"
+    },
+    {
+      "road": "LINK_P08",
+      "water": "LAKE_TRIBUTARY",
+      "point": [
+        2520,
+        2500
+      ],
+      "bridge_near": "BR_CREEK"
+    },
+    {
+      "road": "LINK_P08",
+      "water": "LAKE_TRIBUTARY",
+      "point": [
+        2520,
+        2500
+      ],
+      "bridge_near": "BR_CREEK"
+    },
+    {
+      "road": "LINK_P10",
+      "water": "MAIN_RIVER",
+      "point": [
+        2622.5108225108224,
+        1563.6363636363635
+      ],
+      "bridge_near": "BR_OLD"
+    },
+    {
+      "road": "W06_slope",
+      "water": "LAKE_TRIBUTARY",
+      "point": [
+        2190.437710437711,
+        2572.3905723905723
+      ],
+      "bridge_near": null
+    },
+    {
+      "road": "W08_lakeshore",
+      "water": "LAKE_TRIBUTARY",
+      "point": [
+        1552.2105263157896,
+        2797.6491228070176
+      ],
+      "bridge_near": null
+    }
+  ],
+  "households": [
+    {
+      "id": "HH01",
+      "closed": true,
+      "walk_length_m": 1432.7611700694429
+    },
+    {
+      "id": "HH02",
+      "closed": true,
+      "walk_length_m": 1385.084967944647
+    },
+    {
+      "id": "HH03",
+      "closed": true,
+      "walk_length_m": 1737.1699796089877
+    },
+    {
+      "id": "HH04",
+      "closed": true,
+      "walk_length_m": 3977.0579669948465
+    },
+    {
+      "id": "HH05",
+      "closed": true,
+      "walk_length_m": 405.0109840411692
+    },
+    {
+      "id": "HH06",
+      "closed": true,
+      "walk_length_m": 3753.889642720271
+    }
+  ],
+  "major_ids_preserved": true,
+  "units": "m",
+  "scope": "2D planning, not slopes/navigation/operating capacity"
+}

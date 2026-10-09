@@ -38,3 +38,13 @@ ArtSource/MapDesign/V09/SL_WORLD_V09_ANNOTATED_01.png filter=lfs diff=lfs merge=
 ArtSource/MapDesign/V10/Originals/SL_WORLD_V10_CONCEPT_01.png filter=lfs diff=lfs merge=lfs -text
 
 ArtSource/MapDesign/V10/SL_WORLD_V10_ANNOTATED_01.png filter=lfs diff=lfs merge=lfs -text
+
+# V11 original/large raster assets (exact paths; planning PNG stays ordinary Git)
+ArtSource/MapDesign/V11/Originals/SL_WORLD_V11_CONCEPT_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V11/Originals/SL_CORE_V11_PS02_VIEW_A.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V11/Originals/SL_CORE_V11_PS02_VIEW_B.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V11/SL_WORLD_V11_CONCEPT_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V11/SL_CORE_V11_PS02_VIEW_A.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V11/SL_CORE_V11_PS02_VIEW_B.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V11/SL_WORLD_V11_ANNOTATED_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V11/References/External_Edited_Candidate.png filter=lfs diff=lfs merge=lfs -text

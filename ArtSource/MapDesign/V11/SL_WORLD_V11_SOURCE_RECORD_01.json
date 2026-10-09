@@ -1,0 +1,57 @@
+{
+  "authority": "V10正式JSON/SVG，继承V07权威01a",
+  "inputs": [
+    {
+      "path": "ArtSource/MapDesign/V10/SL_WORLD_V10_LAYOUT_01.json",
+      "sha256": "15e0c6b2cc7d1f12ae5c40985a520060b042a19c237a49d61c1f8ba6095a18b2"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/References/External_Edited_Candidate.png",
+      "sha256": "6abb753b8a8adb1f215adae1e613c997ac945ac0fec37ab1c228557fd9d3fa6a"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/References/FormalCity-External-Edited-Candidate-Review.md",
+      "sha256": "e4df90f7af76c4f3b5ef99a5a9ec16f3a8f603611f85a43684314ee281f2d926"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/References/FormalCity-V10-Candidate-Review.md",
+      "sha256": "68e68f16db22f281d76a0315793e96a1b91f40d6d97e8e4695eb1a26c2e22f52"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/References/FormalCity-V10-POI-Hydrology-Social-Aesthetics-Review.md",
+      "sha256": "ce31cb41f0265c9852a1e988b5b157ae5b1c9f2c75ac5d3622d0c78d4c99cd93"
+    },
+    {
+      "path": "ArtSource/MapDesign/V11/References/StudentChibi_Front_Idle.png",
+      "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+    }
+  ],
+  "local_scope": {
+    "bounds_m": [
+      2110,
+      1650,
+      2260,
+      1795
+    ],
+    "width_m": 150,
+    "height_m": 145,
+    "anchor": "PS02与实际邻接B01/B03/B04/HN3，不含校门或全通学链",
+    "cameraA": {
+      "from": "西南",
+      "azimuth_deg": 45,
+      "depression_deg": 30
+    },
+    "cameraB": {
+      "from": "东北",
+      "azimuth_deg": 225,
+      "depression_deg": 30
+    },
+    "character_source": "References/StudentChibi_Front_Idle.png",
+    "visible_height_m": 1.8,
+    "alpha_visible_px": 116,
+    "canvas_px": 128
+  },
+  "read_only_schoollife": true,
+  "external_png_actually_viewed": true,
+  "new_geometry_not_from_generated": true
+}

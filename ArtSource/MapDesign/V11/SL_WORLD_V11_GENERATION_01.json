@@ -1,0 +1,148 @@
+{
+  "generation_count": 3,
+  "retries": 0,
+  "date": "2026-10-09",
+  "jobs": [
+    {
+      "task": "WORLD",
+      "original": "Originals/SL_WORLD_V11_CONCEPT_01.png",
+      "delivery": "SL_WORLD_V11_CONCEPT_01.png",
+      "source_download_path": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-60a998ca-844e-4c47-a283-8e1877bceb66.png",
+      "tool": "image_gen.imagegen",
+      "model_id": null,
+      "model_reason": "Built-in tool does not expose concrete model/version",
+      "prompt": "SL_WORLD_V11_PROMPT_WORLD_01.md",
+      "prompt_sha256": "1e1b983ea23e9b1482a813a9da5c05bec838983bca00f89d9fefe789d7523b40",
+      "references": [
+        {
+          "path": "SL_WORLD_V11_REFERENCE_01.png",
+          "sha256": "e41e70d60003440d249ea665706df3c80a8f8cb0294bd51e9b6b6a5c50d7b44a"
+        },
+        {
+          "path": "SL_WORLD_V11_BOARD_01_DAILY_IDENTITY.png",
+          "sha256": "47a29f3a93cdefec5bce867aa1455ff3856eaecb5172260924d851e30e59f2df"
+        }
+      ],
+      "calls": 1,
+      "retries": 0,
+      "target": [
+        3072,
+        2560
+      ],
+      "native_size": [
+        1374,
+        1145
+      ],
+      "format": "png",
+      "bytes": 3578798,
+      "sha256": "66634dfdb73b5d25980a543bb3bf031f371393af6eee3d5df2f34cf223f9cc47",
+      "opaque": true,
+      "upscaled": false,
+      "processing": "original bytes unchanged; root delivery byte-identical copy",
+      "spatial_authority": "SL_WORLD_V11_LAYOUT_AT_GENERATION_01.json",
+      "layout_frozen_sha256": "f4ac6d6046df3ad902be9042d9f1722435ab3dea203ef9028fccec5abc0f9019"
+    },
+    {
+      "task": "A",
+      "original": "Originals/SL_CORE_V11_PS02_VIEW_A.png",
+      "delivery": "SL_CORE_V11_PS02_VIEW_A.png",
+      "source_download_path": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-f0a70c6b-a7e7-4bc3-b0e5-e0e2f60d2b9f.png",
+      "tool": "image_gen.imagegen",
+      "model_id": null,
+      "model_reason": "Built-in tool does not expose concrete model/version",
+      "prompt": "SL_WORLD_V11_PROMPT_A_01.md",
+      "prompt_sha256": "92e449c6bd57ca2aa0d933c903b641b4446632d9ac7f54059bbae8e1a4a181b2",
+      "references": [
+        {
+          "path": "SL_CORE_V11_PS02_PLAN_01.png",
+          "sha256": "fc986f5289559de53b79807a610d45ee963077e579fab2d3e4a31410d730c0d5"
+        },
+        {
+          "path": "SL_CORE_V11_PS02_GUIDE_A.png",
+          "sha256": "53496d88ad581a3d9c64b46d37abbb5693bdb9ba2b31ba36afad4c168d8005c2"
+        },
+        {
+          "path": "SL_WORLD_V11_BOARD_01_DAILY_IDENTITY.png",
+          "sha256": "47a29f3a93cdefec5bce867aa1455ff3856eaecb5172260924d851e30e59f2df"
+        },
+        {
+          "path": "References/StudentChibi_Front_Idle.png",
+          "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+        }
+      ],
+      "calls": 1,
+      "retries": 0,
+      "target": [
+        2560,
+        1440
+      ],
+      "native_size": [
+        1672,
+        941
+      ],
+      "format": "png",
+      "bytes": 3217782,
+      "sha256": "a819df86240b208637b6a7a20f624ace21214f3dd716e58c4ed4e5ef4b463ff2",
+      "opaque": true,
+      "upscaled": false,
+      "processing": "original bytes unchanged; root delivery byte-identical copy",
+      "spatial_authority": "SL_WORLD_V11_LAYOUT_AT_GENERATION_01.json",
+      "layout_frozen_sha256": "f4ac6d6046df3ad902be9042d9f1722435ab3dea203ef9028fccec5abc0f9019"
+    },
+    {
+      "task": "B",
+      "original": "Originals/SL_CORE_V11_PS02_VIEW_B.png",
+      "delivery": "SL_CORE_V11_PS02_VIEW_B.png",
+      "source_download_path": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-db08696f-b0d3-4868-b1f5-7944e9dba3ad.png",
+      "tool": "image_gen.imagegen",
+      "model_id": null,
+      "model_reason": "Built-in tool does not expose concrete model/version",
+      "prompt": "SL_WORLD_V11_PROMPT_B_01.md",
+      "prompt_sha256": "55e1f361846a72e232a5598f42709a1bcae59f4baee2888b75ec643c86a81e82",
+      "references": [
+        {
+          "path": "SL_CORE_V11_PS02_PLAN_01.png",
+          "sha256": "fc986f5289559de53b79807a610d45ee963077e579fab2d3e4a31410d730c0d5"
+        },
+        {
+          "path": "SL_CORE_V11_PS02_GUIDE_B.png",
+          "sha256": "94cab1d6a92a360036b9a58cf4040be5361fe899128014e4003d9dd67e93c6ba"
+        },
+        {
+          "path": "SL_WORLD_V11_BOARD_01_DAILY_IDENTITY.png",
+          "sha256": "47a29f3a93cdefec5bce867aa1455ff3856eaecb5172260924d851e30e59f2df"
+        },
+        {
+          "path": "Originals/SL_CORE_V11_PS02_VIEW_A.png",
+          "sha256": "a819df86240b208637b6a7a20f624ace21214f3dd716e58c4ed4e5ef4b463ff2"
+        },
+        {
+          "path": "References/StudentChibi_Front_Idle.png",
+          "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+        }
+      ],
+      "calls": 1,
+      "retries": 0,
+      "target": [
+        2560,
+        1440
+      ],
+      "native_size": [
+        1672,
+        941
+      ],
+      "format": "png",
+      "bytes": 3408937,
+      "sha256": "0c89ddb5266474e5d0fc2a55e6f8e3e6de2f83b8c2d0bde253e26204590bee1e",
+      "opaque": true,
+      "upscaled": false,
+      "processing": "original bytes unchanged; root delivery byte-identical copy",
+      "spatial_authority": "SL_WORLD_V11_LAYOUT_AT_GENERATION_01.json",
+      "layout_frozen_sha256": "f4ac6d6046df3ad902be9042d9f1722435ab3dea203ef9028fccec5abc0f9019"
+    }
+  ],
+  "layout_after_generation_changed": false,
+  "character_file_unchanged": true,
+  "character_sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd",
+  "prompt_submission_method": "Get-Content Raw then trim(): terminal whitespace not sent to imagegen"
+}

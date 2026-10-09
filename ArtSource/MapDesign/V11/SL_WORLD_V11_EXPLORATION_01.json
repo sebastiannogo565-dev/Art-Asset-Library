@@ -1,0 +1,21 @@
+{
+  "lake_outbound_m": 375.93187055519513,
+  "lake_return_m": 375.93187055519513,
+  "lake_total_m": 751.8637411103903,
+  "route": [
+    [
+      1580,
+      2810
+    ],
+    [
+      1310,
+      2690
+    ],
+    [
+      1230,
+      2681.3513513513512
+    ]
+  ],
+  "formal_other_crossings": "Inherited W06_slope/W08_lakeshore intersect 5m tributary at two points without named bridge: small crossing detail/culvert/stepping candidate unresolved; not additional adopted main-river bridges",
+  "scope": "paper length only"
+}

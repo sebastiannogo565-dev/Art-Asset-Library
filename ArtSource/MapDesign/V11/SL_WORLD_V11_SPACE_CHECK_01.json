@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-09",
+  "preserved_geometry_keys": [
+    "world",
+    "local_plans",
+    "waters",
+    "rail",
+    "bridges",
+    "connections",
+    "bus",
+    "households",
+    "utility_flows",
+    "background_groups",
+    "parcels",
+    "campus",
+    "campus_paths",
+    "history_nodes"
+  ],
+  "preserved_building_ids": 31,
+  "original27_unchanged": true,
+  "uses_preserved": 29,
+  "candidates": [
+    {
+      "id": "B44_public",
+      "at": [
+        3824,
+        910
+      ],
+      "hosts": [],
+      "reachable": true
+    },
+    {
+      "id": "B44_staff",
+      "at": [
+        3800,
+        908
+      ],
+      "hosts": [
+        "B44"
+      ],
+      "reachable": true
+    },
+    {
+      "id": "B44_work",
+      "at": [
+        3820,
+        840
+      ],
+      "hosts": [
+        "B44"
+      ],
+      "reachable": true
+    },
+    {
+      "id": "B44_view",
+      "at": [
+        3865,
+        865
+      ],
+      "hosts": [],
+      "reachable": true
+    },
+    {
+      "id": "U28_public",
+      "at": [
+        2330.8254545454547,
+        1812.7436363636364
+      ],
+      "hosts": [
+        "BG_S_06"
+      ],
+      "reachable": true
+    },
+    {
+      "id": "U28_staff",
+      "at": [
+        2327.8486363636366,
+        1788.9290909090907
+      ],
+      "hosts": [
+        "BG_S_06"
+      ],
+      "reachable": true
+    },
+    {
+      "id": "LAKE_stop",
+      "at": [
+        1230,
+        2681.3513513513512
+      ],
+      "hosts": [],
+      "reachable": true
+    }
+  ],
+  "candidate_polygon_conflicts": [],
+  "fishery_work_not_publicly_routable": true,
+  "public_lounges": 4,
+  "same_six_route_polylines": true,
+  "scope": "2D only; not slopes/hydraulics/water depth/traffic/camera/navigation/capacity/gameplay",
+  "baseline": "V10正式01",
+  "new_buildings": 0,
+  "new_uses": 0
+}

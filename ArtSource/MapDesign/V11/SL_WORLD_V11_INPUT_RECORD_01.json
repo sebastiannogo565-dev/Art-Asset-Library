@@ -1,0 +1,59 @@
+{
+  "tool": "image_gen.imagegen",
+  "model_id": null,
+  "reason": "built-in verified V08–V10 channel; tool does not expose model version",
+  "planned_generation_count": 3,
+  "planned_tasks": [
+    "one complete city",
+    "PS02 A once",
+    "PS02 B once"
+  ],
+  "layout_frozen_sha256": "f4ac6d6046df3ad902be9042d9f1722435ab3dea203ef9028fccec5abc0f9019",
+  "references": [
+    {
+      "path": "SL_WORLD_V11_REFERENCE_01.png",
+      "sha256": "e41e70d60003440d249ea665706df3c80a8f8cb0294bd51e9b6b6a5c50d7b44a"
+    },
+    {
+      "path": "SL_WORLD_V11_BOARD_01_DAILY_IDENTITY.png",
+      "sha256": "47a29f3a93cdefec5bce867aa1455ff3856eaecb5172260924d851e30e59f2df"
+    },
+    {
+      "path": "SL_CORE_V11_PS02_PLAN_01.png",
+      "sha256": "fc986f5289559de53b79807a610d45ee963077e579fab2d3e4a31410d730c0d5"
+    },
+    {
+      "path": "SL_CORE_V11_PS02_GUIDE_A.png",
+      "sha256": "53496d88ad581a3d9c64b46d37abbb5693bdb9ba2b31ba36afad4c168d8005c2"
+    },
+    {
+      "path": "SL_CORE_V11_PS02_GUIDE_B.png",
+      "sha256": "94cab1d6a92a360036b9a58cf4040be5361fe899128014e4003d9dd67e93c6ba"
+    },
+    {
+      "path": "References/StudentChibi_Front_Idle.png",
+      "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+    }
+  ],
+  "prompt_files": [
+    "SL_WORLD_V11_PROMPT_WORLD_01.md",
+    "SL_WORLD_V11_PROMPT_A_01.md",
+    "SL_WORLD_V11_PROMPT_B_01.md"
+  ],
+  "targets": {
+    "WORLD": [
+      3072,
+      2560
+    ],
+    "A": [
+      2560,
+      1440
+    ],
+    "B": [
+      2560,
+      1440
+    ]
+  },
+  "retries": 0,
+  "not_upscaled": true
+}
