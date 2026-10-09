@@ -11,6 +11,15 @@
 
 未采用：新桥、4000m²停车换乘、短奉纳鸟居段、巨站/地下街/巨商场、河口巨祭场、全城粉樱或长红白阶。候选图额外桥/多轨/停车硬铺/放大学校/农田替代街区不反写。画风与尺寸未通过。图稿与Git同步不是审批、工程或游戏验收，完成后停止。
 
+### V09 实际同步与停止记录
+
+2026-10-09成果提交[8b4916ad549ba0e98e542d5c0a7f13cf47ed1250](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/8b4916ad549ba0e98e542d5c0a7f13cf47ed1250)，47个本轮相关文件正常推送origin/main；git ls-remote完整哈希与本地一致。LFS上传2/2，原图3511968字节、同尺寸标注4136128字节，共7648096字节（终端7.6MB）；随后lfs push --dry-run无待上传。原图OID b520ea962987a57f78b17e5fbea8f0dd833ce02f94bd55381619c0972a8fb0a5；标注OID c12f5ae94480460b18b216920abc4861c9dd2cc6b05d105db601a7d0bde5f01f。
+
+已跟踪工作区干净；仅原有setup_blender_mcp.py、setup_codex_blender_mcp.py、verify_blender_mcp.py未跟踪，未改/未提交。V02—V08目录无修改，角色源图只读且副本hash一致，未写SchoolLife；缓存/凭据不入仓库。此四交接同步记录另作普通收尾提交推送，最终HEAD/远端完整哈希在交付报告提供，避免自引用。
+
+本轮结束并停止供用户审阅。待审为额外桥/站前停车与多轨/校园尺度/像素风偏差，原生1374×1145低于目标，以及U27/四客厅/前场尺寸与以前未来设施候选；实际三维/导航/坡度/相机/运营/游戏耗时未验证。Git同步与二维连通不是设计批准，不继续重抽、样板、模型或UE。
+
+
 ## V08 当前交付01（2026-10-09）
 
 [V08正文](MapDesign/V08/README.md) · [变更](MapDesign/V08/change-log.md) · [总图](../ArtSource/MapDesign/V08/SL_WORLD_V08_PLAN_01.png) · [四规划板](../ArtSource/MapDesign/V08/README.md) · [原图](../ArtSource/MapDesign/V08/Originals/SL_WORLD_V08_CANDIDATE_01.png) · [标注](../ArtSource/MapDesign/V08/SL_WORLD_V08_ANNOTATED_01.svg)。
