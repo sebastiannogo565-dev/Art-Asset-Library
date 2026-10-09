@@ -1,0 +1,15 @@
+Generate ONE original SchoolLife Sumisaka V12 complete oblique city concept, opaque PNG requested native3072x2560, north at top, no labels or panels. Early-summer sunny daytime; complete mountains, NW lake, city and southern bay, no required zone cropped.
+
+REFERENCE PRIORITY: image1 V12 exact plan is sole geometry. image2 daily/public board fixes existing school and small daily nucleus. image3 beach board fixes coast states. image4 Gemini is ONLY functional/art/color inspiration, NEVER its fountain, extra bridges, red school, pink/red trees, large harbor or enlarged buildings.
+
+World4909.09x3909.09m; school360x320m and core520x400m retain true proportions. Central-north terrace cream teaching wings/slate roof cluster, small old clock/old-school roof, corridors, bluegray large-span gym, normal training field. Warm wood entrance only, no whole red-roof school. Southwest compact family homes, porch/mailbox/court and organic narrow spring-channel old trade street: book/stationery window, workshop cafe short awning/workyard, bright convenience and takeaway window; campus and these daily places emotional primary without enlarging footprints.
+
+West quiet mature housing/hospital/library/community forecourts, east existing medium offices/ground shops and station transition, east OUTER rail/commuter station only. Small station canopy/direct walking/side bus-taxi, a small train/bus suggest use; no huge freight-yard or central railway.
+
+NW irregular static mountain-basin lake divided from NE independent main-river source by complete wooded ridge. River passes east of school to natural estuary through EXACTLY2 main-river bridges; tiny5m lake creek with1 formal creek bridge, not wide lake-to-river ribbon or extra bridge. Blue-cap water tower WEST of school at plan point, red single shrine torii/gray segmented stairs/green slope resting-platform/gentle sidepath, private garden branch separated.
+
+SW existing sand: original entrance light activity/few pastel umbrellas/people/short service shade, rear path returns homes, quiet western open sand/sparse seats. East grass/rock transition leads natural reed estuary/main channel/tidal creeks/sandbars, do NOT extend new swimming beach to river mouth. Southeast fishery ONE432m2 modest shared building,7000m2 Llot/small2100m2 workyard, crates/nets/separate publicwatch, no container or enclosed giant port. Low white beacon reached from land not workyard.
+
+NE FOUR modest green young-crop slope fields/ONE tiny greenhouse/tool shed proposal, no gold harvest/windmills. At most ONE small lakeside-path2-3 tent clearing, not a big waterfront lodge; old inspection hut stays tiny locked.
+
+Style original Japanese anime HD2D: clear stylized3D roofs/front/sides, deliberate clean outlines and broad color groups, controlled sparse pixel-material steps, simple treeclumps/openings, warmgray/cream/wood/slate/bluegreen water/green summer. Background calm daily entrances defined. NOT photographic drone view, NOT noisy realistic texture then pixelized, no dense tiny leaf/roof noise, no pinkcherry/autumn season. Organic old streets remain, not square zones, no central fountain. Exact names layered later.

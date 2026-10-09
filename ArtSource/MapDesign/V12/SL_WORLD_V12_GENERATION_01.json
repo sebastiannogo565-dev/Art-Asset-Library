@@ -1,0 +1,202 @@
+{
+  "date": "2026-10-10",
+  "channel": "built-in image_gen, same verified V08-V11 route",
+  "generation_count": 4,
+  "retries": 0,
+  "layout_at_generation": "SL_WORLD_V12_LAYOUT_AT_GENERATION_01.json",
+  "layout_frozen_sha256": "dd763c0b33a0f9f7011107db55dd033db66f98d78037a66b3d25bf19d6fe6421",
+  "jobs": [
+    {
+      "name": "SL_WORLD_V12_CONCEPT_01",
+      "source": "exec-d1bfc865-6d0b-4f9d-9fe0-1048d1fff621.png",
+      "target": [
+        3072,
+        2560
+      ],
+      "job_order": 1,
+      "entry": "functions.exec → tools.image_gen__imagegen",
+      "model": null,
+      "model_reason": "exact model/version not exposed by built-in tool",
+      "original": "Originals/SL_WORLD_V12_CONCEPT_01.png",
+      "delivery": "SL_WORLD_V12_CONCEPT_01.png",
+      "source_download_path": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-d1bfc865-6d0b-4f9d-9fe0-1048d1fff621.png",
+      "prompt": "Docs/MapDesign/V12/prompts/SL_WORLD_V12_CONCEPT_01.md",
+      "prompt_sha256": "3294ff7e04c5f332ebfbb73d1c5255a0800a3bddcaee69e5f5a09d6255ebc0aa",
+      "sha256": "80b4b69a9ccf2d64788f5ef50ef1e3b39d572a2dc202b765c51a5c669e5e6550",
+      "bytes": 3532973,
+      "actual_format": "png",
+      "native_size": [
+        1374,
+        1145
+      ],
+      "opaque": true,
+      "target_native_met": false,
+      "references": [
+        {
+          "path": "SL_WORLD_V12_REFERENCE_01.png",
+          "sha256": "b09aba42187bc9066303b4f19c12884db55ae8dc603529ef983f14b7ec90fb21"
+        },
+        {
+          "path": "SL_WORLD_V12_BOARD_01_DAILY_PUBLIC.png",
+          "sha256": "27cffd4fc102bf99a49d60c42b682f5f4743f329274ee30c79d9ec08a6eb9236"
+        },
+        {
+          "path": "SL_WORLD_V12_BOARD_03_BEACH_SEASONS.png",
+          "sha256": "c11b011b8a201bde63d667ea22aa3bd5ee6aec22c9967b22c757e59f70e8ae64"
+        },
+        {
+          "path": "References/Gemini_Activity_Reference.png",
+          "sha256": "e49d169b5a2d7c6696cc605e5206577ebf835f70b9548bcd7f3beab9f126cef7"
+        }
+      ],
+      "layout_frozen_sha256": "dd763c0b33a0f9f7011107db55dd033db66f98d78037a66b3d25bf19d6fe6421",
+      "processing": "byte-exact copy only; no resize, upscale, crop, rename-format or redraw"
+    },
+    {
+      "name": "SL_CORE_V12_PS02_VIEW_B",
+      "source": "exec-e9470bb6-7d75-4d29-a5b6-7044a8445fe9.png",
+      "target": [
+        2560,
+        1440
+      ],
+      "job_order": 2,
+      "entry": "functions.exec → tools.image_gen__imagegen",
+      "model": null,
+      "model_reason": "exact model/version not exposed by built-in tool",
+      "original": "Originals/SL_CORE_V12_PS02_VIEW_B.png",
+      "delivery": "SL_CORE_V12_PS02_VIEW_B.png",
+      "source_download_path": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-e9470bb6-7d75-4d29-a5b6-7044a8445fe9.png",
+      "prompt": "Docs/MapDesign/V12/prompts/SL_CORE_V12_PS02_VIEW_B.md",
+      "prompt_sha256": "a43f21fd8c894e38af6e11c3500bf18bc2d9a059076ce28b949d7e877fa327ae",
+      "sha256": "0be730e4bcb72a1601cc9e5be40cafc6a77e9bf52d340f42a7525d320a7c5805",
+      "bytes": 3762867,
+      "actual_format": "png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "target_native_met": false,
+      "references": [
+        {
+          "path": "SL_CORE_V12_PS02_INPUT_B.png",
+          "sha256": "0be499da694e9788c0aceb3884bbeb671c8e01165b029f09ad7904e454d1cb3f"
+        },
+        {
+          "path": "SL_CORE_V12_PS02_PLAN_01.png",
+          "sha256": "fd72e330e66dcc7f7049d3ed8d8b4bc3c921ddf4a29088280f5c6ba3885792ea"
+        },
+        {
+          "path": "SL_WORLD_V12_BOARD_01_DAILY_PUBLIC.png",
+          "sha256": "27cffd4fc102bf99a49d60c42b682f5f4743f329274ee30c79d9ec08a6eb9236"
+        },
+        {
+          "path": "References/Gemini_Activity_Reference.png",
+          "sha256": "e49d169b5a2d7c6696cc605e5206577ebf835f70b9548bcd7f3beab9f126cef7"
+        },
+        {
+          "path": "References/StudentChibi_Front_Idle.png",
+          "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+        }
+      ],
+      "layout_frozen_sha256": "dd763c0b33a0f9f7011107db55dd033db66f98d78037a66b3d25bf19d6fe6421",
+      "processing": "byte-exact copy only; no resize, upscale, crop, rename-format or redraw"
+    },
+    {
+      "name": "SL_CORE_V12_PS02_VIEW_A",
+      "source": "exec-4ff1915a-ee7e-4b55-b79d-7290636c0452.png",
+      "target": [
+        2560,
+        1440
+      ],
+      "job_order": 3,
+      "entry": "functions.exec → tools.image_gen__imagegen",
+      "model": null,
+      "model_reason": "exact model/version not exposed by built-in tool",
+      "original": "Originals/SL_CORE_V12_PS02_VIEW_A.png",
+      "delivery": "SL_CORE_V12_PS02_VIEW_A.png",
+      "source_download_path": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-4ff1915a-ee7e-4b55-b79d-7290636c0452.png",
+      "prompt": "Docs/MapDesign/V12/prompts/SL_CORE_V12_PS02_VIEW_A.md",
+      "prompt_sha256": "b5b5a05cecb902de4d7bc373f2e1cbe00b9fd15a5a1ad0fbf0291a56281e5f1f",
+      "sha256": "417ca081541c3b2907979783624c28017a656c7fa6153648cd1279121b9e8e3e",
+      "bytes": 3398966,
+      "actual_format": "png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "target_native_met": false,
+      "references": [
+        {
+          "path": "SL_CORE_V12_PS02_INPUT_A.png",
+          "sha256": "6edbee651ea93062e92c1b589d7c605759a1451fa04c0bb509c0f1459309c503"
+        },
+        {
+          "path": "SL_CORE_V12_PS02_PLAN_01.png",
+          "sha256": "fd72e330e66dcc7f7049d3ed8d8b4bc3c921ddf4a29088280f5c6ba3885792ea"
+        },
+        {
+          "path": "SL_WORLD_V12_BOARD_01_DAILY_PUBLIC.png",
+          "sha256": "27cffd4fc102bf99a49d60c42b682f5f4743f329274ee30c79d9ec08a6eb9236"
+        },
+        {
+          "path": "References/Gemini_Activity_Reference.png",
+          "sha256": "e49d169b5a2d7c6696cc605e5206577ebf835f70b9548bcd7f3beab9f126cef7"
+        },
+        {
+          "path": "References/StudentChibi_Front_Idle.png",
+          "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+        }
+      ],
+      "layout_frozen_sha256": "dd763c0b33a0f9f7011107db55dd033db66f98d78037a66b3d25bf19d6fe6421",
+      "processing": "byte-exact copy only; no resize, upscale, crop, rename-format or redraw"
+    },
+    {
+      "name": "SL_BEACH_V12_VIEW_01",
+      "source": "exec-bb51d836-770f-4e65-8166-e50a7c3cde43.png",
+      "target": [
+        2560,
+        1440
+      ],
+      "job_order": 4,
+      "entry": "functions.exec → tools.image_gen__imagegen",
+      "model": null,
+      "model_reason": "exact model/version not exposed by built-in tool",
+      "original": "Originals/SL_BEACH_V12_VIEW_01.png",
+      "delivery": "SL_BEACH_V12_VIEW_01.png",
+      "source_download_path": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-bb51d836-770f-4e65-8166-e50a7c3cde43.png",
+      "prompt": "Docs/MapDesign/V12/prompts/SL_BEACH_V12_VIEW_01.md",
+      "prompt_sha256": "3aca88813f325cb84131c5e1cabadfebce21692ea1ca60331327421ab85aba30",
+      "sha256": "f78a0ad04fcd4dea386ad2c5d98bdc61ceb8e6dc616207502f07474c70c0ddda",
+      "bytes": 3150542,
+      "actual_format": "png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "target_native_met": false,
+      "references": [
+        {
+          "path": "SL_BEACH_V12_INPUT_01.png",
+          "sha256": "fa0e0cac3ed3e5a48809456903f9382aac3e30ad6350b088a6a305b7ad1e4e1b"
+        },
+        {
+          "path": "SL_WORLD_V12_BOARD_03_BEACH_SEASONS.png",
+          "sha256": "c11b011b8a201bde63d667ea22aa3bd5ee6aec22c9967b22c757e59f70e8ae64"
+        },
+        {
+          "path": "References/Gemini_Activity_Reference.png",
+          "sha256": "e49d169b5a2d7c6696cc605e5206577ebf835f70b9548bcd7f3beab9f126cef7"
+        },
+        {
+          "path": "References/StudentChibi_Front_Idle.png",
+          "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+        }
+      ],
+      "layout_frozen_sha256": "dd763c0b33a0f9f7011107db55dd033db66f98d78037a66b3d25bf19d6fe6421",
+      "processing": "byte-exact copy only; no resize, upscale, crop, rename-format or redraw"
+    }
+  ]
+}

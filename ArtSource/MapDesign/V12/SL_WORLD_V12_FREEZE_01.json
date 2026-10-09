@@ -1,0 +1,89 @@
+{
+  "frozen_at": "2026-10-10",
+  "version": "V12_01",
+  "layout": "ArtSource/MapDesign/V12/SL_WORLD_V12_LAYOUT_01.json",
+  "layout_sha256": "dd763c0b33a0f9f7011107db55dd033db66f98d78037a66b3d25bf19d6fe6421",
+  "references": [
+    {
+      "file": "ArtSource/MapDesign/V12/SL_BEACH_V12_CONSTRAINT_01.png",
+      "sha256": "851c0f4f3139fe7e0b7f24dca37556c9c69d8e5d925ade015edfcd1cb45e2d37"
+    },
+    {
+      "file": "ArtSource/MapDesign/V12/SL_BEACH_V12_INPUT_01.png",
+      "sha256": "fa0e0cac3ed3e5a48809456903f9382aac3e30ad6350b088a6a305b7ad1e4e1b"
+    },
+    {
+      "file": "ArtSource/MapDesign/V12/SL_CORE_V12_PS02_CAMERA_BOARD_01.png",
+      "sha256": "a8d4ebfc9086e75be56d225093caaaaee7c277797eea3ff740ae45f9db4a19ed"
+    },
+    {
+      "file": "ArtSource/MapDesign/V12/SL_CORE_V12_PS02_CONSTRAINT_A.png",
+      "sha256": "25c2465040018c37d865f20fadf6ce4437b6c7de7a397039eafcf6a8d1b3a558"
+    },
+    {
+      "file": "ArtSource/MapDesign/V12/SL_CORE_V12_PS02_CONSTRAINT_B.png",
+      "sha256": "46142094d0186fddabb51ecd7da6508e0290a9724c4afc2787d0fa46931fc37b"
+    },
+    {
+      "file": "ArtSource/MapDesign/V12/SL_CORE_V12_PS02_INPUT_A.png",
+      "sha256": "6edbee651ea93062e92c1b589d7c605759a1451fa04c0bb509c0f1459309c503"
+    },
+    {
+      "file": "ArtSource/MapDesign/V12/SL_CORE_V12_PS02_INPUT_B.png",
+      "sha256": "0be499da694e9788c0aceb3884bbeb671c8e01165b029f09ad7904e454d1cb3f"
+    },
+    {
+      "file": "ArtSource/MapDesign/V12/SL_CORE_V12_PS02_PLAN_01.png",
+      "sha256": "fd72e330e66dcc7f7049d3ed8d8b4bc3c921ddf4a29088280f5c6ba3885792ea"
+    },
+    {
+      "file": "ArtSource/MapDesign/V12/SL_WORLD_V12_BOARD_01_DAILY_PUBLIC.png",
+      "sha256": "27cffd4fc102bf99a49d60c42b682f5f4743f329274ee30c79d9ec08a6eb9236"
+    },
+    {
+      "file": "ArtSource/MapDesign/V12/SL_WORLD_V12_BOARD_02_STATION_ROUTES_WATER.png",
+      "sha256": "bff0b43d98e7ab917469253def8b1dc09de4f9a1da591b306c07486b3cbde957"
+    },
+    {
+      "file": "ArtSource/MapDesign/V12/SL_WORLD_V12_BOARD_03_BEACH_SEASONS.png",
+      "sha256": "c11b011b8a201bde63d667ea22aa3bd5ee6aec22c9967b22c757e59f70e8ae64"
+    },
+    {
+      "file": "ArtSource/MapDesign/V12/SL_WORLD_V12_BOARD_04_NATURE_PRODUCTION_COLOR.png",
+      "sha256": "d9ca16ae6e2b6b320f0d86906ccae91804e4eec2e7dde9b1e267ab0e21473c89"
+    },
+    {
+      "file": "ArtSource/MapDesign/V12/SL_WORLD_V12_PLAN_01.png",
+      "sha256": "67e2795f4c78a740abb4250c96951542434590b9c83dfdd21d90165badd73e17"
+    },
+    {
+      "file": "ArtSource/MapDesign/V12/SL_WORLD_V12_REFERENCE_01.png",
+      "sha256": "b09aba42187bc9066303b4f19c12884db55ae8dc603529ef983f14b7ec90fb21"
+    },
+    {
+      "file": "ArtSource/MapDesign/V12/SL_WORLD_V12_SEASON_SWATCH_01.png",
+      "sha256": "d59f372428ede2cc1ed52dc5e989180bee00d8386bab1d3f3a9f641fe6a0279b"
+    }
+  ],
+  "prompts": [
+    {
+      "file": "Docs/MapDesign/V12/prompts/SL_BEACH_V12_VIEW_01.md",
+      "sha256": "3aca88813f325cb84131c5e1cabadfebce21692ea1ca60331327421ab85aba30"
+    },
+    {
+      "file": "Docs/MapDesign/V12/prompts/SL_CORE_V12_PS02_VIEW_A.md",
+      "sha256": "b5b5a05cecb902de4d7bc373f2e1cbe00b9fd15a5a1ad0fbf0291a56281e5f1f"
+    },
+    {
+      "file": "Docs/MapDesign/V12/prompts/SL_CORE_V12_PS02_VIEW_B.md",
+      "sha256": "a43f21fd8c894e38af6e11c3500bf18bc2d9a059076ce28b949d7e877fa327ae"
+    },
+    {
+      "file": "Docs/MapDesign/V12/prompts/SL_WORLD_V12_CONCEPT_01.md",
+      "sha256": "3294ff7e04c5f332ebfbb73d1c5255a0800a3bddcaee69e5f5a09d6255ebc0aa"
+    }
+  ],
+  "candidate_jobs": 4,
+  "retries": 0,
+  "post_generation_layout_edits": 0
+}

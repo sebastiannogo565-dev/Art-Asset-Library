@@ -1,0 +1,7 @@
+Generate ONE opaque SchoolLife early-summer sunny coastal-arrival concept, requested native2560x1440. image1 exact local140x305m guide fixes original coastline/path/service positions; image2 beachboard fixes daily/peak states; image3 Gemini activity/color STYLE ONLY; image4 original128chibi scale inspiration, no redesigned character asset.
+
+SW looking NE about30degree downward. Original6x4m landward open short shade canopy/modest drink cupboard, adjoining2x3m washfoot proposal, rear narrow footpath returns homes/oldstreet. Canopy is far landward of beach: DO NOT move it nearwater to prettify. Show original shoreline and generous quiet sand, few families/teen pairs near arrival,2 sparse pastel umbrellas only. Daily earlysummer no volleyball/hugeguardtower. No resortshopstrip/boats in swimmingarea/newpier or sea road.
+
+People are small but clear chibi gestures with navyuniform student/ordinary residents, approx1.8m design reference not giants. Original character only readonly style/scale, AI people not actual asset. Foreground gesture readable without altering plot distances.
+
+Original Japanese anime HD2D3D masses and sparse stable pixel-texture steps; broad sand/bluegreen sea/greenfoliage/woodshade, simple clean line/light/shadow, calm lived-in. Not photo/no noisy pebbles or fragmentedtrees/no springpink/autumnred. Arrival-service-activity-quiet-andreturn legible, maintenance landward. No text/labels/diagram/transparency or artificialupscale.

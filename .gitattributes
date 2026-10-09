@@ -48,3 +48,18 @@ ArtSource/MapDesign/V11/SL_CORE_V11_PS02_VIEW_A.png filter=lfs diff=lfs merge=lf
 ArtSource/MapDesign/V11/SL_CORE_V11_PS02_VIEW_B.png filter=lfs diff=lfs merge=lfs -text
 ArtSource/MapDesign/V11/SL_WORLD_V11_ANNOTATED_01.png filter=lfs diff=lfs merge=lfs -text
 ArtSource/MapDesign/V11/References/External_Edited_Candidate.png filter=lfs diff=lfs merge=lfs -text
+
+# V12 originals/annotated/reference; exact paths, planning previews ordinary Git
+ArtSource/MapDesign/V12/Originals/SL_WORLD_V12_CONCEPT_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V12/SL_WORLD_V12_CONCEPT_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V12/Originals/SL_CORE_V12_PS02_VIEW_B.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V12/SL_CORE_V12_PS02_VIEW_B.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V12/Originals/SL_CORE_V12_PS02_VIEW_A.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V12/SL_CORE_V12_PS02_VIEW_A.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V12/Originals/SL_BEACH_V12_VIEW_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V12/SL_BEACH_V12_VIEW_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V12/SL_WORLD_V12_ANNOTATED_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V12/SL_CORE_V12_PS02_ANNOTATED_A.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V12/SL_CORE_V12_PS02_ANNOTATED_B.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V12/SL_BEACH_V12_ANNOTATED_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V12/References/Gemini_Activity_Reference.png filter=lfs diff=lfs merge=lfs -text

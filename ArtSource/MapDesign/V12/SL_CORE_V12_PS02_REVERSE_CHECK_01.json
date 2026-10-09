@@ -1,0 +1,94 @@
+{
+  "scope": "shared plan projection not actual game or AI acceptance",
+  "faces": {
+    "B02": {
+      "A": [
+        0,
+        3
+      ],
+      "B": [
+        1,
+        2
+      ],
+      "different_faces": true
+    },
+    "BG_S_04": {
+      "A": [
+        2,
+        3
+      ],
+      "B": [
+        0,
+        1
+      ],
+      "different_faces": true
+    },
+    "B03": {
+      "A": [
+        2,
+        3
+      ],
+      "B": [
+        0,
+        1
+      ],
+      "different_faces": true
+    },
+    "BG_S_03": {
+      "A": [
+        2,
+        3
+      ],
+      "B": [
+        0,
+        1
+      ],
+      "different_faces": true
+    },
+    "B01": {
+      "A": [
+        0,
+        3
+      ],
+      "B": [
+        1,
+        2
+      ],
+      "different_faces": true
+    },
+    "BG_S_02": {
+      "A": [
+        2,
+        3
+      ],
+      "B": [
+        0,
+        1
+      ],
+      "different_faces": true
+    },
+    "B04": {
+      "A": [
+        2,
+        3
+      ],
+      "B": [
+        0,
+        1
+      ],
+      "different_faces": true
+    },
+    "BG_S_01": {
+      "A": [
+        2,
+        3
+      ],
+      "B": [
+        0,
+        1
+      ],
+      "different_faces": true
+    }
+  },
+  "all_opposite": true
+}

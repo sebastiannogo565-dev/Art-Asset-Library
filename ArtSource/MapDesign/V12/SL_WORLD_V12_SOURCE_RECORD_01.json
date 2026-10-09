@@ -1,0 +1,88 @@
+{
+  "authority": "V11正式JSON/SVG，继承V07权威01a米制",
+  "base_sha256": "f4ac6d6046df3ad902be9042d9f1722435ab3dea203ef9028fccec5abc0f9019",
+  "source_svg_sha256": "24b7815eea95dc51cea00727e4c4e1de6095d29c58658334e1341952463c5067",
+  "source_documents": [
+    {
+      "file": "Docs/MapDesign/V11/building-use-phase-index.md",
+      "sha256": "cd7ce6326d13ccf924d3aec0fcc28419b878ba3ebe59fc9777329f3883430d23"
+    },
+    {
+      "file": "Docs/MapDesign/V11/candidate-change-comparison.md",
+      "sha256": "b590d2c3e23a17acacda763a19d7f63f2d541d14b530369e02cb595d4edc8dbc"
+    },
+    {
+      "file": "Docs/MapDesign/V11/exits-transport.md",
+      "sha256": "42f8eb2597f161221e7e907f1fa0de0c87e74e66ab5915ae1db40b466c72c516"
+    },
+    {
+      "file": "Docs/MapDesign/V11/external-reference-adoption.md",
+      "sha256": "48ab6c36357deff5a1f7f6ac65f4a0bfaba758d2f9e0b515b0feecce561f78db"
+    },
+    {
+      "file": "Docs/MapDesign/V11/generation.md",
+      "sha256": "8205d2e74d286547f451ea925a682201482612dc1501528574d5911dbe078c66"
+    },
+    {
+      "file": "Docs/MapDesign/V11/local-sample.md",
+      "sha256": "db0946d6b78013bc180727312d4762a10abb1087c95744bb19900d9bc822a221"
+    },
+    {
+      "file": "Docs/MapDesign/V11/phases-capacity-area.md",
+      "sha256": "bf251421734909be832737b4d198129e055fc9f77c8c4942db036298859e3571"
+    },
+    {
+      "file": "Docs/MapDesign/V11/public-logistics-cards.md",
+      "sha256": "b3dceda75df48e90caf3811664128d0a052e5bf142bb03006519a143d66c0be0"
+    },
+    {
+      "file": "Docs/MapDesign/V11/README.md",
+      "sha256": "7b106d371bfd53465c3e8cbfe3a5df93f269b58ccf5e83edf422d14914f16100"
+    },
+    {
+      "file": "Docs/MapDesign/V11/review.md",
+      "sha256": "315d7a13a45dcbab88053c506065af20154e461e89052d87f4f012f27e13295a"
+    },
+    {
+      "file": "Docs/MapDesign/V11/routes.md",
+      "sha256": "ec2763eee6c3ab692e39459ae3b85d795828da775a3e5c7ed7df8b40d1a4fd4d"
+    }
+  ],
+  "reference_snapshot": {
+    "source": "D:/Goolge/Gemini_Generated_Image_41986y41986y4198.png",
+    "copy": "ArtSource/MapDesign/V12/References/Gemini_Activity_Reference.png",
+    "sha256": "e49d169b5a2d7c6696cc605e5206577ebf835f70b9548bcd7f3beab9f126cef7",
+    "native_size": [
+      2266,
+      1888
+    ],
+    "role": "style/functions not geometry"
+  },
+  "character": {
+    "source": "D:/UE project/SchoolLife/ArtSource/Characters/StudentChibi/FrontIdle/StudentChibi_Front_Idle.png",
+    "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd",
+    "copy_sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd",
+    "canvas": [
+      128,
+      128
+    ],
+    "visible_height_px": 116,
+    "user_visible_scale_m": 1.8,
+    "not_engine_measured": true
+  },
+  "review_documents": [
+    {
+      "file": "ArtSource/MapDesign/V12/References/FormalCity-Gemini-Activity-Candidate-Review.md",
+      "sha256": "c35a95a8c5315aa47e5bbc5f31b041cd4f34380330a448feaa86a9f581495e14"
+    },
+    {
+      "file": "ArtSource/MapDesign/V12/References/FormalCity-V11-Candidate-Review.md",
+      "sha256": "aa509d5fbc30432f1efff082a719a0d223fa714bc85d88ace3ca19e82fd187c7"
+    },
+    {
+      "file": "ArtSource/MapDesign/V12/References/FormalCity-V11-Exploration-Water-Social-Color-Review.md",
+      "sha256": "40822c746b5bc04e0d0f1d0d347c31ca1242fd5a813d3618916fcbba9028701d"
+    }
+  ],
+  "scope": "read-only game refs; no models/systems"
+}

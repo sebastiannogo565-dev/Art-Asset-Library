@@ -1,0 +1,1264 @@
+{
+  "shared_bounds_m": [
+    2110,
+    1650,
+    2260,
+    1795
+  ],
+  "depression": 30,
+  "directions": {
+    "A": {
+      "azimuth": 45,
+      "viewer_world": [
+        -0.70710678,
+        -0.70710678
+      ],
+      "looks": "NE"
+    },
+    "B": {
+      "azimuth": 225,
+      "viewer_world": [
+        0.70710678,
+        0.70710678
+      ],
+      "looks": "SW"
+    }
+  },
+  "not_mirrored": true,
+  "faces": [
+    {
+      "camera": 45,
+      "building": "B02",
+      "face": 0,
+      "normal": [
+        -0.10454281940844214,
+        -0.9945203863723123
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B02",
+      "face": 3,
+      "normal": [
+        -0.9945203863723164,
+        0.10454281940840666
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_04",
+      "face": 2,
+      "normal": [
+        -0.8516801641513073,
+        0.5240619219054197
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_04",
+      "face": 3,
+      "normal": [
+        -0.5240889720347099,
+        -0.8516635188803151
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B03",
+      "face": 2,
+      "normal": [
+        -0.8516635188803258,
+        0.5240889720346928
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B03",
+      "face": 3,
+      "normal": [
+        -0.5240889720346956,
+        -0.851663518880324
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_03",
+      "face": 2,
+      "normal": [
+        -0.8516801641512932,
+        0.5240619219054425
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_03",
+      "face": 3,
+      "normal": [
+        -0.5241156856253676,
+        -0.8516470795355613
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B01",
+      "face": 0,
+      "normal": [
+        0.3419904303972858,
+        -0.939703434875429
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B01",
+      "face": 3,
+      "normal": [
+        -0.9397034348754274,
+        -0.3419904303972899
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_02",
+      "face": 2,
+      "normal": [
+        -0.8516635188803279,
+        0.5240889720346893
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_02",
+      "face": 3,
+      "normal": [
+        -0.5240993043390751,
+        -0.8516571605941545
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B04",
+      "face": 2,
+      "normal": [
+        -0.8516551952782413,
+        0.5241024979482363
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": true
+    },
+    {
+      "camera": 45,
+      "building": "B04",
+      "face": 3,
+      "normal": [
+        -0.5241004091988937,
+        -0.8516564806760718
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_01",
+      "face": 2,
+      "normal": [
+        -0.8944271909999204,
+        0.4472135954999488
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": true
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_01",
+      "face": 3,
+      "normal": [
+        -0.44719905001717947,
+        -0.8944344635934666
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B02",
+      "face": 0,
+      "normal": [
+        -0.10454281940844214,
+        -0.9945203863723123
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B02",
+      "face": 3,
+      "normal": [
+        -0.9945203863723164,
+        0.10454281940840666
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_04",
+      "face": 2,
+      "normal": [
+        -0.8516801641513073,
+        0.5240619219054197
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_04",
+      "face": 3,
+      "normal": [
+        -0.5240889720347099,
+        -0.8516635188803151
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B03",
+      "face": 2,
+      "normal": [
+        -0.8516635188803258,
+        0.5240889720346928
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B03",
+      "face": 3,
+      "normal": [
+        -0.5240889720346956,
+        -0.851663518880324
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_03",
+      "face": 2,
+      "normal": [
+        -0.8516801641512932,
+        0.5240619219054425
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_03",
+      "face": 3,
+      "normal": [
+        -0.5241156856253676,
+        -0.8516470795355613
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B01",
+      "face": 0,
+      "normal": [
+        0.3419904303972858,
+        -0.939703434875429
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B01",
+      "face": 3,
+      "normal": [
+        -0.9397034348754274,
+        -0.3419904303972899
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_02",
+      "face": 2,
+      "normal": [
+        -0.8516635188803279,
+        0.5240889720346893
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_02",
+      "face": 3,
+      "normal": [
+        -0.5240993043390751,
+        -0.8516571605941545
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B04",
+      "face": 2,
+      "normal": [
+        -0.8516551952782413,
+        0.5241024979482363
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": true
+    },
+    {
+      "camera": 45,
+      "building": "B04",
+      "face": 3,
+      "normal": [
+        -0.5241004091988937,
+        -0.8516564806760718
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_01",
+      "face": 2,
+      "normal": [
+        -0.8944271909999204,
+        0.4472135954999488
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": true
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_01",
+      "face": 3,
+      "normal": [
+        -0.44719905001717947,
+        -0.8944344635934666
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B02",
+      "face": 0,
+      "normal": [
+        -0.10454281940844214,
+        -0.9945203863723123
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B02",
+      "face": 3,
+      "normal": [
+        -0.9945203863723164,
+        0.10454281940840666
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_04",
+      "face": 2,
+      "normal": [
+        -0.8516801641513073,
+        0.5240619219054197
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_04",
+      "face": 3,
+      "normal": [
+        -0.5240889720347099,
+        -0.8516635188803151
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B03",
+      "face": 2,
+      "normal": [
+        -0.8516635188803258,
+        0.5240889720346928
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B03",
+      "face": 3,
+      "normal": [
+        -0.5240889720346956,
+        -0.851663518880324
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_03",
+      "face": 2,
+      "normal": [
+        -0.8516801641512932,
+        0.5240619219054425
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_03",
+      "face": 3,
+      "normal": [
+        -0.5241156856253676,
+        -0.8516470795355613
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B01",
+      "face": 0,
+      "normal": [
+        0.3419904303972858,
+        -0.939703434875429
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B01",
+      "face": 3,
+      "normal": [
+        -0.9397034348754274,
+        -0.3419904303972899
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_02",
+      "face": 2,
+      "normal": [
+        -0.8516635188803279,
+        0.5240889720346893
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_02",
+      "face": 3,
+      "normal": [
+        -0.5240993043390751,
+        -0.8516571605941545
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B04",
+      "face": 2,
+      "normal": [
+        -0.8516551952782413,
+        0.5241024979482363
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": true
+    },
+    {
+      "camera": 45,
+      "building": "B04",
+      "face": 3,
+      "normal": [
+        -0.5241004091988937,
+        -0.8516564806760718
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_01",
+      "face": 2,
+      "normal": [
+        -0.8944271909999204,
+        0.4472135954999488
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": true
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_01",
+      "face": 3,
+      "normal": [
+        -0.44719905001717947,
+        -0.8944344635934666
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_01",
+      "face": 0,
+      "normal": [
+        0.8944271909999248,
+        -0.44721359549993966
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_01",
+      "face": 1,
+      "normal": [
+        0.4471990500171722,
+        0.8944344635934701
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B04",
+      "face": 0,
+      "normal": [
+        0.8516551952782413,
+        -0.5241024979482363
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B04",
+      "face": 1,
+      "normal": [
+        0.5241004091988937,
+        0.8516564806760718
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_02",
+      "face": 0,
+      "normal": [
+        0.8516297043739712,
+        -0.5241439178583516
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_02",
+      "face": 1,
+      "normal": [
+        0.5240842752469037,
+        0.8516664091291423
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B01",
+      "face": 1,
+      "normal": [
+        0.9397034348754177,
+        0.34199043039731625
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B01",
+      "face": 2,
+      "normal": [
+        -0.3419904303972827,
+        0.9397034348754298
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_03",
+      "face": 0,
+      "normal": [
+        0.8516146160697137,
+        -0.5241684325638415
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_03",
+      "face": 1,
+      "normal": [
+        0.524125828523118,
+        0.8516408373692251
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B03",
+      "face": 0,
+      "normal": [
+        0.8516635188803258,
+        -0.5240889720346928
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B03",
+      "face": 1,
+      "normal": [
+        0.5240889720346956,
+        0.851663518880324
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_04",
+      "face": 0,
+      "normal": [
+        0.851680164151273,
+        -0.5240619219054755
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_04",
+      "face": 1,
+      "normal": [
+        0.5240889720346862,
+        0.85166351888033
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B02",
+      "face": 1,
+      "normal": [
+        0.9945203863723164,
+        -0.10454281940840467
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B02",
+      "face": 2,
+      "normal": [
+        0.10454281940841967,
+        0.9945203863723149
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_01",
+      "face": 0,
+      "normal": [
+        0.8944271909999248,
+        -0.44721359549993966
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_01",
+      "face": 1,
+      "normal": [
+        0.4471990500171722,
+        0.8944344635934701
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B04",
+      "face": 0,
+      "normal": [
+        0.8516551952782413,
+        -0.5241024979482363
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B04",
+      "face": 1,
+      "normal": [
+        0.5241004091988937,
+        0.8516564806760718
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_02",
+      "face": 0,
+      "normal": [
+        0.8516297043739712,
+        -0.5241439178583516
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_02",
+      "face": 1,
+      "normal": [
+        0.5240842752469037,
+        0.8516664091291423
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B01",
+      "face": 1,
+      "normal": [
+        0.9397034348754177,
+        0.34199043039731625
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B01",
+      "face": 2,
+      "normal": [
+        -0.3419904303972827,
+        0.9397034348754298
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_03",
+      "face": 0,
+      "normal": [
+        0.8516146160697137,
+        -0.5241684325638415
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_03",
+      "face": 1,
+      "normal": [
+        0.524125828523118,
+        0.8516408373692251
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B03",
+      "face": 0,
+      "normal": [
+        0.8516635188803258,
+        -0.5240889720346928
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B03",
+      "face": 1,
+      "normal": [
+        0.5240889720346956,
+        0.851663518880324
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_04",
+      "face": 0,
+      "normal": [
+        0.851680164151273,
+        -0.5240619219054755
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_04",
+      "face": 1,
+      "normal": [
+        0.5240889720346862,
+        0.85166351888033
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B02",
+      "face": 1,
+      "normal": [
+        0.9945203863723164,
+        -0.10454281940840467
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B02",
+      "face": 2,
+      "normal": [
+        0.10454281940841967,
+        0.9945203863723149
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B02",
+      "face": 0,
+      "normal": [
+        -0.10454281940844214,
+        -0.9945203863723123
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B02",
+      "face": 3,
+      "normal": [
+        -0.9945203863723164,
+        0.10454281940840666
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_04",
+      "face": 2,
+      "normal": [
+        -0.8516801641513073,
+        0.5240619219054197
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_04",
+      "face": 3,
+      "normal": [
+        -0.5240889720347099,
+        -0.8516635188803151
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B03",
+      "face": 2,
+      "normal": [
+        -0.8516635188803258,
+        0.5240889720346928
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B03",
+      "face": 3,
+      "normal": [
+        -0.5240889720346956,
+        -0.851663518880324
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_03",
+      "face": 2,
+      "normal": [
+        -0.8516801641512932,
+        0.5240619219054425
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_03",
+      "face": 3,
+      "normal": [
+        -0.5241156856253676,
+        -0.8516470795355613
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B01",
+      "face": 0,
+      "normal": [
+        0.3419904303972858,
+        -0.939703434875429
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B01",
+      "face": 3,
+      "normal": [
+        -0.9397034348754274,
+        -0.3419904303972899
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_02",
+      "face": 2,
+      "normal": [
+        -0.8516635188803279,
+        0.5240889720346893
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_02",
+      "face": 3,
+      "normal": [
+        -0.5240993043390751,
+        -0.8516571605941545
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "B04",
+      "face": 2,
+      "normal": [
+        -0.8516551952782413,
+        0.5241024979482363
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": true
+    },
+    {
+      "camera": 45,
+      "building": "B04",
+      "face": 3,
+      "normal": [
+        -0.5241004091988937,
+        -0.8516564806760718
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_01",
+      "face": 2,
+      "normal": [
+        -0.8944271909999204,
+        0.4472135954999488
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": true
+    },
+    {
+      "camera": 45,
+      "building": "BG_S_01",
+      "face": 3,
+      "normal": [
+        -0.44719905001717947,
+        -0.8944344635934666
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_01",
+      "face": 0,
+      "normal": [
+        0.8944271909999248,
+        -0.44721359549993966
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_01",
+      "face": 1,
+      "normal": [
+        0.4471990500171722,
+        0.8944344635934701
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B04",
+      "face": 0,
+      "normal": [
+        0.8516551952782413,
+        -0.5241024979482363
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B04",
+      "face": 1,
+      "normal": [
+        0.5241004091988937,
+        0.8516564806760718
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_02",
+      "face": 0,
+      "normal": [
+        0.8516297043739712,
+        -0.5241439178583516
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_02",
+      "face": 1,
+      "normal": [
+        0.5240842752469037,
+        0.8516664091291423
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B01",
+      "face": 1,
+      "normal": [
+        0.9397034348754177,
+        0.34199043039731625
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B01",
+      "face": 2,
+      "normal": [
+        -0.3419904303972827,
+        0.9397034348754298
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_03",
+      "face": 0,
+      "normal": [
+        0.8516146160697137,
+        -0.5241684325638415
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_03",
+      "face": 1,
+      "normal": [
+        0.524125828523118,
+        0.8516408373692251
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B03",
+      "face": 0,
+      "normal": [
+        0.8516635188803258,
+        -0.5240889720346928
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B03",
+      "face": 1,
+      "normal": [
+        0.5240889720346956,
+        0.851663518880324
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_04",
+      "face": 0,
+      "normal": [
+        0.851680164151273,
+        -0.5240619219054755
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "BG_S_04",
+      "face": 1,
+      "normal": [
+        0.5240889720346862,
+        0.85166351888033
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B02",
+      "face": 1,
+      "normal": [
+        0.9945203863723164,
+        -0.10454281940840467
+      ],
+      "public_door_visible": true,
+      "staff_door_visible": false
+    },
+    {
+      "camera": 225,
+      "building": "B02",
+      "face": 2,
+      "normal": [
+        0.10454281940841967,
+        0.9945203863723149
+      ],
+      "public_door_visible": false,
+      "staff_door_visible": false
+    }
+  ],
+  "original_character_visible_height_m": 1.8,
+  "actual_game_unverified": true
+}
