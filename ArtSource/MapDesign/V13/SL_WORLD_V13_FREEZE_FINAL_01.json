@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-10",
+  "layout": "ArtSource/MapDesign/V13/SL_WORLD_V13_LAYOUT_01.json",
+  "sha256": "20149b825e420c885ce80468da052067caddc46e9663128471538be047518e72",
+  "generation_layout": "ArtSource/MapDesign/V13/SL_WORLD_V13_LAYOUT_AT_SCOPE_EDIT_01.json",
+  "generation_layout_sha256": "38d8e0924439135d651598d888cff2a65880aab7d4ff5fba13bf7524b2610b86",
+  "source_target": "ArtSource/MapDesign/V13/References/Latest_V12_Edit_Target.png",
+  "source_target_sha256": "70e14b99f9dc715d4d025d6b07f13ff9d428ed7ccdc14ec5c28f417aff7b2a88",
+  "changes_after_scope_generation": "metadata only: mark earlier new buoy/night proposals inactive; formal geometry unchanged; restore inherited beach window metadata to V12 140x305m; old generated 120x160m crop explicitly archived",
+  "selected": "SL_WORLD_V13_SCOPE_RESTRICTED_01.png"
+}

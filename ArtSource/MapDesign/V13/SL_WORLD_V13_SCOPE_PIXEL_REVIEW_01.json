@@ -1,0 +1,60 @@
+{
+  "comparable": true,
+  "rectangles": "broad approximate image edit zones, not ownership or pixel masks",
+  "allowed_normalized_boxes": [
+    [
+      0.395,
+      0.125,
+      0.565,
+      0.3
+    ],
+    [
+      0.36,
+      0.35,
+      0.565,
+      0.57
+    ],
+    [
+      0.355,
+      0.485,
+      0.53,
+      0.6
+    ],
+    [
+      0.02,
+      0.44,
+      0.32,
+      0.68
+    ],
+    [
+      0.745,
+      0.24,
+      0.98,
+      0.54
+    ],
+    [
+      0.64,
+      0.65,
+      0.965,
+      0.83
+    ],
+    [
+      0.42,
+      0.66,
+      0.76,
+      0.87
+    ],
+    [
+      0,
+      0.695,
+      0.365,
+      0.835
+    ]
+  ],
+  "outside_box_pixels": 968770,
+  "exact_rgb_fraction": 0.00011148156941276051,
+  "within_mean_3_levels_fraction": 0.05808396213755587,
+  "mean_absolute_channel_difference": 12.527034624661392,
+  "max_absolute_channel_difference": 171.33333333333334,
+  "conclusion": "Not pixel-identical outside broad zones; numeric similarity is not proof that all unrequested objects are unchanged."
+}

@@ -1,0 +1,176 @@
+[
+  {
+    "name": "SL_WORLD_V13_CONCEPT_DAY_01",
+    "id": "WORLD",
+    "prompt": "Docs/MapDesign/V13/prompts/SL_WORLD_V13_CONCEPT_DAY_01.md",
+    "references": [
+      "SL_WORLD_V13_REFERENCE_01.png",
+      "SL_WORLD_V13_BOARD_01_CAMPUS_SHRINE_IDENTITY.png",
+      "SL_WORLD_V13_BOARD_03_BEACH_RIVER_PORT.png"
+    ],
+    "max_initial": 1,
+    "max_targeted_correction": 1,
+    "desired_size": [
+      3072,
+      2560
+    ]
+  },
+  {
+    "name": "SL_CORE_V13_PS02_VIEW_A_DAY_01",
+    "id": "A",
+    "prompt": "Docs/MapDesign/V13/prompts/SL_CORE_V13_PS02_VIEW_A_DAY_01.md",
+    "references": [
+      "SL_CORE_V13_PS02_INPUT_A.png",
+      "SL_CORE_V13_PS02_CONSTRAINT_A.png",
+      "References/StudentChibi_Front_Idle.png"
+    ],
+    "max_initial": 1,
+    "max_targeted_correction": 1,
+    "desired_size": [
+      2560,
+      1440
+    ]
+  },
+  {
+    "name": "SL_CORE_V13_PS02_VIEW_B_DAY_01",
+    "id": "B",
+    "prompt": "Docs/MapDesign/V13/prompts/SL_CORE_V13_PS02_VIEW_B_DAY_01.md",
+    "references": [
+      "SL_CORE_V13_PS02_INPUT_B.png",
+      "SL_CORE_V13_PS02_CONSTRAINT_B.png",
+      "SL_CORE_V13_PS02_VIEW_A_DAY_02.png",
+      "References/StudentChibi_Front_Idle.png"
+    ],
+    "max_initial": 1,
+    "max_targeted_correction": 1,
+    "desired_size": [
+      2560,
+      1440
+    ]
+  },
+  {
+    "name": "SL_CORE_V13_PS02_VIEW_A_DUSK_01",
+    "id": "DUSK",
+    "prompt": "Docs/MapDesign/V13/prompts/SL_CORE_V13_PS02_VIEW_A_DUSK_01.md",
+    "references": [
+      "SL_CORE_V13_PS02_VIEW_A_DAY_02.png",
+      "SL_CORE_V13_PS02_INPUT_A_DUSK.png",
+      "References/StudentChibi_Front_Idle.png"
+    ],
+    "max_initial": 1,
+    "max_targeted_correction": 1,
+    "desired_size": [
+      2560,
+      1440
+    ]
+  },
+  {
+    "name": "SL_CORE_V13_PS02_VIEW_A_NIGHT_01",
+    "id": "NIGHT",
+    "prompt": "Docs/MapDesign/V13/prompts/SL_CORE_V13_PS02_VIEW_A_NIGHT_01.md",
+    "references": [
+      "SL_CORE_V13_PS02_VIEW_A_DAY_02.png",
+      "SL_CORE_V13_PS02_INPUT_A_NIGHT.png",
+      "References/StudentChibi_Front_Idle.png"
+    ],
+    "max_initial": 1,
+    "max_targeted_correction": 1,
+    "desired_size": [
+      2560,
+      1440
+    ]
+  },
+  {
+    "name": "SL_BEACH_V13_VIEW_DAY_01",
+    "id": "BEACH",
+    "prompt": "Docs/MapDesign/V13/prompts/SL_BEACH_V13_VIEW_DAY_01.md",
+    "references": [
+      "SL_BEACH_V13_INPUT_01.png",
+      "References/StudentChibi_Front_Idle.png"
+    ],
+    "max_initial": 1,
+    "max_targeted_correction": 1,
+    "desired_size": [
+      2560,
+      1440
+    ]
+  },
+  {
+    "name": "SL_SHRINE_V13_VIEW_NIGHT_01",
+    "id": "SHRINE",
+    "prompt": "Docs/MapDesign/V13/prompts/SL_SHRINE_V13_VIEW_NIGHT_01.md",
+    "references": [
+      "SL_SHRINE_V13_INPUT_NIGHT_01.png",
+      "References/StudentChibi_Front_Idle.png"
+    ],
+    "max_initial": 1,
+    "max_targeted_correction": 1,
+    "desired_size": [
+      2560,
+      1440
+    ]
+  },
+  {
+    "name": "SL_CORE_V13_PS02_VIEW_A_DAY_02",
+    "id": "A_FIX",
+    "prompt": "Docs/MapDesign/V13/prompts/SL_CORE_V13_PS02_VIEW_A_DAY_02.md",
+    "references": [
+      "SL_CORE_V13_PS02_VIEW_A_DAY_01.png",
+      "SL_CORE_V13_PS02_INPUT_A.png",
+      "References/StudentChibi_Front_Idle.png"
+    ],
+    "max_initial": 0,
+    "max_targeted_correction": 1,
+    "desired_size": [
+      2560,
+      1440
+    ]
+  },
+  {
+    "name": "SL_WORLD_V13_CONCEPT_DAY_02",
+    "id": "FIX",
+    "prompt": "Docs/MapDesign/V13/prompts/SL_WORLD_V13_CONCEPT_DAY_02.md",
+    "references": [
+      "SL_WORLD_V13_CONCEPT_DAY_01.png",
+      "SL_WORLD_V13_REFERENCE_01.png"
+    ],
+    "max_initial": 0,
+    "max_targeted_correction": 1,
+    "desired_size": [
+      3072,
+      2560
+    ]
+  },
+  {
+    "name": "SL_CORE_V13_PS02_VIEW_B_DAY_02",
+    "id": "FIX",
+    "prompt": "Docs/MapDesign/V13/prompts/SL_CORE_V13_PS02_VIEW_B_DAY_02.md",
+    "references": [
+      "SL_CORE_V13_PS02_VIEW_B_DAY_01.png",
+      "SL_CORE_V13_PS02_INPUT_B.png",
+      "SL_CORE_V13_PS02_VIEW_A_DAY_02.png",
+      "References/StudentChibi_Front_Idle.png"
+    ],
+    "max_initial": 0,
+    "max_targeted_correction": 1,
+    "desired_size": [
+      2560,
+      1440
+    ]
+  },
+  {
+    "name": "SL_WORLD_V13_SCOPE_RESTRICTED_01",
+    "id": "LATEST_NINE_ITEM_EDIT",
+    "prompt": "Docs/MapDesign/V13/prompts/SL_WORLD_V13_SCOPE_RESTRICTED_01.md",
+    "references": [
+      "References/Latest_V12_Edit_Target.png",
+      "References/Latest_Style_Reference.png"
+    ],
+    "max_initial": 1,
+    "kind": "user_scope_edit",
+    "desired_size": [
+      3072,
+      2560
+    ]
+  }
+]

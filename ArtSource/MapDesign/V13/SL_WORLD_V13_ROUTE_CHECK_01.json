@@ -1,0 +1,44 @@
+[
+  {
+    "id": "V13_HOME_GATE",
+    "previous_m": 170.16442592921186,
+    "new_m": 170.16442592921186,
+    "delta": 0,
+    "game_unverified": true
+  },
+  {
+    "id": "V13_GATE_BOOK_HOME",
+    "previous_m": 456.0108562461819,
+    "new_m": 456.0108562461819,
+    "delta": 0,
+    "game_unverified": true
+  },
+  {
+    "id": "V13_GATE_CAFE_HOME",
+    "previous_m": 522.7005860800382,
+    "new_m": 522.7005860800382,
+    "delta": 0,
+    "game_unverified": true
+  },
+  {
+    "id": "V13_GATE_BOOK_CAFE_HOME",
+    "previous_m": 540.6994019272227,
+    "new_m": 540.6994019272227,
+    "delta": 0,
+    "game_unverified": true
+  },
+  {
+    "id": "V13_STATION_GATE",
+    "previous_m": 2553.115602539837,
+    "new_m": 2553.115602539837,
+    "delta": 0,
+    "game_unverified": true
+  },
+  {
+    "id": "V13_STATION_OLD",
+    "previous_m": 2304.783283770104,
+    "new_m": 2304.783283770104,
+    "delta": 0,
+    "game_unverified": true
+  }
+]

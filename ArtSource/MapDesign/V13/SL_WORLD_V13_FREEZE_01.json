@@ -1,0 +1,218 @@
+{
+  "date": "2026-10-10",
+  "layout": "ArtSource/MapDesign/V13/SL_WORLD_V13_LAYOUT_AT_GENERATION_01.json",
+  "layout_sha256": "6f700ff7ab8df6c40c73c02225fdd890672f32d0e047614db14e1ea8042c8a78",
+  "geometry_source": "V12 formal layout",
+  "art_inputs": [
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_BEACH_V13_INPUT_01.png",
+      "sha256": "fa0e0cac3ed3e5a48809456903f9382aac3e30ad6350b088a6a305b7ad1e4e1b",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_BEACH_V13_INPUT_01.png"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_BEACH_V13_INPUT_01.svg",
+      "sha256": "e8dff83e9fd736ad8f5c5ac70319448739e022083bf7ebab7fc6c1022ff2becb",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_BEACH_V13_INPUT_01.svg"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_CORE_V13_PS02_CONSTRAINT_A.png",
+      "sha256": "bdaf51b8987021d69a067aea009ef8e42e11a5911e007e5589defff4cbddaaa3",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_CORE_V13_PS02_CONSTRAINT_A.png"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_CORE_V13_PS02_CONSTRAINT_A.svg",
+      "sha256": "6f92dc7d6c69d4e27028927ef90d5947443a477862bdd3922d731abf9bfeabc4",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_CORE_V13_PS02_CONSTRAINT_A.svg"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_CORE_V13_PS02_CONSTRAINT_B.png",
+      "sha256": "ca8896827d77f681af248d036395d9513b32986c980a16b03edd07cbf8bdd169",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_CORE_V13_PS02_CONSTRAINT_B.png"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_CORE_V13_PS02_CONSTRAINT_B.svg",
+      "sha256": "9bed16e45800caa333ff1c163456019af7b71fb4c40d07309734116525b21572",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_CORE_V13_PS02_CONSTRAINT_B.svg"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_CORE_V13_PS02_INPUT_A.png",
+      "sha256": "43d3b655596ba8b1e231598f927f806ddd5f2802f8d50808b085793a55e4b082",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_CORE_V13_PS02_INPUT_A.png"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_CORE_V13_PS02_INPUT_A.svg",
+      "sha256": "2a7b4b9bfac8648bdd6c8fc098a919a89f3ddbe34782aff7bba35b51281c5992",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_CORE_V13_PS02_INPUT_A.svg"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_CORE_V13_PS02_INPUT_A_DUSK.png",
+      "sha256": "003e61f10e51217449e9ec429b7e7f926182ff31aff5aea08e36d3a8e25b4819",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_CORE_V13_PS02_INPUT_A_DUSK.png"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_CORE_V13_PS02_INPUT_A_DUSK.svg",
+      "sha256": "b2f26bd85d3d67cdbe1a79e28b331812dd15cd120b123fe7583caa142e668446",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_CORE_V13_PS02_INPUT_A_DUSK.svg"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_CORE_V13_PS02_INPUT_A_NIGHT.png",
+      "sha256": "9d141618a2c1d300aa90e5662ad568405dc19ec50a52cac1fe05485227e4f97b",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_CORE_V13_PS02_INPUT_A_NIGHT.png"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_CORE_V13_PS02_INPUT_A_NIGHT.svg",
+      "sha256": "1a2d31624eef7c601fcf9ca14482f62d611b8ed038d8b3037ea1ed9526460e9e",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_CORE_V13_PS02_INPUT_A_NIGHT.svg"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_CORE_V13_PS02_INPUT_B.png",
+      "sha256": "67834d15355de55926bbbb9cd55531a2ac0ea7a836d5f5b36f1fc0cccbd61736",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_CORE_V13_PS02_INPUT_B.png"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_CORE_V13_PS02_INPUT_B.svg",
+      "sha256": "9a72da5b8d65968f95d2dfcce0b81b1379738a9bae26b6ecd5881311ac256bbc",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_CORE_V13_PS02_INPUT_B.svg"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_CORE_V13_PS02_PLAN_01.png",
+      "sha256": "3317f866ba1e972bb61940f5a563967ae08f9e81c472b4a5c94fd3ece7a535bb",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_CORE_V13_PS02_PLAN_01.png"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_CORE_V13_PS02_PLAN_01.svg",
+      "sha256": "c79d65c02ffd18735b3e4058f1fd9dfd424257fac894c399bc03ea9ccb31c114",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_CORE_V13_PS02_PLAN_01.svg"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_SHRINE_V13_INPUT_NIGHT_01.png",
+      "sha256": "345a60abc291902aa9673ae2c04582f453f46a73fab7c774d0548efee6aa79cf",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_SHRINE_V13_INPUT_NIGHT_01.png"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_SHRINE_V13_INPUT_NIGHT_01.svg",
+      "sha256": "de75d2fabb3d74433ae427225de13863987b5747e4e62bb0918b701c01bbce6f",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_SHRINE_V13_INPUT_NIGHT_01.svg"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_WORLD_V13_BOARD_01_CAMPUS_SHRINE_IDENTITY.png",
+      "sha256": "04099745158130e99b94f906e4dab459501396656c2e9585591a2694b8a82100",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_WORLD_V13_BOARD_01_CAMPUS_SHRINE_IDENTITY.png"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_WORLD_V13_BOARD_01_CAMPUS_SHRINE_IDENTITY.svg",
+      "sha256": "764779d344d2c40848ebfbe0da1f71bc0776769d5c429220471eadc86b93cd52",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_WORLD_V13_BOARD_01_CAMPUS_SHRINE_IDENTITY.svg"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_WORLD_V13_BOARD_02_PUBLIC_STATION.png",
+      "sha256": "03129563e6de29214c42fcc9253dc5c8c9cf6d76cf3f2b1d9f036df4b374f2e6",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_WORLD_V13_BOARD_02_PUBLIC_STATION.png"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_WORLD_V13_BOARD_02_PUBLIC_STATION.svg",
+      "sha256": "f725aaabb6ae6f01c15e7edced17040cd906195951c3bdf57990ca3a655d1608",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_WORLD_V13_BOARD_02_PUBLIC_STATION.svg"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_WORLD_V13_BOARD_03_BEACH_RIVER_PORT.png",
+      "sha256": "0f53db96090fce9316a48b575dc2317eda1062f3cbdcd00c664992dee4b24b1c",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_WORLD_V13_BOARD_03_BEACH_RIVER_PORT.png"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_WORLD_V13_BOARD_03_BEACH_RIVER_PORT.svg",
+      "sha256": "698beff20ca163e73166a8a583315a869c1cb5c214af406a81e5eadafa233557",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_WORLD_V13_BOARD_03_BEACH_RIVER_PORT.svg"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_WORLD_V13_BOARD_04_SCALE_GEOMETRY.png",
+      "sha256": "d880de0a28ba5b28e636ba165686f02791e97b531022a501bbc0f40865b1bb09",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_WORLD_V13_BOARD_04_SCALE_GEOMETRY.png"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_WORLD_V13_BOARD_04_SCALE_GEOMETRY.svg",
+      "sha256": "45fc1123e573e1a1ef51a937cef2018e464757157ae6d57d1f8679d4e3552122",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_WORLD_V13_BOARD_04_SCALE_GEOMETRY.svg"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_WORLD_V13_BOARD_05_NIGHT_PALETTE_SEASONS.png",
+      "sha256": "ddecdce3c4348924386bbf0714e12c395e60ef3b4d513d111438c3bb5a3bc865",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_WORLD_V13_BOARD_05_NIGHT_PALETTE_SEASONS.png"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_WORLD_V13_BOARD_05_NIGHT_PALETTE_SEASONS.svg",
+      "sha256": "86641d796483a2529263dca5f9fec43c3707b9ed7ca8d719073043238c3dffa4",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_WORLD_V13_BOARD_05_NIGHT_PALETTE_SEASONS.svg"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_WORLD_V13_PLAN_01.png",
+      "sha256": "ee1ca805728fc813898275af7d32bba39a09e9f01e769bba7e01820477c9b2f7",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_WORLD_V13_PLAN_01.png"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_WORLD_V13_PLAN_01.svg",
+      "sha256": "7da3ea1abe389b56e947df6b8fa46321aca36245391040ffcb5a2ba4fd186a1d",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_WORLD_V13_PLAN_01.svg"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_WORLD_V13_REFERENCE_01.png",
+      "sha256": "0fe063f02605e2d76dda5c1920554727ab8c32c65faee3a2961cb110e090d140",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_WORLD_V13_REFERENCE_01.png"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/AtGeneration/SL_WORLD_V13_REFERENCE_01.svg",
+      "sha256": "3b10f847b7aab36e5b1b03e1cc418ae0118d78aca60a9bb05615c035926a2d51",
+      "original_upload_path": "ArtSource/MapDesign/V13/SL_WORLD_V13_REFERENCE_01.svg"
+    },
+    {
+      "file": "Docs/MapDesign/V13/prompts/SL_BEACH_V13_VIEW_DAY_01.md",
+      "sha256": "a0e1b7e206678503dced635c5ad17de5436b5529d3aa730690709e3db5232f74"
+    },
+    {
+      "file": "Docs/MapDesign/V13/prompts/SL_CORE_V13_PS02_VIEW_A_DAY_01.md",
+      "sha256": "513686e09d7a97ece573e16ef93941e163b01c517d3d3cbe2a76d2ca652d94e4"
+    },
+    {
+      "file": "Docs/MapDesign/V13/prompts/SL_CORE_V13_PS02_VIEW_A_DUSK_01.md",
+      "sha256": "b5e68feda16d702070153e397c83d6b4661e039372dea314f23684d7787dd6f2"
+    },
+    {
+      "file": "Docs/MapDesign/V13/prompts/SL_CORE_V13_PS02_VIEW_A_NIGHT_01.md",
+      "sha256": "2e7fe878e344451ac4be0fe1a2e049a0c7cc89f57c0d799e1dc8b897b71fd9fd"
+    },
+    {
+      "file": "Docs/MapDesign/V13/prompts/SL_SHRINE_V13_VIEW_NIGHT_01.md",
+      "sha256": "4011d82bb95ef4cadc3e7789ff3c6db73b8a1968de11476d5701961d6eb6408a"
+    },
+    {
+      "file": "Docs/MapDesign/V13/prompts/SL_WORLD_V13_CONCEPT_DAY_01.md",
+      "sha256": "7efdc893a3bd279dbeaef17160983a39848e50f87835c4a77ae6c47f2063bbe8"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/FormalCity-Night-Buoy-Scale-Review.md",
+      "sha256": "13c3fc5675d10e88ba2546a0b2c047ede950f58834e9f73ecde2873f8558d23d"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/FormalCity-V12-Comparison-Proposals-Review.md",
+      "sha256": "6fa8c0b52297be04dbad3394aa98933f3e62c96c8d185e5d04aa2a1316307fb6"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/FormalCity-V12-Four-Dimensions-Review.md",
+      "sha256": "9c7716930e35fa8958a5ac6a5649f64b79a576f78fe28f769ef84edd12344171"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/FormalCity-V13-Revision-Prompt.md",
+      "sha256": "c3a385b4d66ce22fb1bab115f4c49639a8aff691a40bae17e15d0893f164b46f"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/Gemini_Activity_Reference.png",
+      "sha256": "e49d169b5a2d7c6696cc605e5206577ebf835f70b9548bcd7f3beab9f126cef7"
+    },
+    {
+      "file": "ArtSource/MapDesign/V13/References/StudentChibi_Front_Idle.png",
+      "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+    }
+  ],
+  "no_bitmap_interpolation": true,
+  "prompt_B_issued_record": "B initial full actual prompt normalized in GENERATION job; late-bound A selection is explicitly recorded"
+}

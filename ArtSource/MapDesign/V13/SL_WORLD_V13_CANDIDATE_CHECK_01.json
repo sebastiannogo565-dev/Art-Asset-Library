@@ -1,0 +1,40 @@
+{
+  "scope": "candidate 2D envelopes/access, not adopted landuse or slopes/clearing/ecology/hydraulics/safety",
+  "candidates": [
+    {
+      "id": "CV12_BH01",
+      "area_m2": 24,
+      "linked_to_existing": true
+    },
+    {
+      "id": "CV12_FW01",
+      "area_m2": 6,
+      "linked_to_existing": "via BH01 candidate"
+    },
+    {
+      "id": "CV12_CAMP01",
+      "area_m2": 432,
+      "linked_to_existing": true
+    },
+    {
+      "id": "CV12_AG01",
+      "area_m2": 15840,
+      "linked_to_existing": true
+    },
+    {
+      "id": "CV12_GH01",
+      "area_m2": 96,
+      "linked_to_existing": "via AG01 authorized edge"
+    },
+    {
+      "id": "CV12_TOOL01",
+      "area_m2": 24,
+      "linked_to_existing": "via AG01 authorized edge"
+    }
+  ],
+  "conflicts": [],
+  "beach_rear_route_connects_existing": true,
+  "new_candidate_distinct_envelopes_m2": 16302,
+  "internal_gh_shed_not_double_counted": true,
+  "actual_world_area_unchanged": true
+}

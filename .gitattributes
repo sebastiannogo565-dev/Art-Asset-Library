@@ -63,3 +63,42 @@ ArtSource/MapDesign/V12/SL_CORE_V12_PS02_ANNOTATED_A.png filter=lfs diff=lfs mer
 ArtSource/MapDesign/V12/SL_CORE_V12_PS02_ANNOTATED_B.png filter=lfs diff=lfs merge=lfs -text
 ArtSource/MapDesign/V12/SL_BEACH_V12_ANNOTATED_01.png filter=lfs diff=lfs merge=lfs -text
 ArtSource/MapDesign/V12/References/Gemini_Activity_Reference.png filter=lfs diff=lfs merge=lfs -text
+
+# V13 exact large raster paths; editable SVG/JSON and small previews ordinary Git
+ArtSource/MapDesign/V13/Originals/SL_BEACH_V13_VIEW_DAY_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/Originals/SL_CORE_V13_PS02_VIEW_A_DAY_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/Originals/SL_CORE_V13_PS02_VIEW_A_DAY_02.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/Originals/SL_CORE_V13_PS02_VIEW_A_DUSK_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/Originals/SL_CORE_V13_PS02_VIEW_A_NIGHT_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/Originals/SL_CORE_V13_PS02_VIEW_B_DAY_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/Originals/SL_CORE_V13_PS02_VIEW_B_DAY_02.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/Originals/SL_SHRINE_V13_VIEW_NIGHT_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/Originals/SL_WORLD_V13_CONCEPT_DAY_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/Originals/SL_WORLD_V13_CONCEPT_DAY_02.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/Originals/SL_WORLD_V13_SCOPE_RESTRICTED_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/References/Gemini_Activity_Reference.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/References/Latest_Style_Reference.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/References/Latest_V12_Edit_Target.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/SL_BEACH_V13_ANNOTATED_DAY.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/SL_BEACH_V13_VIEW_DAY_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/SL_CORE_V13_PS02_ANNOTATED_A_DAY.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/SL_CORE_V13_PS02_ANNOTATED_A_DUSK.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/SL_CORE_V13_PS02_ANNOTATED_A_NIGHT.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/SL_CORE_V13_PS02_ANNOTATED_B_DAY.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/SL_CORE_V13_PS02_VIEW_A_DAY_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/SL_CORE_V13_PS02_VIEW_A_DAY_02.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/SL_CORE_V13_PS02_VIEW_A_DUSK_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/SL_CORE_V13_PS02_VIEW_A_NIGHT_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/SL_CORE_V13_PS02_VIEW_B_DAY_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/SL_CORE_V13_PS02_VIEW_B_DAY_02.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/SL_SHRINE_V13_ANNOTATED_NIGHT.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/SL_SHRINE_V13_VIEW_NIGHT_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/SL_WORLD_V13_ANNOTATED_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/SL_WORLD_V13_CONCEPT_DAY_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/SL_WORLD_V13_CONCEPT_DAY_02.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/SL_WORLD_V13_SCOPED_ANNOTATED_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/SL_WORLD_V13_SCOPED_COMPOSITION_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/SL_WORLD_V13_SCOPE_RESTRICTED_01.png filter=lfs diff=lfs merge=lfs -text
+ArtSource/MapDesign/V13/SL_WORLD_V13_SCOPE_RESTRICTED_ANNOTATED_01.png filter=lfs diff=lfs merge=lfs -text
+
+# V13 exact large raster paths; editable SVG/JSON and small previews ordinary Git

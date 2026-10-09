@@ -1,0 +1,336 @@
+{
+  "name": "SL_WORLD_V13_SCOPED_COMPOSITION_01",
+  "base": "References/Latest_V12_Edit_Target.png",
+  "ai_source": "SL_WORLD_V13_SCOPE_RESTRICTED_01.png",
+  "format": "png",
+  "actual_dimensions": [
+    1374,
+    1145
+  ],
+  "processing": "native editable SVG composition; V12 base plus clipped AI local proposal layers; no interpolation; not a native whole-image model output",
+  "regions": [
+    {
+      "id": "01_shrine_only",
+      "purpose": "恢复山腰神社及少量林窗；不动湖和山路",
+      "points": [
+        [
+          556,
+          150
+        ],
+        [
+          713,
+          150
+        ],
+        [
+          728,
+          240
+        ],
+        [
+          713,
+          287
+        ],
+        [
+          655,
+          301
+        ],
+        [
+          604,
+          285
+        ],
+        [
+          571,
+          255
+        ]
+      ]
+    },
+    {
+      "id": "03_campus_identity",
+      "purpose": "同占地校园校钟/门/屋顶身份；不含青帽塔",
+      "points": [
+        [
+          540,
+          416
+        ],
+        [
+          668,
+          444
+        ],
+        [
+          753,
+          437
+        ],
+        [
+          771,
+          517
+        ],
+        [
+          766,
+          558
+        ],
+        [
+          718,
+          575
+        ],
+        [
+          668,
+          564
+        ],
+        [
+          606,
+          568
+        ],
+        [
+          550,
+          534
+        ]
+      ]
+    },
+    {
+      "id": "02_existing_public_edge",
+      "purpose": "只更新现有铺装退界上的围边停留；不引入生成的大面积清屋",
+      "points": [
+        [
+          580,
+          558
+        ],
+        [
+          625,
+          566
+        ],
+        [
+          667,
+          578
+        ],
+        [
+          689,
+          596
+        ],
+        [
+          674,
+          604
+        ],
+        [
+          652,
+          597
+        ],
+        [
+          635,
+          585
+        ],
+        [
+          604,
+          583
+        ],
+        [
+          584,
+          574
+        ]
+      ]
+    },
+    {
+      "id": "04_oldstreet_facade",
+      "purpose": "保留旧店屋体量，仅店檐/顾客窗/门面片段",
+      "points": [
+        [
+          498,
+          607
+        ],
+        [
+          514,
+          596
+        ],
+        [
+          544,
+          611
+        ],
+        [
+          556,
+          632
+        ],
+        [
+          547,
+          642
+        ],
+        [
+          529,
+          643
+        ],
+        [
+          509,
+          629
+        ]
+      ]
+    },
+    {
+      "id": "05_station_pedestrian",
+      "purpose": "既有站前步行与侧候车边缘，不改轨道站场",
+      "points": [
+        [
+          1214,
+          447
+        ],
+        [
+          1280,
+          447
+        ],
+        [
+          1307,
+          474
+        ],
+        [
+          1302,
+          522
+        ],
+        [
+          1281,
+          546
+        ],
+        [
+          1232,
+          535
+        ],
+        [
+          1216,
+          501
+        ]
+      ]
+    },
+    {
+      "id": "06_estuary_shoals",
+      "purpose": "低缓沙洲浅滩与主槽；保留原桥/岸路/两岸住宅",
+      "points": [
+        [
+          660,
+          798
+        ],
+        [
+          732,
+          790
+        ],
+        [
+          840,
+          806
+        ],
+        [
+          908,
+          838
+        ],
+        [
+          984,
+          865
+        ],
+        [
+          978,
+          927
+        ],
+        [
+          922,
+          949
+        ],
+        [
+          831,
+          947
+        ],
+        [
+          744,
+          922
+        ],
+        [
+          680,
+          907
+        ],
+        [
+          653,
+          867
+        ]
+      ]
+    },
+    {
+      "id": "06_small_fishery_facade",
+      "purpose": "原作业岸的克制楼体/门窗及整理，不动泊位/堤/灯塔",
+      "points": [
+        [
+          1095,
+          787
+        ],
+        [
+          1141,
+          767
+        ],
+        [
+          1213,
+          764
+        ],
+        [
+          1268,
+          804
+        ],
+        [
+          1280,
+          861
+        ],
+        [
+          1260,
+          900
+        ],
+        [
+          1207,
+          915
+        ],
+        [
+          1155,
+          882
+        ],
+        [
+          1110,
+          861
+        ],
+        [
+          1088,
+          835
+        ]
+      ]
+    },
+    {
+      "id": "07_beach_service_edge",
+      "purpose": "原入口服务与少量活动；不改岸形、不加河/桥/农田",
+      "points": [
+        [
+          160,
+          810
+        ],
+        [
+          306,
+          816
+        ],
+        [
+          335,
+          847
+        ],
+        [
+          326,
+          874
+        ],
+        [
+          281,
+          886
+        ],
+        [
+          218,
+          881
+        ],
+        [
+          170,
+          863
+        ]
+      ]
+    }
+  ],
+  "outside_region_pixels": 1436248,
+  "exact_rgb_outside_regions": 1436248,
+  "exact_fraction": 1,
+  "edge_tolerance_px": 2,
+  "not_claimed": "precise geometry or operational validation within patch regions",
+  "rejected_AI_plaza_rebuild": "large AI cleared square excluded; only original frontage public edge included",
+  "fishery_crop_note": "Expanded clip around complete pre-existing fish-work roof only to avoid cutting roof into a mixed fragment; dock/breakwater/beacon remain base."
+}

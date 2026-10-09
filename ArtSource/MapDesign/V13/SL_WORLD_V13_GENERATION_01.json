@@ -1,0 +1,422 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "model": "not exposed by tool; do not infer model name",
+  "native_target_world": [
+    3072,
+    2560
+  ],
+  "native_target_local": [
+    2560,
+    1440
+  ],
+  "jobs": [
+    {
+      "name": "SL_WORLD_V13_CONCEPT_DAY_01",
+      "job": "SL_WORLD_V13_CONCEPT_DAY_01",
+      "kind": "initial",
+      "source_download_path": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-a10880d9-ad2f-4b56-bec4-c04d32bb2ac7.png",
+      "original": "Originals/SL_WORLD_V13_CONCEPT_DAY_01.png",
+      "delivery": "SL_WORLD_V13_CONCEPT_DAY_01.png",
+      "format": "png",
+      "width": 1374,
+      "height": 1145,
+      "bytes": 3341956,
+      "sha256": "0e1ddec48fd1ede6fb69ce297314223bb0657372db7df5420a4c16d8fc1109a3",
+      "opaque": true,
+      "prompt": "Docs/MapDesign/V13/prompts/SL_WORLD_V13_CONCEPT_DAY_01.md",
+      "prompt_sha256": "7efdc893a3bd279dbeaef17160983a39848e50f87835c4a77ae6c47f2063bbe8",
+      "references": [
+        {
+          "path": "References/AtGeneration/SL_WORLD_V13_REFERENCE_01.png",
+          "sha256": "0fe063f02605e2d76dda5c1920554727ab8c32c65faee3a2961cb110e090d140",
+          "uploaded_path_at_call": "SL_WORLD_V13_REFERENCE_01.png"
+        },
+        {
+          "path": "References/AtGeneration/SL_WORLD_V13_BOARD_01_CAMPUS_SHRINE_IDENTITY.png",
+          "sha256": "04099745158130e99b94f906e4dab459501396656c2e9585591a2694b8a82100",
+          "uploaded_path_at_call": "SL_WORLD_V13_BOARD_01_CAMPUS_SHRINE_IDENTITY.png"
+        },
+        {
+          "path": "References/AtGeneration/SL_WORLD_V13_BOARD_03_BEACH_RIVER_PORT.png",
+          "sha256": "0f53db96090fce9316a48b575dc2317eda1062f3cbdcd00c664992dee4b24b1c",
+          "uploaded_path_at_call": "SL_WORLD_V13_BOARD_03_BEACH_RIVER_PORT.png"
+        }
+      ],
+      "layout_frozen_sha256": "6f700ff7ab8df6c40c73c02225fdd890672f32d0e047614db14e1ea8042c8a78",
+      "processing": "byte-identical copy only; no interpolation, recoding or filename disguise",
+      "issued_prompt": "Create one original Japanese anime HD2D environment concept candidate. Early summer green foliage, clear legible stylized 3D masses, restrained pixel material texture, warm gray/cream/wood/slate palette, clean broad planes, no photorealistic noise or depth-of-field blur. Opaque PNG full environment. Reference geometry is authoritative; never rearrange buildings/roads/doors or enlarge footprints for drama. Exact text and labels will be added later, do not render names or diagrams. The 128x128 chibi student is ONLY proportion/style reference, about 1.8m visible design height, dark hair/navy uniform/burgundy tie/gray trousers, short chibi proportions rather than realistic adult proportions. Do not redraw the reference sprite asset. No new rivers, bridges, farms, glasshouses, giant landmarks or duplicate shop entrances. This is art planning, not a game screenshot or navigable asset. Target native 3072x2560. A full-city gently oblique bird-eye north at top, all geography visible, not cropped. The first reference is the exact 4.909x3.909km layout: campus is only360x320m central-north, core520x400m directly south. NW independent lake, NE independent main river, forest watershed separating them; lake outlet only5m stream, old canal very thin. East outer railway and long low commuter station, west mature courtyard apartments/hospital/library/community porches, east midrise job/office/shop podiums with different setbacks. Organic historic shops south of campus, quiet homes. B40 shrine MUST appear at original north-slope site above and slightly west of school: small gray tiled wooden sanctuary, vermilion main torii, gray stairs and turning landing/court, gentle side route, canopy opening; use second identity board for identity, NEVER omit shrine. Campus eight phased wings with old school clock, cream new teaching, quiet library and large-span slate gym, courtyard/corridors, no giant single school. Blue-cap tower original solid tower body/blue-green cap west of school, not a stilted white water tank. South-west beach early-summer ordinary TWO umbrellas/few residents, existing landward shade/wash-foot; preserve grass/rock transitions and estuary wetland/low bars/mainchannel, not continuous bathing sand. B44 right coastal small fishing workspace ONE24x18m low slate building with small old courtyard, no blue warehouse/enclosed multi-pier harbor. Tiny provisional2pairs green/red navigation marks in side bay, small white lighthouse on original land route. Historical well/repair stone/old mill shop reused, ordinary life and maintenance not ruined tourism. Main road/bus corridor readable, short local loop not forced station commute. All depicted candidate pool/lighthouse/hut/camp/fields remain proposal status.",
+      "issued_prompt_sha256": "a1acb5f333728694c7647c1dccceba1ce0704ada5d43c25eff71dc7889bb38cf"
+    },
+    {
+      "name": "SL_CORE_V13_PS02_VIEW_A_DAY_01",
+      "job": "SL_CORE_V13_PS02_VIEW_A_DAY_01",
+      "kind": "initial",
+      "source_download_path": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-cf62f52a-294b-4cb2-b122-493f080302c6.png",
+      "original": "Originals/SL_CORE_V13_PS02_VIEW_A_DAY_01.png",
+      "delivery": "SL_CORE_V13_PS02_VIEW_A_DAY_01.png",
+      "format": "png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2832684,
+      "sha256": "f8ed551c7c976727cedd815c0c69150f83140d5b11602ef19d0b4e448950f79c",
+      "opaque": true,
+      "prompt": "Docs/MapDesign/V13/prompts/SL_CORE_V13_PS02_VIEW_A_DAY_01.md",
+      "prompt_sha256": "513686e09d7a97ece573e16ef93941e163b01c517d3d3cbe2a76d2ca652d94e4",
+      "references": [
+        {
+          "path": "References/AtGeneration/SL_CORE_V13_PS02_INPUT_A.png",
+          "sha256": "43d3b655596ba8b1e231598f927f806ddd5f2802f8d50808b085793a55e4b082",
+          "uploaded_path_at_call": "SL_CORE_V13_PS02_INPUT_A.png"
+        },
+        {
+          "path": "References/AtGeneration/SL_CORE_V13_PS02_CONSTRAINT_A.png",
+          "sha256": "bdaf51b8987021d69a067aea009ef8e42e11a5911e007e5589defff4cbddaaa3",
+          "uploaded_path_at_call": "SL_CORE_V13_PS02_CONSTRAINT_A.png"
+        },
+        {
+          "path": "References/StudentChibi_Front_Idle.png",
+          "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+        }
+      ],
+      "layout_frozen_sha256": "6f700ff7ab8df6c40c73c02225fdd890672f32d0e047614db14e1ea8042c8a78",
+      "processing": "byte-identical copy only; no interpolation, recoding or filename disguise",
+      "issued_prompt": "Create one original Japanese anime HD2D environment concept candidate. Early summer green foliage, clear legible stylized 3D masses, restrained pixel material texture, warm gray/cream/wood/slate palette, clean broad planes, no photorealistic noise or depth-of-field blur. Opaque PNG full environment. Reference geometry is authoritative; never rearrange buildings/roads/doors or enlarge footprints for drama. Exact text and labels will be added later, do not render names or diagrams. The 128x128 chibi student is ONLY proportion/style reference, about 1.8m visible design height, dark hair/navy uniform/burgundy tie/gray trousers, short chibi proportions rather than realistic adult proportions. Do not redraw the reference sprite asset. No new rivers, bridges, farms, glasshouses, giant landmarks or duplicate shop entrances. This is art planning, not a game screenshot or navigable asset. Target native2560x1440. Camera A from SOUTHWEST looking NORTHEAST, exactly30-degree depression. Translate the first shared massing image into charming restrained pixel-texture art, preserving every mass corner, ridge orientation, two-story count, fixed window rows and front/back wall identities. PS02 is tiny irregular edge lounge beside home, NOT central festival square. Well stays31.14m away along narrow alley, thin old canal, NO bridge or broad river. B01 on left in this view private porch/home; right-side tilted shop rows are real B03bookshop/B04cafe and originalbackgrounds, not new houses. Public shop fronts face away/east-southeast; visible rear has stock/employee door and utility boxes, do not copy public front onto rear. B02 flat one-story convenience across farther lane. Same7 local buildings, retain oblique trade street and short cross lanes. Existing edge seats/canopy/tree opening; two chibi students chatting/waiting and a bag on edge seat, center passage clear. No fields/greenhouses beyond local window, no scenic river framing.",
+      "issued_prompt_sha256": "73b9c12564b92f4482d448afc88bfa564e833c754171638019ae5d8860cdd3a3"
+    },
+    {
+      "name": "SL_CORE_V13_PS02_VIEW_A_DAY_02",
+      "job": "SL_CORE_V13_PS02_VIEW_A_DAY_02",
+      "kind": "targeted",
+      "source_download_path": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-8f2248e1-67ea-437a-845e-67067b96ab37.png",
+      "original": "Originals/SL_CORE_V13_PS02_VIEW_A_DAY_02.png",
+      "delivery": "SL_CORE_V13_PS02_VIEW_A_DAY_02.png",
+      "format": "png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3122262,
+      "sha256": "96ca0eaaf517a7808edbdf0767adc4c1699158652a0bd97c2cdb1915c3d0501b",
+      "opaque": true,
+      "prompt": "Docs/MapDesign/V13/prompts/SL_CORE_V13_PS02_VIEW_A_DAY_02.md",
+      "prompt_sha256": "327d7b7072a32288fc491cae74b07a19cb12152810283989bda9d786a658858b",
+      "references": [
+        {
+          "path": "SL_CORE_V13_PS02_VIEW_A_DAY_01.png",
+          "sha256": "f8ed551c7c976727cedd815c0c69150f83140d5b11602ef19d0b4e448950f79c"
+        },
+        {
+          "path": "References/AtGeneration/SL_CORE_V13_PS02_INPUT_A.png",
+          "sha256": "43d3b655596ba8b1e231598f927f806ddd5f2802f8d50808b085793a55e4b082",
+          "uploaded_path_at_call": "SL_CORE_V13_PS02_INPUT_A.png"
+        },
+        {
+          "path": "References/StudentChibi_Front_Idle.png",
+          "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+        }
+      ],
+      "layout_frozen_sha256": "6f700ff7ab8df6c40c73c02225fdd890672f32d0e047614db14e1ea8042c8a78",
+      "processing": "byte-identical copy only; no interpolation, recoding or filename disguise",
+      "issued_prompt": "Targeted correction of first A image, one allowed edit only. Preserve exact existing eight mass locations, corners, roofs, floors, windows, public/rear door identities, home left, convenience far flatroof, PS02 edge furniture, well31m away, cameraSW→NE30degrees. Second image is geometry authority. Correct these critical mistakes only: REMOVE added footbridges over canal; old spring canal must remain a narrow shallow masonry maintenance channel of the plan, not a scenic river; public lanes continue exactly as plan and do not become new bridges. Fill white voids with lowcontrast neutral neighboring ground/limited calm buildings matching continuation outside the frame, no new rivers/farms/greenhouses. Remove foreground blurry canopy and detailed scattered leaves/water sparkle; clear broad green crown blocks/wood/stone planes restrained pixel texture. Preserve chibi proportions/1.8m relative scale; edge students chat/sit and bag, actual routes clear. Opaque full daylight environmental image2560x1440, no cutout background, no labels, no added geometry to explain omissions. Do not convert all store backs into public glass entrances.\\n",
+      "issued_prompt_sha256": "327d7b7072a32288fc491cae74b07a19cb12152810283989bda9d786a658858b",
+      "parent": "SL_CORE_V13_PS02_VIEW_A_DAY_01"
+    },
+    {
+      "name": "SL_CORE_V13_PS02_VIEW_B_DAY_01",
+      "job": "SL_CORE_V13_PS02_VIEW_B_DAY_01",
+      "kind": "initial",
+      "source_download_path": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-79be75a2-9fd0-4e3a-a61a-a1278a9b2b54.png",
+      "original": "Originals/SL_CORE_V13_PS02_VIEW_B_DAY_01.png",
+      "delivery": "SL_CORE_V13_PS02_VIEW_B_DAY_01.png",
+      "format": "png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3439212,
+      "sha256": "b6282e88bf212bd7288c1acc7aa8493c0b9951ac678ccdc8c8a3f344fdf616cd",
+      "opaque": true,
+      "prompt": "Docs/MapDesign/V13/prompts/SL_CORE_V13_PS02_VIEW_B_DAY_01.md",
+      "prompt_sha256": "c57225fe91853e281acaea5df92ab59e7cd920f024dd43c90cbf6a33cd608a78",
+      "references": [
+        {
+          "path": "References/AtGeneration/SL_CORE_V13_PS02_INPUT_B.png",
+          "sha256": "67834d15355de55926bbbb9cd55531a2ac0ea7a836d5f5b36f1fc0cccbd61736",
+          "uploaded_path_at_call": "SL_CORE_V13_PS02_INPUT_B.png"
+        },
+        {
+          "path": "References/AtGeneration/SL_CORE_V13_PS02_CONSTRAINT_B.png",
+          "sha256": "ca8896827d77f681af248d036395d9513b32986c980a16b03edd07cbf8bdd169",
+          "uploaded_path_at_call": "SL_CORE_V13_PS02_CONSTRAINT_B.png"
+        },
+        {
+          "path": "SL_CORE_V13_PS02_VIEW_A_DAY_02.png",
+          "sha256": "96ca0eaaf517a7808edbdf0767adc4c1699158652a0bd97c2cdb1915c3d0501b"
+        },
+        {
+          "path": "References/StudentChibi_Front_Idle.png",
+          "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+        }
+      ],
+      "layout_frozen_sha256": "6f700ff7ab8df6c40c73c02225fdd890672f32d0e047614db14e1ea8042c8a78",
+      "processing": "byte-identical copy only; no interpolation, recoding or filename disguise",
+      "issued_prompt": "Create one original Japanese anime HD2D environment concept candidate. Early summer green foliage, clear legible stylized 3D masses, restrained pixel material texture, warm gray/cream/wood/slate palette, clean broad planes, no photorealistic noise or depth-of-field blur. Opaque PNG full environment. Reference geometry is authoritative; never rearrange buildings/roads/doors or enlarge footprints for drama. Exact text and labels will be added later, do not render names or diagrams. The 128x128 chibi student is ONLY proportion/style reference, about 1.8m visible design height, dark hair/navy uniform/burgundy tie/gray trousers, short chibi proportions rather than realistic adult proportions. Do not redraw the reference sprite asset. No new rivers, bridges, farms, glasshouses, giant landmarks or duplicate shop entrances. This is art planning, not a game screenshot or navigable asset. Target native2560x1440. Camera B from NORTHEAST looking SOUTHWEST, exactly30-degree depression, opposite A, NOT mirror or same direction. First input B is camera authority. Same150x145m plane, same7 buildings, corners/ridges/two-story counts/window/door locations. Home is on RIGHT now; flat convenience in lower foreground; bookstore/cafe rows on LEFT now, show their other/public-facing walls. Bookshop narrow door/flanking books and stationery; cafe customer window/short tan awning are at actual southeast wall entry, employee door remains opposite at LP01, never duplicate front door on rear. Well is small masonry well along alley31.14m from PS02. Thin canal no river/bridge. Irregular small PS02 edge lounge shared seats/canopy, only few chibi figures, no fountain/plazaB. Preserve original private home court and cafe rear workyard. No farms, greenhouses or new street blocks. The third image A-day02 supplies building MATERIAL and identity only; NEVER adopt its camera direction, omitted canal or added outside placeholder blocks. Camera geometry comes exclusively from the first B massing image.",
+      "issued_prompt_sha256": "ce618b35e8c14f723f74f67e4babd8801ab992c6a9daa72f5b094b52a4060811"
+    },
+    {
+      "name": "SL_CORE_V13_PS02_VIEW_A_DUSK_01",
+      "job": "SL_CORE_V13_PS02_VIEW_A_DUSK_01",
+      "kind": "initial",
+      "source_download_path": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-ba2bd53f-de10-49c7-99c3-64c1fea38a23.png",
+      "original": "Originals/SL_CORE_V13_PS02_VIEW_A_DUSK_01.png",
+      "delivery": "SL_CORE_V13_PS02_VIEW_A_DUSK_01.png",
+      "format": "png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2932622,
+      "sha256": "96115bda77c692a4958bf918dde0dec0e3357c8c990c1c16a8f5b3835adb6a96",
+      "opaque": true,
+      "prompt": "Docs/MapDesign/V13/prompts/SL_CORE_V13_PS02_VIEW_A_DUSK_01.md",
+      "prompt_sha256": "b5e68feda16d702070153e397c83d6b4661e039372dea314f23684d7787dd6f2",
+      "references": [
+        {
+          "path": "SL_CORE_V13_PS02_VIEW_A_DAY_02.png",
+          "sha256": "96ca0eaaf517a7808edbdf0767adc4c1699158652a0bd97c2cdb1915c3d0501b"
+        },
+        {
+          "path": "References/AtGeneration/SL_CORE_V13_PS02_INPUT_A_DUSK.png",
+          "sha256": "003e61f10e51217449e9ec429b7e7f926182ff31aff5aea08e36d3a8e25b4819",
+          "uploaded_path_at_call": "SL_CORE_V13_PS02_INPUT_A_DUSK.png"
+        },
+        {
+          "path": "References/StudentChibi_Front_Idle.png",
+          "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+        }
+      ],
+      "layout_frozen_sha256": "6f700ff7ab8df6c40c73c02225fdd890672f32d0e047614db14e1ea8042c8a78",
+      "processing": "byte-identical copy only; no interpolation, recoding or filename disguise",
+      "issued_prompt": "Create one original Japanese anime HD2D environment concept candidate. Early summer green foliage, clear legible stylized 3D masses, restrained pixel material texture, warm gray/cream/wood/slate palette, clean broad planes, no photorealistic noise or depth-of-field blur. Opaque PNG full environment. Reference geometry is authoritative; never rearrange buildings/roads/doors or enlarge footprints for drama. Exact text and labels will be added later, do not render names or diagrams. The 128x128 chibi student is ONLY proportion/style reference, about 1.8m visible design height, dark hair/navy uniform/burgundy tie/gray trousers, short chibi proportions rather than realistic adult proportions. Do not redraw the reference sprite asset. No new rivers, bridges, farms, glasshouses, giant landmarks or duplicate shop entrances. This is art planning, not a game screenshot or navigable asset. Target native2560x1440. EDIT the approved selection of A-day (first reference) ONLY lighting and stated activity into dusk, DO NOT create a different street or shift camera. SameA southwest→northeast30degrees, identical roofs/buildingcorners/storeys/windowrows/canal/doors/well/edgefurniture. Soft dusk sky and low warm edge light, cafe/bookshop gentle interior light, convenience brighter, few homewindows. Residents with shopping bag and shopkeeper collecting small crates beside edge seats, central passage clear. No new windows, canopies, river, bridge, stalls or buildings; no black silhouette hiding topology.",
+      "issued_prompt_sha256": "09cb812f30bcbb4fce5a9582319b33a30d99ffaeac52a73cbd63b5af821b9897"
+    },
+    {
+      "name": "SL_CORE_V13_PS02_VIEW_A_NIGHT_01",
+      "job": "SL_CORE_V13_PS02_VIEW_A_NIGHT_01",
+      "kind": "initial",
+      "source_download_path": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-3fed5a45-9738-4374-b8bf-09b6773b23f8.png",
+      "original": "Originals/SL_CORE_V13_PS02_VIEW_A_NIGHT_01.png",
+      "delivery": "SL_CORE_V13_PS02_VIEW_A_NIGHT_01.png",
+      "format": "png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2685033,
+      "sha256": "10f027056e7cbee9e621dd1daf5048034fad1fd82b6d5b5b71e9ca23fcf9f524",
+      "opaque": true,
+      "prompt": "Docs/MapDesign/V13/prompts/SL_CORE_V13_PS02_VIEW_A_NIGHT_01.md",
+      "prompt_sha256": "2e7fe878e344451ac4be0fe1a2e049a0c7cc89f57c0d799e1dc8b897b71fd9fd",
+      "references": [
+        {
+          "path": "SL_CORE_V13_PS02_VIEW_A_DAY_02.png",
+          "sha256": "96ca0eaaf517a7808edbdf0767adc4c1699158652a0bd97c2cdb1915c3d0501b"
+        },
+        {
+          "path": "References/AtGeneration/SL_CORE_V13_PS02_INPUT_A_NIGHT.png",
+          "sha256": "9d141618a2c1d300aa90e5662ad568405dc19ec50a52cac1fe05485227e4f97b",
+          "uploaded_path_at_call": "SL_CORE_V13_PS02_INPUT_A_NIGHT.png"
+        },
+        {
+          "path": "References/StudentChibi_Front_Idle.png",
+          "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+        }
+      ],
+      "layout_frozen_sha256": "6f700ff7ab8df6c40c73c02225fdd890672f32d0e047614db14e1ea8042c8a78",
+      "processing": "byte-identical copy only; no interpolation, recoding or filename disguise",
+      "issued_prompt": "Create one original Japanese anime HD2D environment concept candidate. Early summer green foliage, clear legible stylized 3D masses, restrained pixel material texture, warm gray/cream/wood/slate palette, clean broad planes, no photorealistic noise or depth-of-field blur. Opaque PNG full environment. Reference geometry is authoritative; never rearrange buildings/roads/doors or enlarge footprints for drama. Exact text and labels will be added later, do not render names or diagrams. The 128x128 chibi student is ONLY proportion/style reference, about 1.8m visible design height, dark hair/navy uniform/burgundy tie/gray trousers, short chibi proportions rather than realistic adult proportions. Do not redraw the reference sprite asset. No new rivers, bridges, farms, glasshouses, giant landmarks or duplicate shop entrances. This is art planning, not a game screenshot or navigable asset. Target native2560x1440. EDIT selected A-day (first reference) ONLY lighting/activity into ordinary night. EXACTsamecamera A30degrees southwest→northeast and every corner/ridge/window/door/thin canal/well/furniture. Convenience stronger node; book/cafe soft amber inside; only few housewindows, woodcanopy/downward low lamps on edge not center. Ground and darknavy chibi figures readable, forests/background dark, no fog/blur/bloom hiding errors. Closed frontage shown by shutter/closed door where appropriate, notallshopsopen. Few neighbors leaving with bags, notfestival crowds. No added lantern strings/river/bridge/geometry.",
+      "issued_prompt_sha256": "d80a5cf6f3dccc012865c5bc970ff54293cae3f69fed0fa4c4b385f47e777e61"
+    },
+    {
+      "name": "SL_BEACH_V13_VIEW_DAY_01",
+      "job": "SL_BEACH_V13_VIEW_DAY_01",
+      "kind": "initial",
+      "source_download_path": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-a1360a13-18f2-44d0-a99b-3bd7a24ef8d7.png",
+      "original": "Originals/SL_BEACH_V13_VIEW_DAY_01.png",
+      "delivery": "SL_BEACH_V13_VIEW_DAY_01.png",
+      "format": "png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2262376,
+      "sha256": "5372f1dc633666683904f8c10f33fb5548852d64e0a713a3c1cc13750f62269c",
+      "opaque": true,
+      "prompt": "Docs/MapDesign/V13/prompts/SL_BEACH_V13_VIEW_DAY_01.md",
+      "prompt_sha256": "a0e1b7e206678503dced635c5ad17de5436b5529d3aa730690709e3db5232f74",
+      "references": [
+        {
+          "path": "References/AtGeneration/SL_BEACH_V13_INPUT_01.png",
+          "sha256": "fa0e0cac3ed3e5a48809456903f9382aac3e30ad6350b088a6a305b7ad1e4e1b",
+          "uploaded_path_at_call": "SL_BEACH_V13_INPUT_01.png"
+        },
+        {
+          "path": "References/StudentChibi_Front_Idle.png",
+          "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+        }
+      ],
+      "layout_frozen_sha256": "6f700ff7ab8df6c40c73c02225fdd890672f32d0e047614db14e1ea8042c8a78",
+      "processing": "byte-identical copy only; no interpolation, recoding or filename disguise",
+      "issued_prompt": "Create one original Japanese anime HD2D environment concept candidate. Early summer green foliage, clear legible stylized 3D masses, restrained pixel material texture, warm gray/cream/wood/slate palette, clean broad planes, no photorealistic noise or depth-of-field blur. Opaque PNG full environment. Reference geometry is authoritative; never rearrange buildings/roads/doors or enlarge footprints for drama. Exact text and labels will be added later, do not render names or diagrams. The 128x128 chibi student is ONLY proportion/style reference, about 1.8m visible design height, dark hair/navy uniform/burgundy tie/gray trousers, short chibi proportions rather than realistic adult proportions. Do not redraw the reference sprite asset. No new rivers, bridges, farms, glasshouses, giant landmarks or duplicate shop entrances. This is art planning, not a game screenshot or navigable asset. Target native2560x1440. Camera gently30degree over exact140x305m local window first geometricreference. This beach local is WEST SOUTHWEST city, NOT estuary or harbor. ABSOLUTELY NO river, bridge, fields, glasshouse, fishing fleet, hotel or pier inside this frame. Preserve actual coastline and backdrop landward path, original24m2 shade canopy AT FAR LANDWARD EDGE near top; do not relocate it into foreground sand.6m2wash-foot candidate next toshade; show directrearstreetapproach andtwo directions returning along beachback path. Early summerordinarytwo umbrellas/few chibi residents resting/sitting/walking with1.8mvisible reference against2.7mshade. Activity sand neararrival, quiet open sand outward, sparse grass/lowtrees landward, calmseawater abroad. No volleyball net/lifeguard crowd forordinaryday; these belong peak planning board. Simple largeplanes, shore detail sparse. Background mustnot invent roads/river/farm simply todecorate.",
+      "issued_prompt_sha256": "e14977c146c09fa343bbeb7839c7055eb2839275fb2ffbfc15c030f59bdc6e12"
+    },
+    {
+      "name": "SL_SHRINE_V13_VIEW_NIGHT_01",
+      "job": "SL_SHRINE_V13_VIEW_NIGHT_01",
+      "kind": "initial",
+      "source_download_path": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-3f1d9bb9-ae56-4cdf-9f64-c83bac515882.png",
+      "original": "Originals/SL_SHRINE_V13_VIEW_NIGHT_01.png",
+      "delivery": "SL_SHRINE_V13_VIEW_NIGHT_01.png",
+      "format": "png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2323270,
+      "sha256": "3d6d3c9e5560c686b7fbd607e819ed76a1d81200f3c97fab7e5b6913c48ba9aa",
+      "opaque": true,
+      "prompt": "Docs/MapDesign/V13/prompts/SL_SHRINE_V13_VIEW_NIGHT_01.md",
+      "prompt_sha256": "4011d82bb95ef4cadc3e7789ff3c6db73b8a1968de11476d5701961d6eb6408a",
+      "references": [
+        {
+          "path": "References/AtGeneration/SL_SHRINE_V13_INPUT_NIGHT_01.png",
+          "sha256": "345a60abc291902aa9673ae2c04582f453f46a73fab7c774d0548efee6aa79cf",
+          "uploaded_path_at_call": "SL_SHRINE_V13_INPUT_NIGHT_01.png"
+        },
+        {
+          "path": "References/StudentChibi_Front_Idle.png",
+          "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+        }
+      ],
+      "layout_frozen_sha256": "6f700ff7ab8df6c40c73c02225fdd890672f32d0e047614db14e1ea8042c8a78",
+      "processing": "byte-identical copy only; no interpolation, recoding or filename disguise",
+      "issued_prompt": "Create one original Japanese anime HD2D environment concept candidate. Early summer green foliage, clear legible stylized 3D masses, restrained pixel material texture, warm gray/cream/wood/slate palette, clean broad planes, no photorealistic noise or depth-of-field blur. Opaque PNG full environment. Reference geometry is authoritative; never rearrange buildings/roads/doors or enlarge footprints for drama. Exact text and labels will be added later, do not render names or diagrams. The 128x128 chibi student is ONLY proportion/style reference, about 1.8m visible design height, dark hair/navy uniform/burgundy tie/gray trousers, short chibi proportions rather than realistic adult proportions. Do not redraw the reference sprite asset. No new rivers, bridges, farms, glasshouses, giant landmarks or duplicate shop entrances. This is art planning, not a game screenshot or navigable asset. Target native2560x1440. Ordinary night at original B40 hillside shrine usingfirst actualgeometry reference: footentry→segmentedGRAYstone stairs→turningrestplatform→ONEvermilionmain torii→smallgraytilewoodenshrine/court. Gentlepublicsidepath separatelyoutsideadminprivateyard. Restorealive neighborhoodshrine notabandonedruin orfantasytemple. Tree openings revealentry andpartialhall, minimal warmdownlight atfoot/junction/platform/upperentry andedge/stepsoftreadability, localtorii softlylit, forestlargelydark. Notallstairsbrightred/white, no thousandtorii, no continuouslanternfestivalstrip, no pink/redspringtrees orhugehall. Smallchibiresident/cleaner figure atedge as1.8mref. Clearlysafe-lookingartisticroutewithcanopy openings, notclaimengineeringtested.",
+      "issued_prompt_sha256": "3ea1c590568bcfec32c6e3116df901754813045430546d6829316a83ff962cb5"
+    },
+    {
+      "name": "SL_WORLD_V13_CONCEPT_DAY_02",
+      "job": "SL_WORLD_V13_CONCEPT_DAY_02",
+      "kind": "targeted",
+      "source_download_path": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-9b4ed357-afd8-46f7-b0c7-510c81e972ae.png",
+      "original": "Originals/SL_WORLD_V13_CONCEPT_DAY_02.png",
+      "delivery": "SL_WORLD_V13_CONCEPT_DAY_02.png",
+      "format": "png",
+      "width": 1374,
+      "height": 1145,
+      "bytes": 3230478,
+      "sha256": "e171c69269ca926895f6c0c335d44f711e661ad6c5cc3ce1bf2c1d3b96510563",
+      "opaque": true,
+      "prompt": "Docs/MapDesign/V13/prompts/SL_WORLD_V13_CONCEPT_DAY_02.md",
+      "prompt_sha256": "f1896e27ed288bb039629f6285e6df1761ac145e85a8bcd5e0b0b78b617e0b0c",
+      "references": [
+        {
+          "path": "SL_WORLD_V13_CONCEPT_DAY_01.png",
+          "sha256": "0e1ddec48fd1ede6fb69ce297314223bb0657372db7df5420a4c16d8fc1109a3"
+        },
+        {
+          "path": "References/AtGeneration/SL_WORLD_V13_REFERENCE_01.png",
+          "sha256": "0fe063f02605e2d76dda5c1920554727ab8c32c65faee3a2961cb110e090d140",
+          "uploaded_path_at_call": "SL_WORLD_V13_REFERENCE_01.png"
+        }
+      ],
+      "layout_frozen_sha256": "6f700ff7ab8df6c40c73c02225fdd890672f32d0e047614db14e1ea8042c8a78",
+      "processing": "byte-identical copy only; no interpolation, recoding or filename disguise",
+      "issued_prompt": "One authorized targeted correction to first whole-city candidate, preserve full composition, same locations/footprints, all buildings and visibly restored northern gray shrine/vermilion torii and bluegreen cap solid tower. Second formal layout is authoritative. Correct ONLY critical formal-bridge and fishing-plot deviations: retain TWO crossings of the main river at central modern bridge next to school loweredge and historic bridge immediately farther south near oldstreet; REMOVE the extra upper main-river bridge in the northeast woodland-to-farmland road (around70%imagewidth/29%imageheight) and extra lower diagonal bridge near estuary (around63%width/66%height), returning their banks to noncrossing paths. ONE tiny secondarycreek bridge is allowed only at its formal northern woodland crossing, no others. Keep independent NWlake/NEriver and narrow5msecondarycreek. At southeast side-bay fishing node preserve ONE24x18m modest low slate-roof shared fish/gearhouse with small originalworkyard, not giantwarehouse or big enclosed concrete dock; remove duplicated extended docks/portwall. Relocate smalltwo green/red buoy PAIRS from mainriver mouth into the sidebay approach to tinyfishlanding toitsright, keep mainchannel and naturalbars/wetland open. Never harden orclose estuary. Maintain low white lighthouse originallandroute, no coast bridge. Reduce microleaf/roof/waternoise with larger clear planes while retaining warm earlysummerHD2D livingcity. No names/labels. Target native3072x2560 opaque complete environment. DO NOT move school or enlarge its360x320 footprint.",
+      "issued_prompt_sha256": "d2d70dd046f1730fbf46fe83ecc07e4473bce43fa38c9b760f74bfca79643cf8",
+      "parent": "SL_WORLD_V13_CONCEPT_DAY_01"
+    },
+    {
+      "name": "SL_CORE_V13_PS02_VIEW_B_DAY_02",
+      "job": "SL_CORE_V13_PS02_VIEW_B_DAY_02",
+      "kind": "targeted",
+      "source_download_path": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-d5c90a12-39fd-469f-9dd5-755d9c0cd7c9.png",
+      "original": "Originals/SL_CORE_V13_PS02_VIEW_B_DAY_02.png",
+      "delivery": "SL_CORE_V13_PS02_VIEW_B_DAY_02.png",
+      "format": "png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3229771,
+      "sha256": "bbcdd2a89af1e1db528e7639f284302afea262c65b1ba662d03a1958b061c0c5",
+      "opaque": true,
+      "prompt": "Docs/MapDesign/V13/prompts/SL_CORE_V13_PS02_VIEW_B_DAY_02.md",
+      "prompt_sha256": "15c4696e6b41495f5e891ab7d484a207f58e1db8517e2fbc5f32cfed9af9a916",
+      "references": [
+        {
+          "path": "SL_CORE_V13_PS02_VIEW_B_DAY_01.png",
+          "sha256": "b6282e88bf212bd7288c1acc7aa8493c0b9951ac678ccdc8c8a3f344fdf616cd"
+        },
+        {
+          "path": "References/AtGeneration/SL_CORE_V13_PS02_INPUT_B.png",
+          "sha256": "67834d15355de55926bbbb9cd55531a2ac0ea7a836d5f5b36f1fc0cccbd61736",
+          "uploaded_path_at_call": "SL_CORE_V13_PS02_INPUT_B.png"
+        },
+        {
+          "path": "SL_CORE_V13_PS02_VIEW_A_DAY_02.png",
+          "sha256": "96ca0eaaf517a7808edbdf0767adc4c1699158652a0bd97c2cdb1915c3d0501b"
+        },
+        {
+          "path": "References/StudentChibi_Front_Idle.png",
+          "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+        }
+      ],
+      "layout_frozen_sha256": "6f700ff7ab8df6c40c73c02225fdd890672f32d0e047614db14e1ea8042c8a78",
+      "processing": "byte-identical copy only; no interpolation, recoding or filename disguise",
+      "issued_prompt": "One targeted correction of B image firstreference. Camera remains northeast looking southwest30degrees, homeonRIGHT, shopsLEFT, flatconvenienceforeground. Second B massing is absolute geometry authority, third A is identityonly. Correct the misplacedPS02 ONLY: REMOVE canopy/bench/chattingstudents now at LEFT FRONT besidebackgroundshop. Restore the SAME smallirregularcanopy/edgebenches/onegreen tree andstudents immediately UPPERLEFT beside thehomeonRIGHT, in original PS02polygon visible in secondreference (approx79%imagewidth/40%height in firstimage), not inside privatehomeyard. PS02 well remains separate31.14m along narrowlane (smallmasonry circle at canal bend fartherleft), not centeredinsidecourt. This is samefurniture seen oppositeA, not a secondpublicpark. Keep all8mainbuilding corners/eaves/ridges/windowcounts andBOOK/CAFE frontdoors atfixedsoutheastwalls, no mirroredA, no newlanes or bridges. Preserve tinycanal width andallpublicpassages, originalprivatehomecourt andcafestaffrearentry. No newriver, farms/greenhouses, extra publicdoors on rear, fountain or square. Simplify dense leafy noisy detail into readablebroadfoliageplanes, chibifigure1.8m reference, opaque earlysummer daylight target2560x1440.",
+      "issued_prompt_sha256": "ae731ad918a1bd4b02490bc299a9a5246916903a868c5b1f7e6868c41753d659",
+      "parent": "SL_CORE_V13_PS02_VIEW_B_DAY_01"
+    },
+    {
+      "name": "SL_WORLD_V13_SCOPE_RESTRICTED_01",
+      "job": "SL_WORLD_V13_SCOPE_RESTRICTED_01",
+      "kind": "user_scope_edit",
+      "source_download_path": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-d72afca7-53a4-4ff6-a551-3a8f0fba3143.png",
+      "original": "Originals/SL_WORLD_V13_SCOPE_RESTRICTED_01.png",
+      "delivery": "SL_WORLD_V13_SCOPE_RESTRICTED_01.png",
+      "format": "png",
+      "width": 1374,
+      "height": 1145,
+      "bytes": 3394291,
+      "sha256": "17ac540f77e1e944e0f4e2e84513da8dd4340c38c1b1c22b80a9bcd94add72c0",
+      "opaque": true,
+      "prompt": "Docs/MapDesign/V13/prompts/SL_WORLD_V13_SCOPE_RESTRICTED_01.md",
+      "prompt_sha256": "78235b8be6933d9bb50bc2d9660aa0eafc544fbdfc47d5225f2004d0f08ab943",
+      "references": [
+        {
+          "path": "References/Latest_V12_Edit_Target.png",
+          "sha256": "70e14b99f9dc715d4d025d6b07f13ff9d428ed7ccdc14ec5c28f417aff7b2a88"
+        },
+        {
+          "path": "References/Latest_Style_Reference.png",
+          "sha256": "95d41732405772248ff9fe35a9056c2d43c58ab3e8f9c3ac1a9ef343d20441a6"
+        }
+      ],
+      "layout_frozen_sha256": "38d8e0924439135d651598d888cff2a65880aab7d4ff5fba13bf7524b2610b86",
+      "processing": "byte-identical copy only; no interpolation, recoding or filename disguise",
+      "issued_prompt": "Use case: precise-object-edit. Asset: SchoolLife original Japanese anime coastal living town map, scope-restricted V13 edit.\n\nINPUT ROLES: Image 1 (Latest_V12_Edit_Target.png) is the ONLY edit target and composition/geometry master. Image 2 (Latest_Style_Reference.png) is a style/function-readability reference ONLY. Never import its layout, extra bridges, fountain plaza, red trees, enlarged school, farm, windmills or harbor into Image 1.\n\nMake a conservative local edit of IMAGE 1, preserving its complete original framing, perspective, terrain, city density, mountains, lake shoreline, lake outlet, farms, houses, main roads, railway on the right edge, bridge positions, water tower, lighthouse and all objects outside the nine listed changes. This is NOT a new composition, not a redraw of the city, not a wholesale color/style transfer. Keep pixel-level visual continuity in untouched surroundings as closely as possible. North stays at top. Full opaque early-summer daylight environment, same aspect ratio. Target native 3072x2560 if supported; do not crop or add borders. No text, labels or route arrows; exact Chinese labels will be added separately.\n\nAUTHORIZED LOCAL CHANGES ONLY:\n1. Restore the missing small historic living SHRINE on the existing middle north hillside directly north/northwest of the school, east of the lake outlet woodland, below the mountain ridge, approximately image x=48%, y=27%. Add a modest gray-tiled wood shrine hall, ONE vermilion main torii, gray stone stairs with a turning rest platform and a small court. Preserve the gentle side access path. Open only a small window in surrounding tree crowns so part of its roof/torii is visible from the town below. No huge temple, no thousand torii, no pink/red forests, no cleared mountain.\n2. At the existing small neighborhood public nook between the school SOUTH frontage and the old shop street, make an irregular, clearly visible modest public meeting pocket by organizing existing setbacks/free space, NOT demolishing residential blocks. Trees/benches/notice board/one or two removable market stalls stay on edges; center and every street exit remain open. No central fountain, no large straight plaza or relocated well. Preserve the historic well-to-nook short lane relationship. The 600-1000 square-meter option is a separate planning comparison; do not invent a huge square in the illustration.\n3. Keep school footprint, field size and every wing in the SAME positions. Clarify phased building identities with cream newer teaching wing, a slightly older wood/stone-base wing with its small school clock, quiet library entrance, large-span slate-roof gym, readable south school gate, sheltered connecting corridor and existing courtyard. Architectural detail only, no new giant tower, no enlarged campus, no red-roof campus makeover.\n4. Locally clarify the existing high-frequency facades: ordinary player-home porch/mailbox/small familiar wall; old-street bookshop with bookshelf/stationery display and narrow door; cafe with customer window/short canopy/few setback seats and a separate side/rear staff door; convenience store with a bright glass storefront; west-side community building with porch/noticeboard; east-edge station with recognizable long low platform canopy and entrance guide-color strip. Keep their existing masses and locations; no replacement residential district or additional buildings. No illegible fabricated names.\n5. Without widening/re-routing roads, improve the existing short home-school-oldstreet-return loop readability using localized paving/clear entrances. Separately clarify the station exit-to-public pedestrian frontage-to-side bus shelter-to-town road connection. Bus/taxi waiting is off the main pedestrian line. Cafe seating/stalls only in setbacks/pocket edges, never obstruct doors, lanes or crossings. No new roads/bridges, no traffic mega-terminal.\n6. At the existing river MOUTH only, soften the rigid triangular sandbar into LOW irregular bars, shallow banks and a readable main exit-water channel. Retain wetland reeds and natural banks, do not enclose the river mouth. The existing southeast SMALL fishery remains on the SAME side shore; clarify compact shared gray/slate-roof fish-work building, modest work yard, a few crates/nets and side berths. Reduce the misleading bulky blue warehouse appearance, not replace it with many warehouses. Locally calmer slightly deeper harbor water inside existing berths; preserve exterior coast/breakwater geometry, lighthouse and access. Public view and work unloading separate. No cranes/container port/new docks or buoys.\n7. On the SAME existing southwest beach shoreline, organize entrance activity near the existing shelter/landward access: few umbrellas, wash-foot point and shade seats. Keep adjacent sand open and quiet; toward natural coast use very few facilities. Keep every return street. No inserted river, bridge, farm, greenhouse or beachfront redevelopment. Ordinary-day few visitors only; peak-season extra furniture is a separate editable state diagram, not mixed into this base scene. Boats remain at existing work shore, not swimming beach.\n8. Keep the original early-summer greens, cream walls, slate roofs and original lighting. Add LIMITED recognizable color only at authorized features: vermilion torii, warm wood old-shop frontage, a few cloth-canopy colors and consistent station guide color. No town-wide spring pink cherry bloom, autumn red/yellow trees, uniform colorful roofs, relighting or noisy pixel filter.\n9. All details must fit the SAME original buildings, doors, roof slopes and water-channel placement; do not move furniture across routes. Small figures only where needed for existing waiting/shopping/beach activity, youthful chibi proportions, dark navy school uniforms, no tall realistic people. Do not change geographic world coverage, campus or core dimensions. Do not attempt to show all routes by re-composing the city.\n\nPreservation takes priority over embellishment. Outside these localized edits retain Image 1 unchanged in arrangement and visual appearance. Do not beautify untouched areas. Crisp grouped shapes, restrained texture, readable roofs and entrances; avoid tiny ornamental noise. Deliver ONE edited whole-town candidate only.",
+      "issued_prompt_sha256": "aa37e4d72ea1f33cdbf35d7d2180884fb6bb138c0f16d52fc4273f4c3bd0a0ac",
+      "layout_snapshot": "SL_WORLD_V13_LAYOUT_AT_SCOPE_EDIT_01.json",
+      "parent": "References/Latest_V12_Edit_Target.png"
+    }
+  ],
+  "initial_count": 7,
+  "targeted_correction_count": 3,
+  "selected": {
+    "world": "SL_WORLD_V13_SCOPE_RESTRICTED_01",
+    "local_status": "shared vector geometry authoritative; all previous local images process only, not approved",
+    "world_native_AI": "SL_WORLD_V13_SCOPE_RESTRICTED_01",
+    "world_review_composition": "SL_WORLD_V13_SCOPED_COMPOSITION_01",
+    "world_annotation": "SL_WORLD_V13_SCOPED_ANNOTATED_01",
+    "processing": "original V12 + editable local SVG layers, imagegen original preserved; no additional generation"
+  },
+  "post_generation_layout_note": "Final layout corrects CV13 M01/M02 side-of-route by mathematical check; formal buildings/roads/waters unchanged. All images used AT_GENERATION old snapshot and archived PNG references. No image regenerated after final candidate mark correction.",
+  "historical_selection": {
+    "world": "SL_WORLD_V13_CONCEPT_DAY_02",
+    "A": "SL_CORE_V13_PS02_VIEW_A_DAY_02",
+    "B": "SL_CORE_V13_PS02_VIEW_B_DAY_02",
+    "dusk": "SL_CORE_V13_PS02_VIEW_A_DUSK_01",
+    "night": "SL_CORE_V13_PS02_VIEW_A_NIGHT_01",
+    "beach": "SL_BEACH_V13_VIEW_DAY_01",
+    "shrine": "SL_SHRINE_V13_VIEW_NIGHT_01"
+  },
+  "user_scope_edit_count": 1,
+  "total_call_count": 11,
+  "latest_scope_note": "Current final review image is a direct edit of user V12 attachment. Old seven initial/three targeted images retained as process, not latest final."
+}
