@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-09",
+  "version": "V09",
+  "revision": "01",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "model_id": null,
+  "reference": "SL_WORLD_V09_INPUT_01.png",
+  "reference_sha256": "9ffdc917e7bd2183bf32888f200b090688f492bd0a7f99f7c8d21e0bc8829072",
+  "layout": "SL_WORLD_V09_LAYOUT_AT_GENERATION_01.json",
+  "layout_sha256": "bc3d64f5abed5fd44289b716390f396c751548e11d49d90a91179f34073aae89",
+  "character_reference": "SL_WORLD_V09_CHARACTER_REFERENCE_01.json",
+  "character_role": "local proportion board only, not giant figures in world generation",
+  "source_authority": "../V08/SL_WORLD_V08_LAYOUT_01.json",
+  "geometry_changed_after_generation": false,
+  "target": [
+    3072,
+    2560
+  ],
+  "opaque": true,
+  "old_concept_used_as_input": false
+}

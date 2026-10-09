@@ -1,0 +1,72 @@
+{
+  "world_geometry_unchanged": true,
+  "inherited_buildings": 30,
+  "new_buildings": 0,
+  "inherited_use_units": 26,
+  "new_reused_use_candidates": 1,
+  "public_lounges": [
+    {
+      "id": "PS01",
+      "reachable": true,
+      "at": [
+        2176,
+        1904
+      ]
+    },
+    {
+      "id": "PS02",
+      "reachable": true,
+      "at": [
+        2140,
+        1744
+      ]
+    },
+    {
+      "id": "PS03",
+      "reachable": true,
+      "at": [
+        2530,
+        1548
+      ]
+    },
+    {
+      "id": "PS04",
+      "reachable": true,
+      "at": [
+        4375,
+        1923
+      ]
+    }
+  ],
+  "public_lounge_polygon_conflicts": [],
+  "seat_main_movement_conflicts": [],
+  "station_new_shop_reachable": true,
+  "area_m2": 19190082.644628096,
+  "route_lengths": [
+    {
+      "id": "V09_HOME_GATE",
+      "length_m": 170.16442592921186
+    },
+    {
+      "id": "V09_GATE_BOOK_HOME",
+      "length_m": 456.0108562461819
+    },
+    {
+      "id": "V09_GATE_CAFE_HOME",
+      "length_m": 522.7005860800382
+    },
+    {
+      "id": "V09_GATE_BOOK_CAFE_HOME",
+      "length_m": 540.6994019272227
+    },
+    {
+      "id": "V09_STATION_GATE",
+      "length_m": 2553.115602539837
+    },
+    {
+      "id": "V09_STATION_OLD",
+      "length_m": 2304.783283770104
+    }
+  ],
+  "scope": "2D paper only, not actual engineering camera or gameplay"
+}

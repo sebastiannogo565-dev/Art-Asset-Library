@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-09",
+  "source": "D:/UE project/SchoolLife/ArtSource/Characters/StudentChibi/FrontIdle/StudentChibi_Front_Idle.png",
+  "copy": "References/StudentChibi_Front_Idle.png",
+  "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd",
+  "copy_identical": true,
+  "width": 128,
+  "height": 128,
+  "alpha": true,
+  "visible_alpha_bounds_px": [
+    31,
+    4,
+    97,
+    119
+  ],
+  "use": "read-only reference of approved Q chibi; canvas does not define world height; no character redrawing/game repo mutation"
+}

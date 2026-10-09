@@ -1,4 +1,17 @@
-# 交接入口 · 当前V08
+# 交接入口 · 当前V09
+
+
+## V09 当前交付01（2026-10-09）
+
+[V09正文](MapDesign/V09/README.md) · [总图](../ArtSource/MapDesign/V09/SL_WORLD_V09_PLAN_01.png) · [四规划板](../ArtSource/MapDesign/V09/README.md) · [建筑变更](MapDesign/V09/building-change-index.md) · [路线](MapDesign/V09/routes.md) · [四客厅](MapDesign/V09/public-space-cards.md) · [原图](../ArtSource/MapDesign/V09/Originals/SL_WORLD_V09_CONCEPT_01.png) · [同尺寸标注](../ArtSource/MapDesign/V09/SL_WORLD_V09_ANNOTATED_01.svg)。
+
+权威[LAYOUT_01](../ArtSource/MapDesign/V09/SL_WORLD_V09_LAYOUT_01.json)。接续读[站前视觉](MapDesign/V09/station-visual.md)、[出口/公交](MapDesign/V09/exits-transport.md)、[来源](MapDesign/V09/sources.md)、[review](MapDesign/V09/review.md)。同一JSON驱动总图/4板；世界与V08尺寸/地类水系/旧楼桥塔不变，校园独立与生活核心一期同室外图区沿用，15对出口保留，不要求无缝。
+
+本轮道路等级/本地生活短循环/站到东商公共桥走廊、站门步行近场/旁侧接驳/外层住商和四公共客厅深化。W05_forecourt原14m公共路改6m人行候选，5短支不加楼桥；U27复用B0917×14m角落。PS01门侧、PS02井渠转角、PS03桥陆侧、PS04站荫。大型停车换乘4000m²与短奉纳段未采用；泳池附属/灯塔/小屋/餐厅电玩仍未来候选。
+
+新路线固定V08起终点重算（店门进出计入），170.16m通学不变，站到校2.55km不强制走路。建筑ID/背景实例/用途/PS与0模型分计，不据图推人口。认可角色源可读且只原字节副本，板04身高1.5m/门2.25m/椅.42m为局部候选，画布不作世界身高。
+
+内置一次候选，原生1374×1145不透明PNG，原字节保存；标注同尺寸不扩大画布，区域引线近似、底部ID是规划索引不强贴错楼。准确文字后期SVG，原图/提示词/参考/hash/未知模型完整记录。生成后底稿未变。尺寸和额外桥/校园/站前停车/多轨/画风偏差待审，三维工程/运营/真实耗时未验。Git同步收尾后停止供审阅，不进入玩家视角样板/建模/UE。
 
 ## V08 当前交付01（2026-10-09）
 

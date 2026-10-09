@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-09",
+  "version": "V09",
+  "revision": "01",
+  "attempt": 1,
+  "tool": "image_gen.imagegen",
+  "model_id": null,
+  "reference": "SL_WORLD_V09_INPUT_01.png",
+  "reference_sha256": "9ffdc917e7bd2183bf32888f200b090688f492bd0a7f99f7c8d21e0bc8829072",
+  "layout": "SL_WORLD_V09_LAYOUT_AT_GENERATION_01.json",
+  "layout_sha256": "bc3d64f5abed5fd44289b716390f396c751548e11d49d90a91179f34073aae89",
+  "character_reference": "SL_WORLD_V09_CHARACTER_REFERENCE_01.json",
+  "character_role": "local proportion board only, not giant figures in world generation",
+  "source_authority": "../V08/SL_WORLD_V08_LAYOUT_01.json",
+  "geometry_changed_after_generation": false,
+  "target": [
+    3072,
+    2560
+  ],
+  "opaque": true,
+  "old_concept_used_as_input": false,
+  "actual_source": "C:/Users/86135/.codex/generated_images/01a1122c-57ec-7f01-b08e-7974eeccfd00/exec-ae52f6a3-2730-49bd-b0f4-4c783f4cc55f.png",
+  "original": "Originals/SL_WORLD_V09_CONCEPT_01.png",
+  "actual_format": "png",
+  "native_size": [
+    1374,
+    1145
+  ],
+  "channels": 3,
+  "has_alpha": false,
+  "bytes": 3511968,
+  "source_sha256": "b520ea962987a57f78b17e5fbea8f0dd833ce02f94bd55381619c0972a8fb0a5",
+  "saved_sha256": "b520ea962987a57f78b17e5fbea8f0dd833ce02f94bd55381619c0972a8fb0a5",
+  "byte_copy_identical": true,
+  "prompt": "SL_WORLD_V09_PROMPT_01.md",
+  "prompt_sha256": "7084f1e215e0b5445e550503efe87e2e89dc9932ba87a5993574bba645c40dc6",
+  "target_reached": false,
+  "model_version": null,
+  "task_id": null,
+  "cost": null,
+  "processing": "original bytes copy; no crop, resizing, enhancement or re-encoding. Annotation SVG/PNG has same native W×H with editable overlays",
+  "annotated_size": [
+    1374,
+    1145
+  ],
+  "current_layout": "SL_WORLD_V09_LAYOUT_01.json",
+  "layout_hash_still_matches": true,
+  "review": "../../../Docs/MapDesign/V09/review.md"
+}

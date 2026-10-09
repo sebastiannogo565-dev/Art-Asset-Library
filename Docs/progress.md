@@ -1,5 +1,13 @@
 # 本轮进展
 
+## V09 当前交付01（2026-10-09）
+
+[V09正文](MapDesign/V09/README.md) · [总图](../ArtSource/MapDesign/V09/SL_WORLD_V09_PLAN_01.png) · [四规划板](../ArtSource/MapDesign/V09/README.md) · [建筑变更](MapDesign/V09/building-change-index.md) · [路线](MapDesign/V09/routes.md) · [四客厅](MapDesign/V09/public-space-cards.md) · [原图](../ArtSource/MapDesign/V09/Originals/SL_WORLD_V09_CONCEPT_01.png) · [同尺寸标注](../ArtSource/MapDesign/V09/SL_WORLD_V09_ANNOTATED_01.svg)。
+
+设计/四板/一次候选/同原生画布标注与来源记录已完成。覆盖19.19008km²、校园360×320/核心520×400m不动；30建筑/112背景/26用途保留，新增楼桥0，U27站房内便利候选和4公共客厅用途卡。直接170.16m；书店返家456.01/咖啡522.70/双店540.70m；站→校2553.12/站→旧街2304.78m为可选跨区。189旧目标、4PS与新用途、31步行/9后勤/公交公共路/15出口对及面积纸面核对完成。只读认可角色128×128副本和比例板完成，游戏目录未改。
+
+唯一原图1374×1145PNG原字节，冻结底稿生成后未变。站前停车/多轨、额外桥、校园尺度/楼翼及HD2D偏差见review，不能反写。模型具体标识未暴露。没有执行阻塞；Git/LFS收尾中。三维/真实坡度/导航相机/运营/游戏耗时仍未驗证，停止供审阅后样板另行安排。
+
 ## V08 当前交付01（2026-10-09）
 
 [V08正文](MapDesign/V08/README.md) · [变更](MapDesign/V08/change-log.md) · [总图](../ArtSource/MapDesign/V08/SL_WORLD_V08_PLAN_01.png) · [四规划板](../ArtSource/MapDesign/V08/README.md) · [原图](../ArtSource/MapDesign/V08/Originals/SL_WORLD_V08_CANDIDATE_01.png) · [标注](../ArtSource/MapDesign/V08/SL_WORLD_V08_ANNOTATED_01.svg)。
