@@ -1,3 +1,7 @@
+# 当前：门柱试作01已接受
+
+[独立校牌载体下一阶段设计卡](Docs/AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_SIGN_PLATE_01_DESIGN_01.md)已准备供用户转交；牌尺寸/校名待核。本规划聊天只维护状态和任务卡，不设计/建模/生图或接入UE，门柱原源与纹理保持。
+
 # 当前单体回件：门柱试作01
 
 [文件、预览与验收](ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/README.md)：SL_GE_GATE_PIER_01试作已交付待规划窗口/用户审阅。1源闭合网格/基础UV/64px/m临时材质、M1/M2的32/64比较和真实日光两向已完成；60×60×240、底轴心/净6m保持。Design保留，SchoolLife只读、UE导入0；不自动继续其他资产。

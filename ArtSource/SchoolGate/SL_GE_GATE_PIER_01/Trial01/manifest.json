@@ -2,7 +2,7 @@
   "asset_id": "SL_GE_GATE_PIER_01",
   "revision": "TRIAL_01",
   "date": "2026-10-13",
-  "status": "trial_delivered_awaiting_planning_and_user_review",
+  "status": "trial_01_accepted_by_user_not_UE_validated",
   "authorization": {
     "task_card": "Docs/AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_GATE_PIER_01_TRIAL_01.md",
     "planning_publish_commit": "d45fba284a29208231e51b97c715b7058cb3654d",
@@ -54,8 +54,8 @@
         800
       ]
     ],
-    "minimum_opening_actual_m": 6.0,
-    "platform_top_actual_m": 8.0,
+    "minimum_opening_actual_m": 6,
+    "platform_top_actual_m": 8,
     "road_width_reference_m": 5
   },
   "mesh": {
@@ -63,7 +63,7 @@
       "min": [
         -0.30000001192092896,
         -0.30000001192092896,
-        0.0
+        0
       ],
       "max": [
         0.30000001192092896,
@@ -77,19 +77,19 @@
       2.4000000953674316
     ],
     "origin_m": [
-      0.0,
-      0.0,
-      0.0
+      0,
+      0,
+      0
     ],
     "scale": [
-      1.0,
-      1.0,
-      1.0
+      1,
+      1,
+      1
     ],
     "rotation_euler_rad": [
-      0.0,
-      0.0,
-      0.0
+      0,
+      0,
+      0
     ],
     "vertices": 40,
     "edges": 76,
@@ -145,7 +145,7 @@
       ],
       "target_m": [
         -0.550000011920929,
-        0.0,
+        0,
         1.1799999475479126
       ],
       "ortho_scale_m": 4.6,
@@ -184,7 +184,7 @@
       ],
       "target_m": [
         -0.550000011920929,
-        0.0,
+        0,
         1.1799999475479126
       ],
       "ortho_scale_m": 4.6,
@@ -234,7 +234,7 @@
     "object_types": [
       "MESH"
     ],
-    "global_scale": 1.0,
+    "global_scale": 1,
     "apply_unit_scale": true,
     "apply_scale_options": "FBX_SCALE_UNITS",
     "axis_forward": "-Y",
@@ -255,8 +255,8 @@
     "FrontAxisSign": 1,
     "CoordAxis": 0,
     "CoordAxisSign": -1,
-    "UnitScaleFactor": 100.0,
-    "OriginalUnitScaleFactor": 100.0
+    "UnitScaleFactor": 100,
+    "OriginalUnitScaleFactor": 100
   },
   "FBX_binary_version": 7400,
   "checks": {
@@ -572,5 +572,23 @@
       ],
       "mode": "RGB"
     }
-  ]
+  ],
+  "planning_acceptance": {
+    "date": "2026-10-13",
+    "user_statement": "可以接受",
+    "accepted_scope": [
+      "temporary_M1_M2_color",
+      "64_px_per_m_trial_density",
+      "shared_256_atlas_configuration",
+      "seat_band_same_M1",
+      "underside_drip_groove_omitted_in_trial"
+    ],
+    "does_not_include": [
+      "final_UE_asset_validation",
+      "new_UE_import",
+      "other_assets_production"
+    ],
+    "review_record": "Docs/AssetPlanning/SchoolGate/Batch01/review-trial-01.md",
+    "original_deliverables_unchanged": true
+  }
 }
