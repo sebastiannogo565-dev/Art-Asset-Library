@@ -1,0 +1,301 @@
+{
+  "blender_version": "5.2.2 LTS",
+  "mesh": {
+    "bounds_m": {
+      "min": [
+        -0.30000001192092896,
+        -0.30000001192092896,
+        0.0
+      ],
+      "max": [
+        0.30000001192092896,
+        0.30000001192092896,
+        2.4000000953674316
+      ]
+    },
+    "dimensions_m": [
+      0.6000000238418579,
+      0.6000000238418579,
+      2.4000000953674316
+    ],
+    "origin_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation_euler_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "vertices": 40,
+    "edges": 76,
+    "polygons": 38,
+    "triangles": 76,
+    "non_manifold_edges": 0,
+    "signed_volume_m3": 0.7266454251971928,
+    "zero_area_faces": 0,
+    "material_slots": 1
+  },
+  "validation_scene": {
+    "instances": [
+      {
+        "name": "CHECK_INSTANCE_LEFT",
+        "bounds_m": {
+          "min": [
+            -3.5999999046325684,
+            -0.30000001192092896,
+            8.0
+          ],
+          "max": [
+            -3.0,
+            0.30000001192092896,
+            10.399999618530273
+          ]
+        },
+        "dimensions_m": [
+          0.5999999046325684,
+          0.6000000238418579,
+          2.3999996185302734
+        ],
+        "origin_m": [
+          -3.299999952316284,
+          0.0,
+          8.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_euler_rad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vertices": 40,
+        "edges": 76,
+        "polygons": 38,
+        "triangles": 76,
+        "non_manifold_edges": 0,
+        "signed_volume_m3": 0.7266454251971928,
+        "zero_area_faces": 0,
+        "material_slots": 1
+      },
+      {
+        "name": "CHECK_INSTANCE_RIGHT",
+        "bounds_m": {
+          "min": [
+            3.0,
+            -0.30000001192092896,
+            8.0
+          ],
+          "max": [
+            3.5999999046325684,
+            0.30000001192092896,
+            10.399999618530273
+          ]
+        },
+        "dimensions_m": [
+          0.5999999046325684,
+          0.6000000238418579,
+          2.3999996185302734
+        ],
+        "origin_m": [
+          3.299999952316284,
+          0.0,
+          8.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_euler_rad": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vertices": 40,
+        "edges": 76,
+        "polygons": 38,
+        "triangles": 76,
+        "non_manifold_edges": 0,
+        "signed_volume_m3": 0.7266454251971928,
+        "zero_area_faces": 0,
+        "material_slots": 1
+      }
+    ],
+    "platform": {
+      "name": "CHECK_PLATFORM_8x5x0p2",
+      "bounds_m": {
+        "min": [
+          -4.0,
+          -0.5,
+          7.800000190734863
+        ],
+        "max": [
+          4.0,
+          4.5,
+          8.0
+        ]
+      },
+      "dimensions_m": [
+        8.0,
+        5.0,
+        0.19999980926513672
+      ],
+      "origin_m": [
+        0.0,
+        2.0,
+        7.900000095367432
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation_euler_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 8,
+      "edges": 12,
+      "polygons": 6,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 8.000000119209288,
+      "zero_area_faces": 0,
+      "material_slots": 0
+    },
+    "minimum_opening_m": 6.0,
+    "road_width_reference_m": 5,
+    "source_mesh_shared_by_two_instances": true
+  },
+  "views": {
+    "A": {
+      "azimuth_deg": 225,
+      "elevation_deg": 30,
+      "projection": "ORTHOGRAPHIC",
+      "camera_location_m": [
+        -4.836607456207275,
+        -4.286607265472412,
+        4.679999828338623
+      ],
+      "target_m": [
+        -0.550000011920929,
+        0.0,
+        1.1799999475479126
+      ],
+      "ortho_scale_m": 4.6,
+      "native_px": [
+        1600,
+        1400
+      ],
+      "reference_anchor_m": [
+        -1.6,
+        0,
+        0
+      ],
+      "reference_points_px": {
+        "0": [
+          541.7523384094238,
+          1184.570774435997
+        ],
+        "1.8": [
+          541.752290725708,
+          642.3635840415955
+        ],
+        "1.92": [
+          541.752290725708,
+          606.2163949012756
+        ]
+      }
+    },
+    "B": {
+      "azimuth_deg": 45,
+      "elevation_deg": 30,
+      "projection": "ORTHOGRAPHIC",
+      "camera_location_m": [
+        3.736607313156128,
+        4.286607265472412,
+        4.679999828338623
+      ],
+      "target_m": [
+        -0.550000011920929,
+        0.0,
+        1.1799999475479126
+      ],
+      "ortho_scale_m": 4.6,
+      "native_px": [
+        1600,
+        1400
+      ],
+      "reference_anchor_m": [
+        -1.6,
+        0,
+        0
+      ],
+      "reference_points_px": {
+        "0": [
+          1058.2478523254395,
+          926.3233125209808
+        ],
+        "1.8": [
+          1058.2478523254395,
+          384.1161012649536
+        ],
+        "1.92": [
+          1058.2478523254395,
+          347.9689955711365
+        ]
+      }
+    }
+  },
+  "daylight": {
+    "engine": "CYCLES_CPU",
+    "samples": 48,
+    "denoise": true,
+    "sun_energy": 1.8,
+    "sun_angle_deg": 5,
+    "incoming_sun_direction": [
+      0.5,
+      0.6,
+      -1
+    ],
+    "world_strength": 0.45,
+    "view_transform": "Standard",
+    "exposure": 0,
+    "film_transparent": false
+  },
+  "export": {
+    "use_selection": true,
+    "object_types": [
+      "MESH"
+    ],
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "axis_forward": "-Y",
+    "axis_up": "Z",
+    "bake_space_transform": false,
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "OFF",
+    "use_triangles": true,
+    "bake_anim": false,
+    "path_mode": "RELATIVE",
+    "embed_textures": false,
+    "use_custom_props": true
+  },
+  "reference_original_packed_sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd",
+  "detail_decisions": {
+    "seat_band": "0.006 m band retained in continuous closed mesh; same M1 surface; no forced subpixel dark line",
+    "underside_drip_groove": "omitted in trial: 0.384 x 0.320 texel; keep cap projection and slope; planning review pending"
+  }
+}

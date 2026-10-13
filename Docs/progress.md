@@ -1,3 +1,9 @@
+# 门柱试作01制作侧验收完成 · 2026-10-13
+
+[实际试作回件](../ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/README.md)：源.blend和单源.fbx、基础UV、共享BaseColor/Roughness各256²、M1/M2各32/64样块、1600×1400真实日光A/B、实际网格五面检查已完成。源重开和FBX回导（尺寸/轴心/顶点/UV）通过；13来源指纹和原人物打包字节一致，离线净口600/平台顶800通过。
+
+待审：P01细带/滴水槽取舍、P02临时材色/密度、P03后续牌/墙/基础接口，详见[review](../ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/review.md)。UE光照/过滤/碰撞/通行/导航/镜头未验。仅1试作源，不计代理/样块为独特模型；Git/LFS准备收尾，无后续资产进行中。
+
 # 门柱下一阶段任务卡发布 · 2026-10-13
 
 用户J01—03已记录，发布[1源试作卡](AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_GATE_PIER_01_TRIAL_01.md)，纳入R01材质补齐/R02细节取舍/R03自然光证据。原几何/图稿与SchoolLife未改，本轮只有Markdown，新模型/图/材质0。待用户转交及回件，实际网格/UV/材质/自然光未验，校牌及其他资产未启动。

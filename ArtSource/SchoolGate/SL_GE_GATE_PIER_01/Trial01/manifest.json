@@ -1,0 +1,576 @@
+{
+  "asset_id": "SL_GE_GATE_PIER_01",
+  "revision": "TRIAL_01",
+  "date": "2026-10-13",
+  "status": "trial_delivered_awaiting_planning_and_user_review",
+  "authorization": {
+    "task_card": "Docs/AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_GATE_PIER_01_TRIAL_01.md",
+    "planning_publish_commit": "d45fba284a29208231e51b97c715b7058cb3654d",
+    "scope": "single source mesh, basic UV, temporary pixel materials, actual daylight two views; no UE"
+  },
+  "source_count": 1,
+  "validation_instance_count": 2,
+  "asset_proxy_objects_excluded_from_source_count": true,
+  "units": {
+    "Blender": "meter",
+    "scene_scale_length": 1,
+    "design_and_engineering": "centimeter",
+    "meter_to_cm": 100,
+    "front": "-Y",
+    "up": "+Z",
+    "pivot_cm": [
+      0,
+      0,
+      0
+    ]
+  },
+  "dimensions": {
+    "target_cm": [
+      60,
+      60,
+      240
+    ],
+    "actual_source_m": [
+      0.6000000238418579,
+      0.6000000238418579,
+      2.4000000953674316
+    ],
+    "height_zones_cm": [
+      32,
+      192,
+      16
+    ],
+    "shaft_entity_cm": 191.4,
+    "seat_band_cm": 0.6,
+    "future_bottom_pivots_cm": [
+      [
+        -330,
+        0,
+        800
+      ],
+      [
+        330,
+        0,
+        800
+      ]
+    ],
+    "minimum_opening_actual_m": 6.0,
+    "platform_top_actual_m": 8.0,
+    "road_width_reference_m": 5
+  },
+  "mesh": {
+    "bounds_m": {
+      "min": [
+        -0.30000001192092896,
+        -0.30000001192092896,
+        0.0
+      ],
+      "max": [
+        0.30000001192092896,
+        0.30000001192092896,
+        2.4000000953674316
+      ]
+    },
+    "dimensions_m": [
+      0.6000000238418579,
+      0.6000000238418579,
+      2.4000000953674316
+    ],
+    "origin_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rotation_euler_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "vertices": 40,
+    "edges": 76,
+    "polygons": 38,
+    "triangles": 76,
+    "non_manifold_edges": 0,
+    "signed_volume_m3": 0.7266454251971928,
+    "zero_area_faces": 0,
+    "material_slots": 1
+  },
+  "uv": {
+    "layers": 1,
+    "islands": 6,
+    "density_trial_px_per_m": 64,
+    "density_comparison_px_per_m": 32,
+    "measured_density": {
+      "min": 63.9987243792007,
+      "max": 64.0000594625148,
+      "mean": 63.99979556150191,
+      "triangles_checked": 76
+    },
+    "atlas_native_px": [
+      256,
+      256
+    ],
+    "border_replication_px": 4,
+    "sampling": "Closest"
+  },
+  "temporary_materials": {
+    "slots": 1,
+    "base_color_textures": 1,
+    "roughness_textures": 1,
+    "normal_maps": 0,
+    "AO_maps": 0,
+    "comparison_sample_files": 4,
+    "M1": "warm gray mineral plaster",
+    "M2": "blue gray washed mineral concrete",
+    "M3": "seat band shares M1 in this trial; no forced subpixel dark line"
+  },
+  "details": {
+    "seat_band": "0.006 m band retained in continuous closed mesh; same M1 surface; no forced subpixel dark line",
+    "underside_drip_groove": "omitted in trial: 0.384 x 0.320 texel; keep cap projection and slope; planning review pending"
+  },
+  "cameras": {
+    "A": {
+      "azimuth_deg": 225,
+      "elevation_deg": 30,
+      "projection": "ORTHOGRAPHIC",
+      "camera_location_m": [
+        -4.836607456207275,
+        -4.286607265472412,
+        4.679999828338623
+      ],
+      "target_m": [
+        -0.550000011920929,
+        0.0,
+        1.1799999475479126
+      ],
+      "ortho_scale_m": 4.6,
+      "native_px": [
+        1600,
+        1400
+      ],
+      "reference_anchor_m": [
+        -1.6,
+        0,
+        0
+      ],
+      "reference_points_px": {
+        "0": [
+          541.7523384094238,
+          1184.570774435997
+        ],
+        "1.8": [
+          541.752290725708,
+          642.3635840415955
+        ],
+        "1.92": [
+          541.752290725708,
+          606.2163949012756
+        ]
+      }
+    },
+    "B": {
+      "azimuth_deg": 45,
+      "elevation_deg": 30,
+      "projection": "ORTHOGRAPHIC",
+      "camera_location_m": [
+        3.736607313156128,
+        4.286607265472412,
+        4.679999828338623
+      ],
+      "target_m": [
+        -0.550000011920929,
+        0.0,
+        1.1799999475479126
+      ],
+      "ortho_scale_m": 4.6,
+      "native_px": [
+        1600,
+        1400
+      ],
+      "reference_anchor_m": [
+        -1.6,
+        0,
+        0
+      ],
+      "reference_points_px": {
+        "0": [
+          1058.2478523254395,
+          926.3233125209808
+        ],
+        "1.8": [
+          1058.2478523254395,
+          384.1161012649536
+        ],
+        "1.92": [
+          1058.2478523254395,
+          347.9689955711365
+        ]
+      }
+    }
+  },
+  "daylight": {
+    "engine": "CYCLES_CPU",
+    "samples": 48,
+    "denoise": true,
+    "sun_energy": 1.8,
+    "sun_angle_deg": 5,
+    "incoming_sun_direction": [
+      0.5,
+      0.6,
+      -1
+    ],
+    "world_strength": 0.45,
+    "view_transform": "Standard",
+    "exposure": 0,
+    "film_transparent": false
+  },
+  "FBX_export": {
+    "use_selection": true,
+    "object_types": [
+      "MESH"
+    ],
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "axis_forward": "-Y",
+    "axis_up": "Z",
+    "bake_space_transform": false,
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "OFF",
+    "use_triangles": true,
+    "bake_anim": false,
+    "path_mode": "RELATIVE",
+    "embed_textures": false,
+    "use_custom_props": true
+  },
+  "FBX_metadata": {
+    "UpAxis": 2,
+    "UpAxisSign": 1,
+    "FrontAxis": 1,
+    "FrontAxisSign": 1,
+    "CoordAxis": 0,
+    "CoordAxisSign": -1,
+    "UnitScaleFactor": 100.0,
+    "OriginalUnitScaleFactor": 100.0
+  },
+  "FBX_binary_version": 7400,
+  "checks": {
+    "reference_fingerprints_match": 13,
+    "native_source_reopened": true,
+    "watertight_positive_volume": true,
+    "basic_UV_density_verified": true,
+    "FBX_one_mesh_only": true,
+    "FBX_vertex_positions_and_UV_corners_match_source": true,
+    "original_character_packed_bytes_unchanged": true,
+    "visual_boards_inspected": true
+  },
+  "original_character_sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd",
+  "reference_fingerprints": [
+    {
+      "path": "D:/Art Asset Library/ArtSource/MapDesign/V13/SL_WORLD_V13_LAYOUT_01.json",
+      "sha256": "20149b825e420c885ce80468da052067caddc46e9663128471538be047518e72",
+      "matches_planning": true
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/MapDesign/V13/SL_WORLD_V13_PLAN_01.svg",
+      "sha256": "eb7af2e9b15c08a4b8d4d6642a0cbb757b687229329719cb78f571fc792e32a1",
+      "matches_planning": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/LifeCoreBlockout/Step1/Plan.json",
+      "sha256": "69b9d71e299f5e3f4dec5da370dd77c28c9109ea3a23a28d6ad436ceee205db8",
+      "matches_planning": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/LifeCoreBlockout/Step2/ActorRecipe.json",
+      "sha256": "68225f5fd79bb471495b176ed50b7be518ffde19af9b442bf92158bf9b77f146",
+      "matches_planning": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/LifeCoreBlockout/Step2/Observations.md",
+      "sha256": "89e3ff5068e32a2742dcbe88117c34c768a271109a5f66fafa48e9ebb9a170fd",
+      "matches_planning": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/LifeCoreBlockout/Step2/prepare_geometry.py",
+      "sha256": "69ffd3785f466b8875b07eeeb5e6c08b124c71b0adfd1b2b60d9983ca3d600df",
+      "matches_planning": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/ArtSource/Characters/StudentChibi/FrontIdle/StudentChibi_Front_Idle.png",
+      "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd",
+      "matches_planning": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/StudentChibiFrontPreview/ImportedAssets.json",
+      "sha256": "07ba6a55a9502969a0d55a56136d80871b348dda17b05b25c7de21fdb9d58520",
+      "matches_planning": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Content/SchoolLife/Maps/CampusLifeBlockout.umap",
+      "sha256": "44fdd13420290da7d2d3f094ad7c0823a65cc1285a21dd613dacd3179d40455f",
+      "matches_planning": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Content/SchoolLife/Blockout/Materials/MI_BlockoutWall.uasset",
+      "sha256": "d2562ab74154902c8c74ed456e4f986d55a1f42316b12ad86610f7044546ac0c",
+      "matches_planning": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Content/SchoolLife/Blockout/Materials/MI_BlockoutGround.uasset",
+      "sha256": "e523fe034d85e9f378094d78040da34828532a1af961ccfb59e4e01d840806fb",
+      "matches_planning": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Content/SchoolLife/Blockout/Materials/MI_BlockoutPath.uasset",
+      "sha256": "6a31436e9cc4b9684eedfae4ea296fb5887f608ace952b1598ebe2ec546faf1b",
+      "matches_planning": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Content/SchoolLife/Blockout/Materials/MI_BlockoutProp.uasset",
+      "sha256": "ed03280ba5b9ea85f40b059c8c6364acda2891a2ee84d77f172653b0e67fd7fd",
+      "matches_planning": true
+    }
+  ],
+  "needs_planning_judgment": [
+    "P01 subpixel seat/groove implementation choice",
+    "P02 trial M1/M2 and 64px/m acceptance",
+    "P03 later sign/wall/foundation interfaces lack authoritative dimensions"
+  ],
+  "not_validated": [
+    "final art approval",
+    "LOD or formal collision",
+    "UE import/lighting/filtering/shadows/navigation/camera",
+    "foundation or sign/wall connection engineering"
+  ],
+  "UE_writes": 0,
+  "UE_imports": 0,
+  "AI_generations": 0,
+  "git_storage_policy": {
+    "blend_and_FBX": "existing Git LFS patterns",
+    "small_PNG_previews_textures_and_text": "ordinary Git",
+    "actual_push_results": "repository handoff and final report"
+  },
+  "files": [
+    {
+      "path": "Exports/SL_GE_GATE_PIER_01_TRIAL_01.fbx",
+      "bytes": 22252,
+      "sha256": "faf489c4e70d8f27bf50022e2e7049d8751c6545f06f7cda07ba1b6f0ed82a6f",
+      "hash_basis": "raw bytes"
+    },
+    {
+      "path": "Previews/Renders/SL_GE_GATE_PIER_01_TRIAL_VIEW_A_RENDER.png",
+      "bytes": 1703104,
+      "sha256": "1a64c27e8b94881bcedf1b1cfea92bbb480362a65f1d7f639e2c0966d3992855",
+      "hash_basis": "raw bytes",
+      "native_px": [
+        1600,
+        1400
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Previews/Renders/SL_GE_GATE_PIER_01_TRIAL_VIEW_B_RENDER.png",
+      "bytes": 1627062,
+      "sha256": "3d1cfb072b5f7a3ca6f72250d004458eec751aae58a9ec909d0d1c311d62fde7",
+      "hash_basis": "raw bytes",
+      "native_px": [
+        1600,
+        1400
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Previews/SL_GE_GATE_PIER_01_TRIAL_CHECK.png",
+      "bytes": 677056,
+      "sha256": "e69b2fdf1d16cd7a849f25594f5e2c33560bb9f30acf4a265ea9bf8b2592c9fd",
+      "hash_basis": "raw bytes",
+      "native_px": [
+        2600,
+        1450
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Previews/SL_GE_GATE_PIER_01_TRIAL_MATERIAL_COMPARE.png",
+      "bytes": 229568,
+      "sha256": "b8bc9747100d37d387c5f2a5d2b70e555d0eb348bc3674d3b0cef862b844dd04",
+      "hash_basis": "raw bytes",
+      "native_px": [
+        2300,
+        1560
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Previews/SL_GE_GATE_PIER_01_TRIAL_VIEW_A.png",
+      "bytes": 1163885,
+      "sha256": "19bf61aaf6eda1be4781110f9cae284c9fcf7417197e1d863e12fc6dffd1f724",
+      "hash_basis": "raw bytes",
+      "native_px": [
+        1600,
+        1400
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Previews/SL_GE_GATE_PIER_01_TRIAL_VIEW_B.png",
+      "bytes": 1138295,
+      "sha256": "5d68c3f854573a35c930e7f972a71506fed2bf3b1da76e876cf338f6828dc06b",
+      "hash_basis": "raw bytes",
+      "native_px": [
+        1600,
+        1400
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5218,
+      "sha256": "a84dc19ed85954ea26ac5bd564e502358927aa6370ca042bbeaa8d45ab280d42",
+      "hash_basis": "text normalized to LF"
+    },
+    {
+      "path": "review.md",
+      "bytes": 6891,
+      "sha256": "abbd20c4244b7360f9320927baaaa2f99f3d9dd36e8c02482c7669374a75ae51",
+      "hash_basis": "text normalized to LF"
+    },
+    {
+      "path": "Source/assemble_preview_boards.py",
+      "bytes": 8454,
+      "sha256": "e09f72905b9e7e46d9371e43a9fd45c4b263ff19061cd154d3541a8fcd6b9317",
+      "hash_basis": "text normalized to LF"
+    },
+    {
+      "path": "Source/blender_measurements.json",
+      "bytes": 6293,
+      "sha256": "6c2afbbda49a11c684b89dbd82b52abe814d7b50c5bc7ac21730a90175f6e1f7",
+      "hash_basis": "text normalized to LF"
+    },
+    {
+      "path": "Source/build_trial.py",
+      "bytes": 14627,
+      "sha256": "ab696379a09bc5c8f5cd42c1a1391bb7fc4572dec18f2e492763826c9d668d99",
+      "hash_basis": "text normalized to LF"
+    },
+    {
+      "path": "Source/create_trial_data.py",
+      "bytes": 6770,
+      "sha256": "24f47c9769aca1d8d6bd1e9d3668157a38478c6345c5efa3aea9bdb1b0531a13",
+      "hash_basis": "text normalized to LF"
+    },
+    {
+      "path": "Source/SL_GE_GATE_PIER_01_TRIAL_01.blend",
+      "bytes": 108151,
+      "sha256": "56dadb69c0a41862de5589a2fc409aa31331942a86ec48db21451a04ea9c4b2b",
+      "hash_basis": "raw bytes"
+    },
+    {
+      "path": "Source/SL_GE_GATE_PIER_01_TRIAL_GEOMETRY_UV.json",
+      "bytes": 22525,
+      "sha256": "e4d3896a76a6cb15be1ca621bdbb1944f832db5587a0250d68793310cdcbab8e",
+      "hash_basis": "text normalized to LF"
+    },
+    {
+      "path": "Source/texture_statistics.json",
+      "bytes": 240,
+      "sha256": "ff652e0d8dc31a34f5f384e7bd78dd228b0ca90eebd9b8b4bfb7bbfa8a5997bf",
+      "hash_basis": "text normalized to LF"
+    },
+    {
+      "path": "Source/verification_results.json",
+      "bytes": 2447,
+      "sha256": "4e2bb4e38bfe0214e4e4336b2cf57dc5fc9aac0facc87b8f16b5fc52d7fe2922",
+      "hash_basis": "text normalized to LF"
+    },
+    {
+      "path": "Source/verify_trial.py",
+      "bytes": 6367,
+      "sha256": "885dc644600e2d97fb6acf682145b5cc5c8e5ddbd027a4c7a1cfa648d266e1be",
+      "hash_basis": "text normalized to LF"
+    },
+    {
+      "path": "Textures/Samples/M1_32px_per_m_1m.png",
+      "bytes": 333,
+      "sha256": "35cb8f7e5afbe4d2083436f84d85ca3c9bbcb364c3743e7b800ae3dd558d5148",
+      "hash_basis": "raw bytes",
+      "native_px": [
+        32,
+        32
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Textures/Samples/M1_64px_per_m_1m.png",
+      "bytes": 589,
+      "sha256": "93c83e9e35d2b1c0c06241f92e1958bc7cc640b436abf280cc7b6534d768d1f8",
+      "hash_basis": "raw bytes",
+      "native_px": [
+        64,
+        64
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Textures/Samples/M2_32px_per_m_1m.png",
+      "bytes": 446,
+      "sha256": "42265d24c6ab55393ad79eac100fdf3074af0851c8c81f89de0c07570b74c12f",
+      "hash_basis": "raw bytes",
+      "native_px": [
+        32,
+        32
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Textures/Samples/M2_64px_per_m_1m.png",
+      "bytes": 957,
+      "sha256": "4f28bdcd37dbd8eff96f65ef65e29157be44064efbb18076d3ea98155cec69a1",
+      "hash_basis": "raw bytes",
+      "native_px": [
+        64,
+        64
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Textures/SL_GE_GATE_PIER_01_TRIAL_BaseColor.png",
+      "bytes": 4379,
+      "sha256": "bec477e282525620f2c7d11de38b2f899c6419a1e612b2c01c6759d681144eea",
+      "hash_basis": "raw bytes",
+      "native_px": [
+        256,
+        256
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Textures/SL_GE_GATE_PIER_01_TRIAL_Roughness.png",
+      "bytes": 693,
+      "sha256": "6685d7a7185d5d92a4cdc9511282dd7784b9451938f78631132016ab2897e60a",
+      "hash_basis": "raw bytes",
+      "native_px": [
+        256,
+        256
+      ],
+      "mode": "L"
+    },
+    {
+      "path": "Textures/SL_GE_GATE_PIER_01_TRIAL_UV_LAYOUT.png",
+      "bytes": 2613,
+      "sha256": "7c4f9398e3c0f97200fd75223114cb9d995a927439f52249e26de98b2c940295",
+      "hash_basis": "raw bytes",
+      "native_px": [
+        256,
+        256
+      ],
+      "mode": "RGB"
+    }
+  ]
+}

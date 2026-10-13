@@ -1,0 +1,106 @@
+{
+  "source_reopened": true,
+  "blend_format_confirmed_by_native_blender_open": true,
+  "blend_header_first_12_bytes_hex": "28b52ffda041060100fd3700",
+  "source": {
+    "dimensions_m": [
+      0.6000000238418579,
+      0.6000000238418579,
+      2.4000000953674316
+    ],
+    "min_m": [
+      -0.30000001192092896,
+      -0.30000001192092896,
+      0.0
+    ],
+    "max_m": [
+      0.30000001192092896,
+      0.30000001192092896,
+      2.4000000953674316
+    ],
+    "origin_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "vertices": 40,
+    "polygons": 38,
+    "triangles": 76,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "signed_volume_m3": 0.7266454251971928
+  },
+  "uv_density_px_per_m": {
+    "min": 63.9987243792007,
+    "max": 64.0000594625148,
+    "mean": 63.99979556150191,
+    "triangles_checked": 76
+  },
+  "source_uv_matches_layout": true,
+  "all_three_external_images_packed": true,
+  "packed_image_sha256": {
+    "Trial_BaseColor": "bec477e282525620f2c7d11de38b2f899c6419a1e612b2c01c6759d681144eea",
+    "Trial_Roughness": "6685d7a7185d5d92a4cdc9511282dd7784b9451938f78631132016ab2897e60a",
+    "REFERENCE_ORIGINAL_128_RGBA": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+  },
+  "fbx_binary_version": 7400,
+  "fbx_axis_unit_metadata": {
+    "UpAxis": 2,
+    "UpAxisSign": 1,
+    "FrontAxis": 1,
+    "FrontAxisSign": 1,
+    "CoordAxis": 0,
+    "CoordAxisSign": -1,
+    "UnitScaleFactor": 100.0,
+    "OriginalUnitScaleFactor": 100.0
+  },
+  "fbx_model_types": [
+    "Mesh"
+  ],
+  "fbx_round_trip": {
+    "single_mesh_only": true,
+    "matches_source_vertex_positions": true,
+    "stats": {
+      "dimensions_m": [
+        0.6000000834465027,
+        0.6000000834465027,
+        2.4000000953674316
+      ],
+      "min_m": [
+        -0.30000004172325134,
+        -0.30000004172325134,
+        0.0
+      ],
+      "max_m": [
+        0.30000004172325134,
+        0.30000004172325134,
+        2.4000000953674316
+      ],
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 40,
+      "polygons": 76,
+      "triangles": 76,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume_m3": 0.7266454251971928
+    },
+    "material_slots": 1,
+    "uv_layers": 1,
+    "uv_corners_match_source": true
+  },
+  "UE_validation_performed": false
+}

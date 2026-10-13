@@ -1,3 +1,7 @@
+# 当前单体回件：门柱试作01
+
+[文件、预览与验收](ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/README.md)：SL_GE_GATE_PIER_01试作已交付待规划窗口/用户审阅。1源闭合网格/基础UV/64px/m临时材质、M1/M2的32/64比较和真实日光两向已完成；60×60×240、底轴心/净6m保持。Design保留，SchoolLife只读、UE导入0；不自动继续其他资产。
+
 # 当前单体接续：门柱试作卡已发布
 
 [SL_GE_GATE_PIER_01试作任务卡](Docs/AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_GATE_PIER_01_TRIAL_01.md)。用户确认候选01比例/暖灰青灰/64px/m先试。本聊天只发布卡，用户转交建模聊天；未生成图、模型或接入UE。

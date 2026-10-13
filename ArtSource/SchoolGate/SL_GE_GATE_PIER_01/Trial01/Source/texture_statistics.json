@@ -1,0 +1,13 @@
+{
+  "atlas_px": [
+    256,
+    256
+  ],
+  "occupied_texels_before_padding": 24452,
+  "padding_px": 4,
+  "sampling": "Closest",
+  "actual_mesh_texture_files": 2,
+  "comparison_sample_files": 4,
+  "density_px_per_m": 64,
+  "normal_maps": 0
+}
