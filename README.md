@@ -1,3 +1,7 @@
+# 当前回件：独立校牌载体设计候选01
+
+[定尺设计/规格/待判断项](ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Design/README.md)已交付待规划窗口/用户审阅。推荐24×84cm、总突出2cm、左柱南面中心高140；22×76/26×92仅比较，30×100仅可用面、校名仍未定。只设计，无模型/UV/最终字面/UE，已接受门柱原文件保持。
+
 # 当前：门柱试作01已接受
 
 [独立校牌载体下一阶段设计卡](Docs/AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_SIGN_PLATE_01_DESIGN_01.md)已准备供用户转交；牌尺寸/校名待核。本规划聊天只维护状态和任务卡，不设计/建模/生图或接入UE，门柱原源与纹理保持。

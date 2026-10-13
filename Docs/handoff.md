@@ -1,3 +1,9 @@
+# 当前交接：SL_GE_SIGN_PLATE_01设计候选01 · 2026-10-13
+
+[设计入口](../ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Design/README.md)／[规格](../ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Design/SL_GE_SIGN_PLATE_01_SPEC.md)／[审阅回件](../ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Design/review.md)。推荐24×84，牌体深1/总体突出2cm，两18×2.4×1.6浅支座及0.2垫；左柱南面候选轴心(0,−27,140)，工程局部(−330,−27,940)，前面Y−29，不改柱/净口/道路。
+
+原宿主25份原交付、接受manifest及41项保护输入保持；没有校牌模型/UV/纹理/最终文字或UE写入。下一步只审S01—05的新尺寸/安装/材色/正式名称，当前所有新数值均是候选，认可并另行授权后才发布网格试作卡。未自动转交消息。规划聊天当前未运行，Git仅本设计及相关状态文档，实际同步结果随后补入。
+
 # 接受状态与校牌卡同步记录 · 2026-10-13
 
 [校牌载体设计卡](AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_SIGN_PLATE_01_DESIGN_01.md)及门柱接受状态成果提交[f6454b265aef9f3d29073bc959ed07f9b5a26fc4](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/f6454b265aef9f3d29073bc959ed07f9b5a26fc4)已正常推送origin/main，远端完整匹配。原Trial01 README属于25原始交付指纹，收尾保留其原字节；当前接受状态以manifest与规划审阅为准，原README“待审”按交付历史读。

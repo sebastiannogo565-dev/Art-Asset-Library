@@ -1,0 +1,63 @@
+{
+  "asset_id": "SL_GE_SIGN_PLATE_01",
+  "revision": "DESIGN_01",
+  "status": "candidate_awaiting_planning_and_user_review",
+  "units": "cm",
+  "planned_source_count": 1,
+  "target_instance_count_candidate": 1,
+  "coordinate_convention": {"up": "+Z", "front": "-Y", "east": "+X"},
+  "pivot_candidate": {"local": [0, 0, 0], "meaning": "centre of rear contact datum on the host face; not front-face centre"},
+  "carrier_candidate": {
+    "width": 24,
+    "height": 84,
+    "body_depth": 1,
+    "sheet_thickness": 0.2,
+    "corner_radius": 0.4,
+    "material": "matte blue-gray coated aluminum candidate",
+    "color_srgb": "#60767a",
+    "front_skin": {"min": [-12, -2, -42], "max": [12, -1.8, 42]},
+    "folded_return": {"outer_x": [-12, 12], "outer_z": [-42, 42], "y": [-1.8, -1], "sheet_thickness": 0.2, "back_is_open": true},
+    "graphic_area_candidate": {"x": [-10, 10], "z": [-38, 38], "front_y": -2, "width": 20, "height": 76, "status": "empty layout allowance only; no name/font/letter height approved"}
+  },
+  "support_candidates": [
+    {"id": "upper_rail", "min": [-9, -1.8, 28.8], "max": [9, -0.2, 31.2], "material": "coated metal support candidate; section and capacity unverified"},
+    {"id": "lower_rail", "min": [-9, -1.8, -31.2], "max": [9, -0.2, -28.8], "material": "coated metal support candidate; section and capacity unverified"}
+  ],
+  "contact_pad_candidates": [
+    {"id": "upper_pad", "min": [-9, -0.2, 28.8], "max": [9, 0, 31.2]},
+    {"id": "lower_pad", "min": [-9, -0.2, -31.2], "max": [9, 0, -28.8]}
+  ],
+  "fastener_axes_candidate": [[-7, 0, -30], [7, 0, -30], [-7, 0, 30], [7, 0, 30]],
+  "fastener_status": "proposed four centre axes for review only; no holes, screw size, anchorage depth or load capacity approved",
+  "overall_candidate_envelope_local": {"min": [-12, -2, -42], "max": [12, 0, 42]},
+  "host_reference": {
+    "asset_id": "SL_GE_GATE_PIER_01",
+    "accepted_stage": "TRIAL_01",
+    "geometry_data_relative": "../../SL_GE_GATE_PIER_01/Trial01/Source/SL_GE_GATE_PIER_01_TRIAL_GEOMETRY_UV.json",
+    "host_envelope_cm": {"min": [-30, -30, 0], "max": [30, 30, 240]},
+    "south_shaft_surface_y": -27,
+    "usable_area": {"x": [-15, 15], "z": [90, 190], "width": 30, "height": 100, "status": "available surface only; not approved plaque dimensions"},
+    "mount_pivot_in_host_candidate": [0, -27, 140],
+    "selected_host_candidate": "left pillar viewed from street south toward north",
+    "left_host_bottom_engineering_cm": [-330, 0, 800],
+    "right_host_bottom_engineering_cm": [330, 0, 800],
+    "plaque_pivot_engineering_candidate_cm": [-330, -27, 940],
+    "minimum_gate_opening_cm": 600,
+    "road_width_cm": 500,
+    "platform_top_z_cm": 800
+  },
+  "size_comparisons_candidate": [
+    {"id": "compact", "width": 22, "height": 76, "side_margin_inside_usable": 4, "vertical_margin_inside_usable": 12, "graphic_area": [18, 68]},
+    {"id": "recommended", "width": 24, "height": 84, "side_margin_inside_usable": 3, "vertical_margin_inside_usable": 8, "graphic_area": [20, 76]},
+    {"id": "large_within_usable", "width": 26, "height": 92, "side_margin_inside_usable": 2, "vertical_margin_inside_usable": 4, "graphic_area": [22, 84]}
+  ],
+  "view_candidates": [
+    {"id": "A", "camera_azimuth_deg_from_positive_x": 225, "elevation_deg": 30, "projection": "orthographic", "host_display": "opaque design geometry"},
+    {"id": "B", "camera_azimuth_deg_from_positive_x": 45, "elevation_deg": 30, "projection": "orthographic", "host_display": "transparent design inspection only; south plaque remains at -Y, physically occluded by opaque host"}
+  ],
+  "graphic_name_status": "unconfirmed; SL_GE_GRAPHIC_NAME_01 separate later; no finished graphic produced",
+  "carrier_density_reference_px_per_m": 64,
+  "graphic_density_status": "separate and unconfirmed; determine after name length and observation scale",
+  "unverified": ["user selection of dimensions/side/material", "name/language/layout/font/letter height", "fasteners/holes/anchorage and support capacity", "host wall/foundation interfaces", "UE lighting/visibility/passage"],
+  "production_counts": {"formal_models": 0, "UVs": 0, "final_textures": 0, "final_name_graphics": 0, "UE_imports": 0, "host_modifications": 0}
+}

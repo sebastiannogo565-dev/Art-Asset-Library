@@ -1,0 +1,260 @@
+{
+  "asset_id": "SL_GE_SIGN_PLATE_01",
+  "revision": "DESIGN_01",
+  "date": "2026-10-13",
+  "stage": "design_only_awaiting_review",
+  "candidate_checks": {
+    "planned_source_count": 1,
+    "target_instance_count": 1,
+    "carrier_cm": [
+      24,
+      84,
+      1
+    ],
+    "total_cm_width_height_depth": [
+      24,
+      84,
+      2
+    ],
+    "inside_30x100_available_face": true,
+    "available_area_margins_cm": [
+      3,
+      3,
+      8,
+      8
+    ],
+    "body_and_support_contact_planes_match": true,
+    "installed_in_host_cm": {
+      "min": [
+        -12,
+        -29,
+        98
+      ],
+      "max": [
+        12,
+        -27,
+        182
+      ]
+    },
+    "installed_engineering_cm": {
+      "min": [
+        -342,
+        -29,
+        898
+      ],
+      "max": [
+        -318,
+        -27,
+        982
+      ]
+    },
+    "inside_original_pillar_envelope": true,
+    "distance_from_plaque_to_gate_boundary_cm": 18,
+    "distance_to_road_boundary_cm": 68,
+    "minimum_gate_opening_unchanged_cm": 600,
+    "road_unchanged_cm": 500,
+    "front": "-Y",
+    "mount_pivot_candidate_in_host_cm": [
+      0,
+      -27,
+      140
+    ],
+    "opposite_views_same_JSON": true,
+    "native_png_px": [
+      3600,
+      3420
+    ],
+    "all_png_pixels_opaque": true,
+    "original_character_embedded_bytes_unchanged": true
+  },
+  "manual_visual_review": {
+    "readable_dimensions_and_labels": "passed_after_separating_rear_labels",
+    "B_transparency_explicitly_labelled": true,
+    "not_real_daylight_or_game_render": true,
+    "is_not_user_design_approval": true
+  },
+  "accepted_reference_fingerprints_match_count": 13,
+  "protected_input_count": 41,
+  "protected_inputs_all_byte_identical": true,
+  "protected_inputs": [
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Exports\\SL_GE_GATE_PIER_01_TRIAL_01.fbx",
+      "sha256": "faf489c4e70d8f27bf50022e2e7049d8751c6545f06f7cda07ba1b6f0ed82a6f"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\manifest.json",
+      "sha256": "0c6650f9905465bc39831e98f508a9d6dfbc7cc0d0511ba0c54a454661e41105"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Previews\\Renders\\SL_GE_GATE_PIER_01_TRIAL_VIEW_A_RENDER.png",
+      "sha256": "1a64c27e8b94881bcedf1b1cfea92bbb480362a65f1d7f639e2c0966d3992855"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Previews\\Renders\\SL_GE_GATE_PIER_01_TRIAL_VIEW_B_RENDER.png",
+      "sha256": "3d1cfb072b5f7a3ca6f72250d004458eec751aae58a9ec909d0d1c311d62fde7"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Previews\\SL_GE_GATE_PIER_01_TRIAL_CHECK.png",
+      "sha256": "e69b2fdf1d16cd7a849f25594f5e2c33560bb9f30acf4a265ea9bf8b2592c9fd"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Previews\\SL_GE_GATE_PIER_01_TRIAL_MATERIAL_COMPARE.png",
+      "sha256": "b8bc9747100d37d387c5f2a5d2b70e555d0eb348bc3674d3b0cef862b844dd04"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Previews\\SL_GE_GATE_PIER_01_TRIAL_VIEW_A.png",
+      "sha256": "19bf61aaf6eda1be4781110f9cae284c9fcf7417197e1d863e12fc6dffd1f724"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Previews\\SL_GE_GATE_PIER_01_TRIAL_VIEW_B.png",
+      "sha256": "5d68c3f854573a35c930e7f972a71506fed2bf3b1da76e876cf338f6828dc06b"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\README.md",
+      "sha256": "a84dc19ed85954ea26ac5bd564e502358927aa6370ca042bbeaa8d45ab280d42"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\review.md",
+      "sha256": "abbd20c4244b7360f9320927baaaa2f99f3d9dd36e8c02482c7669374a75ae51"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\assemble_preview_boards.py",
+      "sha256": "e09f72905b9e7e46d9371e43a9fd45c4b263ff19061cd154d3541a8fcd6b9317"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\blender_measurements.json",
+      "sha256": "6c2afbbda49a11c684b89dbd82b52abe814d7b50c5bc7ac21730a90175f6e1f7"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\build_trial.py",
+      "sha256": "ab696379a09bc5c8f5cd42c1a1391bb7fc4572dec18f2e492763826c9d668d99"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\create_trial_data.py",
+      "sha256": "24f47c9769aca1d8d6bd1e9d3668157a38478c6345c5efa3aea9bdb1b0531a13"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\SL_GE_GATE_PIER_01_TRIAL_01.blend",
+      "sha256": "56dadb69c0a41862de5589a2fc409aa31331942a86ec48db21451a04ea9c4b2b"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\SL_GE_GATE_PIER_01_TRIAL_01.blend1",
+      "sha256": "24ef77973f1812cc649e87d653e61e3b405cc27940e26444983c47779b19faff"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\SL_GE_GATE_PIER_01_TRIAL_GEOMETRY_UV.json",
+      "sha256": "e4d3896a76a6cb15be1ca621bdbb1944f832db5587a0250d68793310cdcbab8e"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\texture_statistics.json",
+      "sha256": "ff652e0d8dc31a34f5f384e7bd78dd228b0ca90eebd9b8b4bfb7bbfa8a5997bf"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\verification_results.json",
+      "sha256": "4e2bb4e38bfe0214e4e4336b2cf57dc5fc9aac0facc87b8f16b5fc52d7fe2922"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\verify_trial.py",
+      "sha256": "885dc644600e2d97fb6acf682145b5cc5c8e5ddbd027a4c7a1cfa648d266e1be"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Textures\\Samples\\M1_32px_per_m_1m.png",
+      "sha256": "35cb8f7e5afbe4d2083436f84d85ca3c9bbcb364c3743e7b800ae3dd558d5148"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Textures\\Samples\\M1_64px_per_m_1m.png",
+      "sha256": "93c83e9e35d2b1c0c06241f92e1958bc7cc640b436abf280cc7b6534d768d1f8"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Textures\\Samples\\M2_32px_per_m_1m.png",
+      "sha256": "42265d24c6ab55393ad79eac100fdf3074af0851c8c81f89de0c07570b74c12f"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Textures\\Samples\\M2_64px_per_m_1m.png",
+      "sha256": "4f28bdcd37dbd8eff96f65ef65e29157be44064efbb18076d3ea98155cec69a1"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Textures\\SL_GE_GATE_PIER_01_TRIAL_BaseColor.png",
+      "sha256": "bec477e282525620f2c7d11de38b2f899c6419a1e612b2c01c6759d681144eea"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Textures\\SL_GE_GATE_PIER_01_TRIAL_Roughness.png",
+      "sha256": "6685d7a7185d5d92a4cdc9511282dd7784b9451938f78631132016ab2897e60a"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Textures\\SL_GE_GATE_PIER_01_TRIAL_UV_LAYOUT.png",
+      "sha256": "7c4f9398e3c0f97200fd75223114cb9d995a927439f52249e26de98b2c940295"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Design\\SL_GE_GATE_PIER_01_GEOMETRY.json",
+      "sha256": "c2fd570b4c0636439d9f8977f787deed0b7c60dc2b2035e6d45cef7bc1e1af16"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\MapDesign\\V13\\SL_WORLD_V13_LAYOUT_01.json",
+      "sha256": "20149b825e420c885ce80468da052067caddc46e9663128471538be047518e72"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\MapDesign\\V13\\SL_WORLD_V13_PLAN_01.svg",
+      "sha256": "eb7af2e9b15c08a4b8d4d6642a0cbb757b687229329719cb78f571fc792e32a1"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Docs\\Validation\\LifeCoreBlockout\\Step1\\Plan.json",
+      "sha256": "69b9d71e299f5e3f4dec5da370dd77c28c9109ea3a23a28d6ad436ceee205db8"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Docs\\Validation\\LifeCoreBlockout\\Step2\\ActorRecipe.json",
+      "sha256": "68225f5fd79bb471495b176ed50b7be518ffde19af9b442bf92158bf9b77f146"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Docs\\Validation\\LifeCoreBlockout\\Step2\\Observations.md",
+      "sha256": "89e3ff5068e32a2742dcbe88117c34c768a271109a5f66fafa48e9ebb9a170fd"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Docs\\Validation\\LifeCoreBlockout\\Step2\\prepare_geometry.py",
+      "sha256": "69ffd3785f466b8875b07eeeb5e6c08b124c71b0adfd1b2b60d9983ca3d600df"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\ArtSource\\Characters\\StudentChibi\\FrontIdle\\StudentChibi_Front_Idle.png",
+      "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Docs\\Validation\\StudentChibiFrontPreview\\ImportedAssets.json",
+      "sha256": "07ba6a55a9502969a0d55a56136d80871b348dda17b05b25c7de21fdb9d58520"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Content\\SchoolLife\\Maps\\CampusLifeBlockout.umap",
+      "sha256": "44fdd13420290da7d2d3f094ad7c0823a65cc1285a21dd613dacd3179d40455f"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Content\\SchoolLife\\Blockout\\Materials\\MI_BlockoutWall.uasset",
+      "sha256": "d2562ab74154902c8c74ed456e4f986d55a1f42316b12ad86610f7044546ac0c"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Content\\SchoolLife\\Blockout\\Materials\\MI_BlockoutGround.uasset",
+      "sha256": "e523fe034d85e9f378094d78040da34828532a1af961ccfb59e4e01d840806fb"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Content\\SchoolLife\\Blockout\\Materials\\MI_BlockoutPath.uasset",
+      "sha256": "6a31436e9cc4b9684eedfae4ea296fb5887f608ace952b1598ebe2ec546faf1b"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Content\\SchoolLife\\Blockout\\Materials\\MI_BlockoutProp.uasset",
+      "sha256": "ed03280ba5b9ea85f40b059c8c6364acda2891a2ee84d77f172653b0e67fd7fd"
+    }
+  ],
+  "production_counts": {
+    "formal_models": 0,
+    "UVs": 0,
+    "final_textures": 0,
+    "final_name_graphics": 0,
+    "UE_imports": 0,
+    "host_modifications": 0
+  },
+  "unverified": [
+    "user selection of dimensions/side/material",
+    "name/language/layout/font/letter height",
+    "fasteners/holes/anchorage and support capacity",
+    "host wall/foundation interfaces",
+    "UE lighting/visibility/passage"
+  ]
+}

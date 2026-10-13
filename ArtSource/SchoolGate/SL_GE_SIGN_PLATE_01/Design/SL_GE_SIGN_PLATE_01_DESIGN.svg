@@ -1,0 +1,475 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3600" height="3420" viewBox="0 0 3600 3420">
+<title>SchoolLife SL_GE_SIGN_PLATE_01 独立校牌载体设计候选01</title>
+<desc>One candidate geometry in cm; 24x84cm folded carrier, 2cm total mounting depth. All dimensions, fastener axes and material are unapproved design candidates. Accepted pillar unchanged. No final school-name graphic.</desc>
+<defs><marker id="arr" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto-start-reverse"><path d="M7,0 L0,3.5 L7,7" fill="none" stroke="#52676a" stroke-width="1"/></marker></defs>
+<rect width="3600" height="3420" fill="#f6f4ee"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<g id="header">
+<text x="70.000" y="72.000" font-size="26" fill="#52676a" text-anchor="start" font-weight="normal">SchoolLife / 校门入口 · 独立载体</text>
+<text x="70.000" y="139.000" font-size="46" fill="#243d43" text-anchor="start" font-weight="bold">SL_GE_SIGN_PLATE_01 · 尺寸与安装候选01</text>
+<text x="70.000" y="188.000" font-size="27" fill="#aa7042" text-anchor="start" font-weight="normal">推荐 24 × 84 cm / 牌体深 1.0 cm / 含支承总突出 2.0 cm · 全部新增尺寸均待审</text>
+<text x="3530.000" y="77.000" font-size="24" fill="#52676a" text-anchor="end" font-weight="normal">2026-10-13</text>
+<text x="3530.000" y="122.000" font-size="25" fill="#243d43" text-anchor="end" font-weight="normal">计划1源 / 1目标实例 · 校名仍待确认</text>
+<text x="3530.000" y="167.000" font-size="23" fill="#52676a" text-anchor="end" font-weight="normal">定尺设计与材色示意；无模型 / 字面 / UE产出</text>
+</g>
+<g id="front">
+<rect x="70.000" y="230.000" width="820.000" height="990.000" fill="#fcfbf7" stroke="#acb9b5" stroke-width="1.4" rx="10"/>
+<text x="96.000" y="278.000" font-size="29" fill="#243d43" text-anchor="start" font-weight="bold">01 街侧正面 −Y</text>
+<text x="96.000" y="317.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">无成品校名；虚线为20×76字面排布候选区</text>
+<rect x="296.000" y="381.000" width="168.000" height="588.000" fill="#60767a" stroke="#243d43" stroke-width="1.8" rx="2.8000000000000003"/>
+<rect x="310.000" y="409.000" width="140.000" height="532.000" fill="none" stroke="#c7d2cd" stroke-width="1.6" rx="0" stroke-dasharray="8 6"/>
+<line x1="450.000" y1="409.000" x2="590.000" y2="409.000" stroke="#52676a" stroke-width="1.4"/>
+<text x="599.000" y="417.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">字面净宽20</text>
+<line x1="450.000" y1="892.000" x2="590.000" y2="892.000" stroke="#52676a" stroke-width="1.4"/>
+<text x="599.000" y="900.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">四周留边2 / 4</text>
+<text x="104.000" y="1090.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">建议优先比较竖向空白排布；语言/横竖待定。</text>
+<text x="104.000" y="1125.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">图内无校名、字体或已批准字高。</text>
+<line x1="296.000" y1="969.000" x2="296.000" y2="1033.000" stroke="#acb9b5" stroke-width="1.5"/>
+<line x1="464.000" y1="969.000" x2="464.000" y2="1033.000" stroke="#acb9b5" stroke-width="1.5"/>
+<line x1="296.000" y1="1025.000" x2="464.000" y2="1025.000" stroke="#52676a" stroke-width="1.3" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="380.000" y="1013.000" font-size="22" fill="#52676a" text-anchor="middle" font-weight="normal">宽24</text>
+<line x1="296.000" y1="381.000" x2="246.000" y2="381.000" stroke="#acb9b5" stroke-width="1.5"/>
+<line x1="296.000" y1="969.000" x2="246.000" y2="969.000" stroke="#acb9b5" stroke-width="1.5"/>
+<line x1="246.000" y1="381.000" x2="246.000" y2="969.000" stroke="#52676a" stroke-width="1.3" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="234.000" y="683.000" font-size="22" fill="#52676a" text-anchor="end" font-weight="normal">高84</text>
+<line x1="372.000" y1="675.000" x2="388.000" y2="675.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="380.000" y1="667.000" x2="380.000" y2="683.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="380.000" y1="675.000" x2="590.000" y2="675.000" stroke="#aa7042" stroke-width="1.4"/>
+<text x="599.000" y="683.000" font-size="22" fill="#aa7042" text-anchor="start" font-weight="normal">后接触基准轴心投影</text>
+</g>
+<g id="rear">
+<rect x="920.000" y="230.000" width="900.000" height="990.000" fill="#fcfbf7" stroke="#acb9b5" stroke-width="1.4" rx="10"/>
+<text x="946.000" y="278.000" font-size="29" fill="#243d43" text-anchor="start" font-weight="bold">02 载体背面 +Y</text>
+<text x="946.000" y="317.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">独立载体后视；画面右为−X，不复制正面字</text>
+<rect x="1146.000" y="381.000" width="168.000" height="588.000" fill="#60767a" stroke="#243d43" stroke-width="1.8" rx="2.8000000000000003"/>
+<rect x="1147.400" y="382.400" width="165.200" height="585.200" fill="#8a9898" stroke="#52676a" stroke-width="1" rx="1.4000000000000001"/>
+<rect x="1167.000" y="456.600" width="126.000" height="16.800" fill="#728180" stroke="#243d43" stroke-width="1.3" rx="0"/>
+<rect x="1167.000" y="876.600" width="126.000" height="16.800" fill="#728180" stroke="#243d43" stroke-width="1.3" rx="0"/>
+<rect x="1167.000" y="456.600" width="126.000" height="16.800" fill="#535c59" stroke="#243d43" stroke-width="1" rx="0"/>
+<rect x="1167.000" y="876.600" width="126.000" height="16.800" fill="#535c59" stroke="#243d43" stroke-width="1" rx="0"/>
+<line x1="1273.000" y1="885.000" x2="1285.000" y2="885.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="1279.000" y1="879.000" x2="1279.000" y2="891.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="1175.000" y1="885.000" x2="1187.000" y2="885.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="1181.000" y1="879.000" x2="1181.000" y2="891.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="1273.000" y1="465.000" x2="1285.000" y2="465.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="1279.000" y1="459.000" x2="1279.000" y2="471.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="1175.000" y1="465.000" x2="1187.000" y2="465.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="1181.000" y1="459.000" x2="1181.000" y2="471.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="1167.000" y1="465.000" x2="1167.000" y2="445.000" stroke="#acb9b5" stroke-width="1.5"/>
+<line x1="1293.000" y1="465.000" x2="1293.000" y2="445.000" stroke="#acb9b5" stroke-width="1.5"/>
+<line x1="1167.000" y1="437.000" x2="1293.000" y2="437.000" stroke="#52676a" stroke-width="1.3" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="1230.000" y="425.000" font-size="22" fill="#52676a" text-anchor="middle" font-weight="normal">18</text>
+<line x1="1375.000" y1="465.000" x2="1375.000" y2="885.000" stroke="#52676a" stroke-width="1.3" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="1387.000" y="683.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">60</text>
+<line x1="1293.000" y1="465.000" x2="1500.000" y2="465.000" stroke="#52676a" stroke-width="1.4"/>
+<text x="1509.000" y="473.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">上条座 / 2.4高</text>
+<line x1="1293.000" y1="885.000" x2="1500.000" y2="885.000" stroke="#52676a" stroke-width="1.4"/>
+<text x="1509.000" y="893.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">下条座 / 2.4高</text>
+<text x="954.000" y="1090.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">两条18×2.4×1.6浅支座，中心距60；0.2隔离垫。</text>
+<text x="954.000" y="1125.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">橙色四点为固定轴候选，未设计孔径/孔深。</text>
+<line x1="1146.000" y1="969.000" x2="1146.000" y2="1033.000" stroke="#acb9b5" stroke-width="1.5"/>
+<line x1="1314.000" y1="969.000" x2="1314.000" y2="1033.000" stroke="#acb9b5" stroke-width="1.5"/>
+<line x1="1146.000" y1="1025.000" x2="1314.000" y2="1025.000" stroke="#52676a" stroke-width="1.3" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="1230.000" y="1013.000" font-size="22" fill="#52676a" text-anchor="middle" font-weight="normal">宽24</text>
+<line x1="1146.000" y1="381.000" x2="1096.000" y2="381.000" stroke="#acb9b5" stroke-width="1.5"/>
+<line x1="1146.000" y1="969.000" x2="1096.000" y2="969.000" stroke="#acb9b5" stroke-width="1.5"/>
+<line x1="1096.000" y1="381.000" x2="1096.000" y2="969.000" stroke="#52676a" stroke-width="1.3" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="1084.000" y="683.000" font-size="22" fill="#52676a" text-anchor="end" font-weight="normal">高84</text>
+<line x1="1222.000" y1="675.000" x2="1238.000" y2="675.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="1230.000" y1="667.000" x2="1230.000" y2="683.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="1230.000" y1="675.000" x2="1440.000" y2="675.000" stroke="#aa7042" stroke-width="1.4"/>
+<text x="1449.000" y="683.000" font-size="22" fill="#aa7042" text-anchor="start" font-weight="normal">后接触基准轴心投影</text>
+</g>
+<g id="side">
+<rect x="1850.000" y="230.000" width="780.000" height="990.000" fill="#fcfbf7" stroke="#acb9b5" stroke-width="1.4" rx="10"/>
+<text x="1876.000" y="278.000" font-size="29" fill="#243d43" text-anchor="start" font-weight="bold">03 右侧 +X</text>
+<text x="1876.000" y="317.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">画面右为+Y；0为后接触面，不是正面</text>
+<rect x="2066.000" y="381.000" width="1.400" height="588.000" fill="#60767a" stroke="#243d43" stroke-width="1" rx="0"/>
+<rect x="2067.400" y="381.000" width="5.600" height="588.000" fill="#60767a" stroke="#243d43" stroke-width="1" rx="0"/>
+<rect x="2067.400" y="456.600" width="11.200" height="16.800" fill="#728180" stroke="#243d43" stroke-width="0.8" rx="0"/>
+<rect x="2067.400" y="876.600" width="11.200" height="16.800" fill="#728180" stroke="#243d43" stroke-width="0.8" rx="0"/>
+<rect x="2078.600" y="456.600" width="1.400" height="16.800" fill="#535c59" stroke="#243d43" stroke-width="0.8" rx="0"/>
+<rect x="2078.600" y="876.600" width="1.400" height="16.800" fill="#535c59" stroke="#243d43" stroke-width="0.8" rx="0"/>
+<line x1="2080.000" y1="367.000" x2="2080.000" y2="983.000" stroke="#aa7042" stroke-width="1.5" stroke-dasharray="7 5"/>
+<line x1="2072.000" y1="675.000" x2="2088.000" y2="675.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="2080.000" y1="667.000" x2="2080.000" y2="683.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="1985.000" y1="381.000" x2="1985.000" y2="969.000" stroke="#52676a" stroke-width="1.3" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="1973.000" y="683.000" font-size="22" fill="#52676a" text-anchor="end" font-weight="normal">84</text>
+<line x1="2066.000" y1="451.000" x2="2235.000" y2="451.000" stroke="#52676a" stroke-width="1.4"/>
+<text x="2244.000" y="459.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">正面 Y−2.0</text>
+<line x1="2073.000" y1="535.000" x2="2235.000" y2="535.000" stroke="#52676a" stroke-width="1.4"/>
+<text x="2244.000" y="543.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">折边后缘 Y−1.0</text>
+<line x1="2080.000" y1="675.000" x2="2235.000" y2="675.000" stroke="#aa7042" stroke-width="1.4"/>
+<text x="2244.000" y="683.000" font-size="22" fill="#aa7042" text-anchor="start" font-weight="normal">接触基准 Y0</text>
+<text x="1880.000" y="1090.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">全高侧视：牌体深1.0，总突出2.0。</text>
+<text x="1880.000" y="1125.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">前皮0.2；折边回深0.8；支座+垫直达后面。</text>
+</g>
+<g id="top">
+<rect x="2660.000" y="230.000" width="870.000" height="990.000" fill="#fcfbf7" stroke="#acb9b5" stroke-width="1.4" rx="10"/>
+<text x="2686.000" y="278.000" font-size="29" fill="#243d43" text-anchor="start" font-weight="bold">04 顶视 +Z</text>
+<text x="2686.000" y="317.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">+Y向上，−Y街侧向下；图为完整安装包络</text>
+<rect x="2917.000" y="684.000" width="336.000" height="14.000" fill="#60767a" stroke="#243d43" stroke-width="1.8" rx="0"/>
+<line x1="2917.000" y1="695.200" x2="3253.000" y2="695.200" stroke="#a7b5b2" stroke-width="1"/>
+<rect x="2959.000" y="672.800" width="252.000" height="22.400" fill="#728180" stroke="#243d43" stroke-width="1.1" rx="0"/>
+<rect x="2959.000" y="670.000" width="252.000" height="2.800" fill="#535c59" stroke="#243d43" stroke-width="1" rx="0"/>
+<line x1="2885.000" y1="670.000" x2="3285.000" y2="670.000" stroke="#aa7042" stroke-width="1.5" stroke-dasharray="7 5"/>
+<line x1="3077.000" y1="670.000" x2="3093.000" y2="670.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="3085.000" y1="662.000" x2="3085.000" y2="678.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="2917.000" y1="698.000" x2="2917.000" y2="780.000" stroke="#acb9b5" stroke-width="1.5"/>
+<line x1="3253.000" y1="698.000" x2="3253.000" y2="780.000" stroke="#acb9b5" stroke-width="1.5"/>
+<line x1="2917.000" y1="772.000" x2="3253.000" y2="772.000" stroke="#52676a" stroke-width="1.3" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="3085.000" y="760.000" font-size="22" fill="#52676a" text-anchor="middle" font-weight="normal">24</text>
+<line x1="3306.000" y1="670.000" x2="3306.000" y2="698.000" stroke="#52676a" stroke-width="1.3" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="3318.000" y="692.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">2.0</text>
+<line x1="3211.000" y1="677.000" x2="3320.000" y2="590.000" stroke="#aa7042" stroke-width="1.4"/>
+<text x="3329.000" y="598.000" font-size="22" fill="#aa7042" text-anchor="start" font-weight="normal">后接触面Y0</text>
+<text x="2690.000" y="927.000" font-size="23" fill="#52676a" text-anchor="start" font-weight="normal">牌体：Y[−2.0,−1.0]，深1.0。</text>
+<text x="2690.000" y="970.000" font-size="23" fill="#52676a" text-anchor="start" font-weight="normal">支座：Y[−1.8,−0.2]，深1.6。</text>
+<text x="2690.000" y="1013.000" font-size="23" fill="#52676a" text-anchor="start" font-weight="normal">隔离垫：Y[−0.2,0]，厚0.2。</text>
+<text x="2690.000" y="1056.000" font-size="23" fill="#52676a" text-anchor="start" font-weight="normal">叠合含支承：24×84×2.0，不另加高度。</text>
+</g>
+<g id="installed_front">
+<rect x="70.000" y="1250.000" width="1120.000" height="900.000" fill="#fcfbf7" stroke="#acb9b5" stroke-width="1.4" rx="10"/>
+<text x="96.000" y="1298.000" font-size="29" fill="#243d43" text-anchor="start" font-weight="bold">05 南面安装正视 · 左柱候选</text>
+<text x="96.000" y="1337.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">宿主底轴心Z0；牌后接触轴心(0,−27,140)cm</text>
+<polygon points="328.950,1964.000 471.050,1964.000 473.500,1961.550 326.500,1961.550" fill="#899795" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="326.500,1961.550 473.500,1961.550 473.500,1895.400 326.500,1895.400" fill="#899795" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="326.500,1895.400 473.500,1895.400 466.150,1885.600 333.850,1885.600" fill="#899795" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="333.850,1885.600 466.150,1885.600 466.150,1416.670 333.850,1416.670" fill="#d8d3c5" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="333.850,1416.670 466.150,1416.670 466.150,1415.200 333.850,1415.200" fill="#d8d3c5" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="333.850,1415.200 466.150,1415.200 473.500,1415.200 326.500,1415.200" fill="#899795" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="326.500,1415.200 473.500,1415.200 473.500,1383.350 326.500,1383.350" fill="#899795" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="326.500,1383.350 473.500,1383.350 471.050,1380.900 328.950,1380.900" fill="#899795" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="328.950,1380.900 471.050,1380.900 414.700,1376.000 385.300,1376.000" fill="#899795" stroke="#243d43" stroke-width="1" opacity="1"/>
+<rect x="363.250" y="1498.500" width="73.500" height="245.000" fill="none" stroke="#aa7042" stroke-width="1.6" rx="0" stroke-dasharray="8 6"/>
+<rect x="370.600" y="1518.100" width="58.800" height="205.800" fill="#60767a" stroke="#243d43" stroke-width="1.4" rx="0.9800000000000001"/>
+<rect x="375.500" y="1527.900" width="49.000" height="186.200" fill="none" stroke="#c7d2cd" stroke-width="1" rx="0" stroke-dasharray="6 5"/>
+<line x1="394.000" y1="1621.000" x2="406.000" y2="1621.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="400.000" y1="1615.000" x2="400.000" y2="1627.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="250.000" y1="1964.000" x2="550.000" y2="1964.000" stroke="#243d43" stroke-width="2"/>
+<line x1="392.000" y1="1964.000" x2="408.000" y2="1964.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="400.000" y1="1956.000" x2="400.000" y2="1972.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="234.000" y1="1376.000" x2="234.000" y2="1964.000" stroke="#52676a" stroke-width="1.3" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="222.000" y="1678.000" font-size="22" fill="#52676a" text-anchor="end" font-weight="normal">柱高240</text>
+<line x1="333.850" y1="1812.100" x2="466.150" y2="1812.100" stroke="#52676a" stroke-width="1.3" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="400.000" y="1800.100" font-size="22" fill="#52676a" text-anchor="middle" font-weight="normal">柱身54</text>
+<line x1="436.750" y1="1498.500" x2="615.000" y2="1498.500" stroke="#aa7042" stroke-width="1.4"/>
+<text x="624.000" y="1506.500" font-size="22" fill="#aa7042" text-anchor="start" font-weight="normal">可用面30×100</text>
+<line x1="429.400" y1="1518.100" x2="615.000" y2="1540.150" stroke="#52676a" stroke-width="1.4"/>
+<text x="624.000" y="1548.150" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">牌体24×84（候选）</text>
+<line x1="400.000" y1="1621.000" x2="615.000" y2="1621.000" stroke="#52676a" stroke-width="1.4"/>
+<text x="624.000" y="1629.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">中心高140；上下98—182</text>
+<text x="635.000" y="1756.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">可用区余量：两侧各3，上下各8。</text>
+<text x="635.000" y="1795.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">固定轴候选：(±7,−27,110/170)。</text>
+<text x="635.000" y="1834.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">左柱底(−330,0,800)，右柱本轮无牌。</text>
+<text x="100.000" y="2070.000" font-size="23" fill="#52676a" text-anchor="start" font-weight="normal">牌世界局部包络X[−342,−318] / Y[−29,−27] / Z[898,982]cm。</text>
+<text x="100.000" y="2109.000" font-size="23" fill="#52676a" text-anchor="start" font-weight="normal">牌最近通路侧边X−318，距净口边界−300仍18cm；道路500与净口600保持。</text>
+</g>
+<g id="installation_section">
+<rect x="1220.000" y="1250.000" width="1000.000" height="900.000" fill="#fcfbf7" stroke="#acb9b5" stroke-width="1.4" rx="10"/>
+<text x="1246.000" y="1298.000" font-size="29" fill="#243d43" text-anchor="start" font-weight="bold">06 安装侧剖与接触细部</text>
+<text x="1246.000" y="1337.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">剖示Z70—210；宿主不打孔；不是紧固工程详图</text>
+<rect x="1496.600" y="1422.000" width="226.800" height="588.000" fill="#e5e0d5" stroke="#acb9b5" stroke-width="1" rx="0"/>
+<line x1="1496.600" y1="1422.000" x2="1496.600" y2="2010.000" stroke="#243d43" stroke-width="2"/>
+<rect x="1488.200" y="1539.600" width="0.840" height="352.800" fill="#60767a" stroke="#243d43" stroke-width="1" rx="0"/>
+<rect x="1489.040" y="1539.600" width="3.360" height="352.800" fill="#60767a" stroke="#243d43" stroke-width="1" rx="0"/>
+<rect x="1489.040" y="1836.960" width="6.720" height="10.080" fill="#728180" stroke="#243d43" stroke-width="1" rx="0"/>
+<rect x="1495.760" y="1836.960" width="0.840" height="10.080" fill="#535c59" stroke="#243d43" stroke-width="1" rx="0"/>
+<line x1="1488.200" y1="1842.000" x2="1496.600" y2="1842.000" stroke="#aa7042" stroke-width="1" stroke-dasharray="3 3"/>
+<rect x="1489.040" y="1584.960" width="6.720" height="10.080" fill="#728180" stroke="#243d43" stroke-width="1" rx="0"/>
+<rect x="1495.760" y="1584.960" width="0.840" height="10.080" fill="#535c59" stroke="#243d43" stroke-width="1" rx="0"/>
+<line x1="1488.200" y1="1590.000" x2="1496.600" y2="1590.000" stroke="#aa7042" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="1496.600" y1="1459.800" x2="1790.000" y2="1459.800" stroke="#52676a" stroke-width="1.4"/>
+<text x="1799.000" y="1467.800" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">柱南面Y−27</text>
+<line x1="1488.200" y1="1539.600" x2="1260.000" y2="1511.600" stroke="#aa7042" stroke-width="1.4"/>
+<text x="1269.000" y="1519.600" font-size="22" fill="#aa7042" text-anchor="start" font-weight="normal">牌面Y−29</text>
+<line x1="1496.600" y1="1716.000" x2="1790.000" y2="1716.000" stroke="#aa7042" stroke-width="1.4"/>
+<text x="1799.000" y="1724.000" font-size="22" fill="#aa7042" text-anchor="start" font-weight="normal">后接触轴心Z140</text>
+<line x1="1435.000" y1="1539.600" x2="1435.000" y2="1892.400" stroke="#52676a" stroke-width="1.3" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="1423.000" y="1724.000" font-size="22" fill="#52676a" text-anchor="end" font-weight="normal">84</text>
+<text x="1770.000" y="1785.000" font-size="20" fill="#52676a" text-anchor="start" font-weight="normal">接触层放大 / 全方向60px·cm⁻¹</text>
+<rect x="1750.000" y="1862.000" width="12.000" height="144.000" fill="#60767a" stroke="#243d43" stroke-width="1" rx="0"/>
+<rect x="1762.000" y="1862.000" width="96.000" height="144.000" fill="#728180" stroke="#243d43" stroke-width="1" rx="0"/>
+<rect x="1858.000" y="1862.000" width="12.000" height="144.000" fill="#535c59" stroke="#243d43" stroke-width="1" rx="0"/>
+<rect x="1870.000" y="1826.000" width="84.000" height="216.000" fill="#e5e0d5" stroke="#acb9b5" stroke-width="1" rx="0"/>
+<line x1="1750.000" y1="2049.000" x2="1870.000" y2="2049.000" stroke="#52676a" stroke-width="1.3" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="1810.000" y="2037.000" font-size="22" fill="#52676a" text-anchor="middle" font-weight="normal">总突出2.0</text>
+<text x="1250.000" y="2070.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">层叠：前皮0.2 + 支座1.6 + 垫0.2 = 2.0；互相接触，无悬空间隙。</text>
+<text x="1250.000" y="2109.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">支座前端抵牌背Y−28.8，后垫抵柱Y−27；孔径/孔深/承载待确认。</text>
+</g>
+<g id="candidate_comparison">
+<rect x="2250.000" y="1250.000" width="1280.000" height="900.000" fill="#fcfbf7" stroke="#acb9b5" stroke-width="1.4" rx="10"/>
+<text x="2276.000" y="1298.000" font-size="29" fill="#243d43" text-anchor="start" font-weight="bold">07 尺寸留边比较与字面待定</text>
+<text x="2276.000" y="1337.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">三档都在30×100可用区内；只推荐中档，不制作三套品牌</text>
+<rect x="2392.500" y="1335.000" width="135.000" height="450.000" fill="none" stroke="#aa7042" stroke-width="1.5" rx="0" stroke-dasharray="8 5"/>
+<rect x="2410.500" y="1389.000" width="99.000" height="342.000" fill="#60767a" stroke="#243d43" stroke-width="1.4" rx="1.8"/>
+<rect x="2419.500" y="1407.000" width="81.000" height="306.000" fill="none" stroke="#c7d2cd" stroke-width="1" rx="0" stroke-dasharray="5 5"/>
+<text x="2460.000" y="1832.000" font-size="27" fill="#243d43" text-anchor="middle" font-weight="bold">22 × 76</text>
+<text x="2460.000" y="1874.000" font-size="23" fill="#52676a" text-anchor="middle" font-weight="normal">小档：更克制</text>
+<text x="2460.000" y="1915.000" font-size="22" fill="#52676a" text-anchor="middle" font-weight="normal">侧余4 / 上下余12</text>
+<rect x="2782.500" y="1335.000" width="135.000" height="450.000" fill="none" stroke="#aa7042" stroke-width="1.5" rx="0" stroke-dasharray="8 5"/>
+<rect x="2796.000" y="1371.000" width="108.000" height="378.000" fill="#60767a" stroke="#243d43" stroke-width="1.4" rx="1.8"/>
+<rect x="2805.000" y="1389.000" width="90.000" height="342.000" fill="none" stroke="#c7d2cd" stroke-width="1" rx="0" stroke-dasharray="5 5"/>
+<text x="2850.000" y="1832.000" font-size="27" fill="#243d43" text-anchor="middle" font-weight="bold">24 × 84</text>
+<text x="2850.000" y="1874.000" font-size="23" fill="#aa7042" text-anchor="middle" font-weight="normal">推荐：留边与占面平衡</text>
+<text x="2850.000" y="1915.000" font-size="22" fill="#52676a" text-anchor="middle" font-weight="normal">侧余3 / 上下余8</text>
+<rect x="3172.500" y="1335.000" width="135.000" height="450.000" fill="none" stroke="#aa7042" stroke-width="1.5" rx="0" stroke-dasharray="8 5"/>
+<rect x="3181.500" y="1353.000" width="117.000" height="414.000" fill="#60767a" stroke="#243d43" stroke-width="1.4" rx="1.8"/>
+<rect x="3190.500" y="1371.000" width="99.000" height="378.000" fill="none" stroke="#c7d2cd" stroke-width="1" rx="0" stroke-dasharray="5 5"/>
+<text x="3240.000" y="1832.000" font-size="27" fill="#243d43" text-anchor="middle" font-weight="bold">26 × 92</text>
+<text x="3240.000" y="1874.000" font-size="23" fill="#52676a" text-anchor="middle" font-weight="normal">大档：字面空间较多</text>
+<text x="3240.000" y="1915.000" font-size="22" fill="#52676a" text-anchor="middle" font-weight="normal">侧余2 / 上下余4</text>
+<text x="2280.000" y="1980.000" font-size="23" fill="#52676a" text-anchor="start" font-weight="normal">推荐24×84：不占满预留；正式校名若过长，先评字面布局再选档。</text>
+<text x="2280.000" y="2022.000" font-size="23" fill="#52676a" text-anchor="start" font-weight="normal">三档不是已批准牌尺寸，均不扩大柱；22×76/26×92只是取舍参照。</text>
+<text x="2280.000" y="2064.000" font-size="23" fill="#52676a" text-anchor="start" font-weight="normal">20×76为空白排布余量，不是字高、字体、语言或校名的最终规格。</text>
+</g>
+<g id="installed_iso_225">
+<rect x="70.000" y="2190.000" width="1300.000" height="1050.000" fill="#fcfbf7" stroke="#acb9b5" stroke-width="1.4" rx="10"/>
+<text x="96.000" y="2238.000" font-size="29" fill="#243d43" text-anchor="start" font-weight="bold">08 西南 → 东北</text>
+<text x="96.000" y="2277.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">225° / 俯角30°；南面牌，不制作校名字面</text>
+<polygon points="630.000,3093.468 748.935,3034.000 753.037,3031.489 630.000,3093.007" fill="#677170" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="511.065,3034.000 630.000,3093.468 630.000,3093.007 506.963,3031.489" fill="#677170" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="630.000,3093.007 753.037,3031.489 753.037,2963.679 630.000,3025.197" fill="#778381" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="506.963,3031.489 630.000,3093.007 630.000,3025.197 506.963,2963.679" fill="#74807e" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="630.000,3025.197 753.037,2963.679 740.733,2953.633 630.000,3008.999" fill="#84918f" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="506.963,2963.679 630.000,3025.197 630.000,3008.999 519.267,2953.633" fill="#828f8d" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="713.135,2804.716 713.200,2804.580 711.559,2803.760 711.494,2803.896" fill="#5b7074" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="713.050,2804.839 713.135,2804.716 711.494,2803.896 711.409,2804.018" fill="#5d7276" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="713.200,2804.580 713.241,2804.438 711.600,2803.618 711.559,2803.760" fill="#586c70" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="712.951,2804.938 713.050,2804.839 711.409,2804.018 711.310,2804.118" fill="#5d7276" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="713.241,2804.438 713.255,2804.301 711.614,2803.481 711.600,2803.618" fill="#54676b" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="712.845,2805.009 712.951,2804.938 711.310,2804.118 711.204,2804.188" fill="#5c7175" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="665.270,2828.796 712.845,2805.009 711.204,2804.188 663.630,2827.975" fill="#5b7074" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="667.321,2797.868 704.232,2779.412 704.232,2773.385 667.321,2791.840" fill="#48504d" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="667.321,2791.840 704.232,2773.385 703.822,2773.180 666.911,2791.635" fill="#4f5754" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="670.602,2799.508 707.513,2781.053 707.513,2775.025 670.602,2793.481" fill="#63706f" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="670.602,2793.481 707.513,2775.025 704.232,2773.385 667.321,2791.840" fill="#6c7a79" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="665.164,2828.832 665.270,2828.796 663.630,2827.975 663.524,2828.011" fill="#5a6e72" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="665.065,2828.831 665.164,2828.832 663.524,2828.011 663.425,2828.011" fill="#566a6d" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="664.980,2828.793 665.065,2828.831 663.425,2828.011 663.340,2827.973" fill="#516467" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="664.560,2829.151 662.920,2828.331 663.050,2828.473 664.690,2829.294" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="664.478,2828.949 662.838,2828.129 662.920,2828.331 664.560,2829.151" fill="#495a5d" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="664.450,2828.703 662.810,2827.883 662.838,2828.129 664.478,2828.949" fill="#4f6164" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="664.970,2829.356 664.560,2829.151 664.690,2829.294 665.101,2829.499" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="664.888,2829.155 664.478,2828.949 664.560,2829.151 664.970,2829.356" fill="#495a5d" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="664.860,2828.908 664.450,2828.703 664.478,2828.949 664.888,2829.155" fill="#4f6164" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="666.911,2797.663 667.321,2797.868 667.321,2791.840 666.911,2791.635" fill="#464e4c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="667.321,2797.868 670.602,2799.508 670.602,2793.481 667.321,2791.840" fill="#616d6d" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="713.255,2804.301 713.255,2595.347 711.614,2594.526 711.614,2803.481" fill="#516468" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="630.000,3008.999 740.733,2953.633 740.733,2472.937 630.000,2528.303" fill="#bcb7ab" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="519.267,2953.633 630.000,3008.999 630.000,2528.303 519.267,2472.937" fill="#b7b3a7" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="713.255,2805.716 713.467,2805.576 713.665,2805.376 713.835,2805.132 713.965,2804.858 714.047,2804.575 714.075,2804.301 714.075,2595.347 714.047,2595.101 713.965,2594.899 713.835,2594.756 713.665,2594.682 713.467,2594.680 713.255,2594.752 665.681,2618.539 665.468,2618.680 665.270,2618.879 665.101,2619.123 664.970,2619.397 664.888,2619.680 664.860,2619.954 664.860,2828.908 664.888,2829.155 664.970,2829.356 665.101,2829.499 665.270,2829.573 665.468,2829.575 665.681,2829.503" fill="#53666a" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="664.450,2619.749 662.810,2618.929 662.810,2827.883 664.450,2828.703" fill="#516468" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="664.860,2619.954 664.450,2619.749 664.450,2828.703 664.860,2828.908" fill="#516468" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="713.255,2595.347 713.241,2595.224 711.600,2594.403 711.614,2594.526" fill="#4f6164" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="713.241,2595.224 713.200,2595.123 711.559,2594.303 711.600,2594.403" fill="#495a5d" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="713.200,2595.123 713.135,2595.051 711.494,2594.231 711.559,2594.303" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="713.425,2594.551 711.784,2593.731 711.614,2593.656 713.255,2594.477" fill="#516467" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="713.255,2594.477 711.614,2593.656 711.416,2593.655 713.057,2594.475" fill="#566a6d" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="713.057,2594.475 711.416,2593.655 711.204,2593.727 712.845,2594.547" fill="#5a6e72" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="713.835,2594.756 713.425,2594.551 713.255,2594.477 713.665,2594.682" fill="#516467" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="713.665,2594.682 713.255,2594.477 713.057,2594.475 713.467,2594.680" fill="#566a6d" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="713.467,2594.680 713.057,2594.475 712.845,2594.547 713.255,2594.752" fill="#5a6e72" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="667.321,2647.179 704.232,2628.724 704.232,2622.696 667.321,2641.152" fill="#48504d" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="667.321,2641.152 704.232,2622.696 703.822,2622.491 666.911,2640.947" fill="#4f5754" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="670.602,2648.820 707.513,2630.364 707.513,2624.337 670.602,2642.792" fill="#63706f" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="670.602,2642.792 707.513,2624.337 704.232,2622.696 667.321,2641.152" fill="#6c7a79" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="666.911,2646.974 667.321,2647.179 667.321,2641.152 666.911,2640.947" fill="#464e4c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="667.321,2647.179 670.602,2648.820 670.602,2642.792 667.321,2641.152" fill="#616d6d" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="712.845,2594.547 711.204,2593.727 663.630,2617.514 665.270,2618.334" fill="#5b7074" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="713.255,2594.752 712.845,2594.547 665.270,2618.334 665.681,2618.539" fill="#5b7074" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="748.935,2436.269 630.000,2376.802 630.000,2418.943 654.607,2431.246" fill="#808e8c" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="630.000,2376.802 511.065,2436.269 605.393,2431.246 630.000,2418.943" fill="#808d8b" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="665.270,2618.334 663.630,2617.514 663.418,2617.654 665.058,2618.474" fill="#5c7175" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="664.478,2619.475 662.838,2618.655 662.810,2618.929 664.450,2619.749" fill="#54676b" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="665.058,2618.474 663.418,2617.654 663.220,2617.854 664.860,2618.674" fill="#5d7276" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="664.560,2619.192 662.920,2618.371 662.838,2618.655 664.478,2619.475" fill="#586c70" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="664.860,2618.674 663.220,2617.854 663.050,2618.098 664.690,2618.918" fill="#5d7276" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="664.690,2618.918 663.050,2618.098 662.920,2618.371 664.560,2619.192" fill="#5b7074" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="665.681,2618.539 665.270,2618.334 665.058,2618.474 665.468,2618.680" fill="#5c7175" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="664.888,2619.680 664.478,2619.475 664.450,2619.749 664.860,2619.954" fill="#54676b" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="665.468,2618.680 665.058,2618.474 664.860,2618.674 665.270,2618.879" fill="#5d7276" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="664.970,2619.397 664.560,2619.192 664.478,2619.475 664.888,2619.680" fill="#586c70" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="665.270,2618.879 664.860,2618.674 664.690,2618.918 665.101,2619.123" fill="#5d7276" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="665.101,2619.123 664.690,2618.918 664.560,2619.192 664.970,2619.397" fill="#5b7074" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="630.000,2443.550 654.607,2431.246 630.000,2418.943 605.393,2431.246" fill="#828f8d" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="630.000,2528.303 740.733,2472.937 740.733,2471.430 630.000,2526.796" fill="#bcb7ab" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="519.267,2472.937 630.000,2528.303 630.000,2526.796 519.267,2471.430" fill="#b7b3a7" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="630.000,2495.737 748.935,2436.269 654.607,2431.246 630.000,2443.550" fill="#83908f" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="511.065,2436.269 630.000,2495.737 630.000,2443.550 605.393,2431.246" fill="#83908e" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="630.000,2532.948 753.037,2471.430 753.037,2438.781 630.000,2500.299" fill="#778381" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="506.963,2471.430 630.000,2532.948 630.000,2500.299 506.963,2438.781" fill="#74807e" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="630.000,2500.299 753.037,2438.781 748.935,2436.269 630.000,2495.737" fill="#859391" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="506.963,2438.781 630.000,2500.299 630.000,2495.737 511.065,2436.269" fill="#83918f" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="668.962,2817.817 709.974,2797.310 709.974,2606.438 668.962,2626.945" fill="none" stroke="#c7d2cd" stroke-width="1.2" opacity="1" stroke-dasharray="6 4"/>
+<line x1="678.366" y1="2710.077" x2="692.366" y2="2710.077" stroke="#aa7042" stroke-width="2"/>
+<line x1="685.366" y1="2703.077" x2="685.366" y2="2717.077" stroke="#aa7042" stroke-width="2"/>
+<line x1="685.366" y1="2710.077" x2="970.000" y2="2710.077" stroke="#aa7042" stroke-width="1.4"/>
+<text x="979.000" y="2718.077" font-size="22" fill="#aa7042" text-anchor="start" font-weight="normal">南面接触基准</text>
+<line x1="622.000" y1="3034.000" x2="638.000" y2="3034.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="630.000" y1="3026.000" x2="630.000" y2="3042.000" stroke="#aa7042" stroke-width="2"/>
+<text x="652.000" y="3064.000" font-size="21" fill="#aa7042" text-anchor="start" font-weight="normal">柱底轴心</text>
+<text x="98.000" y="3138.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">载体始终安装在−Y南面；两向共用一套厘米数据和宿主坐标。</text>
+<text x="98.000" y="3174.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">矢量面明暗为设计材色示意，非Blender自然光渲染或实际游戏效果。</text>
+</g>
+<g id="installed_iso_45">
+<rect x="1400.000" y="2190.000" width="1300.000" height="1050.000" fill="#fcfbf7" stroke="#acb9b5" stroke-width="1.4" rx="10"/>
+<text x="1426.000" y="2238.000" font-size="29" fill="#243d43" text-anchor="start" font-weight="bold">09 东北 → 西南 · 宿主剖透</text>
+<text x="1426.000" y="2277.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">45° / 俯角30°；仅图层剖透，隐蔽支承并非现实可见</text>
+<polygon points="1841.065,3034.000 1960.000,3093.468 1960.000,3093.007 1836.963,3031.489" fill="#677170" stroke="#acb8b2" stroke-width="1" opacity="0.16"/>
+<polygon points="1960.000,3093.468 2078.935,3034.000 2083.037,3031.489 1960.000,3093.007" fill="#677170" stroke="#acb8b2" stroke-width="1" opacity="0.16"/>
+<polygon points="1925.085,2745.522 1925.020,2745.659 1926.660,2746.479 1926.725,2746.342" fill="#4c5d61" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1925.020,2745.659 1924.935,2745.781 1926.575,2746.601 1926.660,2746.479" fill="#516467" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1925.126,2745.381 1925.085,2745.522 1926.725,2746.342 1926.766,2746.201" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1924.935,2745.781 1924.836,2745.881 1926.476,2746.701 1926.575,2746.601" fill="#566a6d" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1925.140,2745.244 1925.126,2745.381 1926.766,2746.201 1926.780,2746.064" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1924.836,2745.881 1924.730,2745.951 1926.370,2746.771 1926.476,2746.701" fill="#5a6e72" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1927.080,2746.416 1926.725,2746.342 1926.660,2746.479 1926.950,2746.689" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1926.950,2746.689 1926.660,2746.479 1926.575,2746.601 1926.780,2746.934" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1927.162,2746.133 1926.766,2746.201 1926.725,2746.342 1927.080,2746.416" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1926.780,2746.934 1926.575,2746.601 1926.476,2746.701 1926.582,2747.133" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1927.190,2745.859 1926.780,2746.064 1926.766,2746.201 1927.162,2746.133" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1926.582,2747.133 1926.476,2746.701 1926.370,2746.771 1926.370,2747.274" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1836.963,3031.489 1960.000,3093.007 1960.000,3025.197 1836.963,2963.679" fill="#677170" stroke="#acb8b2" stroke-width="1" opacity="0.16"/>
+<polygon points="1960.000,3093.007 2083.037,3031.489 2083.037,2963.679 1960.000,3025.197" fill="#677170" stroke="#acb8b2" stroke-width="1" opacity="0.16"/>
+<polygon points="1924.730,2745.951 1877.155,2769.738 1878.796,2770.558 1926.370,2746.771" fill="#5b7074" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1926.370,2747.274 1926.370,2746.771 1878.796,2770.558 1878.796,2771.061" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1836.963,2963.679 1960.000,3025.197 1960.000,3008.999 1849.267,2953.633" fill="#6c7776" stroke="#acb8b2" stroke-width="1" opacity="0.16"/>
+<polygon points="1960.000,3025.197 2083.037,2963.679 2070.733,2953.633 1960.000,3008.999" fill="#6a7573" stroke="#acb8b2" stroke-width="1" opacity="0.16"/>
+<polygon points="1885.768,2742.091 1922.679,2723.636 1922.679,2717.608 1885.768,2736.064" fill="#566160" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1919.398,2715.968 1882.487,2734.423 1885.768,2736.064 1922.679,2717.608" fill="#6c7a79" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1886.178,2742.296 1923.089,2723.841 1923.089,2717.813 1886.178,2736.269" fill="#3e4543" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1876.165,2770.031 1876.575,2770.236 1876.445,2770.093 1876.035,2769.888" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1876.035,2769.888 1876.445,2770.093 1876.363,2769.892 1875.953,2769.687" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1875.953,2769.687 1876.363,2769.892 1876.335,2769.646 1875.925,2769.441" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1877.155,2769.738 1877.049,2769.774 1878.690,2770.594 1878.796,2770.558" fill="#5c7175" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1877.049,2769.774 1876.950,2769.773 1878.591,2770.594 1878.690,2770.594" fill="#5d7276" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1876.950,2769.773 1876.865,2769.736 1878.506,2770.556 1878.591,2770.594" fill="#5d7276" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1876.575,2770.236 1878.216,2771.056 1878.086,2770.913 1876.445,2770.093" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1922.679,2717.608 1885.768,2736.064 1886.178,2736.269 1923.089,2717.813" fill="#4f5754" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1878.796,2771.061 1878.796,2770.558 1878.690,2770.594 1878.584,2771.132" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1876.445,2770.093 1878.086,2770.913 1878.004,2770.712 1876.363,2769.892" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1878.584,2771.132 1878.690,2770.594 1878.591,2770.594 1878.386,2771.131" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1876.363,2769.892 1878.004,2770.712 1877.976,2770.466 1876.335,2769.646" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1878.386,2771.131 1878.591,2770.594 1878.506,2770.556 1878.216,2771.056" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1878.216,2771.056 1878.506,2770.556 1878.441,2770.485 1878.086,2770.913" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1878.086,2770.913 1878.441,2770.485 1878.400,2770.384 1878.004,2770.712" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1878.004,2770.712 1878.400,2770.384 1878.386,2770.261 1877.976,2770.466" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1882.487,2740.451 1885.768,2742.091 1885.768,2736.064 1882.487,2734.423" fill="#566160" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1885.768,2742.091 1886.178,2742.296 1886.178,2736.269 1885.768,2736.064" fill="#3e4543" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1925.140,2536.289 1925.140,2745.244 1926.780,2746.064 1926.780,2537.109" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1927.190,2536.904 1926.780,2537.109 1926.780,2746.064 1927.190,2745.859" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1924.730,2746.453 1924.942,2746.313 1925.140,2746.114 1925.310,2745.869 1925.440,2745.596 1925.522,2745.313 1925.550,2745.039 1925.550,2536.084 1925.522,2535.838 1925.440,2535.637 1925.310,2535.494 1925.140,2535.419 1924.942,2535.418 1924.730,2535.489 1877.155,2559.277 1876.943,2559.417 1876.745,2559.616 1876.575,2559.861 1876.445,2560.134 1876.363,2560.417 1876.335,2560.691 1876.335,2769.646 1876.363,2769.892 1876.445,2770.093 1876.575,2770.236 1876.745,2770.311 1876.943,2770.312 1877.155,2770.240" fill="#616e6e" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1875.925,2769.441 1876.335,2769.646 1876.335,2560.691 1875.925,2560.486" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1876.335,2769.646 1877.976,2770.466 1877.976,2561.512 1876.335,2560.691" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1877.976,2770.466 1878.386,2770.261 1878.386,2561.306 1877.976,2561.512" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1924.730,2535.214 1925.140,2535.419 1925.310,2535.494 1924.899,2535.289" fill="#5d7276" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1924.532,2535.212 1924.942,2535.418 1925.140,2535.419 1924.730,2535.214" fill="#5d7276" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1924.319,2535.284 1924.730,2535.489 1924.942,2535.418 1924.532,2535.212" fill="#5c7175" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1925.126,2536.166 1925.140,2536.289 1926.780,2537.109 1926.766,2536.986" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1925.085,2536.065 1925.126,2536.166 1926.766,2536.986 1926.725,2536.886" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1925.020,2535.994 1925.085,2536.065 1926.725,2536.886 1926.660,2536.814" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1925.140,2535.419 1926.780,2536.239 1926.950,2536.314 1925.310,2535.494" fill="#5d7276" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1927.162,2536.658 1926.766,2536.986 1926.780,2537.109 1927.190,2536.904" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1924.942,2535.418 1926.582,2536.238 1926.780,2536.239 1925.140,2535.419" fill="#5d7276" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1927.080,2536.457 1926.725,2536.886 1926.766,2536.986 1927.162,2536.658" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1924.730,2535.489 1926.370,2536.310 1926.582,2536.238 1924.942,2535.418" fill="#5c7175" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1926.950,2536.314 1926.660,2536.814 1926.725,2536.886 1927.080,2536.457" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1926.780,2536.239 1926.575,2536.777 1926.660,2536.814 1926.950,2536.314" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1926.582,2536.238 1926.476,2536.776 1926.575,2536.777 1926.780,2536.239" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1926.370,2536.310 1926.370,2536.812 1926.476,2536.776 1926.582,2536.238" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1885.768,2591.403 1922.679,2572.947 1922.679,2566.920 1885.768,2585.375" fill="#566160" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1919.398,2565.279 1882.487,2583.735 1885.768,2585.375 1922.679,2566.920" fill="#6c7a79" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1886.178,2591.608 1923.089,2573.152 1923.089,2567.125 1886.178,2585.580" fill="#3e4543" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1922.679,2566.920 1885.768,2585.375 1886.178,2585.580 1923.089,2567.125" fill="#4f5754" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1876.745,2559.071 1877.155,2559.277 1924.730,2535.489 1924.319,2535.284" fill="#5b7074" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1882.487,2589.762 1885.768,2591.403 1885.768,2585.375 1882.487,2583.735" fill="#566160" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1877.155,2559.277 1878.796,2560.097 1926.370,2536.310 1924.730,2535.489" fill="#5b7074" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1878.796,2560.097 1878.796,2560.599 1926.370,2536.812 1926.370,2536.310" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1885.768,2591.403 1886.178,2591.608 1886.178,2585.580 1885.768,2585.375" fill="#3e4543" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1849.267,2953.633 1960.000,3008.999 1960.000,2528.303 1849.267,2472.937" fill="#a29e94" stroke="#acb8b2" stroke-width="1" opacity="0.16"/>
+<polygon points="1960.000,3008.999 2070.733,2953.633 2070.733,2472.937 1960.000,2528.303" fill="#a29e94" stroke="#acb8b2" stroke-width="1" opacity="0.16"/>
+<polygon points="1876.533,2559.212 1876.943,2559.417 1877.155,2559.277 1876.745,2559.071" fill="#5a6e72" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1875.925,2560.486 1876.335,2560.691 1876.363,2560.417 1875.953,2560.212" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1876.335,2559.411 1876.745,2559.616 1876.943,2559.417 1876.533,2559.212" fill="#566a6d" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1875.953,2560.212 1876.363,2560.417 1876.445,2560.134 1876.035,2559.929" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1876.165,2559.656 1876.575,2559.861 1876.745,2559.616 1876.335,2559.411" fill="#516467" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1876.035,2559.929 1876.445,2560.134 1876.575,2559.861 1876.165,2559.656" fill="#4c5d61" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1876.943,2559.417 1878.584,2560.237 1878.796,2560.097 1877.155,2559.277" fill="#5a6e72" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1876.335,2560.691 1877.976,2561.512 1878.004,2561.238 1876.363,2560.417" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1876.745,2559.616 1878.386,2560.436 1878.584,2560.237 1876.943,2559.417" fill="#566a6d" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1876.363,2560.417 1878.004,2561.238 1878.086,2560.954 1876.445,2560.134" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1876.575,2559.861 1878.216,2560.681 1878.386,2560.436 1876.745,2559.616" fill="#516467" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1876.445,2560.134 1878.086,2560.954 1878.216,2560.681 1876.575,2559.861" fill="#4c5d61" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1878.584,2560.237 1878.690,2560.669 1878.796,2560.599 1878.796,2560.097" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1877.976,2561.512 1878.386,2561.306 1878.400,2561.169 1878.004,2561.238" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1878.386,2560.436 1878.591,2560.769 1878.690,2560.669 1878.584,2560.237" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1878.004,2561.238 1878.400,2561.169 1878.441,2561.028 1878.086,2560.954" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1878.216,2560.681 1878.506,2560.891 1878.591,2560.769 1878.386,2560.436" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1878.086,2560.954 1878.441,2561.028 1878.506,2560.891 1878.216,2560.681" fill="#48585c" stroke="#243d43" stroke-width="0.9" opacity="1"/>
+<polygon points="1960.000,2376.802 1841.065,2436.269 1935.393,2431.246 1960.000,2418.943" fill="#83908f" stroke="#acb8b2" stroke-width="1" opacity="0.16"/>
+<polygon points="2078.935,2436.269 1960.000,2376.802 1960.000,2418.943 1984.607,2431.246" fill="#83908e" stroke="#acb8b2" stroke-width="1" opacity="0.16"/>
+<polygon points="1960.000,2418.943 1935.393,2431.246 1960.000,2443.550 1984.607,2431.246" fill="#828f8d" stroke="#acb8b2" stroke-width="1" opacity="0.16"/>
+<polygon points="1849.267,2472.937 1960.000,2528.303 1960.000,2526.796 1849.267,2471.430" fill="#a29e94" stroke="#acb8b2" stroke-width="1" opacity="0.16"/>
+<polygon points="1960.000,2528.303 2070.733,2472.937 2070.733,2471.430 1960.000,2526.796" fill="#a29e94" stroke="#acb8b2" stroke-width="1" opacity="0.16"/>
+<polygon points="1841.065,2436.269 1960.000,2495.737 1960.000,2443.550 1935.393,2431.246" fill="#808e8c" stroke="#acb8b2" stroke-width="1" opacity="0.16"/>
+<polygon points="1960.000,2495.737 2078.935,2436.269 1984.607,2431.246 1960.000,2443.550" fill="#808d8b" stroke="#acb8b2" stroke-width="1" opacity="0.16"/>
+<polygon points="1836.963,2471.430 1960.000,2532.948 1960.000,2500.299 1836.963,2438.781" fill="#677170" stroke="#acb8b2" stroke-width="1" opacity="0.16"/>
+<polygon points="1960.000,2532.948 2083.037,2471.430 2083.037,2438.781 1960.000,2500.299" fill="#677170" stroke="#acb8b2" stroke-width="1" opacity="0.16"/>
+<polygon points="1836.963,2438.781 1960.000,2500.299 1960.000,2495.737 1841.065,2436.269" fill="#707c7a" stroke="#acb8b2" stroke-width="1" opacity="0.16"/>
+<polygon points="1960.000,2500.299 2083.037,2438.781 2078.935,2436.269 1960.000,2495.737" fill="#6e7a78" stroke="#acb8b2" stroke-width="1" opacity="0.16"/>
+<line x1="1913.988" y1="2722.878" x2="1923.988" y2="2722.878" stroke="#aa7042" stroke-width="2"/>
+<line x1="1918.988" y1="2717.878" x2="1918.988" y2="2727.878" stroke="#aa7042" stroke-width="2"/>
+<line x1="1885.279" y1="2737.232" x2="1895.279" y2="2737.232" stroke="#aa7042" stroke-width="2"/>
+<line x1="1890.279" y1="2732.232" x2="1890.279" y2="2742.232" stroke="#aa7042" stroke-width="2"/>
+<line x1="1913.988" y1="2572.189" x2="1923.988" y2="2572.189" stroke="#aa7042" stroke-width="2"/>
+<line x1="1918.988" y1="2567.189" x2="1918.988" y2="2577.189" stroke="#aa7042" stroke-width="2"/>
+<line x1="1885.279" y1="2586.543" x2="1895.279" y2="2586.543" stroke="#aa7042" stroke-width="2"/>
+<line x1="1890.279" y1="2581.543" x2="1890.279" y2="2591.543" stroke="#aa7042" stroke-width="2"/>
+<line x1="1897.634" y1="2654.710" x2="1911.634" y2="2654.710" stroke="#aa7042" stroke-width="2"/>
+<line x1="1904.634" y1="2647.710" x2="1904.634" y2="2661.710" stroke="#aa7042" stroke-width="2"/>
+<line x1="1904.634" y1="2654.710" x2="2300.000" y2="2654.710" stroke="#aa7042" stroke-width="1.4"/>
+<text x="2309.000" y="2662.710" font-size="22" fill="#aa7042" text-anchor="start" font-weight="normal">隐蔽挂点投影</text>
+<line x1="1952.000" y1="3034.000" x2="1968.000" y2="3034.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="1960.000" y1="3026.000" x2="1960.000" y2="3042.000" stroke="#aa7042" stroke-width="2"/>
+<text x="1982.000" y="3064.000" font-size="21" fill="#aa7042" text-anchor="start" font-weight="normal">柱底轴心</text>
+<text x="1428.000" y="3138.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">载体始终安装在−Y南面；两向共用一套厘米数据和宿主坐标。</text>
+<text x="1428.000" y="3174.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">矢量面明暗为设计材色示意，非Blender自然光渲染或实际游戏效果。</text>
+</g>
+<g id="scale_and_surface">
+<rect x="2730.000" y="2190.000" width="800.000" height="1050.000" fill="#fcfbf7" stroke="#acb9b5" stroke-width="1.4" rx="10"/>
+<text x="2756.000" y="2238.000" font-size="29" fill="#243d43" text-anchor="start" font-weight="bold">10 人物尺度与材色参照</text>
+<text x="2756.000" y="2277.000" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">原128×128 PNG字节嵌入；载体不是128cm或128px</text>
+<polygon points="2849.650,2940.000 2974.350,2940.000 2976.500,2937.850 2847.500,2937.850" fill="#899795" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="2847.500,2937.850 2976.500,2937.850 2976.500,2879.800 2847.500,2879.800" fill="#899795" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="2847.500,2879.800 2976.500,2879.800 2970.050,2871.200 2853.950,2871.200" fill="#899795" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="2853.950,2871.200 2970.050,2871.200 2970.050,2459.690 2853.950,2459.690" fill="#d8d3c5" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="2853.950,2459.690 2970.050,2459.690 2970.050,2458.400 2853.950,2458.400" fill="#d8d3c5" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="2853.950,2458.400 2970.050,2458.400 2976.500,2458.400 2847.500,2458.400" fill="#899795" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="2847.500,2458.400 2976.500,2458.400 2976.500,2430.450 2847.500,2430.450" fill="#899795" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="2847.500,2430.450 2976.500,2430.450 2974.350,2428.300 2849.650,2428.300" fill="#899795" stroke="#243d43" stroke-width="1" opacity="1"/>
+<polygon points="2849.650,2428.300 2974.350,2428.300 2924.900,2424.000 2899.100,2424.000" fill="#899795" stroke="#243d43" stroke-width="1" opacity="1"/>
+<rect x="2879.750" y="2531.500" width="64.500" height="215.000" fill="none" stroke="#aa7042" stroke-width="1.6" rx="0" stroke-dasharray="8 6"/>
+<rect x="2886.200" y="2548.700" width="51.600" height="180.600" fill="#60767a" stroke="#243d43" stroke-width="1.4" rx="0.86"/>
+<rect x="2890.500" y="2557.300" width="43.000" height="163.400" fill="none" stroke="#c7d2cd" stroke-width="1" rx="0" stroke-dasharray="6 5"/>
+<line x1="2906.000" y1="2639.000" x2="2918.000" y2="2639.000" stroke="#aa7042" stroke-width="2"/>
+<line x1="2912.000" y1="2633.000" x2="2912.000" y2="2645.000" stroke="#aa7042" stroke-width="2"/>
+<g id="original_character_scale"><image x="3084.815" y="2539.655" width="427.034" height="427.034" image-rendering="pixelated" preserveAspectRatio="none" xlink:href="data:image/png;base64,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"/></g>
+<line x1="3135.000" y1="2553.000" x2="3135.000" y2="2940.000" stroke="#52676a" stroke-width="1.3" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="3123.000" y="2754.500" font-size="22" fill="#52676a" text-anchor="end" font-weight="normal">180</text>
+<line x1="3460.000" y1="2527.200" x2="3460.000" y2="2940.000" stroke="#52676a" stroke-width="1.3" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<text x="3472.000" y="2741.600" font-size="22" fill="#52676a" text-anchor="start" font-weight="normal">192</text>
+<text x="3310.000" y="2978.000" font-size="22" fill="#52676a" text-anchor="middle" font-weight="normal">原正面比例层</text>
+<text x="2912.000" y="2978.000" font-size="22" fill="#52676a" text-anchor="middle" font-weight="normal">柱240 / 牌84</text>
+<rect x="2770.000" y="3030.000" width="42.000" height="29.000" fill="#60767a" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="2828.000" y="3055.000" font-size="23" fill="#243d43" text-anchor="start" font-weight="normal">哑光青灰涂装金属候选</text>
+<text x="2760.000" y="3111.000" font-size="21" fill="#52676a" text-anchor="start" font-weight="normal">载体64px/m参考：24×84约15×54像素。</text>
+<text x="2760.000" y="3145.000" font-size="21" fill="#52676a" text-anchor="start" font-weight="normal">字面20×76在64下仅约13×49，密度须另定。</text>
+<text x="2760.000" y="3179.000" font-size="21" fill="#52676a" text-anchor="start" font-weight="normal">校名/语言/横竖排/字高/字体均待确认。</text>
+</g>
+<g id="footer">
+<line x1="70.000" y1="3302.000" x2="3530.000" y2="3302.000" stroke="#acb9b5" stroke-width="1.5"/>
+<text x="70.000" y="3347.000" font-size="23" fill="#52676a" text-anchor="start" font-weight="normal">单位cm；新尺寸、支座及固定轴均为候选。牌整体24×84×2.0，安装后Y[−29,−27]，未超柱原有Y−30最外包络。</text>
+<text x="70.000" y="3390.000" font-size="23" fill="#52676a" text-anchor="start" font-weight="normal">同一SL_GE_SIGN_PLATE_01_GEOMETRY.json生成所有视图；门柱Trial01/字节/V13/SchoolLife原源保持。仅设计，交付后停审。</text>
+</g>
+</g>
+</svg>
