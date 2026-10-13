@@ -2,7 +2,7 @@
   "asset_id": "SL_GE_SIGN_PLATE_01",
   "revision": "TRIAL_01",
   "date": "2026-10-14",
-  "status": "trial_delivered_awaiting_planning_and_user_review_not_UE_validated",
+  "status": "trial_01_static_art_accepted_by_user_not_UE_or_engineering_validated",
   "authorization": {
     "task_card": "Docs/AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_SIGN_PLATE_01_TRIAL_01.md",
     "publish_commit": "d2f76dcc2c60ab4aa21d260b3ef16d0e7e1115ac",
@@ -1314,5 +1314,26 @@
     "tracked_workspace_after_first_push": "clean",
     "final_HEAD": "reported in final response after ordinary sync-record commit; not self-referenced here"
   },
-  "stop": "await review; no next asset, final name graphics or UE"
+  "planning_acceptance": {
+    "date": "2026-10-14",
+    "user_confirmation": "接受",
+    "planning_review": "Docs/AssetPlanning/SchoolGate/Batch01/review-sign-plate-trial-01.md",
+    "accepted_scope": [
+      "24x84cm carrier; body depth1cm and overall projection2cm",
+      "left pillar south face centre140cm; rear-contact-centre pivot",
+      "blank graphic area; matte blue-gray temporary pixel material",
+      "hook-on and east-side slider retained as visual maintenance candidate"
+    ],
+    "not_validated": [
+      "real anchorage and back connection fabrication",
+      "anti-retreat mechanism and finite-size tool operation",
+      "0.5mm clearance/manufacturing tolerance and load/weathering",
+      "final school name/graphic resolution and game readability",
+      "final game asset/UE lighting/collision/navigation"
+    ],
+    "raw_delivery_files_preserved": true,
+    "next_task_card": "Docs/AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_GRAPHIC_NAME_01_DESIGN_01.md",
+    "next_task_requires": "user-confirmed exact school name and language; no placeholder brand or automatic execution"
+  },
+  "stop": "static art accepted; raw deliverables preserved; next independent graphic design card awaits user transfer and confirmed name; no automatic model/UE work"
 }

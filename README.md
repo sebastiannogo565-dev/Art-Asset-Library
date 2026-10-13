@@ -1,3 +1,7 @@
+# 当前：校牌Trial01已接受 · 2026-10-14
+
+[校名字面下一阶段设计卡](Docs/AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_GRAPHIC_NAME_01_DESIGN_01.md)已发布供用户转交。空白载体静态尺寸/安装/临时材色已接受，挂接/侧滑保为美术候选，工程与UE未验。准确校名/语言待用户提供，本窗口未开始字面或模型制作。
+
 # 当前：校牌单体试作01规划审阅
 
 [审阅结论](Docs/AssetPlanning/SchoolGate/Batch01/review-sign-plate-trial-01.md)：建议接受空白载体的尺寸、安装、哑光青灰及挂接/侧滑美术候选；止退、有限工具和锚固仍未验。等待用户确认，不修改试作或发布下一卡。
