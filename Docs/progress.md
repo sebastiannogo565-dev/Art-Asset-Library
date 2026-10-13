@@ -1,3 +1,7 @@
+# 校牌设计01规划窗口审阅完成 · 2026-10-14
+
+实际查看图板并独立复算24×84留边3/8cm、总突出2层叠、装后局部/工程包络及净口/道路余量18/68cm；41保护输入一致。[审阅](AssetPlanning/SchoolGate/Batch01/review-sign-plate-design-01.md)推荐方向有条件通过，需补隐藏连接装配/维护路径，校名/字面与固定工程待核。本窗口图/模型/源修改0，UE未验；没有发布下一卡。
+
 # 校牌设计01Git实际完成 · 2026-10-13
 
 [44d1adff55b8afd8638ca8c272cdac770dde9f40](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/44d1adff55b8afd8638ca8c272cdac770dde9f40)已推送且远端匹配，16文件均为本设计与相关状态；新LFS0，dry-run无待上传。已跟踪工作区干净，仅原三个无关帮助脚本未跟踪保留。尺寸/保护核对完成，S01—05仍待规划/用户判断，没有模型/UV/最终图形或UE生产。

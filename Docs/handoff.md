@@ -1,3 +1,9 @@
+# 校牌设计候选01：规划审阅待用户确认 · 2026-10-14
+
+[审阅与判断项](AssetPlanning/SchoolGate/Batch01/review-sign-plate-design-01.md)。建议保24×84/牌体1/总突出2、左柱南面中心140及哑光青灰方向；30×100仍是可用区。几何与留边通过，需补装配/拆卸顺序，不能把四轴接触当最终紧固。B是已标注的剖透读图，不是真实可见性。
+
+等待用户选尺寸/位置/材料与接续范围；正式校名可继续待定，图形独立另做。当前未发布网格试作卡，设计与宿主原字节不改，未建模/UE或自动转交。
+
 # 校牌载体设计交付与同步实绩 · 2026-10-13
 
 [设计回件](../ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Design/README.md)已提交[44d1adff55b8afd8638ca8c272cdac770dde9f40](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/44d1adff55b8afd8638ca8c272cdac770dde9f40)并正常推送origin/main，完整远端哈希一致。16相关文件：8设计文件＋8状态文档；PNG860511字节/3600×3420按普通Git处理，新LFS对象/上传0，dry-run为空/退出0。41项保护输入、宿主原25交付及13原引用未变；原三个无关未跟踪工具保留。
