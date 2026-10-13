@@ -1,3 +1,9 @@
+# 校门第一批交付与同步 · 2026-10-13
+
+[规划表](AssetPlanning/SchoolGate/Batch01/asset-list.md)／[制作顺序](AssetPlanning/SchoolGate/Batch01/production-order.md)／[首张门柱任务卡](AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_GATE_PIER_01.md)。首卡等待用户转交，未自动发送其他聊天或建模。
+
+实际成果提交[1b838d146851821a7a06e81921748c417f3158f6](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/1b838d146851821a7a06e81921748c417f3158f6)，13个相关Markdown文件正常推送独立origin/main，ls-remote完整哈希相同。本轮新LFS上传0（无二进制变更）；SchoolLife只读与V13源图未改。已跟踪工作区干净，仅setup_blender_mcp.py、setup_codex_blender_mcp.py、verify_blender_mcp.py原三个无关未跟踪工具保留。此记录再作普通收尾提交，最终HEAD/远端匹配见最终报告，未改历史。
+
 # 校门资产规划交接 · 2026-10-13
 
 当前入口：[第一批资产规划](AssetPlanning/SchoolGate/Batch01/README.md)。优先读尺寸差异与清单，再读[SL_GE_GATE_PIER_01任务卡](AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_GATE_PIER_01.md)。本聊天仅规划/统一风格/尺寸/任务卡/审阅；用户转交后另一聊天逐项设计建模，未自动消息转交。
