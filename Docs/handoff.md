@@ -1,3 +1,11 @@
+# 校门资产规划交接 · 2026-10-13
+
+当前入口：[第一批资产规划](AssetPlanning/SchoolGate/Batch01/README.md)。优先读尺寸差异与清单，再读[SL_GE_GATE_PIER_01任务卡](AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_GATE_PIER_01.md)。本聊天仅规划/统一风格/尺寸/任务卡/审阅；用户转交后另一聊天逐项设计建模，未自动消息转交。
+
+首卡已准备但未开工，按60×60×240cm灰盒适配；一个源左右复用2次，底中心轴心/净6m/平台8×5m/道路5m保持，校牌独立后续。未确认项见尺寸文档，不用V13生成图补数。只读SchoolLife，未动V13正式布局或任何工程。
+
+完成本轮Markdown/Git后停审；下一步由用户先审阅清单并转交首卡，单体设计/建模/UE接入未在本轮启动。
+
 # V13 Git/LFS同步实绩 · 2026-10-10
 
 成果提交[e2113167fb1a8dd428924f154bfe402281aebf49](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/e2113167fb1a8dd428924f154bfe402281aebf49)（168个本轮相关文件）已正常推送origin/main。git ls-remote完整哈希与本地一致。LFS终端100% (23/23)、80 MB；35个大图路径按精确规则跟踪，原图副本共享OID；dry-run无待上传，git lfs fsck OK。V02—V12未改；SchoolLife只读参考未写入。已跟踪工作区干净，仅原setup_blender_mcp.py/setup_codex_blender_mcp.py/verify_blender_mcp.py未跟踪，保留不提交。

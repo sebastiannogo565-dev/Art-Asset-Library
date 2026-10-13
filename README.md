@@ -1,3 +1,7 @@
+# 当前资产规划：校门入口第一批
+
+[资产表与制作顺序](Docs/AssetPlanning/SchoolGate/Batch01/README.md)／[首张门柱任务卡](Docs/AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_GATE_PIER_01.md)。只规划，写实建筑结构＋像素纹理＋自然光照，地形/道路/高差沿用已建灰盒；未生图/单体设计/建模。单体由用户另聊天逐项转交。旧V13与世界几何保留。
+
 # 当前V13：九项限定编辑
 
 [最新设计与预览](Docs/MapDesign/V13/README.md)。以用户V12第二张直接编辑，其他正式几何保持；旧10候选仅过程。最新原生1374×1145，神社恢复，广场周边楼/门面/渔务比例仍待审，不报告全部通过。
