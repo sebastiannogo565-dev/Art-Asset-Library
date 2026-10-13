@@ -1,3 +1,7 @@
+# 当前单体接续：门柱试作卡已发布
+
+[SL_GE_GATE_PIER_01试作任务卡](Docs/AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_GATE_PIER_01_TRIAL_01.md)。用户确认候选01比例/暖灰青灰/64px/m先试。本聊天只发布卡，用户转交建模聊天；未生成图、模型或接入UE。
+
 # 当前单体设计：校门门柱候选01
 
 [定尺图与规格](ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Design/SL_GE_GATE_PIER_01_SPEC.md)：SL_GE_GATE_PIER_01单体设计已交付待用户审阅；60×60×240cm、底中心轴心、南面−Y，一个未来源/两次复用。五正交面＋两向30°同源几何比例图、32/64px每米比较。未建模/UV/最终纹理/UE接入；SchoolLife只读。下方规划记录保留历史。

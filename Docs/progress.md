@@ -1,3 +1,7 @@
+# 门柱下一阶段任务卡发布 · 2026-10-13
+
+用户J01—03已记录，发布[1源试作卡](AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_GATE_PIER_01_TRIAL_01.md)，纳入R01材质补齐/R02细节取舍/R03自然光证据。原几何/图稿与SchoolLife未改，本轮只有Markdown，新模型/图/材质0。待用户转交及回件，实际网格/UV/材质/自然光未验，校牌及其他资产未启动。
+
 # 门柱01审阅交付完成 · 2026-10-13
 
 6个相关Markdown文件已提交a51649a43d3d64cf0219814ccd76890e7d89dcb1，推送成功、远端完整匹配；LFS新对象0。候选及所有几何/参考不改，原三个无关未跟踪脚本保留。当前无进行中的制作工作；需用户判断与后续补充见[审阅](AssetPlanning/SchoolGate/Batch01/review-candidate-01.md)。

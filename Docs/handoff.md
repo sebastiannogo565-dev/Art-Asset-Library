@@ -1,3 +1,9 @@
+# 用户已确认：交付门柱单体试作卡 · 2026-10-13
+
+[SL_GE_GATE_PIER_01_TRIAL_01](AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_GATE_PIER_01_TRIAL_01.md)含完整转交文本。已确认比例/暖灰青灰方向、64px/m优先试作（32比较），下一阶段只1源网格试作/基础UV/临时材质/自然光两向，补M1/M2证据和细节取舍。
+
+本规划聊天未启动建模或发消息，用户自行转交；回件再审，不连带校牌/墙/门叶/地形或UE。正式世界/工程未改，最终成品和实际游戏尚未验收。
+
 # 门柱审阅同步与等待确认 · 2026-10-13
 
 [候选01审阅](AssetPlanning/SchoolGate/Batch01/review-candidate-01.md)已提交[a51649a43d3d64cf0219814ccd76890e7d89dcb1](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/a51649a43d3d64cf0219814ccd76890e7d89dcb1)，正常推送origin/main，完整远端哈希相同。6个审阅相关Markdown文件，候选图/几何/规格/源人物/工程未改；新LFS上传0，无新卡、图或模型。已跟踪工作区干净，原三个无关帮助脚本未跟踪保留。本同步条目为普通收尾提交，最终HEAD另核。
