@@ -1,0 +1,1308 @@
+{
+  "asset_id": "SL_GE_SIGN_PLATE_01",
+  "revision": "TRIAL_01",
+  "date": "2026-10-14",
+  "status": "trial_delivered_awaiting_planning_and_user_review_not_UE_validated",
+  "authorization": {
+    "task_card": "Docs/AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_SIGN_PLATE_01_TRIAL_01.md",
+    "publish_commit": "d2f76dcc2c60ab4aa21d260b3ef16d0e7e1115ac",
+    "scope": "one blank carrier source; assembly supplement first; UV/temporary materials/daylight; no host edit or UE"
+  },
+  "source_count": 1,
+  "target_instance_count": 1,
+  "editable_component_count": 11,
+  "fbx_mesh_component_count": 11,
+  "export_is_one_asset_set": true,
+  "measurements": {
+    "dimensions_cm": {
+      "width": 24,
+      "height": 84,
+      "body_depth": 1,
+      "overall_depth": 2,
+      "sheet": 0.2,
+      "radius": 0.4
+    },
+    "source_bounds_m": {
+      "min": [
+        -0.11999999731779099,
+        -0.019999999552965164,
+        -0.41999998688697815
+      ],
+      "max": [
+        0.11999999731779099,
+        0.0,
+        0.41999998688697815
+      ]
+    },
+    "pivot": "rear contact datum centre; every part origin0, +Z up, -Y front",
+    "mount_host_cm": [
+      0,
+      -27,
+      140
+    ],
+    "mount_engineering_cm": [
+      -330,
+      -27,
+      940
+    ],
+    "installed_actual_bounds_m": {
+      "min": [
+        -3.419999837875366,
+        -0.2900000214576721,
+        8.979999542236328
+      ],
+      "max": [
+        -3.180000066757202,
+        -0.27000001072883606,
+        9.819999694824219
+      ]
+    },
+    "minimum_opening_actual_m": 6.0,
+    "road_width_reference_m": 5,
+    "platform_top_reference_m": 8,
+    "counts": {
+      "vertices": 286,
+      "polygons": 216,
+      "triangles": 532,
+      "components": 11,
+      "asset_sets": 1,
+      "target_instances": 1,
+      "shared_materials": 1
+    }
+  },
+  "assembly": {
+    "status": "visual installation candidate; engineering anchorage/anti-retreat not validated",
+    "source_envelope_cm": {
+      "min": [
+        -12,
+        -2,
+        -42
+      ],
+      "max": [
+        12,
+        0,
+        42
+      ]
+    },
+    "mount_pivot_host_cm": [
+      0,
+      -27,
+      140
+    ],
+    "mount_pivot_engineering_cm": [
+      -330,
+      -27,
+      940
+    ],
+    "fixed_parts": [
+      "COLUMN_SEAT_UPPER",
+      "COLUMN_SEAT_LOWER",
+      "PAD_UPPER",
+      "PAD_LOWER"
+    ],
+    "moving_parts": [
+      "CARRIER_TRAY",
+      "PLATE_HOOK_UPPER",
+      "PLATE_HOOK_LOWER",
+      "SLIDER_GUIDE",
+      "LOCKED_SLIDER",
+      "LOCK_STOP",
+      "RELEASE_STOP"
+    ],
+    "order": [
+      "柱侧：先放0.2cm垫及两道18cm座；四轴只作紧固位置参照，真实锚固另核；牌尚未遮住座时从南侧施工。",
+      "牌侧：两道16cm倒U挂钩、滑舌导座及两端止位先在牌背装妥；连接工艺另核。",
+      "将防抬舌向+X退1.0cm至解锁位；仅移动牌侧组件，柱侧座/垫保持不动。",
+      "牌侧先上抬1.8cm、向街侧(-Y)外移0.6cm；对齐后沿+Y靠向柱，再沿-Z落1.8cm挂入两座。",
+      "从东侧(+X)折边服务口伸入细钩工具，将滑舌向-X推1.0cm至止位；舌顶抵下座底面，阻止牌上抬。",
+      "最后检查侧向防自退：拟用导座止退弹片/定位槽，当前只记功能，不冻结弹片尺寸、力或锁紧等级。",
+      "拆卸：从同一东侧口解除止退，钩拉滑舌+X 1.0cm；牌上抬1.8cm后向-Y离柱0.6cm，再取下。"
+    ],
+    "side_service_opening_cm": {
+      "x": [
+        11.8,
+        12
+      ],
+      "y": [
+        -1.8,
+        -1
+      ],
+      "z": [
+        -31.8,
+        -30.9
+      ]
+    },
+    "slider_locked_cm": {
+      "min": [
+        8.2,
+        -1.2,
+        -31.5
+      ],
+      "max": [
+        10.6,
+        -0.6,
+        -31.2
+      ]
+    },
+    "tool_channel_candidate_cm": {
+      "y": [
+        -1.5,
+        -1.2
+      ],
+      "z": [
+        -31.5,
+        -31.2
+      ],
+      "purpose": "east-side bent hook access; open through release stop; tool manufacture/clearance pending"
+    },
+    "slider_pull_eye_candidate_cm": {
+      "x": [
+        10.05,
+        10.35
+      ],
+      "z": [
+        -31.425,
+        -31.275
+      ],
+      "through_y": [
+        -1.2,
+        -0.6
+      ],
+      "purpose": "functional pull eye, not an anchor/screw detail; trial dimensions only"
+    },
+    "slider_released_delta_cm": [
+      1,
+      0,
+      0
+    ],
+    "hook_y_clearance_cm": 0.05,
+    "movement_envelope_notice": "1.8cm up / 0.6cm out is temporary assembly sweep, not installed/source size. During service highest host Z183.8, still below available190; no permanent envelope change.",
+    "design_delta": "Design的实心支座外包络改为柱侧U座+牌侧倒U钩；新增下座右侧防抬滑舌/导座/止位及折边服务口。原Design不覆盖，外形/2cm总突出/位置保持。",
+    "engineering_pending": [
+      "四轴锚固方式/孔径/深度/柱基承载",
+      "牌背连接工艺",
+      "滑舌止退弹片或可替换锁紧件、抗振/防误退",
+      "0.5mm接合间隙和薄板成型公差",
+      "工具尺寸/实际维护可操作性",
+      "耐候排水及接触垫材种"
+    ],
+    "tool_channel_evidence": {
+      "actual_mesh_segments": [
+        {
+          "pose": "locked",
+          "shaft_start_m": [
+            0.125,
+            -0.013500000350177288,
+            -0.31349998712539673
+          ],
+          "shaft_end_m": [
+            0.10199999809265137,
+            -0.013500000350177288,
+            -0.31349998712539673
+          ],
+          "bent_tip_end_m": [
+            0.10199999809265137,
+            -0.005900000222027302,
+            -0.31349998712539673
+          ],
+          "shaft_and_eye_rays_clear": true
+        },
+        {
+          "pose": "released",
+          "shaft_start_m": [
+            0.125,
+            -0.013500000350177288,
+            -0.31349998712539673
+          ],
+          "shaft_end_m": [
+            0.1120000034570694,
+            -0.013500000350177288,
+            -0.31349998712539673
+          ],
+          "bent_tip_end_m": [
+            0.1120000034570694,
+            -0.005900000222027302,
+            -0.31349998712539673
+          ],
+          "shaft_and_eye_rays_clear": true
+        }
+      ],
+      "scope": "zero-radius ray segments only; real finite tool size/hand clearance/strength pending"
+    }
+  },
+  "UV": {
+    "density_min_px_per_m": 63.93677538908775,
+    "density_max_px_per_m": 64.02180479587057,
+    "density_mean_px_per_m": 64.00011477119476,
+    "actual_triangles_checked": 532,
+    "source_matches_json": true,
+    "numerical_relative_tolerance": 0.002,
+    "max_relative_deviation": 0.0009878845455039142,
+    "note": "float32 UV quantization on tiny round-corner triangles; target reference64, not atlas size",
+    "atlas_native_px": [
+      256,
+      256
+    ],
+    "planar_charts": 216,
+    "padding_px": 2,
+    "density_reference": 64,
+    "letter_graphics": "independent future asset; blank20x76cm layout, no name"
+  },
+  "material": {
+    "slots_per_part": 1,
+    "shared_materials": 1,
+    "base_srgb": "#60767A",
+    "roughness_byte_metal": 209,
+    "roughness_byte_pad": 230,
+    "metallic": 0,
+    "ior": 1.45,
+    "interpolation": "Closest",
+    "textures": "temporary; no baked lighting / AO / names"
+  },
+  "native_images": [
+    {
+      "path": "Previews/Renders/CHECK_EAST.png",
+      "native_px": [
+        360,
+        800
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Previews/Renders/CHECK_EXPLODED_REAR.png",
+      "native_px": [
+        850,
+        1050
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Previews/Renders/CHECK_FRONT.png",
+      "native_px": [
+        480,
+        800
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Previews/Renders/CHECK_REAR.png",
+      "native_px": [
+        480,
+        800
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Previews/Renders/CHECK_TOP.png",
+      "native_px": [
+        600,
+        240
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Previews/Renders/SL_GE_SIGN_PLATE_01_TRIAL_COATING_RENDER.png",
+      "native_px": [
+        700,
+        1100
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Previews/Renders/SL_GE_SIGN_PLATE_01_TRIAL_INSTALL_A_RENDER.png",
+      "native_px": [
+        1600,
+        1400
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Previews/Renders/SL_GE_SIGN_PLATE_01_TRIAL_INSTALL_B_RENDER.png",
+      "native_px": [
+        1600,
+        1400
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Previews/SL_GE_SIGN_PLATE_01_TRIAL_CHECK.png",
+      "native_px": [
+        3400,
+        1850
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Previews/SL_GE_SIGN_PLATE_01_TRIAL_INSTALL_A.png",
+      "native_px": [
+        1600,
+        1400
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Previews/SL_GE_SIGN_PLATE_01_TRIAL_INSTALL_B.png",
+      "native_px": [
+        1600,
+        1400
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Source/SL_GE_SIGN_PLATE_01_TRIAL_ASSEMBLY.png",
+      "native_px": [
+        2600,
+        1800
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "Textures/SL_GE_SIGN_PLATE_01_TRIAL_BaseColor.png",
+      "native_px": [
+        256,
+        256
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "Textures/SL_GE_SIGN_PLATE_01_TRIAL_Roughness.png",
+      "native_px": [
+        256,
+        256
+      ],
+      "mode": "L"
+    },
+    {
+      "path": "Textures/SL_GE_SIGN_PLATE_01_TRIAL_UV_LAYOUT.png",
+      "native_px": [
+        256,
+        256
+      ],
+      "mode": "RGB"
+    }
+  ],
+  "preview_nature": {
+    "A_B": "real Cycles natural-daylight renders; opaque native accepted host; original unlit character scale board180/192",
+    "geometry_checks": "real Workbench orthographic geometry; exploded supports labelled, not installed back visibility",
+    "assembly": "editable design supplement; not real engineering approval",
+    "game_effect": "not UE validated"
+  },
+  "verification": {
+    "source_reopened": true,
+    "source_unchanged_by_reopen": true,
+    "fbx_round_trip": {
+      "passed": true,
+      "binary_version": 7400,
+      "axis_unit_metadata": {
+        "UpAxis": 2,
+        "UpAxisSign": 1,
+        "FrontAxis": 1,
+        "FrontAxisSign": 1,
+        "CoordAxis": 0,
+        "CoordAxisSign": -1,
+        "UnitScaleFactor": 100.0
+      },
+      "mesh_components": 11,
+      "asset_sets": 1,
+      "all_vertex_positions_and_uv_corners_match": true,
+      "host_character_floor_camera_exported": false,
+      "parts": [
+        {
+          "name": "CARRIER_TRAY",
+          "min_m": [
+            -0.11999999731779099,
+            -0.02000001072883606,
+            -0.41999998688697815
+          ],
+          "max_m": [
+            0.11999999731779099,
+            -0.009999989531934261,
+            0.41999998688697815
+          ],
+          "origin_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "vertices": 150,
+          "polygons": 296,
+          "actual_tessellated_triangles": 296,
+          "non_manifold_edges": 0,
+          "zero_area_faces": 0,
+          "zero_area_tessellated_triangles": 0,
+          "signed_volume_m3": 0.0004373734481364923
+        },
+        {
+          "name": "COLUMN_SEAT_LOWER",
+          "min_m": [
+            -0.09000000357627869,
+            -0.010000007227063179,
+            -0.31200000643730164
+          ],
+          "max_m": [
+            0.09000000357627869,
+            -0.0019999921787530184,
+            -0.28999999165534973
+          ],
+          "origin_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "vertices": 16,
+          "polygons": 28,
+          "actual_tessellated_triangles": 28,
+          "non_manifold_edges": 0,
+          "zero_area_faces": 0,
+          "zero_area_tessellated_triangles": 0,
+          "signed_volume_m3": 2.1960013352259334e-05
+        },
+        {
+          "name": "COLUMN_SEAT_UPPER",
+          "min_m": [
+            -0.09000000357627869,
+            -0.010000007227063179,
+            0.2879999876022339
+          ],
+          "max_m": [
+            0.09000000357627869,
+            -0.0019999921787530184,
+            0.3100000023841858
+          ],
+          "origin_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "vertices": 16,
+          "polygons": 28,
+          "actual_tessellated_triangles": 28,
+          "non_manifold_edges": 0,
+          "zero_area_faces": 0,
+          "zero_area_tessellated_triangles": 0,
+          "signed_volume_m3": 2.1960013352259334e-05
+        },
+        {
+          "name": "LOCKED_SLIDER",
+          "min_m": [
+            0.0820000022649765,
+            -0.011999992653727531,
+            -0.3149999976158142
+          ],
+          "max_m": [
+            0.10599999874830246,
+            -0.005999990738928318,
+            -0.31200000643730164
+          ],
+          "origin_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "vertices": 16,
+          "polygons": 32,
+          "actual_tessellated_triangles": 32,
+          "non_manifold_edges": 0,
+          "zero_area_faces": 0,
+          "zero_area_tessellated_triangles": 0,
+          "signed_volume_m3": 4.0499902987855264e-07
+        },
+        {
+          "name": "LOCK_STOP",
+          "min_m": [
+            0.07999999821186066,
+            -0.01799999177455902,
+            -0.3149999976158142
+          ],
+          "max_m": [
+            0.0820000022649765,
+            -0.011499992571771145,
+            -0.31200000643730164
+          ],
+          "origin_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "vertices": 8,
+          "polygons": 12,
+          "actual_tessellated_triangles": 12,
+          "non_manifold_edges": 0,
+          "zero_area_faces": 0,
+          "zero_area_tessellated_triangles": 0,
+          "signed_volume_m3": 3.899995957290892e-08
+        },
+        {
+          "name": "PAD_LOWER",
+          "min_m": [
+            -0.09000000357627869,
+            -0.002000008011236787,
+            -0.31200000643730164
+          ],
+          "max_m": [
+            0.09000000357627869,
+            7.868050211357058e-09,
+            -0.2879999876022339
+          ],
+          "origin_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "vertices": 8,
+          "polygons": 12,
+          "actual_tessellated_triangles": 12,
+          "non_manifold_edges": 0,
+          "zero_area_faces": 0,
+          "zero_area_tessellated_triangles": 0,
+          "signed_volume_m3": 8.640007534325733e-06
+        },
+        {
+          "name": "PAD_UPPER",
+          "min_m": [
+            -0.09000000357627869,
+            -0.002000008011236787,
+            0.2879999876022339
+          ],
+          "max_m": [
+            0.09000000357627869,
+            7.868050211357058e-09,
+            0.31200000643730164
+          ],
+          "origin_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "vertices": 8,
+          "polygons": 12,
+          "actual_tessellated_triangles": 12,
+          "non_manifold_edges": 0,
+          "zero_area_faces": 0,
+          "zero_area_tessellated_triangles": 0,
+          "signed_volume_m3": 8.640007534325733e-06
+        },
+        {
+          "name": "PLATE_HOOK_LOWER",
+          "min_m": [
+            -0.07999999821186066,
+            -0.018000006675720215,
+            -0.30799999833106995
+          ],
+          "max_m": [
+            0.07999999821186066,
+            -0.005499992985278368,
+            -0.2879999876022339
+          ],
+          "origin_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "vertices": 16,
+          "polygons": 28,
+          "actual_tessellated_triangles": 28,
+          "non_manifold_edges": 0,
+          "zero_area_faces": 0,
+          "zero_area_tessellated_triangles": 0,
+          "signed_volume_m3": 1.4240004498956413e-05
+        },
+        {
+          "name": "PLATE_HOOK_UPPER",
+          "min_m": [
+            -0.07999999821186066,
+            -0.018000006675720215,
+            0.2919999957084656
+          ],
+          "max_m": [
+            0.07999999821186066,
+            -0.005499992985278368,
+            0.31200000643730164
+          ],
+          "origin_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "vertices": 16,
+          "polygons": 28,
+          "actual_tessellated_triangles": 28,
+          "non_manifold_edges": 0,
+          "zero_area_faces": 0,
+          "zero_area_tessellated_triangles": 0,
+          "signed_volume_m3": 1.4240004498956359e-05
+        },
+        {
+          "name": "RELEASE_STOP",
+          "min_m": [
+            0.11599999666213989,
+            -0.017999989911913872,
+            -0.31700000166893005
+          ],
+          "max_m": [
+            0.11800000071525574,
+            -0.005999989807605743,
+            -0.31200000643730164
+          ],
+          "origin_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "vertices": 16,
+          "polygons": 28,
+          "actual_tessellated_triangles": 28,
+          "non_manifold_edges": 0,
+          "zero_area_faces": 0,
+          "zero_area_tessellated_triangles": 0,
+          "signed_volume_m3": 1.0200013956413312e-07
+        },
+        {
+          "name": "SLIDER_GUIDE",
+          "min_m": [
+            0.10400000214576721,
+            -0.017999989911913872,
+            -0.31700000166893005
+          ],
+          "max_m": [
+            0.11599999666213989,
+            -0.00499998964369297,
+            -0.3100000023841858
+          ],
+          "origin_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "vertices": 16,
+          "polygons": 28,
+          "actual_tessellated_triangles": 28,
+          "non_manifold_edges": 0,
+          "zero_area_faces": 0,
+          "zero_area_tessellated_triangles": 0,
+          "signed_volume_m3": 7.320005648429495e-07
+        }
+      ]
+    },
+    "assembly_motion": {
+      "poses_checked": 8,
+      "boolean_pairs_with_positive_aabb_overlap": 10,
+      "positive_volume_fixed_moving_intersections": [],
+      "threshold_m3": 1e-10,
+      "scope": "sampled fixed-vs-moving path; not manufacturing tolerance, hand/tool or load test",
+      "anti_lift_contact_cm": {
+        "slider_top_z": -31.2,
+        "seat_bottom_z": -31.2,
+        "locked_x_overlap": 0.8,
+        "released_x_gap": 0.2,
+        "hook_y_clearance": 0.05
+      },
+      "anti_retreat_mechanism": "functional candidate only, not validated"
+    },
+    "tool_paths": {
+      "actual_mesh_segments": [
+        {
+          "pose": "locked",
+          "shaft_start_m": [
+            0.125,
+            -0.013500000350177288,
+            -0.31349998712539673
+          ],
+          "shaft_end_m": [
+            0.10199999809265137,
+            -0.013500000350177288,
+            -0.31349998712539673
+          ],
+          "bent_tip_end_m": [
+            0.10199999809265137,
+            -0.005900000222027302,
+            -0.31349998712539673
+          ],
+          "shaft_and_eye_rays_clear": true
+        },
+        {
+          "pose": "released",
+          "shaft_start_m": [
+            0.125,
+            -0.013500000350177288,
+            -0.31349998712539673
+          ],
+          "shaft_end_m": [
+            0.1120000034570694,
+            -0.013500000350177288,
+            -0.31349998712539673
+          ],
+          "bent_tip_end_m": [
+            0.1120000034570694,
+            -0.005900000222027302,
+            -0.31349998712539673
+          ],
+          "shaft_and_eye_rays_clear": true
+        }
+      ],
+      "scope": "zero-radius ray segments only; real finite tool size/hand clearance/strength pending"
+    },
+    "opaque_visibility": {
+      "A_front_samples_hit_carrier": 9,
+      "B_front_samples_hit_opaque_host": 9
+    },
+    "packed_image_sha256": {
+      "SIGN_TRIAL_BaseColor": "6cf81eea76f07f2b6629c7b5b467ac10884c999be2a2d8222d84e3bf065fd4ac",
+      "SIGN_TRIAL_Roughness": "c955b2148bfc0d2187280487addf936a3ecc1f03cf66e5cfdbc7a5bedb93990a",
+      "REFERENCE_ORIGINAL_128_RGBA_SIGN": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+    },
+    "protected_inputs": {
+      "count": 53,
+      "all_raw_sha256_unchanged": true,
+      "differences": []
+    }
+  },
+  "protected_input_files": [
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\MapDesign\\V13\\SL_WORLD_V13_LAYOUT_01.json",
+      "sha256": "20149b825e420c885ce80468da052067caddc46e9663128471538be047518e72",
+      "bytes": 840554
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\MapDesign\\V13\\SL_WORLD_V13_PLAN_01.svg",
+      "sha256": "eb7af2e9b15c08a4b8d4d6642a0cbb757b687229329719cb78f571fc792e32a1",
+      "bytes": 174528
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Design\\SL_GE_GATE_PIER_01_GEOMETRY.json",
+      "sha256": "c2fd570b4c0636439d9f8977f787deed0b7c60dc2b2035e6d45cef7bc1e1af16",
+      "bytes": 2185
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Exports\\SL_GE_GATE_PIER_01_TRIAL_01.fbx",
+      "sha256": "faf489c4e70d8f27bf50022e2e7049d8751c6545f06f7cda07ba1b6f0ed82a6f",
+      "bytes": 22252
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\manifest.json",
+      "sha256": "0c6650f9905465bc39831e98f508a9d6dfbc7cc0d0511ba0c54a454661e41105",
+      "bytes": 16815
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Previews\\Renders\\SL_GE_GATE_PIER_01_TRIAL_VIEW_A_RENDER.png",
+      "sha256": "1a64c27e8b94881bcedf1b1cfea92bbb480362a65f1d7f639e2c0966d3992855",
+      "bytes": 1703104
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Previews\\Renders\\SL_GE_GATE_PIER_01_TRIAL_VIEW_B_RENDER.png",
+      "sha256": "3d1cfb072b5f7a3ca6f72250d004458eec751aae58a9ec909d0d1c311d62fde7",
+      "bytes": 1627062
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Previews\\SL_GE_GATE_PIER_01_TRIAL_CHECK.png",
+      "sha256": "e69b2fdf1d16cd7a849f25594f5e2c33560bb9f30acf4a265ea9bf8b2592c9fd",
+      "bytes": 677056
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Previews\\SL_GE_GATE_PIER_01_TRIAL_MATERIAL_COMPARE.png",
+      "sha256": "b8bc9747100d37d387c5f2a5d2b70e555d0eb348bc3674d3b0cef862b844dd04",
+      "bytes": 229568
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Previews\\SL_GE_GATE_PIER_01_TRIAL_VIEW_A.png",
+      "sha256": "19bf61aaf6eda1be4781110f9cae284c9fcf7417197e1d863e12fc6dffd1f724",
+      "bytes": 1163885
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Previews\\SL_GE_GATE_PIER_01_TRIAL_VIEW_B.png",
+      "sha256": "5d68c3f854573a35c930e7f972a71506fed2bf3b1da76e876cf338f6828dc06b",
+      "bytes": 1138295
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\README.md",
+      "sha256": "a84dc19ed85954ea26ac5bd564e502358927aa6370ca042bbeaa8d45ab280d42",
+      "bytes": 5218
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\review.md",
+      "sha256": "abbd20c4244b7360f9320927baaaa2f99f3d9dd36e8c02482c7669374a75ae51",
+      "bytes": 6891
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\assemble_preview_boards.py",
+      "sha256": "e09f72905b9e7e46d9371e43a9fd45c4b263ff19061cd154d3541a8fcd6b9317",
+      "bytes": 8454
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\blender_measurements.json",
+      "sha256": "6c2afbbda49a11c684b89dbd82b52abe814d7b50c5bc7ac21730a90175f6e1f7",
+      "bytes": 6293
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\build_trial.py",
+      "sha256": "ab696379a09bc5c8f5cd42c1a1391bb7fc4572dec18f2e492763826c9d668d99",
+      "bytes": 14627
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\create_trial_data.py",
+      "sha256": "24f47c9769aca1d8d6bd1e9d3668157a38478c6345c5efa3aea9bdb1b0531a13",
+      "bytes": 6770
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\SL_GE_GATE_PIER_01_TRIAL_01.blend",
+      "sha256": "56dadb69c0a41862de5589a2fc409aa31331942a86ec48db21451a04ea9c4b2b",
+      "bytes": 108151
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\SL_GE_GATE_PIER_01_TRIAL_01.blend1",
+      "sha256": "24ef77973f1812cc649e87d653e61e3b405cc27940e26444983c47779b19faff",
+      "bytes": 112078
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\SL_GE_GATE_PIER_01_TRIAL_GEOMETRY_UV.json",
+      "sha256": "e4d3896a76a6cb15be1ca621bdbb1944f832db5587a0250d68793310cdcbab8e",
+      "bytes": 22525
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\texture_statistics.json",
+      "sha256": "ff652e0d8dc31a34f5f384e7bd78dd228b0ca90eebd9b8b4bfb7bbfa8a5997bf",
+      "bytes": 240
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\verification_results.json",
+      "sha256": "4e2bb4e38bfe0214e4e4336b2cf57dc5fc9aac0facc87b8f16b5fc52d7fe2922",
+      "bytes": 2447
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\verify_trial.py",
+      "sha256": "885dc644600e2d97fb6acf682145b5cc5c8e5ddbd027a4c7a1cfa648d266e1be",
+      "bytes": 6367
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Textures\\Samples\\M1_32px_per_m_1m.png",
+      "sha256": "35cb8f7e5afbe4d2083436f84d85ca3c9bbcb364c3743e7b800ae3dd558d5148",
+      "bytes": 333
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Textures\\Samples\\M1_64px_per_m_1m.png",
+      "sha256": "93c83e9e35d2b1c0c06241f92e1958bc7cc640b436abf280cc7b6534d768d1f8",
+      "bytes": 589
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Textures\\Samples\\M2_32px_per_m_1m.png",
+      "sha256": "42265d24c6ab55393ad79eac100fdf3074af0851c8c81f89de0c07570b74c12f",
+      "bytes": 446
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Textures\\Samples\\M2_64px_per_m_1m.png",
+      "sha256": "4f28bdcd37dbd8eff96f65ef65e29157be44064efbb18076d3ea98155cec69a1",
+      "bytes": 957
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Textures\\SL_GE_GATE_PIER_01_TRIAL_BaseColor.png",
+      "sha256": "bec477e282525620f2c7d11de38b2f899c6419a1e612b2c01c6759d681144eea",
+      "bytes": 4379
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Textures\\SL_GE_GATE_PIER_01_TRIAL_Roughness.png",
+      "sha256": "6685d7a7185d5d92a4cdc9511282dd7784b9451938f78631132016ab2897e60a",
+      "bytes": 693
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Textures\\SL_GE_GATE_PIER_01_TRIAL_UV_LAYOUT.png",
+      "sha256": "7c4f9398e3c0f97200fd75223114cb9d995a927439f52249e26de98b2c940295",
+      "bytes": 2613
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Design\\build_design.py",
+      "sha256": "4c1edc752ab389a2ea5e7fd498b796ec9cba39c9d607710b2d6c0499e7192601",
+      "bytes": 18071
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Design\\README.md",
+      "sha256": "b4a3e030072e8026dae429a2ba665e028743231c824243c95ce2d30168cc7628",
+      "bytes": 3938
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Design\\review.md",
+      "sha256": "35549e497173e20ce71bcb70e02116e5b51883b63014fd7aaf363a3f414e1daf",
+      "bytes": 4491
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Design\\SL_GE_SIGN_PLATE_01_CHECKS.json",
+      "sha256": "406f1b58cf5cdf49185ec47abc1573cb3743f1639ce31971d19abde86957784c",
+      "bytes": 11123
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Design\\SL_GE_SIGN_PLATE_01_DESIGN.png",
+      "sha256": "c0fce2d4ea5f638dffcc0ffc470449b090e8413a11cc224d12fb063666644733",
+      "bytes": 860511
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Design\\SL_GE_SIGN_PLATE_01_DESIGN.svg",
+      "sha256": "6826a694453c12b4bb3385dd97ec525b38aaa60efb7f95ec35cdfbd624d213b1",
+      "bytes": 66454
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Design\\SL_GE_SIGN_PLATE_01_GEOMETRY.json",
+      "sha256": "fab23a6fdd2d02082b4b58dcf388aa6ba4599f2d3e59d9f7dcb525d42c32c063",
+      "bytes": 4223
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Design\\SL_GE_SIGN_PLATE_01_SPEC.md",
+      "sha256": "9b3328f82e88d3f5c575f4c53920b71e11b0821ae8e409b672412df9d5b39efe",
+      "bytes": 10031
+    },
+    {
+      "path": "D:\\Art Asset Library\\Docs\\AssetPlanning\\SchoolGate\\Batch01\\dimensions-and-reuse.md",
+      "sha256": "95e53ab008ec7e2e54d72d2e0f5dd0b3e23190d3b19ebfea119c395cdb9a6808",
+      "bytes": 7029
+    },
+    {
+      "path": "D:\\Art Asset Library\\Docs\\AssetPlanning\\SchoolGate\\Batch01\\review-sign-plate-design-01.md",
+      "sha256": "9e61aa730bdf7343a209b0299a15babd1eb9dc5cdbf9ee07f746e3b749ba63fa",
+      "bytes": 6333
+    },
+    {
+      "path": "D:\\Art Asset Library\\Docs\\AssetPlanning\\SchoolGate\\Batch01\\review-trial-01.md",
+      "sha256": "b4be1368437d2b0d5adf5e94f48aa4ee020cad961ce2cf33216914456fcf5282",
+      "bytes": 6871
+    },
+    {
+      "path": "D:\\Art Asset Library\\Docs\\AssetPlanning\\SchoolGate\\Batch01\\TaskCards\\SL_GE_SIGN_PLATE_01_TRIAL_01.md",
+      "sha256": "00ac771a40db9ac6dd4f5ab62003ec8359566aa16d7846c8be9b3be59362b3e0",
+      "bytes": 9866
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\ArtSource\\Characters\\StudentChibi\\FrontIdle\\StudentChibi_Front_Idle.png",
+      "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd",
+      "bytes": 2076
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Content\\SchoolLife\\Blockout\\Materials\\MI_BlockoutGround.uasset",
+      "sha256": "e523fe034d85e9f378094d78040da34828532a1af961ccfb59e4e01d840806fb",
+      "bytes": 8032
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Content\\SchoolLife\\Blockout\\Materials\\MI_BlockoutPath.uasset",
+      "sha256": "6a31436e9cc4b9684eedfae4ea296fb5887f608ace952b1598ebe2ec546faf1b",
+      "bytes": 8020
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Content\\SchoolLife\\Blockout\\Materials\\MI_BlockoutProp.uasset",
+      "sha256": "ed03280ba5b9ea85f40b059c8c6364acda2891a2ee84d77f172653b0e67fd7fd",
+      "bytes": 8020
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Content\\SchoolLife\\Blockout\\Materials\\MI_BlockoutWall.uasset",
+      "sha256": "d2562ab74154902c8c74ed456e4f986d55a1f42316b12ad86610f7044546ac0c",
+      "bytes": 8020
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Content\\SchoolLife\\Maps\\CampusLifeBlockout.umap",
+      "sha256": "44fdd13420290da7d2d3f094ad7c0823a65cc1285a21dd613dacd3179d40455f",
+      "bytes": 358608
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Docs\\Validation\\LifeCoreBlockout\\Step1\\Plan.json",
+      "sha256": "69b9d71e299f5e3f4dec5da370dd77c28c9109ea3a23a28d6ad436ceee205db8",
+      "bytes": 52254
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Docs\\Validation\\LifeCoreBlockout\\Step2\\ActorRecipe.json",
+      "sha256": "68225f5fd79bb471495b176ed50b7be518ffde19af9b442bf92158bf9b77f146",
+      "bytes": 86847
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Docs\\Validation\\LifeCoreBlockout\\Step2\\Observations.md",
+      "sha256": "89e3ff5068e32a2742dcbe88117c34c768a271109a5f66fafa48e9ebb9a170fd",
+      "bytes": 11151
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Docs\\Validation\\LifeCoreBlockout\\Step2\\prepare_geometry.py",
+      "sha256": "69ffd3785f466b8875b07eeeb5e6c08b124c71b0adfd1b2b60d9983ca3d600df",
+      "bytes": 8896
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Docs\\Validation\\StudentChibiFrontPreview\\ImportedAssets.json",
+      "sha256": "07ba6a55a9502969a0d55a56136d80871b348dda17b05b25c7de21fdb9d58520",
+      "bytes": 2392
+    }
+  ],
+  "delivered_files_excluding_manifest_self_and_ignored_backups": [
+    {
+      "path": "Exports/SL_GE_SIGN_PLATE_01_TRIAL_01.fbx",
+      "bytes": 59756,
+      "sha256": "f55c239a6d2c70e69e04772b76820e5662b761d5ffed60ae13238169c5025d8f",
+      "hash_mode": "raw bytes",
+      "git_storage": "LFS"
+    },
+    {
+      "path": "Previews/Renders/CHECK_EAST.png",
+      "bytes": 237450,
+      "sha256": "ce62447f3ceba5a23d31f23cca54932e7babd30eb3a27bc6dcea0df20acb46ca",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Previews/Renders/CHECK_EXPLODED_REAR.png",
+      "bytes": 729912,
+      "sha256": "36169d86e9f4d2cc250e1a02860efc38207878f665827f35d59b52c866a0c9c5",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Previews/Renders/CHECK_FRONT.png",
+      "bytes": 355065,
+      "sha256": "fc114e8aaceea480b675eae0e4bcb03e2f6d6685d165b11e4a997fcab8d5b486",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Previews/Renders/CHECK_REAR.png",
+      "bytes": 345439,
+      "sha256": "3235f1b3851d7ee03872087978ff2e60057839a08ac61f5ff5578823d6e6a9df",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Previews/Renders/CHECK_TOP.png",
+      "bytes": 122075,
+      "sha256": "1f3613d1a96806efd56d7c6783c6d1395ba7f7b8ff271b5832f61efa0d909460",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Previews/Renders/SL_GE_SIGN_PLATE_01_TRIAL_COATING_RENDER.png",
+      "bytes": 619367,
+      "sha256": "aac9b096df23953811d987cd72251286ac154fdcb77447eca0bf8b1478ec9813",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Previews/Renders/SL_GE_SIGN_PLATE_01_TRIAL_INSTALL_A_RENDER.png",
+      "bytes": 1706394,
+      "sha256": "4f40286f453ea236d3ce8cc898516b4d0fb284288b119c653e76e63fce3e0374",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Previews/Renders/SL_GE_SIGN_PLATE_01_TRIAL_INSTALL_B_RENDER.png",
+      "bytes": 1630665,
+      "sha256": "718971b0e8e347dd0d7931de7cf126a3a8bffcc7984c0809d568daf037334749",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Previews/SL_GE_SIGN_PLATE_01_TRIAL_CHECK.png",
+      "bytes": 1932735,
+      "sha256": "b29851765b0e7a15686c7b8207250f0eef3081dfcdc21f9083b1f5d387225583",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Previews/SL_GE_SIGN_PLATE_01_TRIAL_INSTALL_A.png",
+      "bytes": 1136016,
+      "sha256": "d3bf72f3007c6aa5a41b4d02f85aee1dbc22086d52716593c0e6d1af67bea329",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Previews/SL_GE_SIGN_PLATE_01_TRIAL_INSTALL_B.png",
+      "bytes": 1119640,
+      "sha256": "c66d00504dd670acbdc5457dcaae113a97ad19355e2492e79d2e472e545dd37c",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6227,
+      "sha256": "1682f209de912048d35b7205d4b6179932d3dacfd44a82c5b6396e886fdc64a5",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "review.md",
+      "bytes": 4572,
+      "sha256": "178db25b53e7437ad256de8074feec50da1f046ed9bf12024384da7f43c08195",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Source/assemble_preview_boards.py",
+      "bytes": 4647,
+      "sha256": "d793c092a2f33560ea6f5c4b3f123699c5512ecaaa990328a8df3a050473b397",
+      "hash_mode": "text normalized LF (Git text=auto)",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Source/assembly_parameters.json",
+      "bytes": 3098,
+      "sha256": "5fb5afb09ec813bbf922b1de44d8b873f325bd108fa213043d31337688ed8052",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Source/blender_measurements.json",
+      "bytes": 17386,
+      "sha256": "6f6e3e71fc89307b4676f1fa9edaf92f0fbe9431ccc5f71b9690b147a2199723",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Source/build_trial.py",
+      "bytes": 15940,
+      "sha256": "04e8f7775fc7cdcff4de1aec48d053d2e97f099ac6e3ace23dcde7bf9f584343",
+      "hash_mode": "text normalized LF (Git text=auto)",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Source/prepare_trial.py",
+      "bytes": 16042,
+      "sha256": "b861cd82b7a29957533d059221a56c0b0630233eed9828a4262f460bfcf7ae97",
+      "hash_mode": "text normalized LF (Git text=auto)",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Source/SL_GE_SIGN_PLATE_01_TRIAL_01.blend",
+      "bytes": 132216,
+      "sha256": "9841763a7f94bc273b032b9980272925c5a68cfa5146ca05470e3a5fd403009e",
+      "hash_mode": "raw bytes",
+      "git_storage": "LFS"
+    },
+    {
+      "path": "Source/SL_GE_SIGN_PLATE_01_TRIAL_ASSEMBLY.png",
+      "bytes": 416153,
+      "sha256": "6197f0a10dc4eb16bc98bae48d595d400d6470048b3e8af2bbee2ee26153f79f",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Source/SL_GE_SIGN_PLATE_01_TRIAL_ASSEMBLY.svg",
+      "bytes": 8219,
+      "sha256": "9e2704ff9629bf4b84da1d441c97bd18dc7c9f52d93cb59a1475a3441238b525",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Source/SL_GE_SIGN_PLATE_01_TRIAL_GEOMETRY_UV.json",
+      "bytes": 304373,
+      "sha256": "20c61d0b5abee53908c218ce374783d079b181e3cdbb152ca405c1b9a35e78d5",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Source/verification_results.json",
+      "bytes": 18431,
+      "sha256": "fadde93dbf4c556a76360999036dd0ecd606f690882c1cac3f833b7f8650eeee",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Source/verify_trial.py",
+      "bytes": 12121,
+      "sha256": "05366dfd17702944692e07b145255b9cf544ca1c5c01b239c59f49bad140fbc9",
+      "hash_mode": "text normalized LF (Git text=auto)",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Textures/SL_GE_SIGN_PLATE_01_TRIAL_BaseColor.png",
+      "bytes": 880,
+      "sha256": "6cf81eea76f07f2b6629c7b5b467ac10884c999be2a2d8222d84e3bf065fd4ac",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Textures/SL_GE_SIGN_PLATE_01_TRIAL_Roughness.png",
+      "bytes": 522,
+      "sha256": "c955b2148bfc0d2187280487addf936a3ecc1f03cf66e5cfdbc7a5bedb93990a",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    },
+    {
+      "path": "Textures/SL_GE_SIGN_PLATE_01_TRIAL_UV_LAYOUT.png",
+      "bytes": 1107,
+      "sha256": "0896e23effa227c6222cb4f100fb5387201d715f6dce0adc67c6abab84e2f617",
+      "hash_mode": "raw bytes",
+      "git_storage": "ordinary Git"
+    }
+  ],
+  "unverified": [
+    "四轴锚固方式/孔径/深度/柱基承载",
+    "牌背连接工艺",
+    "滑舌止退弹片或可替换锁紧件、抗振/防误退",
+    "0.5mm接合间隙和薄板成型公差",
+    "工具尺寸/实际维护可操作性",
+    "耐候排水及接触垫材种",
+    "校名/字面规格",
+    "UE导入/碰撞/导航/游戏光照"
+  ],
+  "Git": {
+    "branch": "main",
+    "remote": "https://github.com/sebastiannogo565-dev/Art-Asset-Library.git",
+    "starting_commit": "d2f76dcc2c60ab4aa21d260b3ef16d0e7e1115ac",
+    "planning_chat_status_before_git": "idle; latest turn completed; compact snapshot recorded in task tools",
+    "status": "prepared_for_scoped_commit_and_normal_push; actual sync to be appended after verification",
+    "LFS_paths": [
+      "Exports/SL_GE_SIGN_PLATE_01_TRIAL_01.fbx",
+      "Source/SL_GE_SIGN_PLATE_01_TRIAL_01.blend"
+    ],
+    "LFS_payload_bytes": 191972,
+    "unrelated_untracked_preserved": [
+      "setup_blender_mcp.py",
+      "setup_codex_blender_mcp.py",
+      "verify_blender_mcp.py"
+    ]
+  },
+  "stop": "await review; no next asset, final name graphics or UE"
+}

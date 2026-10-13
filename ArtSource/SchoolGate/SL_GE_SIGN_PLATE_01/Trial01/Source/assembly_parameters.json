@@ -1,0 +1,117 @@
+{
+  "status": "visual installation candidate; engineering anchorage/anti-retreat not validated",
+  "source_envelope_cm": {
+    "min": [
+      -12,
+      -2,
+      -42
+    ],
+    "max": [
+      12,
+      0,
+      42
+    ]
+  },
+  "mount_pivot_host_cm": [
+    0,
+    -27,
+    140
+  ],
+  "mount_pivot_engineering_cm": [
+    -330,
+    -27,
+    940
+  ],
+  "fixed_parts": [
+    "COLUMN_SEAT_UPPER",
+    "COLUMN_SEAT_LOWER",
+    "PAD_UPPER",
+    "PAD_LOWER"
+  ],
+  "moving_parts": [
+    "CARRIER_TRAY",
+    "PLATE_HOOK_UPPER",
+    "PLATE_HOOK_LOWER",
+    "SLIDER_GUIDE",
+    "LOCKED_SLIDER",
+    "LOCK_STOP",
+    "RELEASE_STOP"
+  ],
+  "order": [
+    "柱侧：先放0.2cm垫及两道18cm座；四轴只作紧固位置参照，真实锚固另核；牌尚未遮住座时从南侧施工。",
+    "牌侧：两道16cm倒U挂钩、滑舌导座及两端止位先在牌背装妥；连接工艺另核。",
+    "将防抬舌向+X退1.0cm至解锁位；仅移动牌侧组件，柱侧座/垫保持不动。",
+    "牌侧先上抬1.8cm、向街侧(-Y)外移0.6cm；对齐后沿+Y靠向柱，再沿-Z落1.8cm挂入两座。",
+    "从东侧(+X)折边服务口伸入细钩工具，将滑舌向-X推1.0cm至止位；舌顶抵下座底面，阻止牌上抬。",
+    "最后检查侧向防自退：拟用导座止退弹片/定位槽，当前只记功能，不冻结弹片尺寸、力或锁紧等级。",
+    "拆卸：从同一东侧口解除止退，钩拉滑舌+X 1.0cm；牌上抬1.8cm后向-Y离柱0.6cm，再取下。"
+  ],
+  "side_service_opening_cm": {
+    "x": [
+      11.8,
+      12
+    ],
+    "y": [
+      -1.8,
+      -1
+    ],
+    "z": [
+      -31.8,
+      -30.9
+    ]
+  },
+  "slider_locked_cm": {
+    "min": [
+      8.2,
+      -1.2,
+      -31.5
+    ],
+    "max": [
+      10.6,
+      -0.6,
+      -31.2
+    ]
+  },
+  "tool_channel_candidate_cm": {
+    "y": [
+      -1.5,
+      -1.2
+    ],
+    "z": [
+      -31.5,
+      -31.2
+    ],
+    "purpose": "east-side bent hook access; open through release stop; tool manufacture/clearance pending"
+  },
+  "slider_pull_eye_candidate_cm": {
+    "x": [
+      10.05,
+      10.35
+    ],
+    "z": [
+      -31.425,
+      -31.275
+    ],
+    "through_y": [
+      -1.2,
+      -0.6
+    ],
+    "purpose": "functional pull eye, not an anchor/screw detail; trial dimensions only"
+  },
+  "slider_released_delta_cm": [
+    1,
+    0,
+    0
+  ],
+  "hook_y_clearance_cm": 0.05,
+  "movement_envelope_notice": "1.8cm up / 0.6cm out is temporary assembly sweep, not installed/source size. During service highest host Z183.8, still below available190; no permanent envelope change.",
+  "design_delta": "Design的实心支座外包络改为柱侧U座+牌侧倒U钩；新增下座右侧防抬滑舌/导座/止位及折边服务口。原Design不覆盖，外形/2cm总突出/位置保持。",
+  "engineering_pending": [
+    "四轴锚固方式/孔径/深度/柱基承载",
+    "牌背连接工艺",
+    "滑舌止退弹片或可替换锁紧件、抗振/防误退",
+    "0.5mm接合间隙和薄板成型公差",
+    "工具尺寸/实际维护可操作性",
+    "耐候排水及接触垫材种"
+  ]
+}

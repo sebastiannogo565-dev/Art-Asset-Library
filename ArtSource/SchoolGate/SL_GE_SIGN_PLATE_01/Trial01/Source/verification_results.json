@@ -1,0 +1,790 @@
+{
+  "native_source_reopened": true,
+  "native_blender_version": "5.2.2 LTS",
+  "source_parts": [
+    {
+      "name": "CARRIER_TRAY",
+      "min_m": [
+        -0.11999999731779099,
+        -0.019999999552965164,
+        -0.41999998688697815
+      ],
+      "max_m": [
+        0.11999999731779099,
+        -0.009999999776482582,
+        0.41999998688697815
+      ],
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 150,
+      "polygons": 122,
+      "actual_tessellated_triangles": 296,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "zero_area_tessellated_triangles": 0,
+      "signed_volume_m3": 0.00043737344813649207
+    },
+    {
+      "name": "COLUMN_SEAT_UPPER",
+      "min_m": [
+        -0.09000000357627869,
+        -0.009999999776482582,
+        0.2879999876022339
+      ],
+      "max_m": [
+        0.09000000357627869,
+        -0.0020000000949949026,
+        0.3100000023841858
+      ],
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 16,
+      "polygons": 10,
+      "actual_tessellated_triangles": 28,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "zero_area_tessellated_triangles": 0,
+      "signed_volume_m3": 2.1960013352259307e-05
+    },
+    {
+      "name": "PLATE_HOOK_UPPER",
+      "min_m": [
+        -0.07999999821186066,
+        -0.017999999225139618,
+        0.2919999957084656
+      ],
+      "max_m": [
+        0.07999999821186066,
+        -0.005499999970197678,
+        0.31200000643730164
+      ],
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 16,
+      "polygons": 10,
+      "actual_tessellated_triangles": 28,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "zero_area_tessellated_triangles": 0,
+      "signed_volume_m3": 1.424000449895639e-05
+    },
+    {
+      "name": "PAD_UPPER",
+      "min_m": [
+        -0.09000000357627869,
+        -0.0020000000949949026,
+        0.2879999876022339
+      ],
+      "max_m": [
+        0.09000000357627869,
+        0.0,
+        0.31200000643730164
+      ],
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 8,
+      "polygons": 6,
+      "actual_tessellated_triangles": 12,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "zero_area_tessellated_triangles": 0,
+      "signed_volume_m3": 8.640007534325731e-06
+    },
+    {
+      "name": "COLUMN_SEAT_LOWER",
+      "min_m": [
+        -0.09000000357627869,
+        -0.009999999776482582,
+        -0.31200000643730164
+      ],
+      "max_m": [
+        0.09000000357627869,
+        -0.0020000000949949026,
+        -0.28999999165534973
+      ],
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 16,
+      "polygons": 10,
+      "actual_tessellated_triangles": 28,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "zero_area_tessellated_triangles": 0,
+      "signed_volume_m3": 2.1960013352259307e-05
+    },
+    {
+      "name": "PLATE_HOOK_LOWER",
+      "min_m": [
+        -0.07999999821186066,
+        -0.017999999225139618,
+        -0.30799999833106995
+      ],
+      "max_m": [
+        0.07999999821186066,
+        -0.005499999970197678,
+        -0.2879999876022339
+      ],
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 16,
+      "polygons": 10,
+      "actual_tessellated_triangles": 28,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "zero_area_tessellated_triangles": 0,
+      "signed_volume_m3": 1.424000449895639e-05
+    },
+    {
+      "name": "PAD_LOWER",
+      "min_m": [
+        -0.09000000357627869,
+        -0.0020000000949949026,
+        -0.31200000643730164
+      ],
+      "max_m": [
+        0.09000000357627869,
+        0.0,
+        -0.2879999876022339
+      ],
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 8,
+      "polygons": 6,
+      "actual_tessellated_triangles": 12,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "zero_area_tessellated_triangles": 0,
+      "signed_volume_m3": 8.640007534325731e-06
+    },
+    {
+      "name": "SLIDER_GUIDE",
+      "min_m": [
+        0.10400000214576721,
+        -0.017999999225139618,
+        -0.31700000166893005
+      ],
+      "max_m": [
+        0.11599999666213989,
+        -0.004999999888241291,
+        -0.3100000023841858
+      ],
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 16,
+      "polygons": 10,
+      "actual_tessellated_triangles": 28,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "zero_area_tessellated_triangles": 0,
+      "signed_volume_m3": 7.320005648429413e-07
+    },
+    {
+      "name": "LOCKED_SLIDER",
+      "min_m": [
+        0.0820000022649765,
+        -0.012000000104308128,
+        -0.3149999976158142
+      ],
+      "max_m": [
+        0.10599999874830246,
+        -0.006000000052154064,
+        -0.31200000643730164
+      ],
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 16,
+      "polygons": 16,
+      "actual_tessellated_triangles": 32,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "zero_area_tessellated_triangles": 0,
+      "signed_volume_m3": 4.049990298785592e-07
+    },
+    {
+      "name": "LOCK_STOP",
+      "min_m": [
+        0.07999999821186066,
+        -0.017999999225139618,
+        -0.3149999976158142
+      ],
+      "max_m": [
+        0.0820000022649765,
+        -0.011500000022351742,
+        -0.31200000643730164
+      ],
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 8,
+      "polygons": 6,
+      "actual_tessellated_triangles": 12,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "zero_area_tessellated_triangles": 0,
+      "signed_volume_m3": 3.89999595729094e-08
+    },
+    {
+      "name": "RELEASE_STOP",
+      "min_m": [
+        0.11599999666213989,
+        -0.017999999225139618,
+        -0.31700000166893005
+      ],
+      "max_m": [
+        0.11800000071525574,
+        -0.006000000052154064,
+        -0.31200000643730164
+      ],
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 16,
+      "polygons": 10,
+      "actual_tessellated_triangles": 28,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "zero_area_tessellated_triangles": 0,
+      "signed_volume_m3": 1.0200013956413147e-07
+    }
+  ],
+  "source_bounds_m": {
+    "min": [
+      -0.11999999731779099,
+      -0.019999999552965164,
+      -0.41999998688697815
+    ],
+    "max": [
+      0.11999999731779099,
+      0.0,
+      0.41999998688697815
+    ]
+  },
+  "source_count": 1,
+  "component_count": 11,
+  "material_shared_count": 1,
+  "uv": {
+    "density_min_px_per_m": 63.93677538908775,
+    "density_max_px_per_m": 64.02180479587057,
+    "density_mean_px_per_m": 64.00011477119476,
+    "actual_triangles_checked": 532,
+    "source_matches_json": true,
+    "numerical_relative_tolerance": 0.002,
+    "max_relative_deviation": 0.0009878845455039142,
+    "note": "float32 UV quantization on tiny round-corner triangles; target reference64, not atlas size"
+  },
+  "packed_image_sha256": {
+    "SIGN_TRIAL_BaseColor": "6cf81eea76f07f2b6629c7b5b467ac10884c999be2a2d8222d84e3bf065fd4ac",
+    "SIGN_TRIAL_Roughness": "c955b2148bfc0d2187280487addf936a3ecc1f03cf66e5cfdbc7a5bedb93990a",
+    "REFERENCE_ORIGINAL_128_RGBA_SIGN": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+  },
+  "host_mesh_and_uv_match_accepted_data": true,
+  "opaque_visibility": {
+    "A_front_samples_hit_carrier": 9,
+    "B_front_samples_hit_opaque_host": 9
+  },
+  "protected_inputs": {
+    "count": 53,
+    "all_raw_sha256_unchanged": true,
+    "differences": []
+  },
+  "side_tool_paths": {
+    "actual_mesh_segments": [
+      {
+        "pose": "locked",
+        "shaft_start_m": [
+          0.125,
+          -0.013500000350177288,
+          -0.31349998712539673
+        ],
+        "shaft_end_m": [
+          0.10199999809265137,
+          -0.013500000350177288,
+          -0.31349998712539673
+        ],
+        "bent_tip_end_m": [
+          0.10199999809265137,
+          -0.005900000222027302,
+          -0.31349998712539673
+        ],
+        "shaft_and_eye_rays_clear": true
+      },
+      {
+        "pose": "released",
+        "shaft_start_m": [
+          0.125,
+          -0.013500000350177288,
+          -0.31349998712539673
+        ],
+        "shaft_end_m": [
+          0.1120000034570694,
+          -0.013500000350177288,
+          -0.31349998712539673
+        ],
+        "bent_tip_end_m": [
+          0.1120000034570694,
+          -0.005900000222027302,
+          -0.31349998712539673
+        ],
+        "shaft_and_eye_rays_clear": true
+      }
+    ],
+    "scope": "zero-radius ray segments only; real finite tool size/hand clearance/strength pending"
+  },
+  "assembly_motion": {
+    "poses_checked": 8,
+    "boolean_pairs_with_positive_aabb_overlap": 10,
+    "positive_volume_fixed_moving_intersections": [],
+    "threshold_m3": 1e-10,
+    "scope": "sampled fixed-vs-moving path; not manufacturing tolerance, hand/tool or load test",
+    "anti_lift_contact_cm": {
+      "slider_top_z": -31.2,
+      "seat_bottom_z": -31.2,
+      "locked_x_overlap": 0.8,
+      "released_x_gap": 0.2,
+      "hook_y_clearance": 0.05
+    },
+    "anti_retreat_mechanism": "functional candidate only, not validated"
+  },
+  "fbx_round_trip": {
+    "passed": true,
+    "binary_version": 7400,
+    "axis_unit_metadata": {
+      "UpAxis": 2,
+      "UpAxisSign": 1,
+      "FrontAxis": 1,
+      "FrontAxisSign": 1,
+      "CoordAxis": 0,
+      "CoordAxisSign": -1,
+      "UnitScaleFactor": 100.0
+    },
+    "mesh_components": 11,
+    "asset_sets": 1,
+    "all_vertex_positions_and_uv_corners_match": true,
+    "host_character_floor_camera_exported": false,
+    "parts": [
+      {
+        "name": "CARRIER_TRAY",
+        "min_m": [
+          -0.11999999731779099,
+          -0.02000001072883606,
+          -0.41999998688697815
+        ],
+        "max_m": [
+          0.11999999731779099,
+          -0.009999989531934261,
+          0.41999998688697815
+        ],
+        "origin_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 150,
+        "polygons": 296,
+        "actual_tessellated_triangles": 296,
+        "non_manifold_edges": 0,
+        "zero_area_faces": 0,
+        "zero_area_tessellated_triangles": 0,
+        "signed_volume_m3": 0.0004373734481364923
+      },
+      {
+        "name": "COLUMN_SEAT_LOWER",
+        "min_m": [
+          -0.09000000357627869,
+          -0.010000007227063179,
+          -0.31200000643730164
+        ],
+        "max_m": [
+          0.09000000357627869,
+          -0.0019999921787530184,
+          -0.28999999165534973
+        ],
+        "origin_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 16,
+        "polygons": 28,
+        "actual_tessellated_triangles": 28,
+        "non_manifold_edges": 0,
+        "zero_area_faces": 0,
+        "zero_area_tessellated_triangles": 0,
+        "signed_volume_m3": 2.1960013352259334e-05
+      },
+      {
+        "name": "COLUMN_SEAT_UPPER",
+        "min_m": [
+          -0.09000000357627869,
+          -0.010000007227063179,
+          0.2879999876022339
+        ],
+        "max_m": [
+          0.09000000357627869,
+          -0.0019999921787530184,
+          0.3100000023841858
+        ],
+        "origin_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 16,
+        "polygons": 28,
+        "actual_tessellated_triangles": 28,
+        "non_manifold_edges": 0,
+        "zero_area_faces": 0,
+        "zero_area_tessellated_triangles": 0,
+        "signed_volume_m3": 2.1960013352259334e-05
+      },
+      {
+        "name": "LOCKED_SLIDER",
+        "min_m": [
+          0.0820000022649765,
+          -0.011999992653727531,
+          -0.3149999976158142
+        ],
+        "max_m": [
+          0.10599999874830246,
+          -0.005999990738928318,
+          -0.31200000643730164
+        ],
+        "origin_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 16,
+        "polygons": 32,
+        "actual_tessellated_triangles": 32,
+        "non_manifold_edges": 0,
+        "zero_area_faces": 0,
+        "zero_area_tessellated_triangles": 0,
+        "signed_volume_m3": 4.0499902987855264e-07
+      },
+      {
+        "name": "LOCK_STOP",
+        "min_m": [
+          0.07999999821186066,
+          -0.01799999177455902,
+          -0.3149999976158142
+        ],
+        "max_m": [
+          0.0820000022649765,
+          -0.011499992571771145,
+          -0.31200000643730164
+        ],
+        "origin_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "polygons": 12,
+        "actual_tessellated_triangles": 12,
+        "non_manifold_edges": 0,
+        "zero_area_faces": 0,
+        "zero_area_tessellated_triangles": 0,
+        "signed_volume_m3": 3.899995957290892e-08
+      },
+      {
+        "name": "PAD_LOWER",
+        "min_m": [
+          -0.09000000357627869,
+          -0.002000008011236787,
+          -0.31200000643730164
+        ],
+        "max_m": [
+          0.09000000357627869,
+          7.868050211357058e-09,
+          -0.2879999876022339
+        ],
+        "origin_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "polygons": 12,
+        "actual_tessellated_triangles": 12,
+        "non_manifold_edges": 0,
+        "zero_area_faces": 0,
+        "zero_area_tessellated_triangles": 0,
+        "signed_volume_m3": 8.640007534325733e-06
+      },
+      {
+        "name": "PAD_UPPER",
+        "min_m": [
+          -0.09000000357627869,
+          -0.002000008011236787,
+          0.2879999876022339
+        ],
+        "max_m": [
+          0.09000000357627869,
+          7.868050211357058e-09,
+          0.31200000643730164
+        ],
+        "origin_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "polygons": 12,
+        "actual_tessellated_triangles": 12,
+        "non_manifold_edges": 0,
+        "zero_area_faces": 0,
+        "zero_area_tessellated_triangles": 0,
+        "signed_volume_m3": 8.640007534325733e-06
+      },
+      {
+        "name": "PLATE_HOOK_LOWER",
+        "min_m": [
+          -0.07999999821186066,
+          -0.018000006675720215,
+          -0.30799999833106995
+        ],
+        "max_m": [
+          0.07999999821186066,
+          -0.005499992985278368,
+          -0.2879999876022339
+        ],
+        "origin_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 16,
+        "polygons": 28,
+        "actual_tessellated_triangles": 28,
+        "non_manifold_edges": 0,
+        "zero_area_faces": 0,
+        "zero_area_tessellated_triangles": 0,
+        "signed_volume_m3": 1.4240004498956413e-05
+      },
+      {
+        "name": "PLATE_HOOK_UPPER",
+        "min_m": [
+          -0.07999999821186066,
+          -0.018000006675720215,
+          0.2919999957084656
+        ],
+        "max_m": [
+          0.07999999821186066,
+          -0.005499992985278368,
+          0.31200000643730164
+        ],
+        "origin_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 16,
+        "polygons": 28,
+        "actual_tessellated_triangles": 28,
+        "non_manifold_edges": 0,
+        "zero_area_faces": 0,
+        "zero_area_tessellated_triangles": 0,
+        "signed_volume_m3": 1.4240004498956359e-05
+      },
+      {
+        "name": "RELEASE_STOP",
+        "min_m": [
+          0.11599999666213989,
+          -0.017999989911913872,
+          -0.31700000166893005
+        ],
+        "max_m": [
+          0.11800000071525574,
+          -0.005999989807605743,
+          -0.31200000643730164
+        ],
+        "origin_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 16,
+        "polygons": 28,
+        "actual_tessellated_triangles": 28,
+        "non_manifold_edges": 0,
+        "zero_area_faces": 0,
+        "zero_area_tessellated_triangles": 0,
+        "signed_volume_m3": 1.0200013956413312e-07
+      },
+      {
+        "name": "SLIDER_GUIDE",
+        "min_m": [
+          0.10400000214576721,
+          -0.017999989911913872,
+          -0.31700000166893005
+        ],
+        "max_m": [
+          0.11599999666213989,
+          -0.00499998964369297,
+          -0.3100000023841858
+        ],
+        "origin_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 16,
+        "polygons": 28,
+        "actual_tessellated_triangles": 28,
+        "non_manifold_edges": 0,
+        "zero_area_faces": 0,
+        "zero_area_tessellated_triangles": 0,
+        "signed_volume_m3": 7.320005648429495e-07
+      }
+    ]
+  },
+  "source_unchanged_by_reopen": true,
+  "protected_inputs_after": {
+    "count": 53,
+    "all_raw_sha256_unchanged": true,
+    "differences": []
+  },
+  "UE_validation_performed": false
+}

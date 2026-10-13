@@ -1,3 +1,7 @@
+# 校牌单体试作01完成待审 · 2026-10-14
+
+[试作入口](../ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/README.md)。已完成R01装配/锁定/拆卸候选、1源11组件/286点/216面/532三角、基础UV与256²临时BaseColor/Roughness、同日光A/B与正背侧顶/拆分核对。源实际重开/单套FBX回导、8姿态及两工具轴线通过；53保护输入保持。待审滑舌方案/哑光材色；锚固/止退/有限工具公差/承载/字面/UE未验，无宿主或工程写入。
+
 # 本轮完成：校牌确认与试作卡发布 · 2026-10-14
 
 已完成：记录用户“可以”的确认范围；发布[Trial01任务卡](AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_SIGN_PLATE_01_TRIAL_01.md)，写明ID、只读参考、厘米包络/轴心、复用、装配前置、交付及验收。

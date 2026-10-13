@@ -1,0 +1,803 @@
+{
+  "blender_version": "5.2.2 LTS",
+  "source_count": 1,
+  "component_count": 11,
+  "parts": [
+    {
+      "name": "CARRIER_TRAY",
+      "bounds_m": {
+        "min": [
+          -0.11999999731779099,
+          -0.019999999552965164,
+          -0.41999998688697815
+        ],
+        "max": [
+          0.11999999731779099,
+          -0.009999999776482582,
+          0.41999998688697815
+        ]
+      },
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 150,
+      "edges": 270,
+      "polygons": 122,
+      "triangles": 296,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume_m3": 0.00043737344813649207,
+      "material_slots": 1
+    },
+    {
+      "name": "COLUMN_SEAT_UPPER",
+      "bounds_m": {
+        "min": [
+          -0.09000000357627869,
+          -0.009999999776482582,
+          0.2879999876022339
+        ],
+        "max": [
+          0.09000000357627869,
+          -0.0020000000949949026,
+          0.3100000023841858
+        ]
+      },
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 16,
+      "edges": 24,
+      "polygons": 10,
+      "triangles": 28,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume_m3": 2.1960013352259307e-05,
+      "material_slots": 1
+    },
+    {
+      "name": "PLATE_HOOK_UPPER",
+      "bounds_m": {
+        "min": [
+          -0.07999999821186066,
+          -0.017999999225139618,
+          0.2919999957084656
+        ],
+        "max": [
+          0.07999999821186066,
+          -0.005499999970197678,
+          0.31200000643730164
+        ]
+      },
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 16,
+      "edges": 24,
+      "polygons": 10,
+      "triangles": 28,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume_m3": 1.424000449895639e-05,
+      "material_slots": 1
+    },
+    {
+      "name": "PAD_UPPER",
+      "bounds_m": {
+        "min": [
+          -0.09000000357627869,
+          -0.0020000000949949026,
+          0.2879999876022339
+        ],
+        "max": [
+          0.09000000357627869,
+          0.0,
+          0.31200000643730164
+        ]
+      },
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 8,
+      "edges": 12,
+      "polygons": 6,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume_m3": 8.640007534325731e-06,
+      "material_slots": 1
+    },
+    {
+      "name": "COLUMN_SEAT_LOWER",
+      "bounds_m": {
+        "min": [
+          -0.09000000357627869,
+          -0.009999999776482582,
+          -0.31200000643730164
+        ],
+        "max": [
+          0.09000000357627869,
+          -0.0020000000949949026,
+          -0.28999999165534973
+        ]
+      },
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 16,
+      "edges": 24,
+      "polygons": 10,
+      "triangles": 28,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume_m3": 2.1960013352259307e-05,
+      "material_slots": 1
+    },
+    {
+      "name": "PLATE_HOOK_LOWER",
+      "bounds_m": {
+        "min": [
+          -0.07999999821186066,
+          -0.017999999225139618,
+          -0.30799999833106995
+        ],
+        "max": [
+          0.07999999821186066,
+          -0.005499999970197678,
+          -0.2879999876022339
+        ]
+      },
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 16,
+      "edges": 24,
+      "polygons": 10,
+      "triangles": 28,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume_m3": 1.424000449895639e-05,
+      "material_slots": 1
+    },
+    {
+      "name": "PAD_LOWER",
+      "bounds_m": {
+        "min": [
+          -0.09000000357627869,
+          -0.0020000000949949026,
+          -0.31200000643730164
+        ],
+        "max": [
+          0.09000000357627869,
+          0.0,
+          -0.2879999876022339
+        ]
+      },
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 8,
+      "edges": 12,
+      "polygons": 6,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume_m3": 8.640007534325731e-06,
+      "material_slots": 1
+    },
+    {
+      "name": "SLIDER_GUIDE",
+      "bounds_m": {
+        "min": [
+          0.10400000214576721,
+          -0.017999999225139618,
+          -0.31700000166893005
+        ],
+        "max": [
+          0.11599999666213989,
+          -0.004999999888241291,
+          -0.3100000023841858
+        ]
+      },
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 16,
+      "edges": 24,
+      "polygons": 10,
+      "triangles": 28,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume_m3": 7.320005648429413e-07,
+      "material_slots": 1
+    },
+    {
+      "name": "LOCKED_SLIDER",
+      "bounds_m": {
+        "min": [
+          0.0820000022649765,
+          -0.012000000104308128,
+          -0.3149999976158142
+        ],
+        "max": [
+          0.10599999874830246,
+          -0.006000000052154064,
+          -0.31200000643730164
+        ]
+      },
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 16,
+      "edges": 32,
+      "polygons": 16,
+      "triangles": 32,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume_m3": 4.049990298785592e-07,
+      "material_slots": 1
+    },
+    {
+      "name": "LOCK_STOP",
+      "bounds_m": {
+        "min": [
+          0.07999999821186066,
+          -0.017999999225139618,
+          -0.3149999976158142
+        ],
+        "max": [
+          0.0820000022649765,
+          -0.011500000022351742,
+          -0.31200000643730164
+        ]
+      },
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 8,
+      "edges": 12,
+      "polygons": 6,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume_m3": 3.89999595729094e-08,
+      "material_slots": 1
+    },
+    {
+      "name": "RELEASE_STOP",
+      "bounds_m": {
+        "min": [
+          0.11599999666213989,
+          -0.017999999225139618,
+          -0.31700000166893005
+        ],
+        "max": [
+          0.11800000071525574,
+          -0.006000000052154064,
+          -0.31200000643730164
+        ]
+      },
+      "origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 16,
+      "edges": 24,
+      "polygons": 10,
+      "triangles": 28,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume_m3": 1.0200013956413147e-07,
+      "material_slots": 1
+    }
+  ],
+  "source_bounds_m": {
+    "min": [
+      -0.11999999731779099,
+      -0.019999999552965164,
+      -0.41999998688697815
+    ],
+    "max": [
+      0.11999999731779099,
+      0.0,
+      0.41999998688697815
+    ]
+  },
+  "total_vertices": 286,
+  "total_polygons": 216,
+  "total_triangles": 532,
+  "installed": {
+    "one_target_set": true,
+    "pivot_engineering_m": [
+      -3.3,
+      -0.27,
+      9.4
+    ],
+    "bounds_m": {
+      "min": [
+        -3.419999837875366,
+        -0.2900000214576721,
+        8.979999542236328
+      ],
+      "max": [
+        -3.180000066757202,
+        -0.27000001072883606,
+        9.819999694824219
+      ]
+    },
+    "contact_pads": [
+      {
+        "name": "INSTALLED_PAD_UPPER",
+        "bounds_m": {
+          "min": [
+            -3.3899998664855957,
+            -0.2720000147819519,
+            9.687999725341797
+          ],
+          "max": [
+            -3.2100000381469727,
+            -0.27000001072883606,
+            9.711999893188477
+          ]
+        },
+        "origin_m": [
+          -3.299999952316284,
+          -0.27000001072883606,
+          9.399999618530273
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "edges": 12,
+        "polygons": 6,
+        "triangles": 12,
+        "non_manifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume_m3": 8.640007534325731e-06,
+        "material_slots": 1
+      },
+      {
+        "name": "INSTALLED_PAD_LOWER",
+        "bounds_m": {
+          "min": [
+            -3.3899998664855957,
+            -0.2720000147819519,
+            9.08799934387207
+          ],
+          "max": [
+            -3.2100000381469727,
+            -0.27000001072883606,
+            9.11199951171875
+          ]
+        },
+        "origin_m": [
+          -3.299999952316284,
+          -0.27000001072883606,
+          9.399999618530273
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vertices": 8,
+        "edges": 12,
+        "polygons": 6,
+        "triangles": 12,
+        "non_manifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume_m3": 8.640007534325731e-06,
+        "material_slots": 1
+      }
+    ],
+    "host": {
+      "name": "READONLY_ACCEPTED_PIER_LEFT",
+      "bounds_m": {
+        "min": [
+          -3.5999999046325684,
+          -0.30000001192092896,
+          8.0
+        ],
+        "max": [
+          -3.0,
+          0.30000001192092896,
+          10.399999618530273
+        ]
+      },
+      "origin_m": [
+        -3.299999952316284,
+        0.0,
+        8.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 40,
+      "edges": 76,
+      "polygons": 38,
+      "triangles": 76,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume_m3": 0.7266454251971928,
+      "material_slots": 1
+    },
+    "right_host": {
+      "name": "CHECK_RIGHT_ACCEPTED_HOST",
+      "bounds_m": {
+        "min": [
+          3.0,
+          -0.30000001192092896,
+          8.0
+        ],
+        "max": [
+          3.5999999046325684,
+          0.30000001192092896,
+          10.399999618530273
+        ]
+      },
+      "origin_m": [
+        3.299999952316284,
+        0.0,
+        8.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 40,
+      "edges": 76,
+      "polygons": 38,
+      "triangles": 76,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume_m3": 0.7266454251971928,
+      "material_slots": 1
+    },
+    "minimum_opening_m": 6.0,
+    "road_width_reference_m": 5,
+    "platform_top_reference_m": 8
+  },
+  "views": {
+    "A": {
+      "azimuth_deg": 225,
+      "elevation_deg": 30,
+      "host_opaque": true,
+      "native_px": [
+        1600,
+        1400
+      ],
+      "ortho_scale_m": 4.6,
+      "camera_m": [
+        -8.13660717010498,
+        -4.286607265472412,
+        12.680000305175781
+      ],
+      "target_m": [
+        -3.8499999046325684,
+        0.0,
+        9.180000305175781
+      ],
+      "character_reference_points_px": {
+        "0": [
+          541.752290725708,
+          1184.5709830522537
+        ],
+        "1.8": [
+          541.7522430419922,
+          642.3636674880981
+        ],
+        "1.92": [
+          541.7522430419922,
+          606.2166452407837
+        ]
+      },
+      "same_source_meshes": true,
+      "front_patch_ray_first_hits": [
+        {
+          "front_sample_m": [
+            -3.4000000953674316,
+            -0.290010005235672,
+            9.020000457763672
+          ],
+          "first_hit": "INSTALLED_CARRIER_TRAY"
+        },
+        {
+          "front_sample_m": [
+            -3.4000000953674316,
+            -0.290010005235672,
+            9.399999618530273
+          ],
+          "first_hit": "INSTALLED_CARRIER_TRAY"
+        },
+        {
+          "front_sample_m": [
+            -3.4000000953674316,
+            -0.290010005235672,
+            9.779999732971191
+          ],
+          "first_hit": "INSTALLED_CARRIER_TRAY"
+        },
+        {
+          "front_sample_m": [
+            -3.299999952316284,
+            -0.290010005235672,
+            9.020000457763672
+          ],
+          "first_hit": "INSTALLED_CARRIER_TRAY"
+        },
+        {
+          "front_sample_m": [
+            -3.299999952316284,
+            -0.290010005235672,
+            9.399999618530273
+          ],
+          "first_hit": "INSTALLED_CARRIER_TRAY"
+        },
+        {
+          "front_sample_m": [
+            -3.299999952316284,
+            -0.290010005235672,
+            9.779999732971191
+          ],
+          "first_hit": "INSTALLED_CARRIER_TRAY"
+        },
+        {
+          "front_sample_m": [
+            -3.200000047683716,
+            -0.290010005235672,
+            9.020000457763672
+          ],
+          "first_hit": "INSTALLED_CARRIER_TRAY"
+        },
+        {
+          "front_sample_m": [
+            -3.200000047683716,
+            -0.290010005235672,
+            9.399999618530273
+          ],
+          "first_hit": "INSTALLED_CARRIER_TRAY"
+        },
+        {
+          "front_sample_m": [
+            -3.200000047683716,
+            -0.290010005235672,
+            9.779999732971191
+          ],
+          "first_hit": "INSTALLED_CARRIER_TRAY"
+        }
+      ]
+    },
+    "B": {
+      "azimuth_deg": 45,
+      "elevation_deg": 30,
+      "host_opaque": true,
+      "native_px": [
+        1600,
+        1400
+      ],
+      "ortho_scale_m": 4.6,
+      "camera_m": [
+        0.43660736083984375,
+        4.286607265472412,
+        12.680000305175781
+      ],
+      "target_m": [
+        -3.8499999046325684,
+        0.0,
+        9.180000305175781
+      ],
+      "character_reference_points_px": {
+        "0": [
+          1058.247947692871,
+          926.3232707977295
+        ],
+        "1.8": [
+          1058.2478523254395,
+          384.1161847114563
+        ],
+        "1.92": [
+          1058.2478523254395,
+          347.9687452316284
+        ]
+      },
+      "same_source_meshes": true,
+      "front_patch_ray_first_hits": [
+        {
+          "front_sample_m": [
+            -3.4000000953674316,
+            -0.290010005235672,
+            9.020000457763672
+          ],
+          "first_hit": "READONLY_ACCEPTED_PIER_LEFT"
+        },
+        {
+          "front_sample_m": [
+            -3.4000000953674316,
+            -0.290010005235672,
+            9.399999618530273
+          ],
+          "first_hit": "READONLY_ACCEPTED_PIER_LEFT"
+        },
+        {
+          "front_sample_m": [
+            -3.4000000953674316,
+            -0.290010005235672,
+            9.779999732971191
+          ],
+          "first_hit": "READONLY_ACCEPTED_PIER_LEFT"
+        },
+        {
+          "front_sample_m": [
+            -3.299999952316284,
+            -0.290010005235672,
+            9.020000457763672
+          ],
+          "first_hit": "READONLY_ACCEPTED_PIER_LEFT"
+        },
+        {
+          "front_sample_m": [
+            -3.299999952316284,
+            -0.290010005235672,
+            9.399999618530273
+          ],
+          "first_hit": "READONLY_ACCEPTED_PIER_LEFT"
+        },
+        {
+          "front_sample_m": [
+            -3.299999952316284,
+            -0.290010005235672,
+            9.779999732971191
+          ],
+          "first_hit": "READONLY_ACCEPTED_PIER_LEFT"
+        },
+        {
+          "front_sample_m": [
+            -3.200000047683716,
+            -0.290010005235672,
+            9.020000457763672
+          ],
+          "first_hit": "READONLY_ACCEPTED_PIER_LEFT"
+        },
+        {
+          "front_sample_m": [
+            -3.200000047683716,
+            -0.290010005235672,
+            9.399999618530273
+          ],
+          "first_hit": "READONLY_ACCEPTED_PIER_LEFT"
+        },
+        {
+          "front_sample_m": [
+            -3.200000047683716,
+            -0.290010005235672,
+            9.779999732971191
+          ],
+          "first_hit": "READONLY_ACCEPTED_PIER_LEFT"
+        }
+      ]
+    }
+  },
+  "original_character_packed_sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd",
+  "daylight": {
+    "engine": "CYCLES_CPU",
+    "samples": 48,
+    "sun_energy": 1.8,
+    "sun_angle_deg": 5,
+    "incoming_sun_direction": [
+      0.5,
+      0.6,
+      -1
+    ],
+    "world_strength": 0.45,
+    "world_color": [
+      0.65,
+      0.68,
+      0.72
+    ],
+    "view_transform": "Standard",
+    "film_transparent": false
+  },
+  "export": {
+    "use_selection": true,
+    "object_types": [
+      "MESH"
+    ],
+    "global_scale": 1.0,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "axis_forward": "-Y",
+    "axis_up": "Z",
+    "bake_space_transform": false,
+    "use_mesh_modifiers": true,
+    "mesh_smooth_type": "OFF",
+    "use_triangles": true,
+    "bake_anim": false,
+    "path_mode": "RELATIVE",
+    "embed_textures": false,
+    "use_custom_props": true
+  },
+  "assembly_supplement_existed_before_mesh": true,
+  "UE_imports": 0
+}

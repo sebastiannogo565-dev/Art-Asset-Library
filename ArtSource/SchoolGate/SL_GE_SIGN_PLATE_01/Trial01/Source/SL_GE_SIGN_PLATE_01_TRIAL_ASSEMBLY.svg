@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2600" height="1800" viewBox="0 0 2600 1800"><defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6" fill="#d08a40"/></marker></defs><g font-family="Microsoft YaHei, sans-serif">
+<rect x="0" y="0" width="2600" height="1800" rx="8" fill="#edf2ef" stroke="#d4dedb" stroke-width="2"/>
+<text x="65" y="75" font-size="42" fill="#283d43">SL_GE_SIGN_PLATE_01 · Trial01 装配 / 锁定 / 拆卸补充</text>
+<text x="65" y="120" font-size="25" fill="#283d43">先完成本说明，再生成网格。尺寸cm；示意工艺待核；非施工/锚固认证。</text>
+<rect x="50" y="160" width="1220" height="675" rx="8" fill="#ffffff" stroke="#d4dedb" stroke-width="2"/>
+<rect x="1300" y="160" width="1250" height="675" rx="8" fill="#ffffff" stroke="#d4dedb" stroke-width="2"/>
+<rect x="50" y="870" width="1220" height="665" rx="8" fill="#ffffff" stroke="#d4dedb" stroke-width="2"/>
+<rect x="1300" y="870" width="1250" height="665" rx="8" fill="#ffffff" stroke="#d4dedb" stroke-width="2"/>
+<text x="80" y="205" font-size="31" fill="#283d43">01 先固定柱侧座，再挂入牌体</text>
+<rect x="223.0" y="210.0" width="174.0" height="580.0" rx="8" fill="#e1dfd4" stroke="#d4dedb" stroke-width="2"/>
+<rect x="240.4" y="256.4" width="139.2" height="487.2" rx="8" fill="#60767a" stroke="#d4dedb" stroke-width="2"/>
+<rect x="257.8" y="667.04" width="104.39999999999999" height="13.92" rx="8" fill="#adc3be" stroke="#d4dedb" stroke-width="2"/>
+<rect x="257.8" y="319.04" width="104.39999999999999" height="13.92" rx="8" fill="#adc3be" stroke="#d4dedb" stroke-width="2"/>
+<circle cx="269.4" cy="674.0" r="5" fill="#e5bc77"/>
+<circle cx="269.4" cy="326.0" r="5" fill="#e5bc77"/>
+<circle cx="350.6" cy="674.0" r="5" fill="#e5bc77"/>
+<circle cx="350.6" cy="326.0" r="5" fill="#e5bc77"/>
+<path d="M560,600 L560,540" fill="none" stroke="#d08a40" stroke-width="4" marker-end="url(#a)"/>
+<text x="595" y="570" font-size="24" fill="#283d43">上抬1.8</text>
+<text x="635" y="270" font-size="26" fill="#283d43">① 垫 → 柱侧座；牌未遮座时</text>
+<text x="635" y="310" font-size="24" fill="#283d43">    从南面安装，四轴不等于已定孔。</text>
+<text x="635" y="375" font-size="26" fill="#283d43">② 倒U钩/导座预装在牌背。</text>
+<text x="635" y="435" font-size="26" fill="#283d43">③ 滑舌先退+X 1.0至解锁位。</text>
+<text x="635" y="495" font-size="26" fill="#283d43">④ 抬高1.8、外移−Y 0.6，</text>
+<text x="635" y="535" font-size="26" fill="#283d43">    再向+Y靠近、沿−Z落座。</text>
+<text x="635" y="600" font-size="24" fill="#283d43">支承布置Z中心±30，柱侧宽18。</text>
+<text x="635" y="642" font-size="24" fill="#283d43">牌侧挂钩宽16，不顶折边。</text>
+<text x="635" y="702" font-size="24" fill="#283d43">永久包络仍24×84×2；服务扫掠另计。</text>
+<text x="80" y="800" font-size="22" fill="#283d43">正视只示意层关系；青色座在实际正面被牌皮遮住。</text>
+<text x="1330" y="205" font-size="31" fill="#283d43">02 同源截面 · 柱侧U座 / 牌侧倒U钩</text>
+<polygon points="1934.00,685.00 1934.00,355.00 1836.00,355.00 1836.00,655.00 1766.00,655.00 1766.00,385.00 1710.00,385.00 1710.00,685.00" fill="#a5b9b5" stroke="#304a51" stroke-width="2"/>
+<polygon points="1486.00,625.00 1542.00,625.00 1542.00,355.00 1780.00,355.00 1780.00,565.00 1836.00,565.00 1836.00,325.00 1486.00,325.00" fill="#60767a" stroke="#304a51" stroke-width="2"/>
+<rect x="1990" y="325" width="65" height="360" rx="8" fill="#8d9692" stroke="#d4dedb" stroke-width="2"/>
+<text x="2070" y="350" font-size="24" fill="#283d43">垫0.2</text>
+<path d="M2055,275 L2055,735" fill="none" stroke="#b2aca0" stroke-width="4"/>
+<text x="2070" y="420" font-size="24" fill="#283d43">柱接触Y0</text>
+<text x="1400" y="755" font-size="22" fill="#283d43">横向放大：X宽省略，Y/Z比例不同；以标注数值为准。</text>
+<text x="2070" y="490" font-size="23" fill="#283d43">前皮 Y−2..−1.8</text>
+<text x="2070" y="535" font-size="23" fill="#283d43">折边回深到Y−1</text>
+<text x="2070" y="580" font-size="23" fill="#283d43">钩净隙0.05候选</text>
+<text x="2070" y="625" font-size="23" fill="#283d43">上抬1.8可越过座顶</text>
+<text x="2070" y="670" font-size="22" fill="#283d43">板厚/公差不作制造保证</text>
+<text x="80" y="915" font-size="31" fill="#283d43">03 右侧防抬滑舌 · 闭合正面后仍有入口</text>
+<rect x="190.0" y="1098.8" width="57.0" height="91.2" rx="8" fill="#a5b9b5" stroke="#d4dedb" stroke-width="2"/>
+<rect x="216.59999999999997" y="1190.0" width="91.2" height="11.4" rx="8" fill="#60767a" stroke="#d4dedb" stroke-width="2"/>
+<rect x="254.59999999999997" y="1190.0" width="91.2" height="11.4" fill="none" stroke="#d08a40" stroke-width="3" stroke-dasharray="7 5"/>
+<rect x="300.20000000000005" y="1182.4" width="45.6" height="26.599999999999998" rx="8" fill="#b8c4bf" stroke="#d4dedb" stroke-width="2"/>
+<path d="M425,1250 L490,1250" fill="none" stroke="#d08a40" stroke-width="4" marker-end="url(#a)"/>
+<text x="100" y="1300" font-size="22" fill="#283d43">虚线＝+X退1.0，舌左端9.2越过座右端9.0</text>
+<path d="M560,1170 L440,1170" fill="none" stroke="#d08a40" stroke-width="4" marker-end="url(#a)"/>
+<text x="570" y="1180" font-size="24" fill="#283d43">+X侧细钩工具 →</text>
+<text x="635" y="1000" font-size="24" fill="#283d43">锁位：舌X8.2..10.6，顶Z−31.2。</text>
+<text x="635" y="1042" font-size="24" fill="#283d43">解锁：舌X9.2..11.6（仍在宽24内）。</text>
+<text x="635" y="1084" font-size="24" fill="#283d43">与下座右端8mm重叠，限制上抬。</text>
+<text x="635" y="1240" font-size="26" fill="#283d43">东侧折边服务口：</text>
+<text x="635" y="1280" font-size="24" fill="#283d43">Z−31.8..−30.9，Y−1.8..−1。</text>
+<text x="635" y="1320" font-size="23" fill="#283d43">导座留通道、末止位开口、舌片留钩孔。</text>
+<text x="90" y="1400" font-size="23" fill="#283d43">末步：拟止退弹片/定位槽防滑舌自退；只作功能注记，尺寸/力/抗振待核。</text>
+<text x="90" y="1450" font-size="23" fill="#283d43">未做亚像素螺丝；舌挡抬升的几何成立 ≠ 已验证可长期自锁/承载。</text>
+<text x="1330" y="915" font-size="31" fill="#283d43">04 拆卸与尺寸边界</text>
+<text x="1340" y="978" font-size="24" fill="#283d43">从同一东侧口解除止退 → 钩拉滑舌+X 1.0。</text>
+<text x="1340" y="1027" font-size="24" fill="#283d43">牌侧组件抬高1.8 → 向街侧−Y移0.6 → 取下。</text>
+<text x="1340" y="1076" font-size="24" fill="#283d43">柱侧座/接触垫留柱，拆座时才再次露出四轴。</text>
+<text x="1340" y="1125" font-size="24" fill="#283d43">服务期间可临时超出静态Z/Y；不是扩大成品。</text>
+<text x="1340" y="1174" font-size="24" fill="#283d43">抬升后宿主局部最高Z183.8，仍低于可用190。</text>
+<text x="1340" y="1223" font-size="24" fill="#283d43">永久局部包络X±12 / Y−2..0 / Z±42。</text>
+<text x="1340" y="1272" font-size="24" fill="#283d43">安装轴心：宿主(0,−27,140)，工程(−330,−27,940)。</text>
+<text x="1340" y="1321" font-size="24" fill="#283d43">原柱未改；净口600、道路500、平台800保持。</text>
+<text x="1340" y="1370" font-size="24" fill="#283d43">新增：分离座/钩、滑舌/导座/止位及折边服务口。</text>
+<text x="1340" y="1419" font-size="24" fill="#283d43">未定：锚固/止退/接头工艺/工具公差/承载/耐候。</text>
+<text x="65" y="1600" font-size="28" fill="#283d43">装配候选：先座后牌、挂接落座、右侧防抬、同侧释放。校名空白；仅此一源、一安装实例。</text>
+<text x="65" y="1650" font-size="24" fill="#283d43">此图＝可编辑设计补充；网格实测与真实日光预览另交。隐藏部件示意不等于不透明宿主背向可见。</text>
+<text x="65" y="1710" font-size="24" fill="#283d43">规划待判断：是否接受该挂接/侧口方案；如何验证止退与真实锚固；校名及后续独立字面继续待定。</text>
+</g></svg>
