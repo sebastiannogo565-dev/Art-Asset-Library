@@ -1,3 +1,7 @@
+# 试作01执行及同步完成 · 2026-10-13
+
+34个本轮相关文件成果提交[d79c4ba6d7f06211878379988b9addad973408a7](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/d79c4ba6d7f06211878379988b9addad973408a7)正常推送origin/main，远端完整哈希匹配。现有LFS规则实际上传2/2对象（.blend/.fbx，共130403字节，终端130KB）；dry-run为空且退出0。步骤已完成，设计原候选/工程未动，试作回件停止供审阅；此同步记录另作普通收尾提交，最终HEAD见最终报告。
+
 # 门柱试作01执行结果 · 2026-10-13
 
 按已发布试作卡完成：13来源指纹核对→米制同源网格40顶点/38四边面/76三角形→6岛基础UV约64px/m、共享1槽/2临时256贴图→同日光A/B与M1/M2比较/实际五面检查→独立重开与单源FBX回导（含UV角点）通过。入口[试作文件](../ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/README.md)。

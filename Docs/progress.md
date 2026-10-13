@@ -1,3 +1,7 @@
+# 试作01Git/LFS实际完成 · 2026-10-13
+
+成果提交[d79c4ba6d7f06211878379988b9addad973408a7](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/d79c4ba6d7f06211878379988b9addad973408a7)已推送且远端匹配；LFS2/2、130KB，PNG为普通Git，dry-run无待上传。已跟踪工作区干净，原setup_blender_mcp.py/setup_codex_blender_mcp.py/verify_blender_mcp.py三个无关未跟踪脚本保留；本地.blend1备份按原规则忽略，未提交。试作文件/技术核对已交付，材质与P01—03仍待规划窗口审阅，UE验收0，无其他资产进行中。
+
 # 门柱试作01制作侧验收完成 · 2026-10-13
 
 [实际试作回件](../ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/README.md)：源.blend和单源.fbx、基础UV、共享BaseColor/Roughness各256²、M1/M2各32/64样块、1600×1400真实日光A/B、实际网格五面检查已完成。源重开和FBX回导（尺寸/轴心/顶点/UV）通过；13来源指纹和原人物打包字节一致，离线净口600/平台顶800通过。
