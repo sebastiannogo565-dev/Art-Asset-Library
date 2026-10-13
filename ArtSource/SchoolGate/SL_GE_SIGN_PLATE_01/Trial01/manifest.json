@@ -1166,15 +1166,15 @@
     },
     {
       "path": "README.md",
-      "bytes": 6227,
-      "sha256": "1682f209de912048d35b7205d4b6179932d3dacfd44a82c5b6396e886fdc64a5",
+      "bytes": 6740,
+      "sha256": "bd12b109b202796df5f9668432a25f02988a122ba2e149e5d42fc1b71031f244",
       "hash_mode": "raw bytes",
       "git_storage": "ordinary Git"
     },
     {
       "path": "review.md",
-      "bytes": 4572,
-      "sha256": "178db25b53e7437ad256de8074feec50da1f046ed9bf12024384da7f43c08195",
+      "bytes": 5298,
+      "sha256": "52f6fed2231b77f152955c96ca0835e5a1ce67e0c2ace4f4c8540bcd7a415593",
       "hash_mode": "raw bytes",
       "git_storage": "ordinary Git"
     },
@@ -1292,7 +1292,7 @@
     "remote": "https://github.com/sebastiannogo565-dev/Art-Asset-Library.git",
     "starting_commit": "d2f76dcc2c60ab4aa21d260b3ef16d0e7e1115ac",
     "planning_chat_status_before_git": "idle; latest turn completed; compact snapshot recorded in task tools",
-    "status": "prepared_for_scoped_commit_and_normal_push; actual sync to be appended after verification",
+    "status": "first_delivery_commit_normally_pushed_and_remote_verified; sync_record_follow_up_commit",
     "LFS_paths": [
       "Exports/SL_GE_SIGN_PLATE_01_TRIAL_01.fbx",
       "Source/SL_GE_SIGN_PLATE_01_TRIAL_01.blend"
@@ -1302,7 +1302,17 @@
       "setup_blender_mcp.py",
       "setup_codex_blender_mcp.py",
       "verify_blender_mcp.py"
-    ]
+    ],
+    "actual_first_delivery_commit": "53218947d57c605b9a16883fed816a5dd231e31d",
+    "actual_remote_main_after_delivery": "53218947d57c605b9a16883fed816a5dd231e31d",
+    "LFS_uploaded_objects": 2,
+    "LFS_uploaded_log": "100% (2/2), 192 KB, done",
+    "LFS_dry_run_after_delivery": {
+      "output": "empty",
+      "exit_code": 0
+    },
+    "tracked_workspace_after_first_push": "clean",
+    "final_HEAD": "reported in final response after ordinary sync-record commit; not self-referenced here"
   },
   "stop": "await review; no next asset, final name graphics or UE"
 }
