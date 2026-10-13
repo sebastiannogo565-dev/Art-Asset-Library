@@ -1,3 +1,7 @@
+# 当前：校牌单体试作01规划审阅
+
+[审阅结论](Docs/AssetPlanning/SchoolGate/Batch01/review-sign-plate-trial-01.md)：建议接受空白载体的尺寸、安装、哑光青灰及挂接/侧滑美术候选；止退、有限工具和锚固仍未验。等待用户确认，不修改试作或发布下一卡。
+
 # 当前回件：校牌载体单体试作01 · 2026-10-14
 
 [试作、装配与验收](ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/README.md)：已完成用户授权的一套24×84cm空白载体，牌体1/总2、左柱南面中心140、哑光青灰；补挂接/东侧滑舌/拆卸说明，源重开与单套FBX回导通过。原门柱/Design/SchoolLife只读；真实B被柱遮挡。锚固/止退/工具公差、字面和UE仍待核，交付停审。
