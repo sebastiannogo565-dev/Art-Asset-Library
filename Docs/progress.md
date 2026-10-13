@@ -1,3 +1,7 @@
+# 门柱试作01审阅完成 · 2026-10-13
+
+实际查看四预览，独立复算JSON40点/38面/76三角/60×60×240、76三角UV约64px/m；25交付文件与13参考SHA一致。详见[审阅](AssetPlanning/SchoolGate/Batch01/review-trial-01.md)。建议通过试作、保克制M1/M2与共享256²，接受薄带同材和槽省略。用户认可/实际UE未验，本窗口不重开Blender/FBX，不修改源/贴图或新卡，新资产0。
+
 # 试作01Git/LFS实际完成 · 2026-10-13
 
 成果提交[d79c4ba6d7f06211878379988b9addad973408a7](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/d79c4ba6d7f06211878379988b9addad973408a7)已推送且远端匹配；LFS2/2、130KB，PNG为普通Git，dry-run无待上传。已跟踪工作区干净，原setup_blender_mcp.py/setup_codex_blender_mcp.py/verify_blender_mcp.py三个无关未跟踪脚本保留；本地.blend1备份按原规则忽略，未提交。试作文件/技术核对已交付，材质与P01—03仍待规划窗口审阅，UE验收0，无其他资产进行中。

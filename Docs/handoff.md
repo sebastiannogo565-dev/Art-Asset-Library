@@ -1,3 +1,9 @@
+# 门柱试作01规划窗口审阅待确认 · 2026-10-13
+
+[审阅结论](AssetPlanning/SchoolGate/Batch01/review-trial-01.md)：建议通过本次单体试作，不需回炉；P01接受同材0.6cm带和暂省槽，P02保当前低对比M1/M2与64px/m共享256²临时图集，P03牌/墙/基础接口继续待核。成品材色与取舍由用户确认，不代最终材质或UE验收。
+
+本窗口只读预览/文件与独立JSON复算，源重开/FBX回导引用制作側记录，未重新执行。Trial01/工程原字节不改，未自动发新制作卡、其他资产或UE任务；用户确认后再确定下一阶段。
+
 # 试作01交付与远端同步实绩 · 2026-10-13
 
 [试作入口](../ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/README.md)；成果提交[d79c4ba6d7f06211878379988b9addad973408a7](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/d79c4ba6d7f06211878379988b9addad973408a7)的34个相关文件已正常推送origin/main，完整远端哈希一致。LFS实际2/2对象/130403字节（终端130KB），源.blend与.fbx的暂存OID对应manifest原字节SHA；PNG及其余文本普通Git，dry-run为空/退出0。已跟踪工作区干净，原三个无关脚本保留未跟踪。
