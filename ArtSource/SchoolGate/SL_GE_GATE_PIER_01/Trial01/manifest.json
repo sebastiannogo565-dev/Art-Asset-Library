@@ -589,6 +589,8 @@
       "other_assets_production"
     ],
     "review_record": "Docs/AssetPlanning/SchoolGate/Batch01/review-trial-01.md",
-    "original_deliverables_unchanged": true
+    "original_deliverables_unchanged": true,
+    "original_readme_is_frozen_delivery_record": true,
+    "current_status_authority": "manifest.status plus Docs/AssetPlanning/SchoolGate/Batch01/review-trial-01.md; old README waiting-state preserved as delivery history"
   }
 }

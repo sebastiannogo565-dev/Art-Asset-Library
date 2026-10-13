@@ -1,7 +1,3 @@
-# 规划窗口用户接受记录 · 2026-10-13
-
-用户已接受本Trial01：保当前临时材色/64px/m共享256²、同材座浆带与暂省滴水槽。见[规划审阅与确认](../../../../Docs/AssetPlanning/SchoolGate/Batch01/review-trial-01.md)。状态为已接受单体试作，不是最终纹理/UE验收；原模型、贴图、预览和制作側验收不改。以下交付正文/旧“待审”是原发布历史，当前以此条与manifest为准。
-
 # SL_GE_GATE_PIER_01 · 单体试作01
 
 2026-10-13。按[规划任务卡](../../../../Docs/AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_GATE_PIER_01_TRIAL_01.md)制作，**试作文件已交付，等待规划窗口/用户审阅**。仅一个门柱源，Design原候选保留；这不是最终材质批准或UE可用资产验收。

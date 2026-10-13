@@ -1,3 +1,9 @@
+# 接受状态与校牌卡同步记录 · 2026-10-13
+
+[校牌载体设计卡](AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_SIGN_PLATE_01_DESIGN_01.md)及门柱接受状态成果提交[f6454b265aef9f3d29073bc959ed07f9b5a26fc4](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/f6454b265aef9f3d29073bc959ed07f9b5a26fc4)已正常推送origin/main，远端完整匹配。原Trial01 README属于25原始交付指纹，收尾保留其原字节；当前接受状态以manifest与规划审阅为准，原README“待审”按交付历史读。
+
+只管理元数据/Markdown，本轮新LFS对象0，模型/贴图/预览/工程未改。此收尾普通提交将核最终HEAD，不改历史；原三个无关未跟踪脚本保留。卡供用户转交，未自动启用设计或建模。
+
 # 门柱试作已接受：下一张校牌设计卡 · 2026-10-13
 
 [SL_GE_SIGN_PLATE_01_DESIGN_01](AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_SIGN_PLATE_01_DESIGN_01.md)已准备，含完整转交文本和八类字段。按批次顺序先独立载体设计，不是校牌网格/最终字面；宿主门柱只读、30×100仅可用面比较，正式校名/宽高厚/孔位待核。
