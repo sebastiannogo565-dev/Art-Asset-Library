@@ -1,3 +1,9 @@
+# 当前交接：SL_GE_GATE_PIER_01设计候选01 · 2026-10-13
+
+用户已在单体聊天转交并启动设计，[规格与文件索引](../ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Design/SL_GE_GATE_PIER_01_SPEC.md)；源SVG/PNG/JSON/重建脚本/REVIEW同目录。推荐暖灰柱身、青灰台座与低矮压顶，高32＋192＋16=240cm，最大60×60，底轴心、−Y正面、左右底坐标(±330,0,800)保持。南面30×100安装区只是候选注记，无校牌。推荐后续先试64px/m，32px/m比较保留；用户尚未认可。
+
+下一步只等待用户审阅；设计认可并获正式建模授权后再做模型/UV/最终纹理。需要规划窗口判断：压顶/台座比例与材料方向、校牌可用区候选是否适配后续独立牌、V13历史大足迹与本次灰盒包络差异继续保留。SchoolLife及V13只读未改，基础/墙接口待核；UE接入由开发聊天执行。未自动向其他聊天发消息。规划聊天idle且最后Git收尾1780890已结束；本轮Git只收相关设计/状态文档，实绩随后记录。
+
 # 校门第一批交付与同步 · 2026-10-13
 
 [规划表](AssetPlanning/SchoolGate/Batch01/asset-list.md)／[制作顺序](AssetPlanning/SchoolGate/Batch01/production-order.md)／[首张门柱任务卡](AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_GATE_PIER_01.md)。首卡等待用户转交，未自动发送其他聊天或建模。

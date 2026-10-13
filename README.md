@@ -1,3 +1,7 @@
+# 当前单体设计：校门门柱候选01
+
+[定尺图与规格](ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Design/SL_GE_GATE_PIER_01_SPEC.md)：SL_GE_GATE_PIER_01单体设计已交付待用户审阅；60×60×240cm、底中心轴心、南面−Y，一个未来源/两次复用。五正交面＋两向30°同源几何比例图、32/64px每米比较。未建模/UV/最终纹理/UE接入；SchoolLife只读。下方规划记录保留历史。
+
 # 当前资产规划：校门入口第一批
 
 [资产表与制作顺序](Docs/AssetPlanning/SchoolGate/Batch01/README.md)／[首张门柱任务卡](Docs/AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_GATE_PIER_01.md)。只规划，写实建筑结构＋像素纹理＋自然光照，地形/道路/高差沿用已建灰盒；未生图/单体设计/建模。单体由用户另聊天逐项转交。旧V13与世界几何保留。

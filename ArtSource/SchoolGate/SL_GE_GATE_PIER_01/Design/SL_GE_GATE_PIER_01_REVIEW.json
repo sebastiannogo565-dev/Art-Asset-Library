@@ -1,0 +1,136 @@
+{
+  "asset_id": "SL_GE_GATE_PIER_01",
+  "date": "2026-10-13",
+  "stage": "design_awaiting_user_review",
+  "geometry_sha256": "c2fd570b4c0636439d9f8977f787deed0b7c60dc2b2035e6d45cef7bc1e1af16",
+  "checks": {
+    "envelope_cm": [
+      60,
+      60,
+      240
+    ],
+    "pivot_cm": [
+      0,
+      0,
+      0
+    ],
+    "front": "-Y",
+    "source_count": 1,
+    "future_instance_count": 2,
+    "minimum_clear_opening_cm": 600,
+    "shaft_clear_opening_cm": 606,
+    "road_width_cm": 500,
+    "platform_top_engineering_z_cm": 800,
+    "orthographic_views": [
+      "south",
+      "north",
+      "east",
+      "west",
+      "top"
+    ],
+    "opposite_camera_azimuths_deg": [
+      225,
+      45
+    ],
+    "camera_elevation_deg": 30,
+    "sign_reserve_annotation_only_cm": [
+      30,
+      100
+    ],
+    "embedded_character_copies": 2,
+    "embedded_character_bytes_equal_original": true,
+    "reference_fingerprints_match": 13,
+    "png_native_px": [
+      3200,
+      3100
+    ],
+    "png_alpha_all_opaque": true,
+    "spec_links_resolve": true
+  },
+  "manual_visual_review": {
+    "orthos_and_labels": "passed",
+    "two_views_and_character_layers": "passed",
+    "pixel_density_sample_edges": "passed_after_removing_rasterizer_grid_artifacts",
+    "review_is_not_user_approval": true
+  },
+  "reference_fingerprints": [
+    {
+      "path": "D:/Art Asset Library/ArtSource/MapDesign/V13/SL_WORLD_V13_LAYOUT_01.json",
+      "sha256": "20149b825e420c885ce80468da052067caddc46e9663128471538be047518e72",
+      "matches_planning_fingerprint": true
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/MapDesign/V13/SL_WORLD_V13_PLAN_01.svg",
+      "sha256": "eb7af2e9b15c08a4b8d4d6642a0cbb757b687229329719cb78f571fc792e32a1",
+      "matches_planning_fingerprint": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/LifeCoreBlockout/Step1/Plan.json",
+      "sha256": "69b9d71e299f5e3f4dec5da370dd77c28c9109ea3a23a28d6ad436ceee205db8",
+      "matches_planning_fingerprint": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/LifeCoreBlockout/Step2/ActorRecipe.json",
+      "sha256": "68225f5fd79bb471495b176ed50b7be518ffde19af9b442bf92158bf9b77f146",
+      "matches_planning_fingerprint": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/LifeCoreBlockout/Step2/Observations.md",
+      "sha256": "89e3ff5068e32a2742dcbe88117c34c768a271109a5f66fafa48e9ebb9a170fd",
+      "matches_planning_fingerprint": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/LifeCoreBlockout/Step2/prepare_geometry.py",
+      "sha256": "69ffd3785f466b8875b07eeeb5e6c08b124c71b0adfd1b2b60d9983ca3d600df",
+      "matches_planning_fingerprint": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/ArtSource/Characters/StudentChibi/FrontIdle/StudentChibi_Front_Idle.png",
+      "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd",
+      "matches_planning_fingerprint": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/StudentChibiFrontPreview/ImportedAssets.json",
+      "sha256": "07ba6a55a9502969a0d55a56136d80871b348dda17b05b25c7de21fdb9d58520",
+      "matches_planning_fingerprint": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Content/SchoolLife/Maps/CampusLifeBlockout.umap",
+      "sha256": "44fdd13420290da7d2d3f094ad7c0823a65cc1285a21dd613dacd3179d40455f",
+      "matches_planning_fingerprint": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Content/SchoolLife/Blockout/Materials/MI_BlockoutWall.uasset",
+      "sha256": "d2562ab74154902c8c74ed456e4f986d55a1f42316b12ad86610f7044546ac0c",
+      "matches_planning_fingerprint": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Content/SchoolLife/Blockout/Materials/MI_BlockoutGround.uasset",
+      "sha256": "e523fe034d85e9f378094d78040da34828532a1af961ccfb59e4e01d840806fb",
+      "matches_planning_fingerprint": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Content/SchoolLife/Blockout/Materials/MI_BlockoutPath.uasset",
+      "sha256": "6a31436e9cc4b9684eedfae4ea296fb5887f608ace952b1598ebe2ec546faf1b",
+      "matches_planning_fingerprint": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Content/SchoolLife/Blockout/Materials/MI_BlockoutProp.uasset",
+      "sha256": "ed03280ba5b9ea85f40b059c8c6364acda2891a2ee84d77f172653b0e67fd7fd",
+      "matches_planning_fingerprint": true
+    }
+  ],
+  "unverified": [
+    "user_shape_proportion_material_approval",
+    "formal_mesh_UV_final_textures",
+    "UE_lighting_filtering_collision_navigation_camera",
+    "foundation_wall_sign_anchors"
+  ],
+  "production_counts": {
+    "formal_models": 0,
+    "UVs": 0,
+    "final_texture_sets": 0,
+    "UE_imports": 0,
+    "AI_image_generations": 0
+  }
+}

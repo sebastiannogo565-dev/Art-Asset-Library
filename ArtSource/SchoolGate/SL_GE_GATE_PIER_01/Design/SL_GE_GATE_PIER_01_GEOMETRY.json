@@ -1,0 +1,36 @@
+{
+  "asset_id": "SL_GE_GATE_PIER_01",
+  "revision": "DESIGN_01",
+  "status": "candidate_awaiting_user_review",
+  "units": "cm",
+  "envelope": {"x": [-30, 30], "y": [-30, 30], "z": [0, 240]},
+  "pivot": [0, 0, 0],
+  "front": "-Y",
+  "up": "+Z",
+  "source_count": 1,
+  "future_instances": [[-330, 0, 800], [330, 0, 800]],
+  "platform": {"min": [-400, -50, 780], "max": [400, 450, 800]},
+  "road_width": 500,
+  "parts": [
+    {"id": "plinth", "material": "M2", "rings_z_halfwidth": [[0, 29], [1, 30], [28, 30], [32, 27]]},
+    {"id": "shaft", "material": "M1", "rings_z_halfwidth": [[32, 27], [223.4, 27]]},
+    {"id": "cap_bed", "material": "M3", "rings_z_halfwidth": [[223.4, 27], [224, 27]]},
+    {"id": "cap", "material": "M2", "rings_z_halfwidth": [[224, 30], [237, 30], [238, 29], [240, 6]]}
+  ],
+  "cap_drip_recess": {"underside_z": 224, "square_centerline_halfwidth": 28, "width": 0.6, "depth": 0.5, "status": "candidate_recess_inside_envelope"},
+  "sign_reserve": {"face": "-Y", "x": [-15, 15], "z": [90, 190], "face_y": -27, "status": "annotation_only_no_holes_no_plate"},
+  "character_reference": {"path": "D:/UE project/SchoolLife/ArtSource/Characters/StudentChibi/FrontIdle/StudentChibi_Front_Idle.png", "native_px": [128, 128], "alpha_bbox_px": [31, 4, 98, 120], "visible_height_cm": 180, "capsule_height_cm": 192, "capsule_diameter_cm": 68, "world_billboard_position_cm": [-115, 0, 0]},
+  "views": [
+    {"id": "south", "camera": "-Y", "screen_right": "+X"},
+    {"id": "north", "camera": "+Y", "screen_right": "-X"},
+    {"id": "east", "camera": "+X", "screen_right": "+Y"},
+    {"id": "west", "camera": "-X", "screen_right": "-Y"},
+    {"id": "top", "camera": "+Z", "screen_right": "+X", "screen_up": "+Y"},
+    {"id": "SW_to_NE", "camera_azimuth_deg_from_positive_x": 225, "elevation_deg": 30, "projection": "orthographic"},
+    {"id": "NE_to_SW", "camera_azimuth_deg_from_positive_x": 45, "elevation_deg": 30, "projection": "orthographic"}
+  ],
+  "density_candidates_px_per_m": [32, 64],
+  "recommended_density_px_per_m": 64,
+  "light_preview_direction": [-0.5, -0.6, 1],
+  "light_preview_note": "diagram face shading only; no UE render, no final base-color texture"
+}
