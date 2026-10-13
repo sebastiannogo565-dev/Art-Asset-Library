@@ -1,3 +1,9 @@
+# 门柱审阅同步与等待确认 · 2026-10-13
+
+[候选01审阅](AssetPlanning/SchoolGate/Batch01/review-candidate-01.md)已提交[a51649a43d3d64cf0219814ccd76890e7d89dcb1](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/a51649a43d3d64cf0219814ccd76890e7d89dcb1)，正常推送origin/main，完整远端哈希相同。6个审阅相关Markdown文件，候选图/几何/规格/源人物/工程未改；新LFS上传0，无新卡、图或模型。已跟踪工作区干净，原三个无关帮助脚本未跟踪保留。本同步条目为普通收尾提交，最终HEAD另核。
+
+等待用户确认J01造型比例、J02暖灰/青灰方向、J03密度试作和接续范围，再由本聊天发布相应任务卡、用户转交建模聊天。当前停审，未授权试作或正式生产。
+
 # 规划窗口：门柱01待用户确认 · 2026-10-13
 
 [具体审阅与判断项](AssetPlanning/SchoolGate/Batch01/review-candidate-01.md)。建议保留60×60×240和32/192/16造型，暖灰＋青灰方向、64px/m试用由用户确认；需后续补M2样块/同柱材色与自然光证据，亚像素槽缝不强制复杂制作。没有硬性尺寸接口冲突。
