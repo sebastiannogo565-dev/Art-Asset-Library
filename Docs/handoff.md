@@ -1,3 +1,9 @@
+# C01参考01同步实绩 · 2026-10-15
+
+成果提交[ad7f0fbcb2fb6d366275b8f38a9ce676599f9fc6](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/ad7f0fbcb2fb6d366275b8f38a9ce676599f9fc6)已普通推送origin/main，远端完整哈希一致。53相关文件＝44参考包＋9交接/索引；LFS实际上传1/1、载荷702323字节，PNG普通Git。推送后LFS dry-run为空/退出0，已跟踪工作区干净，只保原3无关未跟踪脚本；规划聊天idle/最后轮completed，HEAD起点与远端9a0850b相同、空索引/无锁核过，Git未并行，无强推。
+
+127项只读输入SHA保持，统一几何/洞口/24班/柜格检查通过；参考Blend真实重开6637源几何ID与JSON匹配。入库文本统一LF，暂存44回件指纹逐项吻合；换行归一不改变几何/7张预览，源指纹与native记录同步。正式模型/最终UV/UE仍0，B01原状态保持。实际最终HEAD由此实绩正常收尾提交产生，以最终报告为准；停止参考审阅。
+
 # 当前交接：C01整栋参考01制作回件 · 2026-10-15
 
 入口：[同源多视图包](../ArtSource/Buildings/SL_BLD_C01_MAIN_01/Reference/README.md)／[交规划审阅](AssetPlanning/BuildingProduction/C01/reference-01-handoff.md)。5主板＋6细部、精确JSON/305开口表、7个同简模日光预览、可编辑REFERENCE_ONLY源。体量/三门/24班/108庭/60露台保持；30主/36比较、900名义鞋格实排。RT01原588㎡独立保留，缺126㎡承托投影与坡面/原核/高程冲突待整体判断，虚线接近仅研究。规划审阅后再用户确认外观关键尺寸，不自动Trial或下一栋。
