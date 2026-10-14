@@ -1,0 +1,244 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3200" height="2400" viewBox="0 0 3200 2400"><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6" fill="#a9794b"/></marker></defs><g font-family="Microsoft YaHei,sans-serif">
+<rect x="0.000" y="0.000" width="3200.000" height="2400.000" fill="#edf1ec" stroke="none" stroke-width="2"/>
+<text x="55.000" y="70.000" font-size="43" fill="#2c4142">B01玩家家 · 同套首层 / 二层简化平面</text>
+<text x="55.000" y="120.000" font-size="26" fill="#2c4142">米制；房间净界、洞口和楼梯共享坐标。先做必要生活/睡眠空间，家庭备用房不生成新住户或玩法。</text>
+<rect x="45.000" y="165.000" width="1530.000" height="1630.000" fill="#ffffff" stroke="#bac6c0" stroke-width="2"/>
+<rect x="1610.000" y="165.000" width="1545.000" height="1630.000" fill="#ffffff" stroke="#bac6c0" stroke-width="2"/>
+<text x="75.000" y="220.000" font-size="28" fill="#2c4142">F01 地面/入口Z0；净79.189m²（含楼梯投影）</text>
+<text x="1640.000" y="220.000" font-size="28" fill="#2c4142">F02 完成面Z3.00；净71.616m²（不含洞口）</text>
+<rect x="270.000" y="330.000" width="990.000" height="1100.000" fill="#b5bcb5" stroke="#6f8077" stroke-width="2"/>
+<rect x="292.000" y="979.000" width="946.000" height="429.000" fill="#e5e1d5" stroke="#7a8880" stroke-width="2"/>
+<text x="688.000" y="1328.500" font-size="25" fill="#2c4142" text-anchor="middle">起居 / 餐厨</text>
+<text x="688.000" y="1364.500" font-size="22" fill="#2c4142" text-anchor="middle">33.54m² · 01</text>
+<rect x="667.100" y="605.000" width="372.900" height="363.000" fill="#e5e1d5" stroke="#7a8880" stroke-width="2"/>
+<text x="853.550" y="778.500" font-size="25" fill="#2c4142" text-anchor="middle">交通厅 / Home</text>
+<text x="853.550" y="814.500" font-size="22" fill="#2c4142" text-anchor="middle">11.19m² · 02</text>
+<rect x="1051.000" y="605.000" width="187.000" height="363.000" fill="#e5e1d5" stroke="#7a8880" stroke-width="2"/>
+<text x="1144.500" y="778.500" font-size="25" fill="#2c4142" text-anchor="middle">齐平玄关</text>
+<text x="1144.500" y="814.500" font-size="22" fill="#2c4142" text-anchor="middle">5.61m² · 03</text>
+<rect x="292.000" y="352.000" width="242.000" height="242.000" fill="#e5e1d5" stroke="#7a8880" stroke-width="2"/>
+<text x="413.000" y="465.000" font-size="25" fill="#2c4142" text-anchor="middle">浴室</text>
+<text x="413.000" y="501.000" font-size="22" fill="#2c4142" text-anchor="middle">4.84m² · 04</text>
+<rect x="545.000" y="352.000" width="231.000" height="242.000" fill="#e5e1d5" stroke="#7a8880" stroke-width="2"/>
+<text x="660.500" y="465.000" font-size="25" fill="#2c4142" text-anchor="middle">洗衣 / 洗面</text>
+<text x="660.500" y="501.000" font-size="22" fill="#2c4142" text-anchor="middle">4.62m² · 05</text>
+<rect x="787.000" y="352.000" width="110.000" height="242.000" fill="#e5e1d5" stroke="#7a8880" stroke-width="2"/>
+<text x="842.000" y="465.000" font-size="25" fill="#2c4142" text-anchor="middle">WC</text>
+<text x="842.000" y="501.000" font-size="22" fill="#2c4142" text-anchor="middle">2.20m² · 06</text>
+<rect x="908.000" y="352.000" width="330.000" height="242.000" fill="#d9e0da" stroke="#7a8880" stroke-width="2"/>
+<text x="1073.000" y="465.000" font-size="25" fill="#2c4142" text-anchor="middle">家务 / 书写</text>
+<text x="1073.000" y="501.000" font-size="22" fill="#2c4142" text-anchor="middle">6.60m² · 07</text>
+<rect x="292.000" y="869.000" width="364.100" height="99.000" fill="#e5e1d5" stroke="#7a8880" stroke-width="2"/>
+<text x="474.050" y="910.500" font-size="25" fill="#2c4142" text-anchor="middle">后勤过道</text>
+<text x="474.050" y="946.500" font-size="22" fill="#2c4142" text-anchor="middle">2.98m² · 08</text>
+<rect x="292.000" y="605.000" width="364.100" height="253.000" fill="#d0dcd8" stroke="#618782" stroke-width="2"/>
+<path d="M656.100 858.000 L656.100 737.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M656.100 726.000 L656.100 605.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M626.400 858.000 L626.400 737.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M626.400 726.000 L626.400 605.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M596.700 858.000 L596.700 737.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M596.700 726.000 L596.700 605.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M567.000 858.000 L567.000 737.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M567.000 726.000 L567.000 605.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M537.300 858.000 L537.300 737.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M537.300 726.000 L537.300 605.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M507.600 858.000 L507.600 737.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M507.600 726.000 L507.600 605.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M477.900 858.000 L477.900 737.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M477.900 726.000 L477.900 605.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M448.200 858.000 L448.200 737.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M448.200 726.000 L448.200 605.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M418.500 858.000 L418.500 737.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M418.500 726.000 L418.500 605.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M677.000 797.500 L418.500 797.500" fill="none" stroke="#a9794b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M418.500 665.500 L677.000 665.500" fill="none" stroke="#a9794b" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="300.800" y="748.000" font-size="21" fill="#2c4142">平台1.15</text>
+<text x="462.500" y="715.000" font-size="20" fill="#2c4142">上↑</text>
+<path d="M677.000 973.500 L787.000 973.500" fill="none" stroke="#f6f5ed" stroke-width="12"/>
+<path d="M677.000 973.500 L787.000 973.500" fill="none" stroke="#9b8066" stroke-width="2"/>
+<text x="740.000" y="965.500" font-size="17" fill="#2c4142">I01</text>
+<path d="M1045.500 946.000 L1045.500 814.000" fill="none" stroke="#f6f5ed" stroke-width="12"/>
+<path d="M1045.500 946.000 L1045.500 814.000" fill="none" stroke="#9b8066" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1053.500" y="872.000" font-size="17" fill="#2c4142">I02</text>
+<path d="M671.500 599.500 L759.500 599.500" fill="none" stroke="#f6f5ed" stroke-width="12"/>
+<path d="M671.500 599.500 L759.500 599.500" fill="none" stroke="#9b8066" stroke-width="2"/>
+<text x="723.500" y="591.500" font-size="17" fill="#2c4142">I03</text>
+<path d="M539.500 517.000 L539.500 429.000" fill="none" stroke="#f6f5ed" stroke-width="12"/>
+<path d="M539.500 517.000 L539.500 429.000" fill="none" stroke="#9b8066" stroke-width="2"/>
+<text x="547.500" y="465.000" font-size="17" fill="#2c4142">I04</text>
+<path d="M798.000 599.500 L886.000 599.500" fill="none" stroke="#f6f5ed" stroke-width="12"/>
+<path d="M798.000 599.500 L886.000 599.500" fill="none" stroke="#9b8066" stroke-width="2"/>
+<text x="850.000" y="591.500" font-size="17" fill="#2c4142">I05</text>
+<path d="M930.000 599.500 L1018.000 599.500" fill="none" stroke="#f6f5ed" stroke-width="12"/>
+<path d="M930.000 599.500 L1018.000 599.500" fill="none" stroke="#9b8066" stroke-width="2"/>
+<text x="982.000" y="591.500" font-size="17" fill="#2c4142">I06</text>
+<path d="M661.600 965.250 L661.600 871.750" fill="none" stroke="#f6f5ed" stroke-width="12"/>
+<path d="M661.600 965.250 L661.600 871.750" fill="none" stroke="#9b8066" stroke-width="2"/>
+<text x="669.600" y="910.500" font-size="17" fill="#2c4142">I07</text>
+<path d="M661.600 858.000 L661.600 737.000" fill="none" stroke="#f6f5ed" stroke-width="12"/>
+<path d="M661.600 858.000 L661.600 737.000" fill="none" stroke="#9b8066" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="669.600" y="789.500" font-size="17" fill="#2c4142">S01</text>
+<path d="M1260.000 968.000 L1260.000 792.000" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="1279.000" y="880.000" font-size="19" fill="#2c4142">D01</text>
+<path d="M270.000 965.250 L270.000 871.750" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="175.000" y="918.500" font-size="19" fill="#2c4142">D02</text>
+<path d="M1260.000 544.500 L1260.000 401.500" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="1279.000" y="473.000" font-size="19" fill="#2c4142">WF01</text>
+<path d="M1260.000 1298.000 L1260.000 1078.000" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="1279.000" y="1188.000" font-size="19" fill="#2c4142">WF02</text>
+<path d="M270.000 1298.000 L270.000 1122.000" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="175.000" y="1210.000" font-size="19" fill="#2c4142">WB01</text>
+<path d="M270.000 517.000 L270.000 429.000" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="175.000" y="473.000" font-size="19" fill="#2c4142">WB02</text>
+<path d="M270.000 786.500 L270.000 676.500" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="175.000" y="731.500" font-size="19" fill="#2c4142">WB05</text>
+<path d="M589.000 330.000 L721.000 330.000" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="655.000" y="310.000" font-size="19" fill="#2c4142" text-anchor="middle">WR01</text>
+<path d="M817.250 330.000 L866.750 330.000" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="842.000" y="310.000" font-size="19" fill="#2c4142" text-anchor="middle">WR02</text>
+<path d="M1007.000 330.000 L1139.000 330.000" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="1073.000" y="310.000" font-size="19" fill="#2c4142" text-anchor="middle">WR03</text>
+<path d="M402.000 1430.000 L578.000 1430.000" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="490.000" y="1466.000" font-size="19" fill="#2c4142" text-anchor="middle">WL01</text>
+<path d="M666.000 1430.000 L864.000 1430.000" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="765.000" y="1466.000" font-size="19" fill="#2c4142" text-anchor="middle">WL02</text>
+<path d="M974.000 1430.000 L1172.000 1430.000" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="1073.000" y="1466.000" font-size="19" fill="#2c4142" text-anchor="middle">WL03</text>
+<polygon points="1260.001,440.000 1259.999,1320.000 379.999,1319.999 380.001,439.999" fill="none" stroke="#588eaa" stroke-width="2"/>
+<path d="M1260.001 440.000 L1259.999 1320.000" fill="none" stroke="#588eaa" stroke-width="3" stroke-dasharray="9 6"/>
+<path d="M1259.999 1320.000 L379.999 1319.999" fill="none" stroke="#588eaa" stroke-width="3" stroke-dasharray="9 6"/>
+<path d="M379.999 1319.999 L380.001 439.999" fill="none" stroke="#588eaa" stroke-width="3" stroke-dasharray="9 6"/>
+<path d="M380.001 439.999 L1260.001 440.000" fill="none" stroke="#588eaa" stroke-width="3" stroke-dasharray="9 6"/>
+<circle cx="820.0000000004434" cy="879.9993698080351" r="7" fill="#397ea1"/>
+<text x="732.000" y="893.200" font-size="20" fill="#397ea1">保留Home锚点</text>
+<circle cx="763.566676351708" cy="1035.04865223771" r="7" fill="#9e7158"/>
+<text x="644.000" y="1067.000" font-size="20" fill="#2c4142">历史PlayerStart</text>
+<path d="M820.000 879.999 L1260.000 880.000" fill="none" stroke="#397ea1" stroke-width="3" stroke-dasharray="9 6" marker-end="url(#arrow)"/>
+<rect x="314.000" y="1100.000" width="66.000" height="264.000" fill="#c7bbab" stroke="#9d907e" stroke-width="2"/>
+<text x="347.000" y="1232.000" font-size="20" fill="#2c4142" text-anchor="middle">厨房</text>
+<rect x="644.000" y="1144.000" width="154.000" height="88.000" fill="#c7bbab" stroke="#9d907e" stroke-width="2"/>
+<text x="721.000" y="1188.000" font-size="20" fill="#2c4142" text-anchor="middle">餐桌</text>
+<rect x="952.000" y="1281.500" width="220.000" height="93.500" fill="#c7bbab" stroke="#9d907e" stroke-width="2"/>
+<text x="1062.000" y="1328.250" font-size="20" fill="#2c4142" text-anchor="middle">沙发</text>
+<path d="M270.000 1540.000 L1260.000 1540.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M264.000 1534.000 L276.000 1546.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M1254.000 1534.000 L1266.000 1546.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="765.000" y="1528.000" font-size="23" fill="#2c4142" text-anchor="middle">外墙进深9.00m</text>
+<path d="M143.500 1430.000 L143.500 330.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M137.500 1424.000 L149.500 1436.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M137.500 324.000 L149.500 336.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="121.500" y="880.000" font-size="23" fill="#2c4142" text-anchor="middle">正面宽10.00m</text>
+<text x="1194.000" y="220.000" font-size="22" fill="#2c4142">+Y右侧</text>
+<text x="1293.000" y="1375.000" font-size="22" fill="#2c4142">+X前</text>
+<rect x="1835.000" y="330.000" width="990.000" height="1100.000" fill="#b5bcb5" stroke="#6f8077" stroke-width="2"/>
+<rect x="2374.000" y="990.000" width="429.000" height="418.000" fill="#e5e1d5" stroke="#7a8880" stroke-width="2"/>
+<text x="2588.500" y="1191.000" font-size="25" fill="#2c4142" text-anchor="middle">玩家卧室</text>
+<text x="2588.500" y="1227.000" font-size="22" fill="#2c4142" text-anchor="middle">14.82m² · 11</text>
+<rect x="1857.000" y="990.000" width="506.000" height="418.000" fill="#d9e0da" stroke="#7a8880" stroke-width="2"/>
+<text x="2110.000" y="1191.000" font-size="25" fill="#2c4142" text-anchor="middle">家庭卧室A</text>
+<text x="2110.000" y="1227.000" font-size="22" fill="#2c4142" text-anchor="middle">17.48m² · 12</text>
+<rect x="2374.000" y="352.000" width="429.000" height="418.000" fill="#d9e0da" stroke="#7a8880" stroke-width="2"/>
+<text x="2588.500" y="553.000" font-size="25" fill="#2c4142" text-anchor="middle">家庭卧室B</text>
+<text x="2588.500" y="589.000" font-size="22" fill="#2c4142" text-anchor="middle">14.82m² · 13</text>
+<rect x="2374.000" y="781.000" width="429.000" height="198.000" fill="#e5e1d5" stroke="#7a8880" stroke-width="2"/>
+<text x="2588.500" y="872.000" font-size="25" fill="#2c4142" text-anchor="middle">二层交通厅</text>
+<text x="2588.500" y="908.000" font-size="22" fill="#2c4142" text-anchor="middle">7.02m² · 14</text>
+<rect x="2232.100" y="605.000" width="130.900" height="374.000" fill="#e5e1d5" stroke="#7a8880" stroke-width="2"/>
+<text x="2297.550" y="784.000" font-size="25" fill="#2c4142" text-anchor="middle">楼梯上口厅</text>
+<text x="2297.550" y="820.000" font-size="22" fill="#2c4142" text-anchor="middle">4.05m² · 15</text>
+<rect x="1857.000" y="869.000" width="364.100" height="110.000" fill="#e5e1d5" stroke="#7a8880" stroke-width="2"/>
+<text x="2039.050" y="916.000" font-size="25" fill="#2c4142" text-anchor="middle">后侧过道</text>
+<text x="2039.050" y="952.000" font-size="22" fill="#2c4142" text-anchor="middle">3.31m² · 16</text>
+<rect x="1857.000" y="352.000" width="506.000" height="242.000" fill="#d9e0da" stroke="#7a8880" stroke-width="2"/>
+<text x="2110.000" y="465.000" font-size="25" fill="#2c4142" text-anchor="middle">家用储物 / 晾衣</text>
+<text x="2110.000" y="501.000" font-size="22" fill="#2c4142" text-anchor="middle">10.12m² · 17</text>
+<rect x="1857.000" y="605.000" width="364.100" height="253.000" fill="#b2c5c4" stroke="#618782" stroke-width="2"/>
+<path d="M2221.100 858.000 L2221.100 737.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M2221.100 726.000 L2221.100 605.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M2191.400 858.000 L2191.400 737.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M2191.400 726.000 L2191.400 605.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M2161.700 858.000 L2161.700 737.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M2161.700 726.000 L2161.700 605.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M2132.000 858.000 L2132.000 737.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M2132.000 726.000 L2132.000 605.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M2102.300 858.000 L2102.300 737.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M2102.300 726.000 L2102.300 605.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M2072.600 858.000 L2072.600 737.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M2072.600 726.000 L2072.600 605.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M2042.900 858.000 L2042.900 737.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M2042.900 726.000 L2042.900 605.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M2013.200 858.000 L2013.200 737.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M2013.200 726.000 L2013.200 605.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M1983.500 858.000 L1983.500 737.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M1983.500 726.000 L1983.500 605.000" fill="none" stroke="#69817c" stroke-width="2"/>
+<path d="M2242.000 797.500 L1983.500 797.500" fill="none" stroke="#a9794b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M1983.500 665.500 L2242.000 665.500" fill="none" stroke="#a9794b" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1865.800" y="748.000" font-size="21" fill="#2c4142">平台1.15</text>
+<text x="2027.500" y="715.000" font-size="20" fill="#2c4142">上↑</text>
+<path d="M2226.600 726.000 L2226.600 605.000" fill="none" stroke="#f6f5ed" stroke-width="12"/>
+<path d="M2226.600 726.000 L2226.600 605.000" fill="none" stroke="#9b8066" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="2234.600" y="657.500" font-size="17" fill="#2c4142">S02</text>
+<path d="M2492.250 984.500 L2585.750 984.500" fill="none" stroke="#f6f5ed" stroke-width="12"/>
+<path d="M2492.250 984.500 L2585.750 984.500" fill="none" stroke="#9b8066" stroke-width="2"/>
+<text x="2547.000" y="976.500" font-size="17" fill="#2c4142">I11</text>
+<path d="M2030.250 984.500 L2123.750 984.500" fill="none" stroke="#f6f5ed" stroke-width="12"/>
+<path d="M2030.250 984.500 L2123.750 984.500" fill="none" stroke="#9b8066" stroke-width="2"/>
+<text x="2085.000" y="976.500" font-size="17" fill="#2c4142">I12</text>
+<path d="M2492.250 775.500 L2585.750 775.500" fill="none" stroke="#f6f5ed" stroke-width="12"/>
+<path d="M2492.250 775.500 L2585.750 775.500" fill="none" stroke="#9b8066" stroke-width="2"/>
+<text x="2547.000" y="767.500" font-size="17" fill="#2c4142">I13</text>
+<path d="M2368.500 528.000 L2368.500 440.000" fill="none" stroke="#f6f5ed" stroke-width="12"/>
+<path d="M2368.500 528.000 L2368.500 440.000" fill="none" stroke="#9b8066" stroke-width="2"/>
+<text x="2376.500" y="476.000" font-size="17" fill="#2c4142">I14</text>
+<path d="M2368.500 946.000 L2368.500 814.000" fill="none" stroke="#f6f5ed" stroke-width="12"/>
+<path d="M2368.500 946.000 L2368.500 814.000" fill="none" stroke="#9b8066" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="2376.500" y="872.000" font-size="17" fill="#2c4142">I15</text>
+<path d="M2226.600 973.500 L2226.600 874.500" fill="none" stroke="#f6f5ed" stroke-width="12"/>
+<path d="M2226.600 973.500 L2226.600 874.500" fill="none" stroke="#9b8066" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="2234.600" y="916.000" font-size="17" fill="#2c4142">I16</text>
+<path d="M2825.000 1292.500 L2825.000 1094.500" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="2844.000" y="1193.500" font-size="19" fill="#2c4142">WF03</text>
+<path d="M2825.000 665.500 L2825.000 467.500" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="2844.000" y="566.500" font-size="19" fill="#2c4142">WF04</text>
+<path d="M2825.000 929.500 L2825.000 830.500" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="2844.000" y="880.000" font-size="19" fill="#2c4142">WF05</text>
+<path d="M1835.000 1276.000 L1835.000 1078.000" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="1740.000" y="1177.000" font-size="19" fill="#2c4142">WB03</text>
+<path d="M1835.000 539.000 L1835.000 407.000" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="1740.000" y="473.000" font-size="19" fill="#2c4142">WB04</text>
+<path d="M1835.000 786.500 L1835.000 676.500" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="1740.000" y="731.500" font-size="19" fill="#2c4142">WB05</text>
+<path d="M1972.500 330.000 L2137.500 330.000" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="2055.000" y="310.000" font-size="19" fill="#2c4142" text-anchor="middle">WR04</text>
+<path d="M2451.000 330.000 L2649.000 330.000" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="2550.000" y="310.000" font-size="19" fill="#2c4142" text-anchor="middle">WR05</text>
+<path d="M2011.000 1430.000 L2209.000 1430.000" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="2110.000" y="1466.000" font-size="19" fill="#2c4142" text-anchor="middle">WL04</text>
+<path d="M2473.000 1430.000 L2671.000 1430.000" fill="none" stroke="#718d93" stroke-width="7"/>
+<text x="2572.000" y="1466.000" font-size="19" fill="#2c4142" text-anchor="middle">WL05</text>
+<rect x="2440.000" y="1254.000" width="220.000" height="110.000" fill="#c4ccbd" stroke="#8b9e8d" stroke-width="2"/>
+<text x="2451.000" y="1292.500" font-size="21" fill="#2c4142">床2×1m</text>
+<rect x="2731.500" y="1133.000" width="66.000" height="132.000" fill="#c7bbab" stroke="#9d907e" stroke-width="2"/>
+<text x="2693.000" y="1166.000" font-size="19" fill="#2c4142">书桌</text>
+<path d="M1835.000 1540.000 L2825.000 1540.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M1829.000 1534.000 L1841.000 1546.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M2819.000 1534.000 L2831.000 1546.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="2330.000" y="1528.000" font-size="23" fill="#2c4142" text-anchor="middle">外墙进深9.00m</text>
+<path d="M1708.500 1430.000 L1708.500 330.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M1702.500 1424.000 L1714.500 1436.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M1702.500 324.000 L1714.500 336.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="1686.500" y="880.000" font-size="23" fill="#2c4142" text-anchor="middle">正面宽10.00m</text>
+<text x="2759.000" y="220.000" font-size="22" fill="#2c4142">+Y右侧</text>
+<text x="2858.000" y="1375.000" font-size="22" fill="#2c4142">+X前</text>
+<text x="85.000" y="1600.000" font-size="24" fill="#2c4142">蓝虚线：原Home8×8；不可保旧低墙/家具后再叠新室内。</text>
+<text x="85.000" y="1655.000" font-size="24" fill="#2c4142">净房间/走道71.576m² ＋ 一层楼梯投影7.613m²。</text>
+<text x="1640.000" y="1600.000" font-size="24" fill="#2c4142">整块楼梯洞2.3×3.31=7.613m²；上口与一层楼梯同位。</text>
+<text x="1640.000" y="1655.000" font-size="24" fill="#2c4142">卧室A/B及储存有完整门窗边界；首期道具与开放待审。</text>
+<rect x="45.000" y="1840.000" width="3110.000" height="450.000" fill="#ffffff" stroke="#bac6c0" stroke-width="2"/>
+<text x="90.000" y="1905.000" font-size="29" fill="#2c4142">入口→交通厅→起居/餐厨保持原Home点与出门方向；原PlayerStart按历史worldY−1.5m落在起居区。</text>
+<text x="90.000" y="1970.000" font-size="29" fill="#2c4142">首期必要候选：玄关/交通厅、LDK、洗衣洗面/浴室/WC、折返楼梯、玩家卧室；不填满所有道具。</text>
+<text x="90.000" y="2035.000" font-size="29" fill="#2c4142">外墙0.20m / 内墙0.10m；相邻净房间之间的分隔只造一次，不给每个房间复制四面外墙。</text>
+<text x="90.000" y="2100.000" font-size="29" fill="#2c4142">楼梯18等高踏步，级高0.166667 / 级进0.27 / 两跑各9级、8踏面；净跑宽1.10、平台深1.15。</text>
+<text x="90.000" y="2165.000" font-size="29" fill="#2c4142">门编号I/S是组内洞口说明；不逐门开任务、不开发门动画。原灰盒只读，替换与导航由开发窗口另行处理。</text>
+<text x="55.000" y="2350.000" font-size="25" fill="#2c4142">受审住宅候选｜同一尺寸JSON派生；正式18×18足迹/工程/校门原文件不改。参考图 ≠ 正式模型/真实日光渲染/UE。</text>
+</g></svg>

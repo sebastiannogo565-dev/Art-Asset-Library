@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3200" height="2400" viewBox="0 0 3200 2400"><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6" fill="#a9794b"/></marker></defs><g font-family="Microsoft YaHei,sans-serif">
+<rect x="0.000" y="0.000" width="3200.000" height="2400.000" fill="#edf1ec" stroke="none" stroke-width="2"/>
+<text x="55.000" y="70.000" font-size="43" fill="#2c4142">B01玩家家 · 屋顶平面 / 入口与楼梯剖面 / 组分离</text>
+<text x="55.000" y="120.000" font-size="26" fill="#2c4142">檐0.55m、坡22°、墙厚/楼板/空洞均为受审候选；无结构/消防/实物施工合规认证。</text>
+<rect x="45.000" y="165.000" width="1450.000" height="1055.000" fill="#ffffff" stroke="#bac6c0" stroke-width="2"/>
+<rect x="1530.000" y="165.000" width="1625.000" height="1055.000" fill="#ffffff" stroke="#bac6c0" stroke-width="2"/>
+<rect x="45.000" y="1260.000" width="1450.000" height="1030.000" fill="#ffffff" stroke="#bac6c0" stroke-width="2"/>
+<rect x="1530.000" y="1260.000" width="1625.000" height="1030.000" fill="#ffffff" stroke="#bac6c0" stroke-width="2"/>
+<text x="85.000" y="215.000" font-size="28" fill="#2c4142">ROOF 屋顶平面；脊向X / 坡向±Y</text>
+<rect x="492.400" y="240.400" width="727.200" height="799.200" fill="#a1adaa" stroke="#708680" stroke-width="2"/>
+<rect x="532.000" y="280.000" width="648.000" height="720.000" fill="none" stroke="#aaa99d" stroke-width="2" stroke-dasharray="10 7"/>
+<path d="M492.400 640.000 L1219.600 640.000" fill="none" stroke="#516c6b" stroke-width="6"/>
+<path d="M604.000 607.600 L604.000 308.800" fill="none" stroke="#7e928a" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M604.000 672.400 L604.000 971.200" fill="none" stroke="#7e928a" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M892.000 607.600 L892.000 308.800" fill="none" stroke="#7e928a" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M892.000 672.400 L892.000 971.200" fill="none" stroke="#7e928a" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M1180.000 607.600 L1180.000 308.800" fill="none" stroke="#7e928a" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M1180.000 672.400 L1180.000 971.200" fill="none" stroke="#7e928a" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M492.400 1039.600 L1219.600 1039.600" fill="none" stroke="#516c6b" stroke-width="6"/>
+<circle cx="542.8000000000001" cy="1039.6" r="8" fill="#a9794b"/>
+<circle cx="1169.2" cy="1039.6" r="8" fill="#a9794b"/>
+<path d="M492.400 240.400 L1219.600 240.400" fill="none" stroke="#516c6b" stroke-width="6"/>
+<circle cx="542.8000000000001" cy="240.40000000000003" r="8" fill="#a9794b"/>
+<circle cx="1169.2" cy="240.40000000000003" r="8" fill="#a9794b"/>
+<rect x="1172.800" y="524.800" width="72.000" height="230.400" fill="#b9a58f" stroke="#8d7d6d" stroke-width="2"/>
+<path d="M492.400 1072.000 L1219.600 1072.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M486.400 1066.000 L498.400 1078.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M1213.600 1066.000 L1225.600 1078.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="856.000" y="1060.000" font-size="23" fill="#2c4142" text-anchor="middle">屋面投影长10.10</text>
+<path d="M452.800 1039.600 L452.800 240.400" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M446.800 1033.600 L458.800 1045.600" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M446.800 234.400 L458.800 246.400" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="380.800" y="640.000" font-size="23" fill="#2c4142" text-anchor="middle">11.10m</text>
+<text x="85.000" y="1100.000" font-size="23" fill="#2c4142">橙点：檐沟落水接口；管在EXTERIOR，沟在ROOF。</text>
+<text x="85.000" y="1144.000" font-size="23" fill="#2c4142">院界/地下接入未核；不将雨水出口擅接旧水道。</text>
+<text x="1570.000" y="215.000" font-size="28" fill="#2c4142">入口剖面 A-A（Y0，沿X）</text>
+<path d="M1670.000 995.000 L2645.000 995.000" fill="none" stroke="#65786a" stroke-width="5"/>
+<polygon points="1670.000,1025.000 2420.000,1025.000 2420.000,995.000 1670.000,995.000" fill="#b8c1b5" stroke="#65776e" stroke-width="2"/>
+<polygon points="2390.000,650.000 2420.000,650.000 2420.000,515.000 2390.000,515.000" fill="#d8d3c5" stroke="#65776e" stroke-width="2"/>
+<polygon points="1670.000,575.000 2390.000,575.000 2390.000,545.000 1670.000,545.000" fill="#b8c1b5" stroke="#65776e" stroke-width="2"/>
+<text x="2045.000" y="527.000" font-size="22" fill="#2c4142">二层板；上段墙省略</text>
+<polygon points="2420.000,642.500 2555.000,642.500 2555.000,620.000 2420.000,620.000" fill="#8b7564" stroke="#65776e" stroke-width="2"/>
+<path d="M1670.000 590.000 L2390.000 590.000" fill="none" stroke="#a4ada0" stroke-width="4"/>
+<path d="M2420.000 995.000 L2420.000 680.000" fill="none" stroke="#8b7564" stroke-width="8"/>
+<circle cx="1820" cy="995" r="8" fill="#397ea1"/>
+<text x="1745.000" y="957.500" font-size="22" fill="#2c4142">原Home点</text>
+<path d="M2487.500 995.000 L2487.500 680.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M2481.500 989.000 L2493.500 1001.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M2481.500 674.000 L2493.500 686.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="2570.000" y="830.000" font-size="23" fill="#2c4142" text-anchor="middle">净高2.10</text>
+<path d="M1865.000 995.000 L1865.000 590.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M1859.000 989.000 L1871.000 1001.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M1859.000 584.000 L1871.000 596.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="1745.000" y="770.000" font-size="23" fill="#2c4142" text-anchor="middle">净高2.70</text>
+<text x="1570.000" y="1100.000" font-size="23" fill="#2c4142">门槛/室内/现接近路均Z0：不新增台阶，不移动Home出生标高。</text>
+<text x="1570.000" y="1144.000" font-size="23" fill="#2c4142">顶板/灰盒替换、门洞缩窄与雨棚支承是后续待验证接口。</text>
+<text x="85.000" y="1310.000" font-size="28" fill="#2c4142">楼梯剖面 B-B：两跑投影展开（Y不同）</text>
+<path d="M1050.000 2140.000 L1050.000 2116.667" fill="none" stroke="#657e77" stroke-width="3"/>
+<path d="M1050.000 2116.667 L1012.200 2116.667" fill="none" stroke="#657e77" stroke-width="3"/>
+<path d="M1012.200 2116.667 L1012.200 2093.333" fill="none" stroke="#657e77" stroke-width="3"/>
+<path d="M1012.200 2093.333 L974.400 2093.333" fill="none" stroke="#657e77" stroke-width="3"/>
+<path d="M974.400 2093.333 L974.400 2070.000" fill="none" stroke="#657e77" stroke-width="3"/>
+<path d="M974.400 2070.000 L936.600 2070.000" fill="none" stroke="#657e77" stroke-width="3"/>
+<path d="M936.600 2070.000 L936.600 2046.667" fill="none" stroke="#657e77" stroke-width="3"/>
+<path d="M936.600 2046.667 L898.800 2046.667" fill="none" stroke="#657e77" stroke-width="3"/>
+<path d="M898.800 2046.667 L898.800 2023.333" fill="none" stroke="#657e77" stroke-width="3"/>
+<path d="M898.800 2023.333 L861.000 2023.333" fill="none" stroke="#657e77" stroke-width="3"/>
+<path d="M861.000 2023.333 L861.000 2000.000" fill="none" stroke="#657e77" stroke-width="3"/>
+<path d="M861.000 2000.000 L823.200 2000.000" fill="none" stroke="#657e77" stroke-width="3"/>
+<path d="M823.200 2000.000 L823.200 1976.667" fill="none" stroke="#657e77" stroke-width="3"/>
+<path d="M823.200 1976.667 L785.400 1976.667" fill="none" stroke="#657e77" stroke-width="3"/>
+<path d="M785.400 1976.667 L785.400 1953.333" fill="none" stroke="#657e77" stroke-width="3"/>
+<path d="M785.400 1953.333 L747.600 1953.333" fill="none" stroke="#657e77" stroke-width="3"/>
+<path d="M747.600 1953.333 L747.600 1930.000" fill="none" stroke="#657e77" stroke-width="3"/>
+<path d="M586.600 1930.000 L747.600 1930.000" fill="none" stroke="#657e77" stroke-width="8"/>
+<path d="M747.600 1930.000 L747.600 1906.667" fill="none" stroke="#8c9e85" stroke-width="3"/>
+<path d="M747.600 1906.667 L785.400 1906.667" fill="none" stroke="#8c9e85" stroke-width="3"/>
+<path d="M785.400 1906.667 L785.400 1883.333" fill="none" stroke="#8c9e85" stroke-width="3"/>
+<path d="M785.400 1883.333 L823.200 1883.333" fill="none" stroke="#8c9e85" stroke-width="3"/>
+<path d="M823.200 1883.333 L823.200 1860.000" fill="none" stroke="#8c9e85" stroke-width="3"/>
+<path d="M823.200 1860.000 L861.000 1860.000" fill="none" stroke="#8c9e85" stroke-width="3"/>
+<path d="M861.000 1860.000 L861.000 1836.667" fill="none" stroke="#8c9e85" stroke-width="3"/>
+<path d="M861.000 1836.667 L898.800 1836.667" fill="none" stroke="#8c9e85" stroke-width="3"/>
+<path d="M898.800 1836.667 L898.800 1813.333" fill="none" stroke="#8c9e85" stroke-width="3"/>
+<path d="M898.800 1813.333 L936.600 1813.333" fill="none" stroke="#8c9e85" stroke-width="3"/>
+<path d="M936.600 1813.333 L936.600 1790.000" fill="none" stroke="#8c9e85" stroke-width="3"/>
+<path d="M936.600 1790.000 L974.400 1790.000" fill="none" stroke="#8c9e85" stroke-width="3"/>
+<path d="M974.400 1790.000 L974.400 1766.667" fill="none" stroke="#8c9e85" stroke-width="3"/>
+<path d="M974.400 1766.667 L1012.200 1766.667" fill="none" stroke="#8c9e85" stroke-width="3"/>
+<path d="M1012.200 1766.667 L1012.200 1743.333" fill="none" stroke="#8c9e85" stroke-width="3"/>
+<path d="M1012.200 1743.333 L1050.000 1743.333" fill="none" stroke="#8c9e85" stroke-width="3"/>
+<path d="M1050.000 1743.333 L1050.000 1720.000" fill="none" stroke="#8c9e85" stroke-width="3"/>
+<path d="M1050.000 1720.000 L1132.600 1720.000" fill="none" stroke="#657e77" stroke-width="8"/>
+<path d="M586.600 2140.000 L1132.600 2140.000" fill="none" stroke="#657e77" stroke-width="5"/>
+<path d="M586.600 1342.000 L1132.600 1342.000" fill="none" stroke="#a3afa4" stroke-width="3"/>
+<path d="M586.600 1748.000 L1050.000 1748.000" fill="none" stroke="#a9794b" stroke-width="3" stroke-dasharray="9 6"/>
+<text x="586.600" y="1797.000" font-size="22" fill="#2c4142">二层此段全开洞，虚线板取消</text>
+<path d="M586.600 2189.000 L1050.000 2189.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M580.600 2183.000 L592.600 2195.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M1044.000 2183.000 L1056.000 2195.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="818.300" y="2177.000" font-size="23" fill="#2c4142" text-anchor="middle">洞长3.31m</text>
+<path d="M1153.600 1720.000 L1153.600 1342.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M1147.600 1714.000 L1159.600 1726.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M1147.600 1336.000 L1159.600 1348.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="1202.600" y="1552.000" font-size="23" fill="#2c4142" text-anchor="middle">上口净高2.70</text>
+<text x="85.000" y="2220.000" font-size="23" fill="#2c4142">18级×0.166667=3m / 每跑8踏面×0.27=2.16m / 平台深1.15。</text>
+<text x="85.000" y="2260.000" font-size="23" fill="#2c4142">洞宽2.30；净跑宽1.10；平台下低净空封闭，不诱导穿行。</text>
+<text x="1570.000" y="1310.000" font-size="28" fill="#2c4142">一栋整包 / 共用入口底轴心，分组可复装</text>
+<text x="1570.000" y="1390.000" font-size="27" fill="#2c4142">ROOF：两坡顶/底面、脊、檐、檐沟、短雨棚。</text>
+<text x="1570.000" y="1462.000" font-size="27" fill="#2c4142">EXTERIOR：外墙双面/山墙/门窗洞口/框/排水管/院界接口。</text>
+<text x="1570.000" y="1534.000" font-size="27" fill="#2c4142">INTERIOR_F02：二层板[2.8,3]＋同坐标梯洞＋内墙/顶面。</text>
+<text x="1570.000" y="1606.000" font-size="27" fill="#2c4142">INTERIOR_F01：首层板[−0.2,0]＋内墙/顶面＋整段楼梯。</text>
+<text x="1570.000" y="1678.000" font-size="27" fill="#2c4142">外墙只由EXTERIOR拥有；室内组不再造一套重叠外墙。</text>
+<text x="1570.000" y="1750.000" font-size="27" fill="#2c4142">楼梯结构归F01，上口护栏归F02；拆屋顶后室内仍完整。</text>
+<text x="1570.000" y="1822.000" font-size="27" fill="#2c4142">全部保留共同根(0,0,0)及安装yaw20，不各自重置轴心。</text>
+<text x="1570.000" y="1995.000" font-size="26" fill="#2c4142">分离是资产接口设计，不开发屋顶隐藏/切图/门交互。</text>
+<text x="1570.000" y="2067.000" font-size="26" fill="#2c4142">普通门窗、檐管在整栋内处理；参考通过后一次整栋试作。</text>
+<text x="1570.000" y="2139.000" font-size="26" fill="#2c4142">当前无正式模型、UV、贴图、碰撞/LOD预算或UE接入。</text>
+<text x="55.000" y="2350.000" font-size="25" fill="#2c4142">受审住宅候选｜同一尺寸JSON派生；正式18×18足迹/工程/校门原文件不改。参考图 ≠ 正式模型/真实日光渲染/UE。</text>
+</g></svg>

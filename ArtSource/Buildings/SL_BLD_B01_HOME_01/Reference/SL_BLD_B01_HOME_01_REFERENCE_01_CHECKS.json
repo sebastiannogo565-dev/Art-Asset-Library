@@ -1,0 +1,81 @@
+{
+  "reference_geometry_checks_passed": true,
+  "scope": "2D room accounting/candidate door graph/common source table/SVG byte embedding only; not closed mesh/model/nav/structural verification",
+  "boards": [
+    {
+      "svg": "SL_BLD_B01_HOME_01_REFERENCE_01_P01.svg",
+      "png": "SL_BLD_B01_HOME_01_REFERENCE_01_P01.png",
+      "native_px": [
+        3200,
+        2400
+      ]
+    },
+    {
+      "svg": "SL_BLD_B01_HOME_01_REFERENCE_01_P02.svg",
+      "png": "SL_BLD_B01_HOME_01_REFERENCE_01_P02.png",
+      "native_px": [
+        3200,
+        2400
+      ]
+    },
+    {
+      "svg": "SL_BLD_B01_HOME_01_REFERENCE_01_P03.svg",
+      "png": "SL_BLD_B01_HOME_01_REFERENCE_01_P03.png",
+      "native_px": [
+        3200,
+        2400
+      ]
+    },
+    {
+      "svg": "SL_BLD_B01_HOME_01_REFERENCE_01_P04.svg",
+      "png": "SL_BLD_B01_HOME_01_REFERENCE_01_P04.png",
+      "native_px": [
+        3200,
+        2400
+      ]
+    },
+    {
+      "svg": "SL_BLD_B01_HOME_01_REFERENCE_01_P05.svg",
+      "png": "SL_BLD_B01_HOME_01_REFERENCE_01_P05.png",
+      "native_px": [
+        3200,
+        2400
+      ]
+    }
+  ],
+  "source_count": 1,
+  "opening_count": 22,
+  "door_graph_all_candidate_rooms_connected": true,
+  "room_rectangles_nonoverlapping": true,
+  "roof_levels_match_formula": true,
+  "Home_in_hall_and_historical_PlayerStart_in_LDK": true,
+  "main_door_active_clear_m": [
+    1.2,
+    2.1
+  ],
+  "capsule_reference_m": [
+    0.68,
+    1.92
+  ],
+  "character_visible_width_m": 1.039655172413793,
+  "interior_door_visual_risk": "0.8/0.85m domestic doors fit0.68 capsule nominally, but 1.04m sprite width may visually clip; game camera/directions must be reviewed, no character scaling",
+  "formal_footprint_source_polygon_area_m2": 323.96071570250206,
+  "formal_size_square_area_m2": 324,
+  "difference_from_rounded_polygon_m2": 0.039284297497943044,
+  "formal_footprint_preserved": true,
+  "protected_input_count": 84,
+  "all_protected_raw_sha_unchanged": true,
+  "embedded_original_character_sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd",
+  "formal_models": 0,
+  "UV_sets": 0,
+  "final_textures": 0,
+  "UE_imports": 0,
+  "unverified": [
+    "formal footprint/center reduction approval",
+    "true door/nav/camera/finite capsule and sprite width",
+    "true stairs engineering/headroom/handrail/slab structure",
+    "source Actor state not live read",
+    "legal parcel/eave and gutter connection",
+    "look/material acceptance"
+  ]
+}

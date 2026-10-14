@@ -1,3 +1,7 @@
+# 当前交接：B01完整住宅参考01 · 2026-10-14
+
+[参考包及待判断](../ArtSource/Buildings/SL_BLD_B01_HOME_01/Reference/README.md)。先审324→90占地/中心、1.6外洞/1.2活动口、3m层/8.242脊/22°、挑檐/院界/开放深度。保原入口/Home与FL0；8×8替换由开发后续做，当前只读。屋顶/外壳/各层共轴分離。规划审阅后用户确认，再一次整栋试作，不逐小件卡、不自动下一栋。
+
 # 当前交接：完整建筑组织与下一件推荐 · 2026-10-14
 
 入口：[建筑级生产目录](AssetPlanning/BuildingProduction/README.md)，当前推荐[SL_BLD_B01_HOME_01](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_B01_HOME_01.md)。用户选择并转交后先核用途、尺寸、入口，准备同一平面对应的四立面/屋顶/两向/室内剖面及原人物尺度参考；随后建模聊天一次交整组模型/UV/临时纹理/整体预览。可进入建筑明确ROOF/EXTERIOR/INTERIOR_F01/F02分离，内部拆件不逐件批准。

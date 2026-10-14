@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3200" height="2400" viewBox="0 0 3200 2400"><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6" fill="#a9794b"/></marker></defs><g font-family="Microsoft YaHei,sans-serif">
+<rect x="0.000" y="0.000" width="3200.000" height="2400.000" fill="#edf1ec" stroke="none" stroke-width="2"/>
+<text x="55.000" y="70.000" font-size="43" fill="#2c4142">B01玩家家 · 四立面 / 同一门窗编号</text>
+<text x="55.000" y="120.000" font-size="26" fill="#2c4142">相对建筑：F前+X，B后−X，R右+Y，L左−Y；世界轴另按yaw20°，不把“东侧偏南”文字用于迁门。</text>
+<rect x="40.000" y="165.000" width="1520.000" height="980.000" fill="#ffffff" stroke="#bac6c0" stroke-width="2"/>
+<text x="80.000" y="210.000" font-size="28" fill="#2c4142">F 前立面 / 原门点</text>
+<polygon points="240.000,1060.000 1180.000,1060.000 1180.000,492.032 240.000,492.032" fill="#d8d3c5" stroke="#65776e" stroke-width="2"/>
+<polygon points="240.000,492.032 1180.000,492.032 710.000,302.140" fill="#d8d3c5" stroke="#65776e" stroke-width="2"/>
+<polygon points="188.300,496.000 710.000,285.220 1231.700,496.000 1231.700,512.920 710.000,302.140 188.300,512.920" fill="#899795" stroke="#65776e" stroke-width="2"/>
+<path d="M240.000 778.000 L1180.000 778.000" fill="none" stroke="#b7b4a9" stroke-width="2" stroke-dasharray="9 6"/>
+<polygon points="634.800,1060.000 785.200,1060.000 785.200,843.800 634.800,843.800" fill="#8b7564" stroke="#a6aca6" stroke-width="5"/>
+<path d="M710.000 1060.000 L710.000 843.800" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="710.000" y="833.460" font-size="19" fill="#2c4142" text-anchor="middle">D01</text>
+<path d="M653.600 1088.200 L766.400 1088.200" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M647.600 1082.200 L659.600 1094.200" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M760.400 1082.200 L772.400 1094.200" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="710.000" y="1076.200" font-size="23" fill="#2c4142" text-anchor="middle">活动1.20m</text>
+<polygon points="996.700,975.400 1118.900,975.400 1118.900,862.600 996.700,862.600" fill="#738d93" stroke="#a6aca6" stroke-width="5"/>
+<path d="M1057.800 975.400 L1057.800 862.600" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="1057.800" y="852.260" font-size="19" fill="#2c4142" text-anchor="middle">WF01</text>
+<polygon points="352.800,998.900 540.800,998.900 540.800,862.600 352.800,862.600" fill="#738d93" stroke="#a6aca6" stroke-width="5"/>
+<path d="M446.800 998.900 L446.800 862.600" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="446.800" y="852.260" font-size="19" fill="#2c4142" text-anchor="middle">WF02</text>
+<polygon points="357.500,702.800 526.700,702.800 526.700,580.600 357.500,580.600" fill="#738d93" stroke="#a6aca6" stroke-width="5"/>
+<path d="M442.100 702.800 L442.100 580.600" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="442.100" y="570.260" font-size="19" fill="#2c4142" text-anchor="middle">WF03</text>
+<polygon points="893.300,702.800 1062.500,702.800 1062.500,580.600 893.300,580.600" fill="#738d93" stroke="#a6aca6" stroke-width="5"/>
+<path d="M977.900 702.800 L977.900 580.600" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="977.900" y="570.260" font-size="19" fill="#2c4142" text-anchor="middle">WF04</text>
+<polygon points="667.700,674.600 752.300,674.600 752.300,580.600 667.700,580.600" fill="#738d93" stroke="#a6aca6" stroke-width="5"/>
+<path d="M710.000 674.600 L710.000 580.600" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="710.000" y="570.260" font-size="19" fill="#2c4142" text-anchor="middle">WF05</text>
+<polygon points="559.600,825.000 860.400,825.000 860.400,839.100 559.600,839.100" fill="#8b7564" stroke="#65776e" stroke-width="2"/>
+<text x="898.000" y="829.700" font-size="19" fill="#2c4142">短雨棚</text>
+<polygon points="846.300,970.700 874.500,970.700 874.500,947.200 846.300,947.200" fill="#74877f" stroke="#586f67" stroke-width="2"/>
+<text x="883.900" y="956.600" font-size="18" fill="#2c4142">MB01</text>
+<path d="M164.800 1060.000 L1255.200 1060.000" fill="none" stroke="#8c9e90" stroke-width="3"/>
+<path d="M240.000 1118.280 L1180.000 1118.280" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M234.000 1112.280 L246.000 1124.280" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M1174.000 1112.280 L1186.000 1124.280" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="710.000" y="1106.280" font-size="23" fill="#2c4142" text-anchor="middle">10.00m</text>
+<path d="M1342.000 1060.000 L1370.000 1060.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="1375.000" y="1068.000" font-size="21" fill="#2c4142">±0.00</text>
+<path d="M1342.000 778.000 L1370.000 778.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="1375.000" y="786.000" font-size="21" fill="#2c4142">F02 +3.00</text>
+<path d="M1342.000 496.000 L1370.000 496.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="1375.000" y="504.000" font-size="21" fill="#2c4142">檐 +6.00</text>
+<path d="M1342.000 285.220 L1370.000 285.220" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="1375.000" y="293.220" font-size="21" fill="#2c4142">脊 +8.242</text>
+<rect x="1600.000" y="165.000" width="1520.000" height="980.000" fill="#ffffff" stroke="#bac6c0" stroke-width="2"/>
+<text x="1640.000" y="210.000" font-size="28" fill="#2c4142">B 后立面 / 维护小门D02，不复制正门</text>
+<polygon points="2740.000,1060.000 1800.000,1060.000 1800.000,492.032 2740.000,492.032" fill="#d8d3c5" stroke="#65776e" stroke-width="2"/>
+<polygon points="2740.000,492.032 1800.000,492.032 2270.000,302.140" fill="#d8d3c5" stroke="#65776e" stroke-width="2"/>
+<polygon points="2791.700,496.000 2270.000,285.220 1748.300,496.000 1748.300,512.920 2270.000,302.140 2791.700,512.920" fill="#899795" stroke="#65776e" stroke-width="2"/>
+<path d="M2740.000 778.000 L1800.000 778.000" fill="none" stroke="#b7b4a9" stroke-width="2" stroke-dasharray="9 6"/>
+<polygon points="2342.850,1060.000 2262.950,1060.000 2262.950,862.600 2342.850,862.600" fill="#8b7564" stroke="#a6aca6" stroke-width="5"/>
+<path d="M2302.900 1060.000 L2302.900 862.600" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="2302.900" y="852.260" font-size="19" fill="#2c4142" text-anchor="middle">D02</text>
+<polygon points="2627.200,956.600 2476.800,956.600 2476.800,881.400 2627.200,881.400" fill="#738d93" stroke="#a6aca6" stroke-width="5"/>
+<path d="M2552.000 956.600 L2552.000 881.400" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="2552.000" y="871.060" font-size="19" fill="#2c4142" text-anchor="middle">WB01</text>
+<polygon points="1959.800,909.600 1884.600,909.600 1884.600,862.600 1959.800,862.600" fill="#738d93" stroke="#a6aca6" stroke-width="5"/>
+<path d="M1922.200 909.600 L1922.200 862.600" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="1922.200" y="852.260" font-size="19" fill="#2c4142" text-anchor="middle">WB02</text>
+<polygon points="2608.400,707.500 2439.200,707.500 2439.200,580.600 2608.400,580.600" fill="#738d93" stroke="#a6aca6" stroke-width="5"/>
+<path d="M2523.800 707.500 L2523.800 580.600" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="2523.800" y="570.260" font-size="19" fill="#2c4142" text-anchor="middle">WB03</text>
+<polygon points="1978.600,665.200 1865.800,665.200 1865.800,590.000 1978.600,590.000" fill="#738d93" stroke="#a6aca6" stroke-width="5"/>
+<path d="M1922.200 665.200 L1922.200 590.000" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="1922.200" y="579.660" font-size="19" fill="#2c4142" text-anchor="middle">WB04</text>
+<polygon points="2190.100,890.800 2096.100,890.800 2096.100,684.000 2190.100,684.000" fill="#738d93" stroke="#a6aca6" stroke-width="5"/>
+<path d="M2143.100 890.800 L2143.100 684.000" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="2143.100" y="673.660" font-size="19" fill="#2c4142" text-anchor="middle">WB05</text>
+<path d="M2815.200 1060.000 L1724.800 1060.000" fill="none" stroke="#8c9e90" stroke-width="3"/>
+<path d="M2740.000 1118.280 L1800.000 1118.280" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M2734.000 1112.280 L2746.000 1124.280" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M1794.000 1112.280 L1806.000 1124.280" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="2270.000" y="1106.280" font-size="23" fill="#2c4142" text-anchor="middle">10.00m</text>
+<path d="M2902.000 1060.000 L2930.000 1060.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="2935.000" y="1068.000" font-size="21" fill="#2c4142">±0.00</text>
+<path d="M2902.000 778.000 L2930.000 778.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="2935.000" y="786.000" font-size="21" fill="#2c4142">F02 +3.00</text>
+<path d="M2902.000 496.000 L2930.000 496.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="2935.000" y="504.000" font-size="21" fill="#2c4142">檐 +6.00</text>
+<path d="M2902.000 285.220 L2930.000 285.220" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="2935.000" y="293.220" font-size="21" fill="#2c4142">脊 +8.242</text>
+<rect x="40.000" y="1235.000" width="1520.000" height="980.000" fill="#ffffff" stroke="#bac6c0" stroke-width="2"/>
+<text x="80.000" y="1280.000" font-size="28" fill="#2c4142">R 右立面 / 洗面与家务窗</text>
+<polygon points="1133.000,2130.000 287.000,2130.000 287.000,1562.032 1133.000,1562.032" fill="#d8d3c5" stroke="#65776e" stroke-width="2"/>
+<polygon points="1184.700,1566.000 235.300,1566.000 235.300,1355.220 1184.700,1355.220" fill="#899795" stroke="#65776e" stroke-width="2"/>
+<path d="M1133.000 1848.000 L287.000 1848.000" fill="none" stroke="#b7b4a9" stroke-width="2" stroke-dasharray="9 6"/>
+<polygon points="860.400,2026.600 747.600,2026.600 747.600,1951.400 860.400,1951.400" fill="#738d93" stroke="#a6aca6" stroke-width="5"/>
+<path d="M804.000 2026.600 L804.000 1951.400" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="804.000" y="1941.060" font-size="19" fill="#2c4142" text-anchor="middle">WR01</text>
+<polygon points="665.350,1979.600 623.050,1979.600 623.050,1932.600 665.350,1932.600" fill="#738d93" stroke="#a6aca6" stroke-width="5"/>
+<path d="M644.200 1979.600 L644.200 1932.600" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="644.200" y="1922.260" font-size="19" fill="#2c4142" text-anchor="middle">WR02</text>
+<polygon points="503.200,2045.400 390.400,2045.400 390.400,1932.600 503.200,1932.600" fill="#738d93" stroke="#a6aca6" stroke-width="5"/>
+<path d="M446.800 2045.400 L446.800 1932.600" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="446.800" y="1922.260" font-size="19" fill="#2c4142" text-anchor="middle">WR03</text>
+<polygon points="1015.500,1735.200 874.500,1735.200 874.500,1660.000 1015.500,1660.000" fill="#738d93" stroke="#a6aca6" stroke-width="5"/>
+<path d="M945.000 1735.200 L945.000 1660.000" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="945.000" y="1649.660" font-size="19" fill="#2c4142" text-anchor="middle">WR04</text>
+<polygon points="606.600,1772.800 437.400,1772.800 437.400,1650.600 606.600,1650.600" fill="#738d93" stroke="#a6aca6" stroke-width="5"/>
+<path d="M522.000 1772.800 L522.000 1650.600" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="522.000" y="1640.260" font-size="19" fill="#2c4142" text-anchor="middle">WR05</text>
+<path d="M1118.900 1570.700 L1118.900 2115.900" fill="none" stroke="#70867d" stroke-width="6"/>
+<path d="M301.100 1570.700 L301.100 2115.900" fill="none" stroke="#70867d" stroke-width="6"/>
+<text x="804.000" y="2097.100" font-size="19" fill="#2c4142">排水管 / 出口待核</text>
+<path d="M1208.200 2130.000 L211.800 2130.000" fill="none" stroke="#8c9e90" stroke-width="3"/>
+<path d="M1133.000 2188.280 L287.000 2188.280" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M1127.000 2182.280 L1139.000 2194.280" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M281.000 2182.280 L293.000 2194.280" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="710.000" y="2176.280" font-size="23" fill="#2c4142" text-anchor="middle">9.00m</text>
+<path d="M1342.000 2130.000 L1370.000 2130.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="1375.000" y="2138.000" font-size="21" fill="#2c4142">±0.00</text>
+<path d="M1342.000 1848.000 L1370.000 1848.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="1375.000" y="1856.000" font-size="21" fill="#2c4142">F02 +3.00</text>
+<path d="M1342.000 1566.000 L1370.000 1566.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="1375.000" y="1574.000" font-size="21" fill="#2c4142">檐 +6.00</text>
+<path d="M1342.000 1355.220 L1370.000 1355.220" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="1375.000" y="1363.220" font-size="21" fill="#2c4142">脊 +8.242</text>
+<rect x="1600.000" y="1235.000" width="1520.000" height="980.000" fill="#ffffff" stroke="#bac6c0" stroke-width="2"/>
+<text x="1640.000" y="1280.000" font-size="28" fill="#2c4142">L 左立面 / 餐厨与睡眠窗</text>
+<polygon points="1847.000,2130.000 2693.000,2130.000 2693.000,1562.032 1847.000,1562.032" fill="#d8d3c5" stroke="#65776e" stroke-width="2"/>
+<polygon points="1795.300,1566.000 2744.700,1566.000 2744.700,1355.220 1795.300,1355.220" fill="#899795" stroke="#65776e" stroke-width="2"/>
+<path d="M1847.000 1848.000 L2693.000 1848.000" fill="none" stroke="#b7b4a9" stroke-width="2" stroke-dasharray="9 6"/>
+<polygon points="1959.800,2026.600 2110.200,2026.600 2110.200,1942.000 1959.800,1942.000" fill="#738d93" stroke="#a6aca6" stroke-width="5"/>
+<path d="M2035.000 2026.600 L2035.000 1942.000" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="2035.000" y="1931.660" font-size="19" fill="#2c4142" text-anchor="middle">WL01</text>
+<polygon points="2185.400,2059.500 2354.600,2059.500 2354.600,1932.600 2185.400,1932.600" fill="#738d93" stroke="#a6aca6" stroke-width="5"/>
+<path d="M2270.000 2059.500 L2270.000 1932.600" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="2270.000" y="1922.260" font-size="19" fill="#2c4142" text-anchor="middle">WL02</text>
+<polygon points="2448.600,2078.300 2617.800,2078.300 2617.800,1932.600 2448.600,1932.600" fill="#738d93" stroke="#a6aca6" stroke-width="5"/>
+<path d="M2533.200 2078.300 L2533.200 1932.600" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="2533.200" y="1922.260" font-size="19" fill="#2c4142" text-anchor="middle">WL03</text>
+<polygon points="1997.400,1772.800 2166.600,1772.800 2166.600,1650.600 1997.400,1650.600" fill="#738d93" stroke="#a6aca6" stroke-width="5"/>
+<path d="M2082.000 1772.800 L2082.000 1650.600" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="2082.000" y="1640.260" font-size="19" fill="#2c4142" text-anchor="middle">WL04</text>
+<polygon points="2392.200,1772.800 2561.400,1772.800 2561.400,1650.600 2392.200,1650.600" fill="#738d93" stroke="#a6aca6" stroke-width="5"/>
+<path d="M2476.800 1772.800 L2476.800 1650.600" fill="none" stroke="#bdc5bc" stroke-width="3"/>
+<text x="2476.800" y="1640.260" font-size="19" fill="#2c4142" text-anchor="middle">WL05</text>
+<path d="M1861.100 1570.700 L1861.100 2115.900" fill="none" stroke="#70867d" stroke-width="6"/>
+<path d="M2678.900 1570.700 L2678.900 2115.900" fill="none" stroke="#70867d" stroke-width="6"/>
+<text x="2176.000" y="2097.100" font-size="19" fill="#2c4142">排水管 / 出口待核</text>
+<path d="M1771.800 2130.000 L2768.200 2130.000" fill="none" stroke="#8c9e90" stroke-width="3"/>
+<path d="M1847.000 2188.280 L2693.000 2188.280" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M1841.000 2182.280 L1853.000 2194.280" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M2687.000 2182.280 L2699.000 2194.280" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="2270.000" y="2176.280" font-size="23" fill="#2c4142" text-anchor="middle">9.00m</text>
+<path d="M2902.000 2130.000 L2930.000 2130.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="2935.000" y="2138.000" font-size="21" fill="#2c4142">±0.00</text>
+<path d="M2902.000 1848.000 L2930.000 1848.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="2935.000" y="1856.000" font-size="21" fill="#2c4142">F02 +3.00</text>
+<path d="M2902.000 1566.000 L2930.000 1566.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="2935.000" y="1574.000" font-size="21" fill="#2c4142">檐 +6.00</text>
+<path d="M2902.000 1355.220 L2930.000 1355.220" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="2935.000" y="1363.220" font-size="21" fill="#2c4142">脊 +8.242</text>
+<text x="55.000" y="2350.000" font-size="25" fill="#2c4142">受审住宅候选｜同一尺寸JSON派生；正式18×18足迹/工程/校门原文件不改。参考图 ≠ 正式模型/真实日光渲染/UE。</text>
+</g></svg>

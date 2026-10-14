@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3200" height="2400" viewBox="0 0 3200 2400"><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6" fill="#a9794b"/></marker></defs><g font-family="Microsoft YaHei,sans-serif">
+<rect x="0.000" y="0.000" width="3200.000" height="2400.000" fill="#edf1ec" stroke="none" stroke-width="2"/>
+<text x="55.000" y="70.000" font-size="43" fill="#2c4142">B01玩家家 · 整栋参考01 / 总平面与面积口径</text>
+<text x="55.000" y="120.000" font-size="26" fill="#2c4142">推荐9×10米两层，正式18×18仍只读；两者不得混称院落或已批准尺寸。</text>
+<rect x="45.000" y="160.000" width="1905.000" height="1630.000" fill="#ffffff" stroke="#bac6c0" stroke-width="2"/>
+<rect x="1990.000" y="160.000" width="1165.000" height="1630.000" fill="#ffffff" stroke="#bac6c0" stroke-width="2"/>
+<polygon points="168.008,1085.971 779.971,1085.991 779.990,474.028 168.027,474.008" fill="#f4ecdf" stroke="#b28d63" stroke-width="2"/>
+<path d="M168.008 1085.971 L779.971 1085.991" fill="none" stroke="#b28d63" stroke-width="3" stroke-dasharray="9 6"/>
+<path d="M779.971 1085.991 L779.990 474.028" fill="none" stroke="#b28d63" stroke-width="3" stroke-dasharray="9 6"/>
+<path d="M779.990 474.028 L168.027 474.008" fill="none" stroke="#b28d63" stroke-width="3" stroke-dasharray="9 6"/>
+<path d="M168.027 474.008 L168.008 1085.971" fill="none" stroke="#b28d63" stroke-width="3" stroke-dasharray="9 6"/>
+<rect x="455.300" y="591.300" width="343.400" height="377.400" fill="#d2dcdb" stroke="#7f9691" stroke-width="2"/>
+<rect x="474.000" y="610.000" width="306.000" height="340.000" fill="#d8d3c5" stroke="#6e8178" stroke-width="2"/>
+<polygon points="780.000,644.000 780.000,916.000 508.000,916.000 508.000,644.000" fill="none" stroke="#588eaa" stroke-width="2"/>
+<path d="M780.000 644.000 L780.000 916.000" fill="none" stroke="#588eaa" stroke-width="3" stroke-dasharray="9 6"/>
+<path d="M780.000 916.000 L508.000 916.000" fill="none" stroke="#588eaa" stroke-width="3" stroke-dasharray="9 6"/>
+<path d="M508.000 916.000 L508.000 644.000" fill="none" stroke="#588eaa" stroke-width="3" stroke-dasharray="9 6"/>
+<path d="M508.000 644.000 L780.000 644.000" fill="none" stroke="#588eaa" stroke-width="3" stroke-dasharray="9 6"/>
+<rect x="776.600" y="725.600" width="34.000" height="108.800" fill="#bba18a" stroke="#8f7964" stroke-width="2"/>
+<path d="M780.000 780.000 L779.989 780.003" fill="none" stroke="#d5d6c7" stroke-width="95.19999999999999"/>
+<path d="M779.989 780.003 L1708.520 867.508" fill="none" stroke="#d5d6c7" stroke-width="95.19999999999999"/>
+<path d="M780.000 780.000 L1708.520 867.508" fill="none" stroke="#a9794b" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="954.751" y="843.971" width="12.000" height="12.000" fill="#9daca5" stroke="#6e8178" stroke-width="2"/>
+<path d="M960.139 856.771 L951.163 951.971" fill="none" stroke="#7b8d81" stroke-width="4" stroke-dasharray="9 6"/>
+<rect x="964.640" y="739.036" width="12.000" height="12.000" fill="#9daca5" stroke="#6e8178" stroke-width="2"/>
+<path d="M971.252 738.236 L980.228 643.036" fill="none" stroke="#7b8d81" stroke-width="4" stroke-dasharray="9 6"/>
+<text x="994.200" y="956.800" font-size="22" fill="#2c4142">院界短段候选 / 地界待核</text>
+<circle cx="780" cy="780" r="8" fill="#a9794b"/>
+<text x="791.900" y="746.000" font-size="23" fill="#2c4142">D01 原入口 / 图组轴心</text>
+<circle cx="644.0000000001371" cy="779.9998052133926" r="8" fill="#588eaa"/>
+<text x="610.000" y="766.400" font-size="22" fill="#2c4142">Home不移 / Z0</text>
+<text x="202.000" y="525.000" font-size="26" fill="#2c4142">正式建筑足迹18×18（保留）</text>
+<text x="491.000" y="1007.800" font-size="24" fill="#2c4142">推荐外墙9×10；蓝虚线=现8×8样板</text>
+<text x="916.000" y="688.200" font-size="24" fill="#2c4142">现2.8m院门/接近路</text>
+<text x="1324.000" y="746.000" font-size="23" fill="#2c4142">E_B01私有接近线保持</text>
+<text x="202.000" y="1035.000" font-size="24" fill="#2c4142">旧18×18不是新的院界</text>
+<path d="M474.000 1038.400 L780.000 1038.400" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M468.000 1032.400 L480.000 1044.400" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M774.000 1032.400 L786.000 1044.400" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="627.000" y="1026.400" font-size="23" fill="#2c4142" text-anchor="middle">9.00m</text>
+<path d="M399.200 950.000 L399.200 610.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M393.200 944.000 L405.200 956.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M393.200 604.000 L405.200 616.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="338.000" y="780.000" font-size="23" fill="#2c4142" text-anchor="middle">10.00m</text>
+<path d="M168.000 399.200 L144.743 335.301" fill="none" stroke="#657b73" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="134.000" y="321.000" font-size="23" fill="#2c4142">世界北N</text>
+<text x="85.000" y="1400.000" font-size="26" fill="#2c4142">坐标：图组底轴心=D01门槛中心，+X朝巷，+Y屋侧，+Z上；安装yaw20°。</text>
+<text x="85.000" y="1462.000" font-size="26" fill="#2c4142">入口世界(2150.275455,1771.260000)m；工程(−4063.363636,−14692.181818,0)cm。</text>
+<text x="85.000" y="1524.000" font-size="26" fill="#2c4142">Home精确世界点及地面0保留；样板边yaw−70°不直接当楼体朝向。</text>
+<text x="85.000" y="1586.000" font-size="26" fill="#2c4142">院门标记是Recipe原30cm柱；院界只标接口，正式地界/旧水道/雨水出口仍待核。</text>
+<text x="85.000" y="1648.000" font-size="26" fill="#2c4142">门廊0.9m悬挑、屋檐0.55m越过旧前沿：仅进入自有接近段的候选，必须审阅。</text>
+<text x="2035.000" y="225.000" font-size="31" fill="#2c4142">面积与普通家庭定位</text>
+<text x="2035.000" y="295.000" font-size="31" fill="#2c4142">18×18 → 单层324m²</text>
+<text x="2035.000" y="365.000" font-size="31" fill="#2c4142">满铺两层 → 毛648m²</text>
+<text x="2035.000" y="435.000" font-size="31" fill="#2c4142">扣0.2外墙后仍约619.52m²</text>
+<text x="2035.000" y="505.000" font-size="31" fill="#2c4142">（尚未扣楼梯/分隔）</text>
+<text x="2035.000" y="575.000" font-size="31" fill="#2c4142">不适合作普通住宅直接照满铺。</text>
+<text x="2035.000" y="720.000" font-size="29" fill="#2c4142">推荐9×10 → 外墙占地90m²</text>
+<text x="2035.000" y="789.000" font-size="29" fill="#2c4142">两层毛投影180m²</text>
+<text x="2035.000" y="858.000" font-size="29" fill="#2c4142">二层楼梯洞7.613m²</text>
+<text x="2035.000" y="927.000" font-size="29" fill="#2c4142">实际楼板投影172.387m²</text>
+<text x="2035.000" y="996.000" font-size="29" fill="#2c4142">净面积含一层楼梯投影150.805m²</text>
+<text x="2035.000" y="1065.000" font-size="29" fill="#2c4142">房间/走道净面积143.192m²</text>
+<text x="2035.000" y="1134.000" font-size="29" fill="#2c4142">屋檐/门廊/院空地不计室内面积。</text>
+<text x="2035.000" y="1260.000" font-size="26" fill="#2c4142">重大取舍须规划批准：</text>
+<text x="2035.000" y="1326.000" font-size="26" fill="#2c4142">正式足迹324→90m²，体量中心改变；</text>
+<text x="2035.000" y="1392.000" font-size="26" fill="#2c4142">保入口、20°轴向、两层与Home点。</text>
+<text x="2035.000" y="1458.000" font-size="26" fill="#2c4142">不是把18×18改名为院地。</text>
+<text x="2035.000" y="1524.000" font-size="26" fill="#2c4142">此面积是方案几何口径，非法定面积。</text>
+<rect x="45.000" y="1830.000" width="3110.000" height="455.000" fill="#ffffff" stroke="#bac6c0" stroke-width="2"/>
+<image x="195" y="1997.9310344827586" width="258.2068965517241" height="258.2068965517241" xlink:href="data:image/png;base64,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"/>
+<path d="M180.000 2240.000 L180.000 2006.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M174.000 2234.000 L186.000 2246.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M174.000 2000.000 L186.000 2012.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="113.000" y="2123.000" font-size="23" fill="#2c4142" text-anchor="middle">180可见</text>
+<path d="M473.207 2240.000 L473.207 1990.400" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M467.207 2234.000 L479.207 2246.000" fill="none" stroke="#a9794b" stroke-width="2"/>
+<path d="M467.207 1984.400 L479.207 1996.400" fill="none" stroke="#a9794b" stroke-width="2"/>
+<text x="548.207" y="2115.200" font-size="23" fill="#2c4142" text-anchor="middle">192胶囊</text>
+<text x="635.000" y="1905.000" font-size="29" fill="#2c4142">认可人物原PNG：128×128原字节嵌入，180cm可见高 / 192cm胶囊。</text>
+<text x="635.000" y="1970.000" font-size="29" fill="#2c4142">生活尺度：主活动通口1.2×2.1m候选；外框洞1.6×2.3m。</text>
+<text x="635.000" y="2035.000" font-size="29" fill="#2c4142">原型通行2.4m → 活动净口1.2m，不能把保留门点等同导航已通过。</text>
+<text x="635.000" y="2100.000" font-size="29" fill="#2c4142">家具尺度参照：床1×2m、餐桌1.4×0.8m、厨房台深0.6m。</text>
+<text x="635.000" y="2165.000" font-size="29" fill="#2c4142">普通家庭：两层低切妻、短雨棚、克制窗/暖木点缀；不加豪华大门厅/柱廊。</text>
+<text x="55.000" y="2350.000" font-size="25" fill="#2c4142">受审住宅候选｜同一尺寸JSON派生；正式18×18足迹/工程/校门原文件不改。参考图 ≠ 正式模型/真实日光渲染/UE。</text>
+</g></svg>

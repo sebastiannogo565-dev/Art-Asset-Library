@@ -1,3 +1,7 @@
+# B01整栋参考01完成待审 · 2026-10-14
+
+[参考入口](../ArtSource/Buildings/SL_BLD_B01_HOME_01/Reference/README.md)。总平面/两层/四立面/屋顶/反向30°/入口梯剖面5页原生3200×2400完成，84保护不变。推荐9×10/180毛/143.192净（含梯150.805）待规划判断缩正式足迹，门/梯/人物视觉/工程/游戏未驗，模型0。
+
 # 本轮完成：建筑级任务组织 · 2026-10-14
 
 已完成：[新规范/顺序/组登记/多视图合同/模板](AssetPlanning/BuildingProduction/README.md)，以及[下一件推荐B01完整住宅卡](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_B01_HOME_01.md)。核V13 B01两层18×18m/20°/原入口；核Home灰盒8×8m/地面顶0、2.4m候选门口与2.8m接近路，未将1.1m占位墙作为楼高。

@@ -1,0 +1,3184 @@
+{
+  "asset_id": "SL_BLD_B01_HOME_01",
+  "revision": "REFERENCE_01",
+  "status": "whole_house_reference_candidate_awaiting_planning_and_user; major footprint recommendation NOT approved",
+  "date": "2026-10-14",
+  "units": "m",
+  "coordinate": {
+    "shared_pivot": [
+      0,
+      0,
+      0
+    ],
+    "meaning": "D01 entrance threshold ground centre; shared ROOF/EXTERIOR/INTERIOR_F01/F02 root, not shell geometric centre",
+    "front": "+X",
+    "side_right": "+Y (standing outside front looking inward)",
+    "up": "+Z",
+    "world_yaw_deg": 20,
+    "world_pivot_m": [
+      2150.2754545454545,
+      1771.2599999999998,
+      0
+    ],
+    "engineering_pivot_cm": [
+      -4063.363636363647,
+      -14692.181818181825,
+      0
+    ],
+    "world_formula": "worldXY=entryWorldXY+R20*localXY; engineeringXY=(worldXY-originWorldXY)*100"
+  },
+  "formal_baseline": {
+    "size": [
+      18,
+      18
+    ],
+    "floors": 2,
+    "center": [
+      2141.818181818182,
+      1768.181818181818
+    ],
+    "entry": [
+      2150.2754545454545,
+      1771.2599999999998
+    ],
+    "footprint_world_m": [
+      [
+        2136.4390909090907,
+        1756.6472727272726
+      ],
+      [
+        2153.3527272727274,
+        1762.8027272727272
+      ],
+      [
+        2147.1972727272723,
+        1779.7163636363634
+      ],
+      [
+        2130.283636363636,
+        1773.560909090909
+      ]
+    ],
+    "footprint_local_m": [
+      [
+        -17.999775883798584,
+        -8.999156913723503
+      ],
+      [
+        -0.0008671563619664369,
+        -8.999726033025963
+      ],
+      [
+        -0.00029803706008824093,
+        8.999182694410381
+      ],
+      [
+        -17.9992067644962,
+        8.999751813712901
+      ]
+    ],
+    "status": "kept read-only building footprint, NOT renamed as courtyard"
+  },
+  "candidate": {
+    "shell_bounds": {
+      "min": [
+        -9,
+        -5,
+        -0.2
+      ],
+      "max": [
+        0,
+        5,
+        6.0422144242093365
+      ]
+    },
+    "body_size": [
+      9,
+      10
+    ],
+    "floors": 2,
+    "floor_tops": [
+      0,
+      3
+    ],
+    "floor_slab_z": [
+      [
+        -0.2,
+        0
+      ],
+      [
+        2.8,
+        3
+      ]
+    ],
+    "ceilings": [
+      2.7,
+      5.7
+    ],
+    "wall_outer": 0.2,
+    "wall_partition": 0.1,
+    "roof": {
+      "pitch_deg": 22,
+      "overhang": 0.55,
+      "eave_top": 6.0,
+      "skin_vertical_depth": 0.18,
+      "ridge_direction": "+X / -X",
+      "ridge_top": 8.242345553385121,
+      "wall_join": 6.0422144242093365
+    },
+    "porch": {
+      "plan": [
+        -0.1,
+        -1.6,
+        0.9,
+        1.6
+      ],
+      "awning_top": 2.5,
+      "awning_soffit": 2.35,
+      "support": "short wall-header-supported canopy candidate; no freestanding grand columns",
+      "no_new_step": true
+    },
+    "actual_shell_bottom_center_local": [
+      -4.5,
+      0,
+      0
+    ],
+    "major_change": "requires formal building footprint change324->90m² and centre shift; entrance and two floors retained; no source map/UE edited",
+    "mailbox": {
+      "id": "MB01",
+      "bounds_m": {
+        "min": [
+          0,
+          1.45,
+          0.95
+        ],
+        "max": [
+          0.18,
+          1.75,
+          1.2
+        ]
+      },
+      "status": "small blank front-mounted household box, part of EXTERIOR, no name/independent task"
+    },
+    "yard_interface": {
+      "status": "short dashed interface beyond original gray gate posts only; legal boundary not frozen; does not turn18x18 into courtyard",
+      "candidate_wall_height_m": 0.9
+    }
+  },
+  "floors": {
+    "F01": [
+      {
+        "id": "01",
+        "name": "起居 / 餐厨",
+        "rect": [
+          -8.8,
+          -4.8,
+          -0.2,
+          -0.9
+        ],
+        "net_area_m2": 33.54,
+        "phase": "一期必要可进入候选"
+      },
+      {
+        "id": "02",
+        "name": "Home / 交通厅",
+        "rect": [
+          -5.39,
+          -0.8,
+          -2,
+          2.5
+        ],
+        "net_area_m2": 11.187,
+        "phase": "一期必要可进入候选"
+      },
+      {
+        "id": "03",
+        "name": "齐平玄关",
+        "rect": [
+          -1.9,
+          -0.8,
+          -0.2,
+          2.5
+        ],
+        "net_area_m2": 5.61,
+        "phase": "一期必要可进入候选"
+      },
+      {
+        "id": "04",
+        "name": "浴室",
+        "rect": [
+          -8.8,
+          2.6,
+          -6.6,
+          4.8
+        ],
+        "net_area_m2": 4.84,
+        "phase": "一期必要可进入候选"
+      },
+      {
+        "id": "05",
+        "name": "洗衣 / 洗面",
+        "rect": [
+          -6.5,
+          2.6,
+          -4.4,
+          4.8
+        ],
+        "net_area_m2": 4.62,
+        "phase": "一期必要可进入候选"
+      },
+      {
+        "id": "06",
+        "name": "WC",
+        "rect": [
+          -4.3,
+          2.6,
+          -3.3,
+          4.8
+        ],
+        "net_area_m2": 2.2,
+        "phase": "一期必要可进入候选"
+      },
+      {
+        "id": "07",
+        "name": "家务 / 书写",
+        "rect": [
+          -3.2,
+          2.6,
+          -0.2,
+          4.8
+        ],
+        "net_area_m2": 6.6,
+        "phase": "完整空间；首期简装/开放待审"
+      },
+      {
+        "id": "08",
+        "name": "后勤过道",
+        "rect": [
+          -8.8,
+          -0.8,
+          -5.49,
+          0.1
+        ],
+        "net_area_m2": 2.979,
+        "phase": "一期必要可进入候选"
+      }
+    ],
+    "F02": [
+      {
+        "id": "11",
+        "name": "玩家卧室",
+        "rect": [
+          -4.1,
+          -4.8,
+          -0.2,
+          -1
+        ],
+        "net_area_m2": 14.82,
+        "phase": "一期必要可进入候选"
+      },
+      {
+        "id": "12",
+        "name": "家庭卧室A",
+        "rect": [
+          -8.8,
+          -4.8,
+          -4.2,
+          -1
+        ],
+        "net_area_m2": 17.48,
+        "phase": "空间完整；首期保留/不新增住户NPC"
+      },
+      {
+        "id": "13",
+        "name": "家庭卧室B",
+        "rect": [
+          -4.1,
+          1,
+          -0.2,
+          4.8
+        ],
+        "net_area_m2": 14.82,
+        "phase": "空间完整；首期保留/不新增住户NPC"
+      },
+      {
+        "id": "14",
+        "name": "二层交通厅",
+        "rect": [
+          -4.1,
+          -0.9,
+          -0.2,
+          0.9
+        ],
+        "net_area_m2": 7.02,
+        "phase": "一期必要可进入候选"
+      },
+      {
+        "id": "15",
+        "name": "楼梯上口厅",
+        "rect": [
+          -5.39,
+          -0.9,
+          -4.2,
+          2.5
+        ],
+        "net_area_m2": 4.046,
+        "phase": "一期必要可进入候选"
+      },
+      {
+        "id": "16",
+        "name": "后侧过道",
+        "rect": [
+          -8.8,
+          -0.9,
+          -5.49,
+          0.1
+        ],
+        "net_area_m2": 3.31,
+        "phase": "一期必要可进入候选"
+      },
+      {
+        "id": "17",
+        "name": "家用储物 / 晾衣",
+        "rect": [
+          -8.8,
+          2.6,
+          -4.2,
+          4.8
+        ],
+        "net_area_m2": 10.12,
+        "phase": "首期关闭/少道具；从家庭卧室B维护进入"
+      }
+    ]
+  },
+  "stair": {
+    "opening_rect": [
+      -8.8,
+      0.2,
+      -5.49,
+      2.5
+    ],
+    "width_total": 2.3,
+    "flight_clear_width": 1.1,
+    "centre_gap": 0.1,
+    "landing_depth": 1.15,
+    "flight_going_count": 8,
+    "going": 0.27,
+    "risers": 18,
+    "riser": 0.16666666666666666,
+    "rise": 3,
+    "landing_z": 1.5,
+    "opening_area_m2": 7.6129999999999995,
+    "under_landing": "低净空储藏封闭；不作为穿行通道",
+    "upper_landing_clear_height": 2.7,
+    "headroom_status": "whole-bay floor opening avoids upper slab above flights; finite capsule/motion not engine-tested"
+  },
+  "openings": [
+    {
+      "id": "D01",
+      "face": "F",
+      "u": 0,
+      "width": 1.6,
+      "sill": 0,
+      "height": 2.3,
+      "kind": "main_portal",
+      "room": null,
+      "phase": "design candidate, not manufactured or UE validated",
+      "active_clear": [
+        1.2,
+        2.1
+      ],
+      "explanation": "1.6m candidate frame opening with side panels; active household passage1.2m versus original prototype2.4m, needs planning/nav review; avoids doorway spilling across玄关/LDK partition"
+    },
+    {
+      "id": "D02",
+      "face": "B",
+      "u": -0.35,
+      "width": 0.85,
+      "sill": 0,
+      "height": 2.1,
+      "kind": "maintenance_door",
+      "room": "08",
+      "phase": "design candidate, not manufactured or UE validated"
+    },
+    {
+      "id": "WF01",
+      "face": "F",
+      "u": 3.7,
+      "width": 1.3,
+      "sill": 0.9,
+      "height": 1.2,
+      "kind": "window",
+      "room": "07",
+      "phase": "design candidate, not manufactured or UE validated"
+    },
+    {
+      "id": "WF02",
+      "face": "F",
+      "u": -2.8,
+      "width": 2,
+      "sill": 0.65,
+      "height": 1.45,
+      "kind": "window",
+      "room": "01",
+      "phase": "design candidate, not manufactured or UE validated"
+    },
+    {
+      "id": "WF03",
+      "face": "F",
+      "u": -2.85,
+      "width": 1.8,
+      "sill": 3.8,
+      "height": 1.3,
+      "kind": "window",
+      "room": "11",
+      "phase": "design candidate, not manufactured or UE validated"
+    },
+    {
+      "id": "WF04",
+      "face": "F",
+      "u": 2.85,
+      "width": 1.8,
+      "sill": 3.8,
+      "height": 1.3,
+      "kind": "window",
+      "room": "13",
+      "phase": "design candidate, not manufactured or UE validated"
+    },
+    {
+      "id": "WF05",
+      "face": "F",
+      "u": 0,
+      "width": 0.9,
+      "sill": 4.1,
+      "height": 1,
+      "kind": "window",
+      "room": "14",
+      "phase": "design candidate, not manufactured or UE validated"
+    },
+    {
+      "id": "WB01",
+      "face": "B",
+      "u": -3,
+      "width": 1.6,
+      "sill": 1.1,
+      "height": 0.8,
+      "kind": "window",
+      "room": "01",
+      "phase": "design candidate, not manufactured or UE validated"
+    },
+    {
+      "id": "WB02",
+      "face": "B",
+      "u": 3.7,
+      "width": 0.8,
+      "sill": 1.6,
+      "height": 0.5,
+      "kind": "window",
+      "room": "04",
+      "phase": "design candidate, not manufactured or UE validated"
+    },
+    {
+      "id": "WB03",
+      "face": "B",
+      "u": -2.7,
+      "width": 1.8,
+      "sill": 3.75,
+      "height": 1.35,
+      "kind": "window",
+      "room": "12",
+      "phase": "design candidate, not manufactured or UE validated"
+    },
+    {
+      "id": "WB04",
+      "face": "B",
+      "u": 3.7,
+      "width": 1.2,
+      "sill": 4.2,
+      "height": 0.8,
+      "kind": "window",
+      "room": "17",
+      "phase": "design candidate, not manufactured or UE validated"
+    },
+    {
+      "id": "WB05",
+      "face": "B",
+      "u": 1.35,
+      "width": 1,
+      "sill": 1.8,
+      "height": 2.2,
+      "kind": "window",
+      "room": "STAIR",
+      "phase": "design candidate, not manufactured or UE validated"
+    },
+    {
+      "id": "WR01",
+      "face": "R",
+      "u": -5.5,
+      "width": 1.2,
+      "sill": 1.1,
+      "height": 0.8,
+      "kind": "window",
+      "room": "05",
+      "phase": "design candidate, not manufactured or UE validated"
+    },
+    {
+      "id": "WR02",
+      "face": "R",
+      "u": -3.8,
+      "width": 0.45,
+      "sill": 1.6,
+      "height": 0.5,
+      "kind": "window",
+      "room": "06",
+      "phase": "design candidate, not manufactured or UE validated"
+    },
+    {
+      "id": "WR03",
+      "face": "R",
+      "u": -1.7,
+      "width": 1.2,
+      "sill": 0.9,
+      "height": 1.2,
+      "kind": "window",
+      "room": "07",
+      "phase": "design candidate, not manufactured or UE validated"
+    },
+    {
+      "id": "WR04",
+      "face": "R",
+      "u": -7,
+      "width": 1.5,
+      "sill": 4.2,
+      "height": 0.8,
+      "kind": "window",
+      "room": "17",
+      "phase": "design candidate, not manufactured or UE validated"
+    },
+    {
+      "id": "WR05",
+      "face": "R",
+      "u": -2.5,
+      "width": 1.8,
+      "sill": 3.8,
+      "height": 1.3,
+      "kind": "window",
+      "room": "13",
+      "phase": "design candidate, not manufactured or UE validated"
+    },
+    {
+      "id": "WL01",
+      "face": "L",
+      "u": -7,
+      "width": 1.6,
+      "sill": 1.1,
+      "height": 0.9,
+      "kind": "window",
+      "room": "01",
+      "phase": "design candidate, not manufactured or UE validated"
+    },
+    {
+      "id": "WL02",
+      "face": "L",
+      "u": -4.5,
+      "width": 1.8,
+      "sill": 0.75,
+      "height": 1.35,
+      "kind": "window",
+      "room": "01",
+      "phase": "design candidate, not manufactured or UE validated"
+    },
+    {
+      "id": "WL03",
+      "face": "L",
+      "u": -1.7,
+      "width": 1.8,
+      "sill": 0.55,
+      "height": 1.55,
+      "kind": "window",
+      "room": "01",
+      "phase": "design candidate, not manufactured or UE validated"
+    },
+    {
+      "id": "WL04",
+      "face": "L",
+      "u": -6.5,
+      "width": 1.8,
+      "sill": 3.8,
+      "height": 1.3,
+      "kind": "window",
+      "room": "12",
+      "phase": "design candidate, not manufactured or UE validated"
+    },
+    {
+      "id": "WL05",
+      "face": "L",
+      "u": -2.3,
+      "width": 1.8,
+      "sill": 3.8,
+      "height": 1.3,
+      "kind": "window",
+      "room": "11",
+      "phase": "design candidate, not manufactured or UE validated"
+    }
+  ],
+  "interior_openings": [
+    {
+      "id": "I01",
+      "floor": 1,
+      "axis": "Y",
+      "fixed": -0.85,
+      "centre": -4.8,
+      "width": 1.0,
+      "connect": [
+        "01",
+        "02"
+      ]
+    },
+    {
+      "id": "I02",
+      "floor": 1,
+      "axis": "X",
+      "fixed": -1.95,
+      "centre": 0,
+      "width": 1.2,
+      "connect": [
+        "02",
+        "03"
+      ],
+      "type": "doorless"
+    },
+    {
+      "id": "I03",
+      "floor": 1,
+      "axis": "Y",
+      "fixed": 2.55,
+      "centre": -4.95,
+      "width": 0.8,
+      "connect": [
+        "02",
+        "05"
+      ]
+    },
+    {
+      "id": "I04",
+      "floor": 1,
+      "axis": "X",
+      "fixed": -6.55,
+      "centre": 3.7,
+      "width": 0.8,
+      "connect": [
+        "05",
+        "04"
+      ]
+    },
+    {
+      "id": "I05",
+      "floor": 1,
+      "axis": "Y",
+      "fixed": 2.55,
+      "centre": -3.8,
+      "width": 0.8,
+      "connect": [
+        "02",
+        "06"
+      ]
+    },
+    {
+      "id": "I06",
+      "floor": 1,
+      "axis": "Y",
+      "fixed": 2.55,
+      "centre": -2.6,
+      "width": 0.8,
+      "connect": [
+        "02",
+        "07"
+      ]
+    },
+    {
+      "id": "I07",
+      "floor": 1,
+      "axis": "X",
+      "fixed": -5.44,
+      "centre": -0.35,
+      "width": 0.85,
+      "connect": [
+        "02",
+        "08"
+      ]
+    },
+    {
+      "id": "S01",
+      "floor": 1,
+      "axis": "X",
+      "fixed": -5.44,
+      "centre": 0.75,
+      "width": 1.1,
+      "connect": [
+        "02",
+        "STAIR"
+      ],
+      "type": "doorless"
+    },
+    {
+      "id": "S02",
+      "floor": 2,
+      "axis": "X",
+      "fixed": -5.44,
+      "centre": 1.95,
+      "width": 1.1,
+      "connect": [
+        "STAIR",
+        "15"
+      ],
+      "type": "doorless"
+    },
+    {
+      "id": "I11",
+      "floor": 2,
+      "axis": "Y",
+      "fixed": -0.95,
+      "centre": -2.6,
+      "width": 0.85,
+      "connect": [
+        "14",
+        "11"
+      ]
+    },
+    {
+      "id": "I12",
+      "floor": 2,
+      "axis": "Y",
+      "fixed": -0.95,
+      "centre": -6.8,
+      "width": 0.85,
+      "connect": [
+        "16",
+        "12"
+      ]
+    },
+    {
+      "id": "I13",
+      "floor": 2,
+      "axis": "Y",
+      "fixed": 0.95,
+      "centre": -2.6,
+      "width": 0.85,
+      "connect": [
+        "14",
+        "13"
+      ]
+    },
+    {
+      "id": "I14",
+      "floor": 2,
+      "axis": "X",
+      "fixed": -4.15,
+      "centre": 3.6,
+      "width": 0.8,
+      "connect": [
+        "13",
+        "17"
+      ]
+    },
+    {
+      "id": "I15",
+      "floor": 2,
+      "axis": "X",
+      "fixed": -4.15,
+      "centre": 0,
+      "width": 1.2,
+      "connect": [
+        "14",
+        "15"
+      ],
+      "type": "doorless"
+    },
+    {
+      "id": "I16",
+      "floor": 2,
+      "axis": "X",
+      "fixed": -5.44,
+      "centre": -0.4,
+      "width": 0.9,
+      "connect": [
+        "15",
+        "16"
+      ],
+      "type": "doorless"
+    }
+  ],
+  "areas": {
+    "formal_size_footprint_m2": 324,
+    "formal_full_two_floor_gross_m2": 648,
+    "formal_finish_inside_before_partitions_void_m2": 619.5200000000001,
+    "candidate_shell_footprint_m2": 90,
+    "candidate_gross_two_floor_m2": 180,
+    "candidate_physical_floor_projection_m2": 172.387,
+    "inside_exterior_walls_per_floor_m2": 82.55999999999999,
+    "F01_room_corridor_net_m2": 71.576,
+    "F02_room_corridor_net_m2": 71.616,
+    "stair_F01_horizontal_projection_m2": 7.6129999999999995,
+    "roof_horizontal_projection_m2": 112.11,
+    "porch_floor_is_existing_ground": "no new ground slab/steps, awning .9x3.2",
+    "definition": "scheme geometry accounting, not statutory construction/sale area; no porch/roof/court in interior net",
+    "net_rooms_corridors_excluding_F01_stair_m2": 143.192,
+    "net_including_F01_stair_projection_m2": 150.805
+  },
+  "Home_interface": {
+    "original": {
+      "id": "Home",
+      "label": "家",
+      "host": "B01",
+      "world_xy_m": [
+        2146.516682102875,
+        1769.8919248102143
+      ],
+      "ground_z_m": 0,
+      "ue_xy_cm": [
+        -4439.240880621583,
+        -14828.989337160374
+      ],
+      "basis": "灰盒原型：源正门向内4m",
+      "room_polygon_m": [
+        [
+          2148.907379355669,
+          1775.0187724425791
+        ],
+        [
+          2151.64352973524,
+          1767.5012275574204
+        ],
+        [
+          2144.1259848500813,
+          1764.7650771778497
+        ],
+        [
+          2141.3898344705103,
+          1772.2826220630084
+        ]
+      ]
+    },
+    "prototype_room_local_m": [
+      [
+        5.729017862998731e-06,
+        3.9999999999959694
+      ],
+      [
+        -5.729017862998731e-06,
+        -3.9999999999959694
+      ],
+      [
+        -8.000005729009724,
+        -3.99998854196003
+      ],
+      [
+        -7.999994270973999,
+        4.000011458031909
+      ]
+    ],
+    "Home_local_m": [
+      -3.9999999999959694,
+      5.729017862998731e-06
+    ],
+    "PlayerStart_reference_local_m": [
+      -4.5130302149844725,
+      -1.4095332021609999
+    ],
+    "PlayerStart_reference_centre_z": 0.98,
+    "PlayerStart_status": "derived from historical worldY-1.5m report, not live actor read",
+    "ground_z": 0,
+    "gray_floor_actor": {
+      "name": "LC2_Home_Floor",
+      "xform": {
+        "location": {
+          "x": -4439.240880621583,
+          "y": -14828.989337160361,
+          "z": -10
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -70.00008206213609,
+          "roll": 0
+        },
+        "scale": {
+          "x": 8.000000000000144,
+          "y": 8.000000000000064,
+          "z": 0.2
+        }
+      },
+      "material": "Ground",
+      "collision": true
+    },
+    "door_active_clear_candidate": [
+      1.2,
+      2.1
+    ],
+    "original_door_width": 2.4,
+    "owned_approach_width": 2.8,
+    "geometry_replacement": "old floor/1.1m walls/furniture are prototype actors; must eventually be replaced by development chat, not kept overlapping. No operation this round"
+  },
+  "group_separation": {
+    "ROOF": "roof faces+undersides/ridge/eaves/gutters/porch canopy; independent closed/finished underside",
+    "EXTERIOR": "one owner for exterior walls BOTH surfaces, gables and all door/window openings/frames/porch attachment/mailbox/necessary court interfaces/downpipes; no duplicate interior exterior-wall skin",
+    "INTERIOR_F01": "slab [-.2,0], partitions/ceilings, one stair structure0->3m, initial necessary living/wet rooms furniture",
+    "INTERIOR_F02": "slab[2.8,3] with SAME stair void, partitions/ceiling/upper landing guard/player sleeping; reserved family spaces closed/unfinished props",
+    "common_reassembly": "all retain entrance-ground root and yaw20; never recenter each floor; no UE runtime hide/switch code"
+  },
+  "materials": {
+    "wall": "matte warm off-white #D8D3C5; understated larger plaster variation",
+    "roof": "muted bluegray #899795, simple low gable22°, restrained course lines",
+    "porch": "small warm wood #8B7564",
+    "frames": "muted gray-green #A6ACA6",
+    "glass": "muted #738D93, design indication only; optical material not created",
+    "density": "64px/m as first environment comparison reference only; final indoor/roof density/atlas/slots decided during whole trial, never globally128"
+  },
+  "preview": {
+    "type": "dimension-based editable vector massing / common light direction indication, NOT model render or UE",
+    "views": [
+      {
+        "id": "A",
+        "local_azimuth_deg": 45,
+        "world_azimuth_deg": 65,
+        "elevation_deg": 30
+      },
+      {
+        "id": "B",
+        "local_azimuth_deg": 225,
+        "world_azimuth_deg": 245,
+        "elevation_deg": 30
+      }
+    ],
+    "sun_world_incoming": [
+      0.5,
+      0.6,
+      -1
+    ],
+    "same_dimensions_openings_roof_materials": true,
+    "derived_views": [
+      {
+        "azimuth": 45,
+        "elevation": 30,
+        "source_face_count": 36,
+        "visible_face_ids": [
+          "WF02",
+          "WR01",
+          "WF03",
+          "D01",
+          "WR04",
+          "WR02",
+          "WF05",
+          "WR03",
+          "WF01",
+          "WR05",
+          "WF04"
+        ],
+        "same_source": true
+      },
+      {
+        "azimuth": 225,
+        "elevation": 30,
+        "source_face_count": 36,
+        "visible_face_ids": [
+          "WB02",
+          "WL03",
+          "WB04",
+          "WB05",
+          "D02",
+          "WL02",
+          "WL05",
+          "WB01",
+          "WL01",
+          "WL04",
+          "WB03"
+        ],
+        "same_source": true
+      }
+    ],
+    "common_parametric_face_count": 36
+  },
+  "protected_inputs": [
+    {
+      "path": "D:/Art Asset Library/ArtSource/MapDesign/V13/SL_WORLD_V13_LAYOUT_01.json",
+      "sha256": "20149b825e420c885ce80468da052067caddc46e9663128471538be047518e72",
+      "bytes": 840554
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/MapDesign/V13/SL_WORLD_V13_PLAN_01.svg",
+      "sha256": "eb7af2e9b15c08a4b8d4d6642a0cbb757b687229329719cb78f571fc792e32a1",
+      "bytes": 174528
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Design/build_design.py",
+      "sha256": "62b6ac42aa2ee6c1dd77b6f80c5b62b4695e54f8dea6886101ff91116df39e35",
+      "bytes": 16208
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Design/SL_GE_GATE_PIER_01_DESIGN.png",
+      "sha256": "22e4c3e8fc0cb0e38de3fa2b89da7dab4e1b8154af800259f434c17a2bc31758",
+      "bytes": 777375
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Design/SL_GE_GATE_PIER_01_DESIGN.svg",
+      "sha256": "ad7747fd1b0a9d26da3bb8bf7c840246ebed31b710bd5118bf2a772136c8c261",
+      "bytes": 651450
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Design/SL_GE_GATE_PIER_01_GEOMETRY.json",
+      "sha256": "c2fd570b4c0636439d9f8977f787deed0b7c60dc2b2035e6d45cef7bc1e1af16",
+      "bytes": 2185
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Design/SL_GE_GATE_PIER_01_REVIEW.json",
+      "sha256": "591ee957fae0e60157559e773d158bd55db717949a875171b577b11c1b31fa20",
+      "bytes": 4916
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Design/SL_GE_GATE_PIER_01_SPEC.md",
+      "sha256": "e352765f0d3f4941757f26bc7890fdb9174521a4eb159659202f0ce398dbb089",
+      "bytes": 12493
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Exports/SL_GE_GATE_PIER_01_TRIAL_01.fbx",
+      "sha256": "faf489c4e70d8f27bf50022e2e7049d8751c6545f06f7cda07ba1b6f0ed82a6f",
+      "bytes": 22252
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/manifest.json",
+      "sha256": "0c6650f9905465bc39831e98f508a9d6dfbc7cc0d0511ba0c54a454661e41105",
+      "bytes": 16815
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Previews/Renders/SL_GE_GATE_PIER_01_TRIAL_VIEW_A_RENDER.png",
+      "sha256": "1a64c27e8b94881bcedf1b1cfea92bbb480362a65f1d7f639e2c0966d3992855",
+      "bytes": 1703104
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Previews/Renders/SL_GE_GATE_PIER_01_TRIAL_VIEW_B_RENDER.png",
+      "sha256": "3d1cfb072b5f7a3ca6f72250d004458eec751aae58a9ec909d0d1c311d62fde7",
+      "bytes": 1627062
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Previews/SL_GE_GATE_PIER_01_TRIAL_CHECK.png",
+      "sha256": "e69b2fdf1d16cd7a849f25594f5e2c33560bb9f30acf4a265ea9bf8b2592c9fd",
+      "bytes": 677056
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Previews/SL_GE_GATE_PIER_01_TRIAL_MATERIAL_COMPARE.png",
+      "sha256": "b8bc9747100d37d387c5f2a5d2b70e555d0eb348bc3674d3b0cef862b844dd04",
+      "bytes": 229568
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Previews/SL_GE_GATE_PIER_01_TRIAL_VIEW_A.png",
+      "sha256": "19bf61aaf6eda1be4781110f9cae284c9fcf7417197e1d863e12fc6dffd1f724",
+      "bytes": 1163885
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Previews/SL_GE_GATE_PIER_01_TRIAL_VIEW_B.png",
+      "sha256": "5d68c3f854573a35c930e7f972a71506fed2bf3b1da76e876cf338f6828dc06b",
+      "bytes": 1138295
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/README.md",
+      "sha256": "a84dc19ed85954ea26ac5bd564e502358927aa6370ca042bbeaa8d45ab280d42",
+      "bytes": 5218
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/review.md",
+      "sha256": "abbd20c4244b7360f9320927baaaa2f99f3d9dd36e8c02482c7669374a75ae51",
+      "bytes": 6891
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Source/assemble_preview_boards.py",
+      "sha256": "e09f72905b9e7e46d9371e43a9fd45c4b263ff19061cd154d3541a8fcd6b9317",
+      "bytes": 8454
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Source/blender_measurements.json",
+      "sha256": "6c2afbbda49a11c684b89dbd82b52abe814d7b50c5bc7ac21730a90175f6e1f7",
+      "bytes": 6293
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Source/build_trial.py",
+      "sha256": "ab696379a09bc5c8f5cd42c1a1391bb7fc4572dec18f2e492763826c9d668d99",
+      "bytes": 14627
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Source/create_trial_data.py",
+      "sha256": "24f47c9769aca1d8d6bd1e9d3668157a38478c6345c5efa3aea9bdb1b0531a13",
+      "bytes": 6770
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Source/SL_GE_GATE_PIER_01_TRIAL_01.blend",
+      "sha256": "56dadb69c0a41862de5589a2fc409aa31331942a86ec48db21451a04ea9c4b2b",
+      "bytes": 108151
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Source/SL_GE_GATE_PIER_01_TRIAL_01.blend1",
+      "sha256": "24ef77973f1812cc649e87d653e61e3b405cc27940e26444983c47779b19faff",
+      "bytes": 112078
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Source/SL_GE_GATE_PIER_01_TRIAL_GEOMETRY_UV.json",
+      "sha256": "e4d3896a76a6cb15be1ca621bdbb1944f832db5587a0250d68793310cdcbab8e",
+      "bytes": 22525
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Source/texture_statistics.json",
+      "sha256": "ff652e0d8dc31a34f5f384e7bd78dd228b0ca90eebd9b8b4bfb7bbfa8a5997bf",
+      "bytes": 240
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Source/verification_results.json",
+      "sha256": "4e2bb4e38bfe0214e4e4336b2cf57dc5fc9aac0facc87b8f16b5fc52d7fe2922",
+      "bytes": 2447
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Source/verify_trial.py",
+      "sha256": "885dc644600e2d97fb6acf682145b5cc5c8e5ddbd027a4c7a1cfa648d266e1be",
+      "bytes": 6367
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Textures/Samples/M1_32px_per_m_1m.png",
+      "sha256": "35cb8f7e5afbe4d2083436f84d85ca3c9bbcb364c3743e7b800ae3dd558d5148",
+      "bytes": 333
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Textures/Samples/M1_64px_per_m_1m.png",
+      "sha256": "93c83e9e35d2b1c0c06241f92e1958bc7cc640b436abf280cc7b6534d768d1f8",
+      "bytes": 589
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Textures/Samples/M2_32px_per_m_1m.png",
+      "sha256": "42265d24c6ab55393ad79eac100fdf3074af0851c8c81f89de0c07570b74c12f",
+      "bytes": 446
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Textures/Samples/M2_64px_per_m_1m.png",
+      "sha256": "4f28bdcd37dbd8eff96f65ef65e29157be44064efbb18076d3ea98155cec69a1",
+      "bytes": 957
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Textures/SL_GE_GATE_PIER_01_TRIAL_BaseColor.png",
+      "sha256": "bec477e282525620f2c7d11de38b2f899c6419a1e612b2c01c6759d681144eea",
+      "bytes": 4379
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Textures/SL_GE_GATE_PIER_01_TRIAL_Roughness.png",
+      "sha256": "6685d7a7185d5d92a4cdc9511282dd7784b9451938f78631132016ab2897e60a",
+      "bytes": 693
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Textures/SL_GE_GATE_PIER_01_TRIAL_UV_LAYOUT.png",
+      "sha256": "7c4f9398e3c0f97200fd75223114cb9d995a927439f52249e26de98b2c940295",
+      "bytes": 2613
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Design/build_design.py",
+      "sha256": "4c1edc752ab389a2ea5e7fd498b796ec9cba39c9d607710b2d6c0499e7192601",
+      "bytes": 18071
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Design/README.md",
+      "sha256": "b4a3e030072e8026dae429a2ba665e028743231c824243c95ce2d30168cc7628",
+      "bytes": 3938
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Design/review.md",
+      "sha256": "35549e497173e20ce71bcb70e02116e5b51883b63014fd7aaf363a3f414e1daf",
+      "bytes": 4491
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Design/SL_GE_SIGN_PLATE_01_CHECKS.json",
+      "sha256": "406f1b58cf5cdf49185ec47abc1573cb3743f1639ce31971d19abde86957784c",
+      "bytes": 11123
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Design/SL_GE_SIGN_PLATE_01_DESIGN.png",
+      "sha256": "c0fce2d4ea5f638dffcc0ffc470449b090e8413a11cc224d12fb063666644733",
+      "bytes": 860511
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Design/SL_GE_SIGN_PLATE_01_DESIGN.svg",
+      "sha256": "6826a694453c12b4bb3385dd97ec525b38aaa60efb7f95ec35cdfbd624d213b1",
+      "bytes": 66454
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Design/SL_GE_SIGN_PLATE_01_GEOMETRY.json",
+      "sha256": "fab23a6fdd2d02082b4b58dcf388aa6ba4599f2d3e59d9f7dcb525d42c32c063",
+      "bytes": 4223
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Design/SL_GE_SIGN_PLATE_01_SPEC.md",
+      "sha256": "9b3328f82e88d3f5c575f4c53920b71e11b0821ae8e409b672412df9d5b39efe",
+      "bytes": 10031
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Exports/SL_GE_SIGN_PLATE_01_TRIAL_01.fbx",
+      "sha256": "f55c239a6d2c70e69e04772b76820e5662b761d5ffed60ae13238169c5025d8f",
+      "bytes": 59756
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/manifest.json",
+      "sha256": "7cb9418ffab614f1370e3f4f0e3a37349ec6e1b0a772d8a8df44a0933a793f2b",
+      "bytes": 43757
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/Renders/CHECK_EAST.png",
+      "sha256": "ce62447f3ceba5a23d31f23cca54932e7babd30eb3a27bc6dcea0df20acb46ca",
+      "bytes": 237450
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/Renders/CHECK_EXPLODED_REAR.png",
+      "sha256": "36169d86e9f4d2cc250e1a02860efc38207878f665827f35d59b52c866a0c9c5",
+      "bytes": 729912
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/Renders/CHECK_FRONT.png",
+      "sha256": "fc114e8aaceea480b675eae0e4bcb03e2f6d6685d165b11e4a997fcab8d5b486",
+      "bytes": 355065
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/Renders/CHECK_REAR.png",
+      "sha256": "3235f1b3851d7ee03872087978ff2e60057839a08ac61f5ff5578823d6e6a9df",
+      "bytes": 345439
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/Renders/CHECK_TOP.png",
+      "sha256": "1f3613d1a96806efd56d7c6783c6d1395ba7f7b8ff271b5832f61efa0d909460",
+      "bytes": 122075
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/Renders/SL_GE_SIGN_PLATE_01_TRIAL_COATING_RENDER.png",
+      "sha256": "aac9b096df23953811d987cd72251286ac154fdcb77447eca0bf8b1478ec9813",
+      "bytes": 619367
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/Renders/SL_GE_SIGN_PLATE_01_TRIAL_INSTALL_A_RENDER.png",
+      "sha256": "4f40286f453ea236d3ce8cc898516b4d0fb284288b119c653e76e63fce3e0374",
+      "bytes": 1706394
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/Renders/SL_GE_SIGN_PLATE_01_TRIAL_INSTALL_B_RENDER.png",
+      "sha256": "718971b0e8e347dd0d7931de7cf126a3a8bffcc7984c0809d568daf037334749",
+      "bytes": 1630665
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/SL_GE_SIGN_PLATE_01_TRIAL_CHECK.png",
+      "sha256": "b29851765b0e7a15686c7b8207250f0eef3081dfcdc21f9083b1f5d387225583",
+      "bytes": 1932735
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/SL_GE_SIGN_PLATE_01_TRIAL_INSTALL_A.png",
+      "sha256": "d3bf72f3007c6aa5a41b4d02f85aee1dbc22086d52716593c0e6d1af67bea329",
+      "bytes": 1136016
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/SL_GE_SIGN_PLATE_01_TRIAL_INSTALL_B.png",
+      "sha256": "c66d00504dd670acbdc5457dcaae113a97ad19355e2492e79d2e472e545dd37c",
+      "bytes": 1119640
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/README.md",
+      "sha256": "bd12b109b202796df5f9668432a25f02988a122ba2e149e5d42fc1b71031f244",
+      "bytes": 6740
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/review.md",
+      "sha256": "52f6fed2231b77f152955c96ca0835e5a1ce67e0c2ace4f4c8540bcd7a415593",
+      "bytes": 5298
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/assemble_preview_boards.py",
+      "sha256": "d793c092a2f33560ea6f5c4b3f123699c5512ecaaa990328a8df3a050473b397",
+      "bytes": 4647
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/assembly_parameters.json",
+      "sha256": "5fb5afb09ec813bbf922b1de44d8b873f325bd108fa213043d31337688ed8052",
+      "bytes": 3098
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/blender_measurements.json",
+      "sha256": "6f6e3e71fc89307b4676f1fa9edaf92f0fbe9431ccc5f71b9690b147a2199723",
+      "bytes": 17386
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/build_trial.py",
+      "sha256": "04e8f7775fc7cdcff4de1aec48d053d2e97f099ac6e3ace23dcde7bf9f584343",
+      "bytes": 15940
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/prepare_trial.py",
+      "sha256": "b861cd82b7a29957533d059221a56c0b0630233eed9828a4262f460bfcf7ae97",
+      "bytes": 16042
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/SL_GE_SIGN_PLATE_01_TRIAL_01.blend",
+      "sha256": "9841763a7f94bc273b032b9980272925c5a68cfa5146ca05470e3a5fd403009e",
+      "bytes": 132216
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/SL_GE_SIGN_PLATE_01_TRIAL_01.blend1",
+      "sha256": "d2c6269200fd979bf9a976bf3192454f2d7ff624479bb68eea419e65d9942738",
+      "bytes": 131699
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/SL_GE_SIGN_PLATE_01_TRIAL_ASSEMBLY.png",
+      "sha256": "6197f0a10dc4eb16bc98bae48d595d400d6470048b3e8af2bbee2ee26153f79f",
+      "bytes": 416153
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/SL_GE_SIGN_PLATE_01_TRIAL_ASSEMBLY.svg",
+      "sha256": "9e2704ff9629bf4b84da1d441c97bd18dc7c9f52d93cb59a1475a3441238b525",
+      "bytes": 8219
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/SL_GE_SIGN_PLATE_01_TRIAL_GEOMETRY_UV.json",
+      "sha256": "20c61d0b5abee53908c218ce374783d079b181e3cdbb152ca405c1b9a35e78d5",
+      "bytes": 304373
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/verification_results.json",
+      "sha256": "fadde93dbf4c556a76360999036dd0ecd606f690882c1cac3f833b7f8650eeee",
+      "bytes": 18431
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/verify_trial.py",
+      "sha256": "05366dfd17702944692e07b145255b9cf544ca1c5c01b239c59f49bad140fbc9",
+      "bytes": 12121
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Textures/SL_GE_SIGN_PLATE_01_TRIAL_BaseColor.png",
+      "sha256": "6cf81eea76f07f2b6629c7b5b467ac10884c999be2a2d8222d84e3bf065fd4ac",
+      "bytes": 880
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Textures/SL_GE_SIGN_PLATE_01_TRIAL_Roughness.png",
+      "sha256": "c955b2148bfc0d2187280487addf936a3ecc1f03cf66e5cfdbc7a5bedb93990a",
+      "bytes": 522
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Textures/SL_GE_SIGN_PLATE_01_TRIAL_UV_LAYOUT.png",
+      "sha256": "0896e23effa227c6222cb4f100fb5387201d715f6dce0adc67c6abab84e2f617",
+      "bytes": 1107
+    },
+    {
+      "path": "D:/Art Asset Library/Docs/AssetPlanning/BuildingProduction/multi-view-reference.md",
+      "sha256": "a734ccdfbcc002d87b3ea42a940ee5c68917f4ed5302a21e9d4dc25d5d210262",
+      "bytes": 2722
+    },
+    {
+      "path": "D:/Art Asset Library/Docs/AssetPlanning/BuildingProduction/TaskCards/SL_BLD_B01_HOME_01.md",
+      "sha256": "7b029857da18046a9ff19624b740be748594b493ed713206bea782c57a025b19",
+      "bytes": 8344
+    },
+    {
+      "path": "D:/Art Asset Library/Docs/MapDesign/V13/building-use-phase-index.md",
+      "sha256": "6adc035dc3f126c800453d4f264c3ee870626cd8d07e62f4e1314e19c863b324",
+      "bytes": 10879
+    },
+    {
+      "path": "D:/Art Asset Library/Docs/MapDesign/V13/routes.md",
+      "sha256": "4227b789b5976f352dc106b4d666bb09453352c1e415b191e67b86cf873d47ea",
+      "bytes": 1353
+    },
+    {
+      "path": "D:/UE project/SchoolLife/ArtSource/Characters/StudentChibi/FrontIdle/StudentChibi_Front_Idle.png",
+      "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd",
+      "bytes": 2076
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Content/SchoolLife/Maps/CampusLifeBlockout.umap",
+      "sha256": "44fdd13420290da7d2d3f094ad7c0823a65cc1285a21dd613dacd3179d40455f",
+      "bytes": 358608
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/LifeCoreBlockout/Step1/Plan.json",
+      "sha256": "69b9d71e299f5e3f4dec5da370dd77c28c9109ea3a23a28d6ad436ceee205db8",
+      "bytes": 52254
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/LifeCoreBlockout/Step2/ActorRecipe.json",
+      "sha256": "68225f5fd79bb471495b176ed50b7be518ffde19af9b442bf92158bf9b77f146",
+      "bytes": 86847
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/LifeCoreBlockout/Step2/Observations.md",
+      "sha256": "89e3ff5068e32a2742dcbe88117c34c768a271109a5f66fafa48e9ebb9a170fd",
+      "bytes": 11151
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/LifeCoreBlockout/Step2/prepare_geometry.py",
+      "sha256": "69ffd3785f466b8875b07eeeb5e6c08b124c71b0adfd1b2b60d9983ca3d600df",
+      "bytes": 8896
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/StudentChibiFrontPreview/ImportedAssets.json",
+      "sha256": "07ba6a55a9502969a0d55a56136d80871b348dda17b05b25c7de21fdb9d58520",
+      "bytes": 2392
+    }
+  ],
+  "source_basis": {
+    "B01": {
+      "id": "B01",
+      "name": "玩家家（泉巷之家候选）",
+      "use": "家庭生活；门廊、邮箱与小院识别",
+      "phase": "P1",
+      "floors": 2,
+      "roof": "蓝灰坡顶",
+      "story": "老水道边的家用洗物台保留为盆栽台",
+      "old_region": "housing",
+      "new_region": "R02",
+      "coordinate_space": "world_m",
+      "center": [
+        2141.818181818182,
+        1768.181818181818
+      ],
+      "size": [
+        18,
+        18
+      ],
+      "rotation_deg": 20,
+      "footprint": [
+        [
+          2136.4390909090907,
+          1756.6472727272726
+        ],
+        [
+          2153.3527272727274,
+          1762.8027272727272
+        ],
+        [
+          2147.1972727272723,
+          1779.7163636363634
+        ],
+        [
+          2130.283636363636,
+          1773.560909090909
+        ]
+      ],
+      "entry": [
+        2150.2754545454545,
+        1771.2599999999998
+      ],
+      "world_center": [
+        2141.818181818182,
+        1768.181818181818
+      ],
+      "world_footprint": [
+        [
+          2136.4390909090907,
+          1756.6472727272726
+        ],
+        [
+          2153.3527272727274,
+          1762.8027272727272
+        ],
+        [
+          2147.1972727272723,
+          1779.7163636363634
+        ],
+        [
+          2130.283636363636,
+          1773.560909090909
+        ]
+      ],
+      "world_entry": [
+        2150.2754545454545,
+        1771.2599999999998
+      ],
+      "epoch": "住宅扩展",
+      "formation_reason": "井台西北通学校巷旁，不等大私人小院",
+      "access": "private_home",
+      "local_entry": [
+        268.457,
+        253.078
+      ],
+      "local_footprint": [
+        [
+          254.621,
+          238.465
+        ],
+        [
+          271.535,
+          244.621
+        ],
+        [
+          265.379,
+          261.535
+        ],
+        [
+          248.465,
+          255.379
+        ]
+      ],
+      "migration": "DU/1.1 translated, dimensions not enlarged"
+    },
+    "Home": {
+      "id": "Home",
+      "label": "家",
+      "host": "B01",
+      "world_xy_m": [
+        2146.516682102875,
+        1769.8919248102143
+      ],
+      "ground_z_m": 0,
+      "ue_xy_cm": [
+        -4439.240880621583,
+        -14828.989337160374
+      ],
+      "basis": "灰盒原型：源正门向内4m",
+      "room_polygon_m": [
+        [
+          2148.907379355669,
+          1775.0187724425791
+        ],
+        [
+          2151.64352973524,
+          1767.5012275574204
+        ],
+        [
+          2144.1259848500813,
+          1764.7650771778497
+        ],
+        [
+          2141.3898344705103,
+          1772.2826220630084
+        ]
+      ]
+    },
+    "entrance": {
+      "id": "B01_MAIN",
+      "host": "B01",
+      "world_xy_m": [
+        2150.2754545454545,
+        1771.2599999999998
+      ],
+      "ground_z_m": 0,
+      "opening_width_m": 2.4,
+      "approach_width_m": 2.8,
+      "basis": "V13 world_entry；门洞宽是灰盒候选",
+      "place_id": "Home",
+      "ue_xy_cm": [
+        -4063.363636363647,
+        -14692.181818181825
+      ]
+    },
+    "origin_world_xy_m": [
+      2190.909090909091,
+      1918.181818181818
+    ],
+    "local_coordinate": "entry ground pivot; +X points out toward lane, +Y is yaw+90, +Z up; world yaw20",
+    "home_local_m": [
+      -3.9999999999959694,
+      5.729017862998731e-06
+    ],
+    "formal_footprint_local_m": [
+      [
+        -17.999775883798584,
+        -8.999156913723503
+      ],
+      [
+        -0.0008671563619664369,
+        -8.999726033025963
+      ],
+      [
+        -0.00029803706008824093,
+        8.999182694410381
+      ],
+      [
+        -17.9992067644962,
+        8.999751813712901
+      ]
+    ],
+    "gray_room_local_m": [
+      [
+        5.729017862998731e-06,
+        3.9999999999959694
+      ],
+      [
+        -5.729017862998731e-06,
+        -3.9999999999959694
+      ],
+      [
+        -8.000005729009724,
+        -3.99998854196003
+      ],
+      [
+        -7.999994270973999,
+        4.000011458031909
+      ]
+    ],
+    "home_actors": [
+      {
+        "name": "LC2_Home_Floor",
+        "xform": {
+          "location": {
+            "x": -4439.240880621583,
+            "y": -14828.989337160361,
+            "z": -10
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": -70.00008206213609,
+            "roll": 0
+          },
+          "scale": {
+            "x": 8.000000000000144,
+            "y": 8.000000000000064,
+            "z": 0.2
+          }
+        },
+        "material": "Ground",
+        "collision": true
+      },
+      {
+        "name": "LC2_Home_DoorJamb_-1",
+        "xform": {
+          "location": {
+            "x": -4142.891592593255,
+            "y": -14444.441421439706,
+            "z": 55
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": -70.00008206213609,
+            "roll": 0
+          },
+          "scale": {
+            "x": 2.800000000000072,
+            "y": 0.2,
+            "z": 1.1
+          }
+        },
+        "material": "Wall",
+        "collision": true
+      },
+      {
+        "name": "LC2_Home_DoorJamb_1",
+        "xform": {
+          "location": {
+            "x": -3965.0418179211424,
+            "y": -14933.081838975018,
+            "z": 55
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": -70.00008206213609,
+            "roll": 0
+          },
+          "scale": {
+            "x": 2.800000000000072,
+            "y": 0.2,
+            "z": 1.1
+          }
+        },
+        "material": "Wall",
+        "collision": true
+      },
+      {
+        "name": "LC2_Home_Wall_1",
+        "xform": {
+          "location": {
+            "x": -4299.013173668571,
+            "y": -15214.263512524745,
+            "z": 55
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": -160.00008206213766,
+            "roll": 0
+          },
+          "scale": {
+            "x": 8.200000000000063,
+            "y": 0.2,
+            "z": 1.1
+          }
+        },
+        "material": "Wall",
+        "collision": true
+      },
+      {
+        "name": "LC2_Home_Wall_2",
+        "xform": {
+          "location": {
+            "x": -4824.515055985967,
+            "y": -14969.217044113362,
+            "z": 55
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": 109.99991793786393,
+            "roll": 0
+          },
+          "scale": {
+            "x": 8.200000000000145,
+            "y": 0.2,
+            "z": 1.1
+          }
+        },
+        "material": "Wall",
+        "collision": true
+      },
+      {
+        "name": "LC2_Home_Wall_3",
+        "xform": {
+          "location": {
+            "x": -4579.4685875745945,
+            "y": -14443.715161795977,
+            "z": 55
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": 19.99991793786233,
+            "roll": 0
+          },
+          "scale": {
+            "x": 8.200000000000063,
+            "y": 0.2,
+            "z": 1.1
+          }
+        },
+        "material": "Wall",
+        "collision": true
+      },
+      {
+        "name": "LC2_Home_Furniture_-1",
+        "xform": {
+          "location": {
+            "x": -4731.478064325037,
+            "y": -14669.31019493735,
+            "z": 40
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": -70.00008206213609,
+            "roll": 0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 0.8,
+            "z": 0.8
+          }
+        },
+        "material": "Prop",
+        "collision": true
+      },
+      {
+        "name": "LC2_Home_Furniture_1",
+        "xform": {
+          "location": {
+            "x": -4560.468665601854,
+            "y": -15139.156750259763,
+            "z": 40
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": -70.00008206213609,
+            "roll": 0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 0.8,
+            "z": 0.8
+          }
+        },
+        "material": "Prop",
+        "collision": true
+      },
+      {
+        "name": "LC2_Footprint_B01_0",
+        "xform": {
+          "location": {
+            "x": -4601.318181818192,
+            "y": -15845.68181818181,
+            "z": -3.0
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": 19.998188327161753,
+            "roll": 0
+          },
+          "scale": {
+            "x": 17.998908736434295,
+            "y": 0.12,
+            "z": 0.04
+          }
+        },
+        "material": "Prop",
+        "collision": false
+      },
+      {
+        "name": "LC2_Footprint_B01_1",
+        "xform": {
+          "location": {
+            "x": -4063.409090909113,
+            "y": -14692.227272727268,
+            "z": -3.0
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": 109.9981883271636,
+            "roll": 0
+          },
+          "scale": {
+            "x": 17.99890873643402,
+            "y": 0.12,
+            "z": 0.04
+          }
+        },
+        "material": "Prop",
+        "collision": false
+      },
+      {
+        "name": "LC2_Footprint_B01_2",
+        "xform": {
+          "location": {
+            "x": -5216.863636363678,
+            "y": -14154.318181818177,
+            "z": -3.0
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": -160.00181167283847,
+            "roll": 0
+          },
+          "scale": {
+            "x": 17.998908736433787,
+            "y": 0.12,
+            "z": 0.04
+          }
+        },
+        "material": "Prop",
+        "collision": false
+      },
+      {
+        "name": "LC2_Footprint_B01_3",
+        "xform": {
+          "location": {
+            "x": -5754.772727272757,
+            "y": -15307.77272727272,
+            "z": -3.0
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": -70.00181167283802,
+            "roll": 0
+          },
+          "scale": {
+            "x": 17.99890873643409,
+            "y": 0.12,
+            "z": 0.04
+          }
+        },
+        "material": "Prop",
+        "collision": false
+      },
+      {
+        "name": "LC2_Home_YardGate_-1",
+        "xform": {
+          "location": {
+            "x": -3493.4174764213612,
+            "y": -14703.743797074236,
+            "z": 55
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": 14.616304533769972,
+            "roll": 0
+          },
+          "scale": {
+            "x": 0.3,
+            "y": 0.3,
+            "z": 1.1
+          }
+        },
+        "material": "Wall",
+        "collision": true
+      },
+      {
+        "name": "LC2_Home_YardGate_1",
+        "xform": {
+          "location": {
+            "x": -3571.6443417604596,
+            "y": -14403.776202925768,
+            "z": 55
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": 14.616304533769972,
+            "roll": 0
+          },
+          "scale": {
+            "x": 0.3,
+            "y": 0.3,
+            "z": 1.1
+          }
+        },
+        "material": "Wall",
+        "collision": true
+      }
+    ],
+    "R1": [
+      {
+        "id": "R1",
+        "name": "Home→校门",
+        "world_points": [
+          [
+            2146.516682102875,
+            1769.8919248102143
+          ],
+          [
+            2150.2754545454545,
+            1771.2599999999998
+          ],
+          [
+            2150.275181818182,
+            1771.259818181818
+          ],
+          [
+            2176.818181818182,
+            1778.181818181818
+          ],
+          [
+            2191.818181818182,
+            1818.181818181818
+          ],
+          [
+            2191.818181818182,
+            1888.181818181818
+          ],
+          [
+            2190.9121818181816,
+            1918.181818181818
+          ],
+          [
+            2190.909090909091,
+            1918.181818181818
+          ]
+        ],
+        "ue_xy_cm": [
+          [
+            -4439.240880621583,
+            -14828.989337160374
+          ],
+          [
+            -4063.363636363647,
+            -14692.181818181825
+          ],
+          [
+            -4063.390909090913,
+            -14692.200000000003
+          ],
+          [
+            -1409.0909090909008,
+            -14000.0
+          ],
+          [
+            90.90909090909918,
+            -10000.0
+          ],
+          [
+            90.90909090909918,
+            -3000.0
+          ],
+          [
+            0.30909090905879566,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "length_2d_m": 174.1678446156911,
+        "basis": "原门到门170.164426m + 家内4m + 两端舍入连接",
+        "player_flat_seconds": 69.66713784627645,
+        "player_game_minutes_at_020": 13.93342756925529,
+        "verification": "二维施工预算，非真实步行/导航实测"
+      }
+    ],
+    "nearby_buildings": [
+      {
+        "id": "B02",
+        "name": "澄日便利店（候选）",
+        "use": "日常消费空间；侧后勤入口",
+        "phase": "P1",
+        "floors": 1,
+        "roof": "浅色平顶",
+        "story": "旧街更新中的一层新店",
+        "old_region": "shops",
+        "new_region": "R02",
+        "coordinate_space": "world_m",
+        "center": [
+          2224.6381818181817,
+          1778.011818181818
+        ],
+        "size": [
+          20,
+          24
+        ],
+        "rotation_deg": -6,
+        "footprint": [
+          [
+            2213.438181818182,
+            1767.1227272727274
+          ],
+          [
+            2233.329090909091,
+            1765.031818181818
+          ],
+          [
+            2235.8381818181815,
+            1788.900909090909
+          ],
+          [
+            2215.9472727272723,
+            1790.991818181818
+          ]
+        ],
+        "entry": [
+          2234.5836363636363,
+          1776.9672727272728
+        ],
+        "world_center": [
+          2224.6381818181817,
+          1778.011818181818
+        ],
+        "world_footprint": [
+          [
+            2213.438181818182,
+            1767.1227272727274
+          ],
+          [
+            2233.329090909091,
+            1765.031818181818
+          ],
+          [
+            2235.8381818181815,
+            1788.900909090909
+          ],
+          [
+            2215.9472727272723,
+            1790.991818181818
+          ]
+        ],
+        "world_entry": [
+          2234.5836363636363,
+          1776.9672727272728
+        ],
+        "epoch": "当代更新",
+        "formation_reason": "小型便利店退让旧交易口，朝东巷开门",
+        "access": "public_front_future_depth",
+        "local_entry": [
+          352.765,
+          258.785
+        ],
+        "local_footprint": [
+          [
+            331.62,
+            248.941
+          ],
+          [
+            351.511,
+            246.85
+          ],
+          [
+            354.02,
+            270.719
+          ],
+          [
+            334.129,
+            272.81
+          ]
+        ],
+        "migration": "DU/1.1 translated, dimensions not enlarged",
+        "identity_design": {
+          "face": "翻新浅灰便利门面/青绿细店带",
+          "awning": "仅顾客门上2.5m短檐",
+          "reason": "通学与邻里全年采购，员工接后巷",
+          "users": "学生/家庭/成人通勤"
+        },
+        "awning_spans": [
+          [
+            [
+              2233.5298181818184,
+              1766.9413454545452
+            ],
+            [
+              2234.081818181818,
+              1772.1925454545453
+            ]
+          ],
+          [
+            [
+              2235.0854545454545,
+              1781.7401818181816
+            ],
+            [
+              2235.637454545454,
+              1786.9913818181817
+            ]
+          ]
+        ],
+        "awning_depth_m_candidate": 1.5,
+        "awning_note": "门口两侧分段短棚，入口正前开口；沿墙绘线不是地面围挡/已验证遮挡"
+      },
+      {
+        "id": "B03",
+        "name": "泉页书店文具（候选）",
+        "use": "学生买书文具与街角停留",
+        "phase": "P1",
+        "floors": 2,
+        "roof": "青灰窄坡顶",
+        "story": "旧商号木框与新低陈列共存",
+        "old_region": "shops",
+        "new_region": "R02",
+        "coordinate_space": "world_m",
+        "center": [
+          2206.378181818182,
+          1721.3854545454546
+        ],
+        "size": [
+          18,
+          30
+        ],
+        "rotation_deg": 58.3925,
+        "footprint": [
+          [
+            2214.4363636363637,
+            1705.8590909090908
+          ],
+          [
+            2223.87,
+            1721.1890909090907
+          ],
+          [
+            2198.3199999999997,
+            1736.911818181818
+          ],
+          [
+            2188.8863636363635,
+            1721.581818181818
+          ]
+        ],
+        "entry": [
+          2219.153636363636,
+          1713.5236363636363
+        ],
+        "world_center": [
+          2206.378181818182,
+          1721.3854545454546
+        ],
+        "world_footprint": [
+          [
+            2214.4363636363637,
+            1705.8590909090908
+          ],
+          [
+            2223.87,
+            1721.1890909090907
+          ],
+          [
+            2198.3199999999997,
+            1736.911818181818
+          ],
+          [
+            2188.8863636363635,
+            1721.581818181818
+          ]
+        ],
+        "world_entry": [
+          2219.153636363636,
+          1713.5236363636363
+        ],
+        "epoch": "染织/教育",
+        "formation_reason": "旧贸易路西侧窄面深进书文具店",
+        "access": "public_front_future_depth",
+        "local_entry": [
+          337.335,
+          195.342
+        ],
+        "local_footprint": [
+          [
+            332.618,
+            187.677
+          ],
+          [
+            342.052,
+            203.007
+          ],
+          [
+            316.502,
+            218.73
+          ],
+          [
+            307.068,
+            203.4
+          ]
+        ],
+        "migration": "DU/1.1 translated, dimensions not enlarged",
+        "identity_design": {
+          "face": "木质窄门面/暗红小文具牌/深进旧屋",
+          "awning": "门上窄檐，门前等候凹口分开",
+          "reason": "旧商号改书文具；假期家庭与常住读者",
+          "users": "学生/家庭/退休读者"
+        },
+        "awning_spans": [
+          [
+            [
+              2215.191054545455,
+              1707.0854909090908
+            ],
+            [
+              2217.2664545454545,
+              1710.4580909090907
+            ]
+          ],
+          [
+            [
+              2221.039909090909,
+              1716.5900909090908
+            ],
+            [
+              2223.115309090909,
+              1719.9626909090907
+            ]
+          ]
+        ],
+        "awning_depth_m_candidate": 1.5,
+        "awning_note": "门口两侧分段短棚，入口正前开口；沿墙绘线不是地面围挡/已验证遮挡"
+      },
+      {
+        "id": "B04",
+        "name": "染庭咖啡（候选）",
+        "use": "通用帮工：街面顾客门、柜台、后场与员工后门",
+        "phase": "P1",
+        "floors": 2,
+        "roof": "旧瓦坡顶",
+        "story": "由染织整理工坊改用，侧墙旧水槽变花槽",
+        "old_region": "shops",
+        "new_region": "R02",
+        "coordinate_space": "world_m",
+        "center": [
+          2187.5263636363634,
+          1692.6590909090908
+        ],
+        "size": [
+          20,
+          34
+        ],
+        "rotation_deg": 58.3925,
+        "footprint": [
+          [
+            2196.7645454545454,
+            1675.232727272727
+          ],
+          [
+            2207.2463636363636,
+            1692.2654545454543
+          ],
+          [
+            2178.2890909090906,
+            1710.0854545454545
+          ],
+          [
+            2167.8072727272724,
+            1693.0527272727272
+          ]
+        ],
+        "entry": [
+          2202.0054545454545,
+          1683.75
+        ],
+        "world_center": [
+          2187.5263636363634,
+          1692.6590909090908
+        ],
+        "world_footprint": [
+          [
+            2196.7645454545454,
+            1675.232727272727
+          ],
+          [
+            2207.2463636363636,
+            1692.2654545454543
+          ],
+          [
+            2178.2890909090906,
+            1710.0854545454545
+          ],
+          [
+            2167.8072727272724,
+            1693.0527272727272
+          ]
+        ],
+        "world_entry": [
+          2202.0054545454545,
+          1683.75
+        ],
+        "epoch": "染织/教育",
+        "formation_reason": "旧整理工坊改通用帮工咖啡；后院仍送货",
+        "access": "shop_front_staff_rear",
+        "staff_entry": [
+          291.23,
+          183.387
+        ],
+        "local_entry": [
+          320.187,
+          165.568
+        ],
+        "local_footprint": [
+          [
+            314.946,
+            157.051
+          ],
+          [
+            325.428,
+            174.084
+          ],
+          [
+            296.471,
+            191.904
+          ],
+          [
+            285.989,
+            174.871
+          ]
+        ],
+        "migration": "DU/1.1 translated, dimensions not enlarged",
+        "identity_design": {
+          "face": "旧染织砖基/温木窗/蓝灰坡顶",
+          "awning": "窗边两段短棚、后院无满盖",
+          "reason": "工坊改通用帮工咖啡，邻里/职工/周末客源",
+          "users": "帮工/店主/成年人/学生"
+        },
+        "awning_spans": [
+          [
+            [
+              2197.603090909091,
+              1676.5953454545452
+            ],
+            [
+              2199.909090909091,
+              1680.3425454545452
+            ]
+          ],
+          [
+            [
+              2204.101818181818,
+              1687.1556363636362
+            ],
+            [
+              2206.407818181818,
+              1690.9028363636362
+            ]
+          ]
+        ],
+        "awning_depth_m_candidate": 1.5,
+        "awning_note": "门口两侧分段短棚，入口正前开口；沿墙绘线不是地面围挡/已验证遮挡"
+      },
+      {
+        "id": "B05",
+        "name": "旧染织工坊店（候选）",
+        "use": "地方手艺店外观预留",
+        "phase": "future",
+        "floors": 2,
+        "roof": "低锯齿屋顶",
+        "story": "锯齿屋面与染渠检修盖",
+        "old_region": "shops",
+        "new_region": "R02",
+        "coordinate_space": "world_m",
+        "center": [
+          2214.179090909091,
+          1637.0018181818182
+        ],
+        "size": [
+          30,
+          28
+        ],
+        "rotation_deg": 63.435,
+        "footprint": [
+          [
+            2219.993636363636,
+            1617.3245454545454
+          ],
+          [
+            2233.409090909091,
+            1644.1563636363635
+          ],
+          [
+            2208.3654545454547,
+            1656.679090909091
+          ],
+          [
+            2194.949090909091,
+            1629.8472727272726
+          ]
+        ],
+        "entry": [
+          2201.657272727273,
+          1643.2627272727273
+        ],
+        "world_center": [
+          2214.179090909091,
+          1637.0018181818182
+        ],
+        "world_footprint": [
+          [
+            2219.993636363636,
+            1617.3245454545454
+          ],
+          [
+            2233.409090909091,
+            1644.1563636363635
+          ],
+          [
+            2208.3654545454547,
+            1656.679090909091
+          ],
+          [
+            2194.949090909091,
+            1629.8472727272726
+          ]
+        ],
+        "world_entry": [
+          2201.657272727273,
+          1643.2627272727273
+        ],
+        "epoch": "染织/教育",
+        "formation_reason": "贸易路东侧工坊，锯齿翼后场临旧渠检修路",
+        "access": "public_front_future_depth",
+        "local_entry": [
+          319.839,
+          125.081
+        ],
+        "local_footprint": [
+          [
+            338.175,
+            99.143
+          ],
+          [
+            351.591,
+            125.975
+          ],
+          [
+            326.547,
+            138.497
+          ],
+          [
+            313.131,
+            111.665
+          ]
+        ],
+        "migration": "DU/1.1 translated, dimensions not enlarged",
+        "identity_design": {
+          "face": "旧灰瓦/染色木框/手艺竖牌",
+          "awning": "小门口檐，货物从后院",
+          "reason": "全年维修/手艺订单，非只有学生",
+          "users": "手艺人/邻里"
+        },
+        "awning_spans": [
+          [
+            [
+              2207.292145454546,
+              1654.5325454545455
+            ],
+            [
+              2204.3405454545455,
+              1648.6295454545455
+            ]
+          ],
+          [
+            [
+              2198.974,
+              1637.8968181818182
+            ],
+            [
+              2196.0224,
+              1631.9938181818181
+            ]
+          ]
+        ],
+        "awning_depth_m_candidate": 1.5,
+        "awning_note": "门口两侧分段短棚，入口正前开口；沿墙绘线不是地面围挡/已验证遮挡"
+      },
+      {
+        "id": "B06",
+        "name": "校前小食店（候选）",
+        "use": "学生常去的小店与集合侧凹口",
+        "phase": "P1",
+        "floors": 1,
+        "roof": "短坡顶",
+        "story": "小店尺度对比校园体量",
+        "old_region": "campus",
+        "new_region": "R02",
+        "coordinate_space": "world_m",
+        "center": [
+          2221.818181818182,
+          1853.181818181818
+        ],
+        "size": [
+          32,
+          12
+        ],
+        "rotation_deg": 0,
+        "footprint": [
+          [
+            2205.818181818182,
+            1847.1818181818182
+          ],
+          [
+            2237.818181818182,
+            1847.1818181818182
+          ],
+          [
+            2237.818181818182,
+            1859.181818181818
+          ],
+          [
+            2205.818181818182,
+            1859.181818181818
+          ]
+        ],
+        "entry": [
+          2221.818181818182,
+          1859.181818181818
+        ],
+        "world_center": [
+          2221.818181818182,
+          1853.181818181818
+        ],
+        "world_footprint": [
+          [
+            2205.818181818182,
+            1847.1818181818182
+          ],
+          [
+            2237.818181818182,
+            1847.1818181818182
+          ],
+          [
+            2237.818181818182,
+            1859.181818181818
+          ],
+          [
+            2205.818181818182,
+            1859.181818181818
+          ]
+        ],
+        "world_entry": [
+          2221.818181818182,
+          1859.181818181818
+        ],
+        "epoch": "住宅扩展",
+        "formation_reason": "校前小食店有短檐、台地集合退界",
+        "access": "public_front_future_depth",
+        "local_entry": [
+          340,
+          341
+        ],
+        "local_footprint": [
+          [
+            324,
+            329
+          ],
+          [
+            356,
+            329
+          ],
+          [
+            356,
+            341
+          ],
+          [
+            324,
+            341
+          ]
+        ],
+        "migration": "DU/1.1 translated, dimensions not enlarged",
+        "identity_design": {
+          "face": "较新暖灰小食铺/可清洁窗带/米黄小招牌",
+          "awning": "分段6m短棚候选，不盖通学街",
+          "reason": "校前便宜小食/朋友等候，居民午间亦使用",
+          "users": "学生/家长/邻里"
+        },
+        "awning_spans": [
+          [
+            [
+              2235.258181818182,
+              1859.181818181818
+            ],
+            [
+              2228.218181818182,
+              1859.181818181818
+            ]
+          ],
+          [
+            [
+              2215.418181818182,
+              1859.181818181818
+            ],
+            [
+              2208.378181818182,
+              1859.181818181818
+            ]
+          ]
+        ],
+        "awning_depth_m_candidate": 1.5,
+        "awning_note": "门口两侧分段短棚，入口正前开口；沿墙绘线不是地面围挡/已验证遮挡"
+      }
+    ],
+    "source_roads": [
+      {
+        "id": "L02_commute",
+        "region": "R02",
+        "points": [
+          [
+            2176.818181818182,
+            1778.181818181818
+          ],
+          [
+            2191.818181818182,
+            1818.181818181818
+          ],
+          [
+            2191.818181818182,
+            1888.181818181818
+          ]
+        ],
+        "width": 5,
+        "units": "m",
+        "world_points": [
+          [
+            2176.818181818182,
+            1778.181818181818
+          ],
+          [
+            2191.818181818182,
+            1818.181818181818
+          ],
+          [
+            2191.818181818182,
+            1888.181818181818
+          ]
+        ],
+        "world_width": 5,
+        "type": "public_footpath",
+        "formation_reason": "井台家巷直达校门，不经铁路",
+        "design_class": "school_walk"
+      },
+      {
+        "id": "L02_wellhome",
+        "region": "R02",
+        "points": [
+          [
+            2166.818181818182,
+            1728.181818181818
+          ],
+          [
+            2151.818181818182,
+            1748.181818181818
+          ],
+          [
+            2176.818181818182,
+            1778.181818181818
+          ]
+        ],
+        "width": 4,
+        "units": "m",
+        "world_points": [
+          [
+            2166.818181818182,
+            1728.181818181818
+          ],
+          [
+            2151.818181818182,
+            1748.181818181818
+          ],
+          [
+            2176.818181818182,
+            1778.181818181818
+          ]
+        ],
+        "world_width": 4,
+        "type": "public_lane",
+        "formation_reason": "绕私人院墙的邻里凹口",
+        "design_class": "walk_shortcut"
+      },
+      {
+        "id": "E_B01",
+        "region": "R02",
+        "points": [
+          [
+            2150.2754545454545,
+            1771.2599999999998
+          ],
+          [
+            2176.818181818182,
+            1778.181818181818
+          ]
+        ],
+        "width": 2.8,
+        "units": "m",
+        "world_points": [
+          [
+            2150.2754545454545,
+            1771.2599999999998
+          ],
+          [
+            2176.818181818182,
+            1778.181818181818
+          ]
+        ],
+        "world_width": 2.8,
+        "type": "owned_entry",
+        "formation_reason": "只访问自家院门",
+        "owner": "B01",
+        "design_class": "private_access"
+      }
+    ],
+    "protected_inputs": [
+      {
+        "path": "D:/Art Asset Library/ArtSource/MapDesign/V13/SL_WORLD_V13_LAYOUT_01.json",
+        "sha256": "20149b825e420c885ce80468da052067caddc46e9663128471538be047518e72",
+        "bytes": 840554
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/MapDesign/V13/SL_WORLD_V13_PLAN_01.svg",
+        "sha256": "eb7af2e9b15c08a4b8d4d6642a0cbb757b687229329719cb78f571fc792e32a1",
+        "bytes": 174528
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Design/build_design.py",
+        "sha256": "62b6ac42aa2ee6c1dd77b6f80c5b62b4695e54f8dea6886101ff91116df39e35",
+        "bytes": 16208
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Design/SL_GE_GATE_PIER_01_DESIGN.png",
+        "sha256": "22e4c3e8fc0cb0e38de3fa2b89da7dab4e1b8154af800259f434c17a2bc31758",
+        "bytes": 777375
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Design/SL_GE_GATE_PIER_01_DESIGN.svg",
+        "sha256": "ad7747fd1b0a9d26da3bb8bf7c840246ebed31b710bd5118bf2a772136c8c261",
+        "bytes": 651450
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Design/SL_GE_GATE_PIER_01_GEOMETRY.json",
+        "sha256": "c2fd570b4c0636439d9f8977f787deed0b7c60dc2b2035e6d45cef7bc1e1af16",
+        "bytes": 2185
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Design/SL_GE_GATE_PIER_01_REVIEW.json",
+        "sha256": "591ee957fae0e60157559e773d158bd55db717949a875171b577b11c1b31fa20",
+        "bytes": 4916
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Design/SL_GE_GATE_PIER_01_SPEC.md",
+        "sha256": "e352765f0d3f4941757f26bc7890fdb9174521a4eb159659202f0ce398dbb089",
+        "bytes": 12493
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Exports/SL_GE_GATE_PIER_01_TRIAL_01.fbx",
+        "sha256": "faf489c4e70d8f27bf50022e2e7049d8751c6545f06f7cda07ba1b6f0ed82a6f",
+        "bytes": 22252
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/manifest.json",
+        "sha256": "0c6650f9905465bc39831e98f508a9d6dfbc7cc0d0511ba0c54a454661e41105",
+        "bytes": 16815
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Previews/Renders/SL_GE_GATE_PIER_01_TRIAL_VIEW_A_RENDER.png",
+        "sha256": "1a64c27e8b94881bcedf1b1cfea92bbb480362a65f1d7f639e2c0966d3992855",
+        "bytes": 1703104
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Previews/Renders/SL_GE_GATE_PIER_01_TRIAL_VIEW_B_RENDER.png",
+        "sha256": "3d1cfb072b5f7a3ca6f72250d004458eec751aae58a9ec909d0d1c311d62fde7",
+        "bytes": 1627062
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Previews/SL_GE_GATE_PIER_01_TRIAL_CHECK.png",
+        "sha256": "e69b2fdf1d16cd7a849f25594f5e2c33560bb9f30acf4a265ea9bf8b2592c9fd",
+        "bytes": 677056
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Previews/SL_GE_GATE_PIER_01_TRIAL_MATERIAL_COMPARE.png",
+        "sha256": "b8bc9747100d37d387c5f2a5d2b70e555d0eb348bc3674d3b0cef862b844dd04",
+        "bytes": 229568
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Previews/SL_GE_GATE_PIER_01_TRIAL_VIEW_A.png",
+        "sha256": "19bf61aaf6eda1be4781110f9cae284c9fcf7417197e1d863e12fc6dffd1f724",
+        "bytes": 1163885
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Previews/SL_GE_GATE_PIER_01_TRIAL_VIEW_B.png",
+        "sha256": "5d68c3f854573a35c930e7f972a71506fed2bf3b1da76e876cf338f6828dc06b",
+        "bytes": 1138295
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/README.md",
+        "sha256": "a84dc19ed85954ea26ac5bd564e502358927aa6370ca042bbeaa8d45ab280d42",
+        "bytes": 5218
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/review.md",
+        "sha256": "abbd20c4244b7360f9320927baaaa2f99f3d9dd36e8c02482c7669374a75ae51",
+        "bytes": 6891
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Source/assemble_preview_boards.py",
+        "sha256": "e09f72905b9e7e46d9371e43a9fd45c4b263ff19061cd154d3541a8fcd6b9317",
+        "bytes": 8454
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Source/blender_measurements.json",
+        "sha256": "6c2afbbda49a11c684b89dbd82b52abe814d7b50c5bc7ac21730a90175f6e1f7",
+        "bytes": 6293
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Source/build_trial.py",
+        "sha256": "ab696379a09bc5c8f5cd42c1a1391bb7fc4572dec18f2e492763826c9d668d99",
+        "bytes": 14627
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Source/create_trial_data.py",
+        "sha256": "24f47c9769aca1d8d6bd1e9d3668157a38478c6345c5efa3aea9bdb1b0531a13",
+        "bytes": 6770
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Source/SL_GE_GATE_PIER_01_TRIAL_01.blend",
+        "sha256": "56dadb69c0a41862de5589a2fc409aa31331942a86ec48db21451a04ea9c4b2b",
+        "bytes": 108151
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Source/SL_GE_GATE_PIER_01_TRIAL_01.blend1",
+        "sha256": "24ef77973f1812cc649e87d653e61e3b405cc27940e26444983c47779b19faff",
+        "bytes": 112078
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Source/SL_GE_GATE_PIER_01_TRIAL_GEOMETRY_UV.json",
+        "sha256": "e4d3896a76a6cb15be1ca621bdbb1944f832db5587a0250d68793310cdcbab8e",
+        "bytes": 22525
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Source/texture_statistics.json",
+        "sha256": "ff652e0d8dc31a34f5f384e7bd78dd228b0ca90eebd9b8b4bfb7bbfa8a5997bf",
+        "bytes": 240
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Source/verification_results.json",
+        "sha256": "4e2bb4e38bfe0214e4e4336b2cf57dc5fc9aac0facc87b8f16b5fc52d7fe2922",
+        "bytes": 2447
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Source/verify_trial.py",
+        "sha256": "885dc644600e2d97fb6acf682145b5cc5c8e5ddbd027a4c7a1cfa648d266e1be",
+        "bytes": 6367
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Textures/Samples/M1_32px_per_m_1m.png",
+        "sha256": "35cb8f7e5afbe4d2083436f84d85ca3c9bbcb364c3743e7b800ae3dd558d5148",
+        "bytes": 333
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Textures/Samples/M1_64px_per_m_1m.png",
+        "sha256": "93c83e9e35d2b1c0c06241f92e1958bc7cc640b436abf280cc7b6534d768d1f8",
+        "bytes": 589
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Textures/Samples/M2_32px_per_m_1m.png",
+        "sha256": "42265d24c6ab55393ad79eac100fdf3074af0851c8c81f89de0c07570b74c12f",
+        "bytes": 446
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Textures/Samples/M2_64px_per_m_1m.png",
+        "sha256": "4f28bdcd37dbd8eff96f65ef65e29157be44064efbb18076d3ea98155cec69a1",
+        "bytes": 957
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Textures/SL_GE_GATE_PIER_01_TRIAL_BaseColor.png",
+        "sha256": "bec477e282525620f2c7d11de38b2f899c6419a1e612b2c01c6759d681144eea",
+        "bytes": 4379
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Textures/SL_GE_GATE_PIER_01_TRIAL_Roughness.png",
+        "sha256": "6685d7a7185d5d92a4cdc9511282dd7784b9451938f78631132016ab2897e60a",
+        "bytes": 693
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_GATE_PIER_01/Trial01/Textures/SL_GE_GATE_PIER_01_TRIAL_UV_LAYOUT.png",
+        "sha256": "7c4f9398e3c0f97200fd75223114cb9d995a927439f52249e26de98b2c940295",
+        "bytes": 2613
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Design/build_design.py",
+        "sha256": "4c1edc752ab389a2ea5e7fd498b796ec9cba39c9d607710b2d6c0499e7192601",
+        "bytes": 18071
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Design/README.md",
+        "sha256": "b4a3e030072e8026dae429a2ba665e028743231c824243c95ce2d30168cc7628",
+        "bytes": 3938
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Design/review.md",
+        "sha256": "35549e497173e20ce71bcb70e02116e5b51883b63014fd7aaf363a3f414e1daf",
+        "bytes": 4491
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Design/SL_GE_SIGN_PLATE_01_CHECKS.json",
+        "sha256": "406f1b58cf5cdf49185ec47abc1573cb3743f1639ce31971d19abde86957784c",
+        "bytes": 11123
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Design/SL_GE_SIGN_PLATE_01_DESIGN.png",
+        "sha256": "c0fce2d4ea5f638dffcc0ffc470449b090e8413a11cc224d12fb063666644733",
+        "bytes": 860511
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Design/SL_GE_SIGN_PLATE_01_DESIGN.svg",
+        "sha256": "6826a694453c12b4bb3385dd97ec525b38aaa60efb7f95ec35cdfbd624d213b1",
+        "bytes": 66454
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Design/SL_GE_SIGN_PLATE_01_GEOMETRY.json",
+        "sha256": "fab23a6fdd2d02082b4b58dcf388aa6ba4599f2d3e59d9f7dcb525d42c32c063",
+        "bytes": 4223
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Design/SL_GE_SIGN_PLATE_01_SPEC.md",
+        "sha256": "9b3328f82e88d3f5c575f4c53920b71e11b0821ae8e409b672412df9d5b39efe",
+        "bytes": 10031
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Exports/SL_GE_SIGN_PLATE_01_TRIAL_01.fbx",
+        "sha256": "f55c239a6d2c70e69e04772b76820e5662b761d5ffed60ae13238169c5025d8f",
+        "bytes": 59756
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/manifest.json",
+        "sha256": "7cb9418ffab614f1370e3f4f0e3a37349ec6e1b0a772d8a8df44a0933a793f2b",
+        "bytes": 43757
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/Renders/CHECK_EAST.png",
+        "sha256": "ce62447f3ceba5a23d31f23cca54932e7babd30eb3a27bc6dcea0df20acb46ca",
+        "bytes": 237450
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/Renders/CHECK_EXPLODED_REAR.png",
+        "sha256": "36169d86e9f4d2cc250e1a02860efc38207878f665827f35d59b52c866a0c9c5",
+        "bytes": 729912
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/Renders/CHECK_FRONT.png",
+        "sha256": "fc114e8aaceea480b675eae0e4bcb03e2f6d6685d165b11e4a997fcab8d5b486",
+        "bytes": 355065
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/Renders/CHECK_REAR.png",
+        "sha256": "3235f1b3851d7ee03872087978ff2e60057839a08ac61f5ff5578823d6e6a9df",
+        "bytes": 345439
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/Renders/CHECK_TOP.png",
+        "sha256": "1f3613d1a96806efd56d7c6783c6d1395ba7f7b8ff271b5832f61efa0d909460",
+        "bytes": 122075
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/Renders/SL_GE_SIGN_PLATE_01_TRIAL_COATING_RENDER.png",
+        "sha256": "aac9b096df23953811d987cd72251286ac154fdcb77447eca0bf8b1478ec9813",
+        "bytes": 619367
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/Renders/SL_GE_SIGN_PLATE_01_TRIAL_INSTALL_A_RENDER.png",
+        "sha256": "4f40286f453ea236d3ce8cc898516b4d0fb284288b119c653e76e63fce3e0374",
+        "bytes": 1706394
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/Renders/SL_GE_SIGN_PLATE_01_TRIAL_INSTALL_B_RENDER.png",
+        "sha256": "718971b0e8e347dd0d7931de7cf126a3a8bffcc7984c0809d568daf037334749",
+        "bytes": 1630665
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/SL_GE_SIGN_PLATE_01_TRIAL_CHECK.png",
+        "sha256": "b29851765b0e7a15686c7b8207250f0eef3081dfcdc21f9083b1f5d387225583",
+        "bytes": 1932735
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/SL_GE_SIGN_PLATE_01_TRIAL_INSTALL_A.png",
+        "sha256": "d3bf72f3007c6aa5a41b4d02f85aee1dbc22086d52716593c0e6d1af67bea329",
+        "bytes": 1136016
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Previews/SL_GE_SIGN_PLATE_01_TRIAL_INSTALL_B.png",
+        "sha256": "c66d00504dd670acbdc5457dcaae113a97ad19355e2492e79d2e472e545dd37c",
+        "bytes": 1119640
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/README.md",
+        "sha256": "bd12b109b202796df5f9668432a25f02988a122ba2e149e5d42fc1b71031f244",
+        "bytes": 6740
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/review.md",
+        "sha256": "52f6fed2231b77f152955c96ca0835e5a1ce67e0c2ace4f4c8540bcd7a415593",
+        "bytes": 5298
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/assemble_preview_boards.py",
+        "sha256": "d793c092a2f33560ea6f5c4b3f123699c5512ecaaa990328a8df3a050473b397",
+        "bytes": 4647
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/assembly_parameters.json",
+        "sha256": "5fb5afb09ec813bbf922b1de44d8b873f325bd108fa213043d31337688ed8052",
+        "bytes": 3098
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/blender_measurements.json",
+        "sha256": "6f6e3e71fc89307b4676f1fa9edaf92f0fbe9431ccc5f71b9690b147a2199723",
+        "bytes": 17386
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/build_trial.py",
+        "sha256": "04e8f7775fc7cdcff4de1aec48d053d2e97f099ac6e3ace23dcde7bf9f584343",
+        "bytes": 15940
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/prepare_trial.py",
+        "sha256": "b861cd82b7a29957533d059221a56c0b0630233eed9828a4262f460bfcf7ae97",
+        "bytes": 16042
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/SL_GE_SIGN_PLATE_01_TRIAL_01.blend",
+        "sha256": "9841763a7f94bc273b032b9980272925c5a68cfa5146ca05470e3a5fd403009e",
+        "bytes": 132216
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/SL_GE_SIGN_PLATE_01_TRIAL_01.blend1",
+        "sha256": "d2c6269200fd979bf9a976bf3192454f2d7ff624479bb68eea419e65d9942738",
+        "bytes": 131699
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/SL_GE_SIGN_PLATE_01_TRIAL_ASSEMBLY.png",
+        "sha256": "6197f0a10dc4eb16bc98bae48d595d400d6470048b3e8af2bbee2ee26153f79f",
+        "bytes": 416153
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/SL_GE_SIGN_PLATE_01_TRIAL_ASSEMBLY.svg",
+        "sha256": "9e2704ff9629bf4b84da1d441c97bd18dc7c9f52d93cb59a1475a3441238b525",
+        "bytes": 8219
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/SL_GE_SIGN_PLATE_01_TRIAL_GEOMETRY_UV.json",
+        "sha256": "20c61d0b5abee53908c218ce374783d079b181e3cdbb152ca405c1b9a35e78d5",
+        "bytes": 304373
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/verification_results.json",
+        "sha256": "fadde93dbf4c556a76360999036dd0ecd606f690882c1cac3f833b7f8650eeee",
+        "bytes": 18431
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Source/verify_trial.py",
+        "sha256": "05366dfd17702944692e07b145255b9cf544ca1c5c01b239c59f49bad140fbc9",
+        "bytes": 12121
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Textures/SL_GE_SIGN_PLATE_01_TRIAL_BaseColor.png",
+        "sha256": "6cf81eea76f07f2b6629c7b5b467ac10884c999be2a2d8222d84e3bf065fd4ac",
+        "bytes": 880
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Textures/SL_GE_SIGN_PLATE_01_TRIAL_Roughness.png",
+        "sha256": "c955b2148bfc0d2187280487addf936a3ecc1f03cf66e5cfdbc7a5bedb93990a",
+        "bytes": 522
+      },
+      {
+        "path": "D:/Art Asset Library/ArtSource/SchoolGate/SL_GE_SIGN_PLATE_01/Trial01/Textures/SL_GE_SIGN_PLATE_01_TRIAL_UV_LAYOUT.png",
+        "sha256": "0896e23effa227c6222cb4f100fb5387201d715f6dce0adc67c6abab84e2f617",
+        "bytes": 1107
+      },
+      {
+        "path": "D:/Art Asset Library/Docs/AssetPlanning/BuildingProduction/multi-view-reference.md",
+        "sha256": "a734ccdfbcc002d87b3ea42a940ee5c68917f4ed5302a21e9d4dc25d5d210262",
+        "bytes": 2722
+      },
+      {
+        "path": "D:/Art Asset Library/Docs/AssetPlanning/BuildingProduction/TaskCards/SL_BLD_B01_HOME_01.md",
+        "sha256": "7b029857da18046a9ff19624b740be748594b493ed713206bea782c57a025b19",
+        "bytes": 8344
+      },
+      {
+        "path": "D:/Art Asset Library/Docs/MapDesign/V13/building-use-phase-index.md",
+        "sha256": "6adc035dc3f126c800453d4f264c3ee870626cd8d07e62f4e1314e19c863b324",
+        "bytes": 10879
+      },
+      {
+        "path": "D:/Art Asset Library/Docs/MapDesign/V13/routes.md",
+        "sha256": "4227b789b5976f352dc106b4d666bb09453352c1e415b191e67b86cf873d47ea",
+        "bytes": 1353
+      },
+      {
+        "path": "D:/UE project/SchoolLife/ArtSource/Characters/StudentChibi/FrontIdle/StudentChibi_Front_Idle.png",
+        "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd",
+        "bytes": 2076
+      },
+      {
+        "path": "D:/UE project/SchoolLife/Content/SchoolLife/Maps/CampusLifeBlockout.umap",
+        "sha256": "44fdd13420290da7d2d3f094ad7c0823a65cc1285a21dd613dacd3179d40455f",
+        "bytes": 358608
+      },
+      {
+        "path": "D:/UE project/SchoolLife/Docs/Validation/LifeCoreBlockout/Step1/Plan.json",
+        "sha256": "69b9d71e299f5e3f4dec5da370dd77c28c9109ea3a23a28d6ad436ceee205db8",
+        "bytes": 52254
+      },
+      {
+        "path": "D:/UE project/SchoolLife/Docs/Validation/LifeCoreBlockout/Step2/ActorRecipe.json",
+        "sha256": "68225f5fd79bb471495b176ed50b7be518ffde19af9b442bf92158bf9b77f146",
+        "bytes": 86847
+      },
+      {
+        "path": "D:/UE project/SchoolLife/Docs/Validation/LifeCoreBlockout/Step2/Observations.md",
+        "sha256": "89e3ff5068e32a2742dcbe88117c34c768a271109a5f66fafa48e9ebb9a170fd",
+        "bytes": 11151
+      },
+      {
+        "path": "D:/UE project/SchoolLife/Docs/Validation/LifeCoreBlockout/Step2/prepare_geometry.py",
+        "sha256": "69ffd3785f466b8875b07eeeb5e6c08b124c71b0adfd1b2b60d9983ca3d600df",
+        "bytes": 8896
+      },
+      {
+        "path": "D:/UE project/SchoolLife/Docs/Validation/StudentChibiFrontPreview/ImportedAssets.json",
+        "sha256": "07ba6a55a9502969a0d55a56136d80871b348dda17b05b25c7de21fdb9d58520",
+        "bytes": 2392
+      }
+    ]
+  },
+  "production_counts": {
+    "reference_building_schemes": 1,
+    "formal_models": 0,
+    "UV_sets": 0,
+    "final_textures": 0,
+    "UE_imports": 0,
+    "next_buildings": 0
+  },
+  "review_required": [
+    "formal footprint324->90m²/bodycentre shift without moving entry; 18x18 NOT court",
+    "1.2m active door vs2.4m prototype / navigation and finite capsule",
+    "candidate8.242m total height/3m floor/22°roof/9x10 dimensions",
+    "preservedHome and historicalPlayerStart with replacement gray actors",
+    "boundary/eave/porch beyond former front footprint into owned approach; legal parcel/neighbor rights not known",
+    "stair whole opening/real structure/finite capsule/camera",
+    "room opening phases; no new family NPC or gameplay",
+    "old watercourse actual position, drain outlet/foundation utility interfaces"
+  ]
+}
