@@ -1,3 +1,7 @@
+# 当前：C01外观已接受，参考包局部修订01要求已发布 · 2026-10-15
+
+[同一整栋任务卡](Docs/AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_REFERENCE_01.md)／[确认记录](Docs/AssetPlanning/BuildingProduction/review-C01-reference-01.md)。用户确认玻璃13.65/含框13.68m、60㎡露台完成面8.03m；RT01原588㎡控制区保留、本次不开放。一次局部修订聚焦30席通路与净区、鞋柜内廊瓶颈、同镜头入口材色及同步接口。仅发布给用户转交，未实际修图/几何/模型/UE；B01原状态不变。
+
 # 当前：C01参考01规划审阅完成，停用户判断 · 2026-10-15
 
 [审阅结论](Docs/AssetPlanning/BuildingProduction/review-C01-reference-01.md)：有条件建议接受整栋体量/统一参考，教室通路、鞋柜廊口、高度口径与入口材色需局部处理；实际最高含框13.68m，玻璃13.65m。RT01独立保留，承托/接近未解决，不用60㎡露台替代。待用户判断屋面方向、RT01阶段及露台8.03面层；未发正式试作卡，B01不变。

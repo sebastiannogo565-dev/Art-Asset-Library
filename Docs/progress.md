@@ -1,3 +1,9 @@
+# C01参考局部修订01要求发布完成 · 2026-10-15
+
+已完成：三项用户确认记录、[原整栋参考卡当前修订段](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_REFERENCE_01.md)、交接/顺序/索引更新。卡含30席通路与业务点净区、900格目标下廊口柜列实排、入口同镜头日光材色、玻璃13.65/含框13.68及露台8.03接口同步，原版保留和受影响项交付/验收。
+
+未完成：制作聊天尚未执行参考修订，R01–R05未由回件验证；未生成修订JSON/Blend/图稿。RT01原588㎡作为待设计控制区本次不开放，承托/坡屋面/高程/专用接近后续整体方案。当前没有必需文档阻塞，无制作运行/正式试作/UE；B01/原Reference/Planning/人物/SchoolLife保持。原127保护项中仅原任务卡为本次授权更新，其余126项未变，回件43manifest项保持。Git结果见最终报告。
+
 # C01参考01规划窗口审阅完成 · 2026-10-15
 
 已完成：[审阅结论](AssetPlanning/BuildingProduction/review-C01-reference-01.md)、[独立复核数据](AssetPlanning/BuildingProduction/C01/reference-01-planning-audit.json)。查看11页总览/关键板及7张预览，43回件manifest项/127保护SHA吻合。独立核RT01投影462/缺126㎡、30/36席/900名义格、相机差180°；发现实际含框顶13.68而玻璃13.65的口径差异，以及业务点若作胶囊中心与桌角二维相交风险。
