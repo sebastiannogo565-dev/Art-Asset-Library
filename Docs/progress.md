@@ -1,3 +1,9 @@
+# C01整栋参考01制作完成交审 · 2026-10-15
+
+已完成：[参考包](../ArtSource/Buildings/SL_BLD_C01_MAIN_01/Reference/README.md)，5主板＋6细部SVG/RGB3200×2400，统一JSON/305开口表，7个2304×1296同源日光预览，可编辑REFERENCE_ONLY简模。保三门/体量/24班/108庭/60露台；玩家30主/36同室、鞋柜600＋300名义格、公共家具与梯/人物/组合同。
+
+待审：RT01缺126㎡承托投影/坡面/原核/高程与接近；材色浅屋面/采光顶、露台8.03面层；30/36有限宽度和柜列运营瓶颈。实际游戏/结构/防灾/导航/旋转/UV未验。B01/SchoolLife/校门/原Planning保持；当前收尾只Git同步，完成后停审，不继续下一阶段/下一栋。
+
 # C01基准确认及原参考卡更新完成 · 2026-10-15
 
 已完成：[确认记录](AssetPlanning/BuildingProduction/C01/review.md)、[原卡更新](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_REFERENCE_01.md)、当前索引/交接/决策及manifest接受元数据。分段、三层、24班研究、原三入口、108㎡庭/60㎡露台已接受；RT01独立保留。六项深化覆盖偏西主门、统一立面屋顶、公共家具、30/36席/鞋柜/典型梯、同套视图、庭露台RT01与后续验证接口。

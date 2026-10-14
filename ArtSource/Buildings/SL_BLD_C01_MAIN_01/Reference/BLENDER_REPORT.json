@@ -1,0 +1,26 @@
+{
+  "blender_version": "5.2.2 LTS",
+  "render_engine": "Cycles CPU",
+  "samples": 24,
+  "preview_native": [
+    2304,
+    1296
+  ],
+  "geometry_sha256": "bd0131e496de6a00e4863cff86deff9b667e583b742dcafa695324803d9d480d",
+  "rendered": [
+    "A",
+    "B",
+    "ENTRY",
+    "CLASS",
+    "SHOES",
+    "COURT",
+    "LINK"
+  ],
+  "source_primitives": 6637,
+  "source_openings": 305,
+  "formal_model": false,
+  "final_UV": false,
+  "UE": false,
+  "source_only_rebuild": true,
+  "source_only_reason": "LF serialization normalization only; prior7renders identical geometry"
+}

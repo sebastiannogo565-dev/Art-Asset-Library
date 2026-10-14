@@ -1,0 +1,14 @@
+{
+  "reopen_passed": true,
+  "blender_version": "5.2.2 LTS",
+  "geometry_sha256": "bd0131e496de6a00e4863cff86deff9b667e583b742dcafa695324803d9d480d",
+  "whole_source_ids": 6637,
+  "collections": 47,
+  "no_UV_layers": true,
+  "render_resolution": [
+    2304,
+    1296
+  ],
+  "schoollife_writes": 0,
+  "source_saved_again": false
+}

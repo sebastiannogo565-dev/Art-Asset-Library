@@ -1,3 +1,7 @@
+# 当前制作回件：C01整栋参考01 · 2026-10-15
+
+[整套参考](ArtSource/Buildings/SL_BLD_C01_MAIN_01/Reference/README.md)／[规划回件入口](Docs/AssetPlanning/BuildingProduction/C01/reference-01-handoff.md)。5主板＋6细部SVG/3200×2400PNG、同JSON/窗表、7个同简模日光预览与可编辑参考源已深化；保体量/三门/24班/庭露台，30席主/36对照，900名义鞋格。RT01原588㎡缺126㎡承托投影，坡面/原核等冲突待审。只参考，正式模型/最终UV纹理/UE未开始；B01原状态、SchoolLife/校门/旧Planning保持。Git实绩见handoff，交付停审。
+
 # 当前：C01 PLAN_01已接受，整栋参考卡已更新 · 2026-10-15
 
 [确认记录](Docs/AssetPlanning/BuildingProduction/C01/review.md)／[供转交的同一整栋多视图卡](Docs/AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_REFERENCE_01.md)。保52—12—30—12—44m、三层/24班研究/原三入口、108㎡庭及60㎡露台；RT01不替代。玩家班30席主样板、36席对照。六项深化与交付/验收要求已写入；本次未制作参考、生图、模型或UE，B01原状态保持。以下为历史项目记录。

@@ -1,0 +1,312 @@
+{
+  "date": "2026-10-15",
+  "asset": "SL_BLD_C01_MAIN_01",
+  "revision": "REFERENCE_01",
+  "status": "delivered reference awaiting planning and user review; no Trial authorization",
+  "scope": "5main +6detail SVG/PNG,7shared reference renders,editable reference blend; no formal model/UV/UE",
+  "git_base": "9a0850b4478a071d1a03760da4548cd1f70aa5d2",
+  "AI_calls": 0,
+  "files": [
+    {
+      "file": "BLENDER_REPORT.json",
+      "bytes": 567,
+      "sha256": "8628a3e3e330f234c9052fc25cced42207e2d2affeac0f38f77d91f84155c3e9",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "build_reference.py",
+      "bytes": 50092,
+      "sha256": "b5b6dd82db817a6806e5468d107bf0cb1ff7f460ead0a9ae10a89d5c825de750",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "check_reference.py",
+      "bytes": 8967,
+      "sha256": "fa4e522db1adb2e5dffb48e1fad8a2869c5754643700f6486c4c7334a6c899a1",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "NATIVE_REOPEN_REPORT.json",
+      "bytes": 329,
+      "sha256": "1cd9ad23bd24d865067801f46956c599cd506ad1881715cbb21af7d5908b0a90",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "OPENINGS.csv",
+      "bytes": 27183,
+      "sha256": "ac6b91189b0d29ddc5598f823f88b8c55cebe00c7a435a0265b4f0acf5db76ed",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "Preview_A.png",
+      "bytes": 2836365,
+      "sha256": "b239d15ce871390a12eb9996b26aec1540ed2f5035d59ab1f357fe44eb727e43",
+      "hash_mode": "raw",
+      "lfs": false
+    },
+    {
+      "file": "Preview_B.png",
+      "bytes": 2822006,
+      "sha256": "c8eff18b8a467508cfc58f40fceaf130c2a554609887a57a8cfe1aadf9cda8fa",
+      "hash_mode": "raw",
+      "lfs": false
+    },
+    {
+      "file": "Preview_CLASS.png",
+      "bytes": 2898304,
+      "sha256": "bbc4df6d651f78b01f29ae9f94c54a9a183fe28c4032497b317cff900c071c57",
+      "hash_mode": "raw",
+      "lfs": false
+    },
+    {
+      "file": "Preview_COURT.png",
+      "bytes": 2498957,
+      "sha256": "275f32bb846bc9d0658946d70fe4ef31a5ee9e701c96bbbd64046d2f488a53d2",
+      "hash_mode": "raw",
+      "lfs": false
+    },
+    {
+      "file": "Preview_ENTRY.png",
+      "bytes": 2573939,
+      "sha256": "60f6f75a59d103cd28261ac4e95ce18fcca602340a0ac99f4279e68c2120ab64",
+      "hash_mode": "raw",
+      "lfs": false
+    },
+    {
+      "file": "Preview_LINK.png",
+      "bytes": 2561693,
+      "sha256": "9fbabfa24f8254d6dba083a8b56ab25cb4567e32781e078690d5f464b36d71da",
+      "hash_mode": "raw",
+      "lfs": false
+    },
+    {
+      "file": "Preview_SHOES.png",
+      "bytes": 2452668,
+      "sha256": "718e81b5bb3771d694ae5ba746fc29c24c10c85fce33a55a3ecb5966a725ec2c",
+      "hash_mode": "raw",
+      "lfs": false
+    },
+    {
+      "file": "rasterize_reference.cjs",
+      "bytes": 448,
+      "sha256": "f1a2c7bc44bb079a72f968427163904b726f04c10c5bf6f5f02e57323c074085",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "README.md",
+      "bytes": 2749,
+      "sha256": "440c415c02275c1a6e7aa81559064f9b113d65ec93b838384319c70565d7fe99",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "render_reference.py",
+      "bytes": 6624,
+      "sha256": "08b47e1d154418f464da1844c7f9bff2f7d2db1bcfda9b8a2b91f3af848cda6b",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "reopen_reference.py",
+      "bytes": 1298,
+      "sha256": "fa549c442b979da3178f6988e73f7c22e3c6bffccf53843719489e6181641d7c",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "review.md",
+      "bytes": 3333,
+      "sha256": "780cd0f7539020f480c4e9354d4a2eb9dc38fe5ed73614d9928ea2a550dafe55",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_CHECKS.json",
+      "bytes": 3167,
+      "sha256": "f61bc565bf610e53fb0ab4bd6bdbb2c2fbcd79a26a5d5ecdee12351f84d09891",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_GEOMETRY.json",
+      "bytes": 1921913,
+      "sha256": "bd0131e496de6a00e4863cff86deff9b667e583b742dcafa695324803d9d480d",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P01.png",
+      "bytes": 1888083,
+      "sha256": "37e06d24d35b2c8b17127c1bb164b2c4dca485534b53b9ae7fa87ce3e35f7d55",
+      "hash_mode": "raw",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P01.svg",
+      "bytes": 7233325,
+      "sha256": "26a71a05f7b7a085feb4a860b23d4f7fd5e284d30dbd86fbbdb783c0830f353f",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P02.png",
+      "bytes": 525429,
+      "sha256": "45aef3ae5b42090b2675bb93cfbaf34d46b78588099ff6bb120431eb483b9e48",
+      "hash_mode": "raw",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P02.svg",
+      "bytes": 69402,
+      "sha256": "91781957b5bc4255905098c4528312bcd6dd0a411d9da0df2de1067eaec7ceca",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P02A.png",
+      "bytes": 391201,
+      "sha256": "12d43fae67930701d077d03a1d9da3cb8d83505f3cb3d351d0e2185f1ae044f6",
+      "hash_mode": "raw",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P02A.svg",
+      "bytes": 24300,
+      "sha256": "4b1bbc6f081fe37a91aa5694c05938a2f917b8376635fc6d98e54aa433277575",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P02B.png",
+      "bytes": 365688,
+      "sha256": "6e1dc6531a8171e3ac157d6862353e50c1bf2deabdfd8e69160e2c68295b6817",
+      "hash_mode": "raw",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P02B.svg",
+      "bytes": 13064,
+      "sha256": "929bfb9583e9843c080187f7dfe47501967729b8f72d12b55df5782c148c6a3e",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P02C.png",
+      "bytes": 407025,
+      "sha256": "95f81fd4ba1aaed7d973d8e5b2ae6d5e3d8855f28052cc021e9f3b70f0faa861",
+      "hash_mode": "raw",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P02C.svg",
+      "bytes": 28316,
+      "sha256": "a68dbe706a7f9c38f740a72c8d1df356b0badcb96e9bbc259c1e8d6571c40c65",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P03.png",
+      "bytes": 455039,
+      "sha256": "ba659228ccf1d5f435e30c08662929b814d064c53305a4e902b014091fbea263",
+      "hash_mode": "raw",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P03.svg",
+      "bytes": 2358331,
+      "sha256": "38f8c5897b55899092ce2dd671016c2c33d399c366cfb49dd77c2adca8a9835a",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P04.png",
+      "bytes": 388531,
+      "sha256": "d2815257efc79eb15b58249d181182d4581cd5479ed83692139a22dd073b70f0",
+      "hash_mode": "raw",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P04.svg",
+      "bytes": 20383,
+      "sha256": "582ad11f0aa9cad601787c0bd4e17c94f0d5e0e535eabd019d068d5df59a35c7",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P04A.png",
+      "bytes": 443988,
+      "sha256": "db92d2383b837958e34f546e1d4d9e8a61218c783c0d3b72791c3642a0580a6c",
+      "hash_mode": "raw",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P04A.svg",
+      "bytes": 26492,
+      "sha256": "36c7416322e73e7f79ced08cc760a5f4ae8b0b0f77bc2192c399437a1248de23",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P05.png",
+      "bytes": 2176635,
+      "sha256": "f47ad3724dee611feb171bb2c58842bf1b28690af35eac455c1300e1a80846d0",
+      "hash_mode": "raw",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P05.svg",
+      "bytes": 7546408,
+      "sha256": "8d94f45f75e305661c09e479349f404ad0a49d56574b90fda0ec9a96a16d1888",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P05A.png",
+      "bytes": 3009167,
+      "sha256": "6c41c23f2d0b613a0d58926cf6f1e424082194c41dfa21329bede7d1c57847e2",
+      "hash_mode": "raw",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P05A.svg",
+      "bytes": 13884025,
+      "sha256": "e982c538e3cdba4f7473fadfbe8cda868e5f1281244f53d64eee83c511499114",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P05B.png",
+      "bytes": 1643298,
+      "sha256": "9a675d6383a36a5b49a14e1a9a8cf0120d18f28eb7cf4961b39d863d6c42694a",
+      "hash_mode": "raw",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_P05B.svg",
+      "bytes": 3456442,
+      "sha256": "eab31d4989b8c76536962cf00c583580ac0f170c07cf5a71825e5afb83f31699",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_REFERENCE_ONLY.blend",
+      "bytes": 702323,
+      "sha256": "a4dcb8f873c8b746a338b8777657a3e7201aa41215e4f9dc2572bd1a5b55378b",
+      "hash_mode": "raw",
+      "lfs": true
+    },
+    {
+      "file": "SL_BLD_C01_MAIN_01_REFERENCE_01_SPEC.md",
+      "bytes": 10119,
+      "sha256": "163ea6eddd36eba05e5760716add3856a93c9c431977cce779d10a6c89b04f6e",
+      "hash_mode": "text normalized LF",
+      "lfs": false
+    }
+  ]
+}

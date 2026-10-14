@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-15",
+  "passed": true,
+  "scope": "reference contract only, not finite actor/game/engineering acceptance",
+  "issues": [],
+  "rooms": 73,
+  "classrooms": 24,
+  "openings": 305,
+  "north_classroom_windows": 72,
+  "building_extent_xyz": [
+    0,
+    0.0,
+    -0.25,
+    150,
+    28.0,
+    13.68
+  ],
+  "body_footprint_m2": 3016,
+  "court_area_m2": 108,
+  "terrace_area_m2": 60,
+  "nominal_shoe_cells": 900,
+  "RT01_original_m2": 588,
+  "RT01_supported_projection_m2": 462,
+  "RT01_unsupported_projection_m2": 126,
+  "protected_input_count": 127,
+  "protected_differences": [],
+  "character_sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd",
+  "native_images": [
+    {
+      "name": "SL_BLD_C01_MAIN_01_REFERENCE_01_P01.png",
+      "size": [
+        3200,
+        2400
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "SL_BLD_C01_MAIN_01_REFERENCE_01_P02.png",
+      "size": [
+        3200,
+        2400
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "SL_BLD_C01_MAIN_01_REFERENCE_01_P02A.png",
+      "size": [
+        3200,
+        2400
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "SL_BLD_C01_MAIN_01_REFERENCE_01_P02B.png",
+      "size": [
+        3200,
+        2400
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "SL_BLD_C01_MAIN_01_REFERENCE_01_P02C.png",
+      "size": [
+        3200,
+        2400
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "SL_BLD_C01_MAIN_01_REFERENCE_01_P03.png",
+      "size": [
+        3200,
+        2400
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "SL_BLD_C01_MAIN_01_REFERENCE_01_P04.png",
+      "size": [
+        3200,
+        2400
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "SL_BLD_C01_MAIN_01_REFERENCE_01_P04A.png",
+      "size": [
+        3200,
+        2400
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "SL_BLD_C01_MAIN_01_REFERENCE_01_P05.png",
+      "size": [
+        3200,
+        2400
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "SL_BLD_C01_MAIN_01_REFERENCE_01_P05A.png",
+      "size": [
+        3200,
+        2400
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "SL_BLD_C01_MAIN_01_REFERENCE_01_P05B.png",
+      "size": [
+        3200,
+        2400
+      ],
+      "mode": "RGB"
+    }
+  ],
+  "previews": {
+    "count": 7,
+    "native": [
+      2304,
+      1296
+    ]
+  },
+  "geometry_sha256": "bd0131e496de6a00e4863cff86deff9b667e583b742dcafa695324803d9d480d",
+  "actual_blender_source_reopened": {
+    "reopen_passed": true,
+    "blender_version": "5.2.2 LTS",
+    "geometry_sha256": "bd0131e496de6a00e4863cff86deff9b667e583b742dcafa695324803d9d480d",
+    "whole_source_ids": 6637,
+    "collections": 47,
+    "no_UV_layers": true,
+    "render_resolution": [
+      2304,
+      1296
+    ],
+    "schoollife_writes": 0,
+    "source_saved_again": false
+  },
+  "AI_calls": 0,
+  "formal_model": false,
+  "final_UV_textures": false,
+  "UE_writes": 0,
+  "unverified": [
+    "finite actor movement",
+    "36seats sprite clearance",
+    "locker operating capacity",
+    "structural/fire design",
+    "RT01 access/support",
+    "UV/LOD/collision/budgets",
+    "UE/NPC/time/occlusion"
+  ]
+}

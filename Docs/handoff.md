@@ -1,3 +1,9 @@
+# 当前交接：C01整栋参考01制作回件 · 2026-10-15
+
+入口：[同源多视图包](../ArtSource/Buildings/SL_BLD_C01_MAIN_01/Reference/README.md)／[交规划审阅](AssetPlanning/BuildingProduction/C01/reference-01-handoff.md)。5主板＋6细部、精确JSON/305开口表、7个同简模日光预览、可编辑REFERENCE_ONLY源。体量/三门/24班/108庭/60露台保持；30主/36比较、900名义鞋格实排。RT01原588㎡独立保留，缺126㎡承托投影与坡面/原核/高程冲突待整体判断，虚线接近仅研究。规划审阅后再用户确认外观关键尺寸，不自动Trial或下一栋。
+
+B01原状态、Planning/校门/SchoolLife与人物字节保持；游戏/有限人物/结构/最终UV未验。Git普通提交推送，实际完整哈希/远端/LFS与工作区在同步收尾另记，原3脚本不夹带。
+
 # 当前交接：C01已接受基准，原参考卡供用户转交 · 2026-10-15
 
 唯一入口：[SL_BLD_C01_MAIN_01_REFERENCE_01](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_REFERENCE_01.md)，[确认范围](AssetPlanning/BuildingProduction/C01/review.md)。沿用原卡，不另建任务。转交目标是“整栋多视图参考深化”，不是正式建模/UE：30席玩家班主样板＋同室36席对照；六重点、5页同套参考合同与验收已写入。

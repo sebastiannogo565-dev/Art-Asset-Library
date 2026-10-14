@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3200" height="2400" viewBox="0 0 3200 2400">
+<rect width="3200" height="2400" fill="#F4F2EB"/>
+<style>text{font-family:Microsoft YaHei,sans-serif;fill:#293F42} .small{font-size:24px}</style>
+<text x="80.00" y="95.00" font-size="48" text-anchor="start">C01 · 统一屋顶、庭剖面与RT01冲突</text>
+<text x="80.00" y="145.00" font-size="25" text-anchor="start">P04 / 原588㎡RT01原位叠层；F03 60㎡露台独立 / 开孔、标高与屋面接口</text>
+<line x1="80" y1="185" x2="3120" y2="185" stroke="#9BACAB" stroke-width="2"/>
+<polygon points="130.00,755.40 1118.00,755.40 1118.00,573.00 130.00,573.00" fill="#687D80" stroke="#566E70" stroke-width="1"/>
+<polygon points="130.00,573.00 1118.00,573.00 1118.00,390.60 130.00,390.60" fill="#687D80" stroke="#566E70" stroke-width="1"/>
+<rect x="130" y="753.88" width="988" height="3.0400000000000027" fill="#53686B" stroke="#607676" stroke-width="1"/>
+<rect x="130" y="389.08" width="988" height="3.039999999999935" fill="#53686B" stroke="#607676" stroke-width="1"/>
+<polygon points="2144.00,755.40 2980.00,755.40 2980.00,573.00 2144.00,573.00" fill="#687D80" stroke="#566E70" stroke-width="1"/>
+<polygon points="2144.00,573.00 2980.00,573.00 2980.00,390.60 2144.00,390.60" fill="#687D80" stroke="#566E70" stroke-width="1"/>
+<rect x="2144" y="753.88" width="836" height="3.0400000000000027" fill="#53686B" stroke="#607676" stroke-width="1"/>
+<rect x="2144" y="389.08" width="836" height="3.039999999999935" fill="#53686B" stroke="#607676" stroke-width="1"/>
+<rect x="1346" y="535" width="190" height="171" fill="#687D80" stroke="#607676" stroke-width="1"/>
+<rect x="1346" y="364" width="190" height="171" fill="#687D80" stroke="#607676" stroke-width="1"/>
+<rect x="1346" y="288" width="190" height="76" fill="#687D80" stroke="#607676" stroke-width="1"/>
+<rect x="1536" y="706" width="228" height="114" fill="#687D80" stroke="#607676" stroke-width="1"/>
+<rect x="1536" y="535" width="228" height="171" fill="#687D80" stroke="#607676" stroke-width="1"/>
+<rect x="1536" y="288" width="228" height="76" fill="#687D80" stroke="#607676" stroke-width="1"/>
+<rect x="1764" y="706" width="152" height="114" fill="#687D80" stroke="#607676" stroke-width="1"/>
+<rect x="1764" y="535" width="152" height="171" fill="#687D80" stroke="#607676" stroke-width="1"/>
+<rect x="1764" y="364" width="152" height="171" fill="#687D80" stroke="#607676" stroke-width="1"/>
+<rect x="1764" y="288" width="152" height="76" fill="#687D80" stroke="#607676" stroke-width="1"/>
+<rect x="1118" y="402" width="228" height="266" fill="#687D80" stroke="#607676" stroke-width="1"/>
+<rect x="1916" y="402" width="228" height="266" fill="#687D80" stroke="#607676" stroke-width="1"/>
+<rect x="700" y="744" width="152" height="76" fill="#687D80" stroke="#607676" stroke-width="1"/>
+<rect x="472" y="744" width="228" height="76" fill="#687D80" stroke="#607676" stroke-width="1"/>
+<rect x="2828" y="744" width="152" height="76" fill="#687D80" stroke="#607676" stroke-width="1"/>
+<rect x="1536" y="815.25" width="380" height="4.75" fill="#687D80" stroke="#607676" stroke-width="1"/>
+<rect x="1346" y="701.25" width="190" height="4.75" fill="#687D80" stroke="#607676" stroke-width="1"/>
+<rect x="1346" y="288.0" width="570" height="4.75" fill="#687D80" stroke="#607676" stroke-width="1"/>
+<rect x="1346.0" y="288" width="4.75" height="418" fill="#687D80" stroke="#607676" stroke-width="1"/>
+<rect x="1536.0" y="706" width="4.75" height="114" fill="#687D80" stroke="#607676" stroke-width="1"/>
+<rect x="1911.25" y="288" width="4.75" height="532" fill="#687D80" stroke="#607676" stroke-width="1"/>
+<polygon points="1536.00,535.00 1764.00,535.00 1764.00,449.50 1536.00,449.50" fill="#A2C3C8" stroke="#566E70" stroke-width="1"/>
+<polygon points="1536.00,449.50 1764.00,449.50 1764.00,364.00 1536.00,364.00" fill="#A2C3C8" stroke="#566E70" stroke-width="1"/>
+<polygon points="1535.34,535.00 1536.66,535.00 1536.66,449.50 1535.34,449.50" fill="#53686B" stroke="#566E70" stroke-width="1"/>
+<polygon points="1535.34,449.50 1536.66,449.50 1536.66,364.00 1535.34,364.00" fill="#53686B" stroke="#566E70" stroke-width="1"/>
+<polygon points="1592.34,535.00 1593.66,535.00 1593.66,449.50 1592.34,449.50" fill="#53686B" stroke="#566E70" stroke-width="1"/>
+<polygon points="1592.34,449.50 1593.66,449.50 1593.66,364.00 1592.34,364.00" fill="#53686B" stroke="#566E70" stroke-width="1"/>
+<polygon points="1649.34,535.00 1650.66,535.00 1650.66,449.50 1649.34,449.50" fill="#53686B" stroke="#566E70" stroke-width="1"/>
+<polygon points="1649.34,449.50 1650.66,449.50 1650.66,364.00 1649.34,364.00" fill="#53686B" stroke="#566E70" stroke-width="1"/>
+<polygon points="1706.34,535.00 1707.66,535.00 1707.66,449.50 1706.34,449.50" fill="#53686B" stroke="#566E70" stroke-width="1"/>
+<polygon points="1706.34,449.50 1707.66,449.50 1707.66,364.00 1706.34,364.00" fill="#53686B" stroke="#566E70" stroke-width="1"/>
+<polygon points="1763.34,535.00 1764.66,535.00 1764.66,449.50 1763.34,449.50" fill="#53686B" stroke="#566E70" stroke-width="1"/>
+<polygon points="1763.34,449.50 1764.66,449.50 1764.66,364.00 1763.34,364.00" fill="#53686B" stroke="#566E70" stroke-width="1"/>
+<line x1="130" y1="573" x2="1118" y2="573" stroke="#E7E3D7" stroke-width="3"/>
+<text x="624.00" y="516.00" font-size="24" text-anchor="middle">5° ↓ 南北排水</text>
+<line x1="2144" y1="573" x2="2980" y2="573" stroke="#E7E3D7" stroke-width="3"/>
+<text x="2562.00" y="516.00" font-size="24" text-anchor="middle">5° ↓ 南北排水</text>
+<rect x="1346" y="706" width="190" height="114" fill="#DCE5D4" stroke="#607676" stroke-width="2"/>
+<text x="1441.00" y="763.00" font-size="23" text-anchor="middle">60㎡</text>
+<rect x="852" y="364" width="532" height="399" fill="none" stroke="#B46C59" stroke-width="4"/>
+<text x="1118.00" y="345.00" font-size="25" text-anchor="middle">原RT01 588㎡ · 原位叠层</text>
+<line x1="776" y1="652.8" x2="776" y2="612.9" stroke="#DAA176" stroke-width="3" stroke-dasharray="10 8"/>
+<line x1="776" y1="612.9" x2="1061" y2="612.9" stroke="#DAA176" stroke-width="3" stroke-dasharray="10 8"/>
+<line x1="1061" y1="612.9" x2="1061" y2="554" stroke="#DAA176" stroke-width="3" stroke-dasharray="10 8"/>
+<text x="700.00" y="687.00" font-size="22" text-anchor="start">S1延伸上屋面待审</text>
+<line x1="130" y1="865" x2="2980" y2="865" stroke="#667B7A" stroke-width="2"/>
+<line x1="130" y1="857" x2="130" y2="873" stroke="#667B7A" stroke-width="2"/>
+<line x1="2980" y1="857" x2="2980" y2="873" stroke="#667B7A" stroke-width="2"/>
+<text x="1555.00" y="853.00" font-size="25" text-anchor="middle">150m</text>
+<text x="130.00" y="960.00" font-size="26" text-anchor="start">教学5°浅切妻：内墙檐12.30 / 脊13.0874；外挑0.60檐边12.2475。核心平屋面12.90 / 女儿墙13.00。</text>
+<text x="130.00" y="1005.00" font-size="26" text-anchor="start">采光庭低脊玻璃顶最高13.65；连接12.30。檐沟南北排水，竖管在教学端柱；实际管径/坡降/排水工法待验。</text>
+<text x="130.00" y="1050.00" font-size="26" text-anchor="start">露台完成面8.03：承载楼板FL8上30mm面层；历史Planning的8.25体块帽改为本次地面细化，门/高度接口须复核。</text>
+<rect x="155.0" y="2054.3" width="21.9" height="65.7" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="155.0" y="2047" width="21.9" height="7.299999999999998" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="155.0" y="1901.0" width="21.9" height="146.0" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="155.0" y="1882.75" width="21.9" height="18.25" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="155.0" y="1828" width="21.9" height="54.75" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="155.0" y="1828" width="23.36" height="10.949999999999994" fill="#989E98" stroke="#607676" stroke-width="0.6"/>
+<rect x="2177.1000000000004" y="2087.15" width="21.899999999999793" height="32.85" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="2177.1000000000004" y="1828" width="21.899999999999793" height="54.75" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="2195.715" y="1882.75" width="3.2850000000001245" height="204.39999999999998" fill="#779CA4" stroke="#607676" stroke-width="0.6"/>
+<rect x="2190.2400000000002" y="2081.675" width="8.759999999999813" height="5.4750000000000005" fill="#53686B" stroke="#607676" stroke-width="0.6"/>
+<rect x="2190.2400000000002" y="1882.75" width="8.759999999999813" height="5.475000000000013" fill="#53686B" stroke="#607676" stroke-width="0.6"/>
+<rect x="2173.45" y="1868.88" width="25.550000000000104" height="6.56999999999999" fill="#687D80" stroke="#607676" stroke-width="0.6"/>
+<rect x="2175.64" y="1828" width="23.36000000000002" height="10.949999999999994" fill="#989E98" stroke="#607676" stroke-width="0.6"/>
+<rect x="155" y="2120" width="292" height="18.25" fill="#D4CEC0" stroke="#607676" stroke-width="0.6"/>
+<rect x="447" y="2120" width="292" height="18.25" fill="#D4CEC0" stroke="#607676" stroke-width="0.6"/>
+<rect x="739" y="2120" width="1022" height="18.25" fill="#D4CEC0" stroke="#607676" stroke-width="0.6"/>
+<rect x="1761" y="2120" width="438" height="18.25" fill="#D4CEC0" stroke="#607676" stroke-width="0.6"/>
+<rect x="155" y="1865.23" width="65.7" height="2.9200000000000026" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="220.7" y="1865.23" width="226.3" height="2.9200000000000026" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="447" y="1865.23" width="175.20000000000002" height="2.9200000000000026" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="622.2" y="1865.23" width="116.79999999999997" height="2.9200000000000026" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="739" y="1865.23" width="511" height="2.9200000000000026" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="1907" y="1865.23" width="292" height="2.9200000000000026" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="1914.3" y="1868.15" width="14.600000000000207" height="251.85000000000002" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="155.0" y="1762.3" width="21.9" height="65.70000000000003" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="155.0" y="1755" width="21.9" height="7.299999999999974" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="155.0" y="1609.0" width="21.9" height="146.0" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="155.0" y="1590.75" width="21.9" height="18.25" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="155.0" y="1536" width="21.9" height="54.75" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="155.0" y="1536" width="23.36" height="10.950000000000026" fill="#989E98" stroke="#607676" stroke-width="0.6"/>
+<rect x="2177.1000000000004" y="1795.15" width="21.899999999999793" height="32.850000000000016" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="2177.1000000000004" y="1536" width="21.899999999999793" height="54.75" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="2195.715" y="1590.75" width="3.2850000000001245" height="204.39999999999998" fill="#779CA4" stroke="#607676" stroke-width="0.6"/>
+<rect x="2190.2400000000002" y="1789.675" width="8.759999999999813" height="5.475000000000013" fill="#53686B" stroke="#607676" stroke-width="0.6"/>
+<rect x="2190.2400000000002" y="1590.75" width="8.759999999999813" height="5.475000000000013" fill="#53686B" stroke="#607676" stroke-width="0.6"/>
+<rect x="2173.45" y="1576.88" width="25.550000000000104" height="6.5700000000000545" fill="#687D80" stroke="#607676" stroke-width="0.6"/>
+<rect x="2175.64" y="1536" width="23.36000000000002" height="10.950000000000026" fill="#989E98" stroke="#607676" stroke-width="0.6"/>
+<rect x="1247.0800000000002" y="1740.4" width="5.8399999999998755" height="87.60000000000001" fill="#768A89" stroke="#607676" stroke-width="0.6"/>
+<rect x="1904.0800000000002" y="1740.4" width="5.8399999999998755" height="87.60000000000001" fill="#768A89" stroke="#607676" stroke-width="0.6"/>
+<rect x="155" y="1828" width="65.7" height="18.25" fill="#D4CEC0" stroke="#607676" stroke-width="0.6"/>
+<rect x="220.7" y="1828" width="226.3" height="18.25" fill="#D4CEC0" stroke="#607676" stroke-width="0.6"/>
+<rect x="447" y="1828" width="175.20000000000002" height="18.25" fill="#D4CEC0" stroke="#607676" stroke-width="0.6"/>
+<rect x="622.2" y="1828" width="116.79999999999997" height="18.25" fill="#D4CEC0" stroke="#607676" stroke-width="0.6"/>
+<rect x="739" y="1828" width="511" height="18.25" fill="#D4CEC0" stroke="#607676" stroke-width="0.6"/>
+<rect x="1907" y="1828" width="292" height="18.25" fill="#D4CEC0" stroke="#607676" stroke-width="0.6"/>
+<rect x="155" y="1573.23" width="65.7" height="2.9200000000000026" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="220.7" y="1573.23" width="226.3" height="2.9200000000000026" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="447" y="1573.23" width="146" height="2.9200000000000026" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="593" y="1573.23" width="29.200000000000024" height="2.9200000000000026" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="622.2" y="1573.23" width="116.79999999999997" height="2.9200000000000026" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="739" y="1573.23" width="511" height="2.9200000000000026" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="1907" y="1573.23" width="292" height="2.9200000000000026" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="1914.3" y="1576.15" width="14.600000000000207" height="251.85000000000002" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="155.0" y="1470.3" width="21.9" height="65.70000000000003" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="155.0" y="1463" width="21.9" height="7.299999999999974" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="155.0" y="1317.0" width="21.9" height="146.0" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="155.0" y="1298.75" width="21.9" height="18.25" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="155.0" y="1244" width="21.9" height="54.75" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="155.0" y="1244" width="23.36" height="10.950000000000026" fill="#989E98" stroke="#607676" stroke-width="0.6"/>
+<rect x="2177.1000000000004" y="1503.15" width="21.899999999999793" height="32.84999999999995" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="2177.1000000000004" y="1244" width="21.899999999999793" height="54.75" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="2195.715" y="1298.75" width="3.2850000000001245" height="204.40000000000006" fill="#779CA4" stroke="#607676" stroke-width="0.6"/>
+<rect x="2190.2400000000002" y="1497.6750000000002" width="8.759999999999813" height="5.474999999999948" fill="#53686B" stroke="#607676" stroke-width="0.6"/>
+<rect x="2190.2400000000002" y="1298.75" width="8.759999999999813" height="5.474999999999948" fill="#53686B" stroke="#607676" stroke-width="0.6"/>
+<rect x="2173.45" y="1284.88" width="25.550000000000104" height="6.56999999999999" fill="#687D80" stroke="#607676" stroke-width="0.6"/>
+<rect x="2175.64" y="1244" width="23.36000000000002" height="10.950000000000026" fill="#989E98" stroke="#607676" stroke-width="0.6"/>
+<rect x="1247.0800000000002" y="1448.4" width="5.8399999999998755" height="87.59999999999995" fill="#768A89" stroke="#607676" stroke-width="0.6"/>
+<rect x="1904.0800000000002" y="1448.4" width="5.8399999999998755" height="87.59999999999995" fill="#768A89" stroke="#607676" stroke-width="0.6"/>
+<rect x="155" y="1536" width="65.7" height="18.25" fill="#D4CEC0" stroke="#607676" stroke-width="0.6"/>
+<rect x="220.7" y="1536" width="226.3" height="18.25" fill="#D4CEC0" stroke="#607676" stroke-width="0.6"/>
+<rect x="447" y="1536" width="175.20000000000002" height="18.25" fill="#D4CEC0" stroke="#607676" stroke-width="0.6"/>
+<rect x="622.2" y="1536" width="116.79999999999997" height="18.25" fill="#D4CEC0" stroke="#607676" stroke-width="0.6"/>
+<rect x="739" y="1536" width="511" height="18.25" fill="#D4CEC0" stroke="#607676" stroke-width="0.6"/>
+<rect x="1907" y="1536" width="292" height="18.25" fill="#D4CEC0" stroke="#607676" stroke-width="0.6"/>
+<rect x="155" y="1281.23" width="65.7" height="2.9200000000000674" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="220.7" y="1281.23" width="226.3" height="2.9200000000000674" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="447" y="1281.23" width="146" height="2.9200000000000674" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="593" y="1281.23" width="29.200000000000024" height="2.9200000000000674" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="622.2" y="1281.23" width="116.79999999999997" height="2.9200000000000674" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="739" y="1281.23" width="511" height="2.9200000000000674" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="1907" y="1281.23" width="292" height="2.9200000000000674" fill="#DDD9CB" stroke="#607676" stroke-width="0.6"/>
+<rect x="155" y="1178.3" width="438" height="18.25" fill="#687D80" stroke="#607676" stroke-width="0.6"/>
+<rect x="593" y="1178.3" width="657" height="18.25" fill="#687D80" stroke="#607676" stroke-width="0.6"/>
+<rect x="1907" y="1178.3" width="292" height="18.25" fill="#687D80" stroke="#607676" stroke-width="0.6"/>
+<rect x="155.0" y="1171" width="18.25" height="7.299999999999974" fill="#687D80" stroke="#607676" stroke-width="0.6"/>
+<rect x="2180.75" y="1171" width="18.25" height="7.299999999999974" fill="#687D80" stroke="#607676" stroke-width="0.6"/>
+<line x1="1250.0" y1="1156.4" x2="1578.5" y2="1123.55" stroke="#536B6D" stroke-width="6"/>
+<line x1="1578.5" y1="1123.55" x2="1907.0" y2="1156.4" stroke="#536B6D" stroke-width="6"/>
+<line x1="1250.0" y1="1154.21" x2="1578.5" y2="1121.3600000000001" stroke="#536B6D" stroke-width="6"/>
+<line x1="1578.5" y1="1121.3600000000001" x2="1907.0" y2="1154.21" stroke="#536B6D" stroke-width="6"/>
+<text x="155.00" y="2185.00" font-size="26" text-anchor="start">A—A x80：108㎡庭，F02/F03同孔</text>
+<text x="135.00" y="2120.00" font-size="22" text-anchor="end">+0</text>
+<text x="135.00" y="1828.00" font-size="22" text-anchor="end">+4</text>
+<text x="135.00" y="1536.00" font-size="22" text-anchor="end">+8</text>
+<text x="135.00" y="1244.00" font-size="22" text-anchor="end">+12</text>
+<text x="2290.00" y="1260.00" font-size="26" text-anchor="start">原RT01 28×21＝588㎡</text>
+<text x="2290.00" y="1312.00" font-size="26" text-anchor="start">本次外廓下未承托的范围明确叠图</text>
+<text x="2290.00" y="1364.00" font-size="26" text-anchor="start">支持投影462㎡ / 缺126㎡</text>
+<text x="2290.00" y="1416.00" font-size="26" text-anchor="start">x38–52教学坡屋面不可直接站立</text>
+<text x="2290.00" y="1468.00" font-size="26" text-anchor="start">x52–64连接屋面，结构/护栏未核</text>
+<text x="2290.00" y="1520.00" font-size="26" text-anchor="start">x64–66跨核心与露台低位屋面</text>
+<text x="2290.00" y="1572.00" font-size="26" text-anchor="start">原level12高程语义待核，不直接套屋面</text>
+<text x="2290.00" y="1624.00" font-size="26" text-anchor="start">原梯核x41–49/y9–19与教室冲突</text>
+<text x="2290.00" y="1676.00" font-size="26" text-anchor="start">方案A：保独立RT01待整体重设计</text>
+<text x="2290.00" y="1728.00" font-size="26" text-anchor="start">接近：F03主廊→S1延伸→原49/14</text>
+<text x="2290.00" y="1780.00" font-size="26" text-anchor="start">当前不搭可进入RT01、不移动区域</text>
+<text x="155.00" y="2240.00" font-size="24" text-anchor="start">通高庭12×9；F02/F03楼板孔、F01/F02顶面孔同位；F03顶面仍保持庭上无封板</text>
+<text x="80.00" y="2335.00" font-size="23" text-anchor="start">C01 REFERENCE_01 · 2026-10-15 · 单位m · 设计参考 / 共享简模预览；非最终贴图 / 非实际游戏效果</text>
+<text x="3100.00" y="2335.00" font-size="27" text-anchor="end">P04</text>
+</svg>
