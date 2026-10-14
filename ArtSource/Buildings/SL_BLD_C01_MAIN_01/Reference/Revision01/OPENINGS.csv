@@ -1,0 +1,307 @@
+﻿axis,hi,id,kind,line,lo,normal,room,shade_depth,shade_mode,side,z0,z1
+X,26.5,C01_MAIN,door,0,23.5,-1,C01_MAIN,,,S,0,3.2
+X,21.46666666666667,F1_WL_S_01,public,0,19.266666666666666,-1,F1_WL,0.75,inside control / inward hood,S,0.45,3.25
+X,37,S1_F1_S,stair,0,31,-1,S1,,,S,1,3.25
+X,67.875,F1_CW_S_01,support,0,65.67500000000001,-1,F1_CW,0.75,inside control / inward hood,S,0.9,3.0
+X,72.32499999999999,F1_CW_S_02,support,0,70.125,-1,F1_CW,0.75,inside control / inward hood,S,0.9,3.0
+X,78.1,F1_CS_S_01,support,0,75.9,-1,F1_CS,0.75,inside control / inward hood,S,0.9,3.0
+X,85.275,F1_CE_S_01,support,0,83.125,-1,F1_CE,0.75,inside control / inward hood,S,0.9,3.0
+X,93,S2_F1_S,stair,0,87,-1,S2,,,S,1,3.25
+X,149,S3_F1_S,stair,0,143,-1,S3,,,S,1,3.25
+X,3.3750000000000004,F1_WWC_S_01,privacy,4,1.1750000000000003,-1,F1_WWC,0.75,projected canopy,S,1.6,2.85
+X,6.825000000000001,F1_WWC_S_02,privacy,4,4.625,-1,F1_WWC,0.75,projected canopy,S,1.6,2.85
+X,10.883333333333333,F1_WH_S_01,support,4,8.683333333333334,-1,F1_WH,0.75,projected canopy,S,0.9,3.0
+X,13.95,F1_WH_S_02,support,4,11.75,-1,F1_WH,0.75,projected canopy,S,0.9,3.0
+X,17.016666666666666,F1_WH_S_03,support,4,14.816666666666666,-1,F1_WH,0.75,projected canopy,S,0.9,3.0
+X,41.262499999999996,F1_WO_S_01,support,4,39.06249999999999,-1,F1_WO,0.75,projected canopy,S,0.9,3.0
+X,44.487500000000004,F1_WO_S_02,support,4,42.2875,-1,F1_WO,0.75,projected canopy,S,0.9,3.0
+X,47.7125,F1_WO_S_03,support,4,45.512499999999996,-1,F1_WO,0.75,projected canopy,S,0.9,3.0
+X,50.93750000000001,F1_WO_S_04,support,4,48.737500000000004,-1,F1_WO,0.75,projected canopy,S,0.9,3.0
+X,109.6,F1_EG_S_01,public,4,107.4,-1,F1_EG,0.75,projected canopy,S,0.45,3.25
+X,113.5,F1_EG_S_02,public,4,111.30000000000001,-1,F1_EG,0.75,projected canopy,S,0.45,3.25
+X,117.39999999999999,F1_EG_S_03,public,4,115.2,-1,F1_EG,0.75,projected canopy,S,0.45,3.25
+X,121.76666666666665,F1_EWC_S_01,privacy,4,119.56666666666666,-1,F1_EWC,0.75,projected canopy,S,1.6,2.85
+X,125.0,F1_EWC_S_02,privacy,4,122.80000000000001,-1,F1_EWC,0.75,projected canopy,S,1.6,2.85
+X,128.23333333333332,F1_EWC_S_03,privacy,4,126.03333333333333,-1,F1_EWC,0.75,projected canopy,S,1.6,2.85
+X,132.6,F1_ES_S_01,support,4,130.4,-1,F1_ES,0.75,projected canopy,S,0.9,3.0
+X,136.5,F1_ES_S_02,support,4,134.3,-1,F1_ES,0.75,projected canopy,S,0.9,3.0
+X,140.4,F1_ES_S_03,support,4,138.20000000000002,-1,F1_ES,0.75,projected canopy,S,0.9,3.0
+X,54.9,LINK_52_F1_S_1,link,8,52.6,-1,F1_LW,0.75,projected canopy,S,0.6,3.2
+X,57.699999999999996,LINK_52_F1_S_2,link,8,55.4,-1,F1_LW,0.75,projected canopy,S,0.6,3.2
+X,60.5,LINK_52_F1_S_3,link,8,58.2,-1,F1_LW,0.75,projected canopy,S,0.6,3.2
+X,63.3,LINK_52_F1_S_4,link,8,61.0,-1,F1_LW,0.75,projected canopy,S,0.6,3.2
+X,96.89999999999999,LINK_94_F1_S_1,link,8,94.6,-1,F1_LE,0.75,projected canopy,S,0.6,3.2
+X,99.69999999999999,LINK_94_F1_S_2,link,8,97.39999999999999,-1,F1_LE,0.75,projected canopy,S,0.6,3.2
+X,102.49999999999999,LINK_94_F1_S_3,link,8,100.19999999999999,-1,F1_LE,0.75,projected canopy,S,0.6,3.2
+X,105.3,LINK_94_F1_S_4,link,8,103.0,-1,F1_LE,0.75,projected canopy,S,0.6,3.2
+X,17.90833333333333,F1_W1_N_01,teaching,22,15.624999999999998,1,F1_W1,0.35,projected canopy,N,0.9,3.0
+X,20.541666666666664,F1_W1_N_02,teaching,22,18.258333333333333,1,F1_W1,0.35,projected canopy,N,0.9,3.0
+X,23.175,F1_W1_N_03,teaching,22,20.89166666666667,1,F1_W1,0.35,projected canopy,N,0.9,3.0
+X,26.508333333333333,F1_W2_N_01,teaching,22,24.225,1,F1_W2,0.35,projected canopy,N,0.9,3.0
+X,29.141666666666666,F1_W2_N_02,teaching,22,26.858333333333334,1,F1_W2,0.35,projected canopy,N,0.9,3.0
+X,31.775000000000002,F1_W2_N_03,teaching,22,29.49166666666667,1,F1_W2,0.35,projected canopy,N,0.9,3.0
+X,35.108333333333334,F1_W3_N_01,teaching,22,32.825,1,F1_W3,0.35,projected canopy,N,0.9,3.0
+X,37.74166666666666,F1_W3_N_02,teaching,22,35.45833333333333,1,F1_W3,0.35,projected canopy,N,0.9,3.0
+X,40.375,F1_W3_N_03,teaching,22,38.09166666666667,1,F1_W3,0.35,projected canopy,N,0.9,3.0
+X,43.70833333333333,F1_W4_N_01,teaching,22,41.425,1,F1_W4,0.35,projected canopy,N,0.9,3.0
+X,46.34166666666667,F1_W4_N_02,teaching,22,44.05833333333334,1,F1_W4,0.35,projected canopy,N,0.9,3.0
+X,48.974999999999994,F1_W4_N_03,teaching,22,46.69166666666666,1,F1_W4,0.35,projected canopy,N,0.9,3.0
+X,3.4125,F1_WG_N_01,public,22,1.2125,1,F1_WG,0.35,projected canopy,N,0.45,3.25
+X,6.9375,F1_WG_N_02,public,22,4.737499999999999,1,F1_WG,0.35,projected canopy,N,0.45,3.25
+X,10.4625,F1_WG_N_03,public,22,8.262500000000001,1,F1_WG,0.35,projected canopy,N,0.45,3.25
+X,13.9875,F1_WG_N_04,public,22,11.787500000000001,1,F1_WG,0.35,projected canopy,N,0.45,3.25
+X,55.46666666666667,F1_LW_N_01,link,22,53.266666666666666,1,F1_LW,0.35,projected canopy,N,0.45,3.25
+X,59.1,F1_LW_N_02,link,22,56.9,1,F1_LW,0.35,projected canopy,N,0.45,3.25
+X,62.733333333333334,F1_LW_N_03,link,22,60.53333333333333,1,F1_LW,0.35,projected canopy,N,0.45,3.25
+X,109.70833333333333,F1_E1_N_01,teaching,22,107.425,1,F1_E1,0.35,projected canopy,N,0.9,3.0
+X,112.34166666666667,F1_E1_N_02,teaching,22,110.05833333333334,1,F1_E1,0.35,projected canopy,N,0.9,3.0
+X,114.97500000000001,F1_E1_N_03,teaching,22,112.69166666666668,1,F1_E1,0.35,projected canopy,N,0.9,3.0
+X,118.30833333333332,F1_E2_N_01,teaching,22,116.02499999999999,1,F1_E2,0.35,projected canopy,N,0.9,3.0
+X,120.94166666666666,F1_E2_N_02,teaching,22,118.65833333333333,1,F1_E2,0.35,projected canopy,N,0.9,3.0
+X,123.575,F1_E2_N_03,teaching,22,121.29166666666667,1,F1_E2,0.35,projected canopy,N,0.9,3.0
+X,126.90833333333333,F1_E3_N_01,teaching,22,124.625,1,F1_E3,0.35,projected canopy,N,0.9,3.0
+X,129.54166666666666,F1_E3_N_02,teaching,22,127.25833333333334,1,F1_E3,0.35,projected canopy,N,0.9,3.0
+X,132.17499999999998,F1_E3_N_03,teaching,22,129.89166666666668,1,F1_E3,0.35,projected canopy,N,0.9,3.0
+X,135.50833333333335,F1_E4_N_01,teaching,22,133.225,1,F1_E4,0.35,projected canopy,N,0.9,3.0
+X,138.14166666666668,F1_E4_N_02,teaching,22,135.85833333333332,1,F1_E4,0.35,projected canopy,N,0.9,3.0
+X,140.77500000000003,F1_E4_N_03,teaching,22,138.49166666666667,1,F1_E4,0.35,projected canopy,N,0.9,3.0
+X,97.46666666666665,F1_LE_N_01,link,22,95.26666666666667,1,F1_LE,0.35,projected canopy,N,0.45,3.25
+X,101.1,F1_LE_N_02,link,22,98.9,1,F1_LE,0.35,projected canopy,N,0.45,3.25
+X,104.73333333333333,F1_LE_N_03,link,22,102.53333333333335,1,F1_LE,0.35,projected canopy,N,0.45,3.25
+X,91.5,C01_N,door,28,88.5,1,C01_N,,,N,0,3
+X,67.875,F1_CL_N_01,public,28,65.67500000000001,1,F1_CL,0.35,inside control / inward hood,N,0.45,3.25
+X,72.32499999999999,F1_CL_N_02,public,28,70.125,1,F1_CL,0.35,inside control / inward hood,N,0.45,3.25
+X,77.46666666666665,F1_CB_N_01,public,28,75.26666666666667,1,F1_CB,0.35,inside control / inward hood,N,0.45,3.25
+X,81.1,F1_CB_N_02,public,28,78.9,1,F1_CB,0.35,inside control / inward hood,N,0.45,3.25
+X,84.73333333333333,F1_CB_N_03,public,28,82.53333333333335,1,F1_CB,0.35,inside control / inward hood,N,0.45,3.25
+Y,16.400000000000002,F1_WG_W_01,public,0,14.200000000000001,-1,F1_WG,0.35,inside control / inward hood,W,0.45,3.25
+Y,20.5,F1_WG_W_02,public,0,18.299999999999997,-1,F1_WG,0.35,inside control / inward hood,W,0.45,3.25
+Y,7.65,F1_WWC_W_01,privacy,0,5.450000000000001,-1,F1_WWC,0.35,inside control / inward hood,W,1.6,2.85
+Y,12.15,END_0_F1,end,0,9.65,-1,,,,W,0.5,3.3
+Y,3.1999999999999997,F1_WL_W_01,public,18,0.9999999999999996,-1,F1_WL,0.35,projected canopy,W,0.45,3.25
+Y,7.199999999999999,F1_WO_E_01,support,52,5.0,1,F1_WO,0.35,projected canopy,E,0.9,3.0
+Y,3.4250000000000003,F1_CW_W_01,support,64,1.225,-1,F1_CW,0.35,projected canopy,W,0.9,3.0
+Y,6.975,F1_CW_W_02,support,64,4.775,-1,F1_CW,0.35,projected canopy,W,0.9,3.0
+Y,26.0,F1_CL_W_01,public,64,23.799999999999997,-1,F1_CL,0.35,projected canopy,W,0.45,3.25
+Y,26.0,F1_CN_E_01,public,94,23.799999999999997,1,F1_CN,0.35,projected canopy,E,0.45,3.25
+Y,7.199999999999999,F1_EG_W_01,public,106,5.0,-1,F1_EG,0.35,projected canopy,W,0.45,3.25
+Y,15.5,C01_E,door,150,12.5,1,C01_E,,,E,0,3
+Y,12.15,END_150_F1,end,150,9.65,1,,,,E,0.5,3.3
+X,20.0,F1_W1_D,sliding_internal,12.6,18.4,0,F1_W1,,,INTERIOR,0,2.6
+X,28.6,F1_W2_D,sliding_internal,12.6,27.0,0,F1_W2,,,INTERIOR,0,2.6
+X,37.199999999999996,F1_W3_D,sliding_internal,12.6,35.6,0,F1_W3,,,INTERIOR,0,2.6
+X,45.8,F1_W4_D,sliding_internal,12.6,44.2,0,F1_W4,,,INTERIOR,0,2.6
+X,111.8,F1_E1_D,sliding_internal,12.6,110.2,0,F1_E1,,,INTERIOR,0,2.6
+X,120.39999999999999,F1_E2_D,sliding_internal,12.6,118.8,0,F1_E2,,,INTERIOR,0,2.6
+X,129.0,F1_E3_D,sliding_internal,12.6,127.39999999999999,0,F1_E3,,,INTERIOR,0,2.6
+X,137.60000000000002,F1_E4_D,sliding_internal,12.6,136.0,0,F1_E4,,,INTERIOR,0,2.6
+X,8.3,F1_WG_D,sliding_internal,12.9,6.9,0,F1_WG,,,INTERIOR,0,2.6
+X,58.7,F1_LW_D,sliding_internal,12.9,57.3,0,F1_LW,,,INTERIOR,0,2.6
+X,100.7,F1_LE_D,sliding_internal,12.9,99.3,0,F1_LE,,,INTERIOR,0,2.6
+X,69.7,F1_CL_D,sliding_internal,12.9,68.3,0,F1_CL,,,INTERIOR,0,2.6
+X,90.7,F1_CN_D,sliding_internal,12.9,89.3,0,F1_CN,,,INTERIOR,0,2.6
+X,21.46666666666667,F2_WL_S_01,public,0,19.266666666666666,-1,F2_WL,0.75,inside control / inward hood,S,4.45,7.25
+X,25.1,F2_WL_S_02,public,0,22.9,-1,F2_WL,0.75,inside control / inward hood,S,4.45,7.25
+X,28.733333333333334,F2_WL_S_03,public,0,26.53333333333333,-1,F2_WL,0.75,inside control / inward hood,S,4.45,7.25
+X,37,S1_F2_S,stair,0,31,-1,S1,,,S,5,7.25
+X,67.875,F2_CW_S_01,support,0,65.67500000000001,-1,F2_CW,0.75,inside control / inward hood,S,4.9,7.0
+X,72.32499999999999,F2_CW_S_02,support,0,70.125,-1,F2_CW,0.75,inside control / inward hood,S,4.9,7.0
+X,78.1,F2_CS_S_01,support,0,75.9,-1,F2_CS,0.75,inside control / inward hood,S,4.9,7.0
+X,85.275,F2_CE_S_01,support,0,83.125,-1,F2_CE,0.75,inside control / inward hood,S,4.9,7.0
+X,93,S2_F2_S,stair,0,87,-1,S2,,,S,5,7.25
+X,149,S3_F2_S,stair,0,143,-1,S3,,,S,5,7.25
+X,3.3750000000000004,F2_WWC_S_01,privacy,4,1.1750000000000003,-1,F2_WWC,0.75,projected canopy,S,5.6,6.85
+X,6.825000000000001,F2_WWC_S_02,privacy,4,4.625,-1,F2_WWC,0.75,projected canopy,S,5.6,6.85
+X,10.883333333333333,F2_WH_S_01,support,4,8.683333333333334,-1,F2_WH,0.75,projected canopy,S,4.9,7.0
+X,13.95,F2_WH_S_02,support,4,11.75,-1,F2_WH,0.75,projected canopy,S,4.9,7.0
+X,17.016666666666666,F2_WH_S_03,support,4,14.816666666666666,-1,F2_WH,0.75,projected canopy,S,4.9,7.0
+X,41.262499999999996,F2_WO_S_01,public,4,39.06249999999999,-1,F2_WO,0.75,projected canopy,S,4.45,7.25
+X,44.487500000000004,F2_WO_S_02,public,4,42.2875,-1,F2_WO,0.75,projected canopy,S,4.45,7.25
+X,47.7125,F2_WO_S_03,public,4,45.512499999999996,-1,F2_WO,0.75,projected canopy,S,4.45,7.25
+X,50.93750000000001,F2_WO_S_04,public,4,48.737500000000004,-1,F2_WO,0.75,projected canopy,S,4.45,7.25
+X,109.6,F2_EG_S_01,public,4,107.4,-1,F2_EG,0.75,projected canopy,S,4.45,7.25
+X,113.5,F2_EG_S_02,public,4,111.30000000000001,-1,F2_EG,0.75,projected canopy,S,4.45,7.25
+X,117.39999999999999,F2_EG_S_03,public,4,115.2,-1,F2_EG,0.75,projected canopy,S,4.45,7.25
+X,121.76666666666665,F2_EWC_S_01,privacy,4,119.56666666666666,-1,F2_EWC,0.75,projected canopy,S,5.6,6.85
+X,125.0,F2_EWC_S_02,privacy,4,122.80000000000001,-1,F2_EWC,0.75,projected canopy,S,5.6,6.85
+X,128.23333333333332,F2_EWC_S_03,privacy,4,126.03333333333333,-1,F2_EWC,0.75,projected canopy,S,5.6,6.85
+X,132.6,F2_ES_S_01,support,4,130.4,-1,F2_ES,0.75,projected canopy,S,4.9,7.0
+X,136.5,F2_ES_S_02,support,4,134.3,-1,F2_ES,0.75,projected canopy,S,4.9,7.0
+X,140.4,F2_ES_S_03,support,4,138.20000000000002,-1,F2_ES,0.75,projected canopy,S,4.9,7.0
+X,54.9,LINK_52_F2_S_1,link,8,52.6,-1,F2_LW,0.75,projected canopy,S,4.6,7.2
+X,57.699999999999996,LINK_52_F2_S_2,link,8,55.4,-1,F2_LW,0.75,projected canopy,S,4.6,7.2
+X,60.5,LINK_52_F2_S_3,link,8,58.2,-1,F2_LW,0.75,projected canopy,S,4.6,7.2
+X,63.3,LINK_52_F2_S_4,link,8,61.0,-1,F2_LW,0.75,projected canopy,S,4.6,7.2
+X,96.89999999999999,LINK_94_F2_S_1,link,8,94.6,-1,F2_LE,0.75,projected canopy,S,4.6,7.2
+X,99.69999999999999,LINK_94_F2_S_2,link,8,97.39999999999999,-1,F2_LE,0.75,projected canopy,S,4.6,7.2
+X,102.49999999999999,LINK_94_F2_S_3,link,8,100.19999999999999,-1,F2_LE,0.75,projected canopy,S,4.6,7.2
+X,105.3,LINK_94_F2_S_4,link,8,103.0,-1,F2_LE,0.75,projected canopy,S,4.6,7.2
+X,17.90833333333333,F2_W1_N_01,teaching,22,15.624999999999998,1,F2_W1,0.35,projected canopy,N,4.9,7.0
+X,20.541666666666664,F2_W1_N_02,teaching,22,18.258333333333333,1,F2_W1,0.35,projected canopy,N,4.9,7.0
+X,23.175,F2_W1_N_03,teaching,22,20.89166666666667,1,F2_W1,0.35,projected canopy,N,4.9,7.0
+X,26.508333333333333,F2_W2_N_01,teaching,22,24.225,1,F2_W2,0.35,projected canopy,N,4.9,7.0
+X,29.141666666666666,F2_W2_N_02,teaching,22,26.858333333333334,1,F2_W2,0.35,projected canopy,N,4.9,7.0
+X,31.775000000000002,F2_W2_N_03,teaching,22,29.49166666666667,1,F2_W2,0.35,projected canopy,N,4.9,7.0
+X,35.108333333333334,F2_W3_N_01,teaching,22,32.825,1,F2_W3,0.35,projected canopy,N,4.9,7.0
+X,37.74166666666666,F2_W3_N_02,teaching,22,35.45833333333333,1,F2_W3,0.35,projected canopy,N,4.9,7.0
+X,40.375,F2_W3_N_03,teaching,22,38.09166666666667,1,F2_W3,0.35,projected canopy,N,4.9,7.0
+X,43.70833333333333,F2_W4_N_01,teaching,22,41.425,1,F2_W4,0.35,projected canopy,N,4.9,7.0
+X,46.34166666666667,F2_W4_N_02,teaching,22,44.05833333333334,1,F2_W4,0.35,projected canopy,N,4.9,7.0
+X,48.974999999999994,F2_W4_N_03,teaching,22,46.69166666666666,1,F2_W4,0.35,projected canopy,N,4.9,7.0
+X,3.4125,F2_WG_N_01,public,22,1.2125,1,F2_WG,0.35,projected canopy,N,4.45,7.25
+X,6.9375,F2_WG_N_02,public,22,4.737499999999999,1,F2_WG,0.35,projected canopy,N,4.45,7.25
+X,10.4625,F2_WG_N_03,public,22,8.262500000000001,1,F2_WG,0.35,projected canopy,N,4.45,7.25
+X,13.9875,F2_WG_N_04,public,22,11.787500000000001,1,F2_WG,0.35,projected canopy,N,4.45,7.25
+X,55.46666666666667,F2_LW_N_01,link,22,53.266666666666666,1,F2_LW,0.35,projected canopy,N,4.45,7.25
+X,59.1,F2_LW_N_02,link,22,56.9,1,F2_LW,0.35,projected canopy,N,4.45,7.25
+X,62.733333333333334,F2_LW_N_03,link,22,60.53333333333333,1,F2_LW,0.35,projected canopy,N,4.45,7.25
+X,109.70833333333333,F2_E1_N_01,teaching,22,107.425,1,F2_E1,0.35,projected canopy,N,4.9,7.0
+X,112.34166666666667,F2_E1_N_02,teaching,22,110.05833333333334,1,F2_E1,0.35,projected canopy,N,4.9,7.0
+X,114.97500000000001,F2_E1_N_03,teaching,22,112.69166666666668,1,F2_E1,0.35,projected canopy,N,4.9,7.0
+X,118.30833333333332,F2_E2_N_01,teaching,22,116.02499999999999,1,F2_E2,0.35,projected canopy,N,4.9,7.0
+X,120.94166666666666,F2_E2_N_02,teaching,22,118.65833333333333,1,F2_E2,0.35,projected canopy,N,4.9,7.0
+X,123.575,F2_E2_N_03,teaching,22,121.29166666666667,1,F2_E2,0.35,projected canopy,N,4.9,7.0
+X,126.90833333333333,F2_E3_N_01,teaching,22,124.625,1,F2_E3,0.35,projected canopy,N,4.9,7.0
+X,129.54166666666666,F2_E3_N_02,teaching,22,127.25833333333334,1,F2_E3,0.35,projected canopy,N,4.9,7.0
+X,132.17499999999998,F2_E3_N_03,teaching,22,129.89166666666668,1,F2_E3,0.35,projected canopy,N,4.9,7.0
+X,135.50833333333335,F2_E4_N_01,teaching,22,133.225,1,F2_E4,0.35,projected canopy,N,4.9,7.0
+X,138.14166666666668,F2_E4_N_02,teaching,22,135.85833333333332,1,F2_E4,0.35,projected canopy,N,4.9,7.0
+X,140.77500000000003,F2_E4_N_03,teaching,22,138.49166666666667,1,F2_E4,0.35,projected canopy,N,4.9,7.0
+X,97.46666666666665,F2_LE_N_01,link,22,95.26666666666667,1,F2_LE,0.35,projected canopy,N,4.45,7.25
+X,101.1,F2_LE_N_02,link,22,98.9,1,F2_LE,0.35,projected canopy,N,4.45,7.25
+X,104.73333333333333,F2_LE_N_03,link,22,102.53333333333335,1,F2_LE,0.35,projected canopy,N,4.45,7.25
+X,67.875,F2_CL_N_01,public,28,65.67500000000001,1,F2_CL,0.35,inside control / inward hood,N,4.45,7.25
+X,72.32499999999999,F2_CL_N_02,public,28,70.125,1,F2_CL,0.35,inside control / inward hood,N,4.45,7.25
+X,77.46666666666665,F2_CB_N_01,public,28,75.26666666666667,1,F2_CB,0.35,inside control / inward hood,N,4.45,7.25
+X,81.1,F2_CB_N_02,public,28,78.9,1,F2_CB,0.35,inside control / inward hood,N,4.45,7.25
+X,84.73333333333333,F2_CB_N_03,public,28,82.53333333333335,1,F2_CB,0.35,inside control / inward hood,N,4.45,7.25
+X,89.375,F2_CN_N_01,public,28,87.17500000000001,1,F2_CN,0.35,inside control / inward hood,N,4.45,7.25
+X,92.82499999999999,F2_CN_N_02,public,28,90.625,1,F2_CN,0.35,inside control / inward hood,N,4.45,7.25
+Y,16.400000000000002,F2_WG_W_01,public,0,14.200000000000001,-1,F2_WG,0.35,inside control / inward hood,W,4.45,7.25
+Y,20.5,F2_WG_W_02,public,0,18.299999999999997,-1,F2_WG,0.35,inside control / inward hood,W,4.45,7.25
+Y,7.65,F2_WWC_W_01,privacy,0,5.450000000000001,-1,F2_WWC,0.35,inside control / inward hood,W,5.6,6.85
+Y,12.15,END_0_F2,end,0,9.65,-1,,,,W,4.5,7.3
+Y,3.1999999999999997,F2_WL_W_01,public,18,0.9999999999999996,-1,F2_WL,0.35,projected canopy,W,4.45,7.25
+Y,7.199999999999999,F2_WO_E_01,public,52,5.0,1,F2_WO,0.35,projected canopy,E,4.45,7.25
+Y,3.4250000000000003,F2_CW_W_01,support,64,1.225,-1,F2_CW,0.35,projected canopy,W,4.9,7.0
+Y,6.975,F2_CW_W_02,support,64,4.775,-1,F2_CW,0.35,projected canopy,W,4.9,7.0
+Y,26.0,F2_CL_W_01,public,64,23.799999999999997,-1,F2_CL,0.35,projected canopy,W,4.45,7.25
+Y,26.0,F2_CN_E_01,public,94,23.799999999999997,1,F2_CN,0.35,projected canopy,E,4.45,7.25
+Y,7.199999999999999,F2_EG_W_01,public,106,5.0,-1,F2_EG,0.35,projected canopy,W,4.45,7.25
+Y,12.15,END_150_F2,end,150,9.65,1,,,,E,4.5,7.3
+X,20.0,F2_W1_D,sliding_internal,12.6,18.4,0,F2_W1,,,INTERIOR,4,6.6
+X,28.6,F2_W2_D,sliding_internal,12.6,27.0,0,F2_W2,,,INTERIOR,4,6.6
+X,37.199999999999996,F2_W3_D,sliding_internal,12.6,35.6,0,F2_W3,,,INTERIOR,4,6.6
+X,45.8,F2_W4_D,sliding_internal,12.6,44.2,0,F2_W4,,,INTERIOR,4,6.6
+X,111.8,F2_E1_D,sliding_internal,12.6,110.2,0,F2_E1,,,INTERIOR,4,6.6
+X,120.39999999999999,F2_E2_D,sliding_internal,12.6,118.8,0,F2_E2,,,INTERIOR,4,6.6
+X,129.0,F2_E3_D,sliding_internal,12.6,127.39999999999999,0,F2_E3,,,INTERIOR,4,6.6
+X,137.60000000000002,F2_E4_D,sliding_internal,12.6,136.0,0,F2_E4,,,INTERIOR,4,6.6
+X,8.3,F2_WG_D,sliding_internal,12.9,6.9,0,F2_WG,,,INTERIOR,4,6.6
+X,58.7,F2_LW_D,sliding_internal,12.9,57.3,0,F2_LW,,,INTERIOR,4,6.6
+X,100.7,F2_LE_D,sliding_internal,12.9,99.3,0,F2_LE,,,INTERIOR,4,6.6
+X,69.7,F2_CL_D,sliding_internal,12.9,68.3,0,F2_CL,,,INTERIOR,4,6.6
+X,90.7,F2_CN_D,sliding_internal,12.9,89.3,0,F2_CN,,,INTERIOR,4,6.6
+X,21.46666666666667,F3_WL_S_01,public,0,19.266666666666666,-1,F3_WL,0.75,inside control / inward hood,S,8.45,11.25
+X,25.1,F3_WL_S_02,public,0,22.9,-1,F3_WL,0.75,inside control / inward hood,S,8.45,11.25
+X,28.733333333333334,F3_WL_S_03,public,0,26.53333333333333,-1,F3_WL,0.75,inside control / inward hood,S,8.45,11.25
+X,37,S1_F3_S,stair,0,31,-1,S1,,,S,9,11.25
+X,78.1,F3_CS_S_01,support,0,75.9,-1,F3_CS,0.75,inside control / inward hood,S,8.9,11.0
+X,85.275,F3_CE_S_01,support,0,83.125,-1,F3_CE,0.75,inside control / inward hood,S,8.9,11.0
+X,93,S2_F3_S,stair,0,87,-1,S2,,,S,9,11.25
+X,149,S3_F3_S,stair,0,143,-1,S3,,,S,9,11.25
+X,3.3750000000000004,F3_WWC_S_01,privacy,4,1.1750000000000003,-1,F3_WWC,0.75,projected canopy,S,9.6,10.85
+X,6.825000000000001,F3_WWC_S_02,privacy,4,4.625,-1,F3_WWC,0.75,projected canopy,S,9.6,10.85
+X,10.883333333333333,F3_WH_S_01,support,4,8.683333333333334,-1,F3_WH,0.75,projected canopy,S,8.9,11.0
+X,13.95,F3_WH_S_02,support,4,11.75,-1,F3_WH,0.75,projected canopy,S,8.9,11.0
+X,17.016666666666666,F3_WH_S_03,support,4,14.816666666666666,-1,F3_WH,0.75,projected canopy,S,8.9,11.0
+X,41.262499999999996,F3_WO_S_01,support,4,39.06249999999999,-1,F3_WO,0.75,projected canopy,S,8.9,11.0
+X,44.487500000000004,F3_WO_S_02,support,4,42.2875,-1,F3_WO,0.75,projected canopy,S,8.9,11.0
+X,47.7125,F3_WO_S_03,support,4,45.512499999999996,-1,F3_WO,0.75,projected canopy,S,8.9,11.0
+X,50.93750000000001,F3_WO_S_04,support,4,48.737500000000004,-1,F3_WO,0.75,projected canopy,S,8.9,11.0
+X,109.6,F3_EG_S_01,public,4,107.4,-1,F3_EG,0.75,projected canopy,S,8.45,11.25
+X,113.5,F3_EG_S_02,public,4,111.30000000000001,-1,F3_EG,0.75,projected canopy,S,8.45,11.25
+X,117.39999999999999,F3_EG_S_03,public,4,115.2,-1,F3_EG,0.75,projected canopy,S,8.45,11.25
+X,121.76666666666665,F3_EWC_S_01,privacy,4,119.56666666666666,-1,F3_EWC,0.75,projected canopy,S,9.6,10.85
+X,125.0,F3_EWC_S_02,privacy,4,122.80000000000001,-1,F3_EWC,0.75,projected canopy,S,9.6,10.85
+X,128.23333333333332,F3_EWC_S_03,privacy,4,126.03333333333333,-1,F3_EWC,0.75,projected canopy,S,9.6,10.85
+X,132.6,F3_ES_S_01,support,4,130.4,-1,F3_ES,0.75,projected canopy,S,8.9,11.0
+X,136.5,F3_ES_S_02,support,4,134.3,-1,F3_ES,0.75,projected canopy,S,8.9,11.0
+X,140.4,F3_ES_S_03,support,4,138.20000000000002,-1,F3_ES,0.75,projected canopy,S,8.9,11.0
+X,69.8,TERRACE_ACCESS,door,6,68.2,-1,F3_CW,,,S,8.03,10.63
+X,67.875,F3_CW_S_01,support,6,65.67500000000001,-1,F3_CW,0.75,projected canopy,S,8.9,11.0
+X,72.32499999999999,F3_CW_S_02,support,6,70.125,-1,F3_CW,0.75,projected canopy,S,8.9,11.0
+X,54.9,LINK_52_F3_S_1,link,8,52.6,-1,F3_LW,0.75,projected canopy,S,8.6,11.2
+X,57.699999999999996,LINK_52_F3_S_2,link,8,55.4,-1,F3_LW,0.75,projected canopy,S,8.6,11.2
+X,60.5,LINK_52_F3_S_3,link,8,58.2,-1,F3_LW,0.75,projected canopy,S,8.6,11.2
+X,63.3,LINK_52_F3_S_4,link,8,61.0,-1,F3_LW,0.75,projected canopy,S,8.6,11.2
+X,96.89999999999999,LINK_94_F3_S_1,link,8,94.6,-1,F3_LE,0.75,projected canopy,S,8.6,11.2
+X,99.69999999999999,LINK_94_F3_S_2,link,8,97.39999999999999,-1,F3_LE,0.75,projected canopy,S,8.6,11.2
+X,102.49999999999999,LINK_94_F3_S_3,link,8,100.19999999999999,-1,F3_LE,0.75,projected canopy,S,8.6,11.2
+X,105.3,LINK_94_F3_S_4,link,8,103.0,-1,F3_LE,0.75,projected canopy,S,8.6,11.2
+X,17.90833333333333,F3_W1_N_01,teaching,22,15.624999999999998,1,F3_W1,0.35,projected canopy,N,8.9,11.0
+X,20.541666666666664,F3_W1_N_02,teaching,22,18.258333333333333,1,F3_W1,0.35,projected canopy,N,8.9,11.0
+X,23.175,F3_W1_N_03,teaching,22,20.89166666666667,1,F3_W1,0.35,projected canopy,N,8.9,11.0
+X,26.508333333333333,F3_W2_N_01,teaching,22,24.225,1,F3_W2,0.35,projected canopy,N,8.9,11.0
+X,29.141666666666666,F3_W2_N_02,teaching,22,26.858333333333334,1,F3_W2,0.35,projected canopy,N,8.9,11.0
+X,31.775000000000002,F3_W2_N_03,teaching,22,29.49166666666667,1,F3_W2,0.35,projected canopy,N,8.9,11.0
+X,35.108333333333334,F3_W3_N_01,teaching,22,32.825,1,F3_W3,0.35,projected canopy,N,8.9,11.0
+X,37.74166666666666,F3_W3_N_02,teaching,22,35.45833333333333,1,F3_W3,0.35,projected canopy,N,8.9,11.0
+X,40.375,F3_W3_N_03,teaching,22,38.09166666666667,1,F3_W3,0.35,projected canopy,N,8.9,11.0
+X,43.70833333333333,F3_W4_N_01,teaching,22,41.425,1,F3_W4,0.35,projected canopy,N,8.9,11.0
+X,46.34166666666667,F3_W4_N_02,teaching,22,44.05833333333334,1,F3_W4,0.35,projected canopy,N,8.9,11.0
+X,48.974999999999994,F3_W4_N_03,teaching,22,46.69166666666666,1,F3_W4,0.35,projected canopy,N,8.9,11.0
+X,3.4125,F3_WG_N_01,public,22,1.2125,1,F3_WG,0.35,projected canopy,N,8.45,11.25
+X,6.9375,F3_WG_N_02,public,22,4.737499999999999,1,F3_WG,0.35,projected canopy,N,8.45,11.25
+X,10.4625,F3_WG_N_03,public,22,8.262500000000001,1,F3_WG,0.35,projected canopy,N,8.45,11.25
+X,13.9875,F3_WG_N_04,public,22,11.787500000000001,1,F3_WG,0.35,projected canopy,N,8.45,11.25
+X,55.46666666666667,F3_LW_N_01,link,22,53.266666666666666,1,F3_LW,0.35,projected canopy,N,8.45,11.25
+X,59.1,F3_LW_N_02,link,22,56.9,1,F3_LW,0.35,projected canopy,N,8.45,11.25
+X,62.733333333333334,F3_LW_N_03,link,22,60.53333333333333,1,F3_LW,0.35,projected canopy,N,8.45,11.25
+X,109.70833333333333,F3_E1_N_01,teaching,22,107.425,1,F3_E1,0.35,projected canopy,N,8.9,11.0
+X,112.34166666666667,F3_E1_N_02,teaching,22,110.05833333333334,1,F3_E1,0.35,projected canopy,N,8.9,11.0
+X,114.97500000000001,F3_E1_N_03,teaching,22,112.69166666666668,1,F3_E1,0.35,projected canopy,N,8.9,11.0
+X,118.30833333333332,F3_E2_N_01,teaching,22,116.02499999999999,1,F3_E2,0.35,projected canopy,N,8.9,11.0
+X,120.94166666666666,F3_E2_N_02,teaching,22,118.65833333333333,1,F3_E2,0.35,projected canopy,N,8.9,11.0
+X,123.575,F3_E2_N_03,teaching,22,121.29166666666667,1,F3_E2,0.35,projected canopy,N,8.9,11.0
+X,126.90833333333333,F3_E3_N_01,teaching,22,124.625,1,F3_E3,0.35,projected canopy,N,8.9,11.0
+X,129.54166666666666,F3_E3_N_02,teaching,22,127.25833333333334,1,F3_E3,0.35,projected canopy,N,8.9,11.0
+X,132.17499999999998,F3_E3_N_03,teaching,22,129.89166666666668,1,F3_E3,0.35,projected canopy,N,8.9,11.0
+X,135.50833333333335,F3_E4_N_01,teaching,22,133.225,1,F3_E4,0.35,projected canopy,N,8.9,11.0
+X,138.14166666666668,F3_E4_N_02,teaching,22,135.85833333333332,1,F3_E4,0.35,projected canopy,N,8.9,11.0
+X,140.77500000000003,F3_E4_N_03,teaching,22,138.49166666666667,1,F3_E4,0.35,projected canopy,N,8.9,11.0
+X,97.46666666666665,F3_LE_N_01,link,22,95.26666666666667,1,F3_LE,0.35,projected canopy,N,8.45,11.25
+X,101.1,F3_LE_N_02,link,22,98.9,1,F3_LE,0.35,projected canopy,N,8.45,11.25
+X,104.73333333333333,F3_LE_N_03,link,22,102.53333333333335,1,F3_LE,0.35,projected canopy,N,8.45,11.25
+X,67.875,F3_CL_N_01,public,28,65.67500000000001,1,F3_CL,0.35,inside control / inward hood,N,8.45,11.25
+X,72.32499999999999,F3_CL_N_02,public,28,70.125,1,F3_CL,0.35,inside control / inward hood,N,8.45,11.25
+X,77.46666666666665,F3_CB_N_01,public,28,75.26666666666667,1,F3_CB,0.35,inside control / inward hood,N,8.45,11.25
+X,81.1,F3_CB_N_02,public,28,78.9,1,F3_CB,0.35,inside control / inward hood,N,8.45,11.25
+X,84.73333333333333,F3_CB_N_03,public,28,82.53333333333335,1,F3_CB,0.35,inside control / inward hood,N,8.45,11.25
+X,89.375,F3_CN_N_01,public,28,87.17500000000001,1,F3_CN,0.35,inside control / inward hood,N,8.45,11.25
+X,92.82499999999999,F3_CN_N_02,public,28,90.625,1,F3_CN,0.35,inside control / inward hood,N,8.45,11.25
+Y,16.400000000000002,F3_WG_W_01,public,0,14.200000000000001,-1,F3_WG,0.35,inside control / inward hood,W,8.45,11.25
+Y,20.5,F3_WG_W_02,public,0,18.299999999999997,-1,F3_WG,0.35,inside control / inward hood,W,8.45,11.25
+Y,7.65,F3_WWC_W_01,privacy,0,5.450000000000001,-1,F3_WWC,0.35,inside control / inward hood,W,9.6,10.85
+Y,12.15,END_0_F3,end,0,9.65,-1,,,,W,8.5,11.3
+Y,3.1999999999999997,F3_WL_W_01,public,18,0.9999999999999996,-1,F3_WL,0.35,projected canopy,W,8.45,11.25
+Y,7.199999999999999,F3_WO_E_01,support,52,5.0,1,F3_WO,0.35,projected canopy,E,8.9,11.0
+Y,26.0,F3_CL_W_01,public,64,23.799999999999997,-1,F3_CL,0.35,projected canopy,W,8.45,11.25
+Y,4.200000000000001,F3_CS_W_01,support,74,2.0000000000000004,-1,F3_CS,0.35,projected canopy,W,8.9,11.0
+Y,26.0,F3_CN_E_01,public,94,23.799999999999997,1,F3_CN,0.35,projected canopy,E,8.45,11.25
+Y,7.199999999999999,F3_EG_W_01,public,106,5.0,-1,F3_EG,0.35,projected canopy,W,8.45,11.25
+Y,12.15,END_150_F3,end,150,9.65,1,,,,E,8.5,11.3
+X,20.0,F3_W1_D,sliding_internal,12.6,18.4,0,F3_W1,,,INTERIOR,8,10.6
+X,28.6,F3_W2_D,sliding_internal,12.6,27.0,0,F3_W2,,,INTERIOR,8,10.6
+X,37.199999999999996,F3_W3_D,sliding_internal,12.6,35.6,0,F3_W3,,,INTERIOR,8,10.6
+X,45.8,F3_W4_D,sliding_internal,12.6,44.2,0,F3_W4,,,INTERIOR,8,10.6
+X,111.8,F3_E1_D,sliding_internal,12.6,110.2,0,F3_E1,,,INTERIOR,8,10.6
+X,120.39999999999999,F3_E2_D,sliding_internal,12.6,118.8,0,F3_E2,,,INTERIOR,8,10.6
+X,129.0,F3_E3_D,sliding_internal,12.6,127.39999999999999,0,F3_E3,,,INTERIOR,8,10.6
+X,137.60000000000002,F3_E4_D,sliding_internal,12.6,136.0,0,F3_E4,,,INTERIOR,8,10.6
+X,8.3,F3_WG_D,sliding_internal,12.9,6.9,0,F3_WG,,,INTERIOR,8,10.6
+X,58.7,F3_LW_D,sliding_internal,12.9,57.3,0,F3_LW,,,INTERIOR,8,10.6
+X,100.7,F3_LE_D,sliding_internal,12.9,99.3,0,F3_LE,,,INTERIOR,8,10.6
+X,69.7,F3_CL_D,sliding_internal,12.9,68.3,0,F3_CL,,,INTERIOR,8,10.6
+X,90.7,F3_CN_D,sliding_internal,12.9,89.3,0,F3_CN,,,INTERIOR,8,10.6
+X,26.5,F1_WL_D_REV,sliding_internal,8.9,23.5,0,F1_WL,,,INTERIOR,0,2.6

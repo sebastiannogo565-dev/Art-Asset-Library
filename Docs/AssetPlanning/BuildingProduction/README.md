@@ -1,3 +1,7 @@
+# 当前制作回件：C01参考局部修订01 · 2026-10-15
+
+[新源与受影响图稿](../../../ArtSource/Buildings/SL_BLD_C01_MAIN_01/Reference/Revision01/README.md)／[针对性回审](C01/reference-revision-01-handoff.md)。原版保留、REV_01实改，10页/7新预览及共享源。先审30席路径/业务恢复、900格/3m内门/运营条件、同日光暖木、最高与露台接口；通过后才发布完整建筑Trial卡，当前没有正式模型/UV/UE。B01保持。
+
 # 当前：C01整栋参考局部修订01待转交 · 2026-10-15
 
 原整栋外观获用户接受，三项取舍见[确认](review-C01-reference-01.md)。[原卡当前修订段](TaskCards/SL_BLD_C01_MAIN_01_REFERENCE_01.md)是唯一制作要求，不拆教室/柜体/材质任务；原版参考保留，修订入Reference/Revision01。回件审过后再发布整栋Blender试作卡，当前不预发。B01不变，本轮未执行修订生产。

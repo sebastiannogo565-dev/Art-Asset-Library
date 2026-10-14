@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-15",
+  "passed": true,
+  "issues": [],
+  "scope": "finite2D reference checks and native source correspondence, NOT gameplay/engineering acceptance",
+  "player": {
+    "rest": {
+      "routes": {
+        "route_to_approach": {
+          "sample_min": 0.5499999999999972,
+          "continuous_lower_bound": 0.5474999999999972,
+          "nearest": {
+            "point": [
+              45.0,
+              13.799999999999999
+            ],
+            "obstacle": "C30_DESK_3_1"
+          },
+          "max_sample_step": 0.005
+        },
+        "route_return_via_teaching": {
+          "sample_min": 0.5499999999999972,
+          "continuous_lower_bound": 0.5474999999999972,
+          "nearest": {
+            "point": [
+              45.0,
+              18.099999999999998
+            ],
+            "obstacle": "C30_DESK_3_4"
+          },
+          "max_sample_step": 0.005
+        }
+      },
+      "business_min_distance": [
+        0.5499999999999972,
+        "C30_DESK_3_5"
+      ],
+      "recovery_min_distance": [
+        0.8139410298049844,
+        "C30_DESK_3_4"
+      ]
+    },
+    "pulled": {
+      "routes": {
+        "route_to_approach": {
+          "sample_min": 0.5499999999999972,
+          "continuous_lower_bound": 0.5474999999999972,
+          "nearest": {
+            "point": [
+              45.0,
+              13.799999999999999
+            ],
+            "obstacle": "C30_DESK_3_1"
+          },
+          "max_sample_step": 0.005
+        },
+        "route_return_via_teaching": {
+          "sample_min": 0.5499999999999972,
+          "continuous_lower_bound": 0.5474999999999972,
+          "nearest": {
+            "point": [
+              45.0,
+              18.099999999999998
+            ],
+            "obstacle": "C30_DESK_3_4"
+          },
+          "max_sample_step": 0.005
+        }
+      },
+      "business_min_distance": [
+        0.5499999999999972,
+        "C30_DESK_2_5_chair"
+      ],
+      "recovery_min_distance": [
+        0.8139410298049844,
+        "C30_DESK_3_4"
+      ]
+    }
+  },
+  "shoe": {
+    "arrival": {
+      "sample_min": 0.6380000000000003,
+      "continuous_lower_bound": 0.6355000000000004,
+      "nearest": {
+        "point": [
+          22.3,
+          3.95
+        ],
+        "obstacle": "active_use_strip"
+      },
+      "max_sample_step": 0.005
+    },
+    "waiting": {
+      "sample_min": 0.613,
+      "continuous_lower_bound": 0.6105,
+      "nearest": {
+        "point": [
+          26.915,
+          1.375
+        ],
+        "obstacle": "CELL_MAIN_E1_0_0_0"
+      },
+      "max_sample_step": 0.005
+    },
+    "departure": {
+      "sample_min": 0.613,
+      "continuous_lower_bound": 0.6105,
+      "nearest": {
+        "point": [
+          28.0,
+          1.375
+        ],
+        "obstacle": "CELL_MAIN_E1_0_3_0"
+      },
+      "max_sample_step": 0.005
+    }
+  },
+  "operating_footprint": [
+    20.48,
+    2.622,
+    21.52,
+    3.302
+  ],
+  "nominal_shoe_cells": 900,
+  "highest_actual": 13.68,
+  "protected_inputs": 173,
+  "protected_differences": [],
+  "native": {
+    "passed": true,
+    "geometry_sha256": "ec4157c11b77f90c45e73e3da066dacf4c5a56396e92ff64e6d70564118413a3",
+    "whole_source_ids": 6642,
+    "highest_mesh_z": 13.680000305175781,
+    "no_UV_layers": true,
+    "blender": "5.2.2 LTS",
+    "parent_not_saved": true,
+    "display_only_finalize_saved_revision": true
+  },
+  "unverified": [
+    "standing-to-seated posture transition",
+    "other seats/pair gaps not all through paths",
+    "8direction actual sprite/camera",
+    "game collision/navigation/recovery/interactions",
+    "opposing cabinet operation/queue yielding",
+    "cabinet shoe fit.30/depth/slidinghardware",
+    "terrace slopes/waterproofing/outlet",
+    "structural/fire/operatingcrowds",
+    "finalUV/pixeltexture/UE"
+  ]
+}

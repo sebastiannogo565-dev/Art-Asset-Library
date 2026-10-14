@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "geometry_sha256": "ec4157c11b77f90c45e73e3da066dacf4c5a56396e92ff64e6d70564118413a3",
+  "whole_source_ids": 6642,
+  "highest_mesh_z": 13.680000305175781,
+  "no_UV_layers": true,
+  "blender": "5.2.2 LTS",
+  "parent_not_saved": true,
+  "display_only_finalize_saved_revision": true
+}

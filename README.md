@@ -1,3 +1,7 @@
+# 当前制作回件：C01局部修订01 · 2026-10-15
+
+[独立REV_01包](ArtSource/Buildings/SL_BLD_C01_MAIN_01/Reference/Revision01/README.md)／[规划回审入口](Docs/AssetPlanning/BuildingProduction/C01/reference-revision-01-handoff.md)。共享JSON/Blend和10受影响板/7新预览已实改，原版全保；30席主道后拉1.10、业务净距0.55、900格与3m内廊口、暖木入口同日光对照、13.68最高/8.03露台接口同步。入座/运营/实际游戏/UV未验，RT01待设计不开放；B01/校门/SchoolLife保持。交针对性审阅，不启动正式Trial。
+
 # 当前：C01外观已接受，参考包局部修订01要求已发布 · 2026-10-15
 
 [同一整栋任务卡](Docs/AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_REFERENCE_01.md)／[确认记录](Docs/AssetPlanning/BuildingProduction/review-C01-reference-01.md)。用户确认玻璃13.65/含框13.68m、60㎡露台完成面8.03m；RT01原588㎡控制区保留、本次不开放。一次局部修订聚焦30席通路与净区、鞋柜内廊瓶颈、同镜头入口材色及同步接口。仅发布给用户转交，未实际修图/几何/模型/UE；B01原状态不变。

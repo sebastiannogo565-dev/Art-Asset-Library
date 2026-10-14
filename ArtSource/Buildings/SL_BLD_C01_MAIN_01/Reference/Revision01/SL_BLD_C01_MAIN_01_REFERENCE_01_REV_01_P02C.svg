@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3200" height="2400" viewBox="0 0 3200 2400">
+<rect width="3200" height="2400" fill="#F4F2EB"/>
+<style>text{font-family:Microsoft YaHei,sans-serif;fill:#293F42} .small{font-size:24px}</style>
+<text x="80.00" y="95.00" font-size="48" text-anchor="start">C01 REV01 · 入口/公共接口同步</text>
+<text x="80.00" y="145.00" font-size="25" text-anchor="start">P02C / 其他公共家具与访问边界继承原版；鞋柜与露台实际受影响局部重制</text>
+<line x1="80" y1="185" x2="3120" y2="185" stroke="#9BACAB" stroke-width="2"/>
+<rect x="100" y="330" width="934.8000000000001" height="697.0" fill="#FBF9F1" stroke="#607676" stroke-width="3"/>
+<rect x="132.7999999999999" y="838.4000000000001" width="295.2000000000001" height="49.199999999999996" fill="#A98B61" stroke="#607676" stroke-width="2"/>
+<rect x="805.1999999999998" y="838.4000000000001" width="196.7999999999999" height="49.199999999999996" fill="#A98B61" stroke="#607676" stroke-width="2"/>
+<rect x="132.7999999999999" y="625.2" width="295.2000000000001" height="49.199999999999996" fill="#A98B61" stroke="#607676" stroke-width="2"/>
+<rect x="805.1999999999998" y="625.2" width="196.7999999999999" height="49.199999999999996" fill="#A98B61" stroke="#607676" stroke-width="2"/>
+<rect x="132.7999999999999" y="412.00000000000006" width="295.2000000000001" height="49.199999999999996" fill="#A98B61" stroke="#607676" stroke-width="2"/>
+<rect x="805.1999999999998" y="412.00000000000006" width="196.7999999999999" height="49.199999999999996" fill="#A98B61" stroke="#607676" stroke-width="2"/>
+<rect x="141.0" y="990.1" width="262.3999999999999" height="36.9" fill="#DBCAB1" stroke="#607676" stroke-width="2"/>
+<rect x="813.4" y="990.1" width="172.2000000000001" height="36.9" fill="#DBCAB1" stroke="#607676" stroke-width="2"/>
+<rect x="1014.2999999999998" y="895.8000000000001" width="20.5" height="57.4" fill="#DBCAB1" stroke="#607676" stroke-width="2"/>
+<rect x="526.3999999999999" y="330.0" width="123.0" height="697.0" fill="#D9EAD7" stroke="#899B8B" stroke-width="1"/>
+<rect x="649.4" y="330.0" width="123.0" height="697.0" fill="#D6E5E7" stroke="#899B8B" stroke-width="1"/>
+<rect x="132.7999999999999" y="780.0160000000001" width="295.2000000000001" height="57.39999999999998" fill="#E7C8A6" stroke="#899B8B" stroke-width="1"/>
+<line x1="649.4" y1="1051.6" x2="587.8999999999999" y2="938.85" stroke="#BA7F4E" stroke-width="4"/>
+<line x1="587.8999999999999" y1="938.85" x2="587.8999999999999" y2="727.7" stroke="#BA7F4E" stroke-width="4"/>
+<line x1="587.8999999999999" y1="727.7" x2="321.4" y2="727.7" stroke="#BA7F4E" stroke-width="4"/>
+<line x1="321.4" y1="808.7160000000001" x2="321.4" y2="727.7" stroke="#9F8B50" stroke-width="4"/>
+<line x1="321.4" y1="727.7" x2="587.8999999999999" y2="727.7" stroke="#9F8B50" stroke-width="4"/>
+<line x1="587.8999999999999" y1="727.7" x2="587.8999999999999" y2="938.85" stroke="#9F8B50" stroke-width="4"/>
+<line x1="587.8999999999999" y1="938.85" x2="895.4" y2="938.85" stroke="#9F8B50" stroke-width="4"/>
+<line x1="895.4" y1="938.85" x2="710.9" y2="938.85" stroke="#4F8E8A" stroke-width="4"/>
+<line x1="710.9" y1="938.85" x2="710.9" y2="330.0" stroke="#4F8E8A" stroke-width="4"/>
+<line x1="321.4" y1="727.7" x2="321.4" y2="808.7160000000001" stroke="#9A6951" stroke-width="4"/>
+<rect x="278.76" y="780.836" width="85.27999999999993" height="55.76000000000001" fill="none" stroke="#A16C52" stroke-width="3"/>
+<circle cx="477.1999999999998" cy="543.2" r="42.64" fill="none" stroke="#9D8470" stroke-width="2"/>
+<text x="477.20" y="543.20" font-size="18" text-anchor="middle">Q1</text>
+<circle cx="477.1999999999998" cy="403.8" r="42.64" fill="none" stroke="#9D8470" stroke-width="2"/>
+<text x="477.20" y="403.80" font-size="18" text-anchor="middle">Q2</text>
+<line x1="526.3999999999999" y1="330" x2="772.4" y2="330" stroke="#B3734F" stroke-width="7"/>
+<text x="100.00" y="305.00" font-size="27" text-anchor="start">厅→主廊：新净3.0 / 原1.4；外门仍25/0、3.0</text>
+<text x="100.00" y="1065.00" font-size="24" text-anchor="start">橙去 / 黄换鞋后等候 / 青离开；前端交叉点需让行</text>
+<text x="1250.00" y="290.00" font-size="31" text-anchor="start">60㎡露台接口 / 平面未变</text>
+<rect x="1260" y="350" width="1200" height="720" fill="#E6E8DC" stroke="#607676" stroke-width="4"/>
+<rect x="1380" y="890.0" width="360" height="60.0" fill="#AF946F" stroke="#607676" stroke-width="2"/>
+<rect x="2268.000000000001" y="470" width="71.99999999999932" height="360" fill="#AF946F" stroke="#607676" stroke-width="2"/>
+<line x1="1764.0" y1="350" x2="1956.0" y2="350" stroke="#B37D55" stroke-width="8"/>
+<text x="1260.00" y="1130.00" font-size="27" text-anchor="start">门底8.03；南/东/西有效围护1.20，从完成面起算</text>
+<line x1="2421.0" y1="914.0" x2="2421.0" y2="368.0" stroke="#698F9B" stroke-width="6"/>
+<text x="120.00" y="1430.00" font-size="29" text-anchor="start">P1去回/换鞋/等候见上图；P2/P3/P4/P5公共家具、主廊与访问控制未改，原版仅这些内容可继承。</text>
+<text x="120.00" y="1496.00" font-size="29" text-anchor="start">P6露台门仍(69,6)，底8.03 / 净高2.60，围护底8.03顶9.23；排水口/内嵌竖管只候选。</text>
+<text x="120.00" y="1562.00" font-size="29" text-anchor="start">RT01：588㎡原控制区/入口(49,14)保留，当前不开放，不继承旧虚线作为可用通道。</text>
+<text x="80.00" y="2335.00" font-size="23" text-anchor="start">C01 REFERENCE_01_REV_01 · 2026-10-15 · 单位m · 设计参考 / 共享简模预览；非最终贴图 / 非实际游戏效果</text>
+<text x="3100.00" y="2335.00" font-size="27" text-anchor="end">P02C</text>
+</svg>

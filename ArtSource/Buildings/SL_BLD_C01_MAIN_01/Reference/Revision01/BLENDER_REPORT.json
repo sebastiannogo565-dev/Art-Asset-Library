@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-15",
+  "blender": "5.2.2 LTS",
+  "geometry_sha256": "ec4157c11b77f90c45e73e3da066dacf4c5a56396e92ff64e6d70564118413a3",
+  "source_primitives": 6642,
+  "native_previews": [
+    2304,
+    1296
+  ],
+  "rendered": [
+    "ENTRY_AFTER",
+    "ENTRY_CURRENT",
+    "CLASS",
+    "CLASS_PULLED",
+    "SHOES",
+    "A",
+    "B"
+  ],
+  "highest_actual": 13.68,
+  "entry_original_before": {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Preview_ENTRY.png",
+    "sha256": "60f6f75a59d103cd28261ac4e95ce18fcca602340a0ac99f4279e68c2120ab64"
+  },
+  "entry_control_geometry_unchanged": true,
+  "entry_camera": {
+    "target": [
+      25,
+      3,
+      2
+    ],
+    "azimuth": 240,
+    "elevation": 18,
+    "ortho_scale": 22
+  },
+  "lighting": {
+    "sun_energy": 2.5,
+    "sun_angle_degrees": 5,
+    "sun_rotation_degrees": [
+      30,
+      -20,
+      -35
+    ],
+    "world_strength": 0.6,
+    "exposure": 0.0,
+    "gamma": 1.0,
+    "view_transform": "AgX",
+    "look": "None"
+  },
+  "material_render_policy": "color IDs + one-owner coplanar surface clipping, unchanged solid-union boundary/primitive positions. No emission, no shadow-ray visibility change.",
+  "coplanar_surface_ownership": {
+    "clipped_faces": 29953,
+    "input_faces": 87912,
+    "position_changes": 0
+  },
+  "formal_asset": false,
+  "UV": false,
+  "UE": false
+}

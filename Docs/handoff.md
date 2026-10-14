@@ -1,3 +1,9 @@
+# 当前交接：C01局部修订01实际回件 · 2026-10-15
+
+入口：[独立修订包](../ArtSource/Buildings/SL_BLD_C01_MAIN_01/Reference/Revision01/README.md)／[交规划针对性审阅](AssetPlanning/BuildingProduction/C01/reference-revision-01-handoff.md)。原Reference全保，JSON/Blend/CSV与10受影响板/7新预览实改。30席/两椅态、原业务净区/恢复候选、900名义格/3m内廊口、暖木材色＋共面归属同日光对照、13.65玻璃/13.68最高与8.03门底/有效围护同步。
+
+指定主线有限二维代理可核，不冒充入座/其他全席/高峰集散/实际游戏；柜深0.30、错时/滑门/鞋长、排水结构待审。RT01原588㎡只待设计不开放；B01/校门/SchoolLife与人物不改。回审通过后再发整栋Trial卡，本轮停审，Git实绩正常收尾另记，原3脚本不夹带。
+
 # 当前交接：转交C01原整栋卡的局部修订01 · 2026-10-15
 
 唯一转交入口：[SL_BLD_C01_MAIN_01_REFERENCE_01](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_REFERENCE_01.md)，最上方“局部修订01”为本次指令。用户接受外观、玻璃13.65/含框13.68m、露台60㎡/完成面8.03m；RT01原588㎡/ID/入口保留待设计、本次不开放，承托/接近不认定成立。

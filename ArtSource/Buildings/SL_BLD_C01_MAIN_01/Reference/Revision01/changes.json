@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-15",
+  "parent": "SL_BLD_C01_MAIN_01_REFERENCE_01",
+  "revision": "SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01",
+  "changes": [
+    {
+      "item": "30desks",
+      "before": "5columns×6rows regular pitch1.0, side.775, lane1.05",
+      "after": "5rows×3paired-columns, nominated pulled route min1.10",
+      "reason": "continuous specified route and business clear zone"
+    },
+    {
+      "item": "business/restoration",
+      "before": "45/19.5 near desk corner .285m",
+      "after": {
+        "business_semantic_xy": [
+          45,
+          19.5
+        ],
+        "floor_local": 4,
+        "engineering_z": 12,
+        "designated_seat_id": "C30_DESK_3_5",
+        "seat_rest": [
+          46.175,
+          19.625,
+          4.43
+        ],
+        "seat_pulled": [
+          46.425,
+          19.625,
+          4.43
+        ],
+        "standing_approach": [
+          46.425,
+          18.7,
+          4
+        ],
+        "candidate_recovery": [
+          45,
+          18.7,
+          4
+        ],
+        "business_footprint_clear_target": [
+          "capsule radius.34",
+          "visible width1.039655/2 proxy"
+        ],
+        "route_to_approach": [
+          [
+            45,
+            12.7
+          ],
+          [
+            45,
+            18.7
+          ],
+          [
+            46.425,
+            18.7
+          ]
+        ],
+        "seat_transfer": [
+          [
+            46.425,
+            18.7
+          ],
+          [
+            46.425,
+            19.625
+          ]
+        ],
+        "route_return_via_teaching": [
+          [
+            46.425,
+            18.7
+          ],
+          [
+            45,
+            18.7
+          ],
+          [
+            41.7,
+            18.7
+          ],
+          [
+            45,
+            18.7
+          ],
+          [
+            45,
+            12.7
+          ]
+        ],
+        "seat_transfer_status": "non-standing seating transition; own chair occupies endpoint; NOT a proven continuous standing path",
+        "candidate_recovery_status": "reference candidate only, no engineering/UE point or interaction radius change"
+      },
+      "reason": "business retained, furniture actually moved, recovery candidate explicit"
+    },
+    {
+      "item": "innerdoor",
+      "before": 1.4,
+      "after": 3.0,
+      "xy": [
+        25,
+        8.8
+      ],
+      "reason": "retain outer25/0 and central3m; remove internal bottleneck"
+    },
+    {
+      "item": "mainbanks",
+      "before": 0.7,
+      "after": 0.6,
+      "nominal": 900,
+      "reason": "one active face .70 plus walking1.30; fit/hardware pending"
+    },
+    {
+      "item": "terrace",
+      "before": {
+        "door_bottom": 8,
+        "guard_bottom": 8,
+        "guard_top": 9.2
+      },
+      "after": {
+        "finish": 8.03,
+        "slab_top": 8,
+        "door_bottom": 8.03,
+        "door_top": 10.63,
+        "clear_height": 2.6,
+        "threshold_delta": 0,
+        "guard_bottom": 8.03,
+        "guard_top": 9.23,
+        "effective_height": 1.2,
+        "drain_route_candidate": [
+          [
+            73.675,
+            4.7,
+            8.03
+          ],
+          [
+            73.675,
+            0.15,
+            8.03
+          ],
+          [
+            73.68,
+            0,
+            0.15
+          ]
+        ],
+        "status": "candidate linear channel to concealed rainwater riser, local falls/waterproofing/outlet network unverified. No fictitious fixed slope over30mm finish."
+      },
+      "reason": "finish8.03 effective guard1.20 and threshold zero"
+    },
+    {
+      "item": "height",
+      "before": "glass13.65 incorrectly called maximum",
+      "after": {
+        "glass": 13.65,
+        "including_frame": 13.68
+      },
+      "reason": "actual source maximum"
+    },
+    {
+      "item": "materials",
+      "before": {
+        "WOOD": "#AC875A",
+        "FRAME": "#53686B",
+        "PLINTH": "#989E98"
+      },
+      "after": {
+        "ENTRY_WOOD": "#CFA878",
+        "ENTRY_FRAME": "#99A59D",
+        "BAND_REV": "#BAC1B8"
+      },
+      "reason": "same geometry/light comparison"
+    }
+  ],
+  "view_sync": {
+    "P01": "original/old appearance only, not revised material preview",
+    "P02": "rebuilt",
+    "P02A": "rebuilt",
+    "P02B": "rebuilt",
+    "P02C": "rebuilt",
+    "P03": "rebuilt material assignment",
+    "P04": "rebuilt/no usable RT01 route",
+    "P04A": "rebuilt threshold/guard",
+    "P05": "rebuilt current A/B",
+    "P05A": "rebuilt CLASS/SHOES, unchanged COURT/LINK linked original",
+    "P05B": "rebuilt exact original ENTRY before/current color-control after, actual revised ENTRY also delivered"
+  }
+}

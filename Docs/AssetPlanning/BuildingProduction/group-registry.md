@@ -1,3 +1,7 @@
+# C01数量：独立参考REV_01 · 2026-10-15
+
+[修订包](../../../ArtSource/Buildings/SL_BLD_C01_MAIN_01/Reference/Revision01/README.md)：仍1整栋任务，新增1独立参考版本/1参考Blend、10受影响板/7新预览；不是新增正式建筑源/场景实例。WHOLE、椅后拉/剖透/材色控制副本独立并默认隐藏。原Reference/校门/B01源不改，正式Trial/UV/UE仍0。
+
 # C01数量：整栋参考01 · 2026-10-15
 
 [回件](../../../ArtSource/Buildings/SL_BLD_C01_MAIN_01/Reference/README.md)：1整栋任务/1套参考，5主板＋6子页SVG/PNG、7同源参考预览、1共享REFERENCE_ONLY.blend。WHOLE/CUT_集合是投影与剖透展示，不计正式建筑源/实例；正式模型精修/UV/贴图/UE0。原校门源和B01不变，不创建跨楼零件库；实际正式独特网格/组件数量留整栋试作统计。
