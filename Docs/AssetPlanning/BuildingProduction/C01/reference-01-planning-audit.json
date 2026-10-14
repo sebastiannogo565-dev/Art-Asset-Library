@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-15",
+  "scope": "Planning-window independent read-only reference audit; no Blender/UE execution",
+  "delivery_manifest_entries_verified": 43,
+  "protected_inputs_verified": 127,
+  "control": [
+    0,
+    0,
+    150,
+    28
+  ],
+  "segments": [
+    {
+      "id": "WEST",
+      "range": [
+        0,
+        52
+      ],
+      "name": "西教学段"
+    },
+    {
+      "id": "LINK_W",
+      "range": [
+        52,
+        64
+      ],
+      "name": "连接/鞋柜分区"
+    },
+    {
+      "id": "CORE",
+      "range": [
+        64,
+        94
+      ],
+      "name": "学习交流核心"
+    },
+    {
+      "id": "LINK_E",
+      "range": [
+        94,
+        106
+      ],
+      "name": "连接/年级停留"
+    },
+    {
+      "id": "EAST",
+      "range": [
+        106,
+        150
+      ],
+      "name": "东教学段"
+    }
+  ],
+  "entrances": [
+    {
+      "id": "C01_MAIN",
+      "local": [
+        25,
+        0
+      ],
+      "world": [
+        2215.909090909091,
+        1969.181818181818
+      ],
+      "width": 3,
+      "height": 3.2
+    },
+    {
+      "id": "C01_N",
+      "local": [
+        90,
+        28
+      ],
+      "world": [
+        2280.909090909091,
+        1997.181818181818
+      ],
+      "width": 3,
+      "height": 3
+    },
+    {
+      "id": "C01_E",
+      "local": [
+        150,
+        14
+      ],
+      "world": [
+        2340.909090909091,
+        1983.181818181818
+      ],
+      "width": 3,
+      "height": 3
+    }
+  ],
+  "court_area_m2": 108,
+  "terrace_area_m2": 60,
+  "RT01": {
+    "original_m2": 588,
+    "body_projection_m2": 462,
+    "missing_m2": 126,
+    "not_structural_or_walkable": true
+  },
+  "height": {
+    "skylight_glass_peak_m": 13.65,
+    "actual_primitive_max_m": 13.68,
+    "max_ids": [
+      "SKY_FRAME_74_0",
+      "SKY_FRAME_74_1",
+      "SKY_FRAME_77_0",
+      "SKY_FRAME_77_1",
+      "SKY_FRAME_80_0",
+      "SKY_FRAME_80_1",
+      "SKY_FRAME_83_0",
+      "SKY_FRAME_83_1",
+      "SKY_FRAME_86_0",
+      "SKY_FRAME_86_1"
+    ],
+    "frame_delta_m": 0.02999999999999936
+  },
+  "classroom": {
+    "visible_width_m": 1.039655172413793,
+    "primary_seats": 30,
+    "comparison_seats": 36,
+    "lane30_m": 1.05,
+    "lane36_m": 0.79,
+    "side30_m": 0.775,
+    "side36_m": 0.525,
+    "lane30_visual_margin_m": 0.010344827586207028,
+    "business_xy": [
+      45,
+      19.5
+    ],
+    "capsule_radius_m": 0.34,
+    "business_point_desk_corner_intersections_2d": [
+      {
+        "id": "C30_DESK_3_4",
+        "distance_m": 0.28504385627478546
+      }
+    ],
+    "note": "Business XY is semantic; circle check assumes it as capsule centre, not actual in-game collision result"
+  },
+  "shoe_nominal": 900,
+  "camera_azimuths": [
+    225,
+    45
+  ],
+  "visual_inspection": "11-page overview; key plans/sections/facades and all7 native previews inspected",
+  "not_executed": [
+    "Blender reopen",
+    "3D collision/navigation",
+    "game camera",
+    "UV/material runtime",
+    "engineering compliance"
+  ]
+}

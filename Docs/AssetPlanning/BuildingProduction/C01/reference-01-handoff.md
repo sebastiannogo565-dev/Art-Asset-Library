@@ -1,3 +1,7 @@
+# 规划窗口审阅补记 · 2026-10-15
+
+[正式审阅结论](../review-C01-reference-01.md)／[独立复核](reference-01-planning-audit.json)。有条件建议保体量/同源参考，教室通路、1.4m厅廊口、含框13.68m高度口径及入口材色需修订或补证。RT01原588㎡保留，待用户决定独立待设计还是同栋屋面/承托修订；不以露台替代。本次未发试作卡，回件原文件不变。以下保留制作方原交接。
+
 # C01整栋参考01制作回件
 
 2026-10-15。回件入口：[参考包](../../../../ArtSource/Buildings/SL_BLD_C01_MAIN_01/Reference/README.md)／[规格](../../../../ArtSource/Buildings/SL_BLD_C01_MAIN_01/Reference/SL_BLD_C01_MAIN_01_REFERENCE_01_SPEC.md)／[制作验收与待审](../../../../ArtSource/Buildings/SL_BLD_C01_MAIN_01/Reference/review.md)。这是制作回件，尚不是规划审阅结论。

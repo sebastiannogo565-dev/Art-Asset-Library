@@ -1,3 +1,7 @@
+# 当前：C01参考01规划审阅完成，停用户判断 · 2026-10-15
+
+[审阅结论](Docs/AssetPlanning/BuildingProduction/review-C01-reference-01.md)：有条件建议接受整栋体量/统一参考，教室通路、鞋柜廊口、高度口径与入口材色需局部处理；实际最高含框13.68m，玻璃13.65m。RT01独立保留，承托/接近未解决，不用60㎡露台替代。待用户判断屋面方向、RT01阶段及露台8.03面层；未发正式试作卡，B01不变。
+
 # 当前制作回件：C01整栋参考01 · 2026-10-15
 
 [整套参考](ArtSource/Buildings/SL_BLD_C01_MAIN_01/Reference/README.md)／[规划回件入口](Docs/AssetPlanning/BuildingProduction/C01/reference-01-handoff.md)。5主板＋6细部SVG/3200×2400PNG、同JSON/窗表、7个同简模日光预览与可编辑参考源已深化；保体量/三门/24班/庭露台，30席主/36对照，900名义鞋格。RT01原588㎡缺126㎡承托投影，坡面/原核等冲突待审。只参考，正式模型/最终UV纹理/UE未开始；B01原状态、SchoolLife/校门/旧Planning保持。Git实绩见handoff，交付停审。
