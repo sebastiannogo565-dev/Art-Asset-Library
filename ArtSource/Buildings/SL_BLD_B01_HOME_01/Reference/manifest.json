@@ -898,15 +898,15 @@
     },
     {
       "path": "README.md",
-      "bytes": 2448,
-      "sha256": "d949a97584116755333267056ec4fb0e0f178e7bf71b40b5edd79f4c694e80b4",
+      "bytes": 3041,
+      "sha256": "42516dad9a3408f482880db4e831532c8b89e436584e57160ea94c827bd6e8a3",
       "hash_mode": "raw bytes",
       "Git_storage": "ordinary Git"
     },
     {
       "path": "review.md",
-      "bytes": 2609,
-      "sha256": "7d8fa752b61c1751ed73275786f681041fa7b8c1b5614af48510e25a813d2133",
+      "bytes": 3310,
+      "sha256": "a86890bd6d56375104ae9b6c67370c9d473e6f15d0f03c92493b1ccfabcb3a2d",
       "hash_mode": "raw bytes",
       "Git_storage": "ordinary Git"
     },
@@ -1015,14 +1015,23 @@
   "Git": {
     "branch": "main",
     "remote": "https://github.com/sebastiannogo565-dev/Art-Asset-Library.git",
-    "status": "prepared_scoped_commit_normal_push; sync results to follow",
+    "status": "first_reference_delivery_pushed_verified; normal sync-record follow-up",
     "new_LFS_objects": 0,
     "planning_chat_before_Git": "idle / latest turn completed b71416f",
     "unrelated_untracked_preserved": [
       "setup_blender_mcp.py",
       "setup_codex_blender_mcp.py",
       "verify_blender_mcp.py"
-    ]
+    ],
+    "actual_first_delivery_commit": "6fa3c8a43c7ead63a4a0290c2e410e85b05d9ca4",
+    "actual_remote_main_after_delivery": "6fa3c8a43c7ead63a4a0290c2e410e85b05d9ca4",
+    "LFS_uploaded_objects": 0,
+    "LFS_dry_run": {
+      "output": "empty",
+      "exit_code": 0
+    },
+    "tracked_worktree_after_first_push": "clean",
+    "final_HEAD": "final report after sync-record commit; no self-reference"
   },
   "stop": "planning review -> user approves appearance/key dimensions -> one whole-house trial; do not auto-build"
 }
