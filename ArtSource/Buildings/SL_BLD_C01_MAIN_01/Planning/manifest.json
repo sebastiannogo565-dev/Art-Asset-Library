@@ -2,7 +2,33 @@
   "asset_id": "SL_BLD_C01_MAIN_01",
   "revision": "PLAN_01",
   "date": "2026-10-15",
-  "status": "whole-building proposal awaiting user review; references not automatically started",
+  "status": "PLAN_01 accepted as reference-deepening baseline; existing task card updated; production not started",
+  "planning_acceptance": {
+    "date": "2026-10-15",
+    "basis": "User accepted C01 PLAN_01 as whole-building reference-deepening baseline",
+    "segments_m": [
+      52,
+      12,
+      30,
+      12,
+      44
+    ],
+    "floors": 3,
+    "class_capacity_research": 24,
+    "original_three_entrances": "retained",
+    "atrium_m2": 108,
+    "third_floor_terrace_m2": 60,
+    "RT01": "original roof area preserved independently; not replaced or cancelled by terrace",
+    "player_class_primary_seats": 30,
+    "player_class_comparison_seats": 36,
+    "actual_NPC_increase": 0,
+    "taskcard": "Docs/AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_REFERENCE_01.md",
+    "duplicate_taskcards": 0,
+    "current_scope": "confirmation and existing card update only; no reference production, image generation, modelling or UE",
+    "B01": "original state preserved",
+    "published_planning_files": "unchanged; historical candidate status remains in original files",
+    "unverified": "precise elevations/windows/materials/furniture/lockers/stairs/RT01 compatibility and actual hiding/navigation/camera/time"
+  },
   "scope": "editable planning diagrams and subsequent whole-building reference task card only",
   "native_pages": [
     {
@@ -322,5 +348,5 @@
     "new_LFS_objects": 0,
     "final_commit": "reported after normal push; no self-referencing hash"
   },
-  "stop": "whole-building proposal review; no reference AI calls, Blender or UE; B01 original state preserved"
+  "stop": "Updated existing reference card returned for user transfer; no reference production, AI, Blender or UE; B01 preserved"
 }

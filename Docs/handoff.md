@@ -1,3 +1,9 @@
+# 当前交接：C01已接受基准，原参考卡供用户转交 · 2026-10-15
+
+唯一入口：[SL_BLD_C01_MAIN_01_REFERENCE_01](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_REFERENCE_01.md)，[确认范围](AssetPlanning/BuildingProduction/C01/review.md)。沿用原卡，不另建任务。转交目标是“整栋多视图参考深化”，不是正式建模/UE：30席玩家班主样板＋同室36席对照；六重点、5页同套参考合同与验收已写入。
+
+52—12—30—12—44m、三层、24班研究、三门、108㎡庭与60㎡露台接受为基准。RT01原区独立保留，兼容冲突须报差异，不能以露台替代或取消。原Planning图/JSON保留历史，接受元数据另记manifest；未重画30席或开始参考。下一步由用户转交，参考完成再回规划审阅；本轮停止，不自动发送其他聊天。B01原状态/来源不变，SchoolLife只读。Git最终哈希、远端/LFS/工作区以报告为准。
+
 # 当前交接：C01整栋方案停审 · 2026-10-15
 
 入口：[C01包](AssetPlanning/BuildingProduction/C01/README.md)／[review](AssetPlanning/BuildingProduction/C01/review.md)／[整栋多视图参考卡](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_REFERENCE_01.md)。先由用户审阅52/12/30/12/44体量、24班容量与108㎡采光庭/60㎡露台；通过后才转交后续统一参考，不自动生图或建模。

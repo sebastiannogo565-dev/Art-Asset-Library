@@ -1,3 +1,7 @@
+# 当前：C01 PLAN_01已接受，整栋参考卡已更新 · 2026-10-15
+
+[确认记录](Docs/AssetPlanning/BuildingProduction/C01/review.md)／[供转交的同一整栋多视图卡](Docs/AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_REFERENCE_01.md)。保52—12—30—12—44m、三层/24班研究/原三入口、108㎡庭及60㎡露台；RT01不替代。玩家班30席主样板、36席对照。六项深化与交付/验收要求已写入；本次未制作参考、生图、模型或UE，B01原状态保持。以下为历史项目记录。
+
 # 当前：C01主教学楼整栋方案规划 · 2026-10-15
 
 [C01完整规划包](Docs/AssetPlanning/BuildingProduction/C01/README.md)／[后续整栋多视图任务卡](Docs/AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_REFERENCE_01.md)。150×28/三层控制与三入口保持，推荐52/12/30/12/44退进体量、24班候选；8页SVG/3200×2400PNG＋同JSON/面积/路径/差异已交候选审阅。正式美术生成/模型/UE均0，B01保持原待确认状态，无取消或自动开工。

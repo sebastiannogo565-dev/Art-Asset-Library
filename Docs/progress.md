@@ -1,3 +1,9 @@
+# C01基准确认及原参考卡更新完成 · 2026-10-15
+
+已完成：[确认记录](AssetPlanning/BuildingProduction/C01/review.md)、[原卡更新](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_REFERENCE_01.md)、当前索引/交接/决策及manifest接受元数据。分段、三层、24班研究、原三入口、108㎡庭/60㎡露台已接受；RT01独立保留。六项深化覆盖偏西主门、统一立面屋顶、公共家具、30/36席/鞋柜/典型梯、同套视图、庭露台RT01与后续验证接口。
+
+进行中：无制作运行，任务卡供用户转交。未完成：下一阶段统一参考及家具实排、RT01兼容；实际工程、导航、楼层隐藏、镜头与耗时均未验证。本轮必需文档无阻塞。原21份规划交付、29项保护输入（含B01/人物/SchoolLife/V13）按SHA复核；没有新图、模型、UV、UE或新LFS资产。B01原待确认保持，原3无关脚本不提交。Git实绩见收尾报告。
+
 # C01整栋PLAN_01本轮完成 · 2026-10-15
 
 已完成：[8页SVG/3200×2400PNG与统一JSON、说明/面积/制作深度/三路/差异](AssetPlanning/BuildingProduction/C01/README.md)，以及[整栋参考卡](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_REFERENCE_01.md)。73房间/公共套间、24班候选、三入口保持；面积与门/净界无重叠、室内路径采样核对通过，29只读来源含B01包/卡/审阅SHA一致。所有页已实际查看并修正图面问题。
