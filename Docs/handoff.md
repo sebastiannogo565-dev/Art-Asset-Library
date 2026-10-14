@@ -1,3 +1,9 @@
+# 当前交接：完整建筑组织与下一件推荐 · 2026-10-14
+
+入口：[建筑级生产目录](AssetPlanning/BuildingProduction/README.md)，当前推荐[SL_BLD_B01_HOME_01](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_B01_HOME_01.md)。用户选择并转交后先核用途、尺寸、入口，准备同一平面对应的四立面/屋顶/两向/室内剖面及原人物尺度参考；随后建模聊天一次交整组模型/UV/临时纹理/整体预览。可进入建筑明确ROOF/EXTERIOR/INTERIOR_F01/F02分离，内部拆件不逐件批准。
+
+校门SL_GRP_SCHOOL_GATE_01复用原两几何源，字面组内处理，旧独立字面卡不再启用；名字仍未定，不阻塞B01。B01正式足迹18×18/2层与Home8×8开顶样板分别记录，总高/层高/楼梯等未定不猜。当前推荐未开始，无批量图片/模型/返工/UE。本轮正常Git与远端实绩见最终报告。
+
 # 当前交接：校牌接受与字面设计入口 · 2026-10-14
 
 [SL_GE_GRAPHIC_NAME_01_DESIGN_01](AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_GRAPHIC_NAME_01_DESIGN_01.md)供用户转交。先获得准确校名和语言，再在20×76cm区内设计一组独立图形候选，24×84载体及中心140保持；未知校名不自动用SchoolLife/澄坂市或烘占位字。字体来源/许可与实际可读性条件须记录，64px/m不自动用于字。

@@ -1,3 +1,7 @@
+# 当前组织已改为建筑组 · 2026-10-14
+
+按用户最新分工，[SL_GRP_SCHOOL_GATE_01校门组](../../BuildingProduction/group-registry.md)复用现门柱1源/2实例、校牌1源套/1实例；字面属于组内图形工作。旧单体卡保留历史，不再为门窗/檐管/字面逐项发卡。后续以[建筑级顺序](../../BuildingProduction/production-order.md)为准，本轮不组装返工现资产，原源/尺寸保持。
+
 # 当前：校牌已接受，字面卡已备 · 2026-10-14
 
 [接受记录](review-sign-plate-trial-01.md)／[SL_GE_GRAPHIC_NAME_01_DESIGN_01](TaskCards/SL_GE_GRAPHIC_NAME_01_DESIGN_01.md)。校牌静态美术通过用户审阅，原源/纹理/预览不改；真实止退/有限工具/锚固仍未验。下一卡为1独立图形组/新模型0，先确认正式校名与语言，再设计20×76cm字面；本窗口只发布，用户转交后执行。

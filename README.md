@@ -1,3 +1,7 @@
+# 当前生产组织：完整建筑/可独立使用建筑组 · 2026-10-14
+
+[建筑级规范与顺序](Docs/AssetPlanning/BuildingProduction/README.md)／[下一件推荐：B01玩家家完整住宅组](Docs/AssetPlanning/BuildingProduction/TaskCards/SL_BLD_B01_HOME_01.md)。先用途/尺寸/入口与同套多视图，再由建模聊天完成整组模型/UV/临时纹理/整体预览；内部门窗、檐管自行拆分，不逐件卡。门柱与校牌保留复用归校门组，校名字面改为组内图形；旧独立字面卡停止作为生产队列。当前只改任务组织，无图像生成、模型返工或工程修改。
+
 # 当前：校牌Trial01已接受 · 2026-10-14
 
 [校名字面下一阶段设计卡](Docs/AssetPlanning/SchoolGate/Batch01/TaskCards/SL_GE_GRAPHIC_NAME_01_DESIGN_01.md)已发布供用户转交。空白载体静态尺寸/安装/临时材色已接受，挂接/侧滑保为美术候选，工程与UE未验。准确校名/语言待用户提供，本窗口未开始字面或模型制作。
