@@ -1,3 +1,11 @@
+# 当前交接：C01整栋方案停审 · 2026-10-15
+
+入口：[C01包](AssetPlanning/BuildingProduction/C01/README.md)／[review](AssetPlanning/BuildingProduction/C01/review.md)／[整栋多视图参考卡](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_REFERENCE_01.md)。先由用户审阅52/12/30/12/44体量、24班容量与108㎡采光庭/60㎡露台；通过后才转交后续统一参考，不自动生图或建模。
+
+本轮保150×28/三层/门25、北90、东y14；主廊候选中心y10.9、玩家业务XY45/19.5在二层工程+12m，旧灰盒+8m实测耗时不能直接套用。体育馆门与FIELD分开，保北侧训练通路。精确窗表、鞋柜容量、RT01、实际有限人物/楼梯/导航等按review待核。ROOF/EXTERIOR/楼板/各层室内/梯核与遮挡墙顶面分组，不逐零件卡。
+
+B01仍原待确认，原包/卡/审阅未改；SchoolLife/人物/V13只读。Git实际最终哈希/远端/LFS/工作区见本轮报告，原3脚本保留。
+
 # 当前交接：B01参考01审阅结果 · 2026-10-14
 
 入口：[规划审阅](AssetPlanning/BuildingProduction/review-B01-reference-01.md)。推荐9×10两层（占90/毛180/净143.192，含梯150.805m²）；需用户确认324→90m²足迹及约4.5m中心迁移，原入口/Home/道路不变。1.6框洞/1.2活动净口、FL0/3与8.242脊候选待确认。

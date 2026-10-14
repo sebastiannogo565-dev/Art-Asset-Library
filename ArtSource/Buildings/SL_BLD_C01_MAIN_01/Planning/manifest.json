@@ -1,0 +1,326 @@
+{
+  "asset_id": "SL_BLD_C01_MAIN_01",
+  "revision": "PLAN_01",
+  "date": "2026-10-15",
+  "status": "whole-building proposal awaiting user review; references not automatically started",
+  "scope": "editable planning diagrams and subsequent whole-building reference task card only",
+  "native_pages": [
+    {
+      "page": 1,
+      "width": 3200,
+      "height": 2400
+    },
+    {
+      "page": 2,
+      "width": 3200,
+      "height": 2400
+    },
+    {
+      "page": 3,
+      "width": 3200,
+      "height": 2400
+    },
+    {
+      "page": 4,
+      "width": 3200,
+      "height": 2400
+    },
+    {
+      "page": 5,
+      "width": 3200,
+      "height": 2400
+    },
+    {
+      "page": 6,
+      "width": 3200,
+      "height": 2400
+    },
+    {
+      "page": 7,
+      "width": 3200,
+      "height": 2400
+    },
+    {
+      "page": 8,
+      "width": 3200,
+      "height": 2400
+    }
+  ],
+  "source_data": "SL_BLD_C01_MAIN_01_PLAN_01.json",
+  "reference_task": "Docs/AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_REFERENCE_01.md",
+  "protected_inputs": [
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\MapDesign\\V13\\SL_WORLD_V13_LAYOUT_01.json",
+      "sha256": "20149b825e420c885ce80468da052067caddc46e9663128471538be047518e72"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\MapDesign\\V13\\SL_WORLD_V13_PLAN_01.svg",
+      "sha256": "eb7af2e9b15c08a4b8d4d6642a0cbb757b687229329719cb78f571fc792e32a1"
+    },
+    {
+      "path": "D:\\Art Asset Library\\Docs\\MapDesign\\V13\\building-use-phase-index.md",
+      "sha256": "6adc035dc3f126c800453d4f264c3ee870626cd8d07e62f4e1314e19c863b324"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Docs\\LifeCoreBlockout-Phase4A-Step1-Plan.md",
+      "sha256": "9105635f3d7ddc9a1e11a6c9eb9e34ed9857a2a82842601c23e765670202b823"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Docs\\Validation\\LifeCoreBlockout\\Step4\\Observations.md",
+      "sha256": "9a0af95a632ee044acc9603f5ee8509f1b5fe5b5e0149ae22c0fbf12ea85495d"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Docs\\Validation\\LifeCoreBlockout\\Step2\\ActorRecipe.json",
+      "sha256": "68225f5fd79bb471495b176ed50b7be518ffde19af9b442bf92158bf9b77f146"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\ArtSource\\Characters\\StudentChibi\\FrontIdle\\StudentChibi_Front_Idle.png",
+      "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\AI_REFERENCE_REQUEST.md",
+      "sha256": "db16255942d4d87cb9a2d3a11f3a88b40b59c1aa532d2859223c059c85123a83"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\build_reference.py",
+      "sha256": "95bf0e2e4a388693525dfc63c17b046a64caf40f988df36d7c7c9bc9cc5ea385"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\check_reference.py",
+      "sha256": "91225e31bdd889874c8cfafdb1ac93b780e0fb19453e646ec6899d1b151864ff"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\manifest.json",
+      "sha256": "5623743cedfbca1d3ea4669a6c88b5c7fb8c1b2a9c4863bb59c5ae88b9857888"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\rasterize_reference.cjs",
+      "sha256": "bf6e5b3a724287b87f2587c847711f4037e9c5ec21f96a210c3dea0060b24b03"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\README.md",
+      "sha256": "42516dad9a3408f482880db4e831532c8b89e436584e57160ea94c827bd6e8a3"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\review.md",
+      "sha256": "a86890bd6d56375104ae9b6c67370c9d473e6f15d0f03c92493b1ccfabcb3a2d"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_CHECKS.json",
+      "sha256": "31c252795d458b5749c32b91eee76433cc1419bb07ddee586264e5e6fb5a0532"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_GEOMETRY.json",
+      "sha256": "3429f163ad333b38dd8a1c6e8f2aa9148744bd41395a89af71871bb8fc344484"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_P01.png",
+      "sha256": "fb6127c2dd50547ea7ea4df88de21bf1146c57cbd729c8e8a6437a71af4c3bcb"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_P01.svg",
+      "sha256": "b0acd706470298a769aa81f1ba27435a196b1bd95453cfc01ff49223628b83e2"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_P02.png",
+      "sha256": "b434dac3851b6ef941bae37283591c7af791bde10e0e4f8389dcf44ae67d6d11"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_P02.svg",
+      "sha256": "c001329b8c57623ebbc839437259c19004645da5e0c7d0b560b89dc122e8b53d"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_P03.png",
+      "sha256": "fbe53dde25d4090a9bbe635676d4b0963d5e35fce91fb0a93e7437f9e842a5f1"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_P03.svg",
+      "sha256": "e70e05fe91186e485a3689cbbda2f29d0c68bb33348b57557ec88ac498688e06"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_P04.png",
+      "sha256": "53b14f4acbfc78fe77fb8cb9e08335a65ef6fca9ba920730ac09275fd5eb8a0a"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_P04.svg",
+      "sha256": "b9c689edd44d5ed71266990898e777d6a10a3e81bc5ddacd0cb1cd2a9cbcdf2f"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_P05.png",
+      "sha256": "ccf56d1f22d086d13ac4f5b9ce5c51d274bafc84c292240cc1690cd6016ea67b"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_P05.svg",
+      "sha256": "5fdefb3eda891f4c34bf14f3259d0e7c8d02eeecdf725856b41e85e6dcf3b2ff"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_SPEC.md",
+      "sha256": "7cf7c081d4af0ce092b6a86ac8cc410e1cf2dfcdeb13c0761032d59feff38cb5"
+    },
+    {
+      "path": "D:\\Art Asset Library\\Docs\\AssetPlanning\\BuildingProduction\\TaskCards\\SL_BLD_B01_HOME_01.md",
+      "sha256": "9b9785a398f383f39cb47721809409fa8b97cd46b8b8afe7a914808e4f156523"
+    },
+    {
+      "path": "D:\\Art Asset Library\\Docs\\AssetPlanning\\BuildingProduction\\review-B01-reference-01.md",
+      "sha256": "8b5a5f5008963ee22936bf695aebe7f8a54d531473480ff261697403109d7fd3"
+    }
+  ],
+  "checks": "SL_BLD_C01_MAIN_01_CHECKS.json",
+  "production_counts": {
+    "planning_sheets": 8,
+    "formal_AI_art": 0,
+    "models": 0,
+    "UV": 0,
+    "UE": 0,
+    "B01_changes": 0
+  },
+  "renderer": "Bundled Node.js sharp: direct SVG rasterization3200x2400, opaque RGB; no interpolation enlargement",
+  "source_geometry_status": "new setback mass is candidate within original150x28 control; V13 unmodified",
+  "unverified": [
+    "exact window schedules and shading detail",
+    "shoe bank900 capacity/queues",
+    "roof RT01 compatibility",
+    "actual stairs/railings/finite character collision/3D occlusion",
+    "physical structure/fire/evacuation/engineering",
+    "new same-endpoint game times and NPC navigation",
+    "background room props/UV/material density",
+    "UE or formal model"
+  ],
+  "delivered_files_excluding_manifest_self": [
+    {
+      "path": "build_planning.py",
+      "bytes": 31426,
+      "sha256": "beb096c994c0b87f9ac428f6ea5b3e01563c4df7d291a0631d7cb206918488c8",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "check_planning.py",
+      "bytes": 4510,
+      "sha256": "52d7df41fc46473e6d282a1e4888c0282c5c257a24f354f8e5fbe5ec78df4bfa",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1216,
+      "sha256": "d784911e7c282e10ec3997a21717a7fd5ae6b565b941f992e4fafa679f7d2cc9",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "SL_BLD_C01_MAIN_01_CHECKS.json",
+      "bytes": 1544,
+      "sha256": "cf0cc2f99bab06421833a3d72c3c9095a387cd44f82ce945b39d01a819df066b",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "SL_BLD_C01_MAIN_01_PLAN_01.json",
+      "bytes": 56993,
+      "sha256": "02db0193ea41928e573248eeb64988e72147d3c73319415ae09c50733a0c491a",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "SL_BLD_C01_MAIN_01_PLAN_01_P01.png",
+      "bytes": 394173,
+      "sha256": "531e6aa4d05fdf188c40c90be07a26a992666c259545f0729330bca8ba06f65c",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "SL_BLD_C01_MAIN_01_PLAN_01_P01.svg",
+      "bytes": 9844,
+      "sha256": "3ccd21f1c4d864ea80fcd79ec0644161aaae29ba8096e5027e2be622868729e5",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "SL_BLD_C01_MAIN_01_PLAN_01_P02.png",
+      "bytes": 408404,
+      "sha256": "4ff583b61c3bb5f9389dab480d265f030a25a4bc957b4d4674e487b6ec912a76",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "SL_BLD_C01_MAIN_01_PLAN_01_P02.svg",
+      "bytes": 20416,
+      "sha256": "4211683258de6c431472b9bc5e0a5e606070ef2ad8ef120fe541154950f16dee",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "SL_BLD_C01_MAIN_01_PLAN_01_P03.png",
+      "bytes": 409609,
+      "sha256": "ffdb634d6f709045686b055fbaa51cf1e45890cf8e7041e5c0e38cf41628b878",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "SL_BLD_C01_MAIN_01_PLAN_01_P03.svg",
+      "bytes": 19766,
+      "sha256": "7da8887281262bf055561fd442e043734196238c15e239d277a97b073510539e",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "SL_BLD_C01_MAIN_01_PLAN_01_P04.png",
+      "bytes": 408424,
+      "sha256": "b7fab4c9c54d40c7171a600e20f7b2e490011d806840cab0e51c2eda56d0901d",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "SL_BLD_C01_MAIN_01_PLAN_01_P04.svg",
+      "bytes": 19838,
+      "sha256": "3426bfa4be5e0b3e08e014df855e74fa98335d75d028c051d554ac99533d9171",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "SL_BLD_C01_MAIN_01_PLAN_01_P05.png",
+      "bytes": 291062,
+      "sha256": "bae76edef8275393e1510cc68a8ebef31c558ac8ee9fcfd18dcc4acecc2a38e2",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "SL_BLD_C01_MAIN_01_PLAN_01_P05.svg",
+      "bytes": 12889,
+      "sha256": "efce3293b5c8a956b6533914092d48bd5458478a3cac7a88fb9821c9da7ac6de",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "SL_BLD_C01_MAIN_01_PLAN_01_P06.png",
+      "bytes": 379675,
+      "sha256": "9f7e208832489ea6940c3f5d6690ddbac22e39f9a38a72f2f06de5ecf5d4a3f2",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "SL_BLD_C01_MAIN_01_PLAN_01_P06.svg",
+      "bytes": 6824,
+      "sha256": "d2ffdbe8870045de06f53de0bb10ad1c3f926232174a82285a8caddc9038bb64",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "SL_BLD_C01_MAIN_01_PLAN_01_P07.png",
+      "bytes": 405704,
+      "sha256": "acd8ec63c342b7f3a4b338618743059942ca3df5165356c18c2e9cf470bfaad6",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "SL_BLD_C01_MAIN_01_PLAN_01_P07.svg",
+      "bytes": 19341,
+      "sha256": "8f0d17c9280be9ce63c4b46c06079b13003fb95f5f92c1296278f0d734ea7302",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "SL_BLD_C01_MAIN_01_PLAN_01_P08.png",
+      "bytes": 349618,
+      "sha256": "269d5715af19be9c9271d97336e3032c9cd3ef4074a0ccce6f6e9d0772b57db5",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "SL_BLD_C01_MAIN_01_PLAN_01_P08.svg",
+      "bytes": 39476,
+      "sha256": "190f18e61db9f1897d947d45f673a73eeb7118fa6f18cc481b3e81c3c6fa80d6",
+      "storage": "ordinary Git"
+    }
+  ],
+  "Git": {
+    "starting_commit": "619b8bc92912c8e679666fc8d8b4e2e3f4018dce",
+    "branch": "main",
+    "remote": "https://github.com/sebastiannogo565-dev/Art-Asset-Library.git",
+    "new_LFS_objects": 0,
+    "final_commit": "reported after normal push; no self-referencing hash"
+  },
+  "stop": "whole-building proposal review; no reference AI calls, Blender or UE; B01 original state preserved"
+}

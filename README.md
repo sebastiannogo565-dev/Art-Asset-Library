@@ -1,3 +1,7 @@
+# 当前：C01主教学楼整栋方案规划 · 2026-10-15
+
+[C01完整规划包](Docs/AssetPlanning/BuildingProduction/C01/README.md)／[后续整栋多视图任务卡](Docs/AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_REFERENCE_01.md)。150×28/三层控制与三入口保持，推荐52/12/30/12/44退进体量、24班候选；8页SVG/3200×2400PNG＋同JSON/面积/路径/差异已交候选审阅。正式美术生成/模型/UE均0，B01保持原待确认状态，无取消或自动开工。
+
 # 当前：B01整栋参考01规划审阅 · 2026-10-14
 
 [审阅结论](Docs/AssetPlanning/BuildingProduction/review-B01-reference-01.md)：有条件建议采用9×10m两层住宅，保持原入口/Home；缩足迹/中心、主门及高度仍待用户确认。内门/窄过道/梯跑需原人物同镜头核，首层顶面须与梯洞同位开口。不改正式地图/参考源、不启动建模或下一栋。

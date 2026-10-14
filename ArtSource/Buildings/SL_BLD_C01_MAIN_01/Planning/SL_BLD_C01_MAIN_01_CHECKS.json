@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-15",
+  "scope": "2D/serialized planning only, not engineering navigation rendering or capacity operation",
+  "passed": true,
+  "issues": [],
+  "protected_input_count": 29,
+  "protected_differences": [],
+  "rooms": 73,
+  "classrooms": 24,
+  "entrances_preserved": true,
+  "room_rectangles_nonoverlapping": true,
+  "sampled_public_paths_checked": true,
+  "native_images": [
+    {
+      "page": 1,
+      "width": 3200,
+      "height": 2400
+    },
+    {
+      "page": 2,
+      "width": 3200,
+      "height": 2400
+    },
+    {
+      "page": 3,
+      "width": 3200,
+      "height": 2400
+    },
+    {
+      "page": 4,
+      "width": 3200,
+      "height": 2400
+    },
+    {
+      "page": 5,
+      "width": 3200,
+      "height": 2400
+    },
+    {
+      "page": 6,
+      "width": 3200,
+      "height": 2400
+    },
+    {
+      "page": 7,
+      "width": 3200,
+      "height": 2400
+    },
+    {
+      "page": 8,
+      "width": 3200,
+      "height": 2400
+    }
+  ],
+  "allocatable_area_sum": 8599.619999999999,
+  "unverified": [
+    "exact window schedules and shading detail",
+    "shoe bank900 capacity/queues",
+    "roof RT01 compatibility",
+    "actual stairs/railings/finite character collision/3D occlusion",
+    "physical structure/fire/evacuation/engineering",
+    "new same-endpoint game times and NPC navigation",
+    "background room props/UV/material density",
+    "UE or formal model"
+  ],
+  "formal_art_images": 0,
+  "model_count": 0,
+  "B01_changes": 0
+}
