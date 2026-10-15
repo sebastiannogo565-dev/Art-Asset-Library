@@ -1,3 +1,9 @@
+# C01整栋Blender试作01实际回件 · 2026-10-15
+
+[试作包](../ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/README.md) / [三类验收](../ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/review.md)。已按用户转交整栋卡重建真实网格、实际UV/临时纹理、自然光、FBX并真实回导；2224建筑对象、786网格源，原参考不改名。指定主路/业务净区通过静态核；完整入座/并排坐姿、鞋柜双面/交叉/队列未通过。主柜0.60→0.66m仅组内候选，900名义格保持。
+
+原Reference/Revision01/Planning、SchoolLife/B01/人物/校门只读，219输入指纹核过；RT01588㎡不开放。停止供规划与用户审阅，无正式精修/UE/下一栋。实际Git/LFS结果正常同步收尾另记，原3无关脚本保留。
+
 # C01参考局部修订01针对性审阅完成 · 2026-10-15
 
 已完成：[审阅](AssetPlanning/BuildingProduction/review-C01-reference-revision-01.md)、[精确二维审计](AssetPlanning/BuildingProduction/C01/reference-revision-01-planning-audit.json)、[整栋Blender试作卡](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_TRIAL_01.md)。看10页总览/关键板及修订预览，42修订manifest项与173保护SHA保持；独立精确线段复核两态指定主线中心净距0.55m、业务0.55/恢复0.81394m、内廊口3m/名义900/最高13.68及露台门底8.03/围护1.2。入口暖木/层边明暗改进，判参考修订通过。

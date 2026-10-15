@@ -1,0 +1,265 @@
+[
+  {
+    "material": "WALL",
+    "files": [
+      "WALL_BC.png",
+      "WALL_R.png",
+      "WALL_M.png"
+    ],
+    "size": [
+      256,
+      256
+    ],
+    "tile_m": 4,
+    "base_density_px_m": 64,
+    "uv": "per-face metric planar; intentional repeat overlap",
+    "mask": "glass membership; no baked shadow",
+    "comparison32": {
+      "files": [
+        "WALL_32_BC.png",
+        "WALL_32_R.png"
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "tile_m": 4,
+      "px_m": 32,
+      "method": "direct drawing on32 grid; same physical motif and UV"
+    }
+  },
+  {
+    "material": "FRAME",
+    "files": [
+      "FRAME_BC.png",
+      "FRAME_R.png",
+      "FRAME_M.png"
+    ],
+    "size": [
+      256,
+      256
+    ],
+    "tile_m": 4,
+    "base_density_px_m": 64,
+    "uv": "per-face metric planar; intentional repeat overlap",
+    "mask": "glass membership; no baked shadow"
+  },
+  {
+    "material": "GLASS",
+    "files": [
+      "GLASS_BC.png",
+      "GLASS_R.png",
+      "GLASS_M.png"
+    ],
+    "size": [
+      256,
+      256
+    ],
+    "tile_m": 4,
+    "base_density_px_m": 64,
+    "uv": "per-face metric planar; intentional repeat overlap",
+    "mask": "glass membership; no baked shadow"
+  },
+  {
+    "material": "ROOF",
+    "files": [
+      "ROOF_BC.png",
+      "ROOF_R.png",
+      "ROOF_M.png"
+    ],
+    "size": [
+      256,
+      256
+    ],
+    "tile_m": 4,
+    "base_density_px_m": 64,
+    "uv": "per-face metric planar; intentional repeat overlap",
+    "mask": "glass membership; no baked shadow"
+  },
+  {
+    "material": "WOOD",
+    "files": [
+      "WOOD_BC.png",
+      "WOOD_R.png",
+      "WOOD_M.png"
+    ],
+    "size": [
+      256,
+      256
+    ],
+    "tile_m": 4,
+    "base_density_px_m": 64,
+    "uv": "per-face metric planar; intentional repeat overlap",
+    "mask": "glass membership; no baked shadow"
+  },
+  {
+    "material": "FLOOR",
+    "files": [
+      "FLOOR_BC.png",
+      "FLOOR_R.png",
+      "FLOOR_M.png"
+    ],
+    "size": [
+      256,
+      256
+    ],
+    "tile_m": 4,
+    "base_density_px_m": 64,
+    "uv": "per-face metric planar; intentional repeat overlap",
+    "mask": "glass membership; no baked shadow",
+    "comparison32": {
+      "files": [
+        "FLOOR_32_BC.png",
+        "FLOOR_32_R.png"
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "tile_m": 4,
+      "px_m": 32,
+      "method": "direct drawing on32 grid; same physical motif and UV"
+    }
+  },
+  {
+    "material": "METAL",
+    "files": [
+      "METAL_BC.png",
+      "METAL_R.png",
+      "METAL_M.png"
+    ],
+    "size": [
+      256,
+      256
+    ],
+    "tile_m": 4,
+    "base_density_px_m": 64,
+    "uv": "per-face metric planar; intentional repeat overlap",
+    "mask": "glass membership; no baked shadow"
+  },
+  {
+    "material": "BOARD",
+    "files": [
+      "BOARD_BC.png",
+      "BOARD_R.png",
+      "BOARD_M.png"
+    ],
+    "size": [
+      256,
+      256
+    ],
+    "tile_m": 4,
+    "base_density_px_m": 64,
+    "uv": "per-face metric planar; intentional repeat overlap",
+    "mask": "glass membership; no baked shadow"
+  },
+  {
+    "material": "CHAIR",
+    "files": [
+      "CHAIR_BC.png",
+      "CHAIR_R.png",
+      "CHAIR_M.png"
+    ],
+    "size": [
+      256,
+      256
+    ],
+    "tile_m": 4,
+    "base_density_px_m": 64,
+    "uv": "per-face metric planar; intentional repeat overlap",
+    "mask": "glass membership; no baked shadow"
+  },
+  {
+    "material": "RAIL",
+    "files": [
+      "RAIL_BC.png",
+      "RAIL_R.png",
+      "RAIL_M.png"
+    ],
+    "size": [
+      256,
+      256
+    ],
+    "tile_m": 4,
+    "base_density_px_m": 64,
+    "uv": "per-face metric planar; intentional repeat overlap",
+    "mask": "glass membership; no baked shadow"
+  },
+  {
+    "material": "SKYLIGHT",
+    "files": [
+      "SKYLIGHT_BC.png",
+      "SKYLIGHT_R.png",
+      "SKYLIGHT_M.png"
+    ],
+    "size": [
+      256,
+      256
+    ],
+    "tile_m": 4,
+    "base_density_px_m": 64,
+    "uv": "per-face metric planar; intentional repeat overlap",
+    "mask": "glass membership; no baked shadow"
+  },
+  {
+    "material": "ENTRY_WOOD",
+    "files": [
+      "ENTRY_WOOD_BC.png",
+      "ENTRY_WOOD_R.png",
+      "ENTRY_WOOD_M.png"
+    ],
+    "size": [
+      256,
+      256
+    ],
+    "tile_m": 4,
+    "base_density_px_m": 64,
+    "uv": "per-face metric planar; intentional repeat overlap",
+    "mask": "glass membership; no baked shadow",
+    "comparison32": {
+      "files": [
+        "ENTRY_WOOD_32_BC.png",
+        "ENTRY_WOOD_32_R.png"
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "tile_m": 4,
+      "px_m": 32,
+      "method": "direct drawing on32 grid; same physical motif and UV"
+    }
+  },
+  {
+    "material": "ENTRY_FRAME",
+    "files": [
+      "ENTRY_FRAME_BC.png",
+      "ENTRY_FRAME_R.png",
+      "ENTRY_FRAME_M.png"
+    ],
+    "size": [
+      256,
+      256
+    ],
+    "tile_m": 4,
+    "base_density_px_m": 64,
+    "uv": "per-face metric planar; intentional repeat overlap",
+    "mask": "glass membership; no baked shadow"
+  },
+  {
+    "material": "BAND_REV",
+    "files": [
+      "BAND_REV_BC.png",
+      "BAND_REV_R.png",
+      "BAND_REV_M.png"
+    ],
+    "size": [
+      256,
+      256
+    ],
+    "tile_m": 4,
+    "base_density_px_m": 64,
+    "uv": "per-face metric planar; intentional repeat overlap",
+    "mask": "glass membership; no baked shadow"
+  }
+]

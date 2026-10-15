@@ -1,0 +1,878 @@
+[
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\AI_REFERENCE_REQUEST.md",
+    "sha256": "db16255942d4d87cb9a2d3a11f3a88b40b59c1aa532d2859223c059c85123a83"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\build_reference.py",
+    "sha256": "95bf0e2e4a388693525dfc63c17b046a64caf40f988df36d7c7c9bc9cc5ea385"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\check_reference.py",
+    "sha256": "91225e31bdd889874c8cfafdb1ac93b780e0fb19453e646ec6899d1b151864ff"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\manifest.json",
+    "sha256": "5623743cedfbca1d3ea4669a6c88b5c7fb8c1b2a9c4863bb59c5ae88b9857888"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\rasterize_reference.cjs",
+    "sha256": "bf6e5b3a724287b87f2587c847711f4037e9c5ec21f96a210c3dea0060b24b03"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\README.md",
+    "sha256": "42516dad9a3408f482880db4e831532c8b89e436584e57160ea94c827bd6e8a3"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\review.md",
+    "sha256": "a86890bd6d56375104ae9b6c67370c9d473e6f15d0f03c92493b1ccfabcb3a2d"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_CHECKS.json",
+    "sha256": "31c252795d458b5749c32b91eee76433cc1419bb07ddee586264e5e6fb5a0532"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_GEOMETRY.json",
+    "sha256": "3429f163ad333b38dd8a1c6e8f2aa9148744bd41395a89af71871bb8fc344484"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_P01.png",
+    "sha256": "fb6127c2dd50547ea7ea4df88de21bf1146c57cbd729c8e8a6437a71af4c3bcb"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_P01.svg",
+    "sha256": "b0acd706470298a769aa81f1ba27435a196b1bd95453cfc01ff49223628b83e2"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_P02.png",
+    "sha256": "b434dac3851b6ef941bae37283591c7af791bde10e0e4f8389dcf44ae67d6d11"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_P02.svg",
+    "sha256": "c001329b8c57623ebbc839437259c19004645da5e0c7d0b560b89dc122e8b53d"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_P03.png",
+    "sha256": "fbe53dde25d4090a9bbe635676d4b0963d5e35fce91fb0a93e7437f9e842a5f1"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_P03.svg",
+    "sha256": "e70e05fe91186e485a3689cbbda2f29d0c68bb33348b57557ec88ac498688e06"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_P04.png",
+    "sha256": "53b14f4acbfc78fe77fb8cb9e08335a65ef6fca9ba920730ac09275fd5eb8a0a"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_P04.svg",
+    "sha256": "b9c689edd44d5ed71266990898e777d6a10a3e81bc5ddacd0cb1cd2a9cbcdf2f"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_P05.png",
+    "sha256": "ccf56d1f22d086d13ac4f5b9ce5c51d274bafc84c292240cc1690cd6016ea67b"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_P05.svg",
+    "sha256": "5fdefb3eda891f4c34bf14f3259d0e7c8d02eeecdf725856b41e85e6dcf3b2ff"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_B01_HOME_01\\Reference\\SL_BLD_B01_HOME_01_REFERENCE_01_SPEC.md",
+    "sha256": "7cf7c081d4af0ce092b6a86ac8cc410e1cf2dfcdeb13c0761032d59feff38cb5"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\build_planning.py",
+    "sha256": "beb096c994c0b87f9ac428f6ea5b3e01563c4df7d291a0631d7cb206918488c8"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\check_planning.py",
+    "sha256": "52d7df41fc46473e6d282a1e4888c0282c5c257a24f354f8e5fbe5ec78df4bfa"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\manifest.json",
+    "sha256": "84476947dd0e5f3b4f482fed5415b68bc5579b46503b485d72677aac3f3b51bf"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\README.md",
+    "sha256": "d784911e7c282e10ec3997a21717a7fd5ae6b565b941f992e4fafa679f7d2cc9"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\SL_BLD_C01_MAIN_01_CHECKS.json",
+    "sha256": "cf0cc2f99bab06421833a3d72c3c9095a387cd44f82ce945b39d01a819df066b"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\SL_BLD_C01_MAIN_01_PLAN_01.json",
+    "sha256": "02db0193ea41928e573248eeb64988e72147d3c73319415ae09c50733a0c491a"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\SL_BLD_C01_MAIN_01_PLAN_01_P01.png",
+    "sha256": "531e6aa4d05fdf188c40c90be07a26a992666c259545f0729330bca8ba06f65c"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\SL_BLD_C01_MAIN_01_PLAN_01_P01.svg",
+    "sha256": "3ccd21f1c4d864ea80fcd79ec0644161aaae29ba8096e5027e2be622868729e5"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\SL_BLD_C01_MAIN_01_PLAN_01_P02.png",
+    "sha256": "4ff583b61c3bb5f9389dab480d265f030a25a4bc957b4d4674e487b6ec912a76"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\SL_BLD_C01_MAIN_01_PLAN_01_P02.svg",
+    "sha256": "4211683258de6c431472b9bc5e0a5e606070ef2ad8ef120fe541154950f16dee"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\SL_BLD_C01_MAIN_01_PLAN_01_P03.png",
+    "sha256": "ffdb634d6f709045686b055fbaa51cf1e45890cf8e7041e5c0e38cf41628b878"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\SL_BLD_C01_MAIN_01_PLAN_01_P03.svg",
+    "sha256": "7da8887281262bf055561fd442e043734196238c15e239d277a97b073510539e"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\SL_BLD_C01_MAIN_01_PLAN_01_P04.png",
+    "sha256": "b7fab4c9c54d40c7171a600e20f7b2e490011d806840cab0e51c2eda56d0901d"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\SL_BLD_C01_MAIN_01_PLAN_01_P04.svg",
+    "sha256": "3426bfa4be5e0b3e08e014df855e74fa98335d75d028c051d554ac99533d9171"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\SL_BLD_C01_MAIN_01_PLAN_01_P05.png",
+    "sha256": "bae76edef8275393e1510cc68a8ebef31c558ac8ee9fcfd18dcc4acecc2a38e2"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\SL_BLD_C01_MAIN_01_PLAN_01_P05.svg",
+    "sha256": "efce3293b5c8a956b6533914092d48bd5458478a3cac7a88fb9821c9da7ac6de"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\SL_BLD_C01_MAIN_01_PLAN_01_P06.png",
+    "sha256": "9f7e208832489ea6940c3f5d6690ddbac22e39f9a38a72f2f06de5ecf5d4a3f2"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\SL_BLD_C01_MAIN_01_PLAN_01_P06.svg",
+    "sha256": "d2ffdbe8870045de06f53de0bb10ad1c3f926232174a82285a8caddc9038bb64"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\SL_BLD_C01_MAIN_01_PLAN_01_P07.png",
+    "sha256": "acd8ec63c342b7f3a4b338618743059942ca3df5165356c18c2e9cf470bfaad6"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\SL_BLD_C01_MAIN_01_PLAN_01_P07.svg",
+    "sha256": "8f0d17c9280be9ce63c4b46c06079b13003fb95f5f92c1296278f0d734ea7302"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\SL_BLD_C01_MAIN_01_PLAN_01_P08.png",
+    "sha256": "269d5715af19be9c9271d97336e3032c9cd3ef4074a0ccce6f6e9d0772b57db5"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Planning\\SL_BLD_C01_MAIN_01_PLAN_01_P08.svg",
+    "sha256": "190f18e61db9f1897d947d45f673a73eeb7118fa6f18cc481b3e81c3c6fa80d6"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\BLENDER_REPORT.json",
+    "sha256": "8628a3e3e330f234c9052fc25cced42207e2d2affeac0f38f77d91f84155c3e9"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\build_reference.py",
+    "sha256": "b5b6dd82db817a6806e5468d107bf0cb1ff7f460ead0a9ae10a89d5c825de750"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\check_reference.py",
+    "sha256": "fa4e522db1adb2e5dffb48e1fad8a2869c5754643700f6486c4c7334a6c899a1"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\manifest.json",
+    "sha256": "4252687a6f512757ca5f5d1c6031fc7c52b704b38dc0f671d7b53981062967ed"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\NATIVE_REOPEN_REPORT.json",
+    "sha256": "1cd9ad23bd24d865067801f46956c599cd506ad1881715cbb21af7d5908b0a90"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\OPENINGS.csv",
+    "sha256": "ac6b91189b0d29ddc5598f823f88b8c55cebe00c7a435a0265b4f0acf5db76ed"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Preview_A.png",
+    "sha256": "b239d15ce871390a12eb9996b26aec1540ed2f5035d59ab1f357fe44eb727e43"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Preview_B.png",
+    "sha256": "c8eff18b8a467508cfc58f40fceaf130c2a554609887a57a8cfe1aadf9cda8fa"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Preview_CLASS.png",
+    "sha256": "bbc4df6d651f78b01f29ae9f94c54a9a183fe28c4032497b317cff900c071c57"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Preview_COURT.png",
+    "sha256": "275f32bb846bc9d0658946d70fe4ef31a5ee9e701c96bbbd64046d2f488a53d2"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Preview_ENTRY.png",
+    "sha256": "60f6f75a59d103cd28261ac4e95ce18fcca602340a0ac99f4279e68c2120ab64"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Preview_LINK.png",
+    "sha256": "9fbabfa24f8254d6dba083a8b56ab25cb4567e32781e078690d5f464b36d71da"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Preview_SHOES.png",
+    "sha256": "718e81b5bb3771d694ae5ba746fc29c24c10c85fce33a55a3ecb5966a725ec2c"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\rasterize_reference.cjs",
+    "sha256": "f1a2c7bc44bb079a72f968427163904b726f04c10c5bf6f5f02e57323c074085"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\README.md",
+    "sha256": "440c415c02275c1a6e7aa81559064f9b113d65ec93b838384319c70565d7fe99"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\render_reference.py",
+    "sha256": "08b47e1d154418f464da1844c7f9bff2f7d2db1bcfda9b8a2b91f3af848cda6b"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\reopen_reference.py",
+    "sha256": "fa549c442b979da3178f6988e73f7c22e3c6bffccf53843719489e6181641d7c"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\review.md",
+    "sha256": "780cd0f7539020f480c4e9354d4a2eb9dc38fe5ed73614d9928ea2a550dafe55"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\BLENDER_REPORT.json",
+    "sha256": "e16d9e1962ef475022f21912db225a3828fc8ab63a938dbadd05d8c147bff80f"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\build_revision.py",
+    "sha256": "b987474499a20896b003eaa2d02b14b1e246f02b041733b9c6e309da0f9dcd25"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\changes.json",
+    "sha256": "36975f26ddcc44de312f5b1c66c707245c00ba2c07ca8e4d8799f70ecdee0131"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\check_revision.py",
+    "sha256": "4a151dd9992d7a3d3b7f59715922beab66a5536fc0964bdfda673b2dff50a25f"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\CHECKS.json",
+    "sha256": "bec6fccf454ade63ef124784297fe3d1458a0eee33341f0370120f7ac4cdb97f"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\manifest.json",
+    "sha256": "ef8287dbfb702a1c99cb10b2c9115cc4012a1d005564c7cccbb8b9ecae23d006"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\NATIVE_REOPEN_REPORT.json",
+    "sha256": "c926dcaf36cd37ad5cd6bf970c48deb3e0d1a3690b1c4c4b25b40ae59711ea6a"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\OPENINGS.csv",
+    "sha256": "171f8250d48dde0e29c5a75d11ff6177e72e1a449060f1dc9fe98d8d324490ce"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\rasterize_revision.cjs",
+    "sha256": "cde6f7cf80398fbaf3f430c07b507f036634011852ff19daf5ffa91a49c620cd"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\README.md",
+    "sha256": "5f569c01ec030d87ead8c61da88e889235a2708c8b39b0f7dfc0d2534db28d1a"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\render_revision.py",
+    "sha256": "ffef46bd8d1dcb95bc94331c6e824e33dedd70f260fa185eede84b923f4a4470"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\reopen_revision.py",
+    "sha256": "a3e26f4ba5e7d3319a809501ca6d8af6a30a1423c4cd8e5c3dca47498b8aa5c2"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\review.md",
+    "sha256": "236b52b23d8d8b7388381f44fc3a8756fe4638dbe639f2bb9b89e34d84097add"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_A.png",
+    "sha256": "75c320b1343912510b2a52e055bc296ae7779979b0d2965017b55c15a530c99e"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_B.png",
+    "sha256": "c81060de2fff9595a72e3b5f2aa8e83f648ef225c4c4c3b656081d2406575384"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_CLASS.png",
+    "sha256": "1ff26719d493dd9116a4744fcc04e07e41fbdf735bff0a74b220b0b5c8a07be2"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_CLASS_PULLED.png",
+    "sha256": "e010dbca05efa49972ad9405e93b1f26c0ab7feaee7fb814ae3f54eb25ea2bd9"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_ENTRY_AFTER.png",
+    "sha256": "bee17114792b8d01fc3e97b905335a5933b6fbcd567e9d8d695a7fca3a1c7500"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_ENTRY_CURRENT.png",
+    "sha256": "146451950fd696029602a92576bfa0923a044b9a057776b6f3af6bd8bba9f02c"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_GEOMETRY.json",
+    "sha256": "ec4157c11b77f90c45e73e3da066dacf4c5a56396e92ff64e6d70564118413a3"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_P02.png",
+    "sha256": "ca4dc1f74e7d0519232d93dc1b844cedb7f957b7b81b07a3d7db4a8aec146841"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_P02.svg",
+    "sha256": "04b6c15351b6d48bb215c1613546945d521213cb89a84373c6f0be0cc9c6e28d"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_P02A.png",
+    "sha256": "4825f9509d1a36641f691e365596db2ac085c6816c894579f269094ca5e19a2c"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_P02A.svg",
+    "sha256": "ec85f378ff7a4d1d1123f37ee8bb955dcf831f4b57b89cd493babdf157370a15"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_P02B.png",
+    "sha256": "95084d54099843b5989ab1fde9f9697cc07133dad74fae80158e53d1796115e6"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_P02B.svg",
+    "sha256": "f90ee0d3f05402e3afdb89faea43505489679f7e381199b9a40d040025ada9aa"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_P02C.png",
+    "sha256": "5aed7332093fd28e434898f7ed47434b57de7760facaf806320cce7d992aef78"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_P02C.svg",
+    "sha256": "7df408d5c6cff5b96116a0987139641a1458c8f6e9169e3dfb9c4f9a4be64b1f"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_P03.png",
+    "sha256": "3753b999a66930016bd25032456030ced7ea8ae6e3221b7380c8d59224993b50"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_P03.svg",
+    "sha256": "c1aec51fed663d5f04b70295b5a5c1d3a205cc46c292305628637a27c559b26a"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_P04.png",
+    "sha256": "93bdaa7c12867eaf2820189ffdabf40154333cf3d835154be20f8c88666d241b"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_P04.svg",
+    "sha256": "fe27465864798846b6d33c1ea1fd83b5e2ff4f67a10061dd94c0c72872e340ce"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_P04A.png",
+    "sha256": "c136d926430e6dc50fdc8b1d0d81af097547c26ab866b82df10ac4bcfdf63459"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_P04A.svg",
+    "sha256": "347a650d6bd7d7b670d0e468fefd26af22a1e3514540bde80cb01b2ea071a54b"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_P05.png",
+    "sha256": "9d07e57f5b930909007e42ea55a6987b42aa81c968fc66f4df5297e34c02a4fd"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_P05.svg",
+    "sha256": "ea20309e229000322cacdad8d6833ff43f8cdc42108a77e6e47d0f33c3724f83"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_P05A.png",
+    "sha256": "2050f9c5f3d114909074974955958248a0ef09f99962fe643ce5b002b9e2eda2"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_P05A.svg",
+    "sha256": "3f3466054deb48a049e06bdef533a61597bc3a7ab412748bba4d9e7da9351c84"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_P05B.png",
+    "sha256": "d0afd03efe3785d961e605649cb4b23070fede70c18b5df0cdf264d79cdb27d3"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_P05B.svg",
+    "sha256": "2ade53e8a8f75e72460f0110583b34ed6bb237316c0815378b756296b01d4e32"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_REFERENCE_ONLY.blend",
+    "sha256": "b866942b8b774887bd06b90ca7a70ecfbeb767ae2e7006f88160f62e041e5dcf"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SL_BLD_C01_MAIN_01_REFERENCE_01_REV_01_SHOES.png",
+    "sha256": "8d02ee774b1505dc100765feceba7c9de791e38376065cdffea7522837e7a379"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\Revision01\\SPEC.md",
+    "sha256": "9e1a8c9a0878b5ffdfda233f7cc3a88cd896cd418fd690c7d1fbc150c51778b3"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_CHECKS.json",
+    "sha256": "f61bc565bf610e53fb0ab4bd6bdbb2c2fbcd79a26a5d5ecdee12351f84d09891"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_GEOMETRY.json",
+    "sha256": "bd0131e496de6a00e4863cff86deff9b667e583b742dcafa695324803d9d480d"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P01.png",
+    "sha256": "37e06d24d35b2c8b17127c1bb164b2c4dca485534b53b9ae7fa87ce3e35f7d55"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P01.svg",
+    "sha256": "26a71a05f7b7a085feb4a860b23d4f7fd5e284d30dbd86fbbdb783c0830f353f"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P02.png",
+    "sha256": "45aef3ae5b42090b2675bb93cfbaf34d46b78588099ff6bb120431eb483b9e48"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P02.svg",
+    "sha256": "91781957b5bc4255905098c4528312bcd6dd0a411d9da0df2de1067eaec7ceca"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P02A.png",
+    "sha256": "12d43fae67930701d077d03a1d9da3cb8d83505f3cb3d351d0e2185f1ae044f6"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P02A.svg",
+    "sha256": "4b1bbc6f081fe37a91aa5694c05938a2f917b8376635fc6d98e54aa433277575"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P02B.png",
+    "sha256": "6e1dc6531a8171e3ac157d6862353e50c1bf2deabdfd8e69160e2c68295b6817"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P02B.svg",
+    "sha256": "929bfb9583e9843c080187f7dfe47501967729b8f72d12b55df5782c148c6a3e"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P02C.png",
+    "sha256": "95f81fd4ba1aaed7d973d8e5b2ae6d5e3d8855f28052cc021e9f3b70f0faa861"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P02C.svg",
+    "sha256": "a68dbe706a7f9c38f740a72c8d1df356b0badcb96e9bbc259c1e8d6571c40c65"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P03.png",
+    "sha256": "ba659228ccf1d5f435e30c08662929b814d064c53305a4e902b014091fbea263"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P03.svg",
+    "sha256": "38f8c5897b55899092ce2dd671016c2c33d399c366cfb49dd77c2adca8a9835a"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P04.png",
+    "sha256": "d2815257efc79eb15b58249d181182d4581cd5479ed83692139a22dd073b70f0"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P04.svg",
+    "sha256": "582ad11f0aa9cad601787c0bd4e17c94f0d5e0e535eabd019d068d5df59a35c7"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P04A.png",
+    "sha256": "db92d2383b837958e34f546e1d4d9e8a61218c783c0d3b72791c3642a0580a6c"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P04A.svg",
+    "sha256": "36c7416322e73e7f79ced08cc760a5f4ae8b0b0f77bc2192c399437a1248de23"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P05.png",
+    "sha256": "f47ad3724dee611feb171bb2c58842bf1b28690af35eac455c1300e1a80846d0"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P05.svg",
+    "sha256": "8d94f45f75e305661c09e479349f404ad0a49d56574b90fda0ec9a96a16d1888"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P05A.png",
+    "sha256": "6c41c23f2d0b613a0d58926cf6f1e424082194c41dfa21329bede7d1c57847e2"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P05A.svg",
+    "sha256": "e982c538e3cdba4f7473fadfbe8cda868e5f1281244f53d64eee83c511499114"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P05B.png",
+    "sha256": "9a675d6383a36a5b49a14e1a9a8cf0120d18f28eb7cf4961b39d863d6c42694a"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_P05B.svg",
+    "sha256": "eab31d4989b8c76536962cf00c583580ac0f170c07cf5a71825e5afb83f31699"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_REFERENCE_ONLY.blend",
+    "sha256": "a4dcb8f873c8b746a338b8777657a3e7201aa41215e4f9dc2572bd1a5b55378b"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Reference\\SL_BLD_C01_MAIN_01_REFERENCE_01_SPEC.md",
+    "sha256": "163ea6eddd36eba05e5760716add3856a93c9c431977cce779d10a6c89b04f6e"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\MapDesign\\V13\\SL_WORLD_V13_LAYOUT_01.json",
+    "sha256": "20149b825e420c885ce80468da052067caddc46e9663128471538be047518e72"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\MapDesign\\V13\\SL_WORLD_V13_PLAN_01.svg",
+    "sha256": "eb7af2e9b15c08a4b8d4d6642a0cbb757b687229329719cb78f571fc792e32a1"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Design\\build_design.py",
+    "sha256": "62b6ac42aa2ee6c1dd77b6f80c5b62b4695e54f8dea6886101ff91116df39e35"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Design\\SL_GE_GATE_PIER_01_DESIGN.png",
+    "sha256": "22e4c3e8fc0cb0e38de3fa2b89da7dab4e1b8154af800259f434c17a2bc31758"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Design\\SL_GE_GATE_PIER_01_DESIGN.svg",
+    "sha256": "ad7747fd1b0a9d26da3bb8bf7c840246ebed31b710bd5118bf2a772136c8c261"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Design\\SL_GE_GATE_PIER_01_GEOMETRY.json",
+    "sha256": "c2fd570b4c0636439d9f8977f787deed0b7c60dc2b2035e6d45cef7bc1e1af16"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Design\\SL_GE_GATE_PIER_01_REVIEW.json",
+    "sha256": "591ee957fae0e60157559e773d158bd55db717949a875171b577b11c1b31fa20"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Design\\SL_GE_GATE_PIER_01_SPEC.md",
+    "sha256": "e352765f0d3f4941757f26bc7890fdb9174521a4eb159659202f0ce398dbb089"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Exports\\SL_GE_GATE_PIER_01_TRIAL_01.fbx",
+    "sha256": "faf489c4e70d8f27bf50022e2e7049d8751c6545f06f7cda07ba1b6f0ed82a6f"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\manifest.json",
+    "sha256": "0c6650f9905465bc39831e98f508a9d6dfbc7cc0d0511ba0c54a454661e41105"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Previews\\Renders\\SL_GE_GATE_PIER_01_TRIAL_VIEW_A_RENDER.png",
+    "sha256": "1a64c27e8b94881bcedf1b1cfea92bbb480362a65f1d7f639e2c0966d3992855"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Previews\\Renders\\SL_GE_GATE_PIER_01_TRIAL_VIEW_B_RENDER.png",
+    "sha256": "3d1cfb072b5f7a3ca6f72250d004458eec751aae58a9ec909d0d1c311d62fde7"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Previews\\SL_GE_GATE_PIER_01_TRIAL_CHECK.png",
+    "sha256": "e69b2fdf1d16cd7a849f25594f5e2c33560bb9f30acf4a265ea9bf8b2592c9fd"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Previews\\SL_GE_GATE_PIER_01_TRIAL_MATERIAL_COMPARE.png",
+    "sha256": "b8bc9747100d37d387c5f2a5d2b70e555d0eb348bc3674d3b0cef862b844dd04"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Previews\\SL_GE_GATE_PIER_01_TRIAL_VIEW_A.png",
+    "sha256": "19bf61aaf6eda1be4781110f9cae284c9fcf7417197e1d863e12fc6dffd1f724"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Previews\\SL_GE_GATE_PIER_01_TRIAL_VIEW_B.png",
+    "sha256": "5d68c3f854573a35c930e7f972a71506fed2bf3b1da76e876cf338f6828dc06b"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\README.md",
+    "sha256": "a84dc19ed85954ea26ac5bd564e502358927aa6370ca042bbeaa8d45ab280d42"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\review.md",
+    "sha256": "abbd20c4244b7360f9320927baaaa2f99f3d9dd36e8c02482c7669374a75ae51"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\assemble_preview_boards.py",
+    "sha256": "e09f72905b9e7e46d9371e43a9fd45c4b263ff19061cd154d3541a8fcd6b9317"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\blender_measurements.json",
+    "sha256": "6c2afbbda49a11c684b89dbd82b52abe814d7b50c5bc7ac21730a90175f6e1f7"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\build_trial.py",
+    "sha256": "ab696379a09bc5c8f5cd42c1a1391bb7fc4572dec18f2e492763826c9d668d99"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\create_trial_data.py",
+    "sha256": "24f47c9769aca1d8d6bd1e9d3668157a38478c6345c5efa3aea9bdb1b0531a13"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\SL_GE_GATE_PIER_01_TRIAL_01.blend",
+    "sha256": "56dadb69c0a41862de5589a2fc409aa31331942a86ec48db21451a04ea9c4b2b"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\SL_GE_GATE_PIER_01_TRIAL_GEOMETRY_UV.json",
+    "sha256": "e4d3896a76a6cb15be1ca621bdbb1944f832db5587a0250d68793310cdcbab8e"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\texture_statistics.json",
+    "sha256": "ff652e0d8dc31a34f5f384e7bd78dd228b0ca90eebd9b8b4bfb7bbfa8a5997bf"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\verification_results.json",
+    "sha256": "4e2bb4e38bfe0214e4e4336b2cf57dc5fc9aac0facc87b8f16b5fc52d7fe2922"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Source\\verify_trial.py",
+    "sha256": "885dc644600e2d97fb6acf682145b5cc5c8e5ddbd027a4c7a1cfa648d266e1be"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Textures\\Samples\\M1_32px_per_m_1m.png",
+    "sha256": "35cb8f7e5afbe4d2083436f84d85ca3c9bbcb364c3743e7b800ae3dd558d5148"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Textures\\Samples\\M1_64px_per_m_1m.png",
+    "sha256": "93c83e9e35d2b1c0c06241f92e1958bc7cc640b436abf280cc7b6534d768d1f8"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Textures\\Samples\\M2_32px_per_m_1m.png",
+    "sha256": "42265d24c6ab55393ad79eac100fdf3074af0851c8c81f89de0c07570b74c12f"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Textures\\Samples\\M2_64px_per_m_1m.png",
+    "sha256": "4f28bdcd37dbd8eff96f65ef65e29157be44064efbb18076d3ea98155cec69a1"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Textures\\SL_GE_GATE_PIER_01_TRIAL_BaseColor.png",
+    "sha256": "bec477e282525620f2c7d11de38b2f899c6419a1e612b2c01c6759d681144eea"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Textures\\SL_GE_GATE_PIER_01_TRIAL_Roughness.png",
+    "sha256": "6685d7a7185d5d92a4cdc9511282dd7784b9451938f78631132016ab2897e60a"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_GATE_PIER_01\\Trial01\\Textures\\SL_GE_GATE_PIER_01_TRIAL_UV_LAYOUT.png",
+    "sha256": "7c4f9398e3c0f97200fd75223114cb9d995a927439f52249e26de98b2c940295"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Design\\build_design.py",
+    "sha256": "4c1edc752ab389a2ea5e7fd498b796ec9cba39c9d607710b2d6c0499e7192601"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Design\\README.md",
+    "sha256": "b4a3e030072e8026dae429a2ba665e028743231c824243c95ce2d30168cc7628"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Design\\review.md",
+    "sha256": "35549e497173e20ce71bcb70e02116e5b51883b63014fd7aaf363a3f414e1daf"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Design\\SL_GE_SIGN_PLATE_01_CHECKS.json",
+    "sha256": "406f1b58cf5cdf49185ec47abc1573cb3743f1639ce31971d19abde86957784c"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Design\\SL_GE_SIGN_PLATE_01_DESIGN.png",
+    "sha256": "c0fce2d4ea5f638dffcc0ffc470449b090e8413a11cc224d12fb063666644733"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Design\\SL_GE_SIGN_PLATE_01_DESIGN.svg",
+    "sha256": "6826a694453c12b4bb3385dd97ec525b38aaa60efb7f95ec35cdfbd624d213b1"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Design\\SL_GE_SIGN_PLATE_01_GEOMETRY.json",
+    "sha256": "fab23a6fdd2d02082b4b58dcf388aa6ba4599f2d3e59d9f7dcb525d42c32c063"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Design\\SL_GE_SIGN_PLATE_01_SPEC.md",
+    "sha256": "9b3328f82e88d3f5c575f4c53920b71e11b0821ae8e409b672412df9d5b39efe"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Exports\\SL_GE_SIGN_PLATE_01_TRIAL_01.fbx",
+    "sha256": "f55c239a6d2c70e69e04772b76820e5662b761d5ffed60ae13238169c5025d8f"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\manifest.json",
+    "sha256": "7cb9418ffab614f1370e3f4f0e3a37349ec6e1b0a772d8a8df44a0933a793f2b"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Previews\\Renders\\CHECK_EAST.png",
+    "sha256": "ce62447f3ceba5a23d31f23cca54932e7babd30eb3a27bc6dcea0df20acb46ca"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Previews\\Renders\\CHECK_EXPLODED_REAR.png",
+    "sha256": "36169d86e9f4d2cc250e1a02860efc38207878f665827f35d59b52c866a0c9c5"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Previews\\Renders\\CHECK_FRONT.png",
+    "sha256": "fc114e8aaceea480b675eae0e4bcb03e2f6d6685d165b11e4a997fcab8d5b486"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Previews\\Renders\\CHECK_REAR.png",
+    "sha256": "3235f1b3851d7ee03872087978ff2e60057839a08ac61f5ff5578823d6e6a9df"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Previews\\Renders\\CHECK_TOP.png",
+    "sha256": "1f3613d1a96806efd56d7c6783c6d1395ba7f7b8ff271b5832f61efa0d909460"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Previews\\Renders\\SL_GE_SIGN_PLATE_01_TRIAL_COATING_RENDER.png",
+    "sha256": "aac9b096df23953811d987cd72251286ac154fdcb77447eca0bf8b1478ec9813"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Previews\\Renders\\SL_GE_SIGN_PLATE_01_TRIAL_INSTALL_A_RENDER.png",
+    "sha256": "4f40286f453ea236d3ce8cc898516b4d0fb284288b119c653e76e63fce3e0374"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Previews\\Renders\\SL_GE_SIGN_PLATE_01_TRIAL_INSTALL_B_RENDER.png",
+    "sha256": "718971b0e8e347dd0d7931de7cf126a3a8bffcc7984c0809d568daf037334749"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Previews\\SL_GE_SIGN_PLATE_01_TRIAL_CHECK.png",
+    "sha256": "b29851765b0e7a15686c7b8207250f0eef3081dfcdc21f9083b1f5d387225583"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Previews\\SL_GE_SIGN_PLATE_01_TRIAL_INSTALL_A.png",
+    "sha256": "d3bf72f3007c6aa5a41b4d02f85aee1dbc22086d52716593c0e6d1af67bea329"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Previews\\SL_GE_SIGN_PLATE_01_TRIAL_INSTALL_B.png",
+    "sha256": "c66d00504dd670acbdc5457dcaae113a97ad19355e2492e79d2e472e545dd37c"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\README.md",
+    "sha256": "bd12b109b202796df5f9668432a25f02988a122ba2e149e5d42fc1b71031f244"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\review.md",
+    "sha256": "52f6fed2231b77f152955c96ca0835e5a1ce67e0c2ace4f4c8540bcd7a415593"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Source\\assemble_preview_boards.py",
+    "sha256": "d793c092a2f33560ea6f5c4b3f123699c5512ecaaa990328a8df3a050473b397"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Source\\assembly_parameters.json",
+    "sha256": "5fb5afb09ec813bbf922b1de44d8b873f325bd108fa213043d31337688ed8052"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Source\\blender_measurements.json",
+    "sha256": "6f6e3e71fc89307b4676f1fa9edaf92f0fbe9431ccc5f71b9690b147a2199723"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Source\\build_trial.py",
+    "sha256": "04e8f7775fc7cdcff4de1aec48d053d2e97f099ac6e3ace23dcde7bf9f584343"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Source\\prepare_trial.py",
+    "sha256": "b861cd82b7a29957533d059221a56c0b0630233eed9828a4262f460bfcf7ae97"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Source\\SL_GE_SIGN_PLATE_01_TRIAL_01.blend",
+    "sha256": "9841763a7f94bc273b032b9980272925c5a68cfa5146ca05470e3a5fd403009e"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Source\\SL_GE_SIGN_PLATE_01_TRIAL_ASSEMBLY.png",
+    "sha256": "6197f0a10dc4eb16bc98bae48d595d400d6470048b3e8af2bbee2ee26153f79f"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Source\\SL_GE_SIGN_PLATE_01_TRIAL_ASSEMBLY.svg",
+    "sha256": "9e2704ff9629bf4b84da1d441c97bd18dc7c9f52d93cb59a1475a3441238b525"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Source\\SL_GE_SIGN_PLATE_01_TRIAL_GEOMETRY_UV.json",
+    "sha256": "20c61d0b5abee53908c218ce374783d079b181e3cdbb152ca405c1b9a35e78d5"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Source\\verification_results.json",
+    "sha256": "fadde93dbf4c556a76360999036dd0ecd606f690882c1cac3f833b7f8650eeee"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Source\\verify_trial.py",
+    "sha256": "05366dfd17702944692e07b145255b9cf544ca1c5c01b239c59f49bad140fbc9"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Textures\\SL_GE_SIGN_PLATE_01_TRIAL_BaseColor.png",
+    "sha256": "6cf81eea76f07f2b6629c7b5b467ac10884c999be2a2d8222d84e3bf065fd4ac"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Textures\\SL_GE_SIGN_PLATE_01_TRIAL_Roughness.png",
+    "sha256": "c955b2148bfc0d2187280487addf936a3ecc1f03cf66e5cfdbc7a5bedb93990a"
+  },
+  {
+    "path": "D:\\Art Asset Library\\ArtSource\\SchoolGate\\SL_GE_SIGN_PLATE_01\\Trial01\\Textures\\SL_GE_SIGN_PLATE_01_TRIAL_UV_LAYOUT.png",
+    "sha256": "0896e23effa227c6222cb4f100fb5387201d715f6dce0adc67c6abab84e2f617"
+  },
+  {
+    "path": "D:\\Art Asset Library\\Docs\\AssetPlanning\\BuildingProduction\\C01\\design.md",
+    "sha256": "1600e21417050e93a20aee8361f9d9df89d1ce0c092919ba08328258600543e9"
+  },
+  {
+    "path": "D:\\Art Asset Library\\Docs\\AssetPlanning\\BuildingProduction\\C01\\differences.md",
+    "sha256": "47a4cbb7c0008fd01dcf9d21ecfa2aafbcfdea3b96ddf18a6e1d4941e1af1966"
+  },
+  {
+    "path": "D:\\Art Asset Library\\Docs\\AssetPlanning\\BuildingProduction\\C01\\README.md",
+    "sha256": "3a749fd29ff9561b534227fb94b4a291112f398c5b78e4ea6232322f58c8dd55"
+  },
+  {
+    "path": "D:\\Art Asset Library\\Docs\\AssetPlanning\\BuildingProduction\\C01\\reference-01-planning-audit.json",
+    "sha256": "3ddfe7b68839408bf075647f534308925c6debcf599de5de110884f4dc0997fe"
+  },
+  {
+    "path": "D:\\Art Asset Library\\Docs\\AssetPlanning\\BuildingProduction\\C01\\reference-revision-01-planning-audit.json",
+    "sha256": "535dc5e2cf41ce13aaea771c2ff959307614d99e71637a04b84d42de90100a7c"
+  },
+  {
+    "path": "D:\\Art Asset Library\\Docs\\AssetPlanning\\BuildingProduction\\C01\\review.md",
+    "sha256": "7f9cc3992ec94d671473f8c40b8e6555bf20b15440de79904d564d676e960eac"
+  },
+  {
+    "path": "D:\\Art Asset Library\\Docs\\AssetPlanning\\BuildingProduction\\C01\\rooms-areas-depth.md",
+    "sha256": "4d17ec2c127d27118c53147c401daa3b9d20b5265001896a4f002b7d3de62346"
+  },
+  {
+    "path": "D:\\Art Asset Library\\Docs\\AssetPlanning\\BuildingProduction\\C01\\routes.md",
+    "sha256": "55945c467514fb171b5304c690e845ec9976a22c738c32549005e8c7b233b49f"
+  },
+  {
+    "path": "D:\\Art Asset Library\\Docs\\AssetPlanning\\BuildingProduction\\review-B01-reference-01.md",
+    "sha256": "8b5a5f5008963ee22936bf695aebe7f8a54d531473480ff261697403109d7fd3"
+  },
+  {
+    "path": "D:\\Art Asset Library\\Docs\\AssetPlanning\\BuildingProduction\\review-C01-reference-01.md",
+    "sha256": "4e49edbd8f453e6955e670f0d6827c7c51e75ef9f6fa5a6426ed92e488c94d3d"
+  },
+  {
+    "path": "D:\\Art Asset Library\\Docs\\AssetPlanning\\BuildingProduction\\review-C01-reference-revision-01.md",
+    "sha256": "b02932429c164f6033d88c20a5617a7e8d4a344783fbd80f857a7ca1226ad16c"
+  },
+  {
+    "path": "D:\\Art Asset Library\\Docs\\AssetPlanning\\BuildingProduction\\TaskCards\\SL_BLD_B01_HOME_01.md",
+    "sha256": "9b9785a398f383f39cb47721809409fa8b97cd46b8b8afe7a914808e4f156523"
+  },
+  {
+    "path": "D:\\Art Asset Library\\Docs\\AssetPlanning\\BuildingProduction\\TaskCards\\SL_BLD_C01_MAIN_01_REFERENCE_01.md",
+    "sha256": "d2d90f77053c6d25358763f3cd108b006a65775f1d573f4ecd2f2a43362a5491"
+  },
+  {
+    "path": "D:\\Art Asset Library\\Docs\\AssetPlanning\\BuildingProduction\\TaskCards\\SL_BLD_C01_MAIN_01_TRIAL_01.md",
+    "sha256": "ab053f11af20b528a18d3c0963501ca550ffb64d7201186c167b587b00056cc9"
+  },
+  {
+    "path": "D:\\Art Asset Library\\Docs\\MapDesign\\V13\\building-use-phase-index.md",
+    "sha256": "6adc035dc3f126c800453d4f264c3ee870626cd8d07e62f4e1314e19c863b324"
+  },
+  {
+    "path": "D:\\UE project\\SchoolLife\\ArtSource\\Characters\\StudentChibi\\FrontIdle\\StudentChibi_Front_Idle.png",
+    "sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd"
+  },
+  {
+    "path": "D:\\UE project\\SchoolLife\\Docs\\LifeCoreBlockout-Phase4A-Step1-Plan.md",
+    "sha256": "9105635f3d7ddc9a1e11a6c9eb9e34ed9857a2a82842601c23e765670202b823"
+  },
+  {
+    "path": "D:\\UE project\\SchoolLife\\Docs\\Validation\\LifeCoreBlockout\\Step2\\ActorRecipe.json",
+    "sha256": "68225f5fd79bb471495b176ed50b7be518ffde19af9b442bf92158bf9b77f146"
+  },
+  {
+    "path": "D:\\UE project\\SchoolLife\\Docs\\Validation\\LifeCoreBlockout\\Step4\\Observations.md",
+    "sha256": "9a0af95a632ee044acc9603f5ee8509f1b5fe5b5e0149ae22c0fbf12ea85495d"
+  }
+]

@@ -1,3 +1,7 @@
+# 当前回件：C01整栋Blender试作01 · 2026-10-15
+
+[真实试作、预览与验收](ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/README.md)已完成待规划审阅。入座/并排肩宽、900名义格双面操作及交叉队列有未通过项，未伪造整体通过；RT01不开放，B01/SchoolLife不变。不自动正式精修或UE。以下保留历史。
+
 # 当前：C01局部参考修订通过针对性审阅，整栋试作卡已发布 · 2026-10-15
 
 [审阅结论](Docs/AssetPlanning/BuildingProduction/review-C01-reference-revision-01.md)／[整栋Blender试作卡](Docs/AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_TRIAL_01.md)。指定30席主路/业务净区、3m内部廊口、入口材色及高度/露台同步通过参考阶段审阅；入座、0.30m单面柜深、双面换鞋/集散未通过，纳入同一试作前段。只发布卡供用户转交，规划聊天未启动模型/UE；RT01不开放，B01不变。

@@ -1,0 +1,72 @@
+{
+  "chair_state": "all player chairs pulled.25m",
+  "contact_inset_m": 0.001,
+  "adjustment": "thigh/shin dimensions unchanged; translated+X.06m toward chair after tray intersection",
+  "results": [
+    {
+      "proxy": "POSE_PROXY_TORSO",
+      "bounds": [
+        [
+          46.151001525878904,
+          19.35117204284668,
+          4.430999828338623
+        ],
+        [
+          46.47899954223633,
+          20.388827728271483,
+          5.229000019073486
+        ]
+      ],
+      "triangle_surface_intersections": 0
+    },
+    {
+      "proxy": "POSE_PROXY_HEAD",
+      "bounds": [
+        [
+          46.151001525878904,
+          19.35117204284668,
+          5.231000019073487
+        ],
+        [
+          46.47899954223633,
+          20.388827728271483,
+          5.549000190734863
+        ]
+      ],
+      "triangle_surface_intersections": 0
+    },
+    {
+      "proxy": "POSE_PROXY_THIGHS",
+      "bounds": [
+        [
+          45.93100030517578,
+          19.6210008392334,
+          4.430999828338623
+        ],
+        [
+          46.359000610351565,
+          20.119000839233397,
+          4.649000095367431
+        ]
+      ],
+      "triangle_surface_intersections": 0
+    },
+    {
+      "proxy": "POSE_PROXY_SHINS",
+      "bounds": [
+        [
+          45.93100030517578,
+          19.6210008392334,
+          4.001
+        ],
+        [
+          46.07900183105469,
+          20.119000839233397,
+          4.439000057220459
+        ]
+      ],
+      "triangle_surface_intersections": 0
+    }
+  ],
+  "scope": "static surface intersection, not continuous transition, approved seated art or all seats"
+}

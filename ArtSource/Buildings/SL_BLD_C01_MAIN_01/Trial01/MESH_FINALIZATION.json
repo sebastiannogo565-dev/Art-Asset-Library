@@ -1,0 +1,37 @@
+{
+  "shaft_corner_union": [
+    {
+      "mesh": "PARTITIONS_F01_DOOR_BAND",
+      "remaining_nonmanifold_edges": 0
+    },
+    {
+      "mesh": "PARTITIONS_F01_HEAD",
+      "remaining_nonmanifold_edges": 0
+    },
+    {
+      "mesh": "PARTITIONS_F02_DOOR_BAND",
+      "remaining_nonmanifold_edges": 0
+    },
+    {
+      "mesh": "PARTITIONS_F02_HEAD",
+      "remaining_nonmanifold_edges": 0
+    },
+    {
+      "mesh": "PARTITIONS_F03_DOOR_BAND",
+      "remaining_nonmanifold_edges": 0
+    },
+    {
+      "mesh": "PARTITIONS_F03_HEAD",
+      "remaining_nonmanifold_edges": 0
+    }
+  ],
+  "reason": "two edge-only contacts at lift shaft south corners per floor; net2.4x2.4 unchanged",
+  "unchanged_visible_exterior": true,
+  "preview_updates": [
+    "CLASS_PULLED",
+    "LAYERS",
+    "F02",
+    "COURT_TERRACE"
+  ],
+  "precision_weld_m": 1e-05
+}

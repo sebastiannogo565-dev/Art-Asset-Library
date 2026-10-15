@@ -1,0 +1,5401 @@
+{
+  "ROOF_GABLE_0_3.4": {
+    "materials": [
+      "ROOF"
+    ],
+    "placements": 1
+  },
+  "ROOF_GABLE_0_13": {
+    "materials": [
+      "ROOF"
+    ],
+    "placements": 1
+  },
+  "GABLE_END_0": {
+    "materials": [
+      "WALL"
+    ],
+    "placements": 1
+  },
+  "GABLE_END_52": {
+    "materials": [
+      "WALL"
+    ],
+    "placements": 1
+  },
+  "ROOF_GABLE_106_3.4": {
+    "materials": [
+      "ROOF"
+    ],
+    "placements": 1
+  },
+  "ROOF_GABLE_106_13": {
+    "materials": [
+      "ROOF"
+    ],
+    "placements": 1
+  },
+  "GABLE_END_106": {
+    "materials": [
+      "WALL"
+    ],
+    "placements": 1
+  },
+  "GABLE_END_150": {
+    "materials": [
+      "WALL"
+    ],
+    "placements": 1
+  },
+  "CORE_ROOF": {
+    "materials": [
+      "ROOF"
+    ],
+    "placements": 1
+  },
+  "LINK_ROOF_52": {
+    "materials": [
+      "ROOF"
+    ],
+    "placements": 1
+  },
+  "LINK_ROOF_94": {
+    "materials": [
+      "ROOF"
+    ],
+    "placements": 1
+  },
+  "FRONT_LOW_ROOF_18": {
+    "materials": [
+      "ROOF"
+    ],
+    "placements": 1
+  },
+  "FRONT_LOW_ROOF_142": {
+    "materials": [
+      "ROOF"
+    ],
+    "placements": 1
+  },
+  "SKYLIGHT_GLASS_15": {
+    "materials": [
+      "SKYLIGHT"
+    ],
+    "placements": 1
+  },
+  "SKYLIGHT_FRAME": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "SKYLIGHT_FRAME.001": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "SKYLIGHT_FRAME.002": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "SKYLIGHT_FRAME.003": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "SKYLIGHT_FRAME.004": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "SKYLIGHT_FRAME.005": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "SKYLIGHT_FRAME.006": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "SKYLIGHT_FRAME.007": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "SKYLIGHT_FRAME.008": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "SKYLIGHT_GLASS_19.5": {
+    "materials": [
+      "SKYLIGHT"
+    ],
+    "placements": 1
+  },
+  "SKYLIGHT_FRAME.009": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "SKYLIGHT_FRAME.010": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "SKYLIGHT_FRAME.011": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "SKYLIGHT_FRAME.012": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "SKYLIGHT_FRAME.013": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "SKYLIGHT_FRAME.014": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "SKYLIGHT_FRAME.015": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "SKYLIGHT_FRAME.016": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "SKYLIGHT_FRAME.017": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "SKYLIGHT_RIDGE": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "CORE_PARAPET": {
+    "materials": [
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "CORE_PARAPET.001": {
+    "materials": [
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "CORE_PARAPET.002": {
+    "materials": [
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_C01_MAIN": {
+    "materials": [
+      "GLASS",
+      "ENTRY_FRAME"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WL_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_S1_F1_S": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_CW_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_CW_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_CS_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_CE_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_S2_F1_S": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_S3_F1_S": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WWC_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WWC_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WH_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WH_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WH_S_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WO_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WO_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WO_S_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WO_S_04": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_EG_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_EG_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_EG_S_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_EWC_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_EWC_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_EWC_S_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_ES_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_ES_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_ES_S_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_52_F1_S_1": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_52_F1_S_2": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_52_F1_S_3": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_52_F1_S_4": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_94_F1_S_1": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_94_F1_S_2": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_94_F1_S_3": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_94_F1_S_4": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_W1_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_W1_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_W1_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_W2_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_W2_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_W2_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_W3_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_W3_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_W3_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_W4_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_W4_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_W4_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WG_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WG_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WG_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WG_N_04": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_LW_N_01": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_LW_N_02": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_LW_N_03": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_E1_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_E1_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_E1_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_E2_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_E2_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_E2_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_E3_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_E3_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_E3_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_E4_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_E4_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_E4_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_LE_N_01": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_LE_N_02": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_LE_N_03": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_C01_N": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_CL_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_CL_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_CB_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_CB_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_CB_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WG_W_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WG_W_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WWC_W_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_END_0_F1": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WL_W_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WO_E_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_CW_W_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_CW_W_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_CL_W_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_CN_E_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_EG_W_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_C01_E": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_END_150_F1": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WL_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WL_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WL_S_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_S1_F2_S": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_CW_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_CW_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_CS_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_CE_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_S2_F2_S": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_S3_F2_S": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WWC_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WWC_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WH_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WH_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WH_S_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WO_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WO_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WO_S_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WO_S_04": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_EG_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_EG_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_EG_S_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_EWC_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_EWC_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_EWC_S_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_ES_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_ES_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_ES_S_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_52_F2_S_1": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_52_F2_S_2": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_52_F2_S_3": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_52_F2_S_4": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_94_F2_S_1": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_94_F2_S_2": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_94_F2_S_3": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_94_F2_S_4": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_W1_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_W1_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_W1_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_W2_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_W2_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_W2_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_W3_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_W3_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_W3_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_W4_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_W4_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_W4_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WG_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WG_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WG_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WG_N_04": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_LW_N_01": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_LW_N_02": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_LW_N_03": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_E1_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_E1_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_E1_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_E2_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_E2_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_E2_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_E3_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_E3_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_E3_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_E4_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_E4_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_E4_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_LE_N_01": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_LE_N_02": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_LE_N_03": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_CL_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_CL_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_CB_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_CB_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_CB_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_CN_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_CN_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WG_W_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WG_W_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WWC_W_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_END_0_F2": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WL_W_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WO_E_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_CW_W_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_CW_W_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_CL_W_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_CN_E_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_EG_W_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_END_150_F2": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WL_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WL_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WL_S_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_S1_F3_S": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_CS_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_CE_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_S2_F3_S": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_S3_F3_S": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WWC_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WWC_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WH_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WH_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WH_S_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WO_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WO_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WO_S_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WO_S_04": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_EG_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_EG_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_EG_S_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_EWC_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_EWC_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_EWC_S_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_ES_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_ES_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_ES_S_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_TERRACE_ACCESS": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_CW_S_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_CW_S_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_52_F3_S_1": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_52_F3_S_2": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_52_F3_S_3": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_52_F3_S_4": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_94_F3_S_1": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_94_F3_S_2": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_94_F3_S_3": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_LINK_94_F3_S_4": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_W1_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_W1_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_W1_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_W2_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_W2_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_W2_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_W3_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_W3_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_W3_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_W4_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_W4_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_W4_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WG_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WG_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WG_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WG_N_04": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_LW_N_01": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_LW_N_02": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_LW_N_03": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_E1_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_E1_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_E1_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_E2_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_E2_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_E2_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_E3_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_E3_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_E3_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_E4_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_E4_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_E4_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_LE_N_01": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_LE_N_02": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_LE_N_03": {
+    "materials": [
+      "FRAME",
+      "SKYLIGHT",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_CL_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_CL_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_CB_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_CB_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_CB_N_03": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_CN_N_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_CN_N_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WG_W_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WG_W_02": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WWC_W_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_END_0_F3": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WL_W_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WO_E_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_CL_W_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_CS_W_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_CN_E_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_EG_W_01": {
+    "materials": [
+      "FRAME",
+      "GLASS",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "OPEN_END_150_F3": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "TERRACE_GUARD_TOP": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "TERRACE_GUARD_POSTS": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "TERRACE_GUARD_INFILL": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "TERRACE_GUARD_TOP.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "TERRACE_GUARD_POSTS.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "TERRACE_GUARD_INFILL.001": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "TERRACE_GUARD_TOP.002": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "TERRACE_GUARD_POSTS.002": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "TERRACE_GUARD_INFILL.002": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "TERRACE_DRAIN_CHANNEL": {
+    "materials": [
+      "METAL"
+    ],
+    "placements": 1
+  },
+  "TERRACE_PIPE": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "EXT_WHOLE_UNION": {
+    "materials": [
+      "WALL",
+      "ENTRY_WOOD",
+      "BAND_REV"
+    ],
+    "placements": 1
+  },
+  "RAINPIPE": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "RAINPIPE.001": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "RAINPIPE.002": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "RAINPIPE.003": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "RAINPIPE.004": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "RAINPIPE.005": {
+    "materials": [
+      "FRAME"
+    ],
+    "placements": 1
+  },
+  "SLAB_F01_ACTUAL": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "ENTRY_THRESHOLD_C01_MAIN": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "ENTRY_THRESHOLD_C01_N": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "ENTRY_THRESHOLD_C01_E": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "F2_W4_DESK_1_1": {
+    "materials": [
+      "FRAME",
+      "WOOD",
+      "METAL"
+    ],
+    "placements": 720
+  },
+  "F2_W4_CHAIR_1_1": {
+    "materials": [
+      "FRAME",
+      "CHAIR"
+    ],
+    "placements": 720
+  },
+  "F1_W1_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F1_W1_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F1_W2_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F1_W2_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F1_W3_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F1_W3_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F1_W4_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F1_W4_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F1_E1_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F1_E1_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F1_E2_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F1_E2_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F1_E3_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F1_E3_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F1_E4_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F1_E4_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "LOCKER_MAIN_W1_CARCASS": {
+    "materials": [
+      "METAL"
+    ],
+    "placements": 1
+  },
+  "LOCKER_MAIN_W1_FRONTS": {
+    "materials": [
+      "FRAME",
+      "METAL",
+      "ENTRY_FRAME"
+    ],
+    "placements": 1
+  },
+  "LOCKER_MAIN_E1_CARCASS": {
+    "materials": [
+      "METAL"
+    ],
+    "placements": 1
+  },
+  "LOCKER_MAIN_E1_FRONTS": {
+    "materials": [
+      "FRAME",
+      "METAL",
+      "ENTRY_FRAME"
+    ],
+    "placements": 1
+  },
+  "LOCKER_MAIN_W2_CARCASS": {
+    "materials": [
+      "METAL"
+    ],
+    "placements": 1
+  },
+  "LOCKER_MAIN_W2_FRONTS": {
+    "materials": [
+      "FRAME",
+      "METAL",
+      "ENTRY_FRAME"
+    ],
+    "placements": 1
+  },
+  "LOCKER_MAIN_E2_CARCASS": {
+    "materials": [
+      "METAL"
+    ],
+    "placements": 1
+  },
+  "LOCKER_MAIN_E2_FRONTS": {
+    "materials": [
+      "FRAME",
+      "METAL",
+      "ENTRY_FRAME"
+    ],
+    "placements": 1
+  },
+  "LOCKER_MAIN_W3_CARCASS": {
+    "materials": [
+      "METAL"
+    ],
+    "placements": 1
+  },
+  "LOCKER_MAIN_W3_FRONTS": {
+    "materials": [
+      "FRAME",
+      "METAL",
+      "ENTRY_FRAME"
+    ],
+    "placements": 1
+  },
+  "LOCKER_MAIN_E3_CARCASS": {
+    "materials": [
+      "METAL"
+    ],
+    "placements": 1
+  },
+  "LOCKER_MAIN_E3_FRONTS": {
+    "materials": [
+      "FRAME",
+      "METAL",
+      "ENTRY_FRAME"
+    ],
+    "placements": 1
+  },
+  "LOCKER_LINK_1_CARCASS": {
+    "materials": [
+      "METAL"
+    ],
+    "placements": 1
+  },
+  "LOCKER_LINK_1_FRONTS": {
+    "materials": [
+      "FRAME",
+      "METAL",
+      "ENTRY_FRAME"
+    ],
+    "placements": 1
+  },
+  "LOCKER_LINK_2_CARCASS": {
+    "materials": [
+      "METAL"
+    ],
+    "placements": 1
+  },
+  "LOCKER_LINK_2_FRONTS": {
+    "materials": [
+      "FRAME",
+      "METAL",
+      "ENTRY_FRAME"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_W1_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_W2_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_W3_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_W4_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_E1_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_E2_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_E3_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_E4_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WG_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_LW_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_LE_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_CL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_CN_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WL_D_REV": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WWC_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WH_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_WO_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_CW_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_CS_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_CE_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_CB_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_EG_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_EWC_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F1_ES_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_S1_F1_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_S2_F1_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_S3_F1_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "P1_CHANGE_W": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "P1_WAIT": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "P1_PHOTOS": {
+    "materials": [
+      "FRAME",
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "VISITOR_DESK": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "LINK_CHANGE": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "P4_W": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "P4_E": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "P4_SHORT_TABLE_W": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "P4_SHORT_TABLE_E": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "P5_EDGE": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "P5_NOTICE": {
+    "materials": [
+      "FRAME",
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F1_WWC_SINK_BLOCKS": {
+    "materials": [
+      "WALL",
+      "METAL"
+    ],
+    "placements": 1
+  },
+  "F1_WH_STORAGE": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F1_WO_STORAGE": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F1_CW_STORAGE": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F1_CS_STORAGE": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F1_CE_STORAGE": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F1_EWC_SINK_BLOCKS": {
+    "materials": [
+      "WALL",
+      "METAL"
+    ],
+    "placements": 1
+  },
+  "F1_ES_STORAGE": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "PARTITIONS_F01_DOOR_BAND": {
+    "materials": [
+      "WALL"
+    ],
+    "placements": 1
+  },
+  "PARTITIONS_F01_HEAD": {
+    "materials": [
+      "WALL"
+    ],
+    "placements": 1
+  },
+  "CEILING_F01": {
+    "materials": [
+      "WALL"
+    ],
+    "placements": 1
+  },
+  "SLAB_F02_ACTUAL": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "F2_W4_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F2_W4_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F2_W1_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F2_W1_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F2_W2_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F2_W2_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F2_W3_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F2_W3_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F2_E1_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F2_E1_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F2_E2_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F2_E2_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F2_E3_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F2_E3_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F2_E4_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F2_E4_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_W1_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_W2_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_W3_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_W4_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_E1_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_E2_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_E3_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_E4_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WG_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_LW_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_LE_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_CL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_CN_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WWC_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WH_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WL_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_WO_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_CW_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_CS_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_CE_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_CB_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_EG_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_EWC_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F2_ES_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_S1_F2_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_S2_F2_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_S3_F2_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "COURT_F2_TOP": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "COURT_F2_POSTS": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "COURT_F2_INFILL": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "COURT_F2_TOP.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "COURT_F2_POSTS.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "COURT_F2_INFILL.001": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "COURT_F2_TOP.002": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "COURT_F2_POSTS.002": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "COURT_F2_INFILL.002": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "COURT_F2_TOP.003": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "COURT_F2_POSTS.003": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "COURT_F2_INFILL.003": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "P2_A": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "P2_B": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "P2_TABLE": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "P2_NOTICE": {
+    "materials": [
+      "FRAME",
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "P3_WINDOW": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "P3_TABLE": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "P3_LOW_RETURN": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F2_WWC_SINK_BLOCKS": {
+    "materials": [
+      "WALL",
+      "METAL"
+    ],
+    "placements": 1
+  },
+  "F2_WH_STORAGE": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F2_CW_STORAGE": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F2_CS_STORAGE": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F2_CE_STORAGE": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F2_EWC_SINK_BLOCKS": {
+    "materials": [
+      "WALL",
+      "METAL"
+    ],
+    "placements": 1
+  },
+  "F2_ES_STORAGE": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "PARTITIONS_F02_DOOR_BAND": {
+    "materials": [
+      "WALL"
+    ],
+    "placements": 1
+  },
+  "PARTITIONS_F02_HEAD": {
+    "materials": [
+      "WALL"
+    ],
+    "placements": 1
+  },
+  "CEILING_F02": {
+    "materials": [
+      "WALL"
+    ],
+    "placements": 1
+  },
+  "SLAB_F03_ACTUAL": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "TERRACE_FINISH": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "F3_W1_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F3_W1_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F3_W2_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F3_W2_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F3_W3_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F3_W3_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F3_W4_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F3_W4_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F3_E1_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F3_E1_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F3_E2_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F3_E2_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F3_E3_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F3_E3_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F3_E4_BOARD": {
+    "materials": [
+      "BOARD"
+    ],
+    "placements": 1
+  },
+  "F3_E4_TEACHER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_W1_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_W2_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_W3_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_W4_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_E1_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_E2_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_E3_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_E4_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WG_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_LW_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_LE_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_CL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_CN_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WWC_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WH_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WL_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_WO_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_CW_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_CS_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_CE_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_CB_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_EG_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_EWC_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_F3_ES_TRIAL_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_S1_F3_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_S2_F3_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "OPEN_S3_F3_D": {
+    "materials": [
+      "FRAME",
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "COURT_F3_TOP": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "COURT_F3_POSTS": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "COURT_F3_INFILL": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "COURT_F3_TOP.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "COURT_F3_POSTS.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "COURT_F3_INFILL.001": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "COURT_F3_TOP.002": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "COURT_F3_POSTS.002": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "COURT_F3_INFILL.002": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "COURT_F3_TOP.003": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "COURT_F3_POSTS.003": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "COURT_F3_INFILL.003": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "P6_BUFFER": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "P6_TERRACE_0": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "P6_TERRACE_1": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F3_WWC_SINK_BLOCKS": {
+    "materials": [
+      "WALL",
+      "METAL"
+    ],
+    "placements": 1
+  },
+  "F3_WH_STORAGE": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F3_WO_STORAGE": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F3_CW_STORAGE": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F3_CS_STORAGE": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F3_CE_STORAGE": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "F3_EWC_SINK_BLOCKS": {
+    "materials": [
+      "WALL",
+      "METAL"
+    ],
+    "placements": 1
+  },
+  "F3_ES_STORAGE": {
+    "materials": [
+      "FRAME",
+      "WOOD"
+    ],
+    "placements": 1
+  },
+  "PARTITIONS_F03_DOOR_BAND": {
+    "materials": [
+      "WALL"
+    ],
+    "placements": 1
+  },
+  "PARTITIONS_F03_HEAD": {
+    "materials": [
+      "WALL"
+    ],
+    "placements": 1
+  },
+  "CEILING_F03": {
+    "materials": [
+      "WALL"
+    ],
+    "placements": 1
+  },
+  "S1_L0_UP1": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "S1_L0_UP2": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "S1_MID_0": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S1": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.002": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.003": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.004": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S1.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.005": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.006": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.007": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.008": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.009": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S1.002": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.010": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.011": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.012": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.013": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.014": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S1.003": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.015": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.016": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.017": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.018": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.019": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_BACK_S1_TOP": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_BACK_S1_POSTS": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_BACK_S1_INFILL": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "MID_W_S1_TOP": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_W_S1_POSTS": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_W_S1_INFILL": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "MID_E_S1_TOP": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_E_S1_POSTS": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_E_S1_INFILL": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "S1_L4_UP1": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "S1_L4_UP2": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "S1_MID_4": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S1.004": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.020": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.021": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.022": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.023": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.024": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S1.005": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.025": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.026": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.027": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.028": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.029": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S1.006": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.030": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.031": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.032": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.033": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.034": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S1.007": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.035": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.036": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.037": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.038": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S1.039": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_BACK_S1_TOP.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_BACK_S1_POSTS.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_BACK_S1_INFILL.001": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "MID_W_S1_TOP.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_W_S1_POSTS.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_W_S1_INFILL.001": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "MID_E_S1_TOP.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_E_S1_POSTS.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_E_S1_INFILL.001": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "TOP_EDGE_S1_TOP": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "TOP_EDGE_S1_POSTS": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "TOP_EDGE_S1_INFILL": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "TOP_EDGE_S1_TOP.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "TOP_EDGE_S1_POSTS.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "TOP_EDGE_S1_INFILL.001": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "S2_L0_UP1": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "S2_L0_UP2": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "S2_MID_0": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S2": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.002": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.003": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.004": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S2.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.005": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.006": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.007": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.008": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.009": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S2.002": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.010": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.011": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.012": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.013": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.014": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S2.003": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.015": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.016": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.017": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.018": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.019": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_BACK_S2_TOP": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_BACK_S2_POSTS": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_BACK_S2_INFILL": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "MID_W_S2_TOP": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_W_S2_POSTS": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_W_S2_INFILL": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "MID_E_S2_TOP": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_E_S2_POSTS": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_E_S2_INFILL": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "S2_L4_UP1": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "S2_L4_UP2": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "S2_MID_4": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S2.004": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.020": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.021": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.022": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.023": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.024": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S2.005": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.025": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.026": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.027": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.028": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.029": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S2.006": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.030": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.031": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.032": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.033": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.034": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S2.007": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.035": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.036": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.037": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.038": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S2.039": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_BACK_S2_TOP.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_BACK_S2_POSTS.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_BACK_S2_INFILL.001": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "MID_W_S2_TOP.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_W_S2_POSTS.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_W_S2_INFILL.001": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "MID_E_S2_TOP.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_E_S2_POSTS.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_E_S2_INFILL.001": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "TOP_EDGE_S2_TOP": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "TOP_EDGE_S2_POSTS": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "TOP_EDGE_S2_INFILL": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "TOP_EDGE_S2_TOP.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "TOP_EDGE_S2_POSTS.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "TOP_EDGE_S2_INFILL.001": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "S3_L0_UP1": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "S3_L0_UP2": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "S3_MID_0": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S3": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.002": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.003": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.004": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S3.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.005": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.006": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.007": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.008": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.009": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S3.002": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.010": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.011": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.012": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.013": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.014": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S3.003": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.015": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.016": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.017": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.018": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.019": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_BACK_S3_TOP": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_BACK_S3_POSTS": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_BACK_S3_INFILL": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "MID_W_S3_TOP": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_W_S3_POSTS": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_W_S3_INFILL": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "MID_E_S3_TOP": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_E_S3_POSTS": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_E_S3_INFILL": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "S3_L4_UP1": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "S3_L4_UP2": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "S3_MID_4": {
+    "materials": [
+      "FLOOR"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S3.004": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.020": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.021": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.022": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.023": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.024": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S3.005": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.025": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.026": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.027": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.028": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.029": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S3.006": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.030": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.031": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.032": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.033": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.034": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "HANDRAIL_S3.007": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.035": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.036": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.037": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.038": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "RAIL_POST_S3.039": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_BACK_S3_TOP.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_BACK_S3_POSTS.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_BACK_S3_INFILL.001": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "MID_W_S3_TOP.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_W_S3_POSTS.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_W_S3_INFILL.001": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "MID_E_S3_TOP.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_E_S3_POSTS.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "MID_E_S3_INFILL.001": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "TOP_EDGE_S3_TOP": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "TOP_EDGE_S3_POSTS": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "TOP_EDGE_S3_INFILL": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  },
+  "TOP_EDGE_S3_TOP.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "TOP_EDGE_S3_POSTS.001": {
+    "materials": [
+      "RAIL"
+    ],
+    "placements": 1
+  },
+  "TOP_EDGE_S3_INFILL.001": {
+    "materials": [
+      "GLASS"
+    ],
+    "placements": 1
+  }
+}

@@ -1,3 +1,9 @@
+# C01整栋Blender试作01实际回件 · 2026-10-15
+
+[试作包](../ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/README.md) / [三类验收](../ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/review.md)。已按用户转交整栋卡重建真实网格、实际UV/临时纹理、自然光、FBX并真实回导；2224建筑对象、786网格源，原参考不改名。指定主路/业务净区通过静态核；完整入座/并排坐姿、鞋柜双面/交叉/队列未通过。主柜0.60→0.66m仅组内候选，900名义格保持。
+
+原Reference/Revision01/Planning、SchoolLife/B01/人物/校门只读，219输入指纹核过；RT01588㎡不开放。停止供规划与用户审阅，无正式精修/UE/下一栋。实际Git/LFS结果正常同步收尾另记，原3无关脚本保留。
+
 # C01参考局部修订审阅通过并发布整栋试作卡 · 2026-10-15
 
 规划结论：[局部修订01](AssetPlanning/BuildingProduction/review-C01-reference-revision-01.md)达到参考阶段转试作条件，R01–R05的指定路线/净区、3m廊口、材色、标高接口已落实；按用户此前明确授权发布一张[整栋Trial01卡](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_TRIAL_01.md)，不再重复征求是否可以发布。当前未开始模型或UE。

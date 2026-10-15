@@ -1,0 +1,606 @@
+{
+  "protected_inputs_pass": true,
+  "protected_count": 219,
+  "native_reopen": true,
+  "fbx_actual_reimport": true,
+  "fbx_objects_match": true,
+  "fbx_group_names_pass": true,
+  "fbx_uv_present": true,
+  "expected_bbox": [
+    [
+      0,
+      0,
+      -0.25
+    ],
+    [
+      150,
+      28,
+      13.68
+    ]
+  ],
+  "source_bbox": [
+    [
+      0.0,
+      0.0,
+      -0.25
+    ],
+    [
+      150.0,
+      28.0,
+      13.680000305175781
+    ]
+  ],
+  "fbx_bbox": [
+    [
+      -2.447837687213905e-06,
+      0.0,
+      -0.25
+    ],
+    [
+      150.0,
+      28.00001335144043,
+      13.680000305175781
+    ]
+  ],
+  "bbox_max_error": 1.33514404296875e-05,
+  "uv_missing": [],
+  "zero_area_faces": 0,
+  "nonmanifold_source_meshes": 0,
+  "nonmanifold_detail": [],
+  "holes_pass": true,
+  "headroom_min": 3.736136118570964,
+  "headroom_capsule_pass": true,
+  "high_frequency": {
+    "player_states": [
+      {
+        "chairs": "rest",
+        "main_route_center_clearance": 0.5500030517578125,
+        "full_width": 1.100006103515625,
+        "main_width_1_10_pass": true,
+        "business_distance": 0.5518408863154015,
+        "business_055_pass": true,
+        "recovery_distance": 0.8476602876543418
+      },
+      {
+        "chairs": "pulled .25m",
+        "main_route_center_clearance": 0.5500030517578125,
+        "full_width": 1.100006103515625,
+        "main_width_1_10_pass": true,
+        "business_distance": 0.5518408863154015,
+        "business_055_pass": true,
+        "recovery_distance": 0.8476602876543418
+      }
+    ],
+    "shoe": {
+      "nominal": 900,
+      "main": 600,
+      "link": 300,
+      "shoe_assumption": {
+        "length": 0.29,
+        "width": 0.105,
+        "height": 0.115,
+        "pair_width": 0.235,
+        "depth_allowance": 0.01
+      },
+      "previous_gross": 0.6,
+      "previous_effective_depth": 0.27399999999999997,
+      "new_gross": 0.66,
+      "new_effective_depth": 0.304,
+      "min_cavity_width": 0.288,
+      "min_cavity_height": 0.263,
+      "door_open_height": 0.138,
+      "depth_margin": 0.004,
+      "aisle": 1.94,
+      "one_operation_strip": 0.7,
+      "one_active_free": 1.24,
+      "two_active_free": 0.54,
+      "two_active_pass": false,
+      "top_row_bottom": 1.2,
+      "top_row_reach": "door handle1.328m; reach/actual shoe handling not validated",
+      "closed_front_track_in_cabinet": true,
+      "hardware": "candidate half-height vertical lift; no tested fastener/tool tolerances"
+    },
+    "limits": [
+      {
+        "id": "SEAT_TRANSITION",
+        "status": "NOT_PASSED",
+        "detail": "Own chair occupies endpoint. Static lateral sit candidate only; continuous body/joint motion and full-size seated character art unavailable. Standing capsule cannot be swept through chair."
+      },
+      {
+        "id": "PAIRED_OCCUPANTS",
+        "status": "STATIC_ENVELOPE_CANDIDATE",
+        "detail": "Trial-only pair pitch1.06m vs conservative unchanged art width1.039655m: no static shoulder overlap, only .020345m pair margin. Occupied inter-pair aisle1.100345m. Sitting/motion not approved.",
+        "gap": 0.020344827586207
+      },
+      {
+        "id": "LOCKER_TWO_ACTIVE",
+        "status": "NOT_PASSED",
+        "detail": "Two .70m operating envelopes leave .54m, below .68m capsule and1.039655m art width."
+      },
+      {
+        "id": "FRONT_CROSSING",
+        "status": "NOT_PASSED",
+        "detail": "Arrival and departure paths cross near y1.375; simultaneous finite envelopes collide."
+      },
+      {
+        "id": "UPPER_BANK_QUEUE",
+        "status": "NOT_PASSED",
+        "detail": "Queue at22.9/6.2 and22.9/7.9 consumes1.2m cabinet-end branch; .68m capsule leaves.52m, character1.039655 leaves.160345m."
+      },
+      {
+        "id": "RT01",
+        "status": "NOT_OPEN",
+        "detail": "Original588m2 retained only as metadata. No support, door, access route or export geometry created."
+      },
+      {
+        "id": "TERRACE",
+        "status": "CANDIDATE",
+        "detail": "Geometry finish8.03/guard9.23 synchronized. Waterproofing, slope, real drainage, anchoring not certified."
+      }
+    ],
+    "stairs": [
+      {
+        "id": "S1",
+        "opening": [
+          31.6,
+          0.9,
+          36.3,
+          6.4
+        ],
+        "clear_run": 2.2,
+        "risers_per_floor": 24,
+        "going": 0.3,
+        "rise": 0.16666666666666666,
+        "mid_depth": 2.2,
+        "headroom_parallel_flight": null,
+        "top_landing_depth": 2.4000000000000004,
+        "headroom_status": "native vertical-ray samples; see STAIR_HEADROOM.json",
+        "headroom_measured_min": 3.736136118570964
+      },
+      {
+        "id": "S2",
+        "opening": [
+          87.6,
+          0.9,
+          92.3,
+          6.4
+        ],
+        "clear_run": 2.2,
+        "risers_per_floor": 24,
+        "going": 0.3,
+        "rise": 0.16666666666666666,
+        "mid_depth": 2.2,
+        "headroom_parallel_flight": null,
+        "top_landing_depth": 2.4000000000000004,
+        "headroom_status": "native vertical-ray samples; see STAIR_HEADROOM.json",
+        "headroom_measured_min": 3.736136118570964
+      },
+      {
+        "id": "S3",
+        "opening": [
+          143.6,
+          0.9,
+          148.3,
+          6.4
+        ],
+        "clear_run": 2.2,
+        "risers_per_floor": 24,
+        "going": 0.3,
+        "rise": 0.16666666666666666,
+        "mid_depth": 2.2,
+        "headroom_parallel_flight": null,
+        "top_landing_depth": 2.4000000000000004,
+        "headroom_status": "native vertical-ray samples; see STAIR_HEADROOM.json",
+        "headroom_measured_min": 3.736136118570964
+      }
+    ],
+    "scope": "finite static geometry/analytic; no navigation or gameplay",
+    "baseline_tolerance_m": 2e-06
+  },
+  "main_routes": {
+    "method": "0.20m stations / 16 radial directions / 5 heights of .68x1.92 capsule; actual WHOLE mesh BVH",
+    "scope": "indoor horizontal sections and landings only; actual stair headroom separate; no continuous sweep/nav/crowds/outer map claim",
+    "routes": [
+      {
+        "id": "DAILY_01",
+        "floor": 0,
+        "points": [
+          [
+            25,
+            0
+          ],
+          [
+            25,
+            8.8
+          ],
+          [
+            25,
+            10.9
+          ],
+          [
+            34,
+            10.9
+          ],
+          [
+            34,
+            7.5
+          ],
+          [
+            32.7,
+            7.5
+          ],
+          [
+            32.7,
+            6.8
+          ]
+        ],
+        "stations": 134,
+        "blocked_stations": [],
+        "sampled_capsule_clear": true
+      },
+      {
+        "id": "DAILY_01",
+        "floor": 4,
+        "points": [
+          [
+            35.2,
+            6.8
+          ],
+          [
+            35.2,
+            7.5
+          ],
+          [
+            34,
+            7.5
+          ],
+          [
+            34,
+            10.9
+          ],
+          [
+            45,
+            10.9
+          ],
+          [
+            45,
+            12.7
+          ],
+          [
+            45,
+            18.8
+          ],
+          [
+            46.425,
+            18.8
+          ]
+        ],
+        "stations": 138,
+        "blocked_stations": [],
+        "sampled_capsule_clear": true
+      },
+      {
+        "id": "DAILY_02",
+        "floor": 4,
+        "points": [
+          [
+            45,
+            12.7
+          ],
+          [
+            45,
+            10.9
+          ],
+          [
+            90,
+            10.9
+          ],
+          [
+            90,
+            7.5
+          ],
+          [
+            91.2,
+            7.5
+          ],
+          [
+            91.2,
+            6.8
+          ]
+        ],
+        "stations": 267,
+        "blocked_stations": [],
+        "sampled_capsule_clear": true
+      },
+      {
+        "id": "DAILY_02",
+        "floor": 0,
+        "points": [
+          [
+            88.7,
+            6.8
+          ],
+          [
+            88.7,
+            7.5
+          ],
+          [
+            90,
+            7.5
+          ],
+          [
+            90,
+            10.9
+          ],
+          [
+            90,
+            13
+          ],
+          [
+            90,
+            28
+          ]
+        ],
+        "stations": 119,
+        "blocked_stations": [],
+        "sampled_capsule_clear": true
+      },
+      {
+        "id": "DAILY_03",
+        "floor": 4,
+        "points": [
+          [
+            45,
+            12.7
+          ],
+          [
+            45,
+            10.9
+          ],
+          [
+            146,
+            10.9
+          ],
+          [
+            146,
+            7.5
+          ],
+          [
+            147.2,
+            7.5
+          ],
+          [
+            147.2,
+            6.8
+          ]
+        ],
+        "stations": 546,
+        "blocked_stations": [],
+        "sampled_capsule_clear": true
+      },
+      {
+        "id": "DAILY_03",
+        "floor": 0,
+        "points": [
+          [
+            144.7,
+            6.8
+          ],
+          [
+            144.7,
+            7.5
+          ],
+          [
+            146,
+            7.5
+          ],
+          [
+            146,
+            14
+          ],
+          [
+            150,
+            14
+          ]
+        ],
+        "stations": 68,
+        "blocked_stations": [],
+        "sampled_capsule_clear": true
+      }
+    ]
+  },
+  "seated_static": {
+    "chair_state": "all player chairs pulled.25m",
+    "contact_inset_m": 0.001,
+    "adjustment": "thigh/shin dimensions unchanged; translated+X.06m toward chair after tray intersection",
+    "results": [
+      {
+        "proxy": "POSE_PROXY_TORSO",
+        "bounds": [
+          [
+            46.151001525878904,
+            19.35117204284668,
+            4.430999828338623
+          ],
+          [
+            46.47899954223633,
+            20.388827728271483,
+            5.229000019073486
+          ]
+        ],
+        "triangle_surface_intersections": 0
+      },
+      {
+        "proxy": "POSE_PROXY_HEAD",
+        "bounds": [
+          [
+            46.151001525878904,
+            19.35117204284668,
+            5.231000019073487
+          ],
+          [
+            46.47899954223633,
+            20.388827728271483,
+            5.549000190734863
+          ]
+        ],
+        "triangle_surface_intersections": 0
+      },
+      {
+        "proxy": "POSE_PROXY_THIGHS",
+        "bounds": [
+          [
+            45.93100030517578,
+            19.6210008392334,
+            4.430999828338623
+          ],
+          [
+            46.359000610351565,
+            20.119000839233397,
+            4.649000095367431
+          ]
+        ],
+        "triangle_surface_intersections": 0
+      },
+      {
+        "proxy": "POSE_PROXY_SHINS",
+        "bounds": [
+          [
+            45.93100030517578,
+            19.6210008392334,
+            4.001
+          ],
+          [
+            46.07900183105469,
+            20.119000839233397,
+            4.439000057220459
+          ]
+        ],
+        "triangle_surface_intersections": 0
+      }
+    ],
+    "scope": "static surface intersection, not continuous transition, approved seated art or all seats"
+  },
+  "images": {
+    "SL_BLD_C01_MAIN_01_TRIAL_01_A.png": {
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    "SL_BLD_C01_MAIN_01_TRIAL_01_B.png": {
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    "SL_BLD_C01_MAIN_01_TRIAL_01_CLASS_PULLED.png": {
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    "SL_BLD_C01_MAIN_01_TRIAL_01_CLASS_REST.png": {
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    "SL_BLD_C01_MAIN_01_TRIAL_01_COURT_TERRACE.png": {
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    "SL_BLD_C01_MAIN_01_TRIAL_01_DENSITY_32.png": {
+      "size": [
+        1600,
+        1200
+      ],
+      "mode": "RGB"
+    },
+    "SL_BLD_C01_MAIN_01_TRIAL_01_DENSITY_64.png": {
+      "size": [
+        1600,
+        1200
+      ],
+      "mode": "RGB"
+    },
+    "SL_BLD_C01_MAIN_01_TRIAL_01_ENTRY.png": {
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    "SL_BLD_C01_MAIN_01_TRIAL_01_F02.png": {
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    "SL_BLD_C01_MAIN_01_TRIAL_01_FINITE_CLASS.png": {
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    "SL_BLD_C01_MAIN_01_TRIAL_01_FINITE_SHOE_FAIL.png": {
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    "SL_BLD_C01_MAIN_01_TRIAL_01_LAYERS.png": {
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    "SL_BLD_C01_MAIN_01_TRIAL_01_ROOF.png": {
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    "SL_BLD_C01_MAIN_01_TRIAL_01_SHOES_ONE_SIDE.png": {
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    "SL_BLD_C01_MAIN_01_TRIAL_01_SHOES_TWO_SIDE_FAIL.png": {
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    },
+    "SL_BLD_C01_MAIN_01_TRIAL_01_SHOE_CELL.png": {
+      "size": [
+        1600,
+        1200
+      ],
+      "mode": "RGB"
+    },
+    "SL_BLD_C01_MAIN_01_TRIAL_01_STAIR.png": {
+      "size": [
+        2560,
+        1440
+      ],
+      "mode": "RGB"
+    }
+  },
+  "note": "Static trial evidence only. No gameplay, compliance, structural or crowd claim."
+}

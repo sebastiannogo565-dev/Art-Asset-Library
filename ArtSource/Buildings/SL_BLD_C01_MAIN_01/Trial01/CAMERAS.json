@@ -1,0 +1,295 @@
+[
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_A.png",
+    "target": [
+      75,
+      14,
+      5.5
+    ],
+    "azimuth": 225,
+    "elevation": 30,
+    "ortho_scale": 150,
+    "size": [
+      2560,
+      1440
+    ],
+    "sun": "same early summer sun/world/AgX",
+    "display_only_cut": false
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_B.png",
+    "target": [
+      75,
+      14,
+      5.5
+    ],
+    "azimuth": 45,
+    "elevation": 30,
+    "ortho_scale": 150,
+    "size": [
+      2560,
+      1440
+    ],
+    "sun": "same early summer sun/world/AgX",
+    "display_only_cut": false
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_ENTRY.png",
+    "target": [
+      25,
+      3,
+      2
+    ],
+    "azimuth": 240,
+    "elevation": 30,
+    "ortho_scale": 20,
+    "size": [
+      2560,
+      1440
+    ],
+    "sun": "same early summer sun/world/AgX",
+    "display_only_cut": false
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_ROOF.png",
+    "target": [
+      80,
+      16,
+      5
+    ],
+    "azimuth": 225,
+    "elevation": 75,
+    "ortho_scale": 156,
+    "size": [
+      2560,
+      1440
+    ],
+    "sun": "same early summer sun/world/AgX",
+    "display_only_cut": false
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_CLASS_REST.png",
+    "target": [
+      45.2,
+      17.3,
+      4.8
+    ],
+    "azimuth": 315,
+    "elevation": 30,
+    "ortho_scale": 13.5,
+    "size": [
+      2560,
+      1440
+    ],
+    "sun": "same early summer sun/world/AgX",
+    "display_only_cut": true
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_SHOES_ONE_SIDE.png",
+    "target": [
+      24,
+      4.5,
+      0.7
+    ],
+    "azimuth": 225,
+    "elevation": 30,
+    "ortho_scale": 15,
+    "size": [
+      2560,
+      1440
+    ],
+    "sun": "same early summer sun/world/AgX",
+    "display_only_cut": true
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_SHOES_TWO_SIDE_FAIL.png",
+    "target": [
+      24,
+      4.5,
+      0.7
+    ],
+    "azimuth": 225,
+    "elevation": 30,
+    "ortho_scale": 15,
+    "size": [
+      2560,
+      1440
+    ],
+    "sun": "same early summer sun/world/AgX",
+    "display_only_cut": true
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_STAIR.png",
+    "target": [
+      34,
+      4.6,
+      3.8
+    ],
+    "azimuth": 315,
+    "elevation": 30,
+    "ortho_scale": 13.5,
+    "size": [
+      2560,
+      1440
+    ],
+    "sun": "same early summer sun/world/AgX",
+    "display_only_cut": true
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_FINITE_CLASS.png",
+    "target": [
+      45.2,
+      17.3,
+      4.8
+    ],
+    "azimuth": 315,
+    "elevation": 30,
+    "ortho_scale": 13.5,
+    "size": [
+      2560,
+      1440
+    ],
+    "display_only_cut": true,
+    "sun": "same early summer sun/world/AgX"
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_FINITE_SHOE_FAIL.png",
+    "target": [
+      24,
+      4.5,
+      0.7
+    ],
+    "azimuth": 225,
+    "elevation": 30,
+    "ortho_scale": 15,
+    "size": [
+      2560,
+      1440
+    ],
+    "display_only_cut": true,
+    "sun": "same early summer sun/world/AgX"
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_SHOE_CELL.png",
+    "target": [
+      20.95,
+      2.48,
+      0.73
+    ],
+    "azimuth": 60,
+    "elevation": 30,
+    "ortho_scale": 0.58,
+    "size": [
+      1600,
+      1200
+    ],
+    "display_only_cut": true,
+    "sun": "same early summer sun/world/AgX"
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_DENSITY_64.png",
+    "target": [
+      1.05,
+      -0.05,
+      0.45
+    ],
+    "azimuth": 270,
+    "elevation": 30,
+    "ortho_scale": 3.2,
+    "size": [
+      1600,
+      1200
+    ],
+    "display_only_cut": true,
+    "sun": "same early summer sun/world/AgX"
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_DENSITY_32.png",
+    "target": [
+      1.05,
+      -0.05,
+      0.45
+    ],
+    "azimuth": 270,
+    "elevation": 30,
+    "ortho_scale": 3.2,
+    "size": [
+      1600,
+      1200
+    ],
+    "display_only_cut": true,
+    "sun": "same early summer sun/world/AgX"
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_CLASS_PULLED.png",
+    "target": [
+      45.20000076293945,
+      17.299999237060547,
+      4.800000190734863
+    ],
+    "azimuth": 315,
+    "elevation": 30,
+    "ortho_scale": 13.5,
+    "size": [
+      2560,
+      1440
+    ],
+    "display_only_cut": true,
+    "sun": "same early summer sun/world/AgX",
+    "update": "final shaft corner/pose verification"
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_LAYERS.png",
+    "target": [
+      75.0,
+      14.0,
+      4.0
+    ],
+    "azimuth": 225,
+    "elevation": 40,
+    "ortho_scale": 152,
+    "size": [
+      2560,
+      1440
+    ],
+    "display_only_cut": true,
+    "sun": "same early summer sun/world/AgX",
+    "update": "final shaft corner/pose verification"
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_F02.png",
+    "target": [
+      75.0,
+      14.0,
+      4.5
+    ],
+    "azimuth": 225,
+    "elevation": 40,
+    "ortho_scale": 150,
+    "size": [
+      2560,
+      1440
+    ],
+    "display_only_cut": true,
+    "sun": "same early summer sun/world/AgX",
+    "update": "final shaft corner/pose verification"
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_COURT_TERRACE.png",
+    "target": [
+      79.0,
+      14.0,
+      4.699999809265137
+    ],
+    "azimuth": 225,
+    "elevation": 30,
+    "ortho_scale": 41,
+    "size": [
+      2560,
+      1440
+    ],
+    "display_only_cut": true,
+    "sun": "same early summer sun/world/AgX",
+    "update": "final shaft corner/pose verification"
+  }
+]

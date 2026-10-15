@@ -1,0 +1,147 @@
+{
+  "player_states": [
+    {
+      "chairs": "rest",
+      "main_route_center_clearance": 0.5500030517578125,
+      "full_width": 1.100006103515625,
+      "main_width_1_10_pass": true,
+      "business_distance": 0.5518408863154015,
+      "business_055_pass": true,
+      "recovery_distance": 0.8476602876543418
+    },
+    {
+      "chairs": "pulled .25m",
+      "main_route_center_clearance": 0.5500030517578125,
+      "full_width": 1.100006103515625,
+      "main_width_1_10_pass": true,
+      "business_distance": 0.5518408863154015,
+      "business_055_pass": true,
+      "recovery_distance": 0.8476602876543418
+    }
+  ],
+  "shoe": {
+    "nominal": 900,
+    "main": 600,
+    "link": 300,
+    "shoe_assumption": {
+      "length": 0.29,
+      "width": 0.105,
+      "height": 0.115,
+      "pair_width": 0.235,
+      "depth_allowance": 0.01
+    },
+    "previous_gross": 0.6,
+    "previous_effective_depth": 0.27399999999999997,
+    "new_gross": 0.66,
+    "new_effective_depth": 0.304,
+    "min_cavity_width": 0.288,
+    "min_cavity_height": 0.263,
+    "door_open_height": 0.138,
+    "depth_margin": 0.004,
+    "aisle": 1.94,
+    "one_operation_strip": 0.7,
+    "one_active_free": 1.24,
+    "two_active_free": 0.54,
+    "two_active_pass": false,
+    "top_row_bottom": 1.2,
+    "top_row_reach": "door handle1.328m; reach/actual shoe handling not validated",
+    "closed_front_track_in_cabinet": true,
+    "hardware": "candidate half-height vertical lift; no tested fastener/tool tolerances"
+  },
+  "limits": [
+    {
+      "id": "SEAT_TRANSITION",
+      "status": "NOT_PASSED",
+      "detail": "Own chair occupies endpoint. Static lateral sit candidate only; continuous body/joint motion and full-size seated character art unavailable. Standing capsule cannot be swept through chair."
+    },
+    {
+      "id": "PAIRED_OCCUPANTS",
+      "status": "STATIC_ENVELOPE_CANDIDATE",
+      "detail": "Trial-only pair pitch1.06m vs conservative unchanged art width1.039655m: no static shoulder overlap, only .020345m pair margin. Occupied inter-pair aisle1.100345m. Sitting/motion not approved.",
+      "gap": 0.020344827586207
+    },
+    {
+      "id": "LOCKER_TWO_ACTIVE",
+      "status": "NOT_PASSED",
+      "detail": "Two .70m operating envelopes leave .54m, below .68m capsule and1.039655m art width."
+    },
+    {
+      "id": "FRONT_CROSSING",
+      "status": "NOT_PASSED",
+      "detail": "Arrival and departure paths cross near y1.375; simultaneous finite envelopes collide."
+    },
+    {
+      "id": "UPPER_BANK_QUEUE",
+      "status": "NOT_PASSED",
+      "detail": "Queue at22.9/6.2 and22.9/7.9 consumes1.2m cabinet-end branch; .68m capsule leaves.52m, character1.039655 leaves.160345m."
+    },
+    {
+      "id": "RT01",
+      "status": "NOT_OPEN",
+      "detail": "Original588m2 retained only as metadata. No support, door, access route or export geometry created."
+    },
+    {
+      "id": "TERRACE",
+      "status": "CANDIDATE",
+      "detail": "Geometry finish8.03/guard9.23 synchronized. Waterproofing, slope, real drainage, anchoring not certified."
+    }
+  ],
+  "stairs": [
+    {
+      "id": "S1",
+      "opening": [
+        31.6,
+        0.9,
+        36.3,
+        6.4
+      ],
+      "clear_run": 2.2,
+      "risers_per_floor": 24,
+      "going": 0.3,
+      "rise": 0.16666666666666666,
+      "mid_depth": 2.2,
+      "headroom_parallel_flight": null,
+      "top_landing_depth": 2.4000000000000004,
+      "headroom_status": "native vertical-ray samples; see STAIR_HEADROOM.json",
+      "headroom_measured_min": 3.736136118570964
+    },
+    {
+      "id": "S2",
+      "opening": [
+        87.6,
+        0.9,
+        92.3,
+        6.4
+      ],
+      "clear_run": 2.2,
+      "risers_per_floor": 24,
+      "going": 0.3,
+      "rise": 0.16666666666666666,
+      "mid_depth": 2.2,
+      "headroom_parallel_flight": null,
+      "top_landing_depth": 2.4000000000000004,
+      "headroom_status": "native vertical-ray samples; see STAIR_HEADROOM.json",
+      "headroom_measured_min": 3.736136118570964
+    },
+    {
+      "id": "S3",
+      "opening": [
+        143.6,
+        0.9,
+        148.3,
+        6.4
+      ],
+      "clear_run": 2.2,
+      "risers_per_floor": 24,
+      "going": 0.3,
+      "rise": 0.16666666666666666,
+      "mid_depth": 2.2,
+      "headroom_parallel_flight": null,
+      "top_landing_depth": 2.4000000000000004,
+      "headroom_status": "native vertical-ray samples; see STAIR_HEADROOM.json",
+      "headroom_measured_min": 3.736136118570964
+    }
+  ],
+  "scope": "finite static geometry/analytic; no navigation or gameplay",
+  "baseline_tolerance_m": 2e-06
+}

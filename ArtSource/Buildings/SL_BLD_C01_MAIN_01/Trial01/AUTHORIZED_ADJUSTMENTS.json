@@ -1,0 +1,15 @@
+{
+  "changes": [
+    "Player paired column pitch .90 ->1.06; Y13.47,14.53,16.67,17.73,19.87,20.93; original30 seats/room/door/business fixed",
+    "Player actual approach y18.70 ->18.80 and seat y19.625 ->19.870; recovery(45,18.7) remains candidate unchanged",
+    "Shared desk legs y+/-.26 ->+/-.29 within original .65m desktop to clear finite knee proxy",
+    "Main locker double depth .60 -> .66; capacity/room/positions unchanged",
+    "Actual cabinet boards and two-panel vertical sliding front candidate",
+    "All background classrooms use linked 30-seat desk/chair sources",
+    "Sliding door panels park on interior face, not embedded in solid wall; opening widths unchanged",
+    "Main left changing bench shortened .15m to x21.85; right waiting bench moved to x28.15..29.30 to clear parked glass leaves",
+    "Lift shaft south wall corner caps extended into corner thickness; net shaft dimensions unchanged"
+  ],
+  "fixed_baselines_changed": false,
+  "protected_inputs_modified": false
+}

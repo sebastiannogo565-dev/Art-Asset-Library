@@ -1,0 +1,5178 @@
+{
+  "blend_sha256": "1dac8c823a9c414fc362138d6066f1b47e608007a2a93b3ea039dcd6d6a6d879",
+  "bbox": [
+    [
+      0.0,
+      0.0,
+      -0.25
+    ],
+    [
+      150.0,
+      28.0,
+      13.680000305175781
+    ]
+  ],
+  "objects": 2224,
+  "unique_meshes": 786,
+  "missing_uv": [],
+  "density_min": 63.7729916894805,
+  "density_max": 64.1880531306713,
+  "images": [
+    {
+      "name": "BAND_REV_BC.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "BAND_REV_R.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "BOARD_BC.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "BOARD_R.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "CHAIR_BC.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "CHAIR_R.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "ENTRY_FRAME_BC.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "ENTRY_FRAME_R.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "ENTRY_WOOD_32_BC.png",
+      "packed": true,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "ENTRY_WOOD_32_R.png",
+      "packed": true,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "ENTRY_WOOD_BC.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "ENTRY_WOOD_R.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "FLOOR_32_BC.png",
+      "packed": true,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "FLOOR_32_R.png",
+      "packed": true,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "FLOOR_BC.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "FLOOR_R.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "FRAME_BC.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "FRAME_R.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "GLASS_BC.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "GLASS_R.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "METAL_BC.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "METAL_R.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "RAIL_BC.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "RAIL_R.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "ROOF_BC.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "ROOF_R.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "SKYLIGHT_BC.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "SKYLIGHT_R.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "StudentChibi_Front_Idle.png",
+      "packed": true,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "WALL_32_BC.png",
+      "packed": true,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "WALL_32_R.png",
+      "packed": true,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "WALL_BC.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "WALL_R.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "WOOD_BC.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "WOOD_R.png",
+      "packed": true,
+      "size": [
+        256,
+        256
+      ]
+    }
+  ],
+  "holes": [
+    {
+      "floor": 2,
+      "opening": "COURT",
+      "slab_clear": true,
+      "lower_ceiling_clear": true
+    },
+    {
+      "floor": 2,
+      "opening": "LIFT",
+      "slab_clear": true,
+      "lower_ceiling_clear": true
+    },
+    {
+      "floor": 2,
+      "opening": "S1",
+      "slab_clear": true,
+      "lower_ceiling_clear": true
+    },
+    {
+      "floor": 2,
+      "opening": "S2",
+      "slab_clear": true,
+      "lower_ceiling_clear": true
+    },
+    {
+      "floor": 2,
+      "opening": "S3",
+      "slab_clear": true,
+      "lower_ceiling_clear": true
+    },
+    {
+      "floor": 3,
+      "opening": "COURT",
+      "slab_clear": true,
+      "lower_ceiling_clear": true
+    },
+    {
+      "floor": 3,
+      "opening": "LIFT",
+      "slab_clear": true,
+      "lower_ceiling_clear": true
+    },
+    {
+      "floor": 3,
+      "opening": "S1",
+      "slab_clear": true,
+      "lower_ceiling_clear": true
+    },
+    {
+      "floor": 3,
+      "opening": "S2",
+      "slab_clear": true,
+      "lower_ceiling_clear": true
+    },
+    {
+      "floor": 3,
+      "opening": "S3",
+      "slab_clear": true,
+      "lower_ceiling_clear": true
+    }
+  ],
+  "topology": [
+    {
+      "mesh": "OPEN_F3_LE_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.020",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "GABLE_END_150",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "CORE_PARAPET",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_S1_F1_S",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_EG_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_END_150_F2",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_W4_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WL_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_CL_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_52_F2_S_4",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WH_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.032",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_W3_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F2_POSTS.002",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WH_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "S1_MID_0",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.033",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_CE_STORAGE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S2.005",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TOP_EDGE_S3_TOP.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_CE_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SKYLIGHT_FRAME.007",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.020",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F2_INFILL.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "S1_L4_UP2",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_S3_F2_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.026",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TOP_EDGE_S1_TOP",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "ENTRY_THRESHOLD_C01_E",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_S1_F1_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.006",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S1.007",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_W_S3_POSTS.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "P6_TERRACE_0",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_BACK_S3_TOP.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_CB_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_W1_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_CE_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_E_S1_INFILL",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "LOCKER_MAIN_W2_CARCASS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "P2_A",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F3_TOP.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_CS_STORAGE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WG_W_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_LE_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_ES_STORAGE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.027",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TERRACE_GUARD_TOP.002",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_EWC_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_W_S1_POSTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_BACK_S2_TOP",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.034",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S1.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TOP_EDGE_S2_TOP.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WL_W_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_94_F2_S_3",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_CW_W_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_LW_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WL_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "GABLE_END_106",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SKYLIGHT_RIDGE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WH_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_E2_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_94_F2_S_1",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_EWC_SINK_BLOCKS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.035",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.035",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_S1_F2_S",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_E3_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "PARTITIONS_F01_DOOR_BAND",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.008",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SKYLIGHT_FRAME.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.014",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WO_E_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.020",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.021",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S3.005",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_CW_W_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_WH_STORAGE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.015",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_W1_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WO_S_04",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_W2_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "P4_E",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_E2_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_BACK_S1_TOP",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "LOCKER_LINK_2_CARCASS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F2_INFILL.003",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_52_F2_S_2",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "CEILING_F01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.028",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WO_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.028",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "P4_SHORT_TABLE_W",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_BACK_S3_INFILL",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "S3_L0_UP1",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_CN_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_WH_STORAGE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TERRACE_GUARD_INFILL.002",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_E_S2_INFILL.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.008",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_END_0_F2",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_CW_W_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WG_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_E2_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_E2_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_ES_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_E_S3_POSTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_E3_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.004",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_EWC_SINK_BLOCKS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WG_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WG_W_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_ES_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_CS_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "GABLE_END_0",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_W1_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_E3_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.029",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WH_S_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "LOCKER_MAIN_E3_FRONTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_W4_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_W_S2_TOP",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_E4_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_W3_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_CW_STORAGE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.002",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F3_INFILL.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAINPIPE.002",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_W1_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WH_S_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.014",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.015",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S3",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_W3_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_E2_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_W1_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WL_S_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_S1_F3_S",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_S2_F3_S",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WO_S_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_W2_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_E3_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_S3_F3_S",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_EG_S_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_E4_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S3.007",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.022",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_CB_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WL_S_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.023",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WL_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_W4_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F2_POSTS.003",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.035",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "S2_L0_UP1",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_LW_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_S3_F1_S",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_E2_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_C01_E",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_CS_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_CS_STORAGE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S2.007",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_EG_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WWC_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_CL_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_E3_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.022",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SKYLIGHT_FRAME.010",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_E2_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_S3_F3_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_CN_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_EWC_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TOP_EDGE_S2_INFILL",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_W4_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "EXT_WHOLE_UNION",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WO_S_04",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_CB_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_E1_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_LW_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.008",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S2.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_LE_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.009",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.037",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_W_S3_TOP.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_CL_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_CE_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SLAB_F03_ACTUAL",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_W2_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_E_S1_POSTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "LOCKER_MAIN_W3_CARCASS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_52_F3_S_2",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WG_W_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAINPIPE.004",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_EWC_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_CE_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_W4_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WWC_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "P2_NOTICE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F3_TOP.003",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_CW_STORAGE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.029",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_W_S1_TOP",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TOP_EDGE_S1_INFILL",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_E4_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_W3_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_E3_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_EG_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "CORE_ROOF",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "FRONT_LOW_ROOF_18",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SKYLIGHT_GLASS_15",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_52_F2_S_1",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_W4_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WG_W_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_W2_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S1.003",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TOP_EDGE_S3_INFILL.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_WO_STORAGE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_S2_F2_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S2.002",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TOP_EDGE_S3_POSTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.037",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_WH_STORAGE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_E4_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.010",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.016",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SKYLIGHT_FRAME.004",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.017",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "S1_L0_UP1",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.023",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_E1_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_WO_STORAGE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.017",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "LOCKER_MAIN_E1_CARCASS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.030",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.003",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S1.004",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_W_S3_INFILL",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "P5_EDGE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SLAB_F02_ACTUAL",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_BACK_S3_POSTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.003",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "S3_L4_UP1",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_E_S2_POSTS.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.010",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "P1_CHANGE_W",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_WWC_SINK_BLOCKS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F3_POSTS.003",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_EWC_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WG_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_E3_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_E_S3_TOP",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_BACK_S2_INFILL.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_W1_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_ES_S_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WG_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_CS_W_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "GABLE_END_52",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_W2_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TOP_EDGE_S2_POSTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_E4_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.031",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.032",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_C01_MAIN",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_CW_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_94_F3_S_2",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WH_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_94_F1_S_4",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_52_F1_S_4",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "FRONT_LOW_ROOF_142",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SKYLIGHT_FRAME.017",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "CORE_PARAPET.002",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_E1_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_E4_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_E1_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F3_POSTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F3_INFILL.003",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.011",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "S3_MID_0",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WL_D_REV",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.017",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S3.002",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_W3_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WO_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_W1_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_W1_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "P3_LOW_RETURN",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_E1_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_BACK_S1_INFILL.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "LINK_ROOF_52",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.024",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_52_F1_S_3",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.025",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WL_W_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.025",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F2_TOP",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WL_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.037",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "S2_L4_UP1",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_W3_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_LW_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.005",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_C01_N",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_CW_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_EG_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_E2_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "ROOF_GABLE_0_3.4",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WG_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_EG_S_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_W4_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_CN_E_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_WWC_SINK_BLOCKS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "PARTITIONS_F03_DOOR_BAND",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_TERRACE_ACCESS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_E2_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_W4_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_W_S2_INFILL.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WG_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_CE_STORAGE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WWC_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_CB_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_E2_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_W1_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F2_TOP.002",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_LW_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "CEILING_F02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.011",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.039",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_CL_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_CL_W_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TERRACE_FINISH",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_W3_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_E_S1_TOP",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_E4_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_E3_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WH_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_52_F3_S_4",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_LE_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_E1_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_LW_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_W1_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WO_E_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_E2_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_E1_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_E4_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_E3_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "CORE_PARAPET.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WWC_W_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.019",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.031",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_W2_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_E4_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_LE_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WWC_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_E2_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_WWC_SINK_BLOCKS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_S2_F3_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S2.004",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TOP_EDGE_S3_TOP",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_ES_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.039",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_CE_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_E1_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_S2_F1_S",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_ES_STORAGE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "PARTITIONS_F02_DOOR_BAND",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.012",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.019",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F2_INFILL",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "S1_L4_UP1",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.025",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_ES_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_CN_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TOP_EDGE_S1_POSTS.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SKYLIGHT_GLASS_19.5",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_94_F3_S_4",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "LOCKER_MAIN_E2_CARCASS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WO_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_E1_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_LW_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.005",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S1.006",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_W_S3_POSTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_CS_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "P6_BUFFER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_BACK_S3_TOP",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TERRACE_GUARD_POSTS.002",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_E_S2_TOP.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_W3_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_CB_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "P1_WAIT",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F3_TOP",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WG_W_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_E4_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_EWC_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_EWC_S_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TERRACE_GUARD_TOP.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_W_S1_INFILL.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_BACK_S2_POSTS.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_W2_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WO_S_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_E3_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S1",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TOP_EDGE_S2_TOP",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.033",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_W4_DESK_1_1",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_52_F1_S_2",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "ROOF_GABLE_106_3.4",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SKYLIGHT_FRAME.003",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SKYLIGHT_FRAME.009",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SKYLIGHT_FRAME.015",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_CW_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WH_S_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_EWC_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_LE_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_LE_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_E2_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_E2_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_S1_F2_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "P6_TERRACE_1",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.006",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.007",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F3_POSTS.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.013",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.019",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WO_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S3.004",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_CW_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_W4_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.014",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "P3_WINDOW",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_E2_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_BACK_S1_POSTS.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "LOCKER_LINK_1_CARCASS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "LOCKER_LINK_1_FRONTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F2_INFILL.002",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.027",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.027",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "S2_MID_4",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_W4_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TERRACE_GUARD_INFILL.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_E_S2_INFILL",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.007",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_E1_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_E_S3_INFILL.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_EG_W_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_CN_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_W1_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WG_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "PARTITIONS_F03_HEAD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SKYLIGHT_FRAME.014",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "LOCKER_MAIN_E3_CARCASS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_W_S2_POSTS.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WG_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_CS_STORAGE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_E4_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_W3_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F3_INFILL",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAINPIPE.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.013",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_W2_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_EG_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_E4_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_LE_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WH_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WO_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_LW_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_E1_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_CB_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_52_F1_S_1",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_94_F1_S_1",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "ROOF_GABLE_106_13",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "LINK_ROOF_94",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_94_F1_S_2",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.021",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S3.006",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_CB_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WL_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_W3_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "S1_MID_4",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.034",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_LE_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_S3_F1_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "VISITOR_DESK",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S2.006",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WWC_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_EG_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_CL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_E1_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SKYLIGHT_FRAME.008",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.021",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_S3_F2_S",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_E2_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_CN_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_ES_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TOP_EDGE_S1_TOP.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SLAB_F01_ACTUAL",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "ENTRY_THRESHOLD_C01_MAIN",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_W4_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "ENTRY_THRESHOLD_C01_N",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_E1_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_LW_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.007",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S2",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_W_S3_TOP",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_CE_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_W1_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_CL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_E_S1_INFILL.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "LOCKER_MAIN_W2_FRONTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_EWC_S_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_52_F3_S_1",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WG_N_04",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAINPIPE.003",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_W3_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "P2_B",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_CB_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F3_TOP.002",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_END_0_F3",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.028",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TERRACE_PIPE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_LE_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_W_S1_POSTS.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_BACK_S2_TOP.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_E3_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WWC_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_EG_S_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WWC_W_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_W3_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_W4_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_CB_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_CL_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_CB_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_CS_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_W1_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S1.002",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TOP_EDGE_S3_INFILL",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_ES_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.036",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_94_F2_S_2",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_W4_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.036",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_CW_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_E3_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_S1_F3_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.009",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SKYLIGHT_FRAME.002",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F3_POSTS.002",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.015",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.022",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_CW_W_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.016",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_W2_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "P4_SHORT_TABLE_E",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SKYLIGHT_FRAME.016",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_94_F3_S_1",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_W2_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_E3_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WO_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_BACK_S1_TOP.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "LOCKER_LINK_2_FRONTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F2_POSTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_52_F2_S_3",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.029",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_CN_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "P4_W",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_BACK_S3_INFILL.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.002",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "S3_L0_UP2",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.002",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TERRACE_GUARD_POSTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_E_S2_POSTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.009",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_EWC_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WG_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_E3_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_E_S3_POSTS.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_E3_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_BACK_S2_INFILL",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_W1_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_ES_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WG_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_W2_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_CS_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_E4_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.030",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "LOCKER_MAIN_W1_CARCASS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WH_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WG_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_W_S2_TOP.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.031",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.003",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_CL_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F3_INFILL.002",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "ROOF_GABLE_0_13",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SKYLIGHT_FRAME",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SKYLIGHT_FRAME.006",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SKYLIGHT_FRAME.012",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WO_S_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_ES_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_CN_E_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_CN_E_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_ES_S_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_W2_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WH_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.016",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_W3_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S3.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_E4_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_EG_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "P2_TABLE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_BACK_S1_INFILL",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "LINK_CHANGE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.023",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WL_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.024",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_W4_CHAIR_1_1",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.036",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "S2_L0_UP2",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_W3_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_CW_STORAGE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "PARTITIONS_F02_HEAD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SKYLIGHT_FRAME.011",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_E2_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_CS_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_EWC_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_W_S2_INFILL",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TOP_EDGE_S2_INFILL.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WO_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_E2_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_W1_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_LW_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.010",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.038",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TERRACE_DRAIN_CHANNEL",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_CL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_W2_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_E_S1_POSTS.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "LOCKER_MAIN_W3_FRONTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_52_F3_S_3",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WG_W_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAINPIPE.005",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_LE_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WWC_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_LE_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_CW_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WO_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_E1_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_LW_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_END_150_F3",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_END_150_F1",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_E3_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WO_S_04",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_W1_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.030",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_W_S1_TOP.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TOP_EDGE_S1_INFILL.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_W2_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WWC_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_E4_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_S2_F2_S",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S2.003",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TOP_EDGE_S3_POSTS.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_ES_S_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.038",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_94_F2_S_4",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_CB_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_CW_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_E4_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_S2_F1_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "PARTITIONS_F01_HEAD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.011",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SKYLIGHT_FRAME.005",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.018",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "S1_L0_UP2",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.024",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_E1_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.018",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TOP_EDGE_S1_POSTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_94_F3_S_3",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_E_S1_TOP.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "LOCKER_MAIN_E1_FRONTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F2_POSTS.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.004",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S1.005",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_W_S3_INFILL.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "P5_NOTICE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_BACK_S3_POSTS.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.004",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "S3_L4_UP2",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "LOCKER_MAIN_W1_FRONTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TERRACE_GUARD_POSTS.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_E_S2_TOP",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_CB_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_W3_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "P1_PHOTOS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_CE_STORAGE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_EWC_S_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WG_N_04",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_E4_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_E_S3_TOP.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TERRACE_GUARD_TOP",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_EWC_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_W_S1_INFILL",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_BACK_S2_POSTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_W3_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_W2_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.034",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TOP_EDGE_S2_POSTS.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_ES_STORAGE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.032",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WWC_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_E4_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_W1_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_W2_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_W3_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WWC_W_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_EG_W_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_CL_W_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_CL_W_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_ES_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_LINK_94_F1_S_3",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.033",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_EG_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_E1_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_W4_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.005",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.012",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "S3_MID_4",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WL_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.018",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "HANDRAIL_S3.003",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_W3_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_CW_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_W4_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.013",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_W1_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WO_S_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "P3_TABLE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F3_E1_TEACHER",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_W2_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_BACK_S1_POSTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S3.026",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WO_E_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.026",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_WL_W_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F2_TOP.001",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.038",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.039",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "S2_MID_0",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "S2_L4_UP2",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_W4_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S2.006",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_END_0_F1",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F2_E1_BOARD",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_CW_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_EG_W_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_E_S3_INFILL",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_E3_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WG_N_04",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_W4_N_03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_CN_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "F1_EWC_SINK_BLOCKS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_EG_TRIAL_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "SKYLIGHT_FRAME.013",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F3_E3_D",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_WH_S_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "LOCKER_MAIN_E2_FRONTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_W4_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "MID_W_S2_POSTS",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_WG_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "COURT_F2_TOP.003",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F1_LW_N_02",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAINPIPE",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "CEILING_F03",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "RAIL_POST_S1.012",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "TERRACE_GUARD_INFILL",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "mesh": "OPEN_F2_W2_N_01",
+      "degenerate_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  ],
+  "default_visible_groups": [
+    "ROOF",
+    "EXTERIOR",
+    "SLAB_F01",
+    "INTERIOR_F01",
+    "PARTITIONS_F01",
+    "CEILING_F01",
+    "SLAB_F02",
+    "INTERIOR_F02",
+    "PARTITIONS_F02",
+    "CEILING_F02",
+    "SLAB_F03",
+    "INTERIOR_F03",
+    "PARTITIONS_F03",
+    "CEILING_F03",
+    "STAIR_CORE_S1",
+    "STAIR_CORE_S2",
+    "STAIR_CORE_S3"
+  ],
+  "density_measurement": {
+    "area_threshold_m2": 0.0001,
+    "excluded_sub_cm2_faces": 15458,
+    "unfiltered_range": [
+      63.7729916894805,
+      64.1880531306713
+    ],
+    "reason": "Subpixel contact faces near global UV coordinates suffer float cancellation; full UV presence and topology still checked for all faces."
+  },
+  "material_area_m2": {
+    "ROOF": 6066.957580566406,
+    "WALL": 35652.51582132545,
+    "SKYLIGHT": 720.7293885648251,
+    "FRAME": 1888.310327856685,
+    "BAND_REV": 1664.7551982830046,
+    "ENTRY_FRAME": 90.5880346307531,
+    "GLASS": 3325.1542126145214,
+    "RAIL": 101.87684841267765,
+    "METAL": 783.6435683246818,
+    "ENTRY_WOOD": 56.800019594607875,
+    "FLOOR": 17516.030843883753,
+    "WOOD": 711.6922501064837,
+    "CHAIR": 635.4719648882747,
+    "BOARD": 264.53508108854294
+  },
+  "character_packed_sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd",
+  "character_disk_sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd",
+  "entry_ray_clearances": [
+    {
+      "id": "C01_MAIN",
+      "distances": [
+        1.5,
+        1.5
+      ],
+      "actual_clear": 3.0
+    },
+    {
+      "id": "C01_N",
+      "distances": [
+        1.5,
+        1.5
+      ],
+      "actual_clear": 3.0
+    },
+    {
+      "id": "C01_E",
+      "distances": [
+        1.5,
+        1.5
+      ],
+      "actual_clear": 3.0
+    },
+    {
+      "id": "F2_W4_D",
+      "distances": [
+        0.7999992460008882,
+        0.7999992460008882
+      ],
+      "actual_clear": 1.5999984920017765
+    },
+    {
+      "id": "TERRACE_ACCESS",
+      "distances": [
+        0.80000304579155,
+        0.80000304579155
+      ],
+      "actual_clear": 1.6000060915831
+    },
+    {
+      "id": "F1_WL_D_REV",
+      "distances": [
+        1.5,
+        1.5
+      ],
+      "actual_clear": 3.0
+    }
+  ]
+}

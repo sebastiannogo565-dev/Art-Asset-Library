@@ -1,0 +1,70 @@
+{
+  "mesh_objects": 2224,
+  "unique_mesh_sources": 786,
+  "linked_placements": 1438,
+  "source_vertices": 233396,
+  "source_triangles": 456716,
+  "placed_vertices": 457724,
+  "placed_triangles": 896744,
+  "materials": 14,
+  "texture_pngs": 48,
+  "architectural_bbox": [
+    [
+      0.0,
+      0.0,
+      -0.25
+    ],
+    [
+      150.0,
+      28.0,
+      13.680000305175781
+    ]
+  ],
+  "classrooms": {
+    "F2_W4": 30,
+    "F1_W1": 30,
+    "F1_W2": 30,
+    "F1_W3": 30,
+    "F1_W4": 30,
+    "F1_E1": 30,
+    "F1_E2": 30,
+    "F1_E3": 30,
+    "F1_E4": 30,
+    "F2_W1": 30,
+    "F2_W2": 30,
+    "F2_W3": 30,
+    "F2_E1": 30,
+    "F2_E2": 30,
+    "F2_E3": 30,
+    "F2_E4": 30,
+    "F3_W1": 30,
+    "F3_W2": 30,
+    "F3_W3": 30,
+    "F3_W4": 30,
+    "F3_E1": 30,
+    "F3_E2": 30,
+    "F3_E3": 30,
+    "F3_E4": 30
+  },
+  "locker_nominal": 900,
+  "groups": {
+    "ROOF": 37,
+    "EXTERIOR": 284,
+    "SLAB_F01": 4,
+    "INTERIOR_F01": 558,
+    "PARTITIONS_F01": 2,
+    "CEILING_F01": 1,
+    "SLAB_F02": 1,
+    "INTERIOR_F02": 549,
+    "PARTITIONS_F02": 2,
+    "CEILING_F02": 1,
+    "SLAB_F03": 2,
+    "INTERIOR_F03": 546,
+    "PARTITIONS_F03": 2,
+    "CEILING_F03": 1,
+    "STAIR_CORE_S1": 78,
+    "STAIR_CORE_S2": 78,
+    "STAIR_CORE_S3": 78
+  },
+  "reference_imported": false
+}

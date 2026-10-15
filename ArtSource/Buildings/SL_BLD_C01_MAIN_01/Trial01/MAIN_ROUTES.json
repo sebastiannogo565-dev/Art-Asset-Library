@@ -1,0 +1,212 @@
+{
+  "method": "0.20m stations / 16 radial directions / 5 heights of .68x1.92 capsule; actual WHOLE mesh BVH",
+  "scope": "indoor horizontal sections and landings only; actual stair headroom separate; no continuous sweep/nav/crowds/outer map claim",
+  "routes": [
+    {
+      "id": "DAILY_01",
+      "floor": 0,
+      "points": [
+        [
+          25,
+          0
+        ],
+        [
+          25,
+          8.8
+        ],
+        [
+          25,
+          10.9
+        ],
+        [
+          34,
+          10.9
+        ],
+        [
+          34,
+          7.5
+        ],
+        [
+          32.7,
+          7.5
+        ],
+        [
+          32.7,
+          6.8
+        ]
+      ],
+      "stations": 134,
+      "blocked_stations": [],
+      "sampled_capsule_clear": true
+    },
+    {
+      "id": "DAILY_01",
+      "floor": 4,
+      "points": [
+        [
+          35.2,
+          6.8
+        ],
+        [
+          35.2,
+          7.5
+        ],
+        [
+          34,
+          7.5
+        ],
+        [
+          34,
+          10.9
+        ],
+        [
+          45,
+          10.9
+        ],
+        [
+          45,
+          12.7
+        ],
+        [
+          45,
+          18.8
+        ],
+        [
+          46.425,
+          18.8
+        ]
+      ],
+      "stations": 138,
+      "blocked_stations": [],
+      "sampled_capsule_clear": true
+    },
+    {
+      "id": "DAILY_02",
+      "floor": 4,
+      "points": [
+        [
+          45,
+          12.7
+        ],
+        [
+          45,
+          10.9
+        ],
+        [
+          90,
+          10.9
+        ],
+        [
+          90,
+          7.5
+        ],
+        [
+          91.2,
+          7.5
+        ],
+        [
+          91.2,
+          6.8
+        ]
+      ],
+      "stations": 267,
+      "blocked_stations": [],
+      "sampled_capsule_clear": true
+    },
+    {
+      "id": "DAILY_02",
+      "floor": 0,
+      "points": [
+        [
+          88.7,
+          6.8
+        ],
+        [
+          88.7,
+          7.5
+        ],
+        [
+          90,
+          7.5
+        ],
+        [
+          90,
+          10.9
+        ],
+        [
+          90,
+          13
+        ],
+        [
+          90,
+          28
+        ]
+      ],
+      "stations": 119,
+      "blocked_stations": [],
+      "sampled_capsule_clear": true
+    },
+    {
+      "id": "DAILY_03",
+      "floor": 4,
+      "points": [
+        [
+          45,
+          12.7
+        ],
+        [
+          45,
+          10.9
+        ],
+        [
+          146,
+          10.9
+        ],
+        [
+          146,
+          7.5
+        ],
+        [
+          147.2,
+          7.5
+        ],
+        [
+          147.2,
+          6.8
+        ]
+      ],
+      "stations": 546,
+      "blocked_stations": [],
+      "sampled_capsule_clear": true
+    },
+    {
+      "id": "DAILY_03",
+      "floor": 0,
+      "points": [
+        [
+          144.7,
+          6.8
+        ],
+        [
+          144.7,
+          7.5
+        ],
+        [
+          146,
+          7.5
+        ],
+        [
+          146,
+          14
+        ],
+        [
+          150,
+          14
+        ]
+      ],
+      "stations": 68,
+      "blocked_stations": [],
+      "sampled_capsule_clear": true
+    }
+  ]
+}
