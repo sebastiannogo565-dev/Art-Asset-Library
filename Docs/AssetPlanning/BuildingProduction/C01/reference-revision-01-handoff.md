@@ -1,3 +1,7 @@
+# 针对性审阅完成及接续 · 2026-10-15
+
+[规划审阅](../review-C01-reference-revision-01.md)判参考局部修订通过，可作整栋试作基准；[独立复核](reference-revision-01-planning-audit.json)核指定主线两态中心净距0.55m、业务净区/3m内廊口/900名义格/最高及露台接口。0.30m柜深、双面操作和入座未认定通过，见同一[整栋试作卡](../TaskCards/SL_BLD_C01_MAIN_01_TRIAL_01.md)前段检查。原包/修订源均保留；只发布卡供用户转交，未在规划聊天建模/UE，B01不变。以下保原制作回件。
+
 # C01局部修订01制作回件
 
 2026-10-15。[独立版本](../../../../ArtSource/Buildings/SL_BLD_C01_MAIN_01/Reference/Revision01/README.md)／[变更表](../../../../ArtSource/Buildings/SL_BLD_C01_MAIN_01/Reference/Revision01/changes.json)／[针对性验收](../../../../ArtSource/Buildings/SL_BLD_C01_MAIN_01/Reference/Revision01/review.md)。仅回件，尚非规划审阅结论。原Reference/manifest/预览全保字节。

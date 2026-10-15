@@ -1,3 +1,7 @@
+# 当前：C01参考修订审过，发布一张整栋Trial01卡 · 2026-10-15
+
+[针对性审阅](review-C01-reference-revision-01.md)／[试作卡](TaskCards/SL_BLD_C01_MAIN_01_TRIAL_01.md)。沿用户“审过后发布”授权，完整建筑一次试作，门窗家具组内处理。入座/柜深/五金/操作冲突属于整栋前段验证，不冒称参考已解决，不逐件发卡。当前未执行试作、UV/UE；B01及RT01阶段不变。
+
 # 当前制作回件：C01参考局部修订01 · 2026-10-15
 
 [新源与受影响图稿](../../../ArtSource/Buildings/SL_BLD_C01_MAIN_01/Reference/Revision01/README.md)／[针对性回审](C01/reference-revision-01-handoff.md)。原版保留、REV_01实改，10页/7新预览及共享源。先审30席路径/业务恢复、900格/3m内门/运营条件、同日光暖木、最高与露台接口；通过后才发布完整建筑Trial卡，当前没有正式模型/UV/UE。B01保持。

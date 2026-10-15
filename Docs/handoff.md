@@ -1,3 +1,9 @@
+# 当前交接：C01参考修订审过，交整栋试作卡 · 2026-10-15
+
+下一阶段唯一入口：[SL_BLD_C01_MAIN_01_TRIAL_01](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_TRIAL_01.md)，由用户转交制作聊天。[针对性审阅](AssetPlanning/BuildingProduction/review-C01-reference-revision-01.md)通过的是参考修订，不是整体运营或游戏验收。卡已把30席入座/角色、柜深/鞋长/五金、双面操作与队列问题列为同栋前段检查，再完成整栋模型/UV/临时像素材质/自然光与FBX回导，回件停审。
+
+900名义格目标保留，0.30m单面柜深未冻结；不能以一面错时当运营通过，也不自动新增NPC规则。控制/原三入口/24班/庭露台/13.65玻璃及13.68最高保持，RT01原588㎡不开放。规划聊天只发布卡、未启动制作/发送其他聊天；B01/SchoolLife与原版源只读。Git最终完整哈希/远端/LFS/工作区以收尾报告为准，原3脚本保留。
+
 # C01局部修订01同步实绩 · 2026-10-15
 
 成果提交[ed80879a628e7f253f30bc63219cc033715e6ee2](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/ed80879a628e7f253f30bc63219cc033715e6ee2)已普通推送origin/main，远端完整哈希一致。52相关文件＝43独立修订包＋9交接/索引；LFS实际上传1/1、参考Blend载荷2012579字节，PNG普通Git；推送后LFS dry-run空/退出0。已跟踪工作区干净，仅原3无关脚本未跟踪，未夹带；规划聊天idle/最后轮completed、起点45f00a2与远端一致、空索引/无锁核过，无并行Git/强推。

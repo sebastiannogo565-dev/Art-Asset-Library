@@ -1,3 +1,9 @@
+# C01参考局部修订01针对性审阅完成 · 2026-10-15
+
+已完成：[审阅](AssetPlanning/BuildingProduction/review-C01-reference-revision-01.md)、[精确二维审计](AssetPlanning/BuildingProduction/C01/reference-revision-01-planning-audit.json)、[整栋Blender试作卡](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_TRIAL_01.md)。看10页总览/关键板及修订预览，42修订manifest项与173保护SHA保持；独立精确线段复核两态指定主线中心净距0.55m、业务0.55/恢复0.81394m、内廊口3m/名义900/最高13.68及露台门底8.03/围护1.2。入口暖木/层边明暗改进，判参考修订通过。
+
+进行中无制作。整栋Trial01仅发布待用户转交；尚未制作模型、UV、纹理或导出。未验入座/其他席可达、0.30m柜深鞋长/五金、双面操作/队列运营、实际游戏/镜头/排水；本轮无必需文档阻塞。未用错时假设冻结新游戏规则，0.30深不作最终接受参数。B01/校门/SchoolLife/人物/原参考与Revision01未改，RT01待设计不开放。
+
 # C01局部修订01已同步停审 · 2026-10-15
 
 成果ed80879a628e7f253f30bc63219cc033715e6ee2推送origin/main，远端完整一致；52相关文件，LFS1/1载荷2012579字节、dry-run空/退出0。已跟踪干净，原3脚本未提交。173保护、指定两态二维/业务/柜格/标高/孔及源重开/回件指纹检查通过；10板/7新预览实交，原版全保。入座、运营与实际游戏/UV等仍未验，RT01不开放。正常同步实绩收尾后停审，不自动Trial/UE/下一栋。

@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-15",
+  "scope": "Independent exact 2D polyline-to-rectangle distance audit of specified reference paths; no actual Blender/UE run",
+  "revision_manifest_verified": 42,
+  "original_readonly_inputs_verified": 173,
+  "reference_geometry_sha256": "ec4157c11b77f90c45e73e3da066dacf4c5a56396e92ff64e6d70564118413a3",
+  "control": [
+    0,
+    0,
+    150,
+    28
+  ],
+  "three_entrances": [
+    {
+      "id": "C01_MAIN",
+      "local": [
+        25,
+        0
+      ],
+      "world": [
+        2215.909090909091,
+        1969.181818181818
+      ],
+      "width": 3,
+      "height": 3.2
+    },
+    {
+      "id": "C01_N",
+      "local": [
+        90,
+        28
+      ],
+      "world": [
+        2280.909090909091,
+        1997.181818181818
+      ],
+      "width": 3,
+      "height": 3
+    },
+    {
+      "id": "C01_E",
+      "local": [
+        150,
+        14
+      ],
+      "world": [
+        2340.909090909091,
+        1983.181818181818
+      ],
+      "width": 3,
+      "height": 3
+    }
+  ],
+  "classes": 24,
+  "primary_seats": 30,
+  "comparison_seats": 36,
+  "player": {
+    "rest": {
+      "to_standing": {
+        "distance": 0.5499999999999972,
+        "id": "C30_DESK_3_1",
+        "segment": 0
+      },
+      "return_via_teaching": {
+        "distance": 0.5499999999999972,
+        "id": "C30_DESK_3_1",
+        "segment": 3
+      },
+      "business": {
+        "id": "C30_DESK_3_5",
+        "distance": 0.5499999999999972
+      },
+      "candidate_recovery": {
+        "id": "C30_DESK_3_4",
+        "distance": 0.8139410298049844
+      }
+    },
+    "pulled": {
+      "to_standing": {
+        "distance": 0.5499999999999972,
+        "id": "C30_DESK_2_1_chair",
+        "segment": 0
+      },
+      "return_via_teaching": {
+        "distance": 0.5499999999999972,
+        "id": "C30_DESK_2_1_chair",
+        "segment": 3
+      },
+      "business": {
+        "id": "C30_DESK_2_5_chair",
+        "distance": 0.5499999999999972
+      },
+      "candidate_recovery": {
+        "id": "C30_DESK_3_4",
+        "distance": 0.8139410298049844
+      }
+    }
+  },
+  "minimum_primary_full_corridor_m": 1.0999999999999943,
+  "visible_width_m": 1.039655172413793,
+  "visual_margin_total_m": 0.0603448275862013,
+  "shoe": {
+    "arrival": {
+      "distance": 0.6380000000000003,
+      "id": "active_use_strip",
+      "segment": 2
+    },
+    "waiting": {
+      "distance": 0.613,
+      "id": "CELL_MAIN_E1_0_0_0",
+      "segment": 2
+    },
+    "departure": {
+      "distance": 0.613,
+      "id": "CELL_MAIN_E1_0_0_0",
+      "segment": 0
+    }
+  },
+  "inner_opening_width_m": 3,
+  "shoe_nominal_cells": 900,
+  "main_locker_each_depth_candidate_m": 0.3,
+  "main_locker_depth_not_accepted_as_final": true,
+  "actual_geometry_highest_m": 13.68,
+  "terrace_door_bottom_m": 8.03,
+  "terrace_guards": [
+    {
+      "id": "TERRACE_GUARD_X_0",
+      "base": 8.03,
+      "effective_height": 1.200000000000001
+    },
+    {
+      "id": "TERRACE_GUARD_Y_64",
+      "base": 8.03,
+      "effective_height": 1.200000000000001
+    },
+    {
+      "id": "TERRACE_GUARD_Y_74",
+      "base": 8.03,
+      "effective_height": 1.200000000000001
+    }
+  ],
+  "RT01": {
+    "rect": [
+      38,
+      3,
+      66,
+      24
+    ],
+    "area": 588,
+    "source_level_m_candidate": 12,
+    "level_semantics": "source does not disambiguate local roof height vs engineering absolute; planning review required",
+    "stair_core": [
+      41,
+      9,
+      49,
+      19
+    ],
+    "entry": [
+      49,
+      14
+    ],
+    "status": "retained original588m2 control, NOT OPEN, approach/support NOT established"
+  },
+  "review_result": "Reference revision passes for whole-building trial baseline; standing-to-seat, cabinet capacity/operation, actual game and final pixel material remain unverified",
+  "not_tested": [
+    "sitting transition",
+    "all seat access",
+    "shoe fit/hardware",
+    "opposing simultaneous locker use",
+    "game nav/recovery/camera",
+    "drainage engineering",
+    "new native Blender reopen"
+  ]
+}
