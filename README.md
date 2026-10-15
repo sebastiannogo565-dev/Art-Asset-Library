@@ -1,3 +1,7 @@
+# 当前：C01试作局部修订01已回审，停用户判断 · 2026-10-16
+
+[针对性回审](Docs/AssetPlanning/BuildingProduction/review-C01-trial-revision-01.md)：保19阶段尺寸假设研究和900格重分配/面积纠错，整栋仍不最终通过。推荐西连接内门同中心2.4m，六层开放格仅候选且需补换鞋坐面；新5_5席/接近距原业务约3.30m超记录2.30m半径，暂不最终绑定。只审阅记录，未批准扩门/改模型/发新卡或UE，B01等不变。
+
 # 当前回件：C01整栋试作局部修订01 · 2026-10-16
 
 [独立修订源与检查](ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/Revision01/README.md) / [规划回审](Docs/AssetPlanning/BuildingProduction/C01/trial-revision-01-handoff.md)。真实局部网格/Blend/JSON/FBX与3定尺板/7预览已交；玩家席仅尺寸假设下连续通过，30席状态1/6/23分列。900格重排主468+补432，新占地15.048㎡，旧加深纠正1.08㎡。原西连接1.4m门双向未通过，唯一推荐同中心2.4m待判，实际门未改。原包/外观/分层/纹理全保，RT01不开放，无UE；停针对性审阅，不判整栋最终通过。

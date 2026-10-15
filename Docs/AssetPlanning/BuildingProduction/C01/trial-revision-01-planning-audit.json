@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-16",
+  "scope": "Direct file hashes and independent 2D arithmetic/status audit; no Blender/FBX/native/game rerun",
+  "delivery_files_verified": 41,
+  "protected_inputs_verified": 322,
+  "seat_statuses": {
+    "受阻": 23,
+    "可达（站立）": 6,
+    "该尺寸假设下连续空间通过": 1
+  },
+  "reported_19_stages": {
+    "count": 19,
+    "passed": 19,
+    "scope": "Declared geometric dimensions and hypothetical seated posture only; original sprite motion not validated"
+  },
+  "player_interface_geometry": {
+    "business": [
+      45,
+      19.5,
+      4
+    ],
+    "unchanged_recovery": [
+      45,
+      18.7,
+      4
+    ],
+    "player_id": "F2_W4_DESK_5_5",
+    "distances_xy_m": {
+      "desk": 2.740095801244916,
+      "chair_rest": 3.295834492203756,
+      "approach": 3.3107400985278193,
+      "operator": 3.8231400706748873
+    },
+    "recorded_business_radius_m": 2.3,
+    "new_chair_and_approach_outside_radius": true,
+    "note": "Horizontal geometry incompatibility risk for an interaction measured from these points; actual game trigger semantics not tested. Do not move engineering business point or radius silently."
+  },
+  "cabinets": {
+    "count": 9,
+    "capacity": {
+      "main": 468,
+      "link": 432
+    },
+    "nominal": 900,
+    "footprint_m2": {
+      "main": 7.487999999999994,
+      "link": 7.560000000000032,
+      "total": 15.048000000000027
+    },
+    "previous_trial_total_m2": 18.18,
+    "difference_m2": -3.131999999999973,
+    "corrected_old_main_increase_m2": 1.08,
+    "rows_unique": [
+      6
+    ],
+    "bench_removed_unresolved": true
+  },
+  "door": {
+    "actual_m": 1.4,
+    "proposal_only_m": 2.4,
+    "centre": [
+      58,
+      13
+    ],
+    "visible_two_person_width_m": 2.079310344827586,
+    "visible_deficit_m": 0.6793103448275861,
+    "enclosing_circle_radius_m": 0.5469192987833656,
+    "two_circle_width_m": 2.1876771951334626,
+    "actual_deficit_two_circles_m": 0.7876771951334627,
+    "proposal_total_circle_margin_m": 0.21232280486653732,
+    "expansion_each_side_m": 0.5,
+    "additional_opening_face_m2": 2.6,
+    "not_approved_or_implemented": true
+  },
+  "reported_native_evidence": {
+    "zero_area": 0,
+    "nonmanifold": 0,
+    "unchanged_objects": 2202,
+    "cavity_rays": 900,
+    "actual_door_passed": false,
+    "source_sha": "58e2e27c1bec439f7f39d03281015b996cb6e2b10c52bb19bfff6122c6f3bcde",
+    "fbx_sha": "e691c87bd2dd44e0cfe53b1912916447e52b707b77051f0a25716e2ba7333689",
+    "note": "Producer native reports; independently checked matching delivered hashes, not rerun in planning chat"
+  },
+  "review_scope": "Recommend retaining conditional player-study evidence and900-cell redistribution candidate; door, shoe-changing seating and class/interaction usability remain unresolved. No new task card or asset modification."
+}
