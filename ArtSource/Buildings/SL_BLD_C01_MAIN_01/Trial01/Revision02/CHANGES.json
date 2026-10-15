@@ -1,0 +1,29 @@
+{
+  "base": "../Revision01",
+  "base_git": "ad9bb026f962dbcdce7f54ca1005c462767b6c1c",
+  "actual_asset_changes": [
+    "PARTITIONS_F01_DOOR_BAND local boolean opening width1.4→2.4",
+    "OPEN_F1_LW_D real frame/leaves enlarged and parked outside wall",
+    "REV02_CHANGE_BENCH added2.4x.45x.43m two users"
+  ],
+  "unchanged": {
+    "objects": 2212,
+    "cabinet_banks": 9,
+    "cells": 900,
+    "classroom_desks": 30,
+    "classroom_chairs": 30,
+    "other23_classrooms": true,
+    "original_sources": 373
+  },
+  "data_change": "No final seat binding;candidate3_5 relation and reachable operation45/19.5;Actor—Anchor3D source-separated table",
+  "materials": "original14 architecture materials,48 original PNG textures,0 new textures",
+  "check_changes": "four previews +3SVG/PNG; changed local route/bench/door evidence;19 stages and900 cavity checks inherited via fingerprints",
+  "unresolved": {
+    "min_vertical_cm": 496,
+    "vertical_shortfall_cm": 266,
+    "at_operation_history_distance": 496.0,
+    "recommendation": "Keep original anchor/radius/floor; pause final seat binding, request planning/development read-only live Actor/Anchor transform evidence before deciding interface alignment. No source/map edits in this task."
+  },
+  "RT01": "not open,unchanged",
+  "SchoolLife": "read-only;no UE integration or systems"
+}

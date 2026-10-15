@@ -1,0 +1,11 @@
+﻿category,main_m2,link_m2,total_or_width,semantics
+original_main_deepen_correction,1.08,0,1.08,"old18x.06,not revision delta"
+Revision01_cabinet,7.488,7.56,15.048,gross cabinet footprint
+Revision02_cabinet,7.488,7.56,15.048,unchanged900 banks
+Revision02_new_bench,0,1.08,1.08,"seat projection,unrelated to old1.08"
+two_person_change_use,0,2.703103448275862,2.703103448275862,includes own bench overlap
+two_person_stand_rise,0,1.4139310344827587,1.4139310344827587,"usage,not new floor area"
+six_waits,0,4.241793103448275,4.241793103448275,finite waiting footprint
+full_face_operating_bands,16.38,15.12,31.5,"full .7m face bands,not900 people"
+main_public_spine,23.436,0,23.436,"only main spine,not all public paths"
+between_face_public_width_m,,,1.12,net width .7+1.12+.7=2.52

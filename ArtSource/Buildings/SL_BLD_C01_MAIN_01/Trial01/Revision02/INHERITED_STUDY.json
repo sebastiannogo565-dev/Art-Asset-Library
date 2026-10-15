@@ -1,0 +1,72 @@
+{
+  "source": "../Revision01/LAYOUT.json",
+  "sha256": "ea03fcc417fc108c4f8eb55d627ade41920c400e4060c31f556478ff74215318",
+  "stage_ids": [
+    "01_DOOR_TO_CROSS",
+    "02_CROSS_TO_OPERATOR",
+    "03_TURN_NORTH",
+    "04_OPERATOR_APPROACH",
+    "05_OPERATOR_TURN_WEST",
+    "06_CHAIR_PULL",
+    "07_RETURN_SIDE",
+    "08_CHAIR_FRONT",
+    "09_ENTER_FRONT",
+    "10_SIT",
+    "11_RISE",
+    "12_EXIT_FRONT",
+    "13_LEAVE_OPERATOR",
+    "14_OPERATOR_RETURN",
+    "15_CHAIR_RETURN",
+    "16_RETURN_CROSS",
+    "17_FRONT_TEACHING",
+    "18_ORIGINAL_DOOR",
+    "19_EXIT_DOOR"
+  ],
+  "stages": 19,
+  "retested_stages": [],
+  "inherited_stages": 19,
+  "reason": "No classroom furniture/room/door changes; necessary standing branch from stage01 cross-aisle to activity operation, not an extra seating stage/prerequisite",
+  "study_seat": "F2_W4_DESK_5_5",
+  "final_seat_bound": false,
+  "pose_assumption": {
+    "standing_visible": [
+      1.039655172413793,
+      1.8
+    ],
+    "capsule": [
+      0.68,
+      1.92
+    ],
+    "feet": [
+      0.28,
+      0.64,
+      0.3
+    ],
+    "hip_stand": 0.93,
+    "hip_sit": 0.52,
+    "leg_links": [
+      0.44,
+      0.44
+    ],
+    "leg_radius": 0.06,
+    "visible_hinge": [
+      0.34,
+      1.039655172413793,
+      0.77
+    ],
+    "hinge_count": 24,
+    "upper": [
+      0.34,
+      1.039655172413793,
+      0.87
+    ],
+    "arm_links": [
+      0.4,
+      0.4
+    ],
+    "tolerance": 1e-05,
+    "scope": "conservative full-width visible band retained at constant size and hinged continuously; not anatomy inferred from PNG or approved seated character. Original silhouette standing coverage checked separately."
+  },
+  "seat_status_source": "../Revision01/SEATS.csv",
+  "other29_pose": "unverified"
+}

@@ -1,0 +1,220 @@
+{
+  "blend_sha256": "90137759b838d849395f9c0363cbb74f072aff8de4fef418668312b784086aa4",
+  "objects": 2215,
+  "bbox": [
+    [
+      0.0,
+      0.0,
+      -0.25
+    ],
+    [
+      150.0,
+      28.0,
+      13.680000305175781
+    ]
+  ],
+  "material_areas": {
+    "ROOF": 6066.957580566406,
+    "WALL": 35646.91579995943,
+    "SKYLIGHT": 720.7293885648251,
+    "FRAME": 1887.9662417219952,
+    "BAND_REV": 1664.7551982830046,
+    "ENTRY_FRAME": 13.129843455040827,
+    "GLASS": 3330.1542126145214,
+    "RAIL": 101.87684841267765,
+    "METAL": 711.304023223769,
+    "ENTRY_WOOD": 56.800019594607875,
+    "FLOOR": 17516.030843883753,
+    "WOOD": 704.7589470930398,
+    "CHAIR": 637.8100698965136,
+    "BOARD": 264.53508108854294
+  },
+  "local_topology": [
+    {
+      "object": "OPEN_F1_LW_D",
+      "zero_area": 0,
+      "nonmanifold": 0
+    },
+    {
+      "object": "PARTITIONS_F01_DOOR_BAND",
+      "zero_area": 0,
+      "nonmanifold": 0
+    },
+    {
+      "object": "REV02_CHANGE_BENCH",
+      "zero_area": 0,
+      "nonmanifold": 0
+    }
+  ],
+  "local_uv_density_m2_threshold": 0.0001,
+  "local_density_px_per_m": [
+    63.99781586215722,
+    64.11218120651502
+  ],
+  "unchanged_objects_checked": 2212,
+  "unexpected_changes": [],
+  "all30_classroom_furniture_unchanged": true,
+  "nine_cabinet_banks_unchanged": true,
+  "cavity_check_inherited": {
+    "file": "../Revision01/SOURCE_CHECK.json",
+    "sha256": "eb955c2c5d78923d76ef674a16f40e0426b20bcdd70d19ab73855064858f8ad8",
+    "rays": 900,
+    "retested_rays": 0,
+    "reason": "all9 bank mesh/UV/matrix fingerprints unchanged"
+  },
+  "native_door": {
+    "interface_center": [
+      58,
+      13,
+      0
+    ],
+    "rays": [
+      {
+        "y": 12.72,
+        "z": 0.1,
+        "width_m": 2.5400009533737675,
+        "height_m": 99.001
+      },
+      {
+        "y": 12.72,
+        "z": 1.0,
+        "width_m": 2.5400009533737675,
+        "height_m": 99.001
+      },
+      {
+        "y": 12.72,
+        "z": 1.92,
+        "width_m": 2.5400009533737675,
+        "height_m": 99.001
+      },
+      {
+        "y": 12.72,
+        "z": 2.59,
+        "width_m": 2.5400009533737675,
+        "height_m": 99.001
+      },
+      {
+        "y": 12.74,
+        "z": 0.1,
+        "width_m": 2.5400009533737675,
+        "height_m": 99.001
+      },
+      {
+        "y": 12.74,
+        "z": 1.0,
+        "width_m": 2.5400009533737675,
+        "height_m": 99.001
+      },
+      {
+        "y": 12.74,
+        "z": 1.92,
+        "width_m": 2.5400009533737675,
+        "height_m": 99.001
+      },
+      {
+        "y": 12.74,
+        "z": 2.59,
+        "width_m": 2.5400009533737675,
+        "height_m": 99.001
+      },
+      {
+        "y": 12.82,
+        "z": 0.1,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.5999999608520175
+      },
+      {
+        "y": 12.82,
+        "z": 1.0,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.5999999608520175
+      },
+      {
+        "y": 12.82,
+        "z": 1.92,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.5999999608520175
+      },
+      {
+        "y": 12.82,
+        "z": 2.59,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.5999999608520175
+      },
+      {
+        "y": 12.9,
+        "z": 0.1,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.5999999608520175
+      },
+      {
+        "y": 12.9,
+        "z": 1.0,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.5999999608520175
+      },
+      {
+        "y": 12.9,
+        "z": 1.92,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.5999999608520175
+      },
+      {
+        "y": 12.9,
+        "z": 2.59,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.5999999608520175
+      },
+      {
+        "y": 12.99,
+        "z": 0.1,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.599999777382536
+      },
+      {
+        "y": 12.99,
+        "z": 1.0,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.599999777382536
+      },
+      {
+        "y": 12.99,
+        "z": 1.92,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.599999777382536
+      },
+      {
+        "y": 12.99,
+        "z": 2.59,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.599999777382536
+      }
+    ],
+    "min_width_m": 2.4000015377993424,
+    "min_height_m": 2.599999777382536,
+    "numeric_tolerance_m": 1e-05,
+    "parked_leaves_y": [
+      12.71,
+      12.75
+    ],
+    "wall_south_y": 12.8,
+    "parked_leaf_wall_gap_m": 0.05,
+    "extra_opening_face_m2": 2.6,
+    "extra_ground_area_m2": 0
+  },
+  "bench_bbox": [
+    [
+      52.79999923706055,
+      13.149999618530273,
+      0.0
+    ],
+    [
+      55.20000076293945,
+      13.600000381469727,
+      0.4300000071525574
+    ]
+  ],
+  "character_sha256": "082ceb410d904f0037dfe09dd3502e50195351691ab4047cc5dbbb639147b8cd",
+  "default_new_check_hidden": true,
+  "proof_scope": "Only three changed/new architectural meshes topologically retested;2212 others exact fingerprints. Original whole checks inherited, not a new whole-building final acceptance"
+}

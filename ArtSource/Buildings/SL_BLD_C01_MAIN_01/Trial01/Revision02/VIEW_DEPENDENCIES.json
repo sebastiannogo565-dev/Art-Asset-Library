@@ -1,0 +1,134 @@
+{
+  "current": [
+    {
+      "file": "Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_P01_DOOR_SHOE_LOOP.svg",
+      "inputs": [
+        "LAYOUT.json",
+        "ACTIVITY_DISTANCE.json",
+        "make_boards.py",
+        "../Revision01/LAYOUT.json"
+      ],
+      "description": "实际门区、坐面与双侧操作/等候",
+      "scope": "dimensional check illustration;not game"
+    },
+    {
+      "file": "Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_P01_DOOR_SHOE_LOOP.png",
+      "inputs": [
+        "LAYOUT.json",
+        "ACTIVITY_DISTANCE.json",
+        "make_boards.py",
+        "../Revision01/LAYOUT.json"
+      ],
+      "description": "实际门区、坐面与双侧操作/等候",
+      "scope": "dimensional check illustration;not game"
+    },
+    {
+      "file": "Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_P02_ACTIVITY_DISTANCE.svg",
+      "inputs": [
+        "LAYOUT.json",
+        "ACTIVITY_DISTANCE.json",
+        "make_boards.py",
+        "../Revision01/LAYOUT.json"
+      ],
+      "description": "P/E/G/A口径、两来源Z与三维余量",
+      "scope": "dimensional check illustration;not game"
+    },
+    {
+      "file": "Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_P02_ACTIVITY_DISTANCE.png",
+      "inputs": [
+        "LAYOUT.json",
+        "ACTIVITY_DISTANCE.json",
+        "make_boards.py",
+        "../Revision01/LAYOUT.json"
+      ],
+      "description": "P/E/G/A口径、两来源Z与三维余量",
+      "scope": "dimensional check illustration;not game"
+    },
+    {
+      "file": "Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_P03_CHANGE_CHECKS.svg",
+      "inputs": [
+        "LAYOUT.json",
+        "ACTIVITY_DISTANCE.json",
+        "make_boards.py",
+        "../Revision01/LAYOUT.json"
+      ],
+      "description": "换鞋包络、局部路径及面积分账",
+      "scope": "dimensional check illustration;not game"
+    },
+    {
+      "file": "Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_P03_CHANGE_CHECKS.png",
+      "inputs": [
+        "LAYOUT.json",
+        "ACTIVITY_DISTANCE.json",
+        "make_boards.py",
+        "../Revision01/LAYOUT.json"
+      ],
+      "description": "换鞋包络、局部路径及面积分账",
+      "scope": "dimensional check illustration;not game"
+    },
+    {
+      "file": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_WESTLINK_CHANGE_LOOP.png",
+      "inputs": [
+        "SL_BLD_C01_MAIN_01_TRIAL_01_REV_02.blend",
+        "LAYOUT.json",
+        "CAMERAS.json",
+        "render_revision.py"
+      ],
+      "description": "真实柜列/2.4门/双人坐面与有限同时使用包络",
+      "scope": "actual mesh with CHECK-only cuts/proxies, same original daylight;not game or approved character motion"
+    },
+    {
+      "file": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_CHANGE_SEAT_CLOSE.png",
+      "inputs": [
+        "SL_BLD_C01_MAIN_01_TRIAL_01_REV_02.blend",
+        "LAYOUT.json",
+        "CAMERAS.json",
+        "render_revision.py"
+      ],
+      "description": "从室内看坐面：定尺寸坐姿与65°弯腰假设",
+      "scope": "actual mesh with CHECK-only cuts/proxies, same original daylight;not game or approved character motion"
+    },
+    {
+      "file": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_DOOR_HALL_APPROACH.png",
+      "inputs": [
+        "SL_BLD_C01_MAIN_01_TRIAL_01_REV_02.blend",
+        "LAYOUT.json",
+        "CAMERAS.json",
+        "render_revision.py"
+      ],
+      "description": "真实廊侧停扇、门框及打开的2.4×2.6洞口",
+      "scope": "actual mesh with CHECK-only cuts/proxies, same original daylight;not game or approved character motion"
+    },
+    {
+      "file": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_CLASS_OPERATION_P_EQUALS_E.png",
+      "inputs": [
+        "SL_BLD_C01_MAIN_01_TRIAL_01_REV_02.blend",
+        "LAYOUT.json",
+        "CAMERAS.json",
+        "render_revision.py"
+      ],
+      "description": "原人物站立操作点、3_5关系候选、5_5旧研究区分",
+      "scope": "actual mesh with CHECK-only cuts/proxies, same original daylight;not game or approved character motion"
+    }
+  ],
+  "inherited": [
+    {
+      "file": "../Revision01/Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_P02_SEAT_STATUS.png",
+      "scope": "unchanged geometry seat-state research,not final binding"
+    },
+    {
+      "file": "../Revision01/Previews/SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_SHOES_MAIN_SIMULTANEOUS.png",
+      "scope": "unchanged main hall,Revision01 image"
+    },
+    {
+      "file": "../Previews/SL_BLD_C01_MAIN_01_TRIAL_01_A.png",
+      "scope": "original Trial01 whole appearance only"
+    },
+    {
+      "file": "../Previews/SL_BLD_C01_MAIN_01_TRIAL_01_B.png",
+      "scope": "original Trial01 whole appearance only"
+    }
+  ],
+  "textures": "../Textures,48 original files unchanged",
+  "old_replaced": "Do not use Revision01 1.4m door or missing benches as Revision02 local source. Original versions remain."
+}

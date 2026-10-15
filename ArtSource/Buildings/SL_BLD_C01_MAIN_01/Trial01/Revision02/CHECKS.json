@@ -1,0 +1,170 @@
+{
+  "protected_files": 373,
+  "protected_changed": [],
+  "changed_architecture_objects": 3,
+  "unchanged_architecture_objects": 2212,
+  "local_zero_area": 0,
+  "local_nonmanifold": 0,
+  "native_door": {
+    "interface_center": [
+      58,
+      13,
+      0
+    ],
+    "rays": [
+      {
+        "y": 12.72,
+        "z": 0.1,
+        "width_m": 2.5400009533737675,
+        "height_m": 99.001
+      },
+      {
+        "y": 12.72,
+        "z": 1.0,
+        "width_m": 2.5400009533737675,
+        "height_m": 99.001
+      },
+      {
+        "y": 12.72,
+        "z": 1.92,
+        "width_m": 2.5400009533737675,
+        "height_m": 99.001
+      },
+      {
+        "y": 12.72,
+        "z": 2.59,
+        "width_m": 2.5400009533737675,
+        "height_m": 99.001
+      },
+      {
+        "y": 12.74,
+        "z": 0.1,
+        "width_m": 2.5400009533737675,
+        "height_m": 99.001
+      },
+      {
+        "y": 12.74,
+        "z": 1.0,
+        "width_m": 2.5400009533737675,
+        "height_m": 99.001
+      },
+      {
+        "y": 12.74,
+        "z": 1.92,
+        "width_m": 2.5400009533737675,
+        "height_m": 99.001
+      },
+      {
+        "y": 12.74,
+        "z": 2.59,
+        "width_m": 2.5400009533737675,
+        "height_m": 99.001
+      },
+      {
+        "y": 12.82,
+        "z": 0.1,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.5999999608520175
+      },
+      {
+        "y": 12.82,
+        "z": 1.0,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.5999999608520175
+      },
+      {
+        "y": 12.82,
+        "z": 1.92,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.5999999608520175
+      },
+      {
+        "y": 12.82,
+        "z": 2.59,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.5999999608520175
+      },
+      {
+        "y": 12.9,
+        "z": 0.1,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.5999999608520175
+      },
+      {
+        "y": 12.9,
+        "z": 1.0,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.5999999608520175
+      },
+      {
+        "y": 12.9,
+        "z": 1.92,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.5999999608520175
+      },
+      {
+        "y": 12.9,
+        "z": 2.59,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.5999999608520175
+      },
+      {
+        "y": 12.99,
+        "z": 0.1,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.599999777382536
+      },
+      {
+        "y": 12.99,
+        "z": 1.0,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.599999777382536
+      },
+      {
+        "y": 12.99,
+        "z": 1.92,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.599999777382536
+      },
+      {
+        "y": 12.99,
+        "z": 2.59,
+        "width_m": 2.4000015377993424,
+        "height_m": 2.599999777382536
+      }
+    ],
+    "min_width_m": 2.4000015377993424,
+    "min_height_m": 2.599999777382536,
+    "numeric_tolerance_m": 1e-05,
+    "parked_leaves_y": [
+      12.71,
+      12.75
+    ],
+    "wall_south_y": 12.8,
+    "parked_leaf_wall_gap_m": 0.05,
+    "extra_opening_face_m2": 2.6,
+    "extra_ground_area_m2": 0
+  },
+  "actual_export_objects": 2215,
+  "all900_banks_unchanged": true,
+  "inherited900_cavity_rays": 900,
+  "retested900_cavity_rays": 0,
+  "inherited19_stages": 19,
+  "retested19_stages": 0,
+  "local_paths": 8,
+  "local_paths_passed": true,
+  "bench_transition": true,
+  "shoe_bend": true,
+  "P_equals_E": true,
+  "operation_route_passed": true,
+  "planning_distance_cases_passed": true,
+  "historical_distance_cases_passed": false,
+  "current_runtime_engineering_verified": false,
+  "final_seat_bound": false,
+  "game_verified": false,
+  "whole_building_final_status": "planning review decides",
+  "source_blend_sha256": "90137759b838d849395f9c0363cbb74f072aff8de4fef418668312b784086aa4",
+  "fbx_sha256": "bf12172b5e28f82e2e5ae941e61d8d14bffd67b0b751a8f58e2e092dbffb209d",
+  "boards": 3,
+  "previews": 4
+}

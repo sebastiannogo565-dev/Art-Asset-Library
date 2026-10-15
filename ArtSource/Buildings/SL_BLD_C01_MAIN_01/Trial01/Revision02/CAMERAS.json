@@ -1,0 +1,70 @@
+[
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_WESTLINK_CHANGE_LOOP.png",
+    "target": [
+      58,
+      17,
+      0.8
+    ],
+    "azimuth": 315,
+    "elevation": 30,
+    "ortho_scale": 15,
+    "size": [
+      2560,
+      1440
+    ],
+    "sun": "unchanged original Sun/world/AgX",
+    "scope": "actual revised mesh plus editable cuts/proxies;not game/approved character pose"
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_CHANGE_SEAT_CLOSE.png",
+    "target": [
+      54.7,
+      14.15,
+      0.7
+    ],
+    "azimuth": 90,
+    "elevation": 30,
+    "ortho_scale": 5.8,
+    "size": [
+      2560,
+      1440
+    ],
+    "sun": "unchanged original Sun/world/AgX",
+    "scope": "actual revised mesh plus editable cuts/proxies;not game/approved character pose"
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_DOOR_HALL_APPROACH.png",
+    "target": [
+      58,
+      13.8,
+      1.1
+    ],
+    "azimuth": 270,
+    "elevation": 30,
+    "ortho_scale": 8,
+    "size": [
+      2560,
+      1440
+    ],
+    "sun": "unchanged original Sun/world/AgX",
+    "scope": "actual revised mesh plus editable cuts/proxies;not game/approved character pose"
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_CLASS_OPERATION_P_EQUALS_E.png",
+    "target": [
+      45.2,
+      17.3,
+      4.8
+    ],
+    "azimuth": 315,
+    "elevation": 30,
+    "ortho_scale": 13.5,
+    "size": [
+      2560,
+      1440
+    ],
+    "sun": "unchanged original Sun/world/AgX",
+    "scope": "actual revised mesh plus editable cuts/proxies;not game/approved character pose"
+  }
+]

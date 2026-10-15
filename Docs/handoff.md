@@ -1,3 +1,7 @@
+# 当前制作回件：C01 Trial01局部修订02 · 2026-10-16
+
+入口：[修订包](../ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/Revision02/README.md) / [规划针对性回审](AssetPlanning/BuildingProduction/C01/trial-revision-02-handoff.md)。门区真实墙洞/框/停扇2.4×2.6、双人换鞋凳和局部证据已交；900柜体不变，旧1.08纠错/新凳1.08/15.048柜体分账。P=E G45/19.5/4可达，Actor偏移0.96/0.98分算；规划A1200余134/132，历史A800超266/268cm，现用Actor/Anchor未回读，暂停最终席绑定，唯一推荐先由规划/开发只读核变换。19阶段不改，不要求全程留半径或新增入座启动条件。原版/RT01/B01/SchoolLife/人物保持，无UE，交回审定整栋状态；Git实绩另记。
+
 # 当前交接：C01原卡局部修订02供用户转交 · 2026-10-16
 
 入口：[SL_BLD_C01_MAIN_01_TRIAL_01顶部02](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_TRIAL_01.md)。同中心内门净2.4×2.6已接受，需实际改洞/框/扇与接近；900目标六层候选下补坐面/换鞋闭环，冲突报一推荐；5_5保19阶段研究，优先原业务附近候选，不绑定最终玩家席。

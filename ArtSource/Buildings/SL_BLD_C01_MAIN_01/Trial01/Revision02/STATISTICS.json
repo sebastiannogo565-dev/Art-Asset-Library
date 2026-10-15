@@ -1,0 +1,11 @@
+{
+  "mesh_objects": 2215,
+  "unique_mesh_sources": 778,
+  "linked_placements": 1437,
+  "source_vertices": 172184,
+  "placed_triangles": 781264,
+  "materials": 14,
+  "nominal_cells": 900,
+  "new_texture_files": 0,
+  "bench_users": 2
+}

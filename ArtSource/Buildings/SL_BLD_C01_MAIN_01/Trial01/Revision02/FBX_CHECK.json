@@ -1,0 +1,139 @@
+{
+  "fbx_sha256": "bf12172b5e28f82e2e5ae941e61d8d14bffd67b0b751a8f58e2e092dbffb209d",
+  "source_blend_sha256": "90137759b838d849395f9c0363cbb74f072aff8de4fef418668312b784086aa4",
+  "objects": 2215,
+  "bbox": [
+    [
+      -2.447837687213905e-06,
+      0.0,
+      -0.25
+    ],
+    [
+      150.0,
+      28.00001335144043,
+      13.680000305175781
+    ]
+  ],
+  "bbox_max_error_m": 1.33514404296875e-05,
+  "material_area_max_error_m2": 0.0,
+  "missing_names": [],
+  "extra_names": [],
+  "missing_uv": [],
+  "group_mismatch": [],
+  "imagepaths": [
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\BAND_REV_BC.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\BAND_REV_R.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\BOARD_BC.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\BOARD_R.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\CHAIR_BC.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\CHAIR_R.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\ENTRY_FRAME_BC.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\ENTRY_FRAME_R.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\ENTRY_WOOD_BC.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\ENTRY_WOOD_R.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\FLOOR_BC.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\FLOOR_R.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\FRAME_BC.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\FRAME_R.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\GLASS_BC.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\GLASS_R.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\METAL_BC.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\METAL_R.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\RAIL_BC.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\RAIL_R.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\ROOF_BC.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\ROOF_R.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\SKYLIGHT_BC.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\SKYLIGHT_R.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\WALL_BC.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\WALL_R.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\WOOD_BC.png",
+      "exists": true
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\..\\Textures\\WOOD_R.png",
+      "exists": true
+    }
+  ],
+  "no_checks_in_export": true,
+  "scope": "real empty-scene Blender reimport; not UE/game"
+}

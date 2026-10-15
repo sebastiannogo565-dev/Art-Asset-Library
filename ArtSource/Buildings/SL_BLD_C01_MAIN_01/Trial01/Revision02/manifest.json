@@ -1,0 +1,207 @@
+[
+  {
+    "path": "ACTIVITY_DISTANCE.csv",
+    "bytes": 1530,
+    "sha256": "1605b075fffc9b8565e00b9921c8e6e430dc6a81b21940745e4e100ca0d1d99a"
+  },
+  {
+    "path": "ACTIVITY_DISTANCE.json",
+    "bytes": 10890,
+    "sha256": "b9a7e04be62c05f784277bd2822ab78c80dad71a34b6dad4b7d47176993b6d8c"
+  },
+  {
+    "path": "AREAS.csv",
+    "bytes": 779,
+    "sha256": "0b2edd4417d215ff93945c5d51f45ca028e837697cfbe1bc3a5ebd6cdc1f2d61"
+  },
+  {
+    "path": "Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_P01_DOOR_SHOE_LOOP.png",
+    "bytes": 527042,
+    "sha256": "c964fea382d0fe7e35b0d9f250aa8fd9bd84978da484733f5fd5e4e15189fbaf"
+  },
+  {
+    "path": "Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_P01_DOOR_SHOE_LOOP.svg",
+    "bytes": 10491,
+    "sha256": "069528658779fb0678e1dc9d3acf0fa94bb4771f7616fdd48c3f65bb38ecefe8"
+  },
+  {
+    "path": "Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_P02_ACTIVITY_DISTANCE.png",
+    "bytes": 589159,
+    "sha256": "13a39fb7c472b496d4dd44c37168bd1b251561ea891fd681b5429fccc10ebcd0"
+  },
+  {
+    "path": "Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_P02_ACTIVITY_DISTANCE.svg",
+    "bytes": 17503,
+    "sha256": "23703d76f3e503d5148cef2000985a843236cbe85f88251ca46b1dd2a289ec11"
+  },
+  {
+    "path": "Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_P03_CHANGE_CHECKS.png",
+    "bytes": 551558,
+    "sha256": "6efd2b96dae6019d4fca230a2b08c2c6ade96c96a34fd50634bb165107f8efeb"
+  },
+  {
+    "path": "Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_P03_CHANGE_CHECKS.svg",
+    "bytes": 39482,
+    "sha256": "62137d714bed1c5087837bd494cca4b06f721ea19d9cac6564869708c7d9a601"
+  },
+  {
+    "path": "build_revision.py",
+    "bytes": 7801,
+    "sha256": "adac3c3276376237a9497956e7fdd76bc537ffe60d425993eb15334e4cb1d091"
+  },
+  {
+    "path": "CABINETS.csv",
+    "bytes": 1100,
+    "sha256": "8c26d92b20c66300a222206b0291e2edfda224c600c63b35ddbbd908193cc4da"
+  },
+  {
+    "path": "CAMERAS.json",
+    "bytes": 1564,
+    "sha256": "d0efd3aa08e3f323bf852be90c094d993897393536262e73a7390c00f9413115"
+  },
+  {
+    "path": "CHANGE_SCOPE.json",
+    "bytes": 1030990,
+    "sha256": "e0c75e6d525664602950508c4263b0a25da7433ef1d100f8dff9a70a38ea582c"
+  },
+  {
+    "path": "CHANGES.json",
+    "bytes": 1337,
+    "sha256": "b7cce072692a69500edfbd4938b1ecf1133f9c1e7873d2c86cbb723011641dc7"
+  },
+  {
+    "path": "CHECKS.json",
+    "bytes": 3954,
+    "sha256": "f818cb1e5472c61a1659a633988c940b8c5882684f85619ed9a116dedbfb5282"
+  },
+  {
+    "path": "CODE_EVIDENCE.json",
+    "bytes": 3635,
+    "sha256": "bcd35939a4dc3f587bc5298ad64a75632ba783c7eef29d11426b2ab89e816247"
+  },
+  {
+    "path": "COORDINATES.csv",
+    "bytes": 2409,
+    "sha256": "d5a74d302651c7b38c1a18d5c4bb71bf3662b7dd44a7f55f5e1ace5adf38a0f3"
+  },
+  {
+    "path": "FBX_CHECK.json",
+    "bytes": 5244,
+    "sha256": "89af3a6406096e697288c558885cacc702979ebe632be2eb984aaf1e7c01eae3"
+  },
+  {
+    "path": "finalize_delivery.py",
+    "bytes": 32018,
+    "sha256": "4324b2676d62a738f613a887889615141c73ca5c64a3f71fc0b8f8a518e3ffb9"
+  },
+  {
+    "path": "GEOMETRY.json",
+    "bytes": 135071,
+    "sha256": "ce0abe83ae496f98e219bbd94ecfa29bbcaddbabcba25063404013aa1da9fae6"
+  },
+  {
+    "path": "INHERITED_STUDY.json",
+    "bytes": 1740,
+    "sha256": "51686c628a124d7244c91f1c1630718fa5eacc250df622dcc8ff56545de8ef6b"
+  },
+  {
+    "path": "LAYOUT.json",
+    "bytes": 460046,
+    "sha256": "519964472d73a69bf068004bd0426aff3b09c1a37ac27188432ede663a01d0ed"
+  },
+  {
+    "path": "make_boards.py",
+    "bytes": 12276,
+    "sha256": "908fbec5ae7d732e1d9685e1dc5a791f0ad0b2c1e1208603964d66247974c005"
+  },
+  {
+    "path": "OPENING_CHANGE.csv",
+    "bytes": 263,
+    "sha256": "bbf7b71ff77abf6ca44defeb20cf7dd502729233122826f00ca699eab265ba5a"
+  },
+  {
+    "path": "prepare_revision.py",
+    "bytes": 15928,
+    "sha256": "64fd4331323e3b43474da9cd163926f160d7b701c2c8ad77c9f6dee5c95b65b8"
+  },
+  {
+    "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_CHANGE_SEAT_CLOSE.png",
+    "bytes": 3135578,
+    "sha256": "96d0622011197c0ddec097130a68f67aa42ddf4b6ca0b28abc4edd9428e2303a"
+  },
+  {
+    "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_CLASS_OPERATION_P_EQUALS_E.png",
+    "bytes": 3686366,
+    "sha256": "ce5ce9a2e500e01017082dc4c5b80c5e56daf8b39c0a9caaf0ad57f05924120a"
+  },
+  {
+    "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_DOOR_HALL_APPROACH.png",
+    "bytes": 2972541,
+    "sha256": "33b525dff08808853b348c256f1b6a1be6f4d782f1286ec98e0ee13c7dfbba56"
+  },
+  {
+    "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_WESTLINK_CHANGE_LOOP.png",
+    "bytes": 3832805,
+    "sha256": "50294d5db6f49c823bebf3f09906080239e07085c6c4ec8b132e735b015054b9"
+  },
+  {
+    "path": "protected_inputs.json",
+    "bytes": 79536,
+    "sha256": "e9f28c9f73772d5b8fd7d3c12abf36afe3330fce9d6e3e17d2378ef70f1825cc"
+  },
+  {
+    "path": "README.md",
+    "bytes": 4089,
+    "sha256": "aae30c748f87c5090a13838d33ac71790a71866f5542781fb6688ed1714100db"
+  },
+  {
+    "path": "render_revision.py",
+    "bytes": 6512,
+    "sha256": "3d864fc63d67bbee18aabe7d694b691729e9ca04f6270918b06fe2aa69591b6b"
+  },
+  {
+    "path": "review.md",
+    "bytes": 2457,
+    "sha256": "279c7362946185c938e5e5c9694ed7af84b4543f28070ed44fa0c10aa72d97e3"
+  },
+  {
+    "path": "SEATS.csv",
+    "bytes": 4516,
+    "sha256": "59fbe4cabeb4c59b8cbb2dd3ad30834bc355f3d4edfd8696952f5b43f2be272b"
+  },
+  {
+    "path": "SL_BLD_C01_MAIN_01_TRIAL_01_REV_02.blend",
+    "bytes": 4546681,
+    "sha256": "90137759b838d849395f9c0363cbb74f072aff8de4fef418668312b784086aa4"
+  },
+  {
+    "path": "SL_BLD_C01_MAIN_01_TRIAL_01_REV_02.fbx",
+    "bytes": 16546332,
+    "sha256": "bf12172b5e28f82e2e5ae941e61d8d14bffd67b0b751a8f58e2e092dbffb209d"
+  },
+  {
+    "path": "SOURCE_CHECK.json",
+    "bytes": 5057,
+    "sha256": "3c9a3c59a72126497f5a80191a67c2f109e497598b001143816e4993d9853c33"
+  },
+  {
+    "path": "SPEC.md",
+    "bytes": 10367,
+    "sha256": "654372de9b92434dc991cf4e98661f20e04c115f5d1a0cce5e5a0a5e9a0cc35c"
+  },
+  {
+    "path": "STATISTICS.json",
+    "bytes": 234,
+    "sha256": "499e0c223c57208c5177d892b8090e667635fc38398dc2ee0597d388a9fd6f23"
+  },
+  {
+    "path": "verify_revision.py",
+    "bytes": 5827,
+    "sha256": "3a645713bc8fa3a15f7e78df0391eee54394b72c9eebd480909a39c99d7f068c"
+  },
+  {
+    "path": "VIEW_DEPENDENCIES.json",
+    "bytes": 4861,
+    "sha256": "5fef465ae35d1b5102e7ecb63a18f4aa3aa4be12c2cc8920c16b55e570d47612"
+  }
+]

@@ -1,3 +1,7 @@
+# 当前制作回件：C01整栋试作局部修订02 · 2026-10-16
+
+[独立修订包](ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/Revision02/README.md) / [规划回审](Docs/AssetPlanning/BuildingProduction/C01/trial-revision-02-handoff.md)。真实西连接洞/框/廊侧停扇2.4×2.6与双人换鞋凳完成；900/15.048㎡柜体不变，新凳1.080㎡分账。局部换鞋与双向条件检查、必要FBX回导完成，2212未改对象保持。操作点45/19.5可达，P=E按Actor—Anchor三维分来源：规划Z1200余134/132cm、历史Z800超266/268cm，现用变换未实测，暂停最终席绑定；19阶段不改、不新增启动条件。交回针对性审阅，不代判整栋最终通过，无UE。
+
 # 当前：C01原整栋卡局部修订02已发布 · 2026-10-16
 
 [原卡](Docs/AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_TRIAL_01.md)／[代码只读证据](Docs/AssetPlanning/BuildingProduction/C01/activity-distance-code-evidence.json)。已确认同中心2.4×2.6内门；保900/六层候选并补坐面闭环；5_5保研究，优先原业务附近操作点，预览/Enter按Actor—Anchor三维230cm分别验。地面/Actor/椅/操作点和历史灰盒Z8/正式规划Z12区分，不改工程锚点。仅发要求供用户转交，未制作或UE，B01等不变。

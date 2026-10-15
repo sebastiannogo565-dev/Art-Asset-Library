@@ -1,0 +1,10 @@
+﻿bank,room,columns,rows,faces,cells,bounds_m,cavity_m,status
+REV_MAIN_W1,F1_WL,10,6,2,120,"[19.42, 1.05, 0, 22.42, 1.69, 1.8]","[0.288, 0.304, 0.276]",unchanged from Revision01
+REV_MAIN_E1,F1_WL,3,6,2,36,"[27.6, 1.05, 0, 28.5, 1.69, 1.8]","[0.288, 0.304, 0.276]",unchanged from Revision01
+REV_MAIN_W2,F1_WL,10,6,2,120,"[19.42, 4.21, 0, 22.42, 4.85, 1.8]","[0.288, 0.304, 0.276]",unchanged from Revision01
+REV_MAIN_E2,F1_WL,3,6,2,36,"[27.6, 4.21, 0, 28.5, 4.85, 1.8]","[0.288, 0.304, 0.276]",unchanged from Revision01
+REV_MAIN_W3,F1_WL,10,6,2,120,"[19.42, 7.37, 0, 22.42, 8.01, 1.8]","[0.288, 0.304, 0.276]",unchanged from Revision01
+REV_MAIN_E3,F1_WL,3,6,2,36,"[27.6, 7.37, 0, 28.5, 8.01, 1.8]","[0.288, 0.304, 0.276]",unchanged from Revision01
+REV_LINK_SINGLE,F1_LW,16,6,1,96,"[52.3, 15.4, 0, 52.65, 20.2, 1.8]","[0.288, 0.328, 0.276]",unchanged from Revision01
+REV_LINK_MID,F1_LW,14,6,2,168,"[56.04, 15.4, 0, 56.74, 19.6, 1.8]","[0.288, 0.334, 0.276]",unchanged from Revision01
+REV_LINK_EAST,F1_LW,14,6,2,168,"[59.26, 15.4, 0, 59.96, 19.6, 1.8]","[0.288, 0.334, 0.276]",unchanged from Revision01

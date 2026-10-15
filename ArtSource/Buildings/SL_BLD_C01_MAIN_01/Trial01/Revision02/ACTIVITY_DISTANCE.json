@@ -1,0 +1,420 @@
+{
+  "fixed_radius_cm": 230,
+  "P_equals_E": true,
+  "cases": [
+    {
+      "candidate_id": "OP_C30_01",
+      "seat_relation": "F2_W4_DESK_3_5 tentative, not final bound",
+      "mode": "PREVIEW_P",
+      "anchor_case": "HISTORICAL_RECIPE_Z800",
+      "anchor_source": "historical file, NOT live map",
+      "A_cm": [
+        4500,
+        7050,
+        800
+      ],
+      "G_local_m": [
+        45,
+        19.5,
+        4
+      ],
+      "G_engineering_cm": [
+        4500,
+        7050,
+        1200
+      ],
+      "actor_offset_m": 0.96,
+      "offset_evidence": "constructor half-height96cm, scale1/contact assumed",
+      "actor_local_m": [
+        45,
+        19.5,
+        4.96
+      ],
+      "actor_world_cm": [
+        4500,
+        7050,
+        1296.0
+      ],
+      "world_basis": "engineering UE candidate mapping; live C01 actor/world transform unverified",
+      "distance_squared_cm2": 246016.0,
+      "distance_cm": 496.0,
+      "margin_cm": -266.0,
+      "within230": false,
+      "route_passed": true,
+      "current_engineering_compatibility": "UNVERIFIED; historical case fails",
+      "eligibility_game": "UNVERIFIED"
+    },
+    {
+      "candidate_id": "OP_C30_01",
+      "seat_relation": "F2_W4_DESK_3_5 tentative, not final bound",
+      "mode": "ENTER_E",
+      "anchor_case": "HISTORICAL_RECIPE_Z800",
+      "anchor_source": "historical file, NOT live map",
+      "A_cm": [
+        4500,
+        7050,
+        800
+      ],
+      "G_local_m": [
+        45,
+        19.5,
+        4
+      ],
+      "G_engineering_cm": [
+        4500,
+        7050,
+        1200
+      ],
+      "actor_offset_m": 0.96,
+      "offset_evidence": "constructor half-height96cm, scale1/contact assumed",
+      "actor_local_m": [
+        45,
+        19.5,
+        4.96
+      ],
+      "actor_world_cm": [
+        4500,
+        7050,
+        1296.0
+      ],
+      "world_basis": "engineering UE candidate mapping; live C01 actor/world transform unverified",
+      "distance_squared_cm2": 246016.0,
+      "distance_cm": 496.0,
+      "margin_cm": -266.0,
+      "within230": false,
+      "route_passed": true,
+      "current_engineering_compatibility": "UNVERIFIED; historical case fails",
+      "eligibility_game": "UNVERIFIED"
+    },
+    {
+      "candidate_id": "OP_C30_01",
+      "seat_relation": "F2_W4_DESK_3_5 tentative, not final bound",
+      "mode": "PREVIEW_P",
+      "anchor_case": "HISTORICAL_RECIPE_Z800",
+      "anchor_source": "historical file, NOT live map",
+      "A_cm": [
+        4500,
+        7050,
+        800
+      ],
+      "G_local_m": [
+        45,
+        19.5,
+        4
+      ],
+      "G_engineering_cm": [
+        4500,
+        7050,
+        1200
+      ],
+      "actor_offset_m": 0.98,
+      "offset_evidence": "landing-helper96+2cm illustrative only, not universal live offset",
+      "actor_local_m": [
+        45,
+        19.5,
+        4.98
+      ],
+      "actor_world_cm": [
+        4500,
+        7050,
+        1298.0
+      ],
+      "world_basis": "engineering UE candidate mapping; live C01 actor/world transform unverified",
+      "distance_squared_cm2": 248004.0,
+      "distance_cm": 498.0,
+      "margin_cm": -268.0,
+      "within230": false,
+      "route_passed": true,
+      "current_engineering_compatibility": "UNVERIFIED; historical case fails",
+      "eligibility_game": "UNVERIFIED"
+    },
+    {
+      "candidate_id": "OP_C30_01",
+      "seat_relation": "F2_W4_DESK_3_5 tentative, not final bound",
+      "mode": "ENTER_E",
+      "anchor_case": "HISTORICAL_RECIPE_Z800",
+      "anchor_source": "historical file, NOT live map",
+      "A_cm": [
+        4500,
+        7050,
+        800
+      ],
+      "G_local_m": [
+        45,
+        19.5,
+        4
+      ],
+      "G_engineering_cm": [
+        4500,
+        7050,
+        1200
+      ],
+      "actor_offset_m": 0.98,
+      "offset_evidence": "landing-helper96+2cm illustrative only, not universal live offset",
+      "actor_local_m": [
+        45,
+        19.5,
+        4.98
+      ],
+      "actor_world_cm": [
+        4500,
+        7050,
+        1298.0
+      ],
+      "world_basis": "engineering UE candidate mapping; live C01 actor/world transform unverified",
+      "distance_squared_cm2": 248004.0,
+      "distance_cm": 498.0,
+      "margin_cm": -268.0,
+      "within230": false,
+      "route_passed": true,
+      "current_engineering_compatibility": "UNVERIFIED; historical case fails",
+      "eligibility_game": "UNVERIFIED"
+    },
+    {
+      "candidate_id": "OP_C30_01",
+      "seat_relation": "F2_W4_DESK_3_5 tentative, not final bound",
+      "mode": "PREVIEW_P",
+      "anchor_case": "FORMAL_PLANNING_Z1200",
+      "anchor_source": "conditional formal C01 mapping, NOT current anchor evidence",
+      "A_cm": [
+        4500,
+        7050,
+        1200
+      ],
+      "G_local_m": [
+        45,
+        19.5,
+        4
+      ],
+      "G_engineering_cm": [
+        4500,
+        7050,
+        1200
+      ],
+      "actor_offset_m": 0.96,
+      "offset_evidence": "constructor half-height96cm, scale1/contact assumed",
+      "actor_local_m": [
+        45,
+        19.5,
+        4.96
+      ],
+      "actor_world_cm": [
+        4500,
+        7050,
+        1296.0
+      ],
+      "world_basis": "engineering UE candidate mapping; live C01 actor/world transform unverified",
+      "distance_squared_cm2": 9216.0,
+      "distance_cm": 96.0,
+      "margin_cm": 134.0,
+      "within230": true,
+      "route_passed": true,
+      "current_engineering_compatibility": "UNVERIFIED; historical case fails",
+      "eligibility_game": "UNVERIFIED"
+    },
+    {
+      "candidate_id": "OP_C30_01",
+      "seat_relation": "F2_W4_DESK_3_5 tentative, not final bound",
+      "mode": "ENTER_E",
+      "anchor_case": "FORMAL_PLANNING_Z1200",
+      "anchor_source": "conditional formal C01 mapping, NOT current anchor evidence",
+      "A_cm": [
+        4500,
+        7050,
+        1200
+      ],
+      "G_local_m": [
+        45,
+        19.5,
+        4
+      ],
+      "G_engineering_cm": [
+        4500,
+        7050,
+        1200
+      ],
+      "actor_offset_m": 0.96,
+      "offset_evidence": "constructor half-height96cm, scale1/contact assumed",
+      "actor_local_m": [
+        45,
+        19.5,
+        4.96
+      ],
+      "actor_world_cm": [
+        4500,
+        7050,
+        1296.0
+      ],
+      "world_basis": "engineering UE candidate mapping; live C01 actor/world transform unverified",
+      "distance_squared_cm2": 9216.0,
+      "distance_cm": 96.0,
+      "margin_cm": 134.0,
+      "within230": true,
+      "route_passed": true,
+      "current_engineering_compatibility": "UNVERIFIED; historical case fails",
+      "eligibility_game": "UNVERIFIED"
+    },
+    {
+      "candidate_id": "OP_C30_01",
+      "seat_relation": "F2_W4_DESK_3_5 tentative, not final bound",
+      "mode": "PREVIEW_P",
+      "anchor_case": "FORMAL_PLANNING_Z1200",
+      "anchor_source": "conditional formal C01 mapping, NOT current anchor evidence",
+      "A_cm": [
+        4500,
+        7050,
+        1200
+      ],
+      "G_local_m": [
+        45,
+        19.5,
+        4
+      ],
+      "G_engineering_cm": [
+        4500,
+        7050,
+        1200
+      ],
+      "actor_offset_m": 0.98,
+      "offset_evidence": "landing-helper96+2cm illustrative only, not universal live offset",
+      "actor_local_m": [
+        45,
+        19.5,
+        4.98
+      ],
+      "actor_world_cm": [
+        4500,
+        7050,
+        1298.0
+      ],
+      "world_basis": "engineering UE candidate mapping; live C01 actor/world transform unverified",
+      "distance_squared_cm2": 9604.0,
+      "distance_cm": 98.0,
+      "margin_cm": 132.0,
+      "within230": true,
+      "route_passed": true,
+      "current_engineering_compatibility": "UNVERIFIED; historical case fails",
+      "eligibility_game": "UNVERIFIED"
+    },
+    {
+      "candidate_id": "OP_C30_01",
+      "seat_relation": "F2_W4_DESK_3_5 tentative, not final bound",
+      "mode": "ENTER_E",
+      "anchor_case": "FORMAL_PLANNING_Z1200",
+      "anchor_source": "conditional formal C01 mapping, NOT current anchor evidence",
+      "A_cm": [
+        4500,
+        7050,
+        1200
+      ],
+      "G_local_m": [
+        45,
+        19.5,
+        4
+      ],
+      "G_engineering_cm": [
+        4500,
+        7050,
+        1200
+      ],
+      "actor_offset_m": 0.98,
+      "offset_evidence": "landing-helper96+2cm illustrative only, not universal live offset",
+      "actor_local_m": [
+        45,
+        19.5,
+        4.98
+      ],
+      "actor_world_cm": [
+        4500,
+        7050,
+        1298.0
+      ],
+      "world_basis": "engineering UE candidate mapping; live C01 actor/world transform unverified",
+      "distance_squared_cm2": 9604.0,
+      "distance_cm": 98.0,
+      "margin_cm": 132.0,
+      "within230": true,
+      "route_passed": true,
+      "current_engineering_compatibility": "UNVERIFIED; historical case fails",
+      "eligibility_game": "UNVERIFIED"
+    }
+  ],
+  "route": {
+    "points": [
+      [
+        45,
+        12.7,
+        4
+      ],
+      [
+        45,
+        18.8,
+        4
+      ],
+      [
+        45,
+        19.5,
+        4
+      ]
+    ],
+    "passed": true,
+    "min_separation": 0.20999999999999375,
+    "parts": [
+      {
+        "intervals": 611,
+        "min_separation": 0.20999999999999375,
+        "closest_part": "CAPSULE_BOUND",
+        "closest_obstacle": "F2_W4_DESK_3_1_TOP",
+        "blocked": [],
+        "passed": true
+      },
+      {
+        "intervals": 70,
+        "min_separation": 0.20999999999999375,
+        "closest_part": "CAPSULE_BOUND",
+        "closest_obstacle": "F2_W4_DESK_3_5_TOP",
+        "blocked": [],
+        "passed": true
+      }
+    ]
+  },
+  "candidate": {
+    "id": "OP_C30_01",
+    "seat_id": "F2_W4_DESK_3_5",
+    "chair": [
+      46.175,
+      19.87,
+      4.43
+    ],
+    "chair_approach_original": [
+      46.35,
+      19.87,
+      4
+    ],
+    "operation_ground": [
+      45,
+      19.5,
+      4
+    ],
+    "relation": "standing preview/Enter reachable from cross-aisle, not a sitting prerequisite or automatic seat transfer",
+    "seat_sit_exit": "Revision01 standing/pull candidate blocked; full conversion unverified, do not bind final player seat",
+    "old_study": "5_5 retained unchanged, not final player seat",
+    "old_study_chair": [
+      48.275,
+      19.87,
+      4.43
+    ],
+    "old_study_approach": [
+      48.29,
+      19.87,
+      4
+    ]
+  },
+  "conflict": {
+    "min_vertical_cm": 496,
+    "vertical_shortfall_cm": 266,
+    "at_operation_history_distance": 496.0,
+    "recommendation": "Keep original anchor/radius/floor; pause final seat binding, request planning/development read-only live Actor/Anchor transform evidence before deciding interface alignment. No source/map edits in this task."
+  },
+  "scope": "Only P/E proximity, not all19 phases. No teleport, radius/anchor change or new sitting start condition. Live map/scaled capsule/nearest eligible place not verified."
+}
