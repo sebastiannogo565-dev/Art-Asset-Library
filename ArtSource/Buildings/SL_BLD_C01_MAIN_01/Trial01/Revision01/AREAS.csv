@@ -1,0 +1,5 @@
+﻿ledger,main_m2,westlink_m2,total_m2,main_increase_m2
+original_depth_060,10.8,6.3,17.1,0
+original_trial_depth_066,11.88,6.3,18.18,1.08
+revision_layout,7.488,7.56,15.048,separate new layout
+revision_minus_old_trial,-4.392,1.26,-3.132,not the old depth correction

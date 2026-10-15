@@ -1,0 +1,777 @@
+{
+  "nominal": 900,
+  "main": 468,
+  "link": 432,
+  "banks": [
+    {
+      "id": "REV_MAIN_W1",
+      "room": "F1_WL",
+      "axis": "X",
+      "bounds": [
+        19.42,
+        1.05,
+        0,
+        22.42,
+        1.69,
+        1.8
+      ],
+      "columns": 10,
+      "rows": 6,
+      "faces": 2,
+      "depth": 0.64,
+      "cavity": [
+        0.288,
+        0.304,
+        0.276
+      ],
+      "front": "open cubby candidate; .004m recessed lip, no sliding panel/handle sweep",
+      "nominal": 120
+    },
+    {
+      "id": "REV_MAIN_E1",
+      "room": "F1_WL",
+      "axis": "X",
+      "bounds": [
+        27.6,
+        1.05,
+        0,
+        28.5,
+        1.69,
+        1.8
+      ],
+      "columns": 3,
+      "rows": 6,
+      "faces": 2,
+      "depth": 0.64,
+      "cavity": [
+        0.288,
+        0.304,
+        0.276
+      ],
+      "front": "open cubby candidate; .004m recessed lip, no sliding panel/handle sweep",
+      "nominal": 36
+    },
+    {
+      "id": "REV_MAIN_W2",
+      "room": "F1_WL",
+      "axis": "X",
+      "bounds": [
+        19.42,
+        4.21,
+        0,
+        22.42,
+        4.85,
+        1.8
+      ],
+      "columns": 10,
+      "rows": 6,
+      "faces": 2,
+      "depth": 0.64,
+      "cavity": [
+        0.288,
+        0.304,
+        0.276
+      ],
+      "front": "open cubby candidate; .004m recessed lip, no sliding panel/handle sweep",
+      "nominal": 120
+    },
+    {
+      "id": "REV_MAIN_E2",
+      "room": "F1_WL",
+      "axis": "X",
+      "bounds": [
+        27.6,
+        4.21,
+        0,
+        28.5,
+        4.85,
+        1.8
+      ],
+      "columns": 3,
+      "rows": 6,
+      "faces": 2,
+      "depth": 0.64,
+      "cavity": [
+        0.288,
+        0.304,
+        0.276
+      ],
+      "front": "open cubby candidate; .004m recessed lip, no sliding panel/handle sweep",
+      "nominal": 36
+    },
+    {
+      "id": "REV_MAIN_W3",
+      "room": "F1_WL",
+      "axis": "X",
+      "bounds": [
+        19.42,
+        7.37,
+        0,
+        22.42,
+        8.01,
+        1.8
+      ],
+      "columns": 10,
+      "rows": 6,
+      "faces": 2,
+      "depth": 0.64,
+      "cavity": [
+        0.288,
+        0.304,
+        0.276
+      ],
+      "front": "open cubby candidate; .004m recessed lip, no sliding panel/handle sweep",
+      "nominal": 120
+    },
+    {
+      "id": "REV_MAIN_E3",
+      "room": "F1_WL",
+      "axis": "X",
+      "bounds": [
+        27.6,
+        7.37,
+        0,
+        28.5,
+        8.01,
+        1.8
+      ],
+      "columns": 3,
+      "rows": 6,
+      "faces": 2,
+      "depth": 0.64,
+      "cavity": [
+        0.288,
+        0.304,
+        0.276
+      ],
+      "front": "open cubby candidate; .004m recessed lip, no sliding panel/handle sweep",
+      "nominal": 36
+    },
+    {
+      "id": "REV_LINK_SINGLE",
+      "room": "F1_LW",
+      "axis": "Y",
+      "bounds": [
+        52.3,
+        15.4,
+        0,
+        52.65,
+        20.2,
+        1.8
+      ],
+      "columns": 16,
+      "rows": 6,
+      "faces": 1,
+      "depth": 0.35,
+      "cavity": [
+        0.288,
+        0.328,
+        0.276
+      ],
+      "front": "open cubby; single bank faces east with west back against wall",
+      "nominal": 96
+    },
+    {
+      "id": "REV_LINK_MID",
+      "room": "F1_LW",
+      "axis": "Y",
+      "bounds": [
+        56.04,
+        15.4,
+        0,
+        56.74,
+        19.6,
+        1.8
+      ],
+      "columns": 14,
+      "rows": 6,
+      "faces": 2,
+      "depth": 0.7,
+      "cavity": [
+        0.288,
+        0.334,
+        0.276
+      ],
+      "front": "open cubby; single bank faces east with west back against wall",
+      "nominal": 168
+    },
+    {
+      "id": "REV_LINK_EAST",
+      "room": "F1_LW",
+      "axis": "Y",
+      "bounds": [
+        59.26,
+        15.4,
+        0,
+        59.96,
+        19.6,
+        1.8
+      ],
+      "columns": 14,
+      "rows": 6,
+      "faces": 2,
+      "depth": 0.7,
+      "cavity": [
+        0.288,
+        0.334,
+        0.276
+      ],
+      "front": "open cubby; single bank faces east with west back against wall",
+      "nominal": 168
+    }
+  ],
+  "operators": [
+    {
+      "id": "REV_MAIN_W1_OP-1_0",
+      "room": "F1_WL",
+      "rect": [
+        19.42,
+        0.3500000000000001,
+        20.459655172413797,
+        1.05
+      ]
+    },
+    {
+      "id": "REV_MAIN_W1_OP-1_1",
+      "room": "F1_WL",
+      "rect": [
+        21.38034482758621,
+        0.3500000000000001,
+        22.420000000000005,
+        1.05
+      ]
+    },
+    {
+      "id": "REV_MAIN_W1_OP1_0",
+      "room": "F1_WL",
+      "rect": [
+        19.42,
+        1.69,
+        20.459655172413797,
+        2.3899999999999997
+      ]
+    },
+    {
+      "id": "REV_MAIN_W1_OP1_1",
+      "room": "F1_WL",
+      "rect": [
+        21.38034482758621,
+        1.69,
+        22.420000000000005,
+        2.3899999999999997
+      ]
+    },
+    {
+      "id": "REV_MAIN_E1_OP-1_0",
+      "room": "F1_WL",
+      "rect": [
+        27.530172413793103,
+        0.3500000000000001,
+        28.569827586206898,
+        1.05
+      ]
+    },
+    {
+      "id": "REV_MAIN_E1_OP1_0",
+      "room": "F1_WL",
+      "rect": [
+        27.530172413793103,
+        1.69,
+        28.569827586206898,
+        2.3899999999999997
+      ]
+    },
+    {
+      "id": "REV_MAIN_W2_OP-1_0",
+      "room": "F1_WL",
+      "rect": [
+        19.42,
+        3.51,
+        20.459655172413797,
+        4.21
+      ]
+    },
+    {
+      "id": "REV_MAIN_W2_OP-1_1",
+      "room": "F1_WL",
+      "rect": [
+        21.38034482758621,
+        3.51,
+        22.420000000000005,
+        4.21
+      ]
+    },
+    {
+      "id": "REV_MAIN_W2_OP1_0",
+      "room": "F1_WL",
+      "rect": [
+        19.42,
+        4.85,
+        20.459655172413797,
+        5.55
+      ]
+    },
+    {
+      "id": "REV_MAIN_W2_OP1_1",
+      "room": "F1_WL",
+      "rect": [
+        21.38034482758621,
+        4.85,
+        22.420000000000005,
+        5.55
+      ]
+    },
+    {
+      "id": "REV_MAIN_E2_OP-1_0",
+      "room": "F1_WL",
+      "rect": [
+        27.530172413793103,
+        3.51,
+        28.569827586206898,
+        4.21
+      ]
+    },
+    {
+      "id": "REV_MAIN_E2_OP1_0",
+      "room": "F1_WL",
+      "rect": [
+        27.530172413793103,
+        4.85,
+        28.569827586206898,
+        5.55
+      ]
+    },
+    {
+      "id": "REV_MAIN_W3_OP-1_0",
+      "room": "F1_WL",
+      "rect": [
+        19.42,
+        6.67,
+        20.459655172413797,
+        7.37
+      ]
+    },
+    {
+      "id": "REV_MAIN_W3_OP-1_1",
+      "room": "F1_WL",
+      "rect": [
+        21.38034482758621,
+        6.67,
+        22.420000000000005,
+        7.37
+      ]
+    },
+    {
+      "id": "REV_MAIN_W3_OP1_0",
+      "room": "F1_WL",
+      "rect": [
+        19.42,
+        8.01,
+        20.459655172413797,
+        8.709999999999999
+      ]
+    },
+    {
+      "id": "REV_MAIN_W3_OP1_1",
+      "room": "F1_WL",
+      "rect": [
+        21.38034482758621,
+        8.01,
+        22.420000000000005,
+        8.709999999999999
+      ]
+    },
+    {
+      "id": "REV_MAIN_E3_OP-1_0",
+      "room": "F1_WL",
+      "rect": [
+        27.530172413793103,
+        6.67,
+        28.569827586206898,
+        7.37
+      ]
+    },
+    {
+      "id": "REV_MAIN_E3_OP1_0",
+      "room": "F1_WL",
+      "rect": [
+        27.530172413793103,
+        8.01,
+        28.569827586206898,
+        8.709999999999999
+      ]
+    },
+    {
+      "id": "REV_LINK_SINGLE_OP1_0",
+      "room": "F1_LW",
+      "rect": [
+        52.65,
+        15.4,
+        53.35,
+        16.439655172413794
+      ]
+    },
+    {
+      "id": "REV_LINK_SINGLE_OP1_1",
+      "room": "F1_LW",
+      "rect": [
+        52.65,
+        17.2801724137931,
+        53.35,
+        18.319827586206895
+      ]
+    },
+    {
+      "id": "REV_LINK_SINGLE_OP1_2",
+      "room": "F1_LW",
+      "rect": [
+        52.65,
+        19.160344827586204,
+        53.35,
+        20.2
+      ]
+    },
+    {
+      "id": "REV_LINK_MID_OP-1_0",
+      "room": "F1_LW",
+      "rect": [
+        55.339999999999996,
+        15.4,
+        56.04,
+        16.439655172413794
+      ]
+    },
+    {
+      "id": "REV_LINK_MID_OP-1_1",
+      "room": "F1_LW",
+      "rect": [
+        55.339999999999996,
+        16.980172413793102,
+        56.04,
+        18.019827586206898
+      ]
+    },
+    {
+      "id": "REV_LINK_MID_OP-1_2",
+      "room": "F1_LW",
+      "rect": [
+        55.339999999999996,
+        18.560344827586206,
+        56.04,
+        19.6
+      ]
+    },
+    {
+      "id": "REV_LINK_MID_OP1_0",
+      "room": "F1_LW",
+      "rect": [
+        56.74,
+        15.4,
+        57.440000000000005,
+        16.439655172413794
+      ]
+    },
+    {
+      "id": "REV_LINK_MID_OP1_1",
+      "room": "F1_LW",
+      "rect": [
+        56.74,
+        16.980172413793102,
+        57.440000000000005,
+        18.019827586206898
+      ]
+    },
+    {
+      "id": "REV_LINK_MID_OP1_2",
+      "room": "F1_LW",
+      "rect": [
+        56.74,
+        18.560344827586206,
+        57.440000000000005,
+        19.6
+      ]
+    },
+    {
+      "id": "REV_LINK_EAST_OP-1_0",
+      "room": "F1_LW",
+      "rect": [
+        58.559999999999995,
+        15.4,
+        59.26,
+        16.439655172413794
+      ]
+    },
+    {
+      "id": "REV_LINK_EAST_OP-1_1",
+      "room": "F1_LW",
+      "rect": [
+        58.559999999999995,
+        16.980172413793102,
+        59.26,
+        18.019827586206898
+      ]
+    },
+    {
+      "id": "REV_LINK_EAST_OP-1_2",
+      "room": "F1_LW",
+      "rect": [
+        58.559999999999995,
+        18.560344827586206,
+        59.26,
+        19.6
+      ]
+    },
+    {
+      "id": "REV_LINK_EAST_OP1_0",
+      "room": "F1_LW",
+      "rect": [
+        59.96,
+        15.4,
+        60.660000000000004,
+        16.439655172413794
+      ]
+    },
+    {
+      "id": "REV_LINK_EAST_OP1_1",
+      "room": "F1_LW",
+      "rect": [
+        59.96,
+        16.980172413793102,
+        60.660000000000004,
+        18.019827586206898
+      ]
+    },
+    {
+      "id": "REV_LINK_EAST_OP1_2",
+      "room": "F1_LW",
+      "rect": [
+        59.96,
+        18.560344827586206,
+        60.660000000000004,
+        19.6
+      ]
+    }
+  ],
+  "method": "whole visible1.039655m x .34m footprint circumscribed circle, all line/corner sweeps exact distance to actual operating rectangles/queue/carcasses",
+  "radius": 0.5469192987833656,
+  "net_aisle": 1.12,
+  "paths": [
+    {
+      "id": "MAIN_IN",
+      "path": [
+        [
+          24.15,
+          0
+        ],
+        [
+          24.15,
+          2.95
+        ],
+        [
+          18.86,
+          2.95
+        ],
+        [
+          18.86,
+          6.11
+        ],
+        [
+          24.15,
+          6.11
+        ],
+        [
+          24.15,
+          8.8
+        ]
+      ],
+      "min_clearance": 0.013080701216633961,
+      "closest": "REV_MAIN_W2_OP-1_0",
+      "passed": true,
+      "room": "F1_WL"
+    },
+    {
+      "id": "MAIN_OUT",
+      "path": [
+        [
+          25.85,
+          8.8
+        ],
+        [
+          25.85,
+          6.11
+        ],
+        [
+          29.135,
+          6.11
+        ],
+        [
+          29.135,
+          2.95
+        ],
+        [
+          25.85,
+          2.95
+        ],
+        [
+          25.85,
+          0
+        ]
+      ],
+      "min_clearance": 0.013080701216633961,
+      "closest": "REV_MAIN_E2_OP-1_0",
+      "passed": true,
+      "room": "F1_WL"
+    },
+    {
+      "id": "LINK_SINGLE_PERSON_LOOP",
+      "path": [
+        [
+          58,
+          13
+        ],
+        [
+          58,
+          21.1
+        ],
+        [
+          61.6,
+          21.1
+        ],
+        [
+          61.6,
+          13.6
+        ],
+        [
+          58,
+          13.6
+        ],
+        [
+          58,
+          13
+        ]
+      ],
+      "min_clearance": 0.01308070121662952,
+      "closest": "REV_LINK_EAST_OP-1_0",
+      "passed": true,
+      "room": "F1_LW"
+    },
+    {
+      "id": "LINK_PROPOSED_IN_REAL_DOOR",
+      "path": [
+        [
+          57.4,
+          13
+        ],
+        [
+          57.4,
+          14.7
+        ],
+        [
+          58,
+          15.1
+        ],
+        [
+          58,
+          21.1
+        ]
+      ],
+      "min_clearance": -0.4469192987833642,
+      "closest": "LW_DOOR_JAMB",
+      "passed": false,
+      "room": "F1_LW"
+    },
+    {
+      "id": "LINK_PROPOSED_OUT_REAL_DOOR",
+      "path": [
+        [
+          61.6,
+          21.1
+        ],
+        [
+          61.6,
+          13.6
+        ],
+        [
+          58.6,
+          13.6
+        ],
+        [
+          58.6,
+          13
+        ]
+      ],
+      "min_clearance": -0.4469192987833642,
+      "closest": "LW_DOOR_JAMB",
+      "passed": false,
+      "room": "F1_LW"
+    },
+    {
+      "id": "LINK_PROPOSED_IN_2_4_CANDIDATE",
+      "path": [
+        [
+          57.4,
+          13
+        ],
+        [
+          57.4,
+          14.7
+        ],
+        [
+          58,
+          15.1
+        ],
+        [
+          58,
+          21.1
+        ]
+      ],
+      "min_clearance": 0.01308070121662952,
+      "closest": "REV_LINK_EAST_OP-1_0",
+      "passed": true,
+      "room": "F1_LW"
+    },
+    {
+      "id": "LINK_PROPOSED_OUT_2_4_CANDIDATE",
+      "path": [
+        [
+          61.6,
+          21.1
+        ],
+        [
+          61.6,
+          13.6
+        ],
+        [
+          58.6,
+          13.6
+        ],
+        [
+          58.6,
+          13
+        ]
+      ],
+      "min_clearance": 0.053080701216633996,
+      "closest": "LW_DOOR_JAMB",
+      "passed": true,
+      "room": "F1_LW"
+    }
+  ],
+  "pair": {
+    "main_pair_margin": 0.6061614024332715,
+    "proposed_link_pair_margin": 0.10616140243327155
+  },
+  "queue_count": 6,
+  "scope": "finite named simultaneous users; not all possible counterflow/NPC or900-person peak operation",
+  "upper_use": {
+    "open_height": 0.276,
+    "shoe_plus_hand_height": 0.15,
+    "margin": 0.126,
+    "arm_length": 0.8,
+    "shoulder_z": 1.0,
+    "hand_z": 1.6,
+    "offset": 0.37,
+    "normal_distance": 0.3,
+    "reach": 0.7660939890117922,
+    "status": "static dimensional hypothesis only, no real hand/force validation"
+  }
+}

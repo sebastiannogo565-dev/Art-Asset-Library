@@ -1,0 +1,121 @@
+[
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_CLASS_REST_OPERATOR.png",
+    "target": [
+      45.2,
+      17.3,
+      4.8
+    ],
+    "azimuth": 315,
+    "elevation": 30,
+    "ortho_scale": 13.5,
+    "size": [
+      2560,
+      1440
+    ],
+    "sun": "unchanged original Sun/world/AgX",
+    "kind": "actual local revised geometry with separate check layers; not game output"
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_CLASS_PULLED_APPROACH.png",
+    "target": [
+      45.2,
+      17.3,
+      4.8
+    ],
+    "azimuth": 315,
+    "elevation": 30,
+    "ortho_scale": 13.5,
+    "size": [
+      2560,
+      1440
+    ],
+    "sun": "unchanged original Sun/world/AgX",
+    "kind": "actual local revised geometry with separate check layers; not game output"
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_CLASS_TRANSITION_HALF.png",
+    "target": [
+      45.2,
+      17.3,
+      4.8
+    ],
+    "azimuth": 315,
+    "elevation": 30,
+    "ortho_scale": 13.5,
+    "size": [
+      2560,
+      1440
+    ],
+    "sun": "unchanged original Sun/world/AgX",
+    "kind": "actual local revised geometry with separate check layers; not game output"
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_CLASS_SEATED_ASSUMPTION.png",
+    "target": [
+      45.2,
+      17.3,
+      4.8
+    ],
+    "azimuth": 315,
+    "elevation": 30,
+    "ortho_scale": 13.5,
+    "size": [
+      2560,
+      1440
+    ],
+    "sun": "unchanged original Sun/world/AgX",
+    "kind": "actual local revised geometry with separate check layers; not game output"
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_CLASS_RESTORED.png",
+    "target": [
+      45.2,
+      17.3,
+      4.8
+    ],
+    "azimuth": 315,
+    "elevation": 30,
+    "ortho_scale": 13.5,
+    "size": [
+      2560,
+      1440
+    ],
+    "sun": "unchanged original Sun/world/AgX",
+    "kind": "actual local revised geometry with separate check layers; not game output"
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_SHOES_MAIN_SIMULTANEOUS.png",
+    "target": [
+      24,
+      4.5,
+      0.7
+    ],
+    "azimuth": 225,
+    "elevation": 30,
+    "ortho_scale": 15,
+    "size": [
+      2560,
+      1440
+    ],
+    "sun": "unchanged original Sun/world/AgX",
+    "kind": "actual local revised geometry with separate check layers; not game output"
+  },
+  {
+    "file": "SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_SHOES_LINK_DOOR_CONFLICT.png",
+    "target": [
+      58,
+      17.3,
+      0.7
+    ],
+    "azimuth": 315,
+    "elevation": 30,
+    "ortho_scale": 15,
+    "size": [
+      2560,
+      1440
+    ],
+    "sun": "unchanged original Sun/world/AgX",
+    "kind": "actual local revised geometry with separate check layers; not game output"
+  }
+]

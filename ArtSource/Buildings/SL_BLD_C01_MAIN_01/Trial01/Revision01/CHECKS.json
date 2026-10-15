@@ -1,0 +1,27 @@
+{
+  "protected_inputs": 322,
+  "protected_changed": [],
+  "low_segments": 19,
+  "low_passed": 19,
+  "seat_states": {
+    "conditional_continuous": 1,
+    "standing_only": 6,
+    "current_candidate_blocked": 23,
+    "other_pose_unverified": 29
+  },
+  "nominal": 900,
+  "native_cavity_rays": 900,
+  "native_source_sha256": "58e2e27c1bec439f7f39d03281015b996cb6e2b10c52bb19bfff6122c6f3bcde",
+  "native_fbx_sha256": "e691c87bd2dd44e0cfe53b1912916447e52b707b77051f0a25716e2ba7333689",
+  "source_zero_area": 0,
+  "source_nonmanifold": 0,
+  "unchanged_objects": 2202,
+  "actual_link_door": 1.4,
+  "proposed_link_door": 2.4,
+  "actual_two_way_passed": false,
+  "boards_svg": 3,
+  "boards_png": 3,
+  "previews_png": 7,
+  "whole_building_final_passed": false,
+  "game_verified": false
+}

@@ -1,3 +1,7 @@
+# 当前回件：C01整栋试作局部修订01 · 2026-10-16
+
+[独立修订源与检查](ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/Revision01/README.md) / [规划回审](Docs/AssetPlanning/BuildingProduction/C01/trial-revision-01-handoff.md)。真实局部网格/Blend/JSON/FBX与3定尺板/7预览已交；玩家席仅尺寸假设下连续通过，30席状态1/6/23分列。900格重排主468+补432，新占地15.048㎡，旧加深纠正1.08㎡。原西连接1.4m门双向未通过，唯一推荐同中心2.4m待判，实际门未改。原包/外观/分层/纹理全保，RT01不开放，无UE；停针对性审阅，不判整栋最终通过。
+
 # 当前：C01 Trial01成果部分接受，原卡局部修订01已发布 · 2026-10-15
 
 [确认记录](Docs/AssetPlanning/BuildingProduction/review-C01-trial-01.md)／[原整栋试作卡当前修订段](Docs/AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_TRIAL_01.md)。保留外观/分层/UV/临时材色，整栋不最终通过；下一批仅教室连续姿态/逐席状态、900目标下双侧柜前与公共路重排、1.08㎡统计纠错。只记录发布供用户转交，未验证布局/改模型或UE，B01等保护对象保持。

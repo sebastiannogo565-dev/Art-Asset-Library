@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3200" height="2400" viewBox="0 0 3200 2400"><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="context-stroke"/></marker></defs><rect width="3200" height="2400" fill="#f4f3ee"/><g font-family="Microsoft YaHei, sans-serif" fill="#233c42">
+<text x="80" y="96" font-size="52" fill="#233c42">C01 试作局部修订01｜30席逐席状态</text>
+<text x="80" y="155" font-size="29" fill="#233c42">站立到达与完整姿态转换分别记录；其他23间教室维持原试作，未外推玩家席结果</text>
+<polyline points="80.000,185.000 3120.000,185.000" fill="none" stroke="#8aa3a6" stroke-width="2" stroke-linejoin="round" />
+<text x="90" y="265" font-size="33" fill="#233c42">ID      站立 / 椅活动                 入座与离席</text>
+<text x="90" y="335" font-size="33" fill="#ae5450">1_1</text>
+<text x="250" y="335" font-size="29" fill="#ae5450">受阻</text>
+<text x="250" y="376" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 -0.150m</text>
+<text x="250" y="412" font-size="24" fill="#233c42">站位包络受阻</text>
+<text x="90" y="447" font-size="33" fill="#ae5450">1_2</text>
+<text x="250" y="447" font-size="29" fill="#ae5450">受阻</text>
+<text x="250" y="488" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 -0.150m</text>
+<text x="250" y="524" font-size="24" fill="#233c42">站位包络受阻</text>
+<text x="90" y="559" font-size="33" fill="#ae5450">1_3</text>
+<text x="250" y="559" font-size="29" fill="#ae5450">受阻</text>
+<text x="250" y="600" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 -0.150m</text>
+<text x="250" y="636" font-size="24" fill="#233c42">站位包络受阻</text>
+<text x="90" y="671" font-size="33" fill="#ae5450">1_4</text>
+<text x="250" y="671" font-size="29" fill="#ae5450">受阻</text>
+<text x="250" y="712" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 -0.150m</text>
+<text x="250" y="748" font-size="24" fill="#233c42">站位包络受阻</text>
+<text x="90" y="783" font-size="33" fill="#ae5450">1_5</text>
+<text x="250" y="783" font-size="29" fill="#ae5450">受阻</text>
+<text x="250" y="824" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 -0.150m</text>
+<text x="250" y="860" font-size="24" fill="#233c42">站位包络受阻</text>
+<text x="90" y="895" font-size="33" fill="#ae5450">1_6</text>
+<text x="250" y="895" font-size="29" fill="#ae5450">受阻</text>
+<text x="250" y="936" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 -0.150m</text>
+<text x="250" y="972" font-size="24" fill="#233c42">站位包络受阻</text>
+<text x="90" y="1007" font-size="33" fill="#ae5450">2_1</text>
+<text x="250" y="1007" font-size="29" fill="#ae5450">受阻</text>
+<text x="250" y="1048" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 0.047m</text>
+<text x="250" y="1084" font-size="24" fill="#233c42">当前候选站位与主通路断开（保守矩形）</text>
+<text x="90" y="1119" font-size="33" fill="#ae5450">2_2</text>
+<text x="250" y="1119" font-size="29" fill="#ae5450">受阻</text>
+<text x="250" y="1160" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 0.047m</text>
+<text x="250" y="1196" font-size="24" fill="#233c42">当前候选站位与主通路断开（保守矩形）</text>
+<text x="90" y="1231" font-size="33" fill="#a47817">2_3</text>
+<text x="250" y="1231" font-size="29" fill="#a47817">可达（站立）</text>
+<text x="250" y="1272" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 0.047m</text>
+<text x="250" y="1308" font-size="24" fill="#233c42">站立到达（固定朝西、网格保守矩形；动作未外推）</text>
+<text x="90" y="1343" font-size="33" fill="#a47817">2_4</text>
+<text x="250" y="1343" font-size="29" fill="#a47817">可达（站立）</text>
+<text x="250" y="1384" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 0.047m</text>
+<text x="250" y="1420" font-size="24" fill="#233c42">站立到达（固定朝西、网格保守矩形；动作未外推）</text>
+<text x="90" y="1455" font-size="33" fill="#a47817">2_5</text>
+<text x="250" y="1455" font-size="29" fill="#a47817">可达（站立）</text>
+<text x="250" y="1496" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 0.047m</text>
+<text x="250" y="1532" font-size="24" fill="#233c42">站立到达（固定朝西、网格保守矩形；动作未外推）</text>
+<text x="90" y="1567" font-size="33" fill="#ae5450">2_6</text>
+<text x="250" y="1567" font-size="29" fill="#ae5450">受阻</text>
+<text x="250" y="1608" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 0.047m</text>
+<text x="250" y="1644" font-size="24" fill="#233c42">当前候选站位与主通路断开（保守矩形）</text>
+<text x="90" y="1679" font-size="33" fill="#ae5450">3_1</text>
+<text x="250" y="1679" font-size="29" fill="#ae5450">受阻</text>
+<text x="250" y="1720" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 -0.150m</text>
+<text x="250" y="1756" font-size="24" fill="#233c42">站位包络受阻</text>
+<text x="90" y="1791" font-size="33" fill="#ae5450">3_2</text>
+<text x="250" y="1791" font-size="29" fill="#ae5450">受阻</text>
+<text x="250" y="1832" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 -0.150m</text>
+<text x="250" y="1868" font-size="24" fill="#233c42">站位包络受阻</text>
+<text x="90" y="1903" font-size="33" fill="#ae5450">3_3</text>
+<text x="250" y="1903" font-size="29" fill="#ae5450">受阻</text>
+<text x="250" y="1944" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 -0.150m</text>
+<text x="250" y="1980" font-size="24" fill="#233c42">站位包络受阻</text>
+<text x="1660" y="265" font-size="33" fill="#233c42">ID      站立 / 椅活动                 入座与离席</text>
+<text x="1660" y="335" font-size="33" fill="#ae5450">3_4</text>
+<text x="1820" y="335" font-size="29" fill="#ae5450">受阻</text>
+<text x="1820" y="376" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 -0.150m</text>
+<text x="1820" y="412" font-size="24" fill="#233c42">站位包络受阻</text>
+<text x="1660" y="447" font-size="33" fill="#ae5450">3_5</text>
+<text x="1820" y="447" font-size="29" fill="#ae5450">受阻</text>
+<text x="1820" y="488" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 -0.150m</text>
+<text x="1820" y="524" font-size="24" fill="#233c42">站位包络受阻</text>
+<text x="1660" y="559" font-size="33" fill="#ae5450">3_6</text>
+<text x="1820" y="559" font-size="29" fill="#ae5450">受阻</text>
+<text x="1820" y="600" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 -0.150m</text>
+<text x="1820" y="636" font-size="24" fill="#233c42">站位包络受阻</text>
+<text x="1660" y="671" font-size="33" fill="#ae5450">4_1</text>
+<text x="1820" y="671" font-size="29" fill="#ae5450">受阻</text>
+<text x="1820" y="712" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 -0.150m</text>
+<text x="1820" y="748" font-size="24" fill="#233c42">站位包络受阻</text>
+<text x="1660" y="783" font-size="33" fill="#ae5450">4_2</text>
+<text x="1820" y="783" font-size="29" fill="#ae5450">受阻</text>
+<text x="1820" y="824" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 -0.150m</text>
+<text x="1820" y="860" font-size="24" fill="#233c42">站位包络受阻</text>
+<text x="1660" y="895" font-size="33" fill="#ae5450">4_3</text>
+<text x="1820" y="895" font-size="29" fill="#ae5450">受阻</text>
+<text x="1820" y="936" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 -0.150m</text>
+<text x="1820" y="972" font-size="24" fill="#233c42">站位包络受阻</text>
+<text x="1660" y="1007" font-size="33" fill="#ae5450">4_4</text>
+<text x="1820" y="1007" font-size="29" fill="#ae5450">受阻</text>
+<text x="1820" y="1048" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 -0.150m</text>
+<text x="1820" y="1084" font-size="24" fill="#233c42">站位包络受阻</text>
+<text x="1660" y="1119" font-size="33" fill="#ae5450">4_5</text>
+<text x="1820" y="1119" font-size="29" fill="#ae5450">受阻</text>
+<text x="1820" y="1160" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 -0.150m</text>
+<text x="1820" y="1196" font-size="24" fill="#233c42">站位包络受阻</text>
+<text x="1660" y="1231" font-size="33" fill="#ae5450">4_6</text>
+<text x="1820" y="1231" font-size="29" fill="#ae5450">受阻</text>
+<text x="1820" y="1272" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 -0.150m</text>
+<text x="1820" y="1308" font-size="24" fill="#233c42">站位包络受阻</text>
+<text x="1660" y="1343" font-size="33" fill="#ae5450">5_1</text>
+<text x="1820" y="1343" font-size="29" fill="#ae5450">受阻</text>
+<text x="1820" y="1384" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 0.047m</text>
+<text x="1820" y="1420" font-size="24" fill="#233c42">当前候选站位与主通路断开（保守矩形）</text>
+<text x="1660" y="1455" font-size="33" fill="#a47817">5_2</text>
+<text x="1820" y="1455" font-size="29" fill="#a47817">可达（站立）</text>
+<text x="1820" y="1496" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 0.047m</text>
+<text x="1820" y="1532" font-size="24" fill="#233c42">站立到达（固定朝西、网格保守矩形；动作未外推）</text>
+<text x="1660" y="1567" font-size="33" fill="#a47817">5_3</text>
+<text x="1820" y="1567" font-size="29" fill="#a47817">可达（站立）</text>
+<text x="1820" y="1608" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 0.047m</text>
+<text x="1820" y="1644" font-size="24" fill="#233c42">站立到达（固定朝西、网格保守矩形；动作未外推）</text>
+<text x="1660" y="1679" font-size="33" fill="#a47817">5_4</text>
+<text x="1820" y="1679" font-size="29" fill="#a47817">可达（站立）</text>
+<text x="1820" y="1720" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 0.047m</text>
+<text x="1820" y="1756" font-size="24" fill="#233c42">站立到达（固定朝西、网格保守矩形；动作未外推）</text>
+<text x="1660" y="1791" font-size="33" fill="#277652">5_5</text>
+<text x="1820" y="1791" font-size="29" fill="#277652">该尺寸假设下连续空间通过</text>
+<text x="1820" y="1832" font-size="25" fill="#233c42">连续19阶段 / 尺寸假设通过；拉椅净距 0.137m</text>
+<text x="1820" y="1868" font-size="24" fill="#233c42">站立到达（固定朝西、网格保守矩形；动作未外推）</text>
+<text x="1660" y="1903" font-size="33" fill="#ae5450">5_6</text>
+<text x="1820" y="1903" font-size="29" fill="#ae5450">受阻</text>
+<text x="1820" y="1944" font-size="25" fill="#233c42">坐姿转换：未验证；拉椅净距 0.047m</text>
+<text x="1820" y="1980" font-size="24" fill="#233c42">当前候选站位与主通路断开（保守矩形）</text>
+<text x="90" y="2125" font-size="34" fill="#233c42">合计：1席该假设下连续通过 / 6席仅站立可达 / 23席当前候选受阻。其余29席坐姿转换未验证。</text>
+<text x="90" y="2185" font-size="29" fill="#233c42">受阻是本候选站位与拉椅方向的结果，并非证明不存在其他布局；不把一个玩家席通过扩大为30席或全楼通过。</text>
+<text x="90" y="2240" font-size="28" fill="#233c42">站立搜索网格0.05m；完整0.68m深×1.039655m宽保守矩形，候选拉椅保留自身椅；原门与业务点不迁移。</text>
+<text x="80" y="2345" font-size="27" fill="#233c42">REV_01 · 米制 / 同一 LAYOUT.json · 检查示意与实际模型预览分开 · 未作游戏内验收</text>
+</g></svg>

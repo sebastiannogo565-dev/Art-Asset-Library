@@ -1,0 +1,152 @@
+{
+  "current": [
+    {
+      "file": "Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_P01_CLASS_CONTINUOUS.svg",
+      "inputs": [
+        "LAYOUT.json",
+        "SHOE_CHECKS.json",
+        "make_boards.py"
+      ],
+      "meaning": "同坐标30席、站立/椅活动/坐姿三层与19阶段证据",
+      "kind": "editable dimensional check board"
+    },
+    {
+      "file": "Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_P01_CLASS_CONTINUOUS.png",
+      "inputs": [
+        "LAYOUT.json",
+        "SHOE_CHECKS.json",
+        "make_boards.py"
+      ],
+      "meaning": "同坐标30席、站立/椅活动/坐姿三层与19阶段证据",
+      "kind": "reading raster, not game"
+    },
+    {
+      "file": "Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_P02_SEAT_STATUS.svg",
+      "inputs": [
+        "LAYOUT.json",
+        "SHOE_CHECKS.json",
+        "make_boards.py"
+      ],
+      "meaning": "30稳定ID，1假设连续/6站立/23当前候选受阻",
+      "kind": "editable dimensional check board"
+    },
+    {
+      "file": "Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_P02_SEAT_STATUS.png",
+      "inputs": [
+        "LAYOUT.json",
+        "SHOE_CHECKS.json",
+        "make_boards.py"
+      ],
+      "meaning": "30稳定ID，1假设连续/6站立/23当前候选受阻",
+      "kind": "reading raster, not game"
+    },
+    {
+      "file": "Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_P03_SHOES_LAYOUT.svg",
+      "inputs": [
+        "LAYOUT.json",
+        "SHOE_CHECKS.json",
+        "make_boards.py"
+      ],
+      "meaning": "双操作/公共路/等候/门冲突与两套面积账",
+      "kind": "editable dimensional check board"
+    },
+    {
+      "file": "Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_P03_SHOES_LAYOUT.png",
+      "inputs": [
+        "LAYOUT.json",
+        "SHOE_CHECKS.json",
+        "make_boards.py"
+      ],
+      "meaning": "双操作/公共路/等候/门冲突与两套面积账",
+      "kind": "reading raster, not game"
+    },
+    {
+      "file": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_CLASS_REST_OPERATOR.png",
+      "inputs": [
+        "SL_BLD_C01_MAIN_01_TRIAL_01_REV_01.blend",
+        "LAYOUT.json",
+        "CAMERAS.json",
+        "render_revision.py"
+      ],
+      "meaning": "椅复位、原人物站立/门口与操作位置",
+      "kind": "actual revised mesh + separate editable CHECK-only context/cut/proxy; natural light; not game"
+    },
+    {
+      "file": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_CLASS_PULLED_APPROACH.png",
+      "inputs": [
+        "SL_BLD_C01_MAIN_01_TRIAL_01_REV_01.blend",
+        "LAYOUT.json",
+        "CAMERAS.json",
+        "render_revision.py"
+      ],
+      "meaning": "自己的椅子拉出，原尺寸代理站在椅前",
+      "kind": "actual revised mesh + separate editable CHECK-only context/cut/proxy; natural light; not game"
+    },
+    {
+      "file": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_CLASS_TRANSITION_HALF.png",
+      "inputs": [
+        "SL_BLD_C01_MAIN_01_TRIAL_01_REV_01.blend",
+        "LAYOUT.json",
+        "CAMERAS.json",
+        "render_revision.py"
+      ],
+      "meaning": "t=0.5定尺寸关节/全宽包络假设",
+      "kind": "actual revised mesh + separate editable CHECK-only context/cut/proxy; natural light; not game"
+    },
+    {
+      "file": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_CLASS_SEATED_ASSUMPTION.png",
+      "inputs": [
+        "SL_BLD_C01_MAIN_01_TRIAL_01_REV_01.blend",
+        "LAYOUT.json",
+        "CAMERAS.json",
+        "render_revision.py"
+      ],
+      "meaning": "t=1坐定假设，真实椅座接触",
+      "kind": "actual revised mesh + separate editable CHECK-only context/cut/proxy; natural light; not game"
+    },
+    {
+      "file": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_CLASS_RESTORED.png",
+      "inputs": [
+        "SL_BLD_C01_MAIN_01_TRIAL_01_REV_01.blend",
+        "LAYOUT.json",
+        "CAMERAS.json",
+        "render_revision.py"
+      ],
+      "meaning": "起身逆过程后退出/椅复位，路线同坐标",
+      "kind": "actual revised mesh + separate editable CHECK-only context/cut/proxy; natural light; not game"
+    },
+    {
+      "file": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_SHOES_MAIN_SIMULTANEOUS.png",
+      "inputs": [
+        "SL_BLD_C01_MAIN_01_TRIAL_01_REV_01.blend",
+        "LAYOUT.json",
+        "CAMERAS.json",
+        "render_revision.py"
+      ],
+      "meaning": "主厅两侧有限操作包络与同时进出路线",
+      "kind": "actual revised mesh + separate editable CHECK-only context/cut/proxy; natural light; not game"
+    },
+    {
+      "file": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_REV_01_SHOES_LINK_DOOR_CONFLICT.png",
+      "inputs": [
+        "SL_BLD_C01_MAIN_01_TRIAL_01_REV_01.blend",
+        "LAYOUT.json",
+        "CAMERAS.json",
+        "render_revision.py"
+      ],
+      "meaning": "补柜双侧操作/侧袋等候，原1.4门红框/2.4建议蓝框",
+      "kind": "actual revised mesh + separate editable CHECK-only context/cut/proxy; natural light; not game"
+    }
+  ],
+  "unchanged_originals": [
+    {
+      "file": "../Previews/SL_BLD_C01_MAIN_01_TRIAL_01_A.png",
+      "version": "original Trial01; unchanged whole appearance only, not new local layout"
+    },
+    {
+      "file": "../Previews/SL_BLD_C01_MAIN_01_TRIAL_01_B.png",
+      "version": "original Trial01; unchanged whole appearance only, not new local layout"
+    }
+  ],
+  "textures": "../Textures;48 unchanged original files, no new image generation"
+}

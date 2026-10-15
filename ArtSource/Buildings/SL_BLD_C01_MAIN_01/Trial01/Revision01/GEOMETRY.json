@@ -1,0 +1,7117 @@
+{
+  "control": [
+    0,
+    0,
+    150,
+    28
+  ],
+  "segments": [
+    {
+      "id": "WEST",
+      "range": [
+        0,
+        52
+      ],
+      "name": "西教学段"
+    },
+    {
+      "id": "LINK_W",
+      "range": [
+        52,
+        64
+      ],
+      "name": "连接/鞋柜分区"
+    },
+    {
+      "id": "CORE",
+      "range": [
+        64,
+        94
+      ],
+      "name": "学习交流核心"
+    },
+    {
+      "id": "LINK_E",
+      "range": [
+        94,
+        106
+      ],
+      "name": "连接/年级停留"
+    },
+    {
+      "id": "EAST",
+      "range": [
+        106,
+        150
+      ],
+      "name": "东教学段"
+    }
+  ],
+  "body_rects": [
+    [
+      0,
+      4,
+      52,
+      22
+    ],
+    [
+      52,
+      8,
+      64,
+      22
+    ],
+    [
+      64,
+      0,
+      94,
+      28
+    ],
+    [
+      94,
+      8,
+      106,
+      22
+    ],
+    [
+      106,
+      4,
+      150,
+      22
+    ],
+    [
+      18,
+      0,
+      30,
+      4
+    ],
+    [
+      30,
+      0,
+      38,
+      4
+    ],
+    [
+      142,
+      0,
+      150,
+      4
+    ]
+  ],
+  "origin_world_xy": [
+    2190.909090909091,
+    1969.181818181818
+  ],
+  "engineering_origin_world_xy": [
+    2190.909090909091,
+    1918.181818181818
+  ],
+  "ground_engineering_z": 8,
+  "floors": [
+    0,
+    4,
+    8
+  ],
+  "court": [
+    74,
+    15,
+    86,
+    24
+  ],
+  "terrace": [
+    64,
+    0,
+    74,
+    6
+  ],
+  "rt01": {
+    "rect": [
+      38,
+      3,
+      66,
+      24
+    ],
+    "area": 588,
+    "source_level_m_candidate": 12,
+    "level_semantics": "source does not disambiguate local roof height vs engineering absolute; planning review required",
+    "stair_core": [
+      41,
+      9,
+      49,
+      19
+    ],
+    "entry": [
+      49,
+      14
+    ],
+    "status": "retained original588m2 control, NOT OPEN, approach/support NOT established"
+  },
+  "roof": {
+    "teaching_pitch_deg": 5,
+    "eave_top": 12.3,
+    "ridge_top": 13.087397971733317,
+    "ridge_axis": "east-west",
+    "teaching_span": 18,
+    "core_top": 13,
+    "links_top": 12.3,
+    "terrace_top": 8.25,
+    "terrace_finish_top": 8.03,
+    "terrace_previous_planning_cap": 8.25,
+    "skylight_peak": 13.65,
+    "teaching_eave_overhang_y": 0.6,
+    "eave_outer_edge_z": 12.247506801884446,
+    "glass_peak": 13.65,
+    "geometry_max": 13.68,
+    "terrace_effective_guard_height": 1.2
+  },
+  "player_interface": {
+    "business_semantic_xy": [
+      45,
+      19.5
+    ],
+    "floor_local": 4,
+    "engineering_z": 12,
+    "designated_seat_id": "F2_W4_DESK_5_5",
+    "seat_rest": [
+      48.275,
+      19.87,
+      4.43
+    ],
+    "seat_pulled": [
+      48.9,
+      19.87,
+      4.43
+    ],
+    "standing_approach": [
+      48.29,
+      19.87,
+      4
+    ],
+    "candidate_recovery": [
+      45,
+      18.7,
+      4
+    ],
+    "business_footprint_clear_target": [
+      "capsule radius.34",
+      "visible width1.039655/2 proxy"
+    ],
+    "route_to_approach": [
+      [
+        45,
+        12.7
+      ],
+      [
+        45,
+        18.8
+      ],
+      [
+        48.8,
+        18.8
+      ],
+      [
+        48.8,
+        19.08
+      ]
+    ],
+    "seat_transfer": "LAYOUT.json seated_motion;19 ordered segments; own chair X48.900 while transferring",
+    "route_return_via_teaching": [
+      [
+        48.29,
+        19.87
+      ],
+      [
+        48.29,
+        18.8
+      ],
+      [
+        48.8,
+        18.8
+      ],
+      [
+        48.8,
+        19.08
+      ],
+      [
+        48.8,
+        18.8
+      ],
+      [
+        41.7,
+        18.8
+      ],
+      [
+        45,
+        18.8
+      ],
+      [
+        45,
+        12.7
+      ]
+    ],
+    "seat_transfer_status": "conditional continuous spatial check under explicit full-size proxy hypothesis, not approved character action",
+    "candidate_recovery_status": "reference candidate only, no engineering/UE point or interaction radius change",
+    "continuous_certificate": "LAYOUT.json segments; assumed proxy only, not approved character motion",
+    "route_operator_to_front": [
+      [
+        48.8,
+        19.08
+      ],
+      [
+        48.8,
+        18.8
+      ],
+      [
+        48.29,
+        18.8
+      ],
+      [
+        48.29,
+        19.87
+      ]
+    ]
+  },
+  "character": {
+    "source": "D:\\UE project\\SchoolLife\\ArtSource\\Characters\\StudentChibi\\FrontIdle\\StudentChibi_Front_Idle.png",
+    "visible_height": 1.8,
+    "visible_front_width": 1.039655172413793,
+    "capsule_height": 1.92,
+    "capsule_diameter": 0.68,
+    "unchanged": true
+  },
+  "routes": [
+    {
+      "id": "DAILY_01",
+      "name": "校门→鞋柜→二层玩家教室",
+      "points": [
+        [
+          0.0,
+          -51.0,
+          0
+        ],
+        [
+          0.0,
+          -26.0,
+          0
+        ],
+        [
+          25.0,
+          -11.0,
+          0
+        ],
+        [
+          25.0,
+          0.0,
+          0
+        ],
+        [
+          25,
+          5,
+          0
+        ],
+        [
+          25,
+          10.9,
+          0
+        ],
+        [
+          34,
+          10.9,
+          0
+        ],
+        [
+          34,
+          8.8,
+          0
+        ],
+        [
+          32.7,
+          6.4,
+          0
+        ],
+        [
+          32.7,
+          3.1,
+          2
+        ],
+        [
+          32.7,
+          2,
+          2
+        ],
+        [
+          35.2,
+          2,
+          2
+        ],
+        [
+          35.2,
+          3.1,
+          2
+        ],
+        [
+          35.2,
+          6.4,
+          4
+        ],
+        [
+          34,
+          8.8,
+          4
+        ],
+        [
+          34,
+          10.9,
+          4
+        ],
+        [
+          45,
+          10.9,
+          4
+        ],
+        [
+          45,
+          12.7,
+          4
+        ],
+        [
+          45,
+          19.5,
+          4
+        ]
+      ],
+      "length_xy_m": 125.56750986001748,
+      "length_3d_candidate_m": 126.68502241264738,
+      "world_points": [
+        [
+          2190.909090909091,
+          1918.181818181818,
+          8
+        ],
+        [
+          2190.909090909091,
+          1943.181818181818,
+          8
+        ],
+        [
+          2215.909090909091,
+          1958.181818181818,
+          8
+        ],
+        [
+          2215.909090909091,
+          1969.181818181818,
+          8
+        ],
+        [
+          2215.909090909091,
+          1974.181818181818,
+          8
+        ],
+        [
+          2215.909090909091,
+          1980.081818181818,
+          8
+        ],
+        [
+          2224.909090909091,
+          1980.081818181818,
+          8
+        ],
+        [
+          2224.909090909091,
+          1977.981818181818,
+          8
+        ],
+        [
+          2223.609090909091,
+          1975.581818181818,
+          8
+        ],
+        [
+          2223.609090909091,
+          1972.281818181818,
+          10
+        ],
+        [
+          2223.609090909091,
+          1971.181818181818,
+          10
+        ],
+        [
+          2226.109090909091,
+          1971.181818181818,
+          10
+        ],
+        [
+          2226.109090909091,
+          1972.281818181818,
+          10
+        ],
+        [
+          2226.109090909091,
+          1975.581818181818,
+          12
+        ],
+        [
+          2224.909090909091,
+          1977.981818181818,
+          12
+        ],
+        [
+          2224.909090909091,
+          1980.081818181818,
+          12
+        ],
+        [
+          2235.909090909091,
+          1980.081818181818,
+          12
+        ],
+        [
+          2235.909090909091,
+          1981.881818181818,
+          12
+        ],
+        [
+          2235.909090909091,
+          1988.681818181818,
+          12
+        ]
+      ],
+      "status": "paper polyline, stair centreline candidate; not UE/time verification"
+    },
+    {
+      "id": "DAILY_02",
+      "name": "玩家教室→北门→独立图书翼",
+      "points": [
+        [
+          45,
+          19.5,
+          4
+        ],
+        [
+          45,
+          12.7,
+          4
+        ],
+        [
+          45,
+          10.9,
+          4
+        ],
+        [
+          90,
+          10.9,
+          4
+        ],
+        [
+          90,
+          8.8,
+          4
+        ],
+        [
+          91.2,
+          6.4,
+          4
+        ],
+        [
+          91.2,
+          3.1,
+          2
+        ],
+        [
+          91.2,
+          2,
+          2
+        ],
+        [
+          88.7,
+          2,
+          2
+        ],
+        [
+          88.7,
+          3.1,
+          2
+        ],
+        [
+          88.7,
+          6.4,
+          0
+        ],
+        [
+          90,
+          8.8,
+          0
+        ],
+        [
+          90,
+          10.9,
+          0
+        ],
+        [
+          90.0,
+          28.0,
+          0
+        ],
+        [
+          93.0,
+          69.0,
+          0
+        ],
+        [
+          94.0,
+          82.0,
+          0
+        ],
+        [
+          64.0,
+          84.0,
+          0
+        ],
+        [
+          63.97699999999986,
+          89.0340000000001,
+          0
+        ]
+      ],
+      "length_xy_m": 180.86141007756652,
+      "length_3d_candidate_m": 181.9789226301964,
+      "world_points": [
+        [
+          2235.909090909091,
+          1988.681818181818,
+          12
+        ],
+        [
+          2235.909090909091,
+          1981.881818181818,
+          12
+        ],
+        [
+          2235.909090909091,
+          1980.081818181818,
+          12
+        ],
+        [
+          2280.909090909091,
+          1980.081818181818,
+          12
+        ],
+        [
+          2280.909090909091,
+          1977.981818181818,
+          12
+        ],
+        [
+          2282.109090909091,
+          1975.581818181818,
+          12
+        ],
+        [
+          2282.109090909091,
+          1972.281818181818,
+          10
+        ],
+        [
+          2282.109090909091,
+          1971.181818181818,
+          10
+        ],
+        [
+          2279.609090909091,
+          1971.181818181818,
+          10
+        ],
+        [
+          2279.609090909091,
+          1972.281818181818,
+          10
+        ],
+        [
+          2279.609090909091,
+          1975.581818181818,
+          8
+        ],
+        [
+          2280.909090909091,
+          1977.981818181818,
+          8
+        ],
+        [
+          2280.909090909091,
+          1980.081818181818,
+          8
+        ],
+        [
+          2280.909090909091,
+          1997.181818181818,
+          8
+        ],
+        [
+          2283.909090909091,
+          2038.181818181818,
+          8
+        ],
+        [
+          2284.909090909091,
+          2051.181818181818,
+          8
+        ],
+        [
+          2254.909090909091,
+          2053.181818181818,
+          8
+        ],
+        [
+          2254.886090909091,
+          2058.215818181818,
+          8
+        ]
+      ],
+      "status": "paper polyline, stair centreline candidate; not UE/time verification"
+    },
+    {
+      "id": "DAILY_03",
+      "name": "玩家教室→东口→体育馆方向",
+      "points": [
+        [
+          45,
+          19.5,
+          4
+        ],
+        [
+          45,
+          12.7,
+          4
+        ],
+        [
+          45,
+          10.9,
+          4
+        ],
+        [
+          146,
+          10.9,
+          4
+        ],
+        [
+          146,
+          8.8,
+          4
+        ],
+        [
+          147.2,
+          6.4,
+          4
+        ],
+        [
+          147.2,
+          3.1,
+          2
+        ],
+        [
+          147.2,
+          2,
+          2
+        ],
+        [
+          144.7,
+          2,
+          2
+        ],
+        [
+          144.7,
+          3.1,
+          2
+        ],
+        [
+          144.7,
+          6.4,
+          0
+        ],
+        [
+          146,
+          8.8,
+          0
+        ],
+        [
+          146,
+          10.9,
+          0
+        ],
+        [
+          146,
+          14,
+          0
+        ],
+        [
+          150.0,
+          14.0,
+          0
+        ],
+        [
+          163.0,
+          14.0,
+          0
+        ],
+        [
+          167.0,
+          39.0,
+          0
+        ]
+      ],
+      "length_xy_m": 175.9307281881353,
+      "length_3d_candidate_m": 177.0482407407652,
+      "world_points": [
+        [
+          2235.909090909091,
+          1988.681818181818,
+          12
+        ],
+        [
+          2235.909090909091,
+          1981.881818181818,
+          12
+        ],
+        [
+          2235.909090909091,
+          1980.081818181818,
+          12
+        ],
+        [
+          2336.909090909091,
+          1980.081818181818,
+          12
+        ],
+        [
+          2336.909090909091,
+          1977.981818181818,
+          12
+        ],
+        [
+          2338.109090909091,
+          1975.581818181818,
+          12
+        ],
+        [
+          2338.109090909091,
+          1972.281818181818,
+          10
+        ],
+        [
+          2338.109090909091,
+          1971.181818181818,
+          10
+        ],
+        [
+          2335.609090909091,
+          1971.181818181818,
+          10
+        ],
+        [
+          2335.609090909091,
+          1972.281818181818,
+          10
+        ],
+        [
+          2335.609090909091,
+          1975.581818181818,
+          8
+        ],
+        [
+          2336.909090909091,
+          1977.981818181818,
+          8
+        ],
+        [
+          2336.909090909091,
+          1980.081818181818,
+          8
+        ],
+        [
+          2336.909090909091,
+          1983.181818181818,
+          8
+        ],
+        [
+          2340.909090909091,
+          1983.181818181818,
+          8
+        ],
+        [
+          2353.909090909091,
+          1983.181818181818,
+          8
+        ],
+        [
+          2357.909090909091,
+          2008.181818181818,
+          8
+        ]
+      ],
+      "status": "paper polyline, stair centreline candidate; not UE/time verification"
+    }
+  ],
+  "asset": "SL_BLD_C01_MAIN_01_TRIAL_01_REV_01",
+  "source_geometry": "Original Trial01 build_trial.py, then this independent update_model.py; local changes only",
+  "entrances": [
+    {
+      "id": "C01_MAIN",
+      "local": [
+        25,
+        0
+      ],
+      "world": [
+        2215.909090909091,
+        1969.181818181818
+      ],
+      "width": 3,
+      "height": 3.2
+    },
+    {
+      "id": "C01_N",
+      "local": [
+        90,
+        28
+      ],
+      "world": [
+        2280.909090909091,
+        1997.181818181818
+      ],
+      "width": 3,
+      "height": 3
+    },
+    {
+      "id": "C01_E",
+      "local": [
+        150,
+        14
+      ],
+      "world": [
+        2340.909090909091,
+        1983.181818181818
+      ],
+      "width": 3,
+      "height": 3
+    }
+  ],
+  "rooms": [
+    {
+      "id": "F1_W1",
+      "floor": 1,
+      "name": "1年级 1班",
+      "rect": [
+        15.2,
+        12.7,
+        23.6,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        19.2,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F1_W2",
+      "floor": 1,
+      "name": "1年级 2班",
+      "rect": [
+        23.8,
+        12.7,
+        32.2,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        27.8,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F1_W3",
+      "floor": 1,
+      "name": "1年级 3班",
+      "rect": [
+        32.4,
+        12.7,
+        40.8,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        36.4,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F1_W4",
+      "floor": 1,
+      "name": "1年级 4班",
+      "rect": [
+        41,
+        12.7,
+        49.4,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        45,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F1_E1",
+      "floor": 1,
+      "name": "1年级 5班",
+      "rect": [
+        107,
+        12.7,
+        115.4,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        111,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F1_E2",
+      "floor": 1,
+      "name": "1年级 6班",
+      "rect": [
+        115.6,
+        12.7,
+        124.0,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        119.6,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F1_E3",
+      "floor": 1,
+      "name": "1年级 7班",
+      "rect": [
+        124.2,
+        12.7,
+        132.6,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        128.2,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F1_E4",
+      "floor": 1,
+      "name": "1年级 8班",
+      "rect": [
+        132.8,
+        12.7,
+        141.20000000000002,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        136.8,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F1_WG",
+      "floor": 1,
+      "name": "年级窗边交流",
+      "rect": [
+        0.3,
+        13,
+        14.9,
+        21.7
+      ],
+      "net_area": 127.02,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        7.6000000000000005,
+        13
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F1_WWC",
+      "floor": 1,
+      "name": "西侧卫生间套间",
+      "rect": [
+        0.3,
+        4.3,
+        7.7,
+        8.8
+      ],
+      "net_area": 33.3,
+      "kind": "support",
+      "access": "student",
+      "door": [
+        4.0,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F1_WH",
+      "floor": 1,
+      "name": "保健/咨询套间",
+      "rect": [
+        8,
+        4.3,
+        17.7,
+        8.8
+      ],
+      "net_area": 43.65,
+      "kind": "support",
+      "access": "staff_controlled",
+      "door": [
+        12.85,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F1_WL",
+      "floor": 1,
+      "name": "鞋柜/入口缓冲",
+      "rect": [
+        18.3,
+        0.3,
+        29.7,
+        8.8
+      ],
+      "net_area": 96.9,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        25,
+        8.8
+      ],
+      "door_width": 3.0,
+      "door_height": 2.6,
+      "production_depth": "frequent"
+    },
+    {
+      "id": "F1_WO",
+      "floor": 1,
+      "name": "职员工作/来访接待",
+      "rect": [
+        38.3,
+        4.3,
+        51.7,
+        8.8
+      ],
+      "net_area": 60.3,
+      "kind": "support",
+      "access": "staff_controlled",
+      "door": [
+        45.0,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F1_LW",
+      "floor": 1,
+      "name": "补充鞋柜/等候",
+      "rect": [
+        52.3,
+        13,
+        63.7,
+        21.7
+      ],
+      "net_area": 99.18,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        58.0,
+        13
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F1_LE",
+      "floor": 1,
+      "name": "东连接休息角",
+      "rect": [
+        94.3,
+        13,
+        105.7,
+        21.7
+      ],
+      "net_area": 99.18,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        100.0,
+        13
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F1_CW",
+      "floor": 1,
+      "name": "教务管理",
+      "rect": [
+        64.3,
+        0.3,
+        73.7,
+        8.8
+      ],
+      "net_area": 79.9,
+      "kind": "support",
+      "access": "staff_controlled",
+      "door": [
+        69.0,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F1_CS",
+      "floor": 1,
+      "name": "储藏/维护套间",
+      "rect": [
+        74.3,
+        0.3,
+        79.7,
+        8.8
+      ],
+      "net_area": 45.9,
+      "kind": "support",
+      "access": "maintenance",
+      "door": [
+        77.0,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F1_CE",
+      "floor": 1,
+      "name": "打印/服务柜",
+      "rect": [
+        82.7,
+        0.3,
+        85.7,
+        8.8
+      ],
+      "net_area": 25.5,
+      "kind": "support",
+      "access": "staff_controlled",
+      "door": [
+        84.2,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F1_CL",
+      "floor": 1,
+      "name": "交流厅窗边",
+      "rect": [
+        64.3,
+        13,
+        73.7,
+        27.7
+      ],
+      "net_area": 138.18,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        69.0,
+        13
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F1_CB",
+      "floor": 1,
+      "name": "采光庭北侧观察廊",
+      "rect": [
+        74.3,
+        24.3,
+        85.7,
+        27.7
+      ],
+      "net_area": 38.76,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        85.7,
+        26
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F1_CN",
+      "floor": 1,
+      "name": "北门/后廊前厅",
+      "rect": [
+        86.3,
+        13,
+        93.7,
+        27.7
+      ],
+      "net_area": 108.78,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        90,
+        13
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "frequent"
+    },
+    {
+      "id": "F1_EG",
+      "floor": 1,
+      "name": "东年级交流",
+      "rect": [
+        106.3,
+        4.3,
+        118.5,
+        8.8
+      ],
+      "net_area": 54.9,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        112.4,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F1_EWC",
+      "floor": 1,
+      "name": "东侧卫生间套间",
+      "rect": [
+        118.8,
+        4.3,
+        129,
+        8.8
+      ],
+      "net_area": 45.9,
+      "kind": "support",
+      "access": "student",
+      "door": [
+        123.9,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F1_ES",
+      "floor": 1,
+      "name": "储物/维护/备课",
+      "rect": [
+        129.3,
+        4.3,
+        141.5,
+        8.8
+      ],
+      "net_area": 54.9,
+      "kind": "support",
+      "access": "staff_controlled",
+      "door": [
+        135.4,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F1_AT",
+      "floor": 1,
+      "name": "交流厅底层",
+      "rect": [
+        74,
+        15,
+        86,
+        24
+      ],
+      "net_area": 108,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        86,
+        19.5
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F2_W1",
+      "floor": 2,
+      "name": "2年级 1班",
+      "rect": [
+        15.2,
+        12.7,
+        23.6,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        19.2,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F2_W2",
+      "floor": 2,
+      "name": "2年级 2班",
+      "rect": [
+        23.8,
+        12.7,
+        32.2,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        27.8,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F2_W3",
+      "floor": 2,
+      "name": "2年级 3班",
+      "rect": [
+        32.4,
+        12.7,
+        40.8,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        36.4,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F2_W4",
+      "floor": 2,
+      "name": "2年级 4班 / 玩家",
+      "rect": [
+        41,
+        12.7,
+        49.4,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        45,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "frequent"
+    },
+    {
+      "id": "F2_E1",
+      "floor": 2,
+      "name": "2年级 5班",
+      "rect": [
+        107,
+        12.7,
+        115.4,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        111,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F2_E2",
+      "floor": 2,
+      "name": "2年级 6班",
+      "rect": [
+        115.6,
+        12.7,
+        124.0,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        119.6,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F2_E3",
+      "floor": 2,
+      "name": "2年级 7班",
+      "rect": [
+        124.2,
+        12.7,
+        132.6,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        128.2,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F2_E4",
+      "floor": 2,
+      "name": "2年级 8班",
+      "rect": [
+        132.8,
+        12.7,
+        141.20000000000002,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        136.8,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F2_WG",
+      "floor": 2,
+      "name": "年级窗边交流",
+      "rect": [
+        0.3,
+        13,
+        14.9,
+        21.7
+      ],
+      "net_area": 127.02,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        7.6000000000000005,
+        13
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F2_WWC",
+      "floor": 2,
+      "name": "西侧卫生间套间",
+      "rect": [
+        0.3,
+        4.3,
+        7.7,
+        8.8
+      ],
+      "net_area": 33.3,
+      "kind": "support",
+      "access": "student",
+      "door": [
+        4.0,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F2_WH",
+      "floor": 2,
+      "name": "年级事务/小讨论",
+      "rect": [
+        8,
+        4.3,
+        17.7,
+        8.8
+      ],
+      "net_area": 43.65,
+      "kind": "support",
+      "access": "staff_controlled",
+      "door": [
+        12.85,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F2_WL",
+      "floor": 2,
+      "name": "二年级交流厅",
+      "rect": [
+        18.3,
+        0.3,
+        29.7,
+        8.8
+      ],
+      "net_area": 96.9,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        25,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "frequent"
+    },
+    {
+      "id": "F2_WO",
+      "floor": 2,
+      "name": "玩家班侧年级休息厅",
+      "rect": [
+        38.3,
+        4.3,
+        51.7,
+        8.8
+      ],
+      "net_area": 60.3,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        45.0,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F2_LW",
+      "floor": 2,
+      "name": "连接交流窗",
+      "rect": [
+        52.3,
+        13,
+        63.7,
+        21.7
+      ],
+      "net_area": 99.18,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        58.0,
+        13
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F2_LE",
+      "floor": 2,
+      "name": "东连接休息角",
+      "rect": [
+        94.3,
+        13,
+        105.7,
+        21.7
+      ],
+      "net_area": 99.18,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        100.0,
+        13
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F2_CW",
+      "floor": 2,
+      "name": "学生会/讨论套间",
+      "rect": [
+        64.3,
+        0.3,
+        73.7,
+        8.8
+      ],
+      "net_area": 79.9,
+      "kind": "support",
+      "access": "student_authorized",
+      "door": [
+        69.0,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F2_CS",
+      "floor": 2,
+      "name": "储藏/维护套间",
+      "rect": [
+        74.3,
+        0.3,
+        79.7,
+        8.8
+      ],
+      "net_area": 45.9,
+      "kind": "support",
+      "access": "maintenance",
+      "door": [
+        77.0,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F2_CE",
+      "floor": 2,
+      "name": "广播/器材",
+      "rect": [
+        82.7,
+        0.3,
+        85.7,
+        8.8
+      ],
+      "net_area": 25.5,
+      "kind": "support",
+      "access": "staff_controlled",
+      "door": [
+        84.2,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F2_CL",
+      "floor": 2,
+      "name": "共享学习步台",
+      "rect": [
+        64.3,
+        13,
+        73.7,
+        27.7
+      ],
+      "net_area": 138.18,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        69.0,
+        13
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F2_CB",
+      "floor": 2,
+      "name": "采光庭北侧观察廊",
+      "rect": [
+        74.3,
+        24.3,
+        85.7,
+        27.7
+      ],
+      "net_area": 38.76,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        85.7,
+        26
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F2_CN",
+      "floor": 2,
+      "name": "北侧窗厅",
+      "rect": [
+        86.3,
+        13,
+        93.7,
+        27.7
+      ],
+      "net_area": 108.78,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        90,
+        13
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F2_EG",
+      "floor": 2,
+      "name": "东年级交流",
+      "rect": [
+        106.3,
+        4.3,
+        118.5,
+        8.8
+      ],
+      "net_area": 54.9,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        112.4,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F2_EWC",
+      "floor": 2,
+      "name": "东侧卫生间套间",
+      "rect": [
+        118.8,
+        4.3,
+        129,
+        8.8
+      ],
+      "net_area": 45.9,
+      "kind": "support",
+      "access": "student",
+      "door": [
+        123.9,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F2_ES",
+      "floor": 2,
+      "name": "储物/维护/备课",
+      "rect": [
+        129.3,
+        4.3,
+        141.5,
+        8.8
+      ],
+      "net_area": 54.9,
+      "kind": "support",
+      "access": "staff_controlled",
+      "door": [
+        135.4,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F3_W1",
+      "floor": 3,
+      "name": "3年级 1班",
+      "rect": [
+        15.2,
+        12.7,
+        23.6,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        19.2,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F3_W2",
+      "floor": 3,
+      "name": "3年级 2班",
+      "rect": [
+        23.8,
+        12.7,
+        32.2,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        27.8,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F3_W3",
+      "floor": 3,
+      "name": "3年级 3班",
+      "rect": [
+        32.4,
+        12.7,
+        40.8,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        36.4,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F3_W4",
+      "floor": 3,
+      "name": "3年级 4班",
+      "rect": [
+        41,
+        12.7,
+        49.4,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        45,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F3_E1",
+      "floor": 3,
+      "name": "3年级 5班",
+      "rect": [
+        107,
+        12.7,
+        115.4,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        111,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F3_E2",
+      "floor": 3,
+      "name": "3年级 6班",
+      "rect": [
+        115.6,
+        12.7,
+        124.0,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        119.6,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F3_E3",
+      "floor": 3,
+      "name": "3年级 7班",
+      "rect": [
+        124.2,
+        12.7,
+        132.6,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        128.2,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F3_E4",
+      "floor": 3,
+      "name": "3年级 8班",
+      "rect": [
+        132.8,
+        12.7,
+        141.20000000000002,
+        21.7
+      ],
+      "net_area": 75.6,
+      "kind": "classroom",
+      "access": "student",
+      "door": [
+        136.8,
+        12.7
+      ],
+      "door_width": 1.6,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F3_WG",
+      "floor": 3,
+      "name": "年级窗边交流",
+      "rect": [
+        0.3,
+        13,
+        14.9,
+        21.7
+      ],
+      "net_area": 127.02,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        7.6000000000000005,
+        13
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F3_WWC",
+      "floor": 3,
+      "name": "西侧卫生间套间",
+      "rect": [
+        0.3,
+        4.3,
+        7.7,
+        8.8
+      ],
+      "net_area": 33.3,
+      "kind": "support",
+      "access": "student",
+      "door": [
+        4.0,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F3_WH",
+      "floor": 3,
+      "name": "升学咨询",
+      "rect": [
+        8,
+        4.3,
+        17.7,
+        8.8
+      ],
+      "net_area": 43.65,
+      "kind": "support",
+      "access": "staff_controlled",
+      "door": [
+        12.85,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F3_WL",
+      "floor": 3,
+      "name": "安静讨论厅",
+      "rect": [
+        18.3,
+        0.3,
+        29.7,
+        8.8
+      ],
+      "net_area": 96.9,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        25,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F3_WO",
+      "floor": 3,
+      "name": "导师/小组讨论",
+      "rect": [
+        38.3,
+        4.3,
+        51.7,
+        8.8
+      ],
+      "net_area": 60.3,
+      "kind": "support",
+      "access": "student_authorized",
+      "door": [
+        45.0,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F3_LW",
+      "floor": 3,
+      "name": "连接安静角",
+      "rect": [
+        52.3,
+        13,
+        63.7,
+        21.7
+      ],
+      "net_area": 99.18,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        58.0,
+        13
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F3_LE",
+      "floor": 3,
+      "name": "东连接休息角",
+      "rect": [
+        94.3,
+        13,
+        105.7,
+        21.7
+      ],
+      "net_area": 99.18,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        100.0,
+        13
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F3_CW",
+      "floor": 3,
+      "name": "露台入口缓冲",
+      "rect": [
+        64.3,
+        6.3,
+        73.7,
+        8.8
+      ],
+      "net_area": 23.5,
+      "kind": "support",
+      "access": "student_authorized",
+      "door": [
+        69.0,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F3_CS",
+      "floor": 3,
+      "name": "储藏/维护套间",
+      "rect": [
+        74.3,
+        0.3,
+        79.7,
+        8.8
+      ],
+      "net_area": 45.9,
+      "kind": "support",
+      "access": "maintenance",
+      "door": [
+        77.0,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F3_CE",
+      "floor": 3,
+      "name": "指导资料",
+      "rect": [
+        82.7,
+        0.3,
+        85.7,
+        8.8
+      ],
+      "net_area": 25.5,
+      "kind": "support",
+      "access": "staff_controlled",
+      "door": [
+        84.2,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F3_CL",
+      "floor": 3,
+      "name": "安静讨论步台",
+      "rect": [
+        64.3,
+        13,
+        73.7,
+        27.7
+      ],
+      "net_area": 138.18,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        69.0,
+        13
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F3_CB",
+      "floor": 3,
+      "name": "采光庭北侧观察廊",
+      "rect": [
+        74.3,
+        24.3,
+        85.7,
+        27.7
+      ],
+      "net_area": 38.76,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        85.7,
+        26
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F3_CN",
+      "floor": 3,
+      "name": "北侧窗厅",
+      "rect": [
+        86.3,
+        13,
+        93.7,
+        27.7
+      ],
+      "net_area": 108.78,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        90,
+        13
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F3_EG",
+      "floor": 3,
+      "name": "东年级交流",
+      "rect": [
+        106.3,
+        4.3,
+        118.5,
+        8.8
+      ],
+      "net_area": 54.9,
+      "kind": "public",
+      "access": "student",
+      "door": [
+        112.4,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "medium"
+    },
+    {
+      "id": "F3_EWC",
+      "floor": 3,
+      "name": "东侧卫生间套间",
+      "rect": [
+        118.8,
+        4.3,
+        129,
+        8.8
+      ],
+      "net_area": 45.9,
+      "kind": "support",
+      "access": "student",
+      "door": [
+        123.9,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "background"
+    },
+    {
+      "id": "F3_ES",
+      "floor": 3,
+      "name": "储物/维护/备课",
+      "rect": [
+        129.3,
+        4.3,
+        141.5,
+        8.8
+      ],
+      "net_area": 54.9,
+      "kind": "support",
+      "access": "staff_controlled",
+      "door": [
+        135.4,
+        8.8
+      ],
+      "door_width": 1.4,
+      "door_height": 2.6,
+      "production_depth": "background"
+    }
+  ],
+  "openings": [
+    {
+      "id": "C01_MAIN",
+      "axis": "X",
+      "line": 0,
+      "lo": 23.5,
+      "hi": 26.5,
+      "z0": 0,
+      "z1": 3.2,
+      "actual_object": "OPEN_C01_MAIN"
+    },
+    {
+      "id": "F1_WL_S_01",
+      "axis": "X",
+      "line": 0,
+      "lo": 19.266666666666666,
+      "hi": 21.46666666666667,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_WL_S_01"
+    },
+    {
+      "id": "S1_F1_S",
+      "axis": "X",
+      "line": 0,
+      "lo": 31,
+      "hi": 37,
+      "z0": 1,
+      "z1": 3.25,
+      "actual_object": "OPEN_S1_F1_S"
+    },
+    {
+      "id": "F1_CW_S_01",
+      "axis": "X",
+      "line": 0,
+      "lo": 65.67500000000001,
+      "hi": 67.875,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_CW_S_01"
+    },
+    {
+      "id": "F1_CW_S_02",
+      "axis": "X",
+      "line": 0,
+      "lo": 70.125,
+      "hi": 72.32499999999999,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_CW_S_02"
+    },
+    {
+      "id": "F1_CS_S_01",
+      "axis": "X",
+      "line": 0,
+      "lo": 75.9,
+      "hi": 78.1,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_CS_S_01"
+    },
+    {
+      "id": "F1_CE_S_01",
+      "axis": "X",
+      "line": 0,
+      "lo": 83.125,
+      "hi": 85.275,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_CE_S_01"
+    },
+    {
+      "id": "S2_F1_S",
+      "axis": "X",
+      "line": 0,
+      "lo": 87,
+      "hi": 93,
+      "z0": 1,
+      "z1": 3.25,
+      "actual_object": "OPEN_S2_F1_S"
+    },
+    {
+      "id": "S3_F1_S",
+      "axis": "X",
+      "line": 0,
+      "lo": 143,
+      "hi": 149,
+      "z0": 1,
+      "z1": 3.25,
+      "actual_object": "OPEN_S3_F1_S"
+    },
+    {
+      "id": "F1_WWC_S_01",
+      "axis": "X",
+      "line": 4,
+      "lo": 1.1750000000000003,
+      "hi": 3.3750000000000004,
+      "z0": 1.6,
+      "z1": 2.85,
+      "actual_object": "OPEN_F1_WWC_S_01"
+    },
+    {
+      "id": "F1_WWC_S_02",
+      "axis": "X",
+      "line": 4,
+      "lo": 4.625,
+      "hi": 6.825000000000001,
+      "z0": 1.6,
+      "z1": 2.85,
+      "actual_object": "OPEN_F1_WWC_S_02"
+    },
+    {
+      "id": "F1_WH_S_01",
+      "axis": "X",
+      "line": 4,
+      "lo": 8.683333333333334,
+      "hi": 10.883333333333333,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_WH_S_01"
+    },
+    {
+      "id": "F1_WH_S_02",
+      "axis": "X",
+      "line": 4,
+      "lo": 11.75,
+      "hi": 13.95,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_WH_S_02"
+    },
+    {
+      "id": "F1_WH_S_03",
+      "axis": "X",
+      "line": 4,
+      "lo": 14.816666666666666,
+      "hi": 17.016666666666666,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_WH_S_03"
+    },
+    {
+      "id": "F1_WO_S_01",
+      "axis": "X",
+      "line": 4,
+      "lo": 39.06249999999999,
+      "hi": 41.262499999999996,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_WO_S_01"
+    },
+    {
+      "id": "F1_WO_S_02",
+      "axis": "X",
+      "line": 4,
+      "lo": 42.2875,
+      "hi": 44.487500000000004,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_WO_S_02"
+    },
+    {
+      "id": "F1_WO_S_03",
+      "axis": "X",
+      "line": 4,
+      "lo": 45.512499999999996,
+      "hi": 47.7125,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_WO_S_03"
+    },
+    {
+      "id": "F1_WO_S_04",
+      "axis": "X",
+      "line": 4,
+      "lo": 48.737500000000004,
+      "hi": 50.93750000000001,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_WO_S_04"
+    },
+    {
+      "id": "F1_EG_S_01",
+      "axis": "X",
+      "line": 4,
+      "lo": 107.4,
+      "hi": 109.6,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_EG_S_01"
+    },
+    {
+      "id": "F1_EG_S_02",
+      "axis": "X",
+      "line": 4,
+      "lo": 111.30000000000001,
+      "hi": 113.5,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_EG_S_02"
+    },
+    {
+      "id": "F1_EG_S_03",
+      "axis": "X",
+      "line": 4,
+      "lo": 115.2,
+      "hi": 117.39999999999999,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_EG_S_03"
+    },
+    {
+      "id": "F1_EWC_S_01",
+      "axis": "X",
+      "line": 4,
+      "lo": 119.56666666666666,
+      "hi": 121.76666666666665,
+      "z0": 1.6,
+      "z1": 2.85,
+      "actual_object": "OPEN_F1_EWC_S_01"
+    },
+    {
+      "id": "F1_EWC_S_02",
+      "axis": "X",
+      "line": 4,
+      "lo": 122.80000000000001,
+      "hi": 125.0,
+      "z0": 1.6,
+      "z1": 2.85,
+      "actual_object": "OPEN_F1_EWC_S_02"
+    },
+    {
+      "id": "F1_EWC_S_03",
+      "axis": "X",
+      "line": 4,
+      "lo": 126.03333333333333,
+      "hi": 128.23333333333332,
+      "z0": 1.6,
+      "z1": 2.85,
+      "actual_object": "OPEN_F1_EWC_S_03"
+    },
+    {
+      "id": "F1_ES_S_01",
+      "axis": "X",
+      "line": 4,
+      "lo": 130.4,
+      "hi": 132.6,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_ES_S_01"
+    },
+    {
+      "id": "F1_ES_S_02",
+      "axis": "X",
+      "line": 4,
+      "lo": 134.3,
+      "hi": 136.5,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_ES_S_02"
+    },
+    {
+      "id": "F1_ES_S_03",
+      "axis": "X",
+      "line": 4,
+      "lo": 138.20000000000002,
+      "hi": 140.4,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_ES_S_03"
+    },
+    {
+      "id": "LINK_52_F1_S_1",
+      "axis": "X",
+      "line": 8,
+      "lo": 52.6,
+      "hi": 54.9,
+      "z0": 0.6,
+      "z1": 3.2,
+      "actual_object": "OPEN_LINK_52_F1_S_1"
+    },
+    {
+      "id": "LINK_52_F1_S_2",
+      "axis": "X",
+      "line": 8,
+      "lo": 55.4,
+      "hi": 57.699999999999996,
+      "z0": 0.6,
+      "z1": 3.2,
+      "actual_object": "OPEN_LINK_52_F1_S_2"
+    },
+    {
+      "id": "LINK_52_F1_S_3",
+      "axis": "X",
+      "line": 8,
+      "lo": 58.2,
+      "hi": 60.5,
+      "z0": 0.6,
+      "z1": 3.2,
+      "actual_object": "OPEN_LINK_52_F1_S_3"
+    },
+    {
+      "id": "LINK_52_F1_S_4",
+      "axis": "X",
+      "line": 8,
+      "lo": 61.0,
+      "hi": 63.3,
+      "z0": 0.6,
+      "z1": 3.2,
+      "actual_object": "OPEN_LINK_52_F1_S_4"
+    },
+    {
+      "id": "LINK_94_F1_S_1",
+      "axis": "X",
+      "line": 8,
+      "lo": 94.6,
+      "hi": 96.89999999999999,
+      "z0": 0.6,
+      "z1": 3.2,
+      "actual_object": "OPEN_LINK_94_F1_S_1"
+    },
+    {
+      "id": "LINK_94_F1_S_2",
+      "axis": "X",
+      "line": 8,
+      "lo": 97.39999999999999,
+      "hi": 99.69999999999999,
+      "z0": 0.6,
+      "z1": 3.2,
+      "actual_object": "OPEN_LINK_94_F1_S_2"
+    },
+    {
+      "id": "LINK_94_F1_S_3",
+      "axis": "X",
+      "line": 8,
+      "lo": 100.19999999999999,
+      "hi": 102.49999999999999,
+      "z0": 0.6,
+      "z1": 3.2,
+      "actual_object": "OPEN_LINK_94_F1_S_3"
+    },
+    {
+      "id": "LINK_94_F1_S_4",
+      "axis": "X",
+      "line": 8,
+      "lo": 103.0,
+      "hi": 105.3,
+      "z0": 0.6,
+      "z1": 3.2,
+      "actual_object": "OPEN_LINK_94_F1_S_4"
+    },
+    {
+      "id": "F1_W1_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 15.624999999999998,
+      "hi": 17.90833333333333,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_W1_N_01"
+    },
+    {
+      "id": "F1_W1_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 18.258333333333333,
+      "hi": 20.541666666666664,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_W1_N_02"
+    },
+    {
+      "id": "F1_W1_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 20.89166666666667,
+      "hi": 23.175,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_W1_N_03"
+    },
+    {
+      "id": "F1_W2_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 24.225,
+      "hi": 26.508333333333333,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_W2_N_01"
+    },
+    {
+      "id": "F1_W2_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 26.858333333333334,
+      "hi": 29.141666666666666,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_W2_N_02"
+    },
+    {
+      "id": "F1_W2_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 29.49166666666667,
+      "hi": 31.775000000000002,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_W2_N_03"
+    },
+    {
+      "id": "F1_W3_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 32.825,
+      "hi": 35.108333333333334,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_W3_N_01"
+    },
+    {
+      "id": "F1_W3_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 35.45833333333333,
+      "hi": 37.74166666666666,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_W3_N_02"
+    },
+    {
+      "id": "F1_W3_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 38.09166666666667,
+      "hi": 40.375,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_W3_N_03"
+    },
+    {
+      "id": "F1_W4_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 41.425,
+      "hi": 43.70833333333333,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_W4_N_01"
+    },
+    {
+      "id": "F1_W4_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 44.05833333333334,
+      "hi": 46.34166666666667,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_W4_N_02"
+    },
+    {
+      "id": "F1_W4_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 46.69166666666666,
+      "hi": 48.974999999999994,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_W4_N_03"
+    },
+    {
+      "id": "F1_WG_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 1.2125,
+      "hi": 3.4125,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_WG_N_01"
+    },
+    {
+      "id": "F1_WG_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 4.737499999999999,
+      "hi": 6.9375,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_WG_N_02"
+    },
+    {
+      "id": "F1_WG_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 8.262500000000001,
+      "hi": 10.4625,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_WG_N_03"
+    },
+    {
+      "id": "F1_WG_N_04",
+      "axis": "X",
+      "line": 22,
+      "lo": 11.787500000000001,
+      "hi": 13.9875,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_WG_N_04"
+    },
+    {
+      "id": "F1_LW_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 53.266666666666666,
+      "hi": 55.46666666666667,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_LW_N_01"
+    },
+    {
+      "id": "F1_LW_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 56.9,
+      "hi": 59.1,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_LW_N_02"
+    },
+    {
+      "id": "F1_LW_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 60.53333333333333,
+      "hi": 62.733333333333334,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_LW_N_03"
+    },
+    {
+      "id": "F1_E1_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 107.425,
+      "hi": 109.70833333333333,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_E1_N_01"
+    },
+    {
+      "id": "F1_E1_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 110.05833333333334,
+      "hi": 112.34166666666667,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_E1_N_02"
+    },
+    {
+      "id": "F1_E1_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 112.69166666666668,
+      "hi": 114.97500000000001,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_E1_N_03"
+    },
+    {
+      "id": "F1_E2_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 116.02499999999999,
+      "hi": 118.30833333333332,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_E2_N_01"
+    },
+    {
+      "id": "F1_E2_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 118.65833333333333,
+      "hi": 120.94166666666666,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_E2_N_02"
+    },
+    {
+      "id": "F1_E2_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 121.29166666666667,
+      "hi": 123.575,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_E2_N_03"
+    },
+    {
+      "id": "F1_E3_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 124.625,
+      "hi": 126.90833333333333,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_E3_N_01"
+    },
+    {
+      "id": "F1_E3_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 127.25833333333334,
+      "hi": 129.54166666666666,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_E3_N_02"
+    },
+    {
+      "id": "F1_E3_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 129.89166666666668,
+      "hi": 132.17499999999998,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_E3_N_03"
+    },
+    {
+      "id": "F1_E4_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 133.225,
+      "hi": 135.50833333333335,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_E4_N_01"
+    },
+    {
+      "id": "F1_E4_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 135.85833333333332,
+      "hi": 138.14166666666668,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_E4_N_02"
+    },
+    {
+      "id": "F1_E4_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 138.49166666666667,
+      "hi": 140.77500000000003,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_E4_N_03"
+    },
+    {
+      "id": "F1_LE_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 95.26666666666667,
+      "hi": 97.46666666666665,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_LE_N_01"
+    },
+    {
+      "id": "F1_LE_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 98.9,
+      "hi": 101.1,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_LE_N_02"
+    },
+    {
+      "id": "F1_LE_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 102.53333333333335,
+      "hi": 104.73333333333333,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_LE_N_03"
+    },
+    {
+      "id": "C01_N",
+      "axis": "X",
+      "line": 28,
+      "lo": 88.5,
+      "hi": 91.5,
+      "z0": 0,
+      "z1": 3,
+      "actual_object": "OPEN_C01_N"
+    },
+    {
+      "id": "F1_CL_N_01",
+      "axis": "X",
+      "line": 28,
+      "lo": 65.67500000000001,
+      "hi": 67.875,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_CL_N_01"
+    },
+    {
+      "id": "F1_CL_N_02",
+      "axis": "X",
+      "line": 28,
+      "lo": 70.125,
+      "hi": 72.32499999999999,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_CL_N_02"
+    },
+    {
+      "id": "F1_CB_N_01",
+      "axis": "X",
+      "line": 28,
+      "lo": 75.26666666666667,
+      "hi": 77.46666666666665,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_CB_N_01"
+    },
+    {
+      "id": "F1_CB_N_02",
+      "axis": "X",
+      "line": 28,
+      "lo": 78.9,
+      "hi": 81.1,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_CB_N_02"
+    },
+    {
+      "id": "F1_CB_N_03",
+      "axis": "X",
+      "line": 28,
+      "lo": 82.53333333333335,
+      "hi": 84.73333333333333,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_CB_N_03"
+    },
+    {
+      "id": "F1_WG_W_01",
+      "axis": "Y",
+      "line": 0,
+      "lo": 14.200000000000001,
+      "hi": 16.400000000000002,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_WG_W_01"
+    },
+    {
+      "id": "F1_WG_W_02",
+      "axis": "Y",
+      "line": 0,
+      "lo": 18.299999999999997,
+      "hi": 20.5,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_WG_W_02"
+    },
+    {
+      "id": "F1_WWC_W_01",
+      "axis": "Y",
+      "line": 0,
+      "lo": 5.450000000000001,
+      "hi": 7.65,
+      "z0": 1.6,
+      "z1": 2.85,
+      "actual_object": "OPEN_F1_WWC_W_01"
+    },
+    {
+      "id": "END_0_F1",
+      "axis": "Y",
+      "line": 0,
+      "lo": 9.65,
+      "hi": 12.15,
+      "z0": 0.5,
+      "z1": 3.3,
+      "actual_object": "OPEN_END_0_F1"
+    },
+    {
+      "id": "F1_WL_W_01",
+      "axis": "Y",
+      "line": 18,
+      "lo": 0.9999999999999996,
+      "hi": 3.1999999999999997,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_WL_W_01"
+    },
+    {
+      "id": "F1_WO_E_01",
+      "axis": "Y",
+      "line": 52,
+      "lo": 5.0,
+      "hi": 7.199999999999999,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_WO_E_01"
+    },
+    {
+      "id": "F1_CW_W_01",
+      "axis": "Y",
+      "line": 64,
+      "lo": 1.225,
+      "hi": 3.4250000000000003,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_CW_W_01"
+    },
+    {
+      "id": "F1_CW_W_02",
+      "axis": "Y",
+      "line": 64,
+      "lo": 4.775,
+      "hi": 6.975,
+      "z0": 0.9,
+      "z1": 3.0,
+      "actual_object": "OPEN_F1_CW_W_02"
+    },
+    {
+      "id": "F1_CL_W_01",
+      "axis": "Y",
+      "line": 64,
+      "lo": 23.799999999999997,
+      "hi": 26.0,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_CL_W_01"
+    },
+    {
+      "id": "F1_CN_E_01",
+      "axis": "Y",
+      "line": 94,
+      "lo": 23.799999999999997,
+      "hi": 26.0,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_CN_E_01"
+    },
+    {
+      "id": "F1_EG_W_01",
+      "axis": "Y",
+      "line": 106,
+      "lo": 5.0,
+      "hi": 7.199999999999999,
+      "z0": 0.45,
+      "z1": 3.25,
+      "actual_object": "OPEN_F1_EG_W_01"
+    },
+    {
+      "id": "C01_E",
+      "axis": "Y",
+      "line": 150,
+      "lo": 12.5,
+      "hi": 15.5,
+      "z0": 0,
+      "z1": 3,
+      "actual_object": "OPEN_C01_E"
+    },
+    {
+      "id": "END_150_F1",
+      "axis": "Y",
+      "line": 150,
+      "lo": 9.65,
+      "hi": 12.15,
+      "z0": 0.5,
+      "z1": 3.3,
+      "actual_object": "OPEN_END_150_F1"
+    },
+    {
+      "id": "F1_W1_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 18.4,
+      "hi": 20.0,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_W1_D"
+    },
+    {
+      "id": "F1_W2_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 27.0,
+      "hi": 28.6,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_W2_D"
+    },
+    {
+      "id": "F1_W3_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 35.6,
+      "hi": 37.199999999999996,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_W3_D"
+    },
+    {
+      "id": "F1_W4_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 44.2,
+      "hi": 45.8,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_W4_D"
+    },
+    {
+      "id": "F1_E1_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 110.2,
+      "hi": 111.8,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_E1_D"
+    },
+    {
+      "id": "F1_E2_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 118.8,
+      "hi": 120.39999999999999,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_E2_D"
+    },
+    {
+      "id": "F1_E3_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 127.39999999999999,
+      "hi": 129.0,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_E3_D"
+    },
+    {
+      "id": "F1_E4_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 136.0,
+      "hi": 137.60000000000002,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_E4_D"
+    },
+    {
+      "id": "F1_WG_D",
+      "axis": "X",
+      "line": 12.9,
+      "lo": 6.9,
+      "hi": 8.3,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_WG_D"
+    },
+    {
+      "id": "F1_LW_D",
+      "axis": "X",
+      "line": 12.9,
+      "lo": 57.3,
+      "hi": 58.7,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_LW_D"
+    },
+    {
+      "id": "F1_LE_D",
+      "axis": "X",
+      "line": 12.9,
+      "lo": 99.3,
+      "hi": 100.7,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_LE_D"
+    },
+    {
+      "id": "F1_CL_D",
+      "axis": "X",
+      "line": 12.9,
+      "lo": 68.3,
+      "hi": 69.7,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_CL_D"
+    },
+    {
+      "id": "F1_CN_D",
+      "axis": "X",
+      "line": 12.9,
+      "lo": 89.3,
+      "hi": 90.7,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_CN_D"
+    },
+    {
+      "id": "F2_WL_S_01",
+      "axis": "X",
+      "line": 0,
+      "lo": 19.266666666666666,
+      "hi": 21.46666666666667,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_WL_S_01"
+    },
+    {
+      "id": "F2_WL_S_02",
+      "axis": "X",
+      "line": 0,
+      "lo": 22.9,
+      "hi": 25.1,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_WL_S_02"
+    },
+    {
+      "id": "F2_WL_S_03",
+      "axis": "X",
+      "line": 0,
+      "lo": 26.53333333333333,
+      "hi": 28.733333333333334,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_WL_S_03"
+    },
+    {
+      "id": "S1_F2_S",
+      "axis": "X",
+      "line": 0,
+      "lo": 31,
+      "hi": 37,
+      "z0": 5,
+      "z1": 7.25,
+      "actual_object": "OPEN_S1_F2_S"
+    },
+    {
+      "id": "F2_CW_S_01",
+      "axis": "X",
+      "line": 0,
+      "lo": 65.67500000000001,
+      "hi": 67.875,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_CW_S_01"
+    },
+    {
+      "id": "F2_CW_S_02",
+      "axis": "X",
+      "line": 0,
+      "lo": 70.125,
+      "hi": 72.32499999999999,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_CW_S_02"
+    },
+    {
+      "id": "F2_CS_S_01",
+      "axis": "X",
+      "line": 0,
+      "lo": 75.9,
+      "hi": 78.1,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_CS_S_01"
+    },
+    {
+      "id": "F2_CE_S_01",
+      "axis": "X",
+      "line": 0,
+      "lo": 83.125,
+      "hi": 85.275,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_CE_S_01"
+    },
+    {
+      "id": "S2_F2_S",
+      "axis": "X",
+      "line": 0,
+      "lo": 87,
+      "hi": 93,
+      "z0": 5,
+      "z1": 7.25,
+      "actual_object": "OPEN_S2_F2_S"
+    },
+    {
+      "id": "S3_F2_S",
+      "axis": "X",
+      "line": 0,
+      "lo": 143,
+      "hi": 149,
+      "z0": 5,
+      "z1": 7.25,
+      "actual_object": "OPEN_S3_F2_S"
+    },
+    {
+      "id": "F2_WWC_S_01",
+      "axis": "X",
+      "line": 4,
+      "lo": 1.1750000000000003,
+      "hi": 3.3750000000000004,
+      "z0": 5.6,
+      "z1": 6.85,
+      "actual_object": "OPEN_F2_WWC_S_01"
+    },
+    {
+      "id": "F2_WWC_S_02",
+      "axis": "X",
+      "line": 4,
+      "lo": 4.625,
+      "hi": 6.825000000000001,
+      "z0": 5.6,
+      "z1": 6.85,
+      "actual_object": "OPEN_F2_WWC_S_02"
+    },
+    {
+      "id": "F2_WH_S_01",
+      "axis": "X",
+      "line": 4,
+      "lo": 8.683333333333334,
+      "hi": 10.883333333333333,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_WH_S_01"
+    },
+    {
+      "id": "F2_WH_S_02",
+      "axis": "X",
+      "line": 4,
+      "lo": 11.75,
+      "hi": 13.95,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_WH_S_02"
+    },
+    {
+      "id": "F2_WH_S_03",
+      "axis": "X",
+      "line": 4,
+      "lo": 14.816666666666666,
+      "hi": 17.016666666666666,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_WH_S_03"
+    },
+    {
+      "id": "F2_WO_S_01",
+      "axis": "X",
+      "line": 4,
+      "lo": 39.06249999999999,
+      "hi": 41.262499999999996,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_WO_S_01"
+    },
+    {
+      "id": "F2_WO_S_02",
+      "axis": "X",
+      "line": 4,
+      "lo": 42.2875,
+      "hi": 44.487500000000004,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_WO_S_02"
+    },
+    {
+      "id": "F2_WO_S_03",
+      "axis": "X",
+      "line": 4,
+      "lo": 45.512499999999996,
+      "hi": 47.7125,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_WO_S_03"
+    },
+    {
+      "id": "F2_WO_S_04",
+      "axis": "X",
+      "line": 4,
+      "lo": 48.737500000000004,
+      "hi": 50.93750000000001,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_WO_S_04"
+    },
+    {
+      "id": "F2_EG_S_01",
+      "axis": "X",
+      "line": 4,
+      "lo": 107.4,
+      "hi": 109.6,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_EG_S_01"
+    },
+    {
+      "id": "F2_EG_S_02",
+      "axis": "X",
+      "line": 4,
+      "lo": 111.30000000000001,
+      "hi": 113.5,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_EG_S_02"
+    },
+    {
+      "id": "F2_EG_S_03",
+      "axis": "X",
+      "line": 4,
+      "lo": 115.2,
+      "hi": 117.39999999999999,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_EG_S_03"
+    },
+    {
+      "id": "F2_EWC_S_01",
+      "axis": "X",
+      "line": 4,
+      "lo": 119.56666666666666,
+      "hi": 121.76666666666665,
+      "z0": 5.6,
+      "z1": 6.85,
+      "actual_object": "OPEN_F2_EWC_S_01"
+    },
+    {
+      "id": "F2_EWC_S_02",
+      "axis": "X",
+      "line": 4,
+      "lo": 122.80000000000001,
+      "hi": 125.0,
+      "z0": 5.6,
+      "z1": 6.85,
+      "actual_object": "OPEN_F2_EWC_S_02"
+    },
+    {
+      "id": "F2_EWC_S_03",
+      "axis": "X",
+      "line": 4,
+      "lo": 126.03333333333333,
+      "hi": 128.23333333333332,
+      "z0": 5.6,
+      "z1": 6.85,
+      "actual_object": "OPEN_F2_EWC_S_03"
+    },
+    {
+      "id": "F2_ES_S_01",
+      "axis": "X",
+      "line": 4,
+      "lo": 130.4,
+      "hi": 132.6,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_ES_S_01"
+    },
+    {
+      "id": "F2_ES_S_02",
+      "axis": "X",
+      "line": 4,
+      "lo": 134.3,
+      "hi": 136.5,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_ES_S_02"
+    },
+    {
+      "id": "F2_ES_S_03",
+      "axis": "X",
+      "line": 4,
+      "lo": 138.20000000000002,
+      "hi": 140.4,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_ES_S_03"
+    },
+    {
+      "id": "LINK_52_F2_S_1",
+      "axis": "X",
+      "line": 8,
+      "lo": 52.6,
+      "hi": 54.9,
+      "z0": 4.6,
+      "z1": 7.2,
+      "actual_object": "OPEN_LINK_52_F2_S_1"
+    },
+    {
+      "id": "LINK_52_F2_S_2",
+      "axis": "X",
+      "line": 8,
+      "lo": 55.4,
+      "hi": 57.699999999999996,
+      "z0": 4.6,
+      "z1": 7.2,
+      "actual_object": "OPEN_LINK_52_F2_S_2"
+    },
+    {
+      "id": "LINK_52_F2_S_3",
+      "axis": "X",
+      "line": 8,
+      "lo": 58.2,
+      "hi": 60.5,
+      "z0": 4.6,
+      "z1": 7.2,
+      "actual_object": "OPEN_LINK_52_F2_S_3"
+    },
+    {
+      "id": "LINK_52_F2_S_4",
+      "axis": "X",
+      "line": 8,
+      "lo": 61.0,
+      "hi": 63.3,
+      "z0": 4.6,
+      "z1": 7.2,
+      "actual_object": "OPEN_LINK_52_F2_S_4"
+    },
+    {
+      "id": "LINK_94_F2_S_1",
+      "axis": "X",
+      "line": 8,
+      "lo": 94.6,
+      "hi": 96.89999999999999,
+      "z0": 4.6,
+      "z1": 7.2,
+      "actual_object": "OPEN_LINK_94_F2_S_1"
+    },
+    {
+      "id": "LINK_94_F2_S_2",
+      "axis": "X",
+      "line": 8,
+      "lo": 97.39999999999999,
+      "hi": 99.69999999999999,
+      "z0": 4.6,
+      "z1": 7.2,
+      "actual_object": "OPEN_LINK_94_F2_S_2"
+    },
+    {
+      "id": "LINK_94_F2_S_3",
+      "axis": "X",
+      "line": 8,
+      "lo": 100.19999999999999,
+      "hi": 102.49999999999999,
+      "z0": 4.6,
+      "z1": 7.2,
+      "actual_object": "OPEN_LINK_94_F2_S_3"
+    },
+    {
+      "id": "LINK_94_F2_S_4",
+      "axis": "X",
+      "line": 8,
+      "lo": 103.0,
+      "hi": 105.3,
+      "z0": 4.6,
+      "z1": 7.2,
+      "actual_object": "OPEN_LINK_94_F2_S_4"
+    },
+    {
+      "id": "F2_W1_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 15.624999999999998,
+      "hi": 17.90833333333333,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_W1_N_01"
+    },
+    {
+      "id": "F2_W1_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 18.258333333333333,
+      "hi": 20.541666666666664,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_W1_N_02"
+    },
+    {
+      "id": "F2_W1_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 20.89166666666667,
+      "hi": 23.175,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_W1_N_03"
+    },
+    {
+      "id": "F2_W2_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 24.225,
+      "hi": 26.508333333333333,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_W2_N_01"
+    },
+    {
+      "id": "F2_W2_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 26.858333333333334,
+      "hi": 29.141666666666666,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_W2_N_02"
+    },
+    {
+      "id": "F2_W2_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 29.49166666666667,
+      "hi": 31.775000000000002,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_W2_N_03"
+    },
+    {
+      "id": "F2_W3_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 32.825,
+      "hi": 35.108333333333334,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_W3_N_01"
+    },
+    {
+      "id": "F2_W3_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 35.45833333333333,
+      "hi": 37.74166666666666,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_W3_N_02"
+    },
+    {
+      "id": "F2_W3_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 38.09166666666667,
+      "hi": 40.375,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_W3_N_03"
+    },
+    {
+      "id": "F2_W4_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 41.425,
+      "hi": 43.70833333333333,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_W4_N_01"
+    },
+    {
+      "id": "F2_W4_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 44.05833333333334,
+      "hi": 46.34166666666667,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_W4_N_02"
+    },
+    {
+      "id": "F2_W4_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 46.69166666666666,
+      "hi": 48.974999999999994,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_W4_N_03"
+    },
+    {
+      "id": "F2_WG_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 1.2125,
+      "hi": 3.4125,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_WG_N_01"
+    },
+    {
+      "id": "F2_WG_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 4.737499999999999,
+      "hi": 6.9375,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_WG_N_02"
+    },
+    {
+      "id": "F2_WG_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 8.262500000000001,
+      "hi": 10.4625,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_WG_N_03"
+    },
+    {
+      "id": "F2_WG_N_04",
+      "axis": "X",
+      "line": 22,
+      "lo": 11.787500000000001,
+      "hi": 13.9875,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_WG_N_04"
+    },
+    {
+      "id": "F2_LW_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 53.266666666666666,
+      "hi": 55.46666666666667,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_LW_N_01"
+    },
+    {
+      "id": "F2_LW_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 56.9,
+      "hi": 59.1,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_LW_N_02"
+    },
+    {
+      "id": "F2_LW_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 60.53333333333333,
+      "hi": 62.733333333333334,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_LW_N_03"
+    },
+    {
+      "id": "F2_E1_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 107.425,
+      "hi": 109.70833333333333,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_E1_N_01"
+    },
+    {
+      "id": "F2_E1_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 110.05833333333334,
+      "hi": 112.34166666666667,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_E1_N_02"
+    },
+    {
+      "id": "F2_E1_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 112.69166666666668,
+      "hi": 114.97500000000001,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_E1_N_03"
+    },
+    {
+      "id": "F2_E2_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 116.02499999999999,
+      "hi": 118.30833333333332,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_E2_N_01"
+    },
+    {
+      "id": "F2_E2_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 118.65833333333333,
+      "hi": 120.94166666666666,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_E2_N_02"
+    },
+    {
+      "id": "F2_E2_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 121.29166666666667,
+      "hi": 123.575,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_E2_N_03"
+    },
+    {
+      "id": "F2_E3_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 124.625,
+      "hi": 126.90833333333333,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_E3_N_01"
+    },
+    {
+      "id": "F2_E3_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 127.25833333333334,
+      "hi": 129.54166666666666,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_E3_N_02"
+    },
+    {
+      "id": "F2_E3_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 129.89166666666668,
+      "hi": 132.17499999999998,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_E3_N_03"
+    },
+    {
+      "id": "F2_E4_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 133.225,
+      "hi": 135.50833333333335,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_E4_N_01"
+    },
+    {
+      "id": "F2_E4_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 135.85833333333332,
+      "hi": 138.14166666666668,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_E4_N_02"
+    },
+    {
+      "id": "F2_E4_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 138.49166666666667,
+      "hi": 140.77500000000003,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_E4_N_03"
+    },
+    {
+      "id": "F2_LE_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 95.26666666666667,
+      "hi": 97.46666666666665,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_LE_N_01"
+    },
+    {
+      "id": "F2_LE_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 98.9,
+      "hi": 101.1,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_LE_N_02"
+    },
+    {
+      "id": "F2_LE_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 102.53333333333335,
+      "hi": 104.73333333333333,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_LE_N_03"
+    },
+    {
+      "id": "F2_CL_N_01",
+      "axis": "X",
+      "line": 28,
+      "lo": 65.67500000000001,
+      "hi": 67.875,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_CL_N_01"
+    },
+    {
+      "id": "F2_CL_N_02",
+      "axis": "X",
+      "line": 28,
+      "lo": 70.125,
+      "hi": 72.32499999999999,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_CL_N_02"
+    },
+    {
+      "id": "F2_CB_N_01",
+      "axis": "X",
+      "line": 28,
+      "lo": 75.26666666666667,
+      "hi": 77.46666666666665,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_CB_N_01"
+    },
+    {
+      "id": "F2_CB_N_02",
+      "axis": "X",
+      "line": 28,
+      "lo": 78.9,
+      "hi": 81.1,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_CB_N_02"
+    },
+    {
+      "id": "F2_CB_N_03",
+      "axis": "X",
+      "line": 28,
+      "lo": 82.53333333333335,
+      "hi": 84.73333333333333,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_CB_N_03"
+    },
+    {
+      "id": "F2_CN_N_01",
+      "axis": "X",
+      "line": 28,
+      "lo": 87.17500000000001,
+      "hi": 89.375,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_CN_N_01"
+    },
+    {
+      "id": "F2_CN_N_02",
+      "axis": "X",
+      "line": 28,
+      "lo": 90.625,
+      "hi": 92.82499999999999,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_CN_N_02"
+    },
+    {
+      "id": "F2_WG_W_01",
+      "axis": "Y",
+      "line": 0,
+      "lo": 14.200000000000001,
+      "hi": 16.400000000000002,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_WG_W_01"
+    },
+    {
+      "id": "F2_WG_W_02",
+      "axis": "Y",
+      "line": 0,
+      "lo": 18.299999999999997,
+      "hi": 20.5,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_WG_W_02"
+    },
+    {
+      "id": "F2_WWC_W_01",
+      "axis": "Y",
+      "line": 0,
+      "lo": 5.450000000000001,
+      "hi": 7.65,
+      "z0": 5.6,
+      "z1": 6.85,
+      "actual_object": "OPEN_F2_WWC_W_01"
+    },
+    {
+      "id": "END_0_F2",
+      "axis": "Y",
+      "line": 0,
+      "lo": 9.65,
+      "hi": 12.15,
+      "z0": 4.5,
+      "z1": 7.3,
+      "actual_object": "OPEN_END_0_F2"
+    },
+    {
+      "id": "F2_WL_W_01",
+      "axis": "Y",
+      "line": 18,
+      "lo": 0.9999999999999996,
+      "hi": 3.1999999999999997,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_WL_W_01"
+    },
+    {
+      "id": "F2_WO_E_01",
+      "axis": "Y",
+      "line": 52,
+      "lo": 5.0,
+      "hi": 7.199999999999999,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_WO_E_01"
+    },
+    {
+      "id": "F2_CW_W_01",
+      "axis": "Y",
+      "line": 64,
+      "lo": 1.225,
+      "hi": 3.4250000000000003,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_CW_W_01"
+    },
+    {
+      "id": "F2_CW_W_02",
+      "axis": "Y",
+      "line": 64,
+      "lo": 4.775,
+      "hi": 6.975,
+      "z0": 4.9,
+      "z1": 7.0,
+      "actual_object": "OPEN_F2_CW_W_02"
+    },
+    {
+      "id": "F2_CL_W_01",
+      "axis": "Y",
+      "line": 64,
+      "lo": 23.799999999999997,
+      "hi": 26.0,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_CL_W_01"
+    },
+    {
+      "id": "F2_CN_E_01",
+      "axis": "Y",
+      "line": 94,
+      "lo": 23.799999999999997,
+      "hi": 26.0,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_CN_E_01"
+    },
+    {
+      "id": "F2_EG_W_01",
+      "axis": "Y",
+      "line": 106,
+      "lo": 5.0,
+      "hi": 7.199999999999999,
+      "z0": 4.45,
+      "z1": 7.25,
+      "actual_object": "OPEN_F2_EG_W_01"
+    },
+    {
+      "id": "END_150_F2",
+      "axis": "Y",
+      "line": 150,
+      "lo": 9.65,
+      "hi": 12.15,
+      "z0": 4.5,
+      "z1": 7.3,
+      "actual_object": "OPEN_END_150_F2"
+    },
+    {
+      "id": "F2_W1_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 18.4,
+      "hi": 20.0,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_W1_D"
+    },
+    {
+      "id": "F2_W2_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 27.0,
+      "hi": 28.6,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_W2_D"
+    },
+    {
+      "id": "F2_W3_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 35.6,
+      "hi": 37.199999999999996,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_W3_D"
+    },
+    {
+      "id": "F2_W4_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 44.2,
+      "hi": 45.8,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_W4_D"
+    },
+    {
+      "id": "F2_E1_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 110.2,
+      "hi": 111.8,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_E1_D"
+    },
+    {
+      "id": "F2_E2_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 118.8,
+      "hi": 120.39999999999999,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_E2_D"
+    },
+    {
+      "id": "F2_E3_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 127.39999999999999,
+      "hi": 129.0,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_E3_D"
+    },
+    {
+      "id": "F2_E4_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 136.0,
+      "hi": 137.60000000000002,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_E4_D"
+    },
+    {
+      "id": "F2_WG_D",
+      "axis": "X",
+      "line": 12.9,
+      "lo": 6.9,
+      "hi": 8.3,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_WG_D"
+    },
+    {
+      "id": "F2_LW_D",
+      "axis": "X",
+      "line": 12.9,
+      "lo": 57.3,
+      "hi": 58.7,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_LW_D"
+    },
+    {
+      "id": "F2_LE_D",
+      "axis": "X",
+      "line": 12.9,
+      "lo": 99.3,
+      "hi": 100.7,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_LE_D"
+    },
+    {
+      "id": "F2_CL_D",
+      "axis": "X",
+      "line": 12.9,
+      "lo": 68.3,
+      "hi": 69.7,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_CL_D"
+    },
+    {
+      "id": "F2_CN_D",
+      "axis": "X",
+      "line": 12.9,
+      "lo": 89.3,
+      "hi": 90.7,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_CN_D"
+    },
+    {
+      "id": "F3_WL_S_01",
+      "axis": "X",
+      "line": 0,
+      "lo": 19.266666666666666,
+      "hi": 21.46666666666667,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_WL_S_01"
+    },
+    {
+      "id": "F3_WL_S_02",
+      "axis": "X",
+      "line": 0,
+      "lo": 22.9,
+      "hi": 25.1,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_WL_S_02"
+    },
+    {
+      "id": "F3_WL_S_03",
+      "axis": "X",
+      "line": 0,
+      "lo": 26.53333333333333,
+      "hi": 28.733333333333334,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_WL_S_03"
+    },
+    {
+      "id": "S1_F3_S",
+      "axis": "X",
+      "line": 0,
+      "lo": 31,
+      "hi": 37,
+      "z0": 9,
+      "z1": 11.25,
+      "actual_object": "OPEN_S1_F3_S"
+    },
+    {
+      "id": "F3_CS_S_01",
+      "axis": "X",
+      "line": 0,
+      "lo": 75.9,
+      "hi": 78.1,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_CS_S_01"
+    },
+    {
+      "id": "F3_CE_S_01",
+      "axis": "X",
+      "line": 0,
+      "lo": 83.125,
+      "hi": 85.275,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_CE_S_01"
+    },
+    {
+      "id": "S2_F3_S",
+      "axis": "X",
+      "line": 0,
+      "lo": 87,
+      "hi": 93,
+      "z0": 9,
+      "z1": 11.25,
+      "actual_object": "OPEN_S2_F3_S"
+    },
+    {
+      "id": "S3_F3_S",
+      "axis": "X",
+      "line": 0,
+      "lo": 143,
+      "hi": 149,
+      "z0": 9,
+      "z1": 11.25,
+      "actual_object": "OPEN_S3_F3_S"
+    },
+    {
+      "id": "F3_WWC_S_01",
+      "axis": "X",
+      "line": 4,
+      "lo": 1.1750000000000003,
+      "hi": 3.3750000000000004,
+      "z0": 9.6,
+      "z1": 10.85,
+      "actual_object": "OPEN_F3_WWC_S_01"
+    },
+    {
+      "id": "F3_WWC_S_02",
+      "axis": "X",
+      "line": 4,
+      "lo": 4.625,
+      "hi": 6.825000000000001,
+      "z0": 9.6,
+      "z1": 10.85,
+      "actual_object": "OPEN_F3_WWC_S_02"
+    },
+    {
+      "id": "F3_WH_S_01",
+      "axis": "X",
+      "line": 4,
+      "lo": 8.683333333333334,
+      "hi": 10.883333333333333,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_WH_S_01"
+    },
+    {
+      "id": "F3_WH_S_02",
+      "axis": "X",
+      "line": 4,
+      "lo": 11.75,
+      "hi": 13.95,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_WH_S_02"
+    },
+    {
+      "id": "F3_WH_S_03",
+      "axis": "X",
+      "line": 4,
+      "lo": 14.816666666666666,
+      "hi": 17.016666666666666,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_WH_S_03"
+    },
+    {
+      "id": "F3_WO_S_01",
+      "axis": "X",
+      "line": 4,
+      "lo": 39.06249999999999,
+      "hi": 41.262499999999996,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_WO_S_01"
+    },
+    {
+      "id": "F3_WO_S_02",
+      "axis": "X",
+      "line": 4,
+      "lo": 42.2875,
+      "hi": 44.487500000000004,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_WO_S_02"
+    },
+    {
+      "id": "F3_WO_S_03",
+      "axis": "X",
+      "line": 4,
+      "lo": 45.512499999999996,
+      "hi": 47.7125,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_WO_S_03"
+    },
+    {
+      "id": "F3_WO_S_04",
+      "axis": "X",
+      "line": 4,
+      "lo": 48.737500000000004,
+      "hi": 50.93750000000001,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_WO_S_04"
+    },
+    {
+      "id": "F3_EG_S_01",
+      "axis": "X",
+      "line": 4,
+      "lo": 107.4,
+      "hi": 109.6,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_EG_S_01"
+    },
+    {
+      "id": "F3_EG_S_02",
+      "axis": "X",
+      "line": 4,
+      "lo": 111.30000000000001,
+      "hi": 113.5,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_EG_S_02"
+    },
+    {
+      "id": "F3_EG_S_03",
+      "axis": "X",
+      "line": 4,
+      "lo": 115.2,
+      "hi": 117.39999999999999,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_EG_S_03"
+    },
+    {
+      "id": "F3_EWC_S_01",
+      "axis": "X",
+      "line": 4,
+      "lo": 119.56666666666666,
+      "hi": 121.76666666666665,
+      "z0": 9.6,
+      "z1": 10.85,
+      "actual_object": "OPEN_F3_EWC_S_01"
+    },
+    {
+      "id": "F3_EWC_S_02",
+      "axis": "X",
+      "line": 4,
+      "lo": 122.80000000000001,
+      "hi": 125.0,
+      "z0": 9.6,
+      "z1": 10.85,
+      "actual_object": "OPEN_F3_EWC_S_02"
+    },
+    {
+      "id": "F3_EWC_S_03",
+      "axis": "X",
+      "line": 4,
+      "lo": 126.03333333333333,
+      "hi": 128.23333333333332,
+      "z0": 9.6,
+      "z1": 10.85,
+      "actual_object": "OPEN_F3_EWC_S_03"
+    },
+    {
+      "id": "F3_ES_S_01",
+      "axis": "X",
+      "line": 4,
+      "lo": 130.4,
+      "hi": 132.6,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_ES_S_01"
+    },
+    {
+      "id": "F3_ES_S_02",
+      "axis": "X",
+      "line": 4,
+      "lo": 134.3,
+      "hi": 136.5,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_ES_S_02"
+    },
+    {
+      "id": "F3_ES_S_03",
+      "axis": "X",
+      "line": 4,
+      "lo": 138.20000000000002,
+      "hi": 140.4,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_ES_S_03"
+    },
+    {
+      "id": "TERRACE_ACCESS",
+      "axis": "X",
+      "line": 6,
+      "lo": 68.2,
+      "hi": 69.8,
+      "z0": 8.03,
+      "z1": 10.63,
+      "actual_object": "OPEN_TERRACE_ACCESS"
+    },
+    {
+      "id": "F3_CW_S_01",
+      "axis": "X",
+      "line": 6,
+      "lo": 65.67500000000001,
+      "hi": 67.875,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_CW_S_01"
+    },
+    {
+      "id": "F3_CW_S_02",
+      "axis": "X",
+      "line": 6,
+      "lo": 70.125,
+      "hi": 72.32499999999999,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_CW_S_02"
+    },
+    {
+      "id": "LINK_52_F3_S_1",
+      "axis": "X",
+      "line": 8,
+      "lo": 52.6,
+      "hi": 54.9,
+      "z0": 8.6,
+      "z1": 11.2,
+      "actual_object": "OPEN_LINK_52_F3_S_1"
+    },
+    {
+      "id": "LINK_52_F3_S_2",
+      "axis": "X",
+      "line": 8,
+      "lo": 55.4,
+      "hi": 57.699999999999996,
+      "z0": 8.6,
+      "z1": 11.2,
+      "actual_object": "OPEN_LINK_52_F3_S_2"
+    },
+    {
+      "id": "LINK_52_F3_S_3",
+      "axis": "X",
+      "line": 8,
+      "lo": 58.2,
+      "hi": 60.5,
+      "z0": 8.6,
+      "z1": 11.2,
+      "actual_object": "OPEN_LINK_52_F3_S_3"
+    },
+    {
+      "id": "LINK_52_F3_S_4",
+      "axis": "X",
+      "line": 8,
+      "lo": 61.0,
+      "hi": 63.3,
+      "z0": 8.6,
+      "z1": 11.2,
+      "actual_object": "OPEN_LINK_52_F3_S_4"
+    },
+    {
+      "id": "LINK_94_F3_S_1",
+      "axis": "X",
+      "line": 8,
+      "lo": 94.6,
+      "hi": 96.89999999999999,
+      "z0": 8.6,
+      "z1": 11.2,
+      "actual_object": "OPEN_LINK_94_F3_S_1"
+    },
+    {
+      "id": "LINK_94_F3_S_2",
+      "axis": "X",
+      "line": 8,
+      "lo": 97.39999999999999,
+      "hi": 99.69999999999999,
+      "z0": 8.6,
+      "z1": 11.2,
+      "actual_object": "OPEN_LINK_94_F3_S_2"
+    },
+    {
+      "id": "LINK_94_F3_S_3",
+      "axis": "X",
+      "line": 8,
+      "lo": 100.19999999999999,
+      "hi": 102.49999999999999,
+      "z0": 8.6,
+      "z1": 11.2,
+      "actual_object": "OPEN_LINK_94_F3_S_3"
+    },
+    {
+      "id": "LINK_94_F3_S_4",
+      "axis": "X",
+      "line": 8,
+      "lo": 103.0,
+      "hi": 105.3,
+      "z0": 8.6,
+      "z1": 11.2,
+      "actual_object": "OPEN_LINK_94_F3_S_4"
+    },
+    {
+      "id": "F3_W1_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 15.624999999999998,
+      "hi": 17.90833333333333,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_W1_N_01"
+    },
+    {
+      "id": "F3_W1_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 18.258333333333333,
+      "hi": 20.541666666666664,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_W1_N_02"
+    },
+    {
+      "id": "F3_W1_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 20.89166666666667,
+      "hi": 23.175,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_W1_N_03"
+    },
+    {
+      "id": "F3_W2_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 24.225,
+      "hi": 26.508333333333333,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_W2_N_01"
+    },
+    {
+      "id": "F3_W2_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 26.858333333333334,
+      "hi": 29.141666666666666,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_W2_N_02"
+    },
+    {
+      "id": "F3_W2_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 29.49166666666667,
+      "hi": 31.775000000000002,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_W2_N_03"
+    },
+    {
+      "id": "F3_W3_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 32.825,
+      "hi": 35.108333333333334,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_W3_N_01"
+    },
+    {
+      "id": "F3_W3_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 35.45833333333333,
+      "hi": 37.74166666666666,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_W3_N_02"
+    },
+    {
+      "id": "F3_W3_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 38.09166666666667,
+      "hi": 40.375,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_W3_N_03"
+    },
+    {
+      "id": "F3_W4_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 41.425,
+      "hi": 43.70833333333333,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_W4_N_01"
+    },
+    {
+      "id": "F3_W4_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 44.05833333333334,
+      "hi": 46.34166666666667,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_W4_N_02"
+    },
+    {
+      "id": "F3_W4_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 46.69166666666666,
+      "hi": 48.974999999999994,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_W4_N_03"
+    },
+    {
+      "id": "F3_WG_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 1.2125,
+      "hi": 3.4125,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_WG_N_01"
+    },
+    {
+      "id": "F3_WG_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 4.737499999999999,
+      "hi": 6.9375,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_WG_N_02"
+    },
+    {
+      "id": "F3_WG_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 8.262500000000001,
+      "hi": 10.4625,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_WG_N_03"
+    },
+    {
+      "id": "F3_WG_N_04",
+      "axis": "X",
+      "line": 22,
+      "lo": 11.787500000000001,
+      "hi": 13.9875,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_WG_N_04"
+    },
+    {
+      "id": "F3_LW_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 53.266666666666666,
+      "hi": 55.46666666666667,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_LW_N_01"
+    },
+    {
+      "id": "F3_LW_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 56.9,
+      "hi": 59.1,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_LW_N_02"
+    },
+    {
+      "id": "F3_LW_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 60.53333333333333,
+      "hi": 62.733333333333334,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_LW_N_03"
+    },
+    {
+      "id": "F3_E1_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 107.425,
+      "hi": 109.70833333333333,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_E1_N_01"
+    },
+    {
+      "id": "F3_E1_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 110.05833333333334,
+      "hi": 112.34166666666667,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_E1_N_02"
+    },
+    {
+      "id": "F3_E1_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 112.69166666666668,
+      "hi": 114.97500000000001,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_E1_N_03"
+    },
+    {
+      "id": "F3_E2_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 116.02499999999999,
+      "hi": 118.30833333333332,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_E2_N_01"
+    },
+    {
+      "id": "F3_E2_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 118.65833333333333,
+      "hi": 120.94166666666666,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_E2_N_02"
+    },
+    {
+      "id": "F3_E2_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 121.29166666666667,
+      "hi": 123.575,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_E2_N_03"
+    },
+    {
+      "id": "F3_E3_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 124.625,
+      "hi": 126.90833333333333,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_E3_N_01"
+    },
+    {
+      "id": "F3_E3_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 127.25833333333334,
+      "hi": 129.54166666666666,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_E3_N_02"
+    },
+    {
+      "id": "F3_E3_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 129.89166666666668,
+      "hi": 132.17499999999998,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_E3_N_03"
+    },
+    {
+      "id": "F3_E4_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 133.225,
+      "hi": 135.50833333333335,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_E4_N_01"
+    },
+    {
+      "id": "F3_E4_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 135.85833333333332,
+      "hi": 138.14166666666668,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_E4_N_02"
+    },
+    {
+      "id": "F3_E4_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 138.49166666666667,
+      "hi": 140.77500000000003,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_E4_N_03"
+    },
+    {
+      "id": "F3_LE_N_01",
+      "axis": "X",
+      "line": 22,
+      "lo": 95.26666666666667,
+      "hi": 97.46666666666665,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_LE_N_01"
+    },
+    {
+      "id": "F3_LE_N_02",
+      "axis": "X",
+      "line": 22,
+      "lo": 98.9,
+      "hi": 101.1,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_LE_N_02"
+    },
+    {
+      "id": "F3_LE_N_03",
+      "axis": "X",
+      "line": 22,
+      "lo": 102.53333333333335,
+      "hi": 104.73333333333333,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_LE_N_03"
+    },
+    {
+      "id": "F3_CL_N_01",
+      "axis": "X",
+      "line": 28,
+      "lo": 65.67500000000001,
+      "hi": 67.875,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_CL_N_01"
+    },
+    {
+      "id": "F3_CL_N_02",
+      "axis": "X",
+      "line": 28,
+      "lo": 70.125,
+      "hi": 72.32499999999999,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_CL_N_02"
+    },
+    {
+      "id": "F3_CB_N_01",
+      "axis": "X",
+      "line": 28,
+      "lo": 75.26666666666667,
+      "hi": 77.46666666666665,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_CB_N_01"
+    },
+    {
+      "id": "F3_CB_N_02",
+      "axis": "X",
+      "line": 28,
+      "lo": 78.9,
+      "hi": 81.1,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_CB_N_02"
+    },
+    {
+      "id": "F3_CB_N_03",
+      "axis": "X",
+      "line": 28,
+      "lo": 82.53333333333335,
+      "hi": 84.73333333333333,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_CB_N_03"
+    },
+    {
+      "id": "F3_CN_N_01",
+      "axis": "X",
+      "line": 28,
+      "lo": 87.17500000000001,
+      "hi": 89.375,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_CN_N_01"
+    },
+    {
+      "id": "F3_CN_N_02",
+      "axis": "X",
+      "line": 28,
+      "lo": 90.625,
+      "hi": 92.82499999999999,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_CN_N_02"
+    },
+    {
+      "id": "F3_WG_W_01",
+      "axis": "Y",
+      "line": 0,
+      "lo": 14.200000000000001,
+      "hi": 16.400000000000002,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_WG_W_01"
+    },
+    {
+      "id": "F3_WG_W_02",
+      "axis": "Y",
+      "line": 0,
+      "lo": 18.299999999999997,
+      "hi": 20.5,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_WG_W_02"
+    },
+    {
+      "id": "F3_WWC_W_01",
+      "axis": "Y",
+      "line": 0,
+      "lo": 5.450000000000001,
+      "hi": 7.65,
+      "z0": 9.6,
+      "z1": 10.85,
+      "actual_object": "OPEN_F3_WWC_W_01"
+    },
+    {
+      "id": "END_0_F3",
+      "axis": "Y",
+      "line": 0,
+      "lo": 9.65,
+      "hi": 12.15,
+      "z0": 8.5,
+      "z1": 11.3,
+      "actual_object": "OPEN_END_0_F3"
+    },
+    {
+      "id": "F3_WL_W_01",
+      "axis": "Y",
+      "line": 18,
+      "lo": 0.9999999999999996,
+      "hi": 3.1999999999999997,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_WL_W_01"
+    },
+    {
+      "id": "F3_WO_E_01",
+      "axis": "Y",
+      "line": 52,
+      "lo": 5.0,
+      "hi": 7.199999999999999,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_WO_E_01"
+    },
+    {
+      "id": "F3_CL_W_01",
+      "axis": "Y",
+      "line": 64,
+      "lo": 23.799999999999997,
+      "hi": 26.0,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_CL_W_01"
+    },
+    {
+      "id": "F3_CS_W_01",
+      "axis": "Y",
+      "line": 74,
+      "lo": 2.0000000000000004,
+      "hi": 4.200000000000001,
+      "z0": 8.9,
+      "z1": 11.0,
+      "actual_object": "OPEN_F3_CS_W_01"
+    },
+    {
+      "id": "F3_CN_E_01",
+      "axis": "Y",
+      "line": 94,
+      "lo": 23.799999999999997,
+      "hi": 26.0,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_CN_E_01"
+    },
+    {
+      "id": "F3_EG_W_01",
+      "axis": "Y",
+      "line": 106,
+      "lo": 5.0,
+      "hi": 7.199999999999999,
+      "z0": 8.45,
+      "z1": 11.25,
+      "actual_object": "OPEN_F3_EG_W_01"
+    },
+    {
+      "id": "END_150_F3",
+      "axis": "Y",
+      "line": 150,
+      "lo": 9.65,
+      "hi": 12.15,
+      "z0": 8.5,
+      "z1": 11.3,
+      "actual_object": "OPEN_END_150_F3"
+    },
+    {
+      "id": "F3_W1_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 18.4,
+      "hi": 20.0,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_W1_D"
+    },
+    {
+      "id": "F3_W2_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 27.0,
+      "hi": 28.6,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_W2_D"
+    },
+    {
+      "id": "F3_W3_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 35.6,
+      "hi": 37.199999999999996,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_W3_D"
+    },
+    {
+      "id": "F3_W4_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 44.2,
+      "hi": 45.8,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_W4_D"
+    },
+    {
+      "id": "F3_E1_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 110.2,
+      "hi": 111.8,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_E1_D"
+    },
+    {
+      "id": "F3_E2_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 118.8,
+      "hi": 120.39999999999999,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_E2_D"
+    },
+    {
+      "id": "F3_E3_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 127.39999999999999,
+      "hi": 129.0,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_E3_D"
+    },
+    {
+      "id": "F3_E4_D",
+      "axis": "X",
+      "line": 12.6,
+      "lo": 136.0,
+      "hi": 137.60000000000002,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_E4_D"
+    },
+    {
+      "id": "F3_WG_D",
+      "axis": "X",
+      "line": 12.9,
+      "lo": 6.9,
+      "hi": 8.3,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_WG_D"
+    },
+    {
+      "id": "F3_LW_D",
+      "axis": "X",
+      "line": 12.9,
+      "lo": 57.3,
+      "hi": 58.7,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_LW_D"
+    },
+    {
+      "id": "F3_LE_D",
+      "axis": "X",
+      "line": 12.9,
+      "lo": 99.3,
+      "hi": 100.7,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_LE_D"
+    },
+    {
+      "id": "F3_CL_D",
+      "axis": "X",
+      "line": 12.9,
+      "lo": 68.3,
+      "hi": 69.7,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_CL_D"
+    },
+    {
+      "id": "F3_CN_D",
+      "axis": "X",
+      "line": 12.9,
+      "lo": 89.3,
+      "hi": 90.7,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_CN_D"
+    },
+    {
+      "id": "F1_WL_D_REV",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 23.5,
+      "hi": 26.5,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_WL_D_REV"
+    },
+    {
+      "id": "F1_WWC_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 3.3,
+      "hi": 4.7,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_WWC_TRIAL_D"
+    },
+    {
+      "id": "F1_WH_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 12.15,
+      "hi": 13.549999999999999,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_WH_TRIAL_D"
+    },
+    {
+      "id": "F1_WO_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 44.3,
+      "hi": 45.7,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_WO_TRIAL_D"
+    },
+    {
+      "id": "F1_CW_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 68.3,
+      "hi": 69.7,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_CW_TRIAL_D"
+    },
+    {
+      "id": "F1_CS_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 76.3,
+      "hi": 77.7,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_CS_TRIAL_D"
+    },
+    {
+      "id": "F1_CE_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 83.5,
+      "hi": 84.9,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_CE_TRIAL_D"
+    },
+    {
+      "id": "F1_CB_TRIAL_D",
+      "axis": "Y",
+      "line": 85.8,
+      "lo": 25.3,
+      "hi": 26.7,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_CB_TRIAL_D"
+    },
+    {
+      "id": "F1_EG_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 111.7,
+      "hi": 113.10000000000001,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_EG_TRIAL_D"
+    },
+    {
+      "id": "F1_EWC_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 123.2,
+      "hi": 124.60000000000001,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_EWC_TRIAL_D"
+    },
+    {
+      "id": "F1_ES_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 134.70000000000002,
+      "hi": 136.1,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_F1_ES_TRIAL_D"
+    },
+    {
+      "id": "F2_WWC_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 3.3,
+      "hi": 4.7,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_WWC_TRIAL_D"
+    },
+    {
+      "id": "F2_WH_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 12.15,
+      "hi": 13.549999999999999,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_WH_TRIAL_D"
+    },
+    {
+      "id": "F2_WL_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 24.3,
+      "hi": 25.7,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_WL_TRIAL_D"
+    },
+    {
+      "id": "F2_WO_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 44.3,
+      "hi": 45.7,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_WO_TRIAL_D"
+    },
+    {
+      "id": "F2_CW_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 68.3,
+      "hi": 69.7,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_CW_TRIAL_D"
+    },
+    {
+      "id": "F2_CS_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 76.3,
+      "hi": 77.7,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_CS_TRIAL_D"
+    },
+    {
+      "id": "F2_CE_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 83.5,
+      "hi": 84.9,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_CE_TRIAL_D"
+    },
+    {
+      "id": "F2_CB_TRIAL_D",
+      "axis": "Y",
+      "line": 85.8,
+      "lo": 25.3,
+      "hi": 26.7,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_CB_TRIAL_D"
+    },
+    {
+      "id": "F2_EG_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 111.7,
+      "hi": 113.10000000000001,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_EG_TRIAL_D"
+    },
+    {
+      "id": "F2_EWC_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 123.2,
+      "hi": 124.60000000000001,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_EWC_TRIAL_D"
+    },
+    {
+      "id": "F2_ES_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 134.70000000000002,
+      "hi": 136.1,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_F2_ES_TRIAL_D"
+    },
+    {
+      "id": "F3_WWC_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 3.3,
+      "hi": 4.7,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_WWC_TRIAL_D"
+    },
+    {
+      "id": "F3_WH_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 12.15,
+      "hi": 13.549999999999999,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_WH_TRIAL_D"
+    },
+    {
+      "id": "F3_WL_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 24.3,
+      "hi": 25.7,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_WL_TRIAL_D"
+    },
+    {
+      "id": "F3_WO_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 44.3,
+      "hi": 45.7,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_WO_TRIAL_D"
+    },
+    {
+      "id": "F3_CW_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 68.3,
+      "hi": 69.7,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_CW_TRIAL_D"
+    },
+    {
+      "id": "F3_CS_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 76.3,
+      "hi": 77.7,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_CS_TRIAL_D"
+    },
+    {
+      "id": "F3_CE_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 83.5,
+      "hi": 84.9,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_CE_TRIAL_D"
+    },
+    {
+      "id": "F3_CB_TRIAL_D",
+      "axis": "Y",
+      "line": 85.8,
+      "lo": 25.3,
+      "hi": 26.7,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_CB_TRIAL_D"
+    },
+    {
+      "id": "F3_EG_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 111.7,
+      "hi": 113.10000000000001,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_EG_TRIAL_D"
+    },
+    {
+      "id": "F3_EWC_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 123.2,
+      "hi": 124.60000000000001,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_EWC_TRIAL_D"
+    },
+    {
+      "id": "F3_ES_TRIAL_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 134.70000000000002,
+      "hi": 136.1,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_F3_ES_TRIAL_D"
+    },
+    {
+      "id": "S1_F1_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 32.9,
+      "hi": 35.1,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_S1_F1_D"
+    },
+    {
+      "id": "S1_F2_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 32.9,
+      "hi": 35.1,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_S1_F2_D"
+    },
+    {
+      "id": "S1_F3_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 32.9,
+      "hi": 35.1,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_S1_F3_D"
+    },
+    {
+      "id": "S2_F1_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 88.9,
+      "hi": 91.1,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_S2_F1_D"
+    },
+    {
+      "id": "S2_F2_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 88.9,
+      "hi": 91.1,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_S2_F2_D"
+    },
+    {
+      "id": "S2_F3_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 88.9,
+      "hi": 91.1,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_S2_F3_D"
+    },
+    {
+      "id": "S3_F1_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 144.9,
+      "hi": 147.1,
+      "z0": 0,
+      "z1": 2.6,
+      "actual_object": "OPEN_S3_F1_D"
+    },
+    {
+      "id": "S3_F2_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 144.9,
+      "hi": 147.1,
+      "z0": 4,
+      "z1": 6.6,
+      "actual_object": "OPEN_S3_F2_D"
+    },
+    {
+      "id": "S3_F3_D",
+      "axis": "X",
+      "line": 8.9,
+      "lo": 144.9,
+      "hi": 147.1,
+      "z0": 8,
+      "z1": 10.6,
+      "actual_object": "OPEN_S3_F3_D"
+    }
+  ],
+  "lockers": [
+    {
+      "id": "REV_MAIN_W1",
+      "room": "F1_WL",
+      "axis": "X",
+      "bounds": [
+        19.42,
+        1.05,
+        0,
+        22.42,
+        1.69,
+        1.8
+      ],
+      "columns": 10,
+      "rows": 6,
+      "faces": 2,
+      "depth": 0.64,
+      "cavity": [
+        0.288,
+        0.304,
+        0.276
+      ],
+      "front": "open cubby candidate; .004m recessed lip, no sliding panel/handle sweep",
+      "nominal": 120
+    },
+    {
+      "id": "REV_MAIN_E1",
+      "room": "F1_WL",
+      "axis": "X",
+      "bounds": [
+        27.6,
+        1.05,
+        0,
+        28.5,
+        1.69,
+        1.8
+      ],
+      "columns": 3,
+      "rows": 6,
+      "faces": 2,
+      "depth": 0.64,
+      "cavity": [
+        0.288,
+        0.304,
+        0.276
+      ],
+      "front": "open cubby candidate; .004m recessed lip, no sliding panel/handle sweep",
+      "nominal": 36
+    },
+    {
+      "id": "REV_MAIN_W2",
+      "room": "F1_WL",
+      "axis": "X",
+      "bounds": [
+        19.42,
+        4.21,
+        0,
+        22.42,
+        4.85,
+        1.8
+      ],
+      "columns": 10,
+      "rows": 6,
+      "faces": 2,
+      "depth": 0.64,
+      "cavity": [
+        0.288,
+        0.304,
+        0.276
+      ],
+      "front": "open cubby candidate; .004m recessed lip, no sliding panel/handle sweep",
+      "nominal": 120
+    },
+    {
+      "id": "REV_MAIN_E2",
+      "room": "F1_WL",
+      "axis": "X",
+      "bounds": [
+        27.6,
+        4.21,
+        0,
+        28.5,
+        4.85,
+        1.8
+      ],
+      "columns": 3,
+      "rows": 6,
+      "faces": 2,
+      "depth": 0.64,
+      "cavity": [
+        0.288,
+        0.304,
+        0.276
+      ],
+      "front": "open cubby candidate; .004m recessed lip, no sliding panel/handle sweep",
+      "nominal": 36
+    },
+    {
+      "id": "REV_MAIN_W3",
+      "room": "F1_WL",
+      "axis": "X",
+      "bounds": [
+        19.42,
+        7.37,
+        0,
+        22.42,
+        8.01,
+        1.8
+      ],
+      "columns": 10,
+      "rows": 6,
+      "faces": 2,
+      "depth": 0.64,
+      "cavity": [
+        0.288,
+        0.304,
+        0.276
+      ],
+      "front": "open cubby candidate; .004m recessed lip, no sliding panel/handle sweep",
+      "nominal": 120
+    },
+    {
+      "id": "REV_MAIN_E3",
+      "room": "F1_WL",
+      "axis": "X",
+      "bounds": [
+        27.6,
+        7.37,
+        0,
+        28.5,
+        8.01,
+        1.8
+      ],
+      "columns": 3,
+      "rows": 6,
+      "faces": 2,
+      "depth": 0.64,
+      "cavity": [
+        0.288,
+        0.304,
+        0.276
+      ],
+      "front": "open cubby candidate; .004m recessed lip, no sliding panel/handle sweep",
+      "nominal": 36
+    },
+    {
+      "id": "REV_LINK_SINGLE",
+      "room": "F1_LW",
+      "axis": "Y",
+      "bounds": [
+        52.3,
+        15.4,
+        0,
+        52.65,
+        20.2,
+        1.8
+      ],
+      "columns": 16,
+      "rows": 6,
+      "faces": 1,
+      "depth": 0.35,
+      "cavity": [
+        0.288,
+        0.328,
+        0.276
+      ],
+      "front": "open cubby; single bank faces east with west back against wall",
+      "nominal": 96
+    },
+    {
+      "id": "REV_LINK_MID",
+      "room": "F1_LW",
+      "axis": "Y",
+      "bounds": [
+        56.04,
+        15.4,
+        0,
+        56.74,
+        19.6,
+        1.8
+      ],
+      "columns": 14,
+      "rows": 6,
+      "faces": 2,
+      "depth": 0.7,
+      "cavity": [
+        0.288,
+        0.334,
+        0.276
+      ],
+      "front": "open cubby; single bank faces east with west back against wall",
+      "nominal": 168
+    },
+    {
+      "id": "REV_LINK_EAST",
+      "room": "F1_LW",
+      "axis": "Y",
+      "bounds": [
+        59.26,
+        15.4,
+        0,
+        59.96,
+        19.6,
+        1.8
+      ],
+      "columns": 14,
+      "rows": 6,
+      "faces": 2,
+      "depth": 0.7,
+      "cavity": [
+        0.288,
+        0.334,
+        0.276
+      ],
+      "front": "open cubby; single bank faces east with west back against wall",
+      "nominal": 168
+    }
+  ],
+  "stairs": [
+    {
+      "id": "S1",
+      "opening": [
+        31.6,
+        0.9,
+        36.3,
+        6.4
+      ],
+      "clear_run": 2.2,
+      "risers_per_floor": 24,
+      "going": 0.3,
+      "rise": 0.16666666666666666,
+      "mid_depth": 2.2,
+      "headroom_parallel_flight": null,
+      "top_landing_depth": 2.4000000000000004,
+      "headroom_status": "native vertical-ray samples; see STAIR_HEADROOM.json",
+      "headroom_measured_min": 3.736136118570964
+    },
+    {
+      "id": "S2",
+      "opening": [
+        87.6,
+        0.9,
+        92.3,
+        6.4
+      ],
+      "clear_run": 2.2,
+      "risers_per_floor": 24,
+      "going": 0.3,
+      "rise": 0.16666666666666666,
+      "mid_depth": 2.2,
+      "headroom_parallel_flight": null,
+      "top_landing_depth": 2.4000000000000004,
+      "headroom_status": "native vertical-ray samples; see STAIR_HEADROOM.json",
+      "headroom_measured_min": 3.736136118570964
+    },
+    {
+      "id": "S3",
+      "opening": [
+        143.6,
+        0.9,
+        148.3,
+        6.4
+      ],
+      "clear_run": 2.2,
+      "risers_per_floor": 24,
+      "going": 0.3,
+      "rise": 0.16666666666666666,
+      "mid_depth": 2.2,
+      "headroom_parallel_flight": null,
+      "top_landing_depth": 2.4000000000000004,
+      "headroom_status": "native vertical-ray samples; see STAIR_HEADROOM.json",
+      "headroom_measured_min": 3.736136118570964
+    }
+  ],
+  "player_layout": {
+    "desk_x": [
+      42.625,
+      43.575,
+      45.775,
+      46.725,
+      47.675
+    ],
+    "desk_y": [
+      13.47,
+      14.53,
+      16.67,
+      17.73,
+      19.87,
+      20.93
+    ],
+    "pair_pitch": 1.06,
+    "conservative_art_width": 1.039655172413793,
+    "seated_pair_gap": 0.020344827586207037,
+    "occupied_cross_aisle": 1.100344827586207,
+    "scope": "desk_x/desk_y are inherited base grid; use explicit placement table for this room, not Cartesian product",
+    "explicit_desks": [
+      {
+        "id": "F2_W4_DESK_1_1",
+        "x": 42.625,
+        "y": 13.47,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_1_2",
+        "x": 42.625,
+        "y": 14.53,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_1_3",
+        "x": 42.625,
+        "y": 16.67,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_1_4",
+        "x": 42.625,
+        "y": 17.73,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_1_5",
+        "x": 42.625,
+        "y": 19.87,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_1_6",
+        "x": 42.625,
+        "y": 20.93,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_2_1",
+        "x": 43.575,
+        "y": 13.47,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_2_2",
+        "x": 43.575,
+        "y": 14.53,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_2_3",
+        "x": 43.575,
+        "y": 16.67,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_2_4",
+        "x": 43.575,
+        "y": 17.73,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_2_5",
+        "x": 43.575,
+        "y": 19.87,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_2_6",
+        "x": 43.575,
+        "y": 20.93,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_3_1",
+        "x": 45.775,
+        "y": 13.47,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_3_2",
+        "x": 45.775,
+        "y": 14.53,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_3_3",
+        "x": 45.775,
+        "y": 16.67,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_3_4",
+        "x": 45.775,
+        "y": 17.73,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_3_5",
+        "x": 45.775,
+        "y": 19.87,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_3_6",
+        "x": 45.775,
+        "y": 20.93,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_4_1",
+        "x": 46.725,
+        "y": 13.47,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_4_2",
+        "x": 46.725,
+        "y": 14.53,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_4_3",
+        "x": 46.725,
+        "y": 16.67,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_4_4",
+        "x": 46.725,
+        "y": 17.73,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_4_5",
+        "x": 46.725,
+        "y": 19.87,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_4_6",
+        "x": 46.725,
+        "y": 20.93,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_5_1",
+        "x": 47.675,
+        "y": 13.47,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_5_2",
+        "x": 47.675,
+        "y": 14.53,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_5_3",
+        "x": 47.675,
+        "y": 16.67,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_5_4",
+        "x": 47.675,
+        "y": 17.73,
+        "floor": 4,
+        "changed": false
+      },
+      {
+        "id": "F2_W4_DESK_5_5",
+        "x": 47.714999999999996,
+        "y": 19.87,
+        "floor": 4,
+        "changed": true
+      },
+      {
+        "id": "F2_W4_DESK_5_6",
+        "x": 47.675,
+        "y": 20.93,
+        "floor": 4,
+        "changed": false
+      }
+    ],
+    "explicit_chairs": [
+      {
+        "id": "F2_W4_CHAIR_1_1",
+        "x": 43.025,
+        "y": 13.47,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_1_2",
+        "x": 43.025,
+        "y": 14.53,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_1_3",
+        "x": 43.025,
+        "y": 16.67,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_1_4",
+        "x": 43.025,
+        "y": 17.73,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_1_5",
+        "x": 43.025,
+        "y": 19.87,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_1_6",
+        "x": 43.025,
+        "y": 20.93,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_2_1",
+        "x": 43.975,
+        "y": 13.47,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_2_2",
+        "x": 43.975,
+        "y": 14.53,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_2_3",
+        "x": 43.975,
+        "y": 16.67,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_2_4",
+        "x": 43.975,
+        "y": 17.73,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_2_5",
+        "x": 43.975,
+        "y": 19.87,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_2_6",
+        "x": 43.975,
+        "y": 20.93,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_3_1",
+        "x": 46.175,
+        "y": 13.47,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_3_2",
+        "x": 46.175,
+        "y": 14.53,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_3_3",
+        "x": 46.175,
+        "y": 16.67,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_3_4",
+        "x": 46.175,
+        "y": 17.73,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_3_5",
+        "x": 46.175,
+        "y": 19.87,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_3_6",
+        "x": 46.175,
+        "y": 20.93,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_4_1",
+        "x": 47.125,
+        "y": 13.47,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_4_2",
+        "x": 47.125,
+        "y": 14.53,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_4_3",
+        "x": 47.125,
+        "y": 16.67,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_4_4",
+        "x": 47.125,
+        "y": 17.73,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_4_5",
+        "x": 47.125,
+        "y": 19.87,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_4_6",
+        "x": 47.125,
+        "y": 20.93,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_5_1",
+        "x": 48.074999999999996,
+        "y": 13.47,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_5_2",
+        "x": 48.074999999999996,
+        "y": 14.53,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_5_3",
+        "x": 48.074999999999996,
+        "y": 16.67,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_5_4",
+        "x": 48.074999999999996,
+        "y": 17.73,
+        "player": false
+      },
+      {
+        "id": "F2_W4_CHAIR_5_5",
+        "x": 48.275,
+        "y": 19.87,
+        "player": true
+      },
+      {
+        "id": "F2_W4_CHAIR_5_6",
+        "x": 48.074999999999996,
+        "y": 20.93,
+        "player": false
+      }
+    ],
+    "seat_status": "SEATS.csv",
+    "all_seats_validated": false
+  },
+  "stats": {
+    "mesh_objects": 2214,
+    "unique_mesh_sources": 777,
+    "linked_placements": 1437,
+    "source_vertices": 172064,
+    "placed_triangles": 781028,
+    "materials": 14,
+    "new_texture_files": 0,
+    "inherited_textures": "../Textures (48 original files, packed)",
+    "nominal_cells": 900
+  },
+  "uv": {
+    "name": "UV_METRIC_64",
+    "method": "face planar metric tile",
+    "px_m": 64,
+    "tile_px": 256,
+    "tile_m": 4,
+    "overlap": "intentional repeated materials",
+    "comparison32": "same4m UV; direct128px BC/R variants of wall, entry wood and floor"
+  },
+  "revision_layout": "LAYOUT.json",
+  "base_trial_internal_adjustments_historical": [
+    "Player paired column pitch .90 ->1.06; Y13.47,14.53,16.67,17.73,19.87,20.93; original30 seats/room/door/business fixed",
+    "Player actual approach y18.70 ->18.80 and seat y19.625 ->19.870; recovery(45,18.7) remains candidate unchanged",
+    "Shared desk legs y+/-.26 ->+/-.29 within original .65m desktop to clear finite knee proxy",
+    "Main locker double depth .60 -> .66; capacity/room/positions unchanged",
+    "Actual cabinet boards and two-panel vertical sliding front candidate",
+    "All background classrooms use linked 30-seat desk/chair sources",
+    "Sliding door panels park on interior face, not embedded in solid wall; opening widths unchanged",
+    "Main left changing bench shortened .15m to x21.85; right waiting bench moved to x28.15..29.30 to clear parked glass leaves",
+    "Lift shaft south wall corner caps extended into corner thickness; net shaft dimensions unchanged"
+  ],
+  "authorized_internal_adjustments": [
+    "Only F2_W4 desk5_5 X+0.04 and unique chair5_5 X+0.20 with local handle; other23 rooms unchanged",
+    "Nine six-row open-front candidate banks main468/link432; original benches P1_CHANGE_W/P1_WAIT/LINK_CHANGE removed",
+    "P1_PHOTOS unchanged mesh moved +34,+19.65; actual westlink1.4m door unchanged;2.4m check-only proposal"
+  ],
+  "shoe_layout": {
+    "banks": [
+      {
+        "id": "REV_MAIN_W1",
+        "room": "F1_WL",
+        "axis": "X",
+        "bounds": [
+          19.42,
+          1.05,
+          0,
+          22.42,
+          1.69,
+          1.8
+        ],
+        "columns": 10,
+        "rows": 6,
+        "faces": 2,
+        "depth": 0.64,
+        "cavity": [
+          0.288,
+          0.304,
+          0.276
+        ],
+        "front": "open cubby candidate; .004m recessed lip, no sliding panel/handle sweep",
+        "nominal": 120
+      },
+      {
+        "id": "REV_MAIN_E1",
+        "room": "F1_WL",
+        "axis": "X",
+        "bounds": [
+          27.6,
+          1.05,
+          0,
+          28.5,
+          1.69,
+          1.8
+        ],
+        "columns": 3,
+        "rows": 6,
+        "faces": 2,
+        "depth": 0.64,
+        "cavity": [
+          0.288,
+          0.304,
+          0.276
+        ],
+        "front": "open cubby candidate; .004m recessed lip, no sliding panel/handle sweep",
+        "nominal": 36
+      },
+      {
+        "id": "REV_MAIN_W2",
+        "room": "F1_WL",
+        "axis": "X",
+        "bounds": [
+          19.42,
+          4.21,
+          0,
+          22.42,
+          4.85,
+          1.8
+        ],
+        "columns": 10,
+        "rows": 6,
+        "faces": 2,
+        "depth": 0.64,
+        "cavity": [
+          0.288,
+          0.304,
+          0.276
+        ],
+        "front": "open cubby candidate; .004m recessed lip, no sliding panel/handle sweep",
+        "nominal": 120
+      },
+      {
+        "id": "REV_MAIN_E2",
+        "room": "F1_WL",
+        "axis": "X",
+        "bounds": [
+          27.6,
+          4.21,
+          0,
+          28.5,
+          4.85,
+          1.8
+        ],
+        "columns": 3,
+        "rows": 6,
+        "faces": 2,
+        "depth": 0.64,
+        "cavity": [
+          0.288,
+          0.304,
+          0.276
+        ],
+        "front": "open cubby candidate; .004m recessed lip, no sliding panel/handle sweep",
+        "nominal": 36
+      },
+      {
+        "id": "REV_MAIN_W3",
+        "room": "F1_WL",
+        "axis": "X",
+        "bounds": [
+          19.42,
+          7.37,
+          0,
+          22.42,
+          8.01,
+          1.8
+        ],
+        "columns": 10,
+        "rows": 6,
+        "faces": 2,
+        "depth": 0.64,
+        "cavity": [
+          0.288,
+          0.304,
+          0.276
+        ],
+        "front": "open cubby candidate; .004m recessed lip, no sliding panel/handle sweep",
+        "nominal": 120
+      },
+      {
+        "id": "REV_MAIN_E3",
+        "room": "F1_WL",
+        "axis": "X",
+        "bounds": [
+          27.6,
+          7.37,
+          0,
+          28.5,
+          8.01,
+          1.8
+        ],
+        "columns": 3,
+        "rows": 6,
+        "faces": 2,
+        "depth": 0.64,
+        "cavity": [
+          0.288,
+          0.304,
+          0.276
+        ],
+        "front": "open cubby candidate; .004m recessed lip, no sliding panel/handle sweep",
+        "nominal": 36
+      },
+      {
+        "id": "REV_LINK_SINGLE",
+        "room": "F1_LW",
+        "axis": "Y",
+        "bounds": [
+          52.3,
+          15.4,
+          0,
+          52.65,
+          20.2,
+          1.8
+        ],
+        "columns": 16,
+        "rows": 6,
+        "faces": 1,
+        "depth": 0.35,
+        "cavity": [
+          0.288,
+          0.328,
+          0.276
+        ],
+        "front": "open cubby; single bank faces east with west back against wall",
+        "nominal": 96
+      },
+      {
+        "id": "REV_LINK_MID",
+        "room": "F1_LW",
+        "axis": "Y",
+        "bounds": [
+          56.04,
+          15.4,
+          0,
+          56.74,
+          19.6,
+          1.8
+        ],
+        "columns": 14,
+        "rows": 6,
+        "faces": 2,
+        "depth": 0.7,
+        "cavity": [
+          0.288,
+          0.334,
+          0.276
+        ],
+        "front": "open cubby; single bank faces east with west back against wall",
+        "nominal": 168
+      },
+      {
+        "id": "REV_LINK_EAST",
+        "room": "F1_LW",
+        "axis": "Y",
+        "bounds": [
+          59.26,
+          15.4,
+          0,
+          59.96,
+          19.6,
+          1.8
+        ],
+        "columns": 14,
+        "rows": 6,
+        "faces": 2,
+        "depth": 0.7,
+        "cavity": [
+          0.288,
+          0.334,
+          0.276
+        ],
+        "front": "open cubby; single bank faces east with west back against wall",
+        "nominal": 168
+      }
+    ],
+    "nominal": 900,
+    "main": 468,
+    "link": 432,
+    "net_face_gap": 2.52,
+    "operating_depth": 0.7,
+    "public_width": 1.12,
+    "main_end_bypass": 1.12,
+    "link_end_space": 2.4,
+    "main_spine": [
+      23.6,
+      0.35,
+      26.4,
+      8.72
+    ],
+    "queues": [
+      {
+        "room": "F1_LW",
+        "center": [
+          62.9,
+          14.55
+        ],
+        "bounds": [
+          62.380172413793105,
+          14.21,
+          63.41982758620689,
+          14.89
+        ]
+      },
+      {
+        "room": "F1_LW",
+        "center": [
+          62.9,
+          15.65
+        ],
+        "bounds": [
+          62.380172413793105,
+          15.31,
+          63.41982758620689,
+          15.99
+        ]
+      },
+      {
+        "room": "F1_LW",
+        "center": [
+          62.9,
+          16.75
+        ],
+        "bounds": [
+          62.380172413793105,
+          16.41,
+          63.41982758620689,
+          17.09
+        ]
+      },
+      {
+        "room": "F1_LW",
+        "center": [
+          62.9,
+          17.85
+        ],
+        "bounds": [
+          62.380172413793105,
+          17.51,
+          63.41982758620689,
+          18.19
+        ]
+      },
+      {
+        "room": "F1_LW",
+        "center": [
+          62.9,
+          18.95
+        ],
+        "bounds": [
+          62.380172413793105,
+          18.61,
+          63.41982758620689,
+          19.29
+        ]
+      },
+      {
+        "room": "F1_LW",
+        "center": [
+          62.9,
+          20.05
+        ],
+        "bounds": [
+          62.380172413793105,
+          19.71,
+          63.41982758620689,
+          20.39
+        ]
+      }
+    ],
+    "main_in_path": [
+      [
+        24.15,
+        0
+      ],
+      [
+        24.15,
+        2.95
+      ],
+      [
+        18.86,
+        2.95
+      ],
+      [
+        18.86,
+        6.11
+      ],
+      [
+        24.15,
+        6.11
+      ],
+      [
+        24.15,
+        8.8
+      ]
+    ],
+    "main_out_path": [
+      [
+        25.85,
+        8.8
+      ],
+      [
+        25.85,
+        6.11
+      ],
+      [
+        29.135,
+        6.11
+      ],
+      [
+        29.135,
+        2.95
+      ],
+      [
+        25.85,
+        2.95
+      ],
+      [
+        25.85,
+        0
+      ]
+    ],
+    "link_in_path": [
+      [
+        58,
+        13
+      ],
+      [
+        58,
+        21.1
+      ],
+      [
+        61.6,
+        21.1
+      ],
+      [
+        61.6,
+        13.6
+      ],
+      [
+        58,
+        13.6
+      ],
+      [
+        58,
+        13
+      ]
+    ],
+    "link_proposed_in": [
+      [
+        57.4,
+        13
+      ],
+      [
+        57.4,
+        14.7
+      ],
+      [
+        58,
+        15.1
+      ],
+      [
+        58,
+        21.1
+      ]
+    ],
+    "link_proposed_out": [
+      [
+        61.6,
+        21.1
+      ],
+      [
+        61.6,
+        13.6
+      ],
+      [
+        58.6,
+        13.6
+      ],
+      [
+        58.6,
+        13
+      ]
+    ],
+    "face_hardware_projection": 0,
+    "standing_operation_assumption": [
+      1.039655172413793,
+      0.7,
+      1.8
+    ],
+    "original_door_conflict": {
+      "id": "F1_LW_D",
+      "center": [
+        58,
+        13
+      ],
+      "width": 1.4,
+      "two_visible_width": 2.079310344827586,
+      "deficit": 0.6793103448275861,
+      "result": "受阻：原1.4m内门不能让两个原人物正面包络同时通过；未改该门，不用错时通过",
+      "single_recommended_trade": "请规划将同中心西连接内部廊口净宽1.4→2.4m；不减900/扩房/移外门。本轮保留原门，暂停该接口精作。"
+    },
+    "upper_use": {
+      "shoe": [
+        0.29,
+        0.105,
+        0.115
+      ],
+      "pair_width": 0.235,
+      "hand_assumption": [
+        0.08,
+        0.18,
+        0.025
+      ],
+      "open_height": 0.276,
+      "rows": 6,
+      "top_row_bottom": 1.5,
+      "static_combined_height": 0.15,
+      "scope": "single shoe with hand envelope; no real grasp/force/high-peak certification"
+    },
+    "correction": {
+      "old_main_length": 18,
+      "old_depth": 0.6,
+      "trial_depth": 0.66,
+      "old_main_area": 10.8,
+      "trial_main_area": 11.88,
+      "added_area": 1.08,
+      "wrong_old_report": 0.54
+    },
+    "new_area": {
+      "main": 7.4879999999999995,
+      "link": 7.56,
+      "total": 15.047999999999998,
+      "old_trial_total": 18.18,
+      "delta_from_old_trial": -3.1320000000000014
+    }
+  },
+  "texture_root": "../Textures",
+  "revision_dependencies": "VIEW_DEPENDENCIES.json"
+}

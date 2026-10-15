@@ -1,0 +1,33 @@
+{
+  "points": [
+    {
+      "id": "business",
+      "point": [
+        45,
+        19.5,
+        4
+      ],
+      "point_to_furniture_xy_m": 0.5518378384996783,
+      "scope": "point-to-footprint distance only;230cm game interaction radius and actual recovery logic unchanged/unverified"
+    },
+    {
+      "id": "recovery_candidate",
+      "point": [
+        45,
+        18.7,
+        4
+      ],
+      "point_to_furniture_xy_m": 0.847658539743449,
+      "scope": "point-to-footprint distance only;230cm game interaction radius and actual recovery logic unchanged/unverified"
+    }
+  ],
+  "original_class_door": [
+    45,
+    12.7,
+    4
+  ],
+  "business_radius_engineering_cm_unchanged": 230,
+  "source_unchanged_objects": 2202,
+  "actual_link_door_width_m": 1.4,
+  "proposal_only": 2.4
+}
