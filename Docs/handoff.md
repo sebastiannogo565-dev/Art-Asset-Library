@@ -1,3 +1,9 @@
+# C01整栋试作01同步实绩 · 2026-10-15
+
+成果提交[ee790de920af33c48211504ae8a710f0434bc7e3](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/ee790de920af33c48211504ae8a710f0434bc7e3)已普通推送origin/main，远端完整哈希匹配。108相关文件＝101试作包文件＋7交接/索引；LFS实际上传2/2，Blend 5123563字节、FBX 17968524字节，共23092087字节。PNG沿用普通Git，推送后LFS dry-run空/退出0。已跟踪工作区干净，仅原3无关脚本未跟踪，未夹带；规划聊天idle/原轮completed、HEAD与远端起点e44cfe9一致、空索引/无锁已核，无并行Git或强推。
+
+100项回件manifest与暂存内容逐一核对，LFS指针OID/大小对应实际源与导出；219只读输入SHA保持。最终源零面积面0、非流形0，真实FBX回导2224对象及分组/UV/材质一致，原三入口实体射线净3m。指定主路1.10m、业务0.55184/恢复候选0.84766m、三梯头顶采样最小3.736m及1272室内胶囊站点记录可查。完整入座/全席、鞋柜双面/交叉/队列与游戏内验证仍未通过；详见[规划回件](AssetPlanning/BuildingProduction/C01/trial-01-handoff.md)。本同步实绩另作正常收尾提交，最终HEAD以最终报告为准；停审，不接UE或下一阶段。
+
 # C01整栋Blender试作01实际回件 · 2026-10-15
 
 [试作包](../ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/README.md) / [三类验收](../ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/review.md)。已按用户转交整栋卡重建真实网格、实际UV/临时纹理、自然光、FBX并真实回导；2224建筑对象、786网格源，原参考不改名。指定主路/业务净区通过静态核；完整入座/并排坐姿、鞋柜双面/交叉/队列未通过。主柜0.60→0.66m仅组内候选，900名义格保持。
