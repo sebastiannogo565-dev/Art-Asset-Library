@@ -1,3 +1,11 @@
+# 当前交接：C01原卡局部修订02供用户转交 · 2026-10-16
+
+入口：[SL_BLD_C01_MAIN_01_TRIAL_01顶部02](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_TRIAL_01.md)。同中心内门净2.4×2.6已接受，需实际改洞/框/扇与接近；900目标六层候选下补坐面/换鞋闭环，冲突报一推荐；5_5保19阶段研究，优先原业务附近候选，不绑定最终玩家席。
+
+注意[代码证据](AssetPlanning/BuildingProduction/C01/activity-distance-code-evidence.json)：预览查找/Enter分别Actor—地点Actor三维230cm；表分脚下G/Actor P、E/椅/接近与实际操作，统一UE世界cm。历史灰盒锚点Z8m≠正式二层规划候选Z12m，未回读现用地图，不能以候选Z12代替现锚点宣布工程通过。P/E需可达且分别验d/余量，不要求19阶段全程在圈或增入座启动条件；不抬工程锚点/放半径/默认传送。
+
+原1.08㎡及900复算保留，新布局另算；只重验受布局影响部分并局部更新，整栋外观/分层/UV材色不重做。当前仅交卡，不执行模型/UE/转发消息，原包与RT01/B01/SchoolLife/人物保持，回件再审。
+
 # 当前交接：C01试作局部修订01已审，等待用户判断 · 2026-10-16
 
 入口：[review-C01-trial-revision-01](AssetPlanning/BuildingProduction/review-C01-trial-revision-01.md)。推荐三项：西连接内门同中心1.4→2.4m，待确认不改实际门；六层开放格保候选但恢复必要换鞋坐面/流程；19阶段保尺寸假设研究，5_5暂不最终绑定，优先解决其与原业务半径兼容（椅约3.296m、接近约3.311m，对记录2.30m）。不增半径、不改工程点或默认自动搬座。

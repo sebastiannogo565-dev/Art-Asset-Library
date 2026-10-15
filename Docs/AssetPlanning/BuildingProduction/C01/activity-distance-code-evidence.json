@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-16",
+  "scope": "Read-only code inspection; no compile,PIE,UE,source or map writes",
+  "sources": [
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldSubsystem.cpp",
+      "sha256": "edc864605ca12c1d8fd29529ff9229def91717d6c9719d4eb37abf526510c169",
+      "lines": [
+        {
+          "line": 72,
+          "text": "FName USchoolLifeWorldSubsystem::FindNearbyActivityPlace(const ASchoolLifeCharacter* Player) const"
+        },
+        {
+          "line": 80,
+          "text": "        const float DistanceSquared = FVector::DistSquared(Player->GetActorLocation(), Pair.Value->GetActorLocation());"
+        },
+        {
+          "line": 88,
+          "text": "    const FName PlaceId = FindNearbyActivityPlace(Player);"
+        },
+        {
+          "line": 119,
+          "text": "bool USchoolLifeWorldSubsystem::ResolvePlace(FName PlaceId, FVector& Position) const"
+        },
+        {
+          "line": 123,
+          "text": "    Position = Anchor->Get()->GetActorLocation();"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldActivityConfirmation.cpp",
+      "sha256": "a4ecc30b3db42984edcb604074f94beefc52f2e21361698dd7bba54593499da8",
+      "lines": [
+        {
+          "line": 88,
+          "text": "bool USchoolLifeWorldSubsystem::TryNearbyPlayerActivity(ASchoolLifeCharacter* Player)"
+        },
+        {
+          "line": 94,
+          "text": "    const auto Offer = GetNearbyActivityOffer(Player);"
+        },
+        {
+          "line": 182,
+          "text": "bool USchoolLifeWorldSubsystem::ConfirmPlayerActivity(ASchoolLifeCharacter* Player)"
+        },
+        {
+          "line": 191,
+          "text": "        && FVector::DistSquared(Player->GetActorLocation(), Anchor) <= FMath::Square(ActivityInteractionDistance);"
+        },
+        {
+          "line": 193,
+          "text": "    const FGuid Id = ConfirmationPlayerId;"
+        },
+        {
+          "line": 203,
+          "text": "    }"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldSubsystem.h",
+      "sha256": "055ac197fef66a23414d0c4aabf2a8b04ba2592c58892b9ecad5588df61239b5",
+      "lines": [
+        {
+          "line": 40,
+          "text": "    static constexpr float ActivityInteractionDistance = 230.0f;"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeCharacter.cpp",
+      "sha256": "bd4614257acac5db08653cd586747ded238d7f5dd3e038863d9ff4bc8eebd9df",
+      "lines": [
+        {
+          "line": 24,
+          "text": "    GetCapsuleComponent()->InitCapsuleSize(34.0f, 96.0f);"
+        },
+        {
+          "line": 26,
+          "text": "    bUseControllerRotationYaw = false;"
+        },
+        {
+          "line": 236,
+          "text": "void ASchoolLifeCharacter::ConfirmActivity()"
+        },
+        {
+          "line": 238,
+          "text": "    GetWorld()->GetSubsystem<USchoolLifeWorldSubsystem>()->ConfirmPlayerActivity(this);"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifePlaceAnchor.cpp",
+      "sha256": "be311da318cef2ebeb61dc9d1cd1ca4a131d6eed36dcd40cb5330476e2038a5d",
+      "lines": [
+        {
+          "line": 9,
+          "text": "    RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT(\"PlacePosition\"));"
+        },
+        {
+          "line": 14,
+          "text": "    Marker->SetRelativeLocation(FVector(0, 0, 2));"
+        },
+        {
+          "line": 20,
+          "text": "    Label->SetRelativeLocation(FVector(0, 0, 180));"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldRegionTravel.cpp",
+      "sha256": "2800bde65c88139f4ac0ba58662d11c83fa2f8e83cd0895a9aed4817b6f2443a",
+      "lines": [
+        {
+          "line": 84,
+          "text": "bool USchoolLifeWorldSubsystem::CheckRegionStand(ASchoolLifeCharacter* Player,const FVector& Ground,FVector& Position) const"
+        },
+        {
+          "line": 91,
+          "text": "    const auto* C=Player->GetCapsuleComponent();Position=Hit.ImpactPoint+FVector(0,0,C->GetScaledCapsuleHalfHeight()+2);"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/LifeCoreBlockout/Step2/ActorRecipe.json",
+      "sha256": "68225f5fd79bb471495b176ed50b7be518ffde19af9b442bf92158bf9b77f146",
+      "scope": "Historical geometry evidence only; not current running map transform"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/LifeCoreBlockout-Phase4A-Step1-Plan.md",
+      "sha256": "9105635f3d7ddc9a1e11a6c9eb9e34ed9857a2a82842601c23e765670202b823",
+      "scope": "Historical geometry evidence only; not current running map transform"
+    }
+  ],
+  "verified_logic": {
+    "lookup": "FindNearbyActivityPlace uses FVector::DistSquared(Player->GetActorLocation(), PlaceAnchor->GetActorLocation()) <=230^2 and chooses nearest within range",
+    "preview": "GetNearbyActivityOffer -> FindNearbyActivityPlace; TryNearbyPlayerActivity stages returned activity confirmation",
+    "confirm": "ConfirmPlayerActivity resolves selected PlaceId anchor again, repeats Actor-to-Anchor 3D <=230^2, then rechecks eligibility",
+    "anchor": "ResolvePlace returns PlaceAnchor actor/root location, not label+180 or marker+2",
+    "units": "Engine centimetres, include Z; d=sqrt(dx^2+dy^2+dz^2), margin_cm=230-d_cm",
+    "default_capsule_cm": {
+      "radius": 34,
+      "half_height": 96
+    },
+    "default_offset_scope": "96cm is constructor default, not a current runtime transform. Landing helper adds scaled half-height+2cm for region placement; not universal per-frame actor height."
+  },
+  "coordinate_conflict": {
+    "historical_recipe_classroom_anchor_engineering_cm": [
+      4500,
+      7050,
+      800
+    ],
+    "formal_C01_candidate_anchor_local_m": [
+      45,
+      19.5,
+      4
+    ],
+    "formal_mapping_engineering_cm": [
+      4500,
+      7050,
+      1200
+    ],
+    "current_runtime_anchor": "NOT read back; do not silently substitute the formal candidate or historical placement as current verified transform"
+  },
+  "illustrative_only": {
+    "assumptions": "Actor .96m above FL4, formal candidate anchor at FL4; no runtime measurement",
+    "R_m": 2.3,
+    "deltaZ_m": 0.96,
+    "max_horizontal_m": 2.0900717691026784,
+    "old_5_5_approach_xy_distance_m": 3.3107400985278193,
+    "old_5_5_actor_3D_distance_m": 3.4471147355433347,
+    "historical_anchor8_vs_formal_floor12_min_dz_m": 4.96,
+    "historical_to_formal_height_example": "If anchor stays engineering8m and feet are12m, Actor centre~12.96 makes |dz|4.96>2.30; spatial layout alone cannot solve under those assumptions. Not a claim about active map."
+  },
+  "task_boundary": "Only preview and Enter operation locations require current proximity checks; no requirement for whole19-stage seating path to remain in radius, no sitting prerequisite, no teleport/radius/anchor change"
+}

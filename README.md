@@ -1,3 +1,7 @@
+# 当前：C01原整栋卡局部修订02已发布 · 2026-10-16
+
+[原卡](Docs/AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_TRIAL_01.md)／[代码只读证据](Docs/AssetPlanning/BuildingProduction/C01/activity-distance-code-evidence.json)。已确认同中心2.4×2.6内门；保900/六层候选并补坐面闭环；5_5保研究，优先原业务附近操作点，预览/Enter按Actor—Anchor三维230cm分别验。地面/Actor/椅/操作点和历史灰盒Z8/正式规划Z12区分，不改工程锚点。仅发要求供用户转交，未制作或UE，B01等不变。
+
 # 当前：C01试作局部修订01已回审，停用户判断 · 2026-10-16
 
 [针对性回审](Docs/AssetPlanning/BuildingProduction/review-C01-trial-revision-01.md)：保19阶段尺寸假设研究和900格重分配/面积纠错，整栋仍不最终通过。推荐西连接内门同中心2.4m，六层开放格仅候选且需补换鞋坐面；新5_5席/接近距原业务约3.30m超记录2.30m半径，暂不最终绑定。只审阅记录，未批准扩门/改模型/发新卡或UE，B01等不变。
