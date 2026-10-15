@@ -1,0 +1,704 @@
+{
+  "date": "2026-10-15",
+  "scope": "Planning-window read-only deliverable/JSON/PNG/arithmetic audit; native Blend reopen and FBX reimport not repeated here",
+  "manifest_files_verified": 100,
+  "original_readonly_inputs_verified": 219,
+  "control": [
+    0,
+    0,
+    150,
+    28
+  ],
+  "body_footprint_m2": 3016,
+  "room_class_count": 24,
+  "entrances": [
+    {
+      "id": "C01_MAIN",
+      "local": [
+        25,
+        0
+      ],
+      "world": [
+        2215.909090909091,
+        1969.181818181818
+      ],
+      "width": 3,
+      "height": 3.2
+    },
+    {
+      "id": "C01_N",
+      "local": [
+        90,
+        28
+      ],
+      "world": [
+        2280.909090909091,
+        1997.181818181818
+      ],
+      "width": 3,
+      "height": 3
+    },
+    {
+      "id": "C01_E",
+      "local": [
+        150,
+        14
+      ],
+      "world": [
+        2340.909090909091,
+        1983.181818181818
+      ],
+      "width": 3,
+      "height": 3
+    }
+  ],
+  "unchanged_business": [
+    45,
+    19.5
+  ],
+  "unchanged_recovery": [
+    45,
+    18.7,
+    4
+  ],
+  "candidate_furniture": {
+    "pair_pitch_m": 1.06,
+    "conservative_visible_width_margin_m": 0.020344827586207037,
+    "player_seat": [
+      46.175,
+      19.87,
+      4.43
+    ],
+    "standing": [
+      46.425,
+      18.8,
+      4
+    ],
+    "not_approved_for_production": true
+  },
+  "shoe_arithmetic": {
+    "nominal": 900,
+    "main_total_depth_candidate": 0.66,
+    "extra_footprint_m2": 1.080000000000001,
+    "producer_reported_extra_footprint_m2": 0.54,
+    "added_area_report_consistent": false,
+    "cavity_depth_m": 0.304,
+    "shoe_assumption_m": 0.29,
+    "depth_allowance_m": 0.01,
+    "remaining_depth_m": 0.004000000000000012,
+    "aisle_m": 1.94,
+    "one_active_free_m": 1.24,
+    "two_active_free_m": 0.54,
+    "extra_per_gap_for_two_active_and_1_10_m": 0.56,
+    "two_gaps_total_extra_m": 1.12,
+    "operations_not_passed": true
+  },
+  "reported_mesh_evidence": {
+    "mesh_objects": 2224,
+    "unique_sources": 786,
+    "linked_extra": 1438,
+    "source_triangles": 456716,
+    "placed_triangles": 896744,
+    "materials": 14,
+    "object_count_arithmetic": true,
+    "bbox": [
+      [
+        0,
+        0,
+        -0.25
+      ],
+      [
+        150,
+        28,
+        13.680000305175781
+      ]
+    ],
+    "source_zero_area_faces": 0,
+    "nonmanifold_source_meshes": 0,
+    "FBX_bbox_error_m": 0.0000133514404296875,
+    "headroom_min_m": 3.736136118570964,
+    "note": "Values above are producer reports checked for consistency; no new mesh-level measurement in this chat"
+  },
+  "reported_high_frequency": {
+    "player_states": [
+      {
+        "chairs": "rest",
+        "main_route_center_clearance": 0.5500030517578125,
+        "full_width": 1.100006103515625,
+        "main_width_1_10_pass": true,
+        "business_distance": 0.5518408863154015,
+        "business_055_pass": true,
+        "recovery_distance": 0.8476602876543418
+      },
+      {
+        "chairs": "pulled .25m",
+        "main_route_center_clearance": 0.5500030517578125,
+        "full_width": 1.100006103515625,
+        "main_width_1_10_pass": true,
+        "business_distance": 0.5518408863154015,
+        "business_055_pass": true,
+        "recovery_distance": 0.8476602876543418
+      }
+    ],
+    "shoe": {
+      "nominal": 900,
+      "main": 600,
+      "link": 300,
+      "shoe_assumption": {
+        "length": 0.29,
+        "width": 0.105,
+        "height": 0.115,
+        "pair_width": 0.235,
+        "depth_allowance": 0.01
+      },
+      "previous_gross": 0.6,
+      "previous_effective_depth": 0.27399999999999997,
+      "new_gross": 0.66,
+      "new_effective_depth": 0.304,
+      "min_cavity_width": 0.288,
+      "min_cavity_height": 0.263,
+      "door_open_height": 0.138,
+      "depth_margin": 0.004,
+      "aisle": 1.94,
+      "one_operation_strip": 0.7,
+      "one_active_free": 1.24,
+      "two_active_free": 0.54,
+      "two_active_pass": false,
+      "top_row_bottom": 1.2,
+      "top_row_reach": "door handle1.328m; reach/actual shoe handling not validated",
+      "closed_front_track_in_cabinet": true,
+      "hardware": "candidate half-height vertical lift; no tested fastener/tool tolerances"
+    },
+    "limits": [
+      {
+        "id": "SEAT_TRANSITION",
+        "status": "NOT_PASSED",
+        "detail": "Own chair occupies endpoint. Static lateral sit candidate only; continuous body/joint motion and full-size seated character art unavailable. Standing capsule cannot be swept through chair."
+      },
+      {
+        "id": "PAIRED_OCCUPANTS",
+        "status": "STATIC_ENVELOPE_CANDIDATE",
+        "detail": "Trial-only pair pitch1.06m vs conservative unchanged art width1.039655m: no static shoulder overlap, only .020345m pair margin. Occupied inter-pair aisle1.100345m. Sitting/motion not approved.",
+        "gap": 0.020344827586207
+      },
+      {
+        "id": "LOCKER_TWO_ACTIVE",
+        "status": "NOT_PASSED",
+        "detail": "Two .70m operating envelopes leave .54m, below .68m capsule and1.039655m art width."
+      },
+      {
+        "id": "FRONT_CROSSING",
+        "status": "NOT_PASSED",
+        "detail": "Arrival and departure paths cross near y1.375; simultaneous finite envelopes collide."
+      },
+      {
+        "id": "UPPER_BANK_QUEUE",
+        "status": "NOT_PASSED",
+        "detail": "Queue at22.9/6.2 and22.9/7.9 consumes1.2m cabinet-end branch; .68m capsule leaves.52m, character1.039655 leaves.160345m."
+      },
+      {
+        "id": "RT01",
+        "status": "NOT_OPEN",
+        "detail": "Original588m2 retained only as metadata. No support, door, access route or export geometry created."
+      },
+      {
+        "id": "TERRACE",
+        "status": "CANDIDATE",
+        "detail": "Geometry finish8.03/guard9.23 synchronized. Waterproofing, slope, real drainage, anchoring not certified."
+      }
+    ],
+    "stairs": [
+      {
+        "id": "S1",
+        "opening": [
+          31.6,
+          0.9,
+          36.3,
+          6.4
+        ],
+        "clear_run": 2.2,
+        "risers_per_floor": 24,
+        "going": 0.3,
+        "rise": 0.16666666666666666,
+        "mid_depth": 2.2,
+        "headroom_parallel_flight": null,
+        "top_landing_depth": 2.4000000000000004,
+        "headroom_status": "native vertical-ray samples; see STAIR_HEADROOM.json",
+        "headroom_measured_min": 3.736136118570964
+      },
+      {
+        "id": "S2",
+        "opening": [
+          87.6,
+          0.9,
+          92.3,
+          6.4
+        ],
+        "clear_run": 2.2,
+        "risers_per_floor": 24,
+        "going": 0.3,
+        "rise": 0.16666666666666666,
+        "mid_depth": 2.2,
+        "headroom_parallel_flight": null,
+        "top_landing_depth": 2.4000000000000004,
+        "headroom_status": "native vertical-ray samples; see STAIR_HEADROOM.json",
+        "headroom_measured_min": 3.736136118570964
+      },
+      {
+        "id": "S3",
+        "opening": [
+          143.6,
+          0.9,
+          148.3,
+          6.4
+        ],
+        "clear_run": 2.2,
+        "risers_per_floor": 24,
+        "going": 0.3,
+        "rise": 0.16666666666666666,
+        "mid_depth": 2.2,
+        "headroom_parallel_flight": null,
+        "top_landing_depth": 2.4000000000000004,
+        "headroom_status": "native vertical-ray samples; see STAIR_HEADROOM.json",
+        "headroom_measured_min": 3.736136118570964
+      }
+    ],
+    "scope": "finite static geometry/analytic; no navigation or gameplay",
+    "baseline_tolerance_m": 0.000002
+  },
+  "actual_png_files": [
+    {
+      "path": "Textures/BAND_REV_BC.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/BAND_REV_M.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/BAND_REV_R.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/BOARD_BC.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/BOARD_M.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/BOARD_R.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/CHAIR_BC.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/CHAIR_M.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/CHAIR_R.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/ENTRY_FRAME_BC.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/ENTRY_FRAME_M.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/ENTRY_FRAME_R.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/ENTRY_WOOD_32_BC.png",
+      "width": 128,
+      "height": 128,
+      "alpha": false
+    },
+    {
+      "path": "Textures/ENTRY_WOOD_32_R.png",
+      "width": 128,
+      "height": 128,
+      "alpha": false
+    },
+    {
+      "path": "Textures/ENTRY_WOOD_BC.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/ENTRY_WOOD_M.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/ENTRY_WOOD_R.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/FLOOR_32_BC.png",
+      "width": 128,
+      "height": 128,
+      "alpha": false
+    },
+    {
+      "path": "Textures/FLOOR_32_R.png",
+      "width": 128,
+      "height": 128,
+      "alpha": false
+    },
+    {
+      "path": "Textures/FLOOR_BC.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/FLOOR_M.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/FLOOR_R.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/FRAME_BC.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/FRAME_M.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/FRAME_R.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/GLASS_BC.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/GLASS_M.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/GLASS_R.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/METAL_BC.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/METAL_M.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/METAL_R.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/RAIL_BC.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/RAIL_M.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/RAIL_R.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/ROOF_BC.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/ROOF_M.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/ROOF_R.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/SKYLIGHT_BC.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/SKYLIGHT_M.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/SKYLIGHT_R.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/WALL_32_BC.png",
+      "width": 128,
+      "height": 128,
+      "alpha": false
+    },
+    {
+      "path": "Textures/WALL_32_R.png",
+      "width": 128,
+      "height": 128,
+      "alpha": false
+    },
+    {
+      "path": "Textures/WALL_BC.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/WALL_M.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/WALL_R.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/WOOD_BC.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/WOOD_M.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Textures/WOOD_R.png",
+      "width": 256,
+      "height": 256,
+      "alpha": false
+    },
+    {
+      "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_A.png",
+      "width": 2560,
+      "height": 1440,
+      "alpha": false
+    },
+    {
+      "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_B.png",
+      "width": 2560,
+      "height": 1440,
+      "alpha": false
+    },
+    {
+      "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_CLASS_PULLED.png",
+      "width": 2560,
+      "height": 1440,
+      "alpha": false
+    },
+    {
+      "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_CLASS_REST.png",
+      "width": 2560,
+      "height": 1440,
+      "alpha": false
+    },
+    {
+      "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_COURT_TERRACE.png",
+      "width": 2560,
+      "height": 1440,
+      "alpha": false
+    },
+    {
+      "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_DENSITY_32.png",
+      "width": 1600,
+      "height": 1200,
+      "alpha": false
+    },
+    {
+      "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_DENSITY_64.png",
+      "width": 1600,
+      "height": 1200,
+      "alpha": false
+    },
+    {
+      "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_ENTRY.png",
+      "width": 2560,
+      "height": 1440,
+      "alpha": false
+    },
+    {
+      "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_F02.png",
+      "width": 2560,
+      "height": 1440,
+      "alpha": false
+    },
+    {
+      "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_FINITE_CLASS.png",
+      "width": 2560,
+      "height": 1440,
+      "alpha": false
+    },
+    {
+      "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_FINITE_SHOE_FAIL.png",
+      "width": 2560,
+      "height": 1440,
+      "alpha": false
+    },
+    {
+      "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_LAYERS.png",
+      "width": 2560,
+      "height": 1440,
+      "alpha": false
+    },
+    {
+      "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_ROOF.png",
+      "width": 2560,
+      "height": 1440,
+      "alpha": false
+    },
+    {
+      "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_SHOES_ONE_SIDE.png",
+      "width": 2560,
+      "height": 1440,
+      "alpha": false
+    },
+    {
+      "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_SHOES_TWO_SIDE_FAIL.png",
+      "width": 2560,
+      "height": 1440,
+      "alpha": false
+    },
+    {
+      "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_SHOE_CELL.png",
+      "width": 1600,
+      "height": 1200,
+      "alpha": false
+    },
+    {
+      "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_STAIR.png",
+      "width": 2560,
+      "height": 1440,
+      "alpha": false
+    },
+    {
+      "path": "Boards/01_OVERVIEW.png",
+      "width": 3200,
+      "height": 2400,
+      "alpha": false
+    },
+    {
+      "path": "Boards/02_CLASSROOM.png",
+      "width": 3200,
+      "height": 2400,
+      "alpha": false
+    },
+    {
+      "path": "Boards/03_SHOES.png",
+      "width": 3200,
+      "height": 2400,
+      "alpha": false
+    },
+    {
+      "path": "Boards/04_LAYERS_STAIR.png",
+      "width": 3200,
+      "height": 2400,
+      "alpha": false
+    },
+    {
+      "path": "Boards/05_UV_TEXTURE.png",
+      "width": 3200,
+      "height": 2400,
+      "alpha": false
+    }
+  ],
+  "png_counts": {
+    "textures": 48,
+    "previews": 17,
+    "boards": 5
+  },
+  "not_validated": [
+    "complete seating movement",
+    "all seats",
+    "locker simultaneous use/crossing/queues",
+    "game nav/restore/interaction/camera/performance",
+    "drainage/structure",
+    "final art acceptance"
+  ]
+}
