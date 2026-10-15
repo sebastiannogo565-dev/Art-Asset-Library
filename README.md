@@ -1,3 +1,7 @@
+# 当前：C01 Trial01成果部分接受，原卡局部修订01已发布 · 2026-10-15
+
+[确认记录](Docs/AssetPlanning/BuildingProduction/review-C01-trial-01.md)／[原整栋试作卡当前修订段](Docs/AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_TRIAL_01.md)。保留外观/分层/UV/临时材色，整栋不最终通过；下一批仅教室连续姿态/逐席状态、900目标下双侧柜前与公共路重排、1.08㎡统计纠错。只记录发布供用户转交，未验证布局/改模型或UE，B01等保护对象保持。
+
 # 当前：C01整栋试作01已审，停用户判断 · 2026-10-15
 
 [规划审阅](Docs/AssetPlanning/BuildingProduction/review-C01-trial-01.md)：整栋外观/分层/实际UV与临时材色建议保留，教室完整入座、鞋柜双面/交叉/队列未通过，不判整栋最终通过。独立复算主柜加深新增占地应1.08㎡，原回件0.54㎡需更正。新席/站位/1.06成对距及0.66柜深仍候选，下一轮建议保30席/900目标作局部空间修订，待用户确认，不自动发布执行卡/改模型/UE；B01不变。
