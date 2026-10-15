@@ -1,3 +1,15 @@
+# C01接口只读核查结果 · 2026-10-16
+
+完成工程规则/四交接、原回审、现有源码、历史Recipe/NativeEvidence与正式C01候选的分源核对；[报告](AssetPlanning/BuildingProduction/C01/interface-readonly-01.md)／[证据](AssetPlanning/BuildingProduction/C01/interface-readonly-evidence-01.json)。当前工具清单无原生unreal-mcp，地图/PIE/Actor/脏资产未取得，未启动编辑器或PIE；主机两次辅助查询无匹配进程。4m差有旧灰盒未建二层的明确资料来源，但现用锚点仍未确认。现有F3回Home不等于C01恢复候选。
+
+SchoolLife master/98e3db849cee744763dc2d760154c45b090b0181前后干净，190关键跟踪文件+45原sav共235项SHA保持；其四交接也未改。仅美术仓库9份报告/证据/交接文档提交推送，新增LFS素材0；实际Git结果见收尾。停止，不将静态核对写为运行通过。
+
+# C01接口只读核查计划 · 2026-10-16
+
+用户授权仅核查，不导入C01/改工程或业务。起点美术main/6f818be8d525c3ff38060062afd8980f9ffead04、工程master/98e3db849cee744763dc2d760154c45b090b0181，工程工作区干净、美术仅原3无关脚本。已读工程AGENTS/README与四交接、原回审。本聊天原生工具清单未暴露unreal-mcp入口，不能查询当前地图/PIE/脏资产/Actor；不以历史成功或配置替代连接，不走终端HTTP/UE Python替代路径。
+
+继续只读核现有源码的Actor三维230cm口径、历史灰盒与正式楼层来源、磁盘资产及主机进程辅助观察；只向美术仓库写核查报告/证据与交接，SchoolLife包括其交接文档保持只读。分别列当前原生缺项、磁盘事实、历史记录及正式候选；4m差仅从来源解释，不冒称运行读回。未取得原生工具不启动编辑器或PIE。检查工程Git/关键输入前后不变后，提交同步美术报告，提供一项待另行授权的接续建议并停止。
+
 # C01试作局部修订02规划回审完成 · 2026-10-16
 
 按下方计划完成三板/四预览、规格/原卡、代码来源和回件检查报告审阅；41交付SHA、373保护SHA及8代码/历史SHA直接核对一致，独立复算900/15.048㎡、新凳1.080㎡/旧纠错1.080㎡分账及8行P/E距离。交[审阅](AssetPlanning/BuildingProduction/review-C01-trial-revision-02.md)与[独立审计](AssetPlanning/BuildingProduction/C01/trial-revision-02-planning-audit.json)。门/坐面有限研究建议通过，整栋/最终席不解锁；当前工程变换未回读。未运行Blender/UE或重验动作，原卡/资产/SchoolLife不改。只提交本轮10份文档，正常推送核远端/LFS/工作区后停止，实际结果见最终报告。

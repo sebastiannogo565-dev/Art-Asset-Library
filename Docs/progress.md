@@ -1,3 +1,9 @@
+# C01接口只读核查 · 2026-10-16
+
+- 已完成：[分源报告](AssetPlanning/BuildingProduction/C01/interface-readonly-01.md)、源码三维230cm判定、历史锚点与正式二层差异、导航/恢复依赖检查；235工程输入前后SHA一致，工程Git不变。
+- 未完成：当前UE地图、PIE、dirty、Classroom实例身份/所属关卡/变换、正式C01实存及根/F2映射、运行Pawn/scaled半高与实际操作处距离。原生工具未挂载，无请求成功证据；主机未见UE/SchoolLife进程仅辅助观察。
+- 接续：在原生可用环境补齐已授权只读查询，之后提交整栋二层接口迁移方案；导入/改锚/导航/保存地图及恢复语义要另行安排。最终席暂停，本轮无模型/UE/工程文档或存档改动。
+
 # C01试作局部修订02规划回审进展 · 2026-10-16
 
 - 已完成：[针对性回审](AssetPlanning/BuildingProduction/review-C01-trial-revision-02.md)与[独立复核](AssetPlanning/BuildingProduction/C01/trial-revision-02-planning-audit.json)，看3板4预览，41交付/373保护/8来源SHA保持，900格/柜凳分账及P/E8行复算一致。

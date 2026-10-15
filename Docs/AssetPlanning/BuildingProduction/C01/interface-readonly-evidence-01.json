@@ -1,0 +1,332 @@
+{
+  "date": "2026-10-16",
+  "report": "interface-readonly-01.md",
+  "scope": "Read-only disk/source review. No native Unreal tool exposed to this chat. No HTTP, UE Python, editor scripting, new validation framework, PIE, importing, asset save, gameplay interaction or game-save load/write.",
+  "native_tools": {
+    "available_unreal_tools": [],
+    "discovery": "Current callable tool name/description catalog inspected multiple times for unreal and toolset discovery entries; zero matches",
+    "native_requests_made": 0,
+    "handshake_verified": false,
+    "server_failure_proven": false
+  },
+  "host_observation": {
+    "observed_at": "2026-10-16T05:12:50.4660862+08:00",
+    "method": "Host read-only Win32_Process CIM query; not Unreal MCP",
+    "filter": "Name = 'UnrealEditor.exe' OR Name = 'SchoolLife.exe'",
+    "processes": []
+  },
+  "current_ue_readback": {
+    "project": null,
+    "map": null,
+    "PIE": null,
+    "dirty_packages": null,
+    "classroom_actor": {
+      "object_path": null,
+      "level": null,
+      "location_cm": null,
+      "rotation": null,
+      "scale": null
+    },
+    "formal_C01": {
+      "presence_verified": false,
+      "root_transform": null,
+      "F2_finished_floor": null,
+      "local_to_world": null
+    },
+    "pawn": {
+      "identity": null,
+      "location_cm": null,
+      "scale": null,
+      "scaled_capsule_half_height_cm": null,
+      "ground_hit_cm": null
+    },
+    "distance_measurements": [],
+    "reason": "Required native Unreal MCP tools unavailable. Host process result is auxiliary only."
+  },
+  "disk_facts": {
+    "project": "D:/UE project/SchoolLife/SchoolLife.uproject",
+    "project_sha256": "9f74e1339da99f408bd05101e2de34093d17547e50235ecc7d6e1a270398c079",
+    "startup_settings_only": [
+      "EditorStartupMap=/Game/SchoolLife/Maps/CampusLifeBlockout",
+      "GameDefaultMap=/Game/SchoolLife/Maps/CampusLifeBlockout"
+    ],
+    "startup_settings_are_live_map": false,
+    "content_file_count": 106,
+    "C01_named_content_matches": [],
+    "map_files": [
+      "Content/SchoolLife/Maps/CampusLifeBlockout.umap",
+      "Content/SchoolLife/Maps/CoastBlockout.umap",
+      "Content/SchoolLife/Maps/GameplayLab.umap",
+      "Content/SchoolLife/Maps/LifeBlockout.umap"
+    ],
+    "C01_delivery_status": "not integrated according to art delivery record; no C01-named disk assets found; current world not natively inspected, so renamed/transient presence not ruled out"
+  },
+  "historical_graybox": {
+    "source": "D:/UE project/SchoolLife/Docs/Validation/LifeCoreBlockout/Step2/NativeEvidence.json",
+    "sha256": "9e68c82405d6973c830f1c925daead02fdf31efed1c15620a30e2e688b697e18",
+    "recorded_anchor": [
+      {
+        "actor": {
+          "refPath": "/Game/SchoolLife/Maps/CampusLifeBlockout.CampusLifeBlockout:PersistentLevel.SchoolLifePlaceAnchor_1"
+        },
+        "properties": "{\"PlaceId\":\"Classroom\"}",
+        "transform": {
+          "location": {
+            "x": 4500,
+            "y": 7050,
+            "z": 800
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": 0,
+            "roll": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      }
+    ],
+    "recipe_source": "D:/UE project/SchoolLife/Docs/Validation/LifeCoreBlockout/Step2/ActorRecipe.json",
+    "recipe_sha256": "68225f5fd79bb471495b176ed50b7be518ffde19af9b442bf92158bf9b77f146",
+    "recipe_place": {
+      "id": "Classroom",
+      "label": "教室",
+      "host": "C01",
+      "world_xy_m": [
+        2235.909090909091,
+        1988.681818181818
+      ],
+      "ground_z_m": 8,
+      "ue_xy_cm": [
+        4500,
+        7050
+      ],
+      "basis": "原二层教室投影北5.5m；本样板地面层开顶8×10m",
+      "room_polygon_m": [
+        [
+          2239.909090909091,
+          1984.681818181818
+        ],
+        [
+          2231.909090909091,
+          1984.681818181818
+        ],
+        [
+          2231.909090909091,
+          1994.681818181818
+        ],
+        [
+          2239.909090909091,
+          1994.681818181818
+        ]
+      ]
+    },
+    "source_grade": "HISTORICAL_NOT_CURRENT_RUNTIME"
+  },
+  "formal_planning": {
+    "source": "D:/Art Asset Library/ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/Revision02/GEOMETRY.json",
+    "sha256": "ce0abe83ae496f98e219bbd94ecfa29bbcaddbabcba25063404013aa1da9fae6",
+    "local_floors_m": [
+      0,
+      4,
+      8
+    ],
+    "ground_engineering_z_m": 8,
+    "local_to_engineering_cm_candidate": "[100*x,100*(y+51),100*(z+8)]",
+    "interface": {
+      "business_semantic_xy": [
+        45,
+        19.5
+      ],
+      "floor_local": 4,
+      "historical_anchor_engineering_cm": [
+        4500,
+        7050,
+        800
+      ],
+      "formal_anchor_candidate_cm": [
+        4500,
+        7050,
+        1200
+      ],
+      "actual_runtime_anchor_verified": false,
+      "designated_seat_id": null,
+      "research_candidate_seat_id": "F2_W4_DESK_3_5",
+      "actual_operation_ground_local_m": [
+        45,
+        19.5,
+        4
+      ],
+      "P_equals_E": true,
+      "candidate_recovery": [
+        45,
+        18.7,
+        4
+      ],
+      "radius_cm": 230,
+      "distance_table": "ACTIVITY_DISTANCE.json",
+      "continuous_study": "INHERITED_STUDY.json;5_5 unchanged,not final binding",
+      "scope": "Original actor anchor/radius/map not changed; formal mapping distance condition only, historicalZ8 conflict retained"
+    },
+    "source_grade": "PLANNING_NOT_CURRENT_RUNTIME"
+  },
+  "source_review": [
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldSubsystem.cpp",
+      "sha256": "edc864605ca12c1d8fd29529ff9229def91717d6c9719d4eb37abf526510c169",
+      "snippets": [
+        {
+          "start": 57,
+          "end": 88,
+          "text": "void USchoolLifeWorldSubsystem::InitializeNPCScene()\n{\n    if (NotificationSession.IsValid()) return;\n    Places.Reset();\n    for (TActorIterator<ASchoolLifePlaceAnchor> It(GetWorld()); It; ++It)\n    {\n        checkf(SchoolLifePlaces::IsKnown(It->PlaceId) && !Places.Contains(It->PlaceId), TEXT(\"PlaceId must be implemented and unique\"));\n        Places.Add(It->PlaceId, *It);\n    }\n    NotificationSession = GetWorld()->GetGameInstance()->GetSubsystem<USchoolLifeSessionSubsystem>();\n    PresentationHandle = NotificationSession->OnNPCPresentationChanged.AddUObject(this, &USchoolLifeWorldSubsystem::SynchronizeNPCPresentation);\n    if (!IsCoast() && !NotificationSession->IsRegionLoading()) RebuildNPCActor();\n    else NotificationSession->SetNPCBodyPresent(false);\n}\n\nFName USchoolLifeWorldSubsystem::FindNearbyActivityPlace(const ASchoolLifeCharacter* Player) const\n{\n    if (!IsTickable() || !IsValid(Player) || Player->GetWorld() != GetWorld()) return NAME_None;\n    float NearestSquared = FMath::Square(ActivityInteractionDistance);\n    FName PlaceId;\n    for (const auto& Pair : Places)\n    {\n        if (!Pair.Value.IsValid()) continue;\n        const float DistanceSquared = FVector::DistSquared(Player->GetActorLocation(), Pair.Value->GetActorLocation());\n        if (DistanceSquared <= NearestSquared) { NearestSquared = DistanceSquared; PlaceId = Pair.Key; }\n    }\n    return PlaceId;\n}\n\nFSchoolLifeActivityOffer USchoolLifeWorldSubsystem::GetNearbyActivityOffer(ASchoolLifeCharacter* Player) const\n{\n    const FName PlaceId = FindNearbyActivityPlace(Player);"
+        },
+        {
+          "start": 119,
+          "end": 134,
+          "text": "bool USchoolLifeWorldSubsystem::ResolvePlace(FName PlaceId, FVector& Position) const\n{\n    const TWeakObjectPtr<ASchoolLifePlaceAnchor>* Anchor = Places.Find(PlaceId);\n    if (!Anchor || !Anchor->IsValid()) return false;\n    Position = Anchor->Get()->GetActorLocation();\n    return true;\n}\n\nbool USchoolLifeWorldSubsystem::ResolveNavigablePlace(FName PlaceId, FVector& Position) const\n{\n    if (!ResolvePlace(PlaceId, Position)) return false;\n    UNavigationSystemV1* Navigation = FNavigationSystem::GetCurrent<UNavigationSystemV1>(GetWorld());\n    FNavLocation Projected;\n    if (!Navigation || !Navigation->ProjectPointToNavigation(Position, Projected, FVector(80, 80, 200))) return false;\n    Position = Projected.Location;\n    return true;"
+        },
+        {
+          "start": 174,
+          "end": 185,
+          "text": "    USchoolLifeSessionSubsystem* Session = GetWorld()->GetGameInstance()->GetSubsystem<USchoolLifeSessionSubsystem>();\n    const FSchoolLifeNPCRecord Record = Session->GetNPCRecord();\n    RemoveNPCActor();\n    FVector Position;\n    if (!ResolveNavigablePlace(Record.ConfirmedPlaceId, Position))\n    {\n        Session->SetNPCBodyPresent(false);\n        UE_LOG(LogTemp, Warning, TEXT(\"NPC body cannot be restored at confirmed place; session continues abstractly\"));\n        return;\n    }\n    const float HalfHeight = GetDefault<ASchoolLifeNPCCharacter>()->GetCapsuleComponent()->GetScaledCapsuleHalfHeight();\n    const FTransform Transform(FRotator::ZeroRotator, Position + FVector(0, 0, HalfHeight + 2));"
+        },
+        {
+          "start": 221,
+          "end": 233,
+          "text": "    if (!Controller->IsExecutingJourney(Record.RequestSequence))\n    {\n        FVector Destination;\n        if (!ResolveNavigablePlace(Record.TargetPlaceId, Destination))\n        {\n            Session->CompleteNPCTravel(Record.PersonId, Record.RequestSequence, false, TEXT(\"Target unavailable in current NavMesh\"));\n            return;\n        }\n        Controller->ExecuteTravel(Record.PersonId, Record.RequestSequence, Destination);\n    }\n    Controller->SetTravelPaused(IsNPCExecutionPaused(Session));\n}\n"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldActivityConfirmation.cpp",
+      "sha256": "a4ecc30b3db42984edcb604074f94beefc52f2e21361698dd7bba54593499da8",
+      "snippets": [
+        {
+          "start": 88,
+          "end": 102,
+          "text": "bool USchoolLifeWorldSubsystem::TryNearbyPlayerActivity(ASchoolLifeCharacter* Player)\n{\n    if (IsInteractionBlocked()) return false;\n    if (TryRegionConfirmation(Player)) return true;\n    if (!IsTickable() || !IsValid(Player) || Player != UGameplayStatics::GetPlayerPawn(GetWorld(), 0)) return false;\n    const auto* Session = GetWorld()->GetGameInstance()->GetSubsystem<USchoolLifeSessionSubsystem>();\n    const auto Offer = GetNearbyActivityOffer(Player);\n    if (!Offer.bCanStart && Offer.PlaceId != TEXT(\"LibraryRoom\")) { SetHUDNotice(ActivityReasonText(Offer.Reason)); return false; }\n    StageActivityConfirmation(Player->GetPersonId(), Offer, Session->GetAbsoluteMinute());\n    ConfirmationPlayer = Player;\n    HUDNotice.Reset();\n    Player->GetCharacterMovement()->StopMovementImmediately();\n    Player->ConsumeMovementInputVector();\n    SynchronizeNPCPresentation(false); // Pause this existing request, without issuing a new journey.\n    return true;"
+        },
+        {
+          "start": 182,
+          "end": 205,
+          "text": "bool USchoolLifeWorldSubsystem::ConfirmPlayerActivity(ASchoolLifeCharacter* Player)\n{\n    if (bRegionConfirmation) return ConfirmRegion(Player);\n    if (!bConfirmationOpen) return false;\n    auto* Session = GetWorld()->GetGameInstance()->GetSubsystem<USchoolLifeSessionSubsystem>();\n    FVector Anchor;\n    const bool CurrentBody = IsTickable() && IsValid(Player) && Player == ConfirmationPlayer.Get()\n        && Player == UGameplayStatics::GetPlayerPawn(GetWorld(), 0);\n    const bool AtPlace = CurrentBody && ResolvePlace(ConfirmationOffer.PlaceId, Anchor)\n        && FVector::DistSquared(Player->GetActorLocation(), Anchor) <= FMath::Square(ActivityInteractionDistance);\n    const auto Offer = RecheckConfirmation(Session, CurrentBody ? Player->GetPersonId() : FGuid(), AtPlace);\n    const FGuid Id = ConfirmationPlayerId;\n    CancelActivityConfirmation();\n    if (!Offer.bCanStart) { SetHUDNotice(TEXT(\"未执行：\") + ActivityReasonText(Offer.Reason)); return false; }\n    if (Offer.bWaitUntilClass)\n    {\n        if (!Session->WaitUntilClass(Id, Offer.PlaceId, Offer.EndMinute))\n        { SetHUDNotice(TEXT(\"等待未执行，请重新检查时间与地点。\")); return false; }\n        const auto Time = Session->GetCalendar().ToDateTime(Offer.EndMinute);\n        SetHUDNotice(FString::Printf(TEXT(\"已等待至%02d:%02d，无收益。请再次按E预览并确认课堂。\"), Time.Hour, Time.Minute));\n        return true;\n    }\n    if (!Session->StartPlayerActivity(Id, Offer.ActivityId, Offer.PlaceId))\n    { SetHUDNotice(TEXT(\"活动未执行，请重新检查时间与地点。\")); return false; }"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldSubsystem.h",
+      "sha256": "055ac197fef66a23414d0c4aabf2a8b04ba2592c58892b9ecad5588df61239b5",
+      "snippets": [
+        {
+          "start": 40,
+          "end": 40,
+          "text": "    static constexpr float ActivityInteractionDistance = 230.0f;"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeCharacter.cpp",
+      "sha256": "bd4614257acac5db08653cd586747ded238d7f5dd3e038863d9ff4bc8eebd9df",
+      "snippets": [
+        {
+          "start": 22,
+          "end": 26,
+          "text": "ASchoolLifeCharacter::ASchoolLifeCharacter()\n{\n    GetCapsuleComponent()->InitCapsuleSize(34.0f, 96.0f);\n    bUseControllerRotationPitch = false;\n    bUseControllerRotationYaw = false;"
+        },
+        {
+          "start": 134,
+          "end": 149,
+          "text": "    Input->BindAction(ConfirmInput, ETriggerEvent::Started, this, &ASchoolLifeCharacter::ConfirmActivity);\n    Input->BindAction(CancelInput, ETriggerEvent::Started, this, &ASchoolLifeCharacter::CancelActivity);\n    Input->BindAction(DebugInput, ETriggerEvent::Started, this, &ASchoolLifeCharacter::ToggleDebugHUD);\n    Input->BindAction(Library30Input, ETriggerEvent::Started, this, &ASchoolLifeCharacter::SelectLibrary30);\n    Input->BindAction(Library60Input, ETriggerEvent::Started, this, &ASchoolLifeCharacter::SelectLibrary60);\n    Input->BindAction(MoveInput, ETriggerEvent::Triggered, this, &ASchoolLifeCharacter::Move);\n    Input->BindAction(LookInput, ETriggerEvent::Triggered, this, &ASchoolLifeCharacter::Look);\n    Input->BindAction(ZoomInput, ETriggerEvent::Triggered, this, &ASchoolLifeCharacter::Zoom);\n    Input->BindActionValue(OrbitInput);\n    Input->BindAction(PauseInput, ETriggerEvent::Started, this, &ASchoolLifeCharacter::ToggleClock);\n    Input->BindAction(HourInput, ETriggerEvent::Started, this, &ASchoolLifeCharacter::AdvanceClockHour);\n    Input->BindAction(MorningInput, ETriggerEvent::Started, this, &ASchoolLifeCharacter::AdvanceClockMorning);\n    Input->BindAction(TravelInput, ETriggerEvent::Started, this, &ASchoolLifeCharacter::CycleNPCDestination);\n    Input->BindAction(RebuildInput, ETriggerEvent::Started, this, &ASchoolLifeCharacter::RebuildNPCActor);\n    Input->BindAction(InteractInput, ETriggerEvent::Started, this, &ASchoolLifeCharacter::Interact);\n    Input->BindAction(ResponseInput, ETriggerEvent::Started, this, &ASchoolLifeCharacter::RequestNPCResponse);"
+        },
+        {
+          "start": 216,
+          "end": 219,
+          "text": "void ASchoolLifeCharacter::Interact()\n{\n    GetWorld()->GetSubsystem<USchoolLifeWorldSubsystem>()->TryNearbyPlayerActivity(this);\n}"
+        },
+        {
+          "start": 236,
+          "end": 239,
+          "text": "void ASchoolLifeCharacter::ConfirmActivity()\n{\n    GetWorld()->GetSubsystem<USchoolLifeWorldSubsystem>()->ConfirmPlayerActivity(this);\n}"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifePlaceAnchor.cpp",
+      "sha256": "be311da318cef2ebeb61dc9d1cd1ca4a131d6eed36dcd40cb5330476e2038a5d",
+      "snippets": [
+        {
+          "start": 7,
+          "end": 20,
+          "text": "ASchoolLifePlaceAnchor::ASchoolLifePlaceAnchor()\n{\n    RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT(\"PlacePosition\"));\n    static ConstructorHelpers::FObjectFinder<UStaticMesh> Cube(TEXT(\"/Engine/BasicShapes/Cube\"));\n    UStaticMeshComponent* Marker = CreateDefaultSubobject<UStaticMeshComponent>(TEXT(\"Marker\"));\n    Marker->SetupAttachment(RootComponent);\n    Marker->SetStaticMesh(Cube.Object);\n    Marker->SetRelativeLocation(FVector(0, 0, 2));\n    Marker->SetRelativeScale3D(FVector(2.5f, 2.5f, 0.04f));\n    Marker->SetCollisionEnabled(ECollisionEnabled::NoCollision);\n    Marker->SetCanEverAffectNavigation(false);\n    Label = CreateDefaultSubobject<UTextRenderComponent>(TEXT(\"PlaceLabel\"));\n    Label->SetupAttachment(RootComponent);\n    Label->SetRelativeLocation(FVector(0, 0, 180));"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldRegionTravel.cpp",
+      "sha256": "2800bde65c88139f4ac0ba58662d11c83fa2f8e83cd0895a9aed4817b6f2443a",
+      "snippets": [
+        {
+          "start": 84,
+          "end": 93,
+          "text": "bool USchoolLifeWorldSubsystem::CheckRegionStand(ASchoolLifeCharacter* Player,const FVector& Ground,FVector& Position) const\n{\n    FCollisionQueryParams Params(SCENE_QUERY_STAT(P09Ground),false,Player);FHitResult Hit;\n    if(!GetWorld()->LineTraceSingleByChannel(Hit,Ground+FVector(0,0,200),Ground-FVector(0,0,200),ECC_Visibility,Params)\n        || Hit.ImpactNormal.Z<.8)return false;\n    // Do not accept a rooftop/obstacle as the intended ground or silently shift a blocked exit.\n    if(FMath::Abs(Hit.ImpactPoint.Z-Ground.Z)>40)return false;\n    const auto* C=Player->GetCapsuleComponent();Position=Hit.ImpactPoint+FVector(0,0,C->GetScaledCapsuleHalfHeight()+2);\n    return !GetWorld()->OverlapBlockingTestByChannel(Position,FQuat::Identity,ECC_Pawn,\n        FCollisionShape::MakeCapsule(C->GetScaledCapsuleRadius(),C->GetScaledCapsuleHalfHeight()),Params);"
+        },
+        {
+          "start": 111,
+          "end": 124,
+          "text": "    FVector Ground;\n    if(Home)\n    {\n        if(!ResolveNavigablePlace(TEXT(\"Home\"),Ground)){Reason=TEXT(\"Navigation pending\");return false;}\n        Ground+=FVector(0,-150,0);Rotation=FRotator::ZeroRotator;\n    }\n    else if(Original)\n    {\n        Ground=Original->GetLocation()-FVector(0,0,Player->GetCapsuleComponent()->GetScaledCapsuleHalfHeight()+2);\n        Rotation=Original->Rotator();\n        if(CheckRegionStand(Player,Ground,Position)){Reason.Reset();return true;}\n        auto* E=FindRegionExit(IsCoast()?FName(TEXT(\"E09_N\")):FName(TEXT(\"E02_S\")));\n        if(!E){Reason=TEXT(\"原区域安全出口缺失。\");return false;}\n        Ground=E->GetActorLocation()+E->LandingOffset;Rotation=FRotator(0,E->ArrivalYaw,0);"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldSave.cpp",
+      "sha256": "9897cac605840f457cc6661635be001a231b1fab51ce586b010ed2c4b997de74",
+      "snippets": [
+        {
+          "start": 70,
+          "end": 94,
+          "text": "    // Resolve the new bodies' required positions before disturbing the live session/navigation.\n    FVector Home, NPCStart;\n    if (!ResolveNavigablePlace(TEXT(\"Home\"), Home) || !ResolveNavigablePlace(Candidate.NPC.ConfirmedPlaceId, NPCStart))\n    { SaveLoadResult = TEXT(\"读取失败：家或同学确认地点不可导航。\"); SetHUDNotice(SaveLoadResult); return false; }\n    UNavigationSystemV1* Navigation = FNavigationSystem::GetCurrent<UNavigationSystemV1>(GetWorld());\n    FNavLocation SafeHome;\n    if (!Navigation->ProjectPointToNavigation(Home + FVector(0, -150, 0), SafeHome, FVector(80, 80, 200)))\n    { SaveLoadResult = TEXT(\"读取失败：家的安全站位不可用。\"); SetHUDNotice(SaveLoadResult); return false; }\n    FVector Position = SafeHome.Location + FVector(0, 0, Player->GetCapsuleComponent()->GetScaledCapsuleHalfHeight() + 2);\n    if (!GetWorld()->FindTeleportSpot(Player, Position, Player->GetActorRotation()))\n    { SaveLoadResult = TEXT(\"读取失败：家的安全站位被阻挡。\"); SetHUDNotice(SaveLoadResult); return false; }\n    // Cancel invalidates the old request before its abort callback; the source-controller check\n    // also rejects any late result after the new NPC body has been created.\n    // A rejected file/identity/landing must retain the confirmation and its navigation pause.\n    ClearTransientInteraction();\n    RemoveNPCActor();\n    const bool Restored = Session->RestoreSaveSnapshot(Candidate, Reason);\n    check(Restored); // Already validated above; there is no tick or business callback in between.\n    Player->GetCharacterMovement()->StopMovementImmediately();\n    Player->ConsumeMovementInputVector();\n    Player->BindPerson(Candidate.Player.PersonId);\n    Player->SetActorLocation(Position, false, nullptr, ETeleportType::TeleportPhysics);\n    NPCResponseText.Reset();\n    RebuildNPCActor();\n    SaveLoadResult = TEXT(\"Loaded SchoolLife_Main; player at Home, NPC resumes saved intent.\");"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/LifeCoreBlockout-Phase4A-Step1-Plan.md",
+      "sha256": "9105635f3d7ddc9a1e11a6c9eb9e34ed9857a2a82842601c23e765670202b823",
+      "snippets": [
+        {
+          "start": 46,
+          "end": 55,
+          "text": "| PlaceId / 用途 | 来源宿主 | world站位(X,Y)m | UE站位(X,Y)cm | 地面Z候选m |\n|---|---|---|---|---|\n| Home / 保存、睡眠 | B01家 | (2146.516682,1769.891925) | (-4439.241,-14828.989) | 0 |\n| Classroom / 三段、等待、自习 | C01主教学翼 | (2235.909091,1988.681818) | (4500,7050) | +8 |\n| LibraryRoom / 30、60分钟 | C03图书翼 | (2254.606951,2062.206066) | (6369.786,14402.425) | +8 |\n| ClubGround / 原训练 | FIELD操场西南缓冲带 | (2306.909091,2151.181818) | (11600,23300) | +8 |\n| WorkPlace / 原Work帮工 | B04咖啡 | (2198.598704,1685.846199) | (768.961,-23233.562) | 0 |\n| VendingMachine / 原DrinkRest | 咖啡街口公共侧袋 | (2214.006746,1683.409389) | (2309.766,-23477.243) | 0 |\n\n表中Z是地面/PlaceAnchor候选，不是人物胶囊中心。当前玩家/NPC胶囊半高96cm，NPC重建在导航投影基础上加98cm；PlayerStart应保留足底与地面的正确关系，第二步实际检查，不能将人物Actor直接放在地面Z。交互仍为现有三维230cm距离，未放大。六站位最小XY间距15.599545m，高于两球4.6m，静态候选不互抢；不是游戏内交互验收。"
+        },
+        {
+          "start": 61,
+          "end": 68,
+          "text": "| B01 | 18×18m、20°、2层参考 | 仅门厅/院门，私人空间不作为公街捷径 |\n| B04 | 20×34m、58.3925°、2层参考 | 顾客正门进入最小帮工区；不走员工后门 |\n| C01 | 150×28m、0°、3层楼体；玩家教室在2层 | 保原鞋柜门和3m走廊，只搭地面层开顶样板教室 |\n| C03 | 66×28m、4°、2层参考 | 正门进入开顶学习角，不建完整图书馆 |\n| C08 | 72×50m、0°体育馆 | 入口参考，不把体育馆直接称为操场 |\n| FIELD | 140×85m | 保原矩形，西南12×12m最小训练分区；100×60m内场候选仍仅参考 |\n\n源教室投影为(2235.909091,1983.181818)，业务站位北移5.5m用于明确走廊与室内。本样板教室地面+8m，**没有实施正式二层额外+4m或楼梯**，后续正式楼层另行安排；这不是把正式多层校园说成已建成。"
+        }
+      ]
+    }
+  ],
+  "conclusions": {
+    "difference_cm": 400,
+    "difference_status": "Documented graybox ground +8m vs formal local F2 +4m on planned +8m datum. Treat as pending formal second-floor interface migration; current actor difference not established.",
+    "final_seat_bound": false,
+    "current_interface_passed": false,
+    "F3_target_from_source": "Home navigable point plus south150cm, then actual scaled capsule half-height+2cm; not C01 candidate recovery",
+    "recommended_next": "Complete same authorized read-only native query in a capable session; then prepare one coordinated formal F2 interface migration proposal before any authorized import/map/navigation edits."
+  },
+  "protections": {
+    "game_head_before": "98e3db849cee744763dc2d760154c45b090b0181",
+    "game_head_after": "98e3db849cee744763dc2d760154c45b090b0181",
+    "game_status_before": "",
+    "game_status_after": "",
+    "tracked_key_files": 190,
+    "existing_sav_files": 45,
+    "total_checked": 235,
+    "changed": [],
+    "protected_input_manifest_digest_sha256": "2f08945a950616e2c72739cbda48ea5473a8a8b3b30818d5c33835505c7f3a4b",
+    "method": "Direct raw SHA256 before/after; .sav bytes hashed only, no gameplay load/write or payload interpretation. Four engineering handoffs also protected. No editor/PIE launched."
+  },
+  "art_scope": "Only report/evidence and art handoff documents updated. Existing models and task card untouched."
+}

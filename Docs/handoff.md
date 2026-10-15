@@ -1,3 +1,11 @@
+# 当前交接：C01接口只读报告，原生数据未取得 · 2026-10-16
+
+入口：[报告](AssetPlanning/BuildingProduction/C01/interface-readonly-01.md)／[证据JSON](AssetPlanning/BuildingProduction/C01/interface-readonly-evidence-01.json)。本聊天原生unreal-mcp工具为0，未取得当前关卡/PIE/脏资产/Classroom或Pawn变换；不把配置默认Campus、历史锚点SchoolLifePlaceAnchor_1/Z800或插件启用写成已连接。主机两次查询未见UE/游戏进程；本轮未启停PIE/编辑器、未保存资产。
+
+资料上4m是台地+8m开顶灰盒到正式二层+12m的待迁移差，当前实例偏差未确认。正式C01交付记录尚未接入，106项Content路径未发现C01标识，但世界实存未原生枚举。现有F3玩家回Home，(45,18.7,4)仅美术恢复候选。最终席不解锁，不用更多家具返工掩盖标高缺项。
+
+SchoolLife master/98e3db849cee744763dc2d760154c45b090b0181保持、Git干净，190关键跟踪+45sav共235项SHA不变。仅美术9份文档正常提交推送，LFS新增0，完整提交/远端/工作区见最终报告，原3无关脚本保留。下一步在原生可用环境补同范围只读证据；实际C01导入/锚点或导航等变动须另行授权。停止，不创建新执行卡/验证框架。
+
 # 当前交接：C01试作局部修订02规划回审 · 2026-10-16
 
 先读[审阅结论](AssetPlanning/BuildingProduction/review-C01-trial-revision-02.md)及[独立审计JSON](AssetPlanning/BuildingProduction/C01/trial-revision-02-planning-audit.json)，再读[制作回件](AssetPlanning/BuildingProduction/C01/trial-revision-02-handoff.md)。建议通过指定门/坐面局部美术空间修订，用户尚未确认；整栋仍不最终通过，最终席继续暂停。实际模型/FBX属于原Revision02回件，本窗口没有改资产或重跑源验收。

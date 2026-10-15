@@ -1,3 +1,7 @@
+# 当前：C01接口只读报告已交，原生回读缺项 · 2026-10-16
+
+[只读报告](Docs/AssetPlanning/BuildingProduction/C01/interface-readonly-01.md)／[来源证据](Docs/AssetPlanning/BuildingProduction/C01/interface-readonly-evidence-01.json)。本聊天无原生unreal-mcp入口，未回读当前地图/PIE/Actor/脏资产；主机辅助查询未见UE/游戏进程，不用历史或配置替代。资料解释为灰盒+8m到正式F2+12m的4m待迁移接口，非当前实例实测。SchoolLife保持干净且235输入SHA未变，仅美术文档交付；最终席仍暂停，不导入/改工程或新发制作卡。
+
 # 当前：C01试作局部修订02已回审，停用户判断 · 2026-10-16
 
 [针对性审阅](Docs/AssetPlanning/BuildingProduction/review-C01-trial-revision-02.md)：建议保留实际2.4×2.6内门、双人坐面及限定尺寸下的换鞋/双向通路研究；900格、柜15.048㎡/凳1.080㎡分别复算。P/E三维8行相符，但当前地图Actor/Anchor未回读，最终席绑定继续暂停，整栋不最终通过。先补工程只读证据，不追加模型返工/新卡/UE；B01等保持，以下保留历史。

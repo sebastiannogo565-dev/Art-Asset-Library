@@ -1,3 +1,7 @@
+# 当前：C01接口只读资料已核，原生缺项保留 · 2026-10-16
+
+[只读报告](C01/interface-readonly-01.md)／[来源证据](C01/interface-readonly-evidence-01.json)。原生unreal-mcp未暴露，未回读当前Actor/地图/PIE/dirty，不替最终席绑定解锁。4m有灰盒未建正式二层的资料解释；工程235输入/Git保持，未导入或新建框架。先在原生可用环境补只读查询，再评审整栋接口接入，不自动发布执行卡。
+
 # 当前：C01试作修订02已针对性回审 · 2026-10-16
 
 [回审](review-C01-trial-revision-02.md)／[独立审计](C01/trial-revision-02-planning-audit.json)。门/坐面及有限空间研究建议保留，900柜列不变；当前工程Actor/Anchor未回读，P/E规划与历史标高分算，最终席绑定暂停、整栋不最终通过。先停用户判断；下一缺口为工程只读变换证据，不新发模型任务或重做全栋。原任务卡/资产/RT01/B01/SchoolLife保持。
