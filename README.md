@@ -1,3 +1,7 @@
+# 当前：C01试作局部修订02已回审，停用户判断 · 2026-10-16
+
+[针对性审阅](Docs/AssetPlanning/BuildingProduction/review-C01-trial-revision-02.md)：建议保留实际2.4×2.6内门、双人坐面及限定尺寸下的换鞋/双向通路研究；900格、柜15.048㎡/凳1.080㎡分别复算。P/E三维8行相符，但当前地图Actor/Anchor未回读，最终席绑定继续暂停，整栋不最终通过。先补工程只读证据，不追加模型返工/新卡/UE；B01等保持，以下保留历史。
+
 # 当前制作回件：C01整栋试作局部修订02 · 2026-10-16
 
 [独立修订包](ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/Revision02/README.md) / [规划回审](Docs/AssetPlanning/BuildingProduction/C01/trial-revision-02-handoff.md)。真实西连接洞/框/廊侧停扇2.4×2.6与双人换鞋凳完成；900/15.048㎡柜体不变，新凳1.080㎡分账。局部换鞋与双向条件检查、必要FBX回导完成，2212未改对象保持。操作点45/19.5可达，P=E按Actor—Anchor三维分来源：规划Z1200余134/132cm、历史Z800超266/268cm，现用变换未实测，暂停最终席绑定；19阶段不改、不新增启动条件。交回针对性审阅，不代判整栋最终通过，无UE。

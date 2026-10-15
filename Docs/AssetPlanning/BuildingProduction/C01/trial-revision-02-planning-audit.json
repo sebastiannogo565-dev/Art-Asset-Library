@@ -1,0 +1,540 @@
+{
+  "date": "2026-10-16",
+  "reviewed_commit": "287ddc22af2fa0cad93b89c55f94692ce425f87b",
+  "asset": "SL_BLD_C01_MAIN_01_TRIAL_01_REV_02",
+  "review_scope": "Planning document/image review and direct file hash/arithmetic checks. No Blender reopen, FBX reimport, UE/PIE, live Actor/Anchor readback or new pose simulation in this review.",
+  "manifest": {
+    "count": 41,
+    "raw_matches": 41,
+    "lf_normalized_matches": 0,
+    "mismatches": [],
+    "method": "raw SHA256, then LF-normalized text only if needed"
+  },
+  "protected_inputs": {
+    "count": 373,
+    "raw_matches": 373,
+    "lf_normalized_matches": 0,
+    "mismatches": [],
+    "method": "raw SHA256"
+  },
+  "current_code_and_history_hashes": {
+    "count": 8,
+    "raw_matches": 8,
+    "lf_normalized_matches": 0,
+    "mismatches": [],
+    "method": "raw SHA256"
+  },
+  "independent_arithmetic": {
+    "banks": [
+      {
+        "id": "REV_MAIN_W1",
+        "cells": 120,
+        "recorded_cells": 120,
+        "footprint_m2": 1.9199999999999997,
+        "matches": true
+      },
+      {
+        "id": "REV_MAIN_E1",
+        "cells": 36,
+        "recorded_cells": 36,
+        "footprint_m2": 0.575999999999999,
+        "matches": true
+      },
+      {
+        "id": "REV_MAIN_W2",
+        "cells": 120,
+        "recorded_cells": 120,
+        "footprint_m2": 1.919999999999999,
+        "matches": true
+      },
+      {
+        "id": "REV_MAIN_E2",
+        "cells": 36,
+        "recorded_cells": 36,
+        "footprint_m2": 0.5759999999999988,
+        "matches": true
+      },
+      {
+        "id": "REV_MAIN_W3",
+        "cells": 120,
+        "recorded_cells": 120,
+        "footprint_m2": 1.919999999999999,
+        "matches": true
+      },
+      {
+        "id": "REV_MAIN_E3",
+        "cells": 36,
+        "recorded_cells": 36,
+        "footprint_m2": 0.5759999999999988,
+        "matches": true
+      },
+      {
+        "id": "REV_LINK_SINGLE",
+        "cells": 96,
+        "recorded_cells": 96,
+        "footprint_m2": 1.6800000000000064,
+        "matches": true
+      },
+      {
+        "id": "REV_LINK_MID",
+        "cells": 168,
+        "recorded_cells": 168,
+        "footprint_m2": 2.940000000000013,
+        "matches": true
+      },
+      {
+        "id": "REV_LINK_EAST",
+        "cells": 168,
+        "recorded_cells": 168,
+        "footprint_m2": 2.940000000000013,
+        "matches": true
+      }
+    ],
+    "totals": {
+      "main_cells": 468,
+      "link_cells": 432,
+      "main_area_m2": 7.487999999999994,
+      "link_area_m2": 7.560000000000032,
+      "cells": 900,
+      "cabinet_area_m2": 15.048000000000027
+    },
+    "bench": {
+      "length_m": 2.4000000000000057,
+      "depth_m": 0.4499999999999993,
+      "height_m": 0.43,
+      "footprint_m2": 1.080000000000001
+    },
+    "old_cabinet_deepening_correction_m2": 1.080000000000001,
+    "door": {
+      "interface_center": [
+        58,
+        13,
+        0
+      ],
+      "clear_width_m": 2.4000000000000057,
+      "clear_height_m": 2.6,
+      "opening_matches_layout": true,
+      "new_ground_area_m2": 0
+    },
+    "distance_cases": [
+      {
+        "mode": "PREVIEW_P",
+        "anchor_case": "HISTORICAL_RECIPE_Z800",
+        "actor_offset_m": 0.96,
+        "A_cm": [
+          4500,
+          7050,
+          800
+        ],
+        "Actor_cm": [
+          4500,
+          7050,
+          1296
+        ],
+        "distance_cm": 496,
+        "margin_cm": -266,
+        "within230": false,
+        "record_matches": true
+      },
+      {
+        "mode": "ENTER_E",
+        "anchor_case": "HISTORICAL_RECIPE_Z800",
+        "actor_offset_m": 0.96,
+        "A_cm": [
+          4500,
+          7050,
+          800
+        ],
+        "Actor_cm": [
+          4500,
+          7050,
+          1296
+        ],
+        "distance_cm": 496,
+        "margin_cm": -266,
+        "within230": false,
+        "record_matches": true
+      },
+      {
+        "mode": "PREVIEW_P",
+        "anchor_case": "HISTORICAL_RECIPE_Z800",
+        "actor_offset_m": 0.98,
+        "A_cm": [
+          4500,
+          7050,
+          800
+        ],
+        "Actor_cm": [
+          4500,
+          7050,
+          1298
+        ],
+        "distance_cm": 498,
+        "margin_cm": -268,
+        "within230": false,
+        "record_matches": true
+      },
+      {
+        "mode": "ENTER_E",
+        "anchor_case": "HISTORICAL_RECIPE_Z800",
+        "actor_offset_m": 0.98,
+        "A_cm": [
+          4500,
+          7050,
+          800
+        ],
+        "Actor_cm": [
+          4500,
+          7050,
+          1298
+        ],
+        "distance_cm": 498,
+        "margin_cm": -268,
+        "within230": false,
+        "record_matches": true
+      },
+      {
+        "mode": "PREVIEW_P",
+        "anchor_case": "FORMAL_PLANNING_Z1200",
+        "actor_offset_m": 0.96,
+        "A_cm": [
+          4500,
+          7050,
+          1200
+        ],
+        "Actor_cm": [
+          4500,
+          7050,
+          1296
+        ],
+        "distance_cm": 96,
+        "margin_cm": 134,
+        "within230": true,
+        "record_matches": true
+      },
+      {
+        "mode": "ENTER_E",
+        "anchor_case": "FORMAL_PLANNING_Z1200",
+        "actor_offset_m": 0.96,
+        "A_cm": [
+          4500,
+          7050,
+          1200
+        ],
+        "Actor_cm": [
+          4500,
+          7050,
+          1296
+        ],
+        "distance_cm": 96,
+        "margin_cm": 134,
+        "within230": true,
+        "record_matches": true
+      },
+      {
+        "mode": "PREVIEW_P",
+        "anchor_case": "FORMAL_PLANNING_Z1200",
+        "actor_offset_m": 0.98,
+        "A_cm": [
+          4500,
+          7050,
+          1200
+        ],
+        "Actor_cm": [
+          4500,
+          7050,
+          1298
+        ],
+        "distance_cm": 98,
+        "margin_cm": 132,
+        "within230": true,
+        "record_matches": true
+      },
+      {
+        "mode": "ENTER_E",
+        "anchor_case": "FORMAL_PLANNING_Z1200",
+        "actor_offset_m": 0.98,
+        "A_cm": [
+          4500,
+          7050,
+          1200
+        ],
+        "Actor_cm": [
+          4500,
+          7050,
+          1298
+        ],
+        "distance_cm": 98,
+        "margin_cm": 132,
+        "within230": true,
+        "record_matches": true
+      }
+    ]
+  },
+  "image_metadata": [
+    {
+      "path": "Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_P01_DOOR_SHOE_LOOP.png",
+      "width": 3200,
+      "height": 2400,
+      "format": "png",
+      "opaque": true
+    },
+    {
+      "path": "Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_P02_ACTIVITY_DISTANCE.png",
+      "width": 3200,
+      "height": 2400,
+      "format": "png",
+      "opaque": true
+    },
+    {
+      "path": "Boards/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_P03_CHANGE_CHECKS.png",
+      "width": 3200,
+      "height": 2400,
+      "format": "png",
+      "opaque": true
+    },
+    {
+      "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_CHANGE_SEAT_CLOSE.png",
+      "width": 2560,
+      "height": 1440,
+      "format": "png",
+      "opaque": true
+    },
+    {
+      "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_CLASS_OPERATION_P_EQUALS_E.png",
+      "width": 2560,
+      "height": 1440,
+      "format": "png",
+      "opaque": true
+    },
+    {
+      "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_DOOR_HALL_APPROACH.png",
+      "width": 2560,
+      "height": 1440,
+      "format": "png",
+      "opaque": true
+    },
+    {
+      "path": "Previews/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02_WESTLINK_CHANGE_LOOP.png",
+      "width": 2560,
+      "height": 1440,
+      "format": "png",
+      "opaque": true
+    }
+  ],
+  "producer_evidence_not_rerun": {
+    "native_hashes": {
+      "blend": "90137759b838d849395f9c0363cbb74f072aff8de4fef418668312b784086aa4",
+      "fbx": "bf12172b5e28f82e2e5ae941e61d8d14bffd67b0b751a8f58e2e092dbffb209d"
+    },
+    "hashes_match_report": true,
+    "changed_objects": 3,
+    "unchanged_objects": 2212,
+    "source_objects": 2215,
+    "fbx_objects": 2215,
+    "native_door": {
+      "interface_center": [
+        58,
+        13,
+        0
+      ],
+      "rays": [
+        {
+          "y": 12.72,
+          "z": 0.1,
+          "width_m": 2.5400009533737675,
+          "height_m": 99.001
+        },
+        {
+          "y": 12.72,
+          "z": 1,
+          "width_m": 2.5400009533737675,
+          "height_m": 99.001
+        },
+        {
+          "y": 12.72,
+          "z": 1.92,
+          "width_m": 2.5400009533737675,
+          "height_m": 99.001
+        },
+        {
+          "y": 12.72,
+          "z": 2.59,
+          "width_m": 2.5400009533737675,
+          "height_m": 99.001
+        },
+        {
+          "y": 12.74,
+          "z": 0.1,
+          "width_m": 2.5400009533737675,
+          "height_m": 99.001
+        },
+        {
+          "y": 12.74,
+          "z": 1,
+          "width_m": 2.5400009533737675,
+          "height_m": 99.001
+        },
+        {
+          "y": 12.74,
+          "z": 1.92,
+          "width_m": 2.5400009533737675,
+          "height_m": 99.001
+        },
+        {
+          "y": 12.74,
+          "z": 2.59,
+          "width_m": 2.5400009533737675,
+          "height_m": 99.001
+        },
+        {
+          "y": 12.82,
+          "z": 0.1,
+          "width_m": 2.4000015377993424,
+          "height_m": 2.5999999608520175
+        },
+        {
+          "y": 12.82,
+          "z": 1,
+          "width_m": 2.4000015377993424,
+          "height_m": 2.5999999608520175
+        },
+        {
+          "y": 12.82,
+          "z": 1.92,
+          "width_m": 2.4000015377993424,
+          "height_m": 2.5999999608520175
+        },
+        {
+          "y": 12.82,
+          "z": 2.59,
+          "width_m": 2.4000015377993424,
+          "height_m": 2.5999999608520175
+        },
+        {
+          "y": 12.9,
+          "z": 0.1,
+          "width_m": 2.4000015377993424,
+          "height_m": 2.5999999608520175
+        },
+        {
+          "y": 12.9,
+          "z": 1,
+          "width_m": 2.4000015377993424,
+          "height_m": 2.5999999608520175
+        },
+        {
+          "y": 12.9,
+          "z": 1.92,
+          "width_m": 2.4000015377993424,
+          "height_m": 2.5999999608520175
+        },
+        {
+          "y": 12.9,
+          "z": 2.59,
+          "width_m": 2.4000015377993424,
+          "height_m": 2.5999999608520175
+        },
+        {
+          "y": 12.99,
+          "z": 0.1,
+          "width_m": 2.4000015377993424,
+          "height_m": 2.599999777382536
+        },
+        {
+          "y": 12.99,
+          "z": 1,
+          "width_m": 2.4000015377993424,
+          "height_m": 2.599999777382536
+        },
+        {
+          "y": 12.99,
+          "z": 1.92,
+          "width_m": 2.4000015377993424,
+          "height_m": 2.599999777382536
+        },
+        {
+          "y": 12.99,
+          "z": 2.59,
+          "width_m": 2.4000015377993424,
+          "height_m": 2.599999777382536
+        }
+      ],
+      "min_width_m": 2.4000015377993424,
+      "min_height_m": 2.599999777382536,
+      "numeric_tolerance_m": 0.00001,
+      "parked_leaves_y": [
+        12.71,
+        12.75
+      ],
+      "wall_south_y": 12.8,
+      "parked_leaf_wall_gap_m": 0.05,
+      "extra_opening_face_m2": 2.6,
+      "extra_ground_area_m2": 0
+    },
+    "local_zero_area": 0,
+    "local_nonmanifold": 0,
+    "fbx_bbox_max_error_m": 0.0000133514404296875,
+    "local_path_min_separations_m": [
+      {
+        "id": "DOOR_TO_TAKE",
+        "reported_pass": true,
+        "reported_min": 0.05999999999999517
+      },
+      {
+        "id": "TAKE_TO_TURN",
+        "reported_pass": true,
+        "reported_min": 0.05999999999999517
+      },
+      {
+        "id": "BENCH_APPROACH",
+        "reported_pass": true,
+        "reported_min": 0.11000000000000121
+      },
+      {
+        "id": "RISE_TO_PUBLIC",
+        "reported_pass": true,
+        "reported_min": 0.040172413793101214
+      },
+      {
+        "id": "PUBLIC_TO_WAIT",
+        "reported_pass": true,
+        "reported_min": 0.24017241379310406
+      },
+      {
+        "id": "WAIT_TO_EXIT",
+        "reported_pass": true,
+        "reported_min": 0.08017241379310391
+      },
+      {
+        "id": "DOOR_IN_SIMULTANEOUS",
+        "reported_pass": true,
+        "reported_min": 0.040172413793101214
+      },
+      {
+        "id": "DOOR_OUT_SIMULTANEOUS",
+        "reported_pass": true,
+        "reported_min": 0.08017241379310747
+      }
+    ],
+    "two_travellers": {
+      "passed": true,
+      "enclosing_radius": 0.5469192987833656,
+      "pair_clearance": 0.10616140243327155,
+      "scope": "two independent complete door lines, circle hull; not all arbitrary merging traffic"
+    },
+    "bench_transition_passed": true,
+    "shoe_bend_passed": true,
+    "scope": "Reported finite envelope tests retained with explicit dimensions. Not independently rerun, not real character motion or arbitrary crowd validation."
+  },
+  "review_outcome": {
+    "door_and_bench_local_art": "recommend retain/pass targeted planning review under documented dimensional assumptions; user acceptance pending",
+    "cabinet_capacity": "900 nominal retained; six-row design still candidate, not operational capacity proof",
+    "operation_point": "door-to-operation route documented; all eight distance arithmetic cases match; current runtime compatibility UNVERIFIED",
+    "final_seat_binding": "PAUSED",
+    "whole_building_final": "NOT PASSED",
+    "new_production_card_issued": false,
+    "model_or_engine_modified": false
+  },
+  "next_evidence": "Read-only current map/level identity, Classroom PlaceActor world transform, player Actor world position and scaled capsule half-height at P/E, and C01 floor/world mapping. Current review does not launch or change the game."
+}

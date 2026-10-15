@@ -1,3 +1,11 @@
+# 当前交接：C01试作局部修订02规划回审 · 2026-10-16
+
+先读[审阅结论](AssetPlanning/BuildingProduction/review-C01-trial-revision-02.md)及[独立审计JSON](AssetPlanning/BuildingProduction/C01/trial-revision-02-planning-audit.json)，再读[制作回件](AssetPlanning/BuildingProduction/C01/trial-revision-02-handoff.md)。建议通过指定门/坐面局部美术空间修订，用户尚未确认；整栋仍不最终通过，最终席继续暂停。实际模型/FBX属于原Revision02回件，本窗口没有改资产或重跑源验收。
+
+G=(45,19.5,4)m，假设Actor+96cm、候选P=E工程Z1296cm；规划A.Z1200时d96/余134，历史A.Z800时d496/余−266。8行复算正确，但两来源均不能替代当前地图实测。下一步应补当前关卡、Classroom锚点、Actor/半高及楼层映射的只读证据，再判断接口和席；没有新制作卡，不自动转交或接UE。
+
+41交付/373保护/8来源SHA保持；柜900/15.048㎡、凳1.080㎡和旧纠错1.080㎡分列，3板3200×2400、4图2560×1440。原卡/源/RT01/B01/SchoolLife保持。本轮仅10份审阅交接文档正常提交推送，新增LFS素材0；完整提交/远端/最终工作区实绩见本聊天收尾报告，原3脚本不提交。下方为历史记录。
+
 # C01 Trial01局部修订02同步实绩 · 2026-10-16
 
 成果提交[e9f21b493a832cf61e7f5cc1a69fe7ebddd658bc](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/e9f21b493a832cf61e7f5cc1a69fe7ebddd658bc)已普通推送origin/main，远端完整一致。49相关文件＝42独立修订包（41项manifest＋清单本身）＋7交接/索引。LFS实际上传2/2，Blend4546681字节、FBX16546332字节，合21093013字节；PNG普通Git。推送后LFS dry-run空/退出0。41回件项暂存内容及两LFS指针OID/大小逐项核过，373原版/只读输入SHA保持。规划聊天idle/最后轮completed，本地与远端起点ad9bb026f962dbcdce7f54ca1005c462767b6c1c、空索引/无锁核过，无并行Git或强推；已跟踪工作区干净，仅原3脚本未跟踪且未夹带。
