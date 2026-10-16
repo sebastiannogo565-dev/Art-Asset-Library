@@ -1,3 +1,7 @@
+# 当前：C01二层迁移方案01已回审，待用户判断 · 2026-10-16
+
+[规划审阅](Docs/AssetPlanning/BuildingProduction/review-C01-second-floor-migration-01.md)建议接受根候选Z800/F2与A候选Z1200及统一坐标基准。首轮建议限独立图空间、E/Enter与NPC行走，不改存读白名单；原图F3回归不代表新二层恢复集成通过。原生缺项、最终席与整栋最终通过状态保持；未改原方案/模型或工程，不发布接入卡，停止待确认。
+
 # 当前：C01二层接口迁移方案01已编制 · 2026-10-16
 
 [统一迁移方案](Docs/AssetPlanning/BuildingProduction/C01/second-floor-migration-01.md)／[接口数据](Docs/AssetPlanning/BuildingProduction/C01/second-floor-migration-01.json)。本聊天仍无可调用原生unreal-mcp，未取得当前地图/Actor/Pawn；方案保正式F2、根候选+8m与F2+12m、230cm及F3Home语义。新增独立测试图范围/回退，明确新图不在原存读档白名单，不能宣称新图F3回Home通过。只编制方案，未导入/改工程或美术；最终席及整栋状态不解锁，停止待审阅。

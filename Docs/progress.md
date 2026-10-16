@@ -1,3 +1,9 @@
+# C01二层迁移方案01规划回审 · 2026-10-16
+
+- 已完成：[审阅](AssetPlanning/BuildingProduction/review-C01-second-floor-migration-01.md)及[独立复核](AssetPlanning/BuildingProduction/C01/second-floor-migration-01-planning-audit.json)，15来源SHA、7映射/3层/8距离例一致；独立图正常活动/初始化与存读/跨区限制分别核源码。
+- 待用户判断：根Z800/F2与A Z1200候选；首轮仅新图空间/E/Enter/NPC行走，白名单不改，二层恢复集成后续安排。
+- 未验证：原生工程/地图/PIE/dirty/Actor/Pawn、导入单位朝向/根、实际F2/N/路径/活动资格及新二层恢复；最终席与整栋状态不解锁。未改原方案/源/工程，无新执行卡。
+
 # C01二层迁移方案01同步实绩 · 2026-10-16
 
 方案成果提交[473cbeadd14520f8495c8b7c136271f56e27c86c](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/473cbeadd14520f8495c8b7c136271f56e27c86c)已普通推送origin/main，git ls-remote完整哈希一致。9份相关文档，无新LFS对象，推送后LFS dry-run空/退出0；原3脚本未跟踪保留。规划聊天idle/最新轮completed，本地/远端起点fa18f1354055c5d6ece85de1a93cb5de19a69060，空索引/无锁已核，无并行Git、无强推或工程提交。

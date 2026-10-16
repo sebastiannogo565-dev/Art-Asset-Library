@@ -1,3 +1,11 @@
+# 当前交接：C01二层迁移方案01审阅完成 · 2026-10-16
+
+先读[规划审阅](AssetPlanning/BuildingProduction/review-C01-second-floor-migration-01.md)／[独立复核](AssetPlanning/BuildingProduction/C01/second-floor-migration-01-planning-audit.json)，原[方案](AssetPlanning/BuildingProduction/C01/second-floor-migration-01.md)和JSON完整保留。建议通过统一根Z800、正式F2/A候选Z1200的纸面基准；用户尚未确认，不等于导入或运行授权。
+
+建议首轮限独立测试图空间/E/Enter/NPC实际行走；新图不在存读白名单，F3拒绝不当作恢复通过。原支持图F3回归也不证明新二层NPC恢复，集成缺项保留，白名单不改。复制出口不代表新图支持跨区。原生读回前置仍缺，实际根/Actor不以历史或候选补齐；最终席与整栋最终通过暂停。
+
+本轮15来源SHA/7映射/3层/8算例直接核对，制作1074保护结果仅引用。SchoolLife98e3db849cee744763dc2d760154c45b090b0181/Git保持干净，源/模型/存档和四交接未改。只提交推送美术9份审阅文档，LFS新增0，完整提交/远端/工作区见最终报告，原3脚本保留。待用户确认坐标与首轮边界后再安排接入卡，本轮不发布或实施。
+
 # C01二层迁移方案01同步实绩 · 2026-10-16
 
 方案成果提交[473cbeadd14520f8495c8b7c136271f56e27c86c](https://github.com/sebastiannogo565-dev/Art-Asset-Library/commit/473cbeadd14520f8495c8b7c136271f56e27c86c)已普通推送origin/main，git ls-remote完整哈希一致。9份相关文档，无新LFS对象，推送后LFS dry-run空/退出0；原3脚本未跟踪保留。规划聊天idle/最新轮completed，本地/远端起点fa18f1354055c5d6ece85de1a93cb5de19a69060，空索引/无锁已核，无并行Git、无强推或工程提交。

@@ -1,3 +1,15 @@
+# C01二层迁移方案01规划审阅完成 · 2026-10-16
+
+[审阅](AssetPlanning/BuildingProduction/review-C01-second-floor-migration-01.md)／[直接复核](AssetPlanning/BuildingProduction/C01/second-floor-migration-01-planning-audit.json)已交。15来源SHA、7坐标映射、3层标高及8距离条件例复算一致；静态代码核普通World/E/NPC初始化与存读/跨区地图限制，未发现坐标方案硬冲突。建议通过纸面基准，首轮空间/活动/行走与二层恢复集成分开。制作1074保护结果只引用，不冒称本轮全量重验。
+
+SchoolLife保持98e3db849cee744763dc2d760154c45b090b0181且干净；原生未暴露、运行数据仍缺，没有UE/Blender或接入卡。原方案/JSON/模型保持，仅本轮9份审阅交接文档普通提交推送，核远端/LFS/工作区后停止，实际Git见收尾。
+
+# C01二层迁移方案01规划审阅计划 · 2026-10-16
+
+起点美术main/d32a39fdeec0e07134a888fbcc323ca0913f7f92，仅原3无关脚本未跟踪；工程master/98e3db849cee744763dc2d760154c45b090b0181干净。读取新方案/JSON、四交接、原整栋接口与源码；核根/楼层/三入口/操作与恢复候选映射，独立复算8条件距离和15来源SHA，检查新图E/Enter/NPC与存读/跨区地图限制的分工。
+
+本轮只交规划审阅及直接复核证据，原方案/JSON/模型/SchoolLife保持只读。区分“方案建议通过”“用户尚未批准实施”“原生数据未取得”“新二层恢复集成未闭环”，不增加白名单或执行接入。更新美术四交接及当前索引，只提交本轮相关文档正常推送并核远端/LFS，交回用户判断；不新发实施卡、不运行UE/Blender或子代理。
+
 # C01二层迁移方案01完成记录 · 2026-10-16
 
 按下方计划完成[统一迁移方案](AssetPlanning/BuildingProduction/C01/second-floor-migration-01.md)与[接口JSON](AssetPlanning/BuildingProduction/C01/second-floor-migration-01.json)，明确原生不可调用/运行数据缺项、统一根与二层基准、导航和P/E区分、F3Home及独立新图白名单限制。8行条件距离已复算；工程231文件（含原sav）与全部843份ArtSource共1074项原字节SHA核对保持，工程Git干净/HEAD不变。未运行UE/Blender或实施任何测试步骤。相关文档核链接/差异后正常提交推送，停规划审阅。

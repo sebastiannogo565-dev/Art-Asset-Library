@@ -1,0 +1,479 @@
+{
+  "date": "2026-10-16",
+  "review_base": "d32a39fdeec0e07134a888fbcc323ca0913f7f92",
+  "scope": "Planning/source review only. No Unreal or Blender executed; no new runtime verification or implementation task card.",
+  "input_plan": {
+    "markdown": "D:/Art Asset Library/Docs/AssetPlanning/BuildingProduction/C01/second-floor-migration-01.md",
+    "markdown_sha256": "84f1d9eb277c9c6d8ef9ab0f1e3b6f50f7532352c3139268ab2596f36341a1f8",
+    "json": "D:/Art Asset Library/Docs/AssetPlanning/BuildingProduction/C01/second-floor-migration-01.json",
+    "json_sha256": "5ea16423d398b63bbba9eba7483a9065951f80745195d918aa3673a80f89bb28"
+  },
+  "source_checks": [
+    {
+      "path": "D:/Art Asset Library/Docs/AssetPlanning/BuildingProduction/C01/interface-readonly-01.md",
+      "expected": "308aa1c3926eedfc9a07a39af34e9ae05a295ef6e577d9e2aef5bb210e31b7d1",
+      "actual": "308aa1c3926eedfc9a07a39af34e9ae05a295ef6e577d9e2aef5bb210e31b7d1",
+      "unchanged": true
+    },
+    {
+      "path": "D:/Art Asset Library/Docs/AssetPlanning/BuildingProduction/C01/interface-readonly-evidence-01.json",
+      "expected": "2f66388e4e92afbad08ebd5bf1403da813599056a127a560c693d352aa328c24",
+      "actual": "2f66388e4e92afbad08ebd5bf1403da813599056a127a560c693d352aa328c24",
+      "unchanged": true
+    },
+    {
+      "path": "D:/Art Asset Library/Docs/AssetPlanning/BuildingProduction/review-C01-trial-revision-02.md",
+      "expected": "dd7f27a7674bad05dacd212177f0d67da672c4c4e37308feb0be5b2ea0d58d26",
+      "actual": "dd7f27a7674bad05dacd212177f0d67da672c4c4e37308feb0be5b2ea0d58d26",
+      "unchanged": true
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/Revision02/GEOMETRY.json",
+      "expected": "ce0abe83ae496f98e219bbd94ecfa29bbcaddbabcba25063404013aa1da9fae6",
+      "actual": "ce0abe83ae496f98e219bbd94ecfa29bbcaddbabcba25063404013aa1da9fae6",
+      "unchanged": true
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/Revision02/COORDINATES.csv",
+      "expected": "d5a74d302651c7b38c1a18d5c4bb71bf3662b7dd44a7f55f5e1ace5adf38a0f3",
+      "actual": "d5a74d302651c7b38c1a18d5c4bb71bf3662b7dd44a7f55f5e1ace5adf38a0f3",
+      "unchanged": true
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/Revision02/SPEC.md",
+      "expected": "654372de9b92434dc991cf4e98661f20e04c115f5d1a0cce5e5a0a5e9a0cc35c",
+      "actual": "654372de9b92434dc991cf4e98661f20e04c115f5d1a0cce5e5a0a5e9a0cc35c",
+      "unchanged": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldSubsystem.cpp",
+      "expected": "edc864605ca12c1d8fd29529ff9229def91717d6c9719d4eb37abf526510c169",
+      "actual": "edc864605ca12c1d8fd29529ff9229def91717d6c9719d4eb37abf526510c169",
+      "unchanged": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldActivityConfirmation.cpp",
+      "expected": "a4ecc30b3db42984edcb604074f94beefc52f2e21361698dd7bba54593499da8",
+      "actual": "a4ecc30b3db42984edcb604074f94beefc52f2e21361698dd7bba54593499da8",
+      "unchanged": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldSave.cpp",
+      "expected": "9897cac605840f457cc6661635be001a231b1fab51ce586b010ed2c4b997de74",
+      "actual": "9897cac605840f457cc6661635be001a231b1fab51ce586b010ed2c4b997de74",
+      "unchanged": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldRegionTravel.cpp",
+      "expected": "2800bde65c88139f4ac0ba58662d11c83fa2f8e83cd0895a9aed4817b6f2443a",
+      "actual": "2800bde65c88139f4ac0ba58662d11c83fa2f8e83cd0895a9aed4817b6f2443a",
+      "unchanged": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeSessionRegionTravel.cpp",
+      "expected": "f23bd72d639230037644aa105b4ab69ffe574c89d5bd2a29519ab11dae3a5126",
+      "actual": "f23bd72d639230037644aa105b4ab69ffe574c89d5bd2a29519ab11dae3a5126",
+      "unchanged": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifePlaces.h",
+      "expected": "b9631f75b6558e62bd5ea8720a58daabcc81ac388c9e4e5ba8a0211528c6d5f2",
+      "actual": "b9631f75b6558e62bd5ea8720a58daabcc81ac388c9e4e5ba8a0211528c6d5f2",
+      "unchanged": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeCharacter.cpp",
+      "expected": "bd4614257acac5db08653cd586747ded238d7f5dd3e038863d9ff4bc8eebd9df",
+      "actual": "bd4614257acac5db08653cd586747ded238d7f5dd3e038863d9ff4bc8eebd9df",
+      "unchanged": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldSubsystem.h",
+      "expected": "055ac197fef66a23414d0c4aabf2a8b04ba2592c58892b9ecad5588df61239b5",
+      "actual": "055ac197fef66a23414d0c4aabf2a8b04ba2592c58892b9ecad5588df61239b5",
+      "unchanged": true
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/LifeCoreBlockout-Phase4A-Step1-Plan.md",
+      "expected": "9105635f3d7ddc9a1e11a6c9eb9e34ed9857a2a82842601c23e765670202b823",
+      "actual": "9105635f3d7ddc9a1e11a6c9eb9e34ed9857a2a82842601c23e765670202b823",
+      "unchanged": true
+    }
+  ],
+  "additional_code_checks": [
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeGameMode.cpp",
+      "sha256": "20518dd2b5903f314ebcf92b4dc5a6633d17eaaa738d3bd49dd839a64a628c7d"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldSubsystem.cpp",
+      "sha256": "edc864605ca12c1d8fd29529ff9229def91717d6c9719d4eb37abf526510c169"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldRegionTravel.cpp",
+      "sha256": "2800bde65c88139f4ac0ba58662d11c83fa2f8e83cd0895a9aed4817b6f2443a"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldSave.cpp",
+      "sha256": "9897cac605840f457cc6661635be001a231b1fab51ce586b010ed2c4b997de74"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeSessionRegionTravel.cpp",
+      "sha256": "f23bd72d639230037644aa105b4ab69ffe574c89d5bd2a29519ab11dae3a5126"
+    }
+  ],
+  "independent_math": {
+    "origin_y_offset_m": 51,
+    "mappings": [
+      {
+        "id": "building_root",
+        "local": [
+          0,
+          0,
+          0
+        ],
+        "declared": [
+          0,
+          5100,
+          800
+        ],
+        "computed": [
+          0,
+          5100,
+          800
+        ],
+        "matches": true
+      },
+      {
+        "id": "operation_ground_G",
+        "local": [
+          45,
+          19.5,
+          4
+        ],
+        "declared": [
+          4500,
+          7050,
+          1200
+        ],
+        "computed": [
+          4500,
+          7050,
+          1200
+        ],
+        "matches": true
+      },
+      {
+        "id": "art_recovery_candidate",
+        "local": [
+          45,
+          18.7,
+          4
+        ],
+        "declared": [
+          4500,
+          6970,
+          1200
+        ],
+        "computed": [
+          4500,
+          6970,
+          1200
+        ],
+        "matches": true
+      },
+      {
+        "id": "main_entry",
+        "local": [
+          25,
+          0,
+          0
+        ],
+        "declared": [
+          2500,
+          5100,
+          800
+        ],
+        "computed": [
+          2500,
+          5100,
+          800
+        ],
+        "matches": true
+      },
+      {
+        "id": "north_entry",
+        "local": [
+          90,
+          28,
+          0
+        ],
+        "declared": [
+          9000,
+          7900,
+          800
+        ],
+        "computed": [
+          9000,
+          7900,
+          800
+        ],
+        "matches": true
+      },
+      {
+        "id": "east_entry",
+        "local": [
+          150,
+          14,
+          0
+        ],
+        "declared": [
+          15000,
+          6500,
+          800
+        ],
+        "computed": [
+          15000,
+          6500,
+          800
+        ],
+        "matches": true
+      },
+      {
+        "id": "classroom_door",
+        "local": [
+          45,
+          12.7,
+          4
+        ],
+        "declared": [
+          4500,
+          6370,
+          1200
+        ],
+        "computed": [
+          4500,
+          6370,
+          1200
+        ],
+        "matches": true
+      }
+    ],
+    "floors": [
+      {
+        "id": "F1_finished_floor",
+        "local_z": 0,
+        "world_z": 800,
+        "matches": true
+      },
+      {
+        "id": "F2_finished_floor",
+        "local_z": 4,
+        "world_z": 1200,
+        "matches": true
+      },
+      {
+        "id": "F3_finished_floor",
+        "local_z": 8,
+        "world_z": 1600,
+        "matches": true
+      }
+    ],
+    "skylight_including_frame_world_z_cm": 2168,
+    "terrace_finish_world_z_cm": 1603,
+    "conditional_distances": [
+      {
+        "phase": "preview",
+        "ground_to_actor_offset_assumed_cm": 96,
+        "anchor_source": "formal_candidate",
+        "actor_cm": [
+          4500,
+          7050,
+          1296
+        ],
+        "anchor_cm": [
+          4500,
+          7050,
+          1200
+        ],
+        "distance_cm": 96,
+        "margin_cm": 134,
+        "runtime_measured": false,
+        "recomputed_distance_cm": 96,
+        "recomputed_margin_cm": 134,
+        "matches": true
+      },
+      {
+        "phase": "preview",
+        "ground_to_actor_offset_assumed_cm": 96,
+        "anchor_source": "historical_if_unmigrated",
+        "actor_cm": [
+          4500,
+          7050,
+          1296
+        ],
+        "anchor_cm": [
+          4500,
+          7050,
+          800
+        ],
+        "distance_cm": 496,
+        "margin_cm": -266,
+        "runtime_measured": false,
+        "recomputed_distance_cm": 496,
+        "recomputed_margin_cm": -266,
+        "matches": true
+      },
+      {
+        "phase": "Enter",
+        "ground_to_actor_offset_assumed_cm": 96,
+        "anchor_source": "formal_candidate",
+        "actor_cm": [
+          4500,
+          7050,
+          1296
+        ],
+        "anchor_cm": [
+          4500,
+          7050,
+          1200
+        ],
+        "distance_cm": 96,
+        "margin_cm": 134,
+        "runtime_measured": false,
+        "recomputed_distance_cm": 96,
+        "recomputed_margin_cm": 134,
+        "matches": true
+      },
+      {
+        "phase": "Enter",
+        "ground_to_actor_offset_assumed_cm": 96,
+        "anchor_source": "historical_if_unmigrated",
+        "actor_cm": [
+          4500,
+          7050,
+          1296
+        ],
+        "anchor_cm": [
+          4500,
+          7050,
+          800
+        ],
+        "distance_cm": 496,
+        "margin_cm": -266,
+        "runtime_measured": false,
+        "recomputed_distance_cm": 496,
+        "recomputed_margin_cm": -266,
+        "matches": true
+      },
+      {
+        "phase": "preview",
+        "ground_to_actor_offset_assumed_cm": 98,
+        "anchor_source": "formal_candidate",
+        "actor_cm": [
+          4500,
+          7050,
+          1298
+        ],
+        "anchor_cm": [
+          4500,
+          7050,
+          1200
+        ],
+        "distance_cm": 98,
+        "margin_cm": 132,
+        "runtime_measured": false,
+        "recomputed_distance_cm": 98,
+        "recomputed_margin_cm": 132,
+        "matches": true
+      },
+      {
+        "phase": "preview",
+        "ground_to_actor_offset_assumed_cm": 98,
+        "anchor_source": "historical_if_unmigrated",
+        "actor_cm": [
+          4500,
+          7050,
+          1298
+        ],
+        "anchor_cm": [
+          4500,
+          7050,
+          800
+        ],
+        "distance_cm": 498,
+        "margin_cm": -268,
+        "runtime_measured": false,
+        "recomputed_distance_cm": 498,
+        "recomputed_margin_cm": -268,
+        "matches": true
+      },
+      {
+        "phase": "Enter",
+        "ground_to_actor_offset_assumed_cm": 98,
+        "anchor_source": "formal_candidate",
+        "actor_cm": [
+          4500,
+          7050,
+          1298
+        ],
+        "anchor_cm": [
+          4500,
+          7050,
+          1200
+        ],
+        "distance_cm": 98,
+        "margin_cm": 132,
+        "runtime_measured": false,
+        "recomputed_distance_cm": 98,
+        "recomputed_margin_cm": 132,
+        "matches": true
+      },
+      {
+        "phase": "Enter",
+        "ground_to_actor_offset_assumed_cm": 98,
+        "anchor_source": "historical_if_unmigrated",
+        "actor_cm": [
+          4500,
+          7050,
+          1298
+        ],
+        "anchor_cm": [
+          4500,
+          7050,
+          800
+        ],
+        "distance_cm": 498,
+        "margin_cm": -268,
+        "runtime_measured": false,
+        "recomputed_distance_cm": 498,
+        "recomputed_margin_cm": -268,
+        "matches": true
+      }
+    ],
+    "horizontal_radius_cm_given_96cm_vertical": 209.00717691026784
+  },
+  "source_conclusions": {
+    "normal_E_NPC": "GameMode StartPlay initializes scene; World supports Game/PIE and IsTickable uses live world lifecycle, not new-map-name whitelist. This is code feasibility, not runtime proof.",
+    "save_load": "ValidateSavePlayer limits to four named maps; proposed C01_F2_Interface_01 is excluded. F3 should be rejected there, not counted as Home recovery pass.",
+    "region_travel": "NearbyRegionExit and BeginRegionTravel use original Campus/Coast pair; copied exits do not make the new map a supported region.",
+    "restoration": "F3 on existing supported map is legacy regression only; does not prove NPC restore at new F2.",
+    "native_runtime": "Unavailable; no current transforms/map/PIE/dirty/Pawn measured in this review."
+  },
+  "review_outcome": {
+    "paper_plan": "recommend accept as conditional interface reference; user acceptance pending",
+    "implementation_authorized": false,
+    "new_task_card": false,
+    "full_restore_in_new_test_map": "not included in recommended first test scope; remains separate integration gap",
+    "final_seat_binding": "paused",
+    "whole_building_final": "not passed"
+  },
+  "engineering_git": {
+    "head": "98e3db849cee744763dc2d760154c45b090b0181",
+    "status": ""
+  },
+  "producer_protection_claim": {
+    "count": 1074,
+    "review_scope": "1074 is the producer recorded result, not a newly repeated 1074-file check. This review directly checked the 15 listed source references, candidate arithmetic and engineering Git status."
+  }
+}
