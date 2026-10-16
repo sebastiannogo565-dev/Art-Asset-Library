@@ -1,3 +1,10 @@
+# C01二层迁移方案01 · 2026-10-16
+
+- 已完成：[方案](AssetPlanning/BuildingProduction/C01/second-floor-migration-01.md)及[结构化接口](AssetPlanning/BuildingProduction/C01/second-floor-migration-01.json)，列根/F2/A/N/G/P/E、沿用与迁移项、230cm条件表、独立测试范围与回退；本轮实际原生请求0，运行读回缺项为null。
+- 本轮源码确认：新测试图不在ValidateSavePlayer允许名单，F3会拒绝；推荐空间/E/Enter/NPC试接入先保代码不变，F3Home运行回归留在原受支持地图的后续隔离会话；新图完整恢复验证需另行判断。
+- 未验证：当前UE工程/地图/PIE/保存、Classroom实际身份/Level/变换、正式实例/根/F2、Pawn及scaled半高、实际导航与P/E。历史Z800和候选Z1200分别标注，未认定当前已有4m实测冲突。
+- 不变：SchoolLife源码/配置/地图/存档/四交接与ArtSource；未启编辑器/PIE、未操作模型或正式席。交回规划审阅，实际导入另行安排。
+
 # C01接口只读核查 · 2026-10-16
 
 - 已完成：[分源报告](AssetPlanning/BuildingProduction/C01/interface-readonly-01.md)、源码三维230cm判定、历史锚点与正式二层差异、导航/恢复依赖检查；235工程输入前后SHA一致，工程Git不变。

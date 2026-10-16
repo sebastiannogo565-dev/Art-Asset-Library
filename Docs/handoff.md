@@ -1,3 +1,11 @@
+# 当前交接：C01二层迁移方案01，未实施 · 2026-10-16
+
+阅读[统一方案](AssetPlanning/BuildingProduction/C01/second-floor-migration-01.md)和[接口数据](AssetPlanning/BuildingProduction/C01/second-floor-migration-01.json)，历史报告保留未覆盖。本聊天工具目录无原生unreal-mcp或发现入口，原生请求0；当前地图/Actor/根/Pawn全部待实际读回。不能把缺项写成无实例、无Pawn或服务器失败。
+
+推荐根(0,5100,800)cm/正确单位下R0S1，正式F2完成面与A候选Z1200；N重新投影、P/E实读分别核230cm，不改楼层/半径/人物。F3仍Home；独立C01_F2_Interface_01新图不在存读档白名单，推荐只做空间/E/Enter/NPC测试，Home恢复另在受支持图隔离回归，完整新图恢复待决定，不偷偷改名单。
+
+只有方案/接口数据与美术交接索引更新，没有模型、工程或存档写入。未来导入/移锚/导航/测试会话及任何地图支持改动尚未实施。工程起点master/98e3db849cee744763dc2d760154c45b090b0181，原3无关脚本保持；Git/保护实绩在收尾记录及最终报告。停规划审阅，不自动启动测试。
+
 # 当前交接：C01接口只读报告，原生数据未取得 · 2026-10-16
 
 入口：[报告](AssetPlanning/BuildingProduction/C01/interface-readonly-01.md)／[证据JSON](AssetPlanning/BuildingProduction/C01/interface-readonly-evidence-01.json)。本聊天原生unreal-mcp工具为0，未取得当前关卡/PIE/脏资产/Classroom或Pawn变换；不把配置默认Campus、历史锚点SchoolLifePlaceAnchor_1/Z800或插件启用写成已连接。主机两次查询未见UE/游戏进程；本轮未启停PIE/编辑器、未保存资产。

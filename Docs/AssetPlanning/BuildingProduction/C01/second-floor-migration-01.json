@@ -1,0 +1,410 @@
+{
+  "schema": "C01_F2_MIGRATION_PLAN_01",
+  "date": "2026-10-16",
+  "status": "proposal_only_not_implemented",
+  "art_base_commit": "fa18f1354055c5d6ece85de1a93cb5de19a69060",
+  "engineering_base_commit": "98e3db849cee744763dc2d760154c45b090b0181",
+  "native_unreal": {
+    "callable_tool_names": [],
+    "discovery_entry_available": false,
+    "native_requests_made": 0,
+    "handshake_verified": false,
+    "server_failure_proven": false,
+    "method": "Current session ALL_TOOLS inspected by name and description for Unreal, then exact toolset/search discovery names; no native Unreal entry exposed. Configuration not used as callability evidence."
+  },
+  "runtime_readback": {
+    "project": null,
+    "map": null,
+    "PIE": null,
+    "dirty_packages": null,
+    "classroom_actor_identity": null,
+    "classroom_level": null,
+    "classroom_world_transform": null,
+    "formal_C01_presence": null,
+    "formal_C01_root_transform": null,
+    "F2_floor_hit": null,
+    "pawn_presence": null,
+    "pawn_location_cm": null,
+    "pawn_scaled_capsule_half_height_cm": null,
+    "pawn_scale": null,
+    "navigation_projection_cm": null,
+    "preview_distance_cm": null,
+    "enter_distance_cm": null
+  },
+  "units": {
+    "source": "meters",
+    "engineering": "centimeters",
+    "axes": "design +X east, +Y north, +Z up; import handedness/orientation must be verified",
+    "local_to_engineering_candidate": "W_cm=(100*x,100*(y+51),100*(z+8)); apply unit conversion once, translation once"
+  },
+  "candidate_interfaces": [
+    {
+      "id": "building_root",
+      "translation_cm": [
+        0,
+        5100,
+        800
+      ],
+      "rotation_PYR_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale_after_unit_conversion": [
+        1,
+        1,
+        1
+      ],
+      "status": "planning_not_live"
+    },
+    {
+      "id": "F1_finished_floor",
+      "local_z_m": 0,
+      "world_z_cm": 800,
+      "status": "planning_not_live"
+    },
+    {
+      "id": "F2_finished_floor",
+      "local_z_m": 4,
+      "world_z_cm": 1200,
+      "status": "planning_not_live"
+    },
+    {
+      "id": "F3_finished_floor",
+      "local_z_m": 8,
+      "world_z_cm": 1600,
+      "status": "planning_not_live"
+    },
+    {
+      "id": "classroom_anchor_A",
+      "world_cm": [
+        4500,
+        7050,
+        1200
+      ],
+      "historical_cm": [
+        4500,
+        7050,
+        800
+      ],
+      "proposed_delta_from_historical_cm": [
+        0,
+        0,
+        400
+      ],
+      "status": "future_test_candidate_only; actual delta requires native readback"
+    },
+    {
+      "id": "navigation_target_N",
+      "world_cm": null,
+      "query_origin_candidate_cm": [
+        4500,
+        7050,
+        1200
+      ],
+      "existing_query_extent_cm": [
+        80,
+        80,
+        200
+      ],
+      "status": "must project onto actual F2 navigation; do not substitute for A"
+    },
+    {
+      "id": "operation_ground_G",
+      "local_m": [
+        45,
+        19.5,
+        4
+      ],
+      "world_cm": [
+        4500,
+        7050,
+        1200
+      ],
+      "status": "art_candidate_not_runtime"
+    },
+    {
+      "id": "preview_P",
+      "world_cm": null,
+      "conditional_example_cm": [
+        4500,
+        7050,
+        1296
+      ],
+      "status": "actual Actor required; example assumes ground_to_actor_96cm"
+    },
+    {
+      "id": "confirm_E",
+      "world_cm": null,
+      "conditional_example_cm": [
+        4500,
+        7050,
+        1296
+      ],
+      "status": "must independently re-read; P=E only example"
+    },
+    {
+      "id": "art_recovery_candidate",
+      "local_m": [
+        45,
+        18.7,
+        4
+      ],
+      "world_cm": [
+        4500,
+        6970,
+        1200
+      ],
+      "status": "not_F3_not_product_behavior"
+    }
+  ],
+  "interaction": {
+    "radius_cm": 230,
+    "distance": "Actor location to actual PlaceActor location, full 3D, checked separately on preview and Enter",
+    "all_19_pose_stages_must_be_within_radius": false,
+    "seating_start_condition_added": false,
+    "default_teleport_added": false
+  },
+  "conditional_distance_examples": [
+    {
+      "phase": "preview",
+      "ground_to_actor_offset_assumed_cm": 96,
+      "anchor_source": "formal_candidate",
+      "actor_cm": [
+        4500,
+        7050,
+        1296
+      ],
+      "anchor_cm": [
+        4500,
+        7050,
+        1200
+      ],
+      "distance_cm": 96.0,
+      "margin_cm": 134.0,
+      "runtime_measured": false
+    },
+    {
+      "phase": "preview",
+      "ground_to_actor_offset_assumed_cm": 96,
+      "anchor_source": "historical_if_unmigrated",
+      "actor_cm": [
+        4500,
+        7050,
+        1296
+      ],
+      "anchor_cm": [
+        4500,
+        7050,
+        800
+      ],
+      "distance_cm": 496.0,
+      "margin_cm": -266.0,
+      "runtime_measured": false
+    },
+    {
+      "phase": "Enter",
+      "ground_to_actor_offset_assumed_cm": 96,
+      "anchor_source": "formal_candidate",
+      "actor_cm": [
+        4500,
+        7050,
+        1296
+      ],
+      "anchor_cm": [
+        4500,
+        7050,
+        1200
+      ],
+      "distance_cm": 96.0,
+      "margin_cm": 134.0,
+      "runtime_measured": false
+    },
+    {
+      "phase": "Enter",
+      "ground_to_actor_offset_assumed_cm": 96,
+      "anchor_source": "historical_if_unmigrated",
+      "actor_cm": [
+        4500,
+        7050,
+        1296
+      ],
+      "anchor_cm": [
+        4500,
+        7050,
+        800
+      ],
+      "distance_cm": 496.0,
+      "margin_cm": -266.0,
+      "runtime_measured": false
+    },
+    {
+      "phase": "preview",
+      "ground_to_actor_offset_assumed_cm": 98,
+      "anchor_source": "formal_candidate",
+      "actor_cm": [
+        4500,
+        7050,
+        1298
+      ],
+      "anchor_cm": [
+        4500,
+        7050,
+        1200
+      ],
+      "distance_cm": 98.0,
+      "margin_cm": 132.0,
+      "runtime_measured": false
+    },
+    {
+      "phase": "preview",
+      "ground_to_actor_offset_assumed_cm": 98,
+      "anchor_source": "historical_if_unmigrated",
+      "actor_cm": [
+        4500,
+        7050,
+        1298
+      ],
+      "anchor_cm": [
+        4500,
+        7050,
+        800
+      ],
+      "distance_cm": 498.0,
+      "margin_cm": -268.0,
+      "runtime_measured": false
+    },
+    {
+      "phase": "Enter",
+      "ground_to_actor_offset_assumed_cm": 98,
+      "anchor_source": "formal_candidate",
+      "actor_cm": [
+        4500,
+        7050,
+        1298
+      ],
+      "anchor_cm": [
+        4500,
+        7050,
+        1200
+      ],
+      "distance_cm": 98.0,
+      "margin_cm": 132.0,
+      "runtime_measured": false
+    },
+    {
+      "phase": "Enter",
+      "ground_to_actor_offset_assumed_cm": 98,
+      "anchor_source": "historical_if_unmigrated",
+      "actor_cm": [
+        4500,
+        7050,
+        1298
+      ],
+      "anchor_cm": [
+        4500,
+        7050,
+        800
+      ],
+      "distance_cm": 498.0,
+      "margin_cm": -268.0,
+      "runtime_measured": false
+    }
+  ],
+  "test_level": {
+    "candidate_package": "/Game/SchoolLife/Maps/Dev/C01_F2_Interface_01",
+    "created": false,
+    "recommended_scope": "Standalone copy of existing Campus test context; only C01 graybox content replaced in copy, preserve other six-place context; no production map writes",
+    "save_load_allowed_by_current_code": false,
+    "F3_in_this_level_expected": "rejected by existing level-name allowlist; not a Home recovery test pass",
+    "recommended_F3_validation": "Separate later regression on an existing supported map using verified disposable UserDir; no allowlist change in recommended spatial pilot",
+    "production_defaults_changed": false,
+    "RT01_open": false
+  },
+  "source_references": [
+    {
+      "path": "D:/Art Asset Library/Docs/AssetPlanning/BuildingProduction/C01/interface-readonly-01.md",
+      "sha256": "308aa1c3926eedfc9a07a39af34e9ae05a295ef6e577d9e2aef5bb210e31b7d1"
+    },
+    {
+      "path": "D:/Art Asset Library/Docs/AssetPlanning/BuildingProduction/C01/interface-readonly-evidence-01.json",
+      "sha256": "2f66388e4e92afbad08ebd5bf1403da813599056a127a560c693d352aa328c24"
+    },
+    {
+      "path": "D:/Art Asset Library/Docs/AssetPlanning/BuildingProduction/review-C01-trial-revision-02.md",
+      "sha256": "dd7f27a7674bad05dacd212177f0d67da672c4c4e37308feb0be5b2ea0d58d26"
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/Revision02/GEOMETRY.json",
+      "sha256": "ce0abe83ae496f98e219bbd94ecfa29bbcaddbabcba25063404013aa1da9fae6"
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/Revision02/COORDINATES.csv",
+      "sha256": "d5a74d302651c7b38c1a18d5c4bb71bf3662b7dd44a7f55f5e1ace5adf38a0f3"
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/Revision02/SPEC.md",
+      "sha256": "654372de9b92434dc991cf4e98661f20e04c115f5d1a0cce5e5a0a5e9a0cc35c"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldSubsystem.cpp",
+      "sha256": "edc864605ca12c1d8fd29529ff9229def91717d6c9719d4eb37abf526510c169"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldActivityConfirmation.cpp",
+      "sha256": "a4ecc30b3db42984edcb604074f94beefc52f2e21361698dd7bba54593499da8"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldSave.cpp",
+      "sha256": "9897cac605840f457cc6661635be001a231b1fab51ce586b010ed2c4b997de74"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldRegionTravel.cpp",
+      "sha256": "2800bde65c88139f4ac0ba58662d11c83fa2f8e83cd0895a9aed4817b6f2443a"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeSessionRegionTravel.cpp",
+      "sha256": "f23bd72d639230037644aa105b4ab69ffe574c89d5bd2a29519ab11dae3a5126"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifePlaces.h",
+      "sha256": "b9631f75b6558e62bd5ea8720a58daabcc81ac388c9e4e5ba8a0211528c6d5f2"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeCharacter.cpp",
+      "sha256": "bd4614257acac5db08653cd586747ded238d7f5dd3e038863d9ff4bc8eebd9df"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldSubsystem.h",
+      "sha256": "055ac197fef66a23414d0c4aabf2a8b04ba2592c58892b9ecad5588df61239b5"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/LifeCoreBlockout-Phase4A-Step1-Plan.md",
+      "sha256": "9105635f3d7ddc9a1e11a6c9eb9e34ed9857a2a82842601c23e765670202b823"
+    }
+  ],
+  "protected_baseline": {
+    "engineering_files": 231,
+    "art_source_files": 843,
+    "all_file_count": 1074,
+    "before_manifest_digest": "02c10330399500f347b92302e4fa67fdde83850bb702485b41c866c0cc98a9f7",
+    "after_check": "passed",
+    "changed": []
+  },
+  "implementation": {
+    "imported_models": 0,
+    "modified_engineering_files": 0,
+    "modified_art_source_files": 0,
+    "started_editor_or_PIE": false,
+    "new_gameplay_or_save_behaviors": 0
+  },
+  "verification": {
+    "conditional_example_rows": 8,
+    "current_engineering_git_status": "",
+    "current_engineering_commit": "98e3db849cee744763dc2d760154c45b090b0181",
+    "all_protected_files_unchanged": true,
+    "live_UE_validation_performed": false,
+    "geometry_mapping_checks": "passed: origin XY delta, root/floors, operation/anchor, roof/terrace, all local-to-world entries",
+    "horizontal_radius_with_96cm_vertical_delta_cm": 209.00717691026784
+  }
+}

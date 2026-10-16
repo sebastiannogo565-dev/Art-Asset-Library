@@ -1,3 +1,15 @@
+# C01二层迁移方案01完成记录 · 2026-10-16
+
+按下方计划完成[统一迁移方案](AssetPlanning/BuildingProduction/C01/second-floor-migration-01.md)与[接口JSON](AssetPlanning/BuildingProduction/C01/second-floor-migration-01.json)，明确原生不可调用/运行数据缺项、统一根与二层基准、导航和P/E区分、F3Home及独立新图白名单限制。8行条件距离已复算；工程231文件（含原sav）与全部843份ArtSource共1074项原字节SHA核对保持，工程Git干净/HEAD不变。未运行UE/Blender或实施任何测试步骤。相关文档核链接/差异后正常提交推送，停规划审阅。
+
+# C01二层接入迁移方案01执行计划 · 2026-10-16
+
+本轮仅新增统一迁移方案和结构化接口表，不重复历史只读核查报告。先查本聊天实际工具目录：无原生unreal-mcp及list/describe/call入口，未发送原生请求；读工程AGENTS/README与四交接、美术规则/四交接、原只读报告及修订02回审/坐标。美术起点main/fa18f1354055c5d6ece85de1a93cb5de19a69060（仅原3脚本未跟踪），工程master/98e3db849cee744763dc2d760154c45b090b0181干净。
+
+按统一单位列根变换、楼层完成面、A锚点、N导航和G/P/E操作位置；说明灰盒+8m与正式F2+12m的来源、未来迁移/直接沿用项与230cm三维约束。补独立测试图范围/后续验证及回退，特别注明新图不在存读档白名单、F3仍Home且不新增课堂恢复。检查数字/来源/链接/保护输入，错开规划Git后仅提交推送美术文档。运行数据缺项全部保留null，不将条件算例写成实测。
+
+不启动编辑器或PIE、不发替代HTTP/UE Python、不改工程四交接/源码/配置/地图/存档/模型，不创建新实施卡或子代理；完成文档后停止，实际导入与接口修改另行安排。
+
 # C01接口只读核查结果 · 2026-10-16
 
 完成工程规则/四交接、原回审、现有源码、历史Recipe/NativeEvidence与正式C01候选的分源核对；[报告](AssetPlanning/BuildingProduction/C01/interface-readonly-01.md)／[证据](AssetPlanning/BuildingProduction/C01/interface-readonly-evidence-01.json)。当前工具清单无原生unreal-mcp，地图/PIE/Actor/脏资产未取得，未启动编辑器或PIE；主机两次辅助查询无匹配进程。4m差有旧灰盒未建二层的明确资料来源，但现用锚点仍未确认。现有F3回Home不等于C01恢复候选。

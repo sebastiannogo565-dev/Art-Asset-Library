@@ -1,3 +1,7 @@
+# 当前：C01二层接口迁移方案01已编制 · 2026-10-16
+
+[统一迁移方案](Docs/AssetPlanning/BuildingProduction/C01/second-floor-migration-01.md)／[接口数据](Docs/AssetPlanning/BuildingProduction/C01/second-floor-migration-01.json)。本聊天仍无可调用原生unreal-mcp，未取得当前地图/Actor/Pawn；方案保正式F2、根候选+8m与F2+12m、230cm及F3Home语义。新增独立测试图范围/回退，明确新图不在原存读档白名单，不能宣称新图F3回Home通过。只编制方案，未导入/改工程或美术；最终席及整栋状态不解锁，停止待审阅。
+
 # 当前：C01接口只读报告已交，原生回读缺项 · 2026-10-16
 
 [只读报告](Docs/AssetPlanning/BuildingProduction/C01/interface-readonly-01.md)／[来源证据](Docs/AssetPlanning/BuildingProduction/C01/interface-readonly-evidence-01.json)。本聊天无原生unreal-mcp入口，未回读当前地图/PIE/Actor/脏资产；主机辅助查询未见UE/游戏进程，不用历史或配置替代。资料解释为灰盒+8m到正式F2+12m的4m待迁移接口，非当前实例实测。SchoolLife保持干净且235输入SHA未变，仅美术文档交付；最终席仍暂停，不导入/改工程或新发制作卡。
