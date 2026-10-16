@@ -1,3 +1,15 @@
+# C01独立二层接口接入卡发布完成 · 2026-10-16
+
+用户两项取舍已记录到[原方案审阅](AssetPlanning/BuildingProduction/review-C01-second-floor-migration-01.md)，发布一张[开发接入卡](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_UE_INTERFACE_01.md)。核Revision02的FBX/Blend/GEOMETRY原字节及依赖、工程基点；列新地图/导入目录和文档路径、G0原生写入前置、候选坐标、连续玩家路线/实际活动、NPC回调/位置、按键白名单拒绝与回退，未增加其他任务卡。
+
+当前只美术9份文档变动；源方案/接口JSON、原试作卡、ArtSource与SchoolLife保持，指定工程测试包/目录尚未在磁盘创建，工程Git干净。完成链接/范围/差异检查后普通提交推送，核远端/LFS/工作区，实际结果见最终报告。停用户转交，未实施任何卡内测试。
+
+# C01独立二层接口接入任务卡发布计划 · 2026-10-16
+
+用户确认根候选(0,5100,800)cm、三层800/1200/1600与Classroom原XY/Z1200，以及首轮独立新图的空间/玩家活动/NPC行走和按键F2/F3白名单拒绝范围。本规划轮仅记录确认并发布一张开发接入卡，不导入/测试或改模型。起点美术main/fbff93fd7cf26d434fffe6b7a271907d2a553987，仅原3无关脚本；工程master/98e3db849cee744763dc2d760154c45b090b0181干净。
+
+核Revision02版本/源哈希与依赖、已审迁移方案和代码边界→发布单卡，明确原生身份/地图/PIE/脏资产读回是工程写入前置、独立地图及新增导入目录、候选坐标、验收/恢复边界和回退→更新确认/四交接与生产索引→核原卡/方案/模型/工程未变及文档链接→仅相关美术文档正常提交推送并核远端/LFS/工作区。原生缺项继续保留，卡由用户转交开发；不自动派工，不新发家具卡，不改B01/RT01状态。
+
 # C01二层迁移方案01规划审阅完成 · 2026-10-16
 
 [审阅](AssetPlanning/BuildingProduction/review-C01-second-floor-migration-01.md)／[直接复核](AssetPlanning/BuildingProduction/C01/second-floor-migration-01-planning-audit.json)已交。15来源SHA、7坐标映射、3层标高及8距离条件例复算一致；静态代码核普通World/E/NPC初始化与存读/跨区地图限制，未发现坐标方案硬冲突。建议通过纸面基准，首轮空间/活动/行走与二层恢复集成分开。制作1074保护结果只引用，不冒称本轮全量重验。

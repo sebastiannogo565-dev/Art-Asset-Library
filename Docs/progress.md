@@ -1,3 +1,9 @@
+# C01开发接入卡已发布（未执行）· 2026-10-16
+
+- 已完成：记录根/F2/A候选及独立新图首轮范围确认；[单张开发接入卡](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_UE_INTERFACE_01.md)列模型精确版本/哈希、工程基点、写入目录、原生前置、验收和回退。
+- 待执行：由用户转交开发聊天后，先G0身份/地图/PIE/dirty/实例读回，再仅新图接入/导航和必要资源。当前原生实例证据仍缺，不因发布任务卡变为已验证。
+- 不变：本轮没有导入/PIE/测试/模型返工；新图白名单拒绝而非恢复成功，跨区与新二层恢复不开展。最终席/整栋最终通过、B01和RT01原状态保持，工程/源/原存档未改。
+
 # C01二层迁移方案01规划回审 · 2026-10-16
 
 - 已完成：[审阅](AssetPlanning/BuildingProduction/review-C01-second-floor-migration-01.md)及[独立复核](AssetPlanning/BuildingProduction/C01/second-floor-migration-01-planning-audit.json)，15来源SHA、7映射/3层/8距离例一致；独立图正常活动/初始化与存读/跨区限制分别核源码。

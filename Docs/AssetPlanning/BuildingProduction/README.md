@@ -1,3 +1,7 @@
+# 当前：C01独立接入任务已发卡，规划未实施 · 2026-10-16
+
+[单张开发接入卡](TaskCards/SL_BLD_C01_MAIN_01_UE_INTERFACE_01.md)／[用户确认](review-C01-second-floor-migration-01.md)。基于Revision02，根800/F2与A1200施工候选、独立图空间/活动/NPC与白名单拒绝范围已定；原生读回是工程写入前置。由用户转交开发，不自动导入/测试或改模型，不增加家具卡，原最终席/整栋/B01/RT01状态保持。
+
 # 当前：C01二层迁移方案01已审，尚未批准实施 · 2026-10-16
 
 [审阅与两项判断](review-C01-second-floor-migration-01.md)／[复核JSON](C01/second-floor-migration-01-planning-audit.json)：建议通过根800/F2与A1200候选，首轮限独立新图空间/E/Enter/NPC，不扩存读白名单；新二层恢复仍缺，不用旧图回归替代。原生/最终席/整栋状态保持，原方案与模型不改；待用户确认，不新发接入卡或UE执行。

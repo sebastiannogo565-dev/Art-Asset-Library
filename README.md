@@ -1,3 +1,7 @@
+# 当前：C01二层方案已确认，开发接入卡已发布 · 2026-10-16
+
+[唯一接入任务卡](Docs/AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_UE_INTERFACE_01.md)供用户转交开发聊天。根(0,5100,800)cm、F2/Classroom候选Z1200及独立图首轮范围已确认；原生身份/地图/PIE/脏资产读回缺失不得开始工程写入。首轮空间/连续步行/E/Enter/NPC上下楼与新图按键F2/F3拒绝，不改白名单或做跨区/恢复集成。当前仅记录发卡，未导入/测试/返工模型，B01/RT01状态保持。
+
 # 当前：C01二层迁移方案01已回审，待用户判断 · 2026-10-16
 
 [规划审阅](Docs/AssetPlanning/BuildingProduction/review-C01-second-floor-migration-01.md)建议接受根候选Z800/F2与A候选Z1200及统一坐标基准。首轮建议限独立图空间、E/Enter与NPC行走，不改存读白名单；原图F3回归不代表新二层恢复集成通过。原生缺项、最终席与整栋最终通过状态保持；未改原方案/模型或工程，不发布接入卡，停止待确认。

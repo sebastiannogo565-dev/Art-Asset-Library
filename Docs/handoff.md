@@ -1,3 +1,11 @@
+# 当前交接：C01独立二层接入卡供用户转交 · 2026-10-16
+
+入口：[SL_BLD_C01_MAIN_01_UE_INTERFACE_01](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_UE_INTERFACE_01.md)。这是唯一开发接入卡，不是门窗/家具或新模型卡；[用户确认](AssetPlanning/BuildingProduction/review-C01-second-floor-migration-01.md)已记录。取Trial01/Revision02精确FBX，根候选(0,5100,800)cm/F2与A Z1200；单位、轴向、父级/根不能双重转换。
+
+开发聊天须自己原生确认正确工程/当前地图/PIE/dirty及来源状态，缺项工程内零写入，不用旧日志/配置替代。G0通过后仅新地图 /Game/SchoolLife/Maps/Dev/C01_F2_Interface_01 与 /Game/SchoolLife/Dev/C01_F2_Interface_01/ 导入目录写入，按卡保护原生产图/默认/Cook/业务/人物/原sav。首轮只空间、连续步行/E/Enter、NPC真实上下楼回调/位置、新图按键F2/F3白名单拒绝；不改名单/做跨区/新二层恢复或最终席绑定。
+
+本轮仅规划确认/发卡，模型/方案JSON/工程全只读，SchoolLife master/98e3db849cee744763dc2d760154c45b090b0181干净，测试包与目录未创建。当前无UE/Blender/原生测试结果；卡中均为未来验收要求。9份相关美术文档正常提交推送，新增LFS对象0，最终哈希/远端/工作区见报告；原3无关脚本保留。由用户转交，规划聊天不自动派工，开发完成后回审。
+
 # 当前交接：C01二层迁移方案01审阅完成 · 2026-10-16
 
 先读[规划审阅](AssetPlanning/BuildingProduction/review-C01-second-floor-migration-01.md)／[独立复核](AssetPlanning/BuildingProduction/C01/second-floor-migration-01-planning-audit.json)，原[方案](AssetPlanning/BuildingProduction/C01/second-floor-migration-01.md)和JSON完整保留。建议通过统一根Z800、正式F2/A候选Z1200的纸面基准；用户尚未确认，不等于导入或运行授权。
