@@ -1,3 +1,11 @@
+# 当前交接：C01指定G2/G4建议局部收口，停止供审阅 · 2026-10-18
+
+入口：[合并回审](AssetPlanning/BuildingProduction/review-C01-navigation-resume-01.md)／[核验JSON](AssetPlanning/BuildingProduction/C01/navigation-resume-01-planning-audit.json)。工程NavigationResume01/3d31fcc与G2Manual01/a16d02e两次回件已分源核对：NPC两指定路线经S1真实到达，后续用户亲自主门外→S1→二层G→返回并确认无卡/路线镜头可接受。建议保19项UE导入资源凸包清理、指定G2/G4局部通过；原G3/G5保历史接受项，不冒称本轮重测。
+
+当前玩家/NPC各S1首二层上/下2向已走，余10向未验；共同站位边缘重叠/世界大字未解决，局部路线镜头认可不推广到全楼。整栋最终通过、入座/最终席/运营、生产迁移/白名单/新二层恢复/跨区仍未解锁，B01/RT01保持。
+
+本规划窗口仅只读UE和工程，未启PIE/改资产/补测/发新卡或向开发聊天派工。工程a16d02e5e92882951b196813c3120cf7a23f4c12及远端一致/干净；原生当前测试图、PIE停止、五图clean，编辑器保持打开。美术仅9份相关文档/JSON，提交推送与LFS/工作区实际结果见本轮最终报告。下一步入口是用户审阅本结论，没有自动接续任务。
+
 # 当前交接：C01试接入01回审，导航与连续路线未收口 · 2026-10-17
 
 入口：[针对性回审](AssetPlanning/BuildingProduction/review-C01-ue-interface-01.md)／[原生与直接复核](AssetPlanning/BuildingProduction/C01/ue-interface-01-planning-audit.json)。工程回件48272972743c2a314fd1b4ecda19fc851e58460b，已在独立新图装配，保持现有导入，勿重复导入/复制第二栋。建议保已完成装配、局部课堂与白名单拒绝，用户尚未确认；G1局部/G2未验/G4失败，整栋仍不最终通过。

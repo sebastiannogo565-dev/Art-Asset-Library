@@ -1,3 +1,7 @@
+# 当前：C01指定接口路线建议局部收口，整栋仍待审 · 2026-10-18
+
+[合并回审](Docs/AssetPlanning/BuildingProduction/review-C01-navigation-resume-01.md)／[直接核验](Docs/AssetPlanning/BuildingProduction/C01/navigation-resume-01-planning-audit.json)。工程导航接续及新到G2人工补验已核：保19包冗余凸包清理，NPC Home→Classroom及Classroom→Club真实经S1到达，用户连续完成主门外→二层G→返回。建议通过指定G2/G4，玩家/NPC矩阵各仅2向已走、10向未验；共同站位重叠/大字与整栋最终通过仍未解锁。工程a16d02e远端一致/干净，原生测试图打开、PIE停止、五图clean。本轮只回审和美术文档，不新发施工卡或改工程。
+
 # 当前：C01独立图回件已回审，接入尚未收口 · 2026-10-17
 
 [规划回审](Docs/AssetPlanning/BuildingProduction/review-C01-ue-interface-01.md)／[直接核验与原生读回](Docs/AssetPlanning/BuildingProduction/C01/ue-interface-01-planning-audit.json)。建议保装配/局部课堂与F2/F3拒绝，G1部分/G2未验/G4导航失败，不判整栋或最终席通过。本聊天原生现已可用，实际读当前测试图、PIE=false、五图clean，根800/Classroom1200；未启PIE或改工程。建议先定位导航/投影再补连续实走，不重导或返工模型，停用户判断。

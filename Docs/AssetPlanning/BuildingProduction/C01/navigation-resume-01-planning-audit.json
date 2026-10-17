@@ -1,0 +1,450 @@
+{
+  "date": "2026-10-18",
+  "art_base": "cbfe6e5574328136bfb0ea97591208f8a62aa1d0",
+  "reviewed_engine_commit": "a16d02e5e92882951b196813c3120cf7a23f4c12",
+  "scope": "Read-only planning review. No PIE start, input, navigation query/rebuild, import, asset save or gameplay rerun.",
+  "current_native": {
+    "collected_at_utc": "2026-10-17T18:34:45.958Z",
+    "scope": "Planning review read-only editor inspection; no PIE/session, save, navigation or asset mutations",
+    "observations": {
+      "map": "/Game/SchoolLife/Maps/Dev/C01_F2_Interface_01",
+      "pie": false,
+      "identity": [
+        "[2026.10.16-15.55.44:230][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/UE project/SchoolLife/Saved/Config/WindowsEditor/Editor.ini]"
+      ],
+      "root": {
+        "location": {
+          "x": 0,
+          "y": 5100,
+          "z": 800
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "class_transform": {
+        "location": {
+          "x": 4500,
+          "y": 7050,
+          "z": 1200
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "class_identity": {
+        "PlaceId": "Classroom"
+      },
+      "maps_dirty": [
+        {
+          "asset": "/Game/SchoolLife/Maps/Dev/C01_F2_Interface_01",
+          "dirty": false
+        },
+        {
+          "asset": "/Game/SchoolLife/Maps/CampusLifeBlockout",
+          "dirty": false
+        },
+        {
+          "asset": "/Game/SchoolLife/Maps/CoastBlockout",
+          "dirty": false
+        },
+        {
+          "asset": "/Game/SchoolLife/Maps/LifeBlockout",
+          "dirty": false
+        },
+        {
+          "asset": "/Game/SchoolLife/Maps/GameplayLab",
+          "dirty": false
+        }
+      ]
+    },
+    "end_observations": {
+      "queried_at_utc": "2026-10-17T19:35:52.346Z",
+      "map_end": "/Game/SchoolLife/Maps/Dev/C01_F2_Interface_01",
+      "pie_end": false,
+      "dirty_test_end": false
+    }
+  },
+  "direct_file_checks": {
+    "asset_files": 2258,
+    "unchanged_asset_hashes": 2238,
+    "authorized_changed_asset_hashes": 20,
+    "current_asset_bytes": 65720558,
+    "original_fingerprints": 514,
+    "original_saves": 45,
+    "collision_packages": 19,
+    "art_inputs": [
+      {
+        "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\SL_BLD_C01_MAIN_01_TRIAL_01_REV_02.fbx",
+        "sha256": "bf12172b5e28f82e2e5ae941e61d8d14bffd67b0b751a8f58e2e092dbffb209d",
+        "expected": "bf12172b5e28f82e2e5ae941e61d8d14bffd67b0b751a8f58e2e092dbffb209d"
+      },
+      {
+        "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\SL_BLD_C01_MAIN_01_TRIAL_01_REV_02.blend",
+        "sha256": "90137759b838d849395f9c0363cbb74f072aff8de4fef418668312b784086aa4",
+        "expected": "90137759b838d849395f9c0363cbb74f072aff8de4fef418668312b784086aa4"
+      },
+      {
+        "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\GEOMETRY.json",
+        "sha256": "ce0abe83ae496f98e219bbd94ecfa29bbcaddbabcba25063404013aa1da9fae6",
+        "expected": "ce0abe83ae496f98e219bbd94ecfa29bbcaddbabcba25063404013aa1da9fae6"
+      }
+    ],
+    "errors": []
+  },
+  "producer_protection_scope": {
+    "protected_files": 2770,
+    "only_authorized_changes": true,
+    "note": "Producer 2770 scope retained; independent checks use original 514 fingerprint dictionary plus original 2258 asset list updated only by 20 authorized expected hashes. No new full baseline is fabricated."
+  },
+  "collision_final_from_delivery": {
+    "assets": 19,
+    "all_complex_simple_zero_convex": true,
+    "all_clean": true
+  },
+  "trajectories": {
+    "NPCUpTrajectory": {
+      "samples": 27,
+      "first": {
+        "sample": 0,
+        "wallUTC": "2026-10-17T16:50:46.679Z",
+        "transform": {
+          "location": {
+            "x": -469.4962310157664,
+            "y": -10948.393378121264,
+            "z": 272.5086825846584
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": 69.44542694091793,
+            "roll": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      },
+      "last": {
+        "sample": 26,
+        "wallUTC": "2026-10-17T16:52:38.680Z",
+        "transform": {
+          "location": {
+            "x": 4500.000024042543,
+            "y": 7049.997753858374,
+            "z": 1298.1499913729779
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": 90.61326599121098,
+            "roll": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      },
+      "min_actor_z_cm": 272.5086825846584,
+      "max_actor_z_cm": 1298.1499913729779,
+      "all_scale_one": true,
+      "wall_utc_strictly_increasing": true,
+      "final_distance_to_recorded_Classroom_anchor_cm": 98.14999139868205
+    },
+    "NPCDownClubTrajectory": {
+      "samples": 36,
+      "first": {
+        "sample": 0,
+        "wallUTC": "2026-10-17T17:04:02.167Z",
+        "transform": {
+          "location": {
+            "x": 4469.138470299008,
+            "y": 6387.6980817162475,
+            "z": 1298.149980545044
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": -92.97253417968751,
+            "roll": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      },
+      "last": {
+        "sample": 35,
+        "wallUTC": "2026-10-17T17:06:18.501Z",
+        "transform": {
+          "location": {
+            "x": 11582.261327276214,
+            "y": 23279.15441794818,
+            "z": 898.6499990935847
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": 49.60367965698244,
+            "roll": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      },
+      "min_actor_z_cm": 898.1500033851191,
+      "max_actor_z_cm": 1298.149980545044,
+      "all_scale_one": true,
+      "wall_utc_strictly_increasing": true,
+      "final_distance_to_recorded_Club_anchor_cm": 102.37685833353684,
+      "final_horizontal_distance_to_recorded_Club_anchor_cm": 27.371496142534962
+    },
+    "NPCDownHomeTrajectory": {
+      "samples": 65,
+      "first": {
+        "sample": 0,
+        "wallUTC": "2026-10-17T16:54:45.930Z",
+        "transform": {
+          "location": {
+            "x": 4478.241726296071,
+            "y": 6588.723554845154,
+            "z": 1298.1499913729779
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": -92.70062255859378,
+            "roll": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      },
+      "last": {
+        "sample": 64,
+        "wallUTC": "2026-10-17T16:58:26.268Z",
+        "transform": {
+          "location": {
+            "x": -38.92026825388274,
+            "y": 120.58345924213585,
+            "z": 898.1499989185006
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": -90.43014526367189,
+            "roll": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      },
+      "min_actor_z_cm": 898.1499989185006,
+      "max_actor_z_cm": 1298.1499913729779,
+      "all_scale_one": true,
+      "wall_utc_strictly_increasing": true
+    }
+  },
+  "stair_matrix": {
+    "source": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/StairMatrix.csv",
+    "rows": 12,
+    "player_walked": 2,
+    "npc_walked": 2,
+    "remaining_each_not_walked": 10,
+    "scope": "Only S1 F1/F2 up/down; not all stairs."
+  },
+  "evidence_level": {
+    "runtime": "Delivery trajectory + final HUD/ActualArrival reviewed, not rerun by planning chat.",
+    "callback": "Unchanged OnMoveCompleted/ReportNPCTravel/CompleteNPCTravel success chain corroborates terminal state; raw callback message/MoveTo code/private selected NavData not directly exposed.",
+    "tester_projection": "Extent 50/50/250, not private execution projection (source 80/80/200).",
+    "g2": "Specified S1 F1/F2 continuous user-controlled round trip supported by user confirmation and sparse native positions; remaining 10 directions unwalked.",
+    "whole_building": "Not finally accepted."
+  },
+  "source_fingerprints": [
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/NavigationResume01/Observations.md",
+      "sha256": "97fcc8f09a255d1dd79e916b2ae8ab1cac5dbeb064d0c595f09edfe9bbcc553e"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/NavigationResume01/ManualRoutes.md",
+      "sha256": "bd798e6cb4f75925334fee0135c6e5e2c36ffee2dbf96fded0e5bbf6e0562e2a"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/NavigationResume01/StairMatrix.csv",
+      "sha256": "302279ab16ec8f3e82e92346e778f7796df76da9687c7a4d8fa8f520837c48fb"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/NavigationResume01/CollisionChanges.csv",
+      "sha256": "fcdbc34ad6f6baadfed7c5714e9873d8628dfc9f8b161ed3cc829781fa417544"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/NavigationResume01/FinalNative.json",
+      "sha256": "28f71565572d476426940fc742ea96ee47c2cca3747198d8c0202d1a6e2e4734"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/NavigationResume01/FinalPlaces.json",
+      "sha256": "e52801327c004a5e945c9ee44626d7d954e3d7ca4561bb9da4a55bc19ad45906"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/NavigationResume01/Protection.json",
+      "sha256": "0b3d3548450ce988d6cf0ce5ece830c112d4e97e4828b0aa0521fb1811d54008"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/NavigationResume01/NativeReadback.json",
+      "sha256": "87e5966136e35e10e57d2569c10a31f936ffc87cdc6191023936e7a268ec5552"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/NavigationResume01/NPCUpTrajectory.json",
+      "sha256": "3629413066940854d06415a1f4c0d7b547d726c386fb8ac7ec69f62c1e6830cd"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/NavigationResume01/NPCDownClubTrajectory.json",
+      "sha256": "ef2aa8922a713d71cb59e4c8b59890cf94163ca61fdb8dcc3ae2dec0a2a46599"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/NavigationResume01/NPCDownHomeTrajectory.json",
+      "sha256": "67f28060095be3dc155be1e11178f3922aea59a56e60f3d7e5a86c8df964b3e1"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/NavigationResume01/Images/NPCUpArrived.png",
+      "sha256": "5c39c806b5bc74e16b1921108315c548245a63df1b92669bd2645aaf3ecd1a5d"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/NavigationResume01/Images/NPCDownClubArrived.png",
+      "sha256": "ec85d83d4101ecedffd94e5247adb8f2f7de34937205aabac609c0bb2745f36a"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/NavigationResume01/Images/JointStanding.png",
+      "sha256": "5f701f05460c8da545c39db68adea3050b7a915e5ee3fef572f13cf2e4493e3d"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/G2Manual01/Observations.md",
+      "sha256": "ff2da504821c737418df7222052449345846b97dc8d7bcf536bb1e9c15dcbe47"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/G2Manual01/Samples.json",
+      "sha256": "608deada096c6c45cb8c2d407728d7b1d166595efbd5d9b27e08acec705d223b"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/G2Manual01/FinalNative.json",
+      "sha256": "380c1e59c4938210f758dc2830cac57b3e7dbbe26142f27f6dafcea058b1d1d2"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/G2Manual01/Protection.json",
+      "sha256": "cfc9ff518d69f172b1f17915335bda246bcbd11d0e6040ede6606853a0e82c79"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/G2Manual01/ArtProtection.json",
+      "sha256": "2f7439d92230a850d837f2f62b875253afe77fa81a967c8f2d183f635c451095"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/G2Manual01/StairMatrix.csv",
+      "sha256": "c66ca0120a8e19c3b6fb1a58178524a24f3da4df83d573ce48c968e4f5a3a85b"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/G2Manual01/Images/StartOutside.png",
+      "sha256": "9c57b6a29227d2109bc18d13531bb894afcaac90882cbb8d2184a0cb9dbe44cf"
+    }
+  ],
+  "code_fingerprints": [
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeNPCAIController.cpp",
+      "sha256": "9c5392bbebce4bc1dccfdcd2c760013f51dcf64154718e283a26fd854ec5b09a"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldSubsystem.cpp",
+      "sha256": "edc864605ca12c1d8fd29529ff9229def91717d6c9719d4eb37abf526510c169"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeSessionSubsystem.cpp",
+      "sha256": "0fb74b67cb303246f081c77693a3aeaf4eb4a1255e1f6356ffe6148314cb14ff"
+    }
+  ],
+  "navigation_engine_commit": "3d31fccbafe68b57a26490fa31b6a91f24995b06",
+  "navigation_stair_matrix_historical": {
+    "rows": 12,
+    "player_walked": 0,
+    "npc_walked": 2,
+    "remaining_npc_not_walked": 10
+  },
+  "g2_manual": {
+    "source": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/G2Manual01",
+    "samples": 7,
+    "start": {
+      "x": 2500,
+      "y": 4700,
+      "z": 898
+    },
+    "last": {
+      "observedUTC": "2026-10-17T19:16:18.788Z",
+      "location": {
+        "x": 2514.705810105643,
+        "y": 4883.036716431607,
+        "z": 898.150006956487
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": -92.406005859375,
+        "roll": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "operation_sample": {
+      "observedUTC": "2026-10-17T19:15:11.949Z",
+      "location": {
+        "x": 4512.539319290868,
+        "y": 7006.10531551378,
+        "z": 1298.1499970583473
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 83.47503662109376,
+        "roll": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "distance_to_recorded_classroom_cm": 108.2469388803985,
+    "margin_to_230cm": 121.7530611196015,
+    "user_confirmation": "往返完成，上下楼无卡点，镜头遮挡可接受",
+    "input_method": "User physical continuous WASD; assistant read-only sampling",
+    "evidence": "User confirmation in development handoff/report plus native sparse positions; not a new planning-chat runtime test. Start screenshot only; return screenshot unavailable.",
+    "protection_report": {
+      "ComparedProtectedFiles": 2770,
+      "ComparedAgainst": "NavigationResume01 final asset hashes, original hashes for all other protected files",
+      "UnexpectedChanges": [],
+      "OriginalSaveCount": 45
+    }
+  },
+  "review_recommendation": "Retain 19 UE-only convex fixes; recommend targeted G2/S1 and G4 Home-Classroom plus Classroom-Club route closure. Not final whole-building, seating, common-standing or production acceptance."
+}

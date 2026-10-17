@@ -1,3 +1,11 @@
+# C01导航接续及G2人工补验回审完成 · 2026-10-18
+
+已完成：[合并回审](AssetPlanning/BuildingProduction/review-C01-navigation-resume-01.md)／[直接核验](AssetPlanning/BuildingProduction/C01/navigation-resume-01-planning-audit.json)。核19碰撞包+测试图新SHA，其余2238导入文件、514原文件含45sav及3美术源保持；19包/本机引擎导出源码、27/36点NPC轨迹及到达HUD相互支持。审阅期间新收到用户人工G2，核7采样与明确往返确认，操作区三维108.24694cm/余121.75306cm；不是本窗口重新跑课堂。建议指定G2/S1与G4两路线局部通过，原G3/G5仅继承。
+
+未验证：玩家/NPC各余10向、全部门洞/全楼镜头、最终席/入座/运营；共同站位边缘重叠与大字仍未解决。私有回调/MoveTo字段缺项保留，不为其新加框架；本次路线有终态+未改源码链证据。整栋最终通过/生产迁移/恢复/跨区不解锁，无新卡或工程/模型改动。
+
+状态：工程新G2回件a16d02e5e92882951b196813c3120cf7a23f4c12与origin/master一致/干净；本窗口原生当前独立图、PIE=false、五图clean，结束再读本图不变。仅美术9份相关文档/JSON交付，检查提交推送后停止供审阅；RT01/B01原状态保持。
+
 # C01独立图试接入01规划回审 · 2026-10-17
 
 - 已完成：[回审](AssetPlanning/BuildingProduction/review-C01-ue-interface-01.md)与[审计](AssetPlanning/BuildingProduction/C01/ue-interface-01-planning-audit.json)，原生当前编辑图/PIE/五图dirty/根/Classroom实际读回；交付2258文件/514保护含45sav/3美术源、13图与P/E复算一致。
