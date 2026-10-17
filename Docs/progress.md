@@ -1,3 +1,10 @@
+# C01独立图试接入01规划回审 · 2026-10-17
+
+- 已完成：[回审](AssetPlanning/BuildingProduction/review-C01-ue-interface-01.md)与[审计](AssetPlanning/BuildingProduction/C01/ue-interface-01-planning-audit.json)，原生当前编辑图/PIE/五图dirty/根/Classroom实际读回；交付2258文件/514保护含45sav/3美术源、13图与P/E复算一致。
+- 建议保留：独立图装配已完成的局部、指定站位课堂E/取消/等待/Enter及按键F2/F3白名单拒绝。G1不扩大为全楼空间通过；拒绝不是恢复成功。
+- 未通过/未验：NPC双向MoveTo启动失败，根因未定；N投影/连续玩家上下楼/三梯12向段与隐藏下导航未验。课堂角色贴图重叠待后续站位可读性检查；最终席/整栋/生产迁移不解锁。
+- 本轮只原生只读及文档回审，不导入/改模型、图、导航或规则，不启动PIE。建议先核同图NavData/代理/投影再补路径，停用户判断，原卡/RT01/B01保持。
+
 # C01开发接入卡已发布（未执行）· 2026-10-16
 
 - 已完成：记录根/F2/A候选及独立新图首轮范围确认；[单张开发接入卡](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_UE_INTERFACE_01.md)列模型精确版本/哈希、工程基点、写入目录、原生前置、验收和回退。

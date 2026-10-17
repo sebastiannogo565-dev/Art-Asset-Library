@@ -1,3 +1,7 @@
+# 当前：C01独立图回件已回审，接入尚未收口 · 2026-10-17
+
+[规划回审](Docs/AssetPlanning/BuildingProduction/review-C01-ue-interface-01.md)／[直接核验与原生读回](Docs/AssetPlanning/BuildingProduction/C01/ue-interface-01-planning-audit.json)。建议保装配/局部课堂与F2/F3拒绝，G1部分/G2未验/G4导航失败，不判整栋或最终席通过。本聊天原生现已可用，实际读当前测试图、PIE=false、五图clean，根800/Classroom1200；未启PIE或改工程。建议先定位导航/投影再补连续实走，不重导或返工模型，停用户判断。
+
 # 当前：C01二层方案已确认，开发接入卡已发布 · 2026-10-16
 
 [唯一接入任务卡](Docs/AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_UE_INTERFACE_01.md)供用户转交开发聊天。根(0,5100,800)cm、F2/Classroom候选Z1200及独立图首轮范围已确认；原生身份/地图/PIE/脏资产读回缺失不得开始工程写入。首轮空间/连续步行/E/Enter/NPC上下楼与新图按键F2/F3拒绝，不改白名单或做跨区/恢复集成。当前仅记录发卡，未导入/测试/返工模型，B01/RT01状态保持。

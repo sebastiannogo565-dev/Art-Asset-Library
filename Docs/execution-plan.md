@@ -1,3 +1,15 @@
+# C01独立图试接入01规划回审完成 · 2026-10-17
+
+[回审](AssetPlanning/BuildingProduction/review-C01-ue-interface-01.md)／[审计](AssetPlanning/BuildingProduction/C01/ue-interface-01-planning-audit.json)已交。原生只读确认正确会话路径、指定测试图/PIE停止、五地图clean、Classroom身份/Z1200、根Z800及子级负Y；收尾重读当前图/PIE/测试dirty未变。直接核2258交付文件65,822,849字节、514原文件含45sav及3美术输入SHA，13图规格指纹一致，实看11关键图；P/E按回件同一运行数据复算98.00011495/余131.99988505cm。
+
+保G1局部/G3/G5证据，G2/三梯未验与G4失败不解锁；角色贴图重叠/临时画面不当最终美术通过，导航根因不先归模型。仅美术9份审阅交接文档提交推送，原卡/模型/方案/工程保持，未运行PIE或补测。检查链接/差异、远端/LFS/工作区后停用户判断，不发布接续执行卡，实际结果见最终报告。
+
+# C01独立图接口试接入01规划回审计划 · 2026-10-17
+
+起点美术main/c0ee4bbb8717ea26019401bfd3b15cf07da6454b（原3无关脚本）、工程回件48272972743c2a314fd1b4ecda19fc851e58460b。读取原接入卡、工程四交接与Trial01证据/接口/预览，独立复算P/E三维距离；本聊天已通过原生发现/描述及只读调用取得正确SchoolLife会话路径、当前指定测试图、PIE=false，不再沿用“原生不可用”的旧状态。
+
+只读核当前相关地图dirty、Classroom与共同根等编辑实例及必要证据，区分回件当时的运行测量与本轮编辑态复核；不启动PIE、不改图/导航/材质、不重导模型或补跑未验路线。回审分别保G1局部/G3/G5、G2未验与G4失败，未确认导航根因不安排模型返工。更新美术交接及审阅，原卡/方案/模型/SchoolLife保持，正常提交推送本轮文档并核远端/LFS/工作区后停用户判断。
+
 # C01独立二层接口接入卡发布完成 · 2026-10-16
 
 用户两项取舍已记录到[原方案审阅](AssetPlanning/BuildingProduction/review-C01-second-floor-migration-01.md)，发布一张[开发接入卡](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_UE_INTERFACE_01.md)。核Revision02的FBX/Blend/GEOMETRY原字节及依赖、工程基点；列新地图/导入目录和文档路径、G0原生写入前置、候选坐标、连续玩家路线/实际活动、NPC回调/位置、按键白名单拒绝与回退，未增加其他任务卡。

@@ -1,3 +1,13 @@
+# 当前交接：C01试接入01回审，导航与连续路线未收口 · 2026-10-17
+
+入口：[针对性回审](AssetPlanning/BuildingProduction/review-C01-ue-interface-01.md)／[原生与直接复核](AssetPlanning/BuildingProduction/C01/ue-interface-01-planning-audit.json)。工程回件48272972743c2a314fd1b4ecda19fc851e58460b，已在独立新图装配，保持现有导入，勿重复导入/复制第二栋。建议保已完成装配、局部课堂与白名单拒绝，用户尚未确认；G1局部/G2未验/G4失败，整栋仍不最终通过。
+
+本聊天原生入口现已实际返回；编辑态Classroom(4500,7050,1200)、根(0,5100,800)、子级负Y，当前指定测试图、PIE=false、五地图clean。收尾本测试图/PIE/dirty未变。本轮未启动/停止PIE、改图/导航/材质、保存或重测活动，运行P/E为回件记录复算98.00011495cm/余131.99988505，不混本轮编辑态与旧运行数据。
+
+下一步建议在现图先定位NavData/代理/起终点N与完整路径，再补主入口—F2—返回和三梯矩阵；Crowd/144cm参数未定因，不自动改人物/全局设置或返工模型。课堂贴图重叠、临时材色/遮挡也不授予共同站位/最终美术通过。仅建议，未发布新执行卡。生产迁移/恢复/跨区/最终席/RT01/B01保持。
+
+直接核2258交付/514保护(含45sav)/3美术源、13图均一致；工程Git主机只读确认干净、HEAD4827297保持。仅美术9份文档普通提交推送，新增LFS素材0，完整哈希/远端/工作区见最终报告，原3脚本保留。工程交付2258/2258 LFS为开发回件实绩，非本轮再上传；停止供用户判断。
+
 # 当前交接：C01独立二层接入卡供用户转交 · 2026-10-16
 
 入口：[SL_BLD_C01_MAIN_01_UE_INTERFACE_01](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_UE_INTERFACE_01.md)。这是唯一开发接入卡，不是门窗/家具或新模型卡；[用户确认](AssetPlanning/BuildingProduction/review-C01-second-floor-migration-01.md)已记录。取Trial01/Revision02精确FBX，根候选(0,5100,800)cm/F2与A Z1200；单位、轴向、父级/根不能双重转换。
