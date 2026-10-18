@@ -1,3 +1,15 @@
+# C01接口局部收口与二层存读恢复任务卡完成 · 2026-10-19
+
+用户确认已记录到[原回审](AssetPlanning/BuildingProduction/review-C01-navigation-resume-01.md)，发布一张[开发卡](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_F2_SAVE_RESTORE_01.md)。只读核25份源码/测试/历史记录及3美术源指纹；现存档无地图/位置，Schema3支持1—3、Home保存/恢复与NPC地点重建明确。最小方案为同一USaveGame可选外层检查点，业务Schema不升级；C01固定F2、旧档Home、错图拒绝、同层主/备用及玩家/NPC联合预检、冷进程同隔离UserDir/手动F3、重复结算和兼容回归均列到卡。
+
+未启原生/UE/PIE或执行存读、构建、测试；SchoolLife全只读。当前工具无unreal-mcp，未重新宣称编辑器/PIE状态。原G2/G4不重跑，其他10向/整栋/最终席未解锁，B01/RT01保持。仅本轮相关美术文档/索引/证据JSON检查后提交推送并核远端/LFS/工作区，停止供用户转交开发实施；本卡尚未实施。
+
+# C01接口局部收口与二层存读恢复任务卡计划 · 2026-10-19
+
+用户已接受指定G2玩家往返/G4 NPC路线为后续可用基准，余10向未验、整栋不最终通过；不再重复确认或实施已过路线。本轮仅美术文档：只读核当前工程存读架构、Schema/地图限制、玩家落点和NPC重建、活动结算及相关测试→记录局部收口→发布一张“C01二层存读与恢复集成01”开发任务卡，明确最小实现、旧档兼容、受阻处理、隔离UserDir、冷重启及按影响回归、回退和交付。
+
+起点美术main/efc4fd403fbcbb0e4b8f9222e82909d6cb602278，仅原3个无关脚本；工程Git/当前代码另只读核对。当前本聊天没有原生unreal-mcp入口，不宣称回读了本轮编辑器/PIE/脏资产；开发执行前须在自己的会话核G0。SchoolLife全只读，不导入/运行/改源码/资产/存档；不建模/生图/新框架，不更改B01/RT01/最终席。只提交本轮相关美术文档并推送，核远端/LFS/工作区，停用户转交开发执行。
+
 # C01导航接续与G2人工补验回审完成 · 2026-10-18
 
 [合并回审](AssetPlanning/BuildingProduction/review-C01-navigation-resume-01.md)及[审计](AssetPlanning/BuildingProduction/C01/navigation-resume-01-planning-audit.json)已交。独立核2258交付SHA（2238保持、20授权新值）、514原文件/45sav及3美术源；源码/引擎导出、27/36点NPC轨迹、到达HUD、7点人工采样和用户确认相互核对。指定G2/G4建议局部通过，当前玩家/NPC矩阵各2已走/10未验，不判整栋/最终席或共同站位通过。

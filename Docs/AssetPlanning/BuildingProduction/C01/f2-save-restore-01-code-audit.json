@@ -1,0 +1,744 @@
+{
+  "date": "2026-10-19",
+  "scope": "Read-only static source review for task-card publication, not implementation or runtime acceptance.",
+  "art_base": "efc4fd403fbcbb0e4b8f9222e82909d6cb602278",
+  "engineering_base": "26e10efeb37ebb1ecdca2129e1e43bf8ff63d7d7",
+  "engineering_branch": "master",
+  "engineering_status_at_read": "clean",
+  "native_unreal_mcp_available_in_planning_chat": false,
+  "runtime_state_this_turn": null,
+  "accepted_baseline": {
+    "authority": "Direct human confirmation in current planning chat",
+    "g2": "Specified S1 F1/F2 continuous round trip accepted",
+    "g4": "Specified Home-Classroom / Classroom-ClubGround real navigation accepted",
+    "other_stair_directions_each_unverified": 10,
+    "whole_building_final": false
+  },
+  "architecture_facts": {
+    "business_schema_current": 3,
+    "supported_business_schemas": [
+      1,
+      2,
+      3
+    ],
+    "slot": "SchoolLife_Main",
+    "user_index": 0,
+    "world_save_gate": [
+      "GameplayLab",
+      "LifeBlockout",
+      "CampusLifeBlockout",
+      "CoastBlockout"
+    ],
+    "home_only_save_with_coast_refusal": true,
+    "player_location_or_map_in_snapshot": false,
+    "load_is_manual": true,
+    "startup_does_not_auto_load": true,
+    "player_restore": "Home by default; Coast uses existing return-to-Campus transaction",
+    "npc_restore": "Rebuild at ConfirmedPlace; continue saved journey, no path/intermediate-coordinate save",
+    "running_checkpoint_supported": false
+  },
+  "task_decisions": {
+    "task_id": "SL_BLD_C01_MAIN_01_F2_SAVE_RESTORE_01",
+    "not_implemented": true,
+    "business_schema_unchanged": true,
+    "proposed_outer_optional_checkpoint_version": [
+      0,
+      1
+    ],
+    "exact_map": "/Game/SchoolLife/Maps/Dev/C01_F2_Interface_01",
+    "checkpoint_id": "C01_F2_Classroom_01",
+    "checkpoint_ground_cm": [
+      4500,
+      7050,
+      1200
+    ],
+    "point_status": "Existing operation-area ground used as validation basis, not a new runtime-certified restore point",
+    "backup_status": "At most one same-floor validated fallback; old (4500,6970,1200) only candidate",
+    "cross_map_restore": "Out of scope; C01 save in old map rejected without mutation",
+    "legacy_behavior": "No metadata => legacy Home semantics; original four-map behavior preserved",
+    "cold_restart": "Separate game process exit and new PID; explicit C01 map + same isolated UserDir + manual F3",
+    "npc_position": "Confirmed-place checkpoint, not mid-path resume; retain intent/times/sequence",
+    "failure": "Validate and prepare player/NPC on correct floor before commit; no silent other-floor or Home fallback for C01 version1"
+  },
+  "source_fingerprints": [
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeSaveGame.h",
+      "sha256": "7111253d7cea2c7df5b3e19628fca02d7ecd1708e81793a97c24e00a23e22939",
+      "matches": [
+        {
+          "line": 12,
+          "text": "struct SCHOOLLIFE_API FSchoolLifeSaveSnapshot"
+        },
+        {
+          "line": 16,
+          "text": "UPROPERTY(EditAnywhere, BlueprintReadWrite) int32 SchemaVersion = 1;"
+        },
+        {
+          "line": 42,
+          "text": "UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite) FSchoolLifeSaveSnapshot Snapshot;"
+        },
+        {
+          "line": 43,
+          "text": "virtual void Serialize(FArchive& Ar) override;"
+        },
+        {
+          "line": 45,
+          "text": "static constexpr int32 SchemaVersion = 3;"
+        },
+        {
+          "line": 47,
+          "text": "static const TCHAR* MainSlot() { return TEXT(\"SchoolLife_Main\"); }"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeSessionSave.cpp",
+      "sha256": "27e7ab1b7fe2950c055276bd6ae25520a554931751f95ea30f823e5e5c8b64fc",
+      "matches": [
+        {
+          "line": 28,
+          "text": "bool USchoolLifeSessionSubsystem::CanUseSaveCheckpoint(FString& Reason) const"
+        },
+        {
+          "line": 36,
+          "text": "bool USchoolLifeSessionSubsystem::ExportSaveSnapshot(FSchoolLifeSaveSnapshot& S, FString& Reason) const"
+        },
+        {
+          "line": 38,
+          "text": "if (!CanUseSaveCheckpoint(Reason)) return false;"
+        },
+        {
+          "line": 49,
+          "text": "return ValidateSaveSnapshot(S, Reason);"
+        },
+        {
+          "line": 52,
+          "text": "bool USchoolLifeSessionSubsystem::ValidateSaveSnapshot(const FSchoolLifeSaveSnapshot& S, FString& Reason) const"
+        },
+        {
+          "line": 55,
+          "text": "if (!CanUseSaveCheckpoint(Reason)) return false;"
+        },
+        {
+          "line": 225,
+          "text": "bool USchoolLifeSessionSubsystem::RestoreSaveSnapshot(const FSchoolLifeSaveSnapshot& Snapshot, FString& Reason)"
+        },
+        {
+          "line": 227,
+          "text": "if (!ValidateSaveSnapshot(Snapshot, Reason)) return false;"
+        },
+        {
+          "line": 229,
+          "text": "if (!ValidateSaveSnapshot(S, Reason)) return false;"
+        },
+        {
+          "line": 246,
+          "text": "bool USchoolLifeSessionSubsystem::SaveLocalGame(FString& Reason) const"
+        },
+        {
+          "line": 249,
+          "text": "if (!ExportSaveSnapshot(Save->Snapshot, Reason)) return false;"
+        },
+        {
+          "line": 255,
+          "text": "bool USchoolLifeSessionSubsystem::ReadLocalSave(FSchoolLifeSaveSnapshot& S, FString& Reason) const"
+        },
+        {
+          "line": 257,
+          "text": "if (!CanUseSaveCheckpoint(Reason)) return false;"
+        },
+        {
+          "line": 271,
+          "text": "return AcceptLoadedSave(UGameplayStatics::LoadGameFromMemory(Bytes), S, Reason);"
+        },
+        {
+          "line": 274,
+          "text": "bool USchoolLifeSessionSubsystem::AcceptLoadedSave(const USaveGame* Object, FSchoolLifeSaveSnapshot& S, FString& Reason) const"
+        },
+        {
+          "line": 278,
+          "text": "if (!ValidateSaveSnapshot(Save->Snapshot, Reason)) return false;"
+        },
+        {
+          "line": 280,
+          "text": "if (!ValidateSaveSnapshot(Candidate, Reason)) return false;"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldSave.cpp",
+      "sha256": "9897cac605840f457cc6661635be001a231b1fab51ce586b010ed2c4b997de74",
+      "matches": [
+        {
+          "line": 11,
+          "text": "bool USchoolLifeWorldSubsystem::ValidateSavePlayer(ASchoolLifeCharacter* Player, FString& Reason) const"
+        },
+        {
+          "line": 26,
+          "text": "bool USchoolLifeWorldSubsystem::TrySaveLocalGame(ASchoolLifeCharacter* Player)"
+        },
+        {
+          "line": 35,
+          "text": "if (!ValidateSavePlayer(Player, Reason)) { SaveLoadResult = TEXT(\"保存失败：\") + Reason; SetHUDNotice(SaveLoadResult); return false; }"
+        },
+        {
+          "line": 47,
+          "text": "bool USchoolLifeWorldSubsystem::TryLoadLocalGame(ASchoolLifeCharacter* Player)"
+        },
+        {
+          "line": 51,
+          "text": "if (!ValidateSavePlayer(Player, Reason)) { SaveLoadResult = TEXT(\"读取失败：\") + Reason; SetHUDNotice(SaveLoadResult); return false; }"
+        },
+        {
+          "line": 79,
+          "text": "if (!GetWorld()->FindTeleportSpot(Player, Position, Player->GetActorRotation()))"
+        },
+        {
+          "line": 93,
+          "text": "RebuildNPCActor();"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeSessionClassQuiz.cpp",
+      "sha256": "5dc3dcf4c19a611664afa3be720f2ddfcfda9c6366e92b696c9954faa95aec11",
+      "matches": [
+        {
+          "line": 25,
+          "text": "FSchoolLifeSaveSnapshot USchoolLifeSessionSubsystem::UpgradeLegacySnapshot(const FSchoolLifeSaveSnapshot& Snapshot) const"
+        },
+        {
+          "line": 35,
+          "text": "if (Snapshot.SchemaVersion < 3)"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeSessionClassDay.cpp",
+      "sha256": "63465f62deefe84ada335ac937a1d6031ec879754291d36fee038700035f006f",
+      "matches": [
+        {
+          "line": 20,
+          "text": "bool USchoolLifeSessionSubsystem::ValidateClassDay(const FSchoolLifeSaveSnapshot& S, FString& Reason) const"
+        },
+        {
+          "line": 29,
+          "text": "if (Calendar.ToDateTime(Day).Weekday >= 5 && (D.CompletedMask || D.SharedMinutes || D.bRewarded || D.bLegacyRewardLocked))"
+        },
+        {
+          "line": 48,
+          "text": "if (Total != D.SharedMinutes || (D.bRewarded && Total < FSchoolLifeSocialPrototype::RequiredMinutes && !D.bLegacyRewardLocked)"
+        },
+        {
+          "line": 50,
+          "text": "|| (D.bRewarded && S.Relationship.SharedClassCount == 0))"
+        },
+        {
+          "line": 53,
+          "text": "if (!D.bLegacyRewardLocked && Total >= FSchoolLifeSocialPrototype::RequiredMinutes && !D.bRewarded)"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldSubsystem.cpp",
+      "sha256": "edc864605ca12c1d8fd29529ff9229def91717d6c9719d4eb37abf526510c169",
+      "matches": [
+        {
+          "line": 57,
+          "text": "void USchoolLifeWorldSubsystem::InitializeNPCScene()"
+        },
+        {
+          "line": 67,
+          "text": "PresentationHandle = NotificationSession->OnNPCPresentationChanged.AddUObject(this, &USchoolLifeWorldSubsystem::SynchronizeNPCPresentation);"
+        },
+        {
+          "line": 68,
+          "text": "if (!IsCoast() && !NotificationSession->IsRegionLoading()) RebuildNPCActor();"
+        },
+        {
+          "line": 127,
+          "text": "bool USchoolLifeWorldSubsystem::ResolveNavigablePlace(FName PlaceId, FVector& Position) const"
+        },
+        {
+          "line": 169,
+          "text": "void USchoolLifeWorldSubsystem::RebuildNPCActor()"
+        },
+        {
+          "line": 178,
+          "text": "if (!ResolveNavigablePlace(Record.ConfirmedPlaceId, Position))"
+        },
+        {
+          "line": 192,
+          "text": "SynchronizeNPCPresentation(false);"
+        },
+        {
+          "line": 195,
+          "text": "void USchoolLifeWorldSubsystem::SynchronizeNPCPresentation(bool bSnapToConfirmed)"
+        },
+        {
+          "line": 210,
+          "text": "if (ResolveNavigablePlace(Record.ConfirmedPlaceId, Position))"
+        },
+        {
+          "line": 224,
+          "text": "if (!ResolveNavigablePlace(Record.TargetPlaceId, Destination))"
+        },
+        {
+          "line": 234,
+          "text": "void USchoolLifeWorldSubsystem::ReportNPCTravel(ASchoolLifeNPCAIController* Source, FGuid PersonId,"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeNPCAIController.cpp",
+      "sha256": "9c5392bbebce4bc1dccfdcd2c760013f51dcf64154718e283a26fd854ec5b09a",
+      "matches": [
+        {
+          "line": 7,
+          "text": "void ASchoolLifeNPCAIController::CancelTravel()"
+        },
+        {
+          "line": 27,
+          "text": "void ASchoolLifeNPCAIController::ExecuteTravel(FGuid PersonId, int64 Sequence, const FVector& Destination)"
+        },
+        {
+          "line": 29,
+          "text": "CancelTravel();"
+        },
+        {
+          "line": 45,
+          "text": "ReportResult(Result.Code == EPathFollowingRequestResult::AlreadyAtGoal, TEXT(\"MoveTo could not start\"));"
+        },
+        {
+          "line": 49,
+          "text": "void ASchoolLifeNPCAIController::OnMoveCompleted(FAIRequestID RequestID, const FPathFollowingResult& Result)"
+        },
+        {
+          "line": 51,
+          "text": "Super::OnMoveCompleted(RequestID, Result);"
+        },
+        {
+          "line": 55,
+          "text": "ReportResult(Result.IsSuccess(), FString::Printf(TEXT(\"Navigation result: %d\"), int32(Result.Code)));"
+        },
+        {
+          "line": 59,
+          "text": "void ASchoolLifeNPCAIController::ReportResult(bool bSuccess, const FString& Reason)"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeNPCRecord.h",
+      "sha256": "d807d29e664ccd1c612453e44f86e5b9d7bb2118d9dd0c1a4caf5bcf72a4cba4",
+      "matches": [
+        {
+          "line": 16,
+          "text": "UPROPERTY(BlueprintReadOnly) FName ConfirmedPlaceId;"
+        },
+        {
+          "line": 19,
+          "text": "UPROPERTY(BlueprintReadOnly) int64 RequestSequence = 0;"
+        },
+        {
+          "line": 27,
+          "text": "UPROPERTY(BlueprintReadOnly) int64 DepartureMinute = -1;"
+        },
+        {
+          "line": 28,
+          "text": "UPROPERTY(BlueprintReadOnly) int64 ExpectedArrivalMinute = -1;"
+        },
+        {
+          "line": 29,
+          "text": "UPROPERTY(BlueprintReadOnly) int64 ActualArrivalMinute = -1;"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeGameMode.cpp",
+      "sha256": "20518dd2b5903f314ebcf92b4dc5a6633d17eaaa738d3bd49dd839a64a628c7d",
+      "matches": [
+        {
+          "line": 14,
+          "text": "void ASchoolLifeGameMode::StartPlay()"
+        },
+        {
+          "line": 16,
+          "text": "GetGameInstance()->GetSubsystem<USchoolLifeSessionSubsystem>()->StartSessionIfNeeded();"
+        },
+        {
+          "line": 17,
+          "text": "Super::StartPlay();"
+        },
+        {
+          "line": 18,
+          "text": "GetWorld()->GetSubsystem<USchoolLifeWorldSubsystem>()->InitializeNPCScene();"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeCharacter.cpp",
+      "sha256": "bd4614257acac5db08653cd586747ded238d7f5dd3e038863d9ff4bc8eebd9df",
+      "matches": [
+        {
+          "line": 86,
+          "text": "void ASchoolLifeCharacter::BeginPlay()"
+        },
+        {
+          "line": 88,
+          "text": "Super::BeginPlay();"
+        },
+        {
+          "line": 228,
+          "text": "GetWorld()->GetSubsystem<USchoolLifeWorldSubsystem>()->TrySaveLocalGame(this);"
+        },
+        {
+          "line": 233,
+          "text": "GetWorld()->GetSubsystem<USchoolLifeWorldSubsystem>()->TryLoadLocalGame(this);"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeSessionSubsystem.cpp",
+      "sha256": "0fb74b67cb303246f081c77693a3aeaf4eb4a1255e1f6356ffe6148314cb14ff",
+      "matches": [
+        {
+          "line": 7,
+          "text": "void USchoolLifeSessionSubsystem::StartSessionIfNeeded()"
+        },
+        {
+          "line": 34,
+          "text": "bool USchoolLifeSessionSubsystem::SetNPCDestination(FName TargetPlaceId)"
+        },
+        {
+          "line": 73,
+          "text": "const bool bAccepted = SetNPCDestination(TargetPlaceId);"
+        },
+        {
+          "line": 87,
+          "text": "SetNPCDestination(Plan.PlaceId);"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeSessionSubsystem.h",
+      "sha256": "a936b14b270f8b48180bce09a096ca5e735030572c6b76f754862c985e0d0054",
+      "matches": [
+        {
+          "line": 112,
+          "text": "bool ExportSaveSnapshot(FSchoolLifeSaveSnapshot& Snapshot, FString& Reason) const;"
+        },
+        {
+          "line": 117,
+          "text": "bool RestoreSaveSnapshot(const FSchoolLifeSaveSnapshot& Snapshot, FString& Reason);"
+        },
+        {
+          "line": 120,
+          "text": "bool ReadLocalSave(FSchoolLifeSaveSnapshot& Snapshot, FString& Reason) const;"
+        },
+        {
+          "line": 131,
+          "text": "UPROPERTY() FSchoolLifeSaveSnapshot RegionCandidate;"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldSubsystem.h",
+      "sha256": "055ac197fef66a23414d0c4aabf2a8b04ba2592c58892b9ecad5588df61239b5",
+      "matches": [
+        {
+          "line": 72,
+          "text": "UFUNCTION(BlueprintCallable, Category = \"Save\") bool TrySaveLocalGame(ASchoolLifeCharacter* Player);"
+        },
+        {
+          "line": 73,
+          "text": "UFUNCTION(BlueprintCallable, Category = \"Save\") bool TryLoadLocalGame(ASchoolLifeCharacter* Player);"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeSessionRegionTravel.cpp",
+      "sha256": "f23bd72d639230037644aa105b4ab69ffe574c89d5bd2a29519ab11dae3a5126",
+      "matches": [
+        {
+          "line": 12,
+          "text": "bool USchoolLifeSessionSubsystem::IsCoreMap(FName Map)"
+        },
+        {
+          "line": 16,
+          "text": "FString USchoolLifeSessionSubsystem::RegionPackage(FName Map)"
+        },
+        {
+          "line": 26,
+          "text": "bool USchoolLifeSessionSubsystem::BeginRegionTravel(ASchoolLifeCharacter* Player,FName Target,FName Exit,"
+        },
+        {
+          "line": 38,
+          "text": "FString TargetPackage=RegionPackage(Target);"
+        },
+        {
+          "line": 78,
+          "text": "UGameplayStatics::OpenLevel(GetGameInstance()->GetWorld(),FName(*RegionPackage(RegionSourceMap)));"
+        },
+        {
+          "line": 80,
+          "text": "void USchoolLifeSessionSubsystem::FinishRegionWorld(USchoolLifeWorldSubsystem* Scene,ASchoolLifeCharacter* Player)"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldRegionTravel.cpp",
+      "sha256": "2800bde65c88139f4ac0ba58662d11c83fa2f8e83cd0895a9aed4817b6f2443a",
+      "matches": [
+        {
+          "line": 84,
+          "text": "bool USchoolLifeWorldSubsystem::CheckRegionStand(ASchoolLifeCharacter* Player,const FVector& Ground,FVector& Position) const"
+        },
+        {
+          "line": 95,
+          "text": "bool USchoolLifeWorldSubsystem::PrepareRegionLanding(ASchoolLifeCharacter* Player,FName Id,const FSchoolLifeSaveSnapshot& Basis,"
+        },
+        {
+          "line": 121,
+          "text": "if(CheckRegionStand(Player,Ground,Position)){Reason.Reset();return true;}"
+        },
+        {
+          "line": 132,
+          "text": "if(!CheckRegionStand(Player,Ground,Position)){Reason=TEXT(\"目标落点被阻挡或没有安全地面。\");return false;}"
+        },
+        {
+          "line": 135,
+          "text": "void USchoolLifeWorldSubsystem::CompleteRegionArrival(const FTransform* OriginalNPC)"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldActivityConfirmation.cpp",
+      "sha256": "a4ecc30b3db42984edcb604074f94beefc52f2e21361698dd7bba54593499da8",
+      "matches": [
+        {
+          "line": 75,
+          "text": "void USchoolLifeWorldSubsystem::AccumulateWorldTime(USchoolLifeSessionSubsystem* Session, double DeltaTime)"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeHUD.cpp",
+      "sha256": "1bfa98ea9c97d34dbccdda80f295bc8848cb5c505909fed2c7b45ca96f33d67b",
+      "matches": [
+        {
+          "line": 141,
+          "text": "Panel(Timetable + Nearby + (Scene->IsCoast() ? TEXT(\"\\nF3 读档回家 · F4 诊断 · 右键/滚轮镜头\") : TEXT(\"\\nR 交谈 · F2 在家保存 · F3 读取 · F4 诊断\")), W - Margin - FMath::Min(480.f, W * .38f), H - Margin,"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/Tests/SchoolLifeSaveTests.cpp",
+      "sha256": "28cbf3275f507c8e1424a5e17b3b993a5daa812098e84e7334a82cfd1b4ed5e1",
+      "matches": [
+        {
+          "line": 31,
+          "text": "IMPLEMENT_SIMPLE_AUTOMATION_TEST(FSchoolLifeSaveRoundTripTest, \"SchoolLife.Save.FullSnapshotRoundTrip\","
+        },
+        {
+          "line": 56,
+          "text": "IMPLEMENT_SIMPLE_AUTOMATION_TEST(FSchoolLifeSaveRejectionTest, \"SchoolLife.Save.RejectWithoutPartialStateChange\","
+        },
+        {
+          "line": 97,
+          "text": "IMPLEMENT_SIMPLE_AUTOMATION_TEST(FSchoolLifeSaveContinuationTest, \"SchoolLife.Save.ContinuationAndOnceOnlySettlement\","
+        },
+        {
+          "line": 126,
+          "text": "IMPLEMENT_SIMPLE_AUTOMATION_TEST(FSchoolLifeSaveFilesTest, \"SchoolLife.Save.IsolatedDiskFailures\","
+        },
+        {
+          "line": 155,
+          "text": "IMPLEMENT_SIMPLE_AUTOMATION_TEST(FSchoolLifeDailyLegacyTest, \"SchoolLife.DailyRhythm.LegacyMorningAndHistory\","
+        },
+        {
+          "line": 217,
+          "text": "IMPLEMENT_SIMPLE_AUTOMATION_TEST(FSchoolLifeDailyRunningClockTest, \"SchoolLife.DailyRhythm.FixedActivityExcludesPassiveTick\","
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/Tests/SchoolLifeCampusDayTests.cpp",
+      "sha256": "32988f1e6d6be0968ccecd6b7d4df8ad1d0b1d032ab46c8236b5e6b5ce51b5f6",
+      "matches": [
+        {
+          "line": 20,
+          "text": "IMPLEMENT_SIMPLE_AUTOMATION_TEST(FCampusWindowsTest,\"SchoolLife.CampusDay.WindowsLateBudgetAndDuplicate\",EAutomationTestFlags::EditorContext|EAutomationTestFlags::EngineFilter)"
+        },
+        {
+          "line": 54,
+          "text": "IMPLEMENT_SIMPLE_AUTOMATION_TEST(FCampusRestTest,\"SchoolLife.CampusDay.RestWaitAndNPCContext\",EAutomationTestFlags::EditorContext|EAutomationTestFlags::EngineFilter)"
+        },
+        {
+          "line": 80,
+          "text": "IMPLEMENT_SIMPLE_AUTOMATION_TEST(FCampusSharedSaveTest,\"SchoolLife.CampusDay.DisjointSharedMinutesSaveAndOncePerDay\",EAutomationTestFlags::EditorContext|EAutomationTestFlags::EngineFilter)"
+        },
+        {
+          "line": 101,
+          "text": "IMPLEMENT_SIMPLE_AUTOMATION_TEST(FCampusLegacyTest,\"SchoolLife.CampusDay.KnownLegacyPlansAndHistory\",EAutomationTestFlags::EditorContext|EAutomationTestFlags::EngineFilter)"
+        },
+        {
+          "line": 126,
+          "text": "IMPLEMENT_SIMPLE_AUTOMATION_TEST(FCampusInvalidSaveTest,\"SchoolLife.CampusDay.IllegalProgressAtomicRejection\",EAutomationTestFlags::EditorContext|EAutomationTestFlags::EngineFilter)"
+        },
+        {
+          "line": 142,
+          "text": "IMPLEMENT_SIMPLE_AUTOMATION_TEST(FCampusQuizParticipationTest,\"SchoolLife.CampusDay.QuizAfternoonOnlyAndLate\",EAutomationTestFlags::EditorContext|EAutomationTestFlags::EngineFilter)"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/Tests/SchoolLifeClassQuizTests.cpp",
+      "sha256": "4ca32edb112e37667320836b9615d92c0ad95646162e84eb133caea511c54248",
+      "matches": [
+        {
+          "line": 23,
+          "text": "IMPLEMENT_SIMPLE_AUTOMATION_TEST(FSchoolLifeQuizThresholdTest, \"SchoolLife.ClassQuiz.SameMinuteRewardsAndThresholds\","
+        },
+        {
+          "line": 57,
+          "text": "IMPLEMENT_SIMPLE_AUTOMATION_TEST(FSchoolLifeQuizChoicesTest, \"SchoolLife.ClassQuiz.ThreeDaysLearningChoices\","
+        },
+        {
+          "line": 81,
+          "text": "IMPLEMENT_SIMPLE_AUTOMATION_TEST(FSchoolLifeQuizBoundaryTest, \"SchoolLife.ClassQuiz.AbsencePauseAndSegmentedAdvance\","
+        },
+        {
+          "line": 106,
+          "text": "IMPLEMENT_SIMPLE_AUTOMATION_TEST(FSchoolLifeQuizLegacyTest, \"SchoolLife.ClassQuiz.Schema1DirectCompatibility\","
+        },
+        {
+          "line": 145,
+          "text": "IMPLEMENT_SIMPLE_AUTOMATION_TEST(FSchoolLifeQuizSaveTest, \"SchoolLife.ClassQuiz.Schema3RoundTripAndInvalidStates\","
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/Tests/SchoolLifeRegionTests.cpp",
+      "sha256": "b3ac5c8e38f6e97ac1d50510b065735fa34fd602ef05f2bf6764f32d701a00ef",
+      "matches": [
+        {
+          "line": 12,
+          "text": "IMPLEMENT_SIMPLE_AUTOMATION_TEST(FRegionGate,\"SchoolLife.Region.LoadingGateAndFraction\",EAutomationTestFlags::EditorContext|EAutomationTestFlags::EngineFilter)"
+        },
+        {
+          "line": 25,
+          "text": "IMPLEMENT_SIMPLE_AUTOMATION_TEST(FRegionOffscreen,\"SchoolLife.Region.OffscreenScheduleWithoutRewards\",EAutomationTestFlags::EditorContext|EAutomationTestFlags::EngineFilter)"
+        },
+        {
+          "line": 39,
+          "text": "IMPLEMENT_SIMPLE_AUTOMATION_TEST(FRegionLegacy,\"SchoolLife.Region.LegacyCheckpointAndRepeatedRestore\",EAutomationTestFlags::EditorContext|EAutomationTestFlags::EngineFilter)"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/NavigationResume01/Observations.md",
+      "sha256": "97fcc8f09a255d1dd79e916b2ae8ab1cac5dbeb064d0c595f09edfe9bbcc553e",
+      "matches": [
+        {
+          "line": 1,
+          "text": "# C01 G2/G4接续：导航根因与实际路线"
+        },
+        {
+          "line": 3,
+          "text": "后续状态：用户于同日完成G2指定S1连续玩家往返并明确确认无卡点、路线镜头遮挡可接受，见[人工接续](../G2Manual01/Observations.md)。本文件及其矩阵为导航修正当轮历史，不改写成当时已走。"
+        },
+        {
+          "line": 7,
+          "text": "**G4取得S1真实上下楼及成功到达；G2玩家连续往返仍未走。三梯12向未全部验收，不判整栋最终通过。**"
+        },
+        {
+          "line": 53,
+          "text": "## G4真实图形PIE"
+        },
+        {
+          "line": 70,
+          "text": "## G2、三梯矩阵与共同站位"
+        },
+        {
+          "line": 76,
+          "text": "共同站位本轮实际查看：[JointStanding](Images/JointStanding.png)。玩家P=(4500,7050.150101,1298)，Wait准备后的NPC=(4500,6982.025101,1298.149981)，中心约68.125cm；两人物贴图边缘/手臂区域重叠，Classroom世界大字影响可读性。没有临时隐藏建筑、缩人物、改镜头或移动锚点；原相机碰撞在室内形成较近画面。该站位来自PIE准备与产品Wait，不是G2实走，不授予最终席、入座或共同站位最终通过。"
+        },
+        {
+          "line": 84,
+          "text": "**未收口**：G2连续玩家往返、其余三梯路线、全部门洞胶囊实走、严格直接读取私有选中NavData/MoveTo变量和原始回调报文。工具缺口不通过加源码/控制框架填补。07:14开发覆盖接管样本只解释既有语义，不改日程或收益。局部通过不能写成整栋最终通过。"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2Interface/Trial01/G2Manual01/Observations.md",
+      "sha256": "ff2da504821c737418df7222052449345846b97dc8d7bcf536bb1e9c15dcbe47",
+      "matches": [
+        {
+          "line": 5,
+          "text": "**主入口外→S1→二层教室操作区→原路返回，经用户持续WASD操作完成；用户确认“往返完成，上下楼无卡点，镜头遮挡可接受”。仅指定S1首二层往返通过，不是三梯全方向或整栋最终通过。**"
+        },
+        {
+          "line": 34,
+          "text": "返回截图调用未取得有效图像数据，未保留空PNG、未用起点图冒充返回画面；返回证据为位置读回与用户确认。截图非本轮交付前置。"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/LocalSaveLoad/Observations.md",
+      "sha256": "42a6944aa0878bbceffbbb65a389a7de88523a2adb2e9bb68756a2efef1fbdc7",
+      "matches": [
+        {
+          "line": 7,
+          "text": "UE标准 USchoolLifeSaveGame，唯一 SchoolLife_Main/UserIndex0，SchemaVersion1，当前日历规则识别60/24/7/14/12。F2 Started仅当前GameplayLab玩家在Home锚点230cm内、会话启动且非活动/时间推进/恢复期间保存；F3 Started手动恢复，HUD显示成功或具体失败。新游戏不自动读写、不补算离线时间；同会话地图重载仍用Session。"
+        },
+        {
+          "line": 22,
+          "text": "## 真实图形PIE与跨进程"
+        },
+        {
+          "line": 32,
+          "text": "结束PIE/新PIE先创建初始新身份、不自动读档/删除文件，F3恢复保存身份。编辑器PID47948在UTC13:18:01退出；无编辑器进程后UTC13:19:10重新启动PID13092，实际F3恢复磁盘检查点，UTC13:19:41退出。见 [ProcessEvidence.json](ProcessEvidence.json)。主文件9071字节，前后SHA256 `46dd95e07ed039730854477729590a54f47ffe36f9dc4f814d616126c33c76e5`，留于 `Saved/SaveGames/SchoolLife_Main.sav`，不提交Git。本轮开始无既有主文件，没有删除用户存档；最终保留本轮非初始通勤检查点，玩家后续可F3试用。"
+        }
+      ]
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/RegionConnection/Step3/ManualExperience.md",
+      "sha256": "9910f01c302aa0f98cd263f29e547fb0ab1cf6adb47d1bf11eb267ec92c12f7c",
+      "matches": [
+        {
+          "line": 10,
+          "text": "Start-Process -FilePath 'D:\\UE project\\SchoolLife\\Saved\\RegionConnectionStep3\\Package\\Windows\\SchoolLife.exe' -ArgumentList '-UserDir=\"D:/UE project/SchoolLife/Saved/RegionConnectionStep3/HumanUserData/\" -windowed -ResX=1280 -ResY=720'"
+        },
+        {
+          "line": 21,
+          "text": "5. 最后再次去海岸，Alt+F4退出整个游戏。执行完全相同的启动命令；新进程默认在Campus，F3恢复Home档，再F3状态仍一致。不要求恢复退出时海岸位置。"
+        },
+        {
+          "line": 23,
+          "text": "请反馈：公共南路/近岸往返通行，镜头与安全落点，出口取消/6分钟/F5保持，无自动往返，海岸拒绝保存与回Home读取，同目录全退出重启读取。无需重新玩完整第四A生活日。"
+        }
+      ]
+    }
+  ],
+  "art_source_fingerprints": [
+    {
+      "path": "D:/Art Asset Library/ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/Revision02/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02.fbx",
+      "sha256": "bf12172b5e28f82e2e5ae941e61d8d14bffd67b0b751a8f58e2e092dbffb209d"
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/Revision02/SL_BLD_C01_MAIN_01_TRIAL_01_REV_02.blend",
+      "sha256": "90137759b838d849395f9c0363cbb74f072aff8de4fef418668312b784086aa4"
+    },
+    {
+      "path": "D:/Art Asset Library/ArtSource/Buildings/SL_BLD_C01_MAIN_01/Trial01/Revision02/GEOMETRY.json",
+      "sha256": "ce0abe83ae496f98e219bbd94ecfa29bbcaddbabcba25063404013aa1da9fae6"
+    }
+  ],
+  "checks": {
+    "tests_run": false,
+    "piE_or_editor_started": false,
+    "unreal_assets_modified": false,
+    "schoollife_files_written": 0,
+    "models_or_images_generated": false
+  }
+}

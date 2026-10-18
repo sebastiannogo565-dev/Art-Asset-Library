@@ -1,3 +1,11 @@
+# 当前交接：C01接口局部收口，转交二层存读恢复卡 · 2026-10-19
+
+用户已接受指定G2/G4为后续基准，无需再次确认/实施；其余10向及整栋最终状态保持。交给游戏开发聊天的唯一入口：[C01二层存读与恢复集成01](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_F2_SAVE_RESTORE_01.md)。本卡明确授权现测试图内必要存读恢复逻辑；原“不支持C01 F2/F3”已是历史阶段边界，不能作为本次成功标准。
+
+先核自己会话原生G0/最新代码与UserDir；实现同USaveGame外层固定检查点、原业务Schema1—3/其他地图不变，C01同图F3恢复F2，旧档回Home、错图/受阻拒绝保现场；保护原档，以活动前/后、完整进程退出后新PID读取、重复读不结算及NPC真实恢复续行验收。详细步骤/回退/证据均在卡内，不开展生产迁移/跨区/最终席/RT01/B01。
+
+本规划轮只发卡未施工。工程基点26e10efeb37ebb1ecdca2129e1e43bf8ff63d7d7已只读核Git干净；25来源及3美术源指纹见[架构证据](AssetPlanning/BuildingProduction/C01/f2-save-restore-01-code-audit.json)。原生当前不可调用，本轮没有编辑器/PIE/dirty新实测，不沿用旧“仍打开”作为现在事实。美术交接正常提交推送，实际哈希/远端/LFS/工作区见最终交付；停止供用户转交，不自动给其他聊天发消息。
+
 # 当前交接：C01指定G2/G4建议局部收口，停止供审阅 · 2026-10-18
 
 入口：[合并回审](AssetPlanning/BuildingProduction/review-C01-navigation-resume-01.md)／[核验JSON](AssetPlanning/BuildingProduction/C01/navigation-resume-01-planning-audit.json)。工程NavigationResume01/3d31fcc与G2Manual01/a16d02e两次回件已分源核对：NPC两指定路线经S1真实到达，后续用户亲自主门外→S1→二层G→返回并确认无卡/路线镜头可接受。建议保19项UE导入资源凸包清理、指定G2/G4局部通过；原G3/G5保历史接受项，不冒称本轮重测。

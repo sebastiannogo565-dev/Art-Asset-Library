@@ -1,3 +1,7 @@
+# 当前：C01接口局部收口，二层存读恢复开发卡已发布 · 2026-10-19
+
+用户已接受指定G2/G4为可用基准，不重复确认/实走；余10向未验，整栋仍不最终通过。[唯一后续开发卡](Docs/AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_F2_SAVE_RESTORE_01.md)供用户转交：基于现架构补同存档外层固定F2检查点、冷退出重启手动读取、NPC意图恢复及防重复结算，保原Schema/其他地图行为。当前仅规划发卡，未改工程/模型或运行测试，B01/RT01保持。
+
 # 当前：C01指定接口路线建议局部收口，整栋仍待审 · 2026-10-18
 
 [合并回审](Docs/AssetPlanning/BuildingProduction/review-C01-navigation-resume-01.md)／[直接核验](Docs/AssetPlanning/BuildingProduction/C01/navigation-resume-01-planning-audit.json)。工程导航接续及新到G2人工补验已核：保19包冗余凸包清理，NPC Home→Classroom及Classroom→Club真实经S1到达，用户连续完成主门外→二层G→返回。建议通过指定G2/G4，玩家/NPC矩阵各仅2向已走、10向未验；共同站位重叠/大字与整栋最终通过仍未解锁。工程a16d02e远端一致/干净，原生测试图打开、PIE停止、五图clean。本轮只回审和美术文档，不新发施工卡或改工程。

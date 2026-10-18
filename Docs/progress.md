@@ -1,3 +1,9 @@
+# C01接口局部收口，存读恢复集成卡已发布 · 2026-10-19
+
+已确认：指定G2/G4作为可用开发基准，原回审已记用户接受；不重复确认/实施。已完成：只读核工程26e10efe干净基点及当前架构，25份来源与3美术源SHA索引；发布一张[C01二层存读与恢复集成01](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_F2_SAVE_RESTORE_01.md)。选定业务Schema1—3不变+同USaveGame外层可选检查点、C01二层有限站位和旧档Home语义；非加白名单即宣称接入。
+
+未实施/未验证：外层序列化兼容、落点联合碰撞、冷重启/重复读和恢复后NPC导航全部待游戏开发聊天执行；本轮未跑测试/PIE或改工程。当前本聊天无原生入口，编辑器/PIE/dirty未重新读取。其余10向、整栋最终通过、最终席、B01/RT01原状态保持；工程代码/模型/原档只读保护。发卡与交接文件检查提交推送后停止转交。
+
 # C01导航接续及G2人工补验回审完成 · 2026-10-18
 
 已完成：[合并回审](AssetPlanning/BuildingProduction/review-C01-navigation-resume-01.md)／[直接核验](AssetPlanning/BuildingProduction/C01/navigation-resume-01-planning-audit.json)。核19碰撞包+测试图新SHA，其余2238导入文件、514原文件含45sav及3美术源保持；19包/本机引擎导出源码、27/36点NPC轨迹及到达HUD相互支持。审阅期间新收到用户人工G2，核7采样与明确往返确认，操作区三维108.24694cm/余121.75306cm；不是本窗口重新跑课堂。建议指定G2/S1与G4两路线局部通过，原G3/G5仅继承。
