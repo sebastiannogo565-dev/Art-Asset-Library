@@ -1,0 +1,1383 @@
+{
+  "date": "2026-10-21",
+  "art_base": "3bf5b1fabc6b50560dd7752398cb45d2c855e720",
+  "reviewed_engine_commit": "bb6256a1250cc5b9837df102f2dc44aed77a6f10",
+  "stage_decision": "PASS within task-card S0-S8 scope. No repeat human confirmation required.",
+  "task_card": "Docs/AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_F2_SAVE_RESTORE_01.md",
+  "scope": "Planning read-only review; no tests/builds/process start-stop/save/load, engineering, model or texture mutations.",
+  "current_native": {
+    "collected_at_utc": "2026-10-21T01:03:36.836Z",
+    "scope": "Current planning-chat read-only editor observations; no runtime rerun or asset save.",
+    "observations": {
+      "map": "/Game/SchoolLife/Maps/Dev/C01_F2_Interface_01",
+      "pie": false,
+      "identity": [],
+      "maps_dirty": [
+        {
+          "asset": "/Game/SchoolLife/Maps/Dev/C01_F2_Interface_01",
+          "dirty": false
+        },
+        {
+          "asset": "/Game/SchoolLife/Maps/CampusLifeBlockout",
+          "dirty": false
+        },
+        {
+          "asset": "/Game/SchoolLife/Maps/CoastBlockout",
+          "dirty": false
+        },
+        {
+          "asset": "/Game/SchoolLife/Maps/LifeBlockout",
+          "dirty": false
+        },
+        {
+          "asset": "/Game/SchoolLife/Maps/GameplayLab",
+          "dirty": false
+        }
+      ]
+    },
+    "identity_note": "The narrow LogConfig path query returned no entries; host read-only port ownership confirmed listener 8000 = editor PID22172, correct SchoolLife.uproject, not -game. Do not treat an empty log query as project identity evidence.",
+    "host_listener": {
+      "port": 8000,
+      "pid": 22172,
+      "executable": "D:/UE_5.8/Engine/Binaries/Win64/UnrealEditor.exe",
+      "schoollife_project": true,
+      "game_mode": false
+    },
+    "end_observations": {
+      "collected_at_utc": "2026-10-21T01:07:17.292Z",
+      "map_end": "/Game/SchoolLife/Maps/Dev/C01_F2_Interface_01",
+      "pie_end": false,
+      "dirty_test_end": false
+    }
+  },
+  "direct_checks": {
+    "protected_entries": 57,
+    "original_saves": 45,
+    "retained_import_files": 2258,
+    "retained_import_bytes": 65720558,
+    "build_logs": 10,
+    "evidence_files": 60,
+    "errors": []
+  },
+  "producer_protection_summary": {
+    "Compared": 2773,
+    "OriginalSaves": 45,
+    "Maps": 5,
+    "Changed": [
+      "Source/SchoolLife/SchoolLifeSessionSubsystem.h",
+      "Source/SchoolLife/SchoolLifeHUD.cpp",
+      "Source/SchoolLife/SchoolLifeWorldSubsystem.cpp",
+      "Source/SchoolLife/SchoolLifeSaveGame.h",
+      "Source/SchoolLife/Tests/SchoolLifeSaveTests.cpp",
+      "Source/SchoolLife/SchoolLifeWorldSubsystem.h",
+      "Source/SchoolLife/SchoolLifeWorldRegionTravel.cpp",
+      "Source/SchoolLife/SchoolLifeSessionSave.cpp",
+      "Source/SchoolLife/SchoolLifeWorldActivityConfirmation.cpp",
+      "Source/SchoolLife/SchoolLifeWorldSave.cpp"
+    ],
+    "Unexpected": [],
+    "Missing": [],
+    "At": "2026-10-21T02:57:23.7001963+08:00"
+  },
+  "protection_note": "2773 is the developer manifest scope, not an invented independent full re-audit. Independently verified supplied unchanged fingerprints plus retained 2258 package hashes.",
+  "cold_launches": [
+    {
+      "name": "ActivityLaunch1",
+      "PID": 43928,
+      "Exe": "D:/UE_5.8/Engine/Binaries/Win64/UnrealEditor.exe",
+      "Args": [
+        "\"D:/UE project/SchoolLife/SchoolLife.uproject\"",
+        "/Game/SchoolLife/Maps/Dev/C01_F2_Interface_01",
+        "-game",
+        "-UserDir=\"D:/UE project/SchoolLife/Saved/C01F2SaveRestore01/Users/ActivityCase\"",
+        "-C01F2SaveRestoreAudit",
+        "-ModelContextProtocolPort=8010",
+        "-windowed",
+        "-ResX=1280",
+        "-ResY=720",
+        "-abslog=\"D:/UE project/SchoolLife/Saved/C01F2SaveRestore01/ActivityBoot1.log\"",
+        "-ExecCmds=\"SchoolLife.C01Watch,SchoolLife.C01Prepare before\""
+      ],
+      "Phase": "ActivityBeforeSave"
+    },
+    {
+      "name": "ActivityLaunch2",
+      "PreviousPID": 43928,
+      "At": "2026-10-21T02:02:15.0222624+08:00",
+      "PID": 41036,
+      "Arguments": [
+        "\"D:/UE project/SchoolLife/SchoolLife.uproject\"",
+        "/Game/SchoolLife/Maps/Dev/C01_F2_Interface_01",
+        "-game",
+        "-UserDir=\"D:/UE project/SchoolLife/Saved/C01F2SaveRestore01/Users/ActivityCase\"",
+        "-C01F2SaveRestoreAudit",
+        "-ModelContextProtocolPort=8010",
+        "-windowed",
+        "-ResX=1280",
+        "-ResY=720",
+        "-abslog=\"D:/UE project/SchoolLife/Saved/C01F2SaveRestore01/ActivityBoot2.log\"",
+        "-ExecCmds=\"SchoolLife.C01Watch\""
+      ],
+      "PreviousExited": true
+    },
+    {
+      "name": "ActivityLaunch3",
+      "PreviousPID": 41036,
+      "PID": 35940,
+      "At": "2026-10-21T02:04:38.2048916+08:00",
+      "Arguments": [
+        "\"D:/UE project/SchoolLife/SchoolLife.uproject\"",
+        "/Game/SchoolLife/Maps/Dev/C01_F2_Interface_01",
+        "-game",
+        "-UserDir=\"D:/UE project/SchoolLife/Saved/C01F2SaveRestore01/Users/ActivityCase\"",
+        "-C01F2SaveRestoreAudit",
+        "-ModelContextProtocolPort=8010",
+        "-windowed",
+        "-ResX=1280",
+        "-ResY=720",
+        "-abslog=\"D:/UE project/SchoolLife/Saved/C01F2SaveRestore01/ActivityBoot3.log\"",
+        "-ExecCmds=\"SchoolLife.C01Watch\""
+      ],
+      "PreviousExited": true
+    },
+    {
+      "name": "ActivityLaunch4",
+      "PreviousExited": true,
+      "PreviousPID": 35940,
+      "At": "2026-10-21T02:08:14.0868999+08:00",
+      "Arguments": [
+        "\"D:/UE project/SchoolLife/SchoolLife.uproject\"",
+        "/Game/SchoolLife/Maps/Dev/C01_F2_Interface_01",
+        "-game",
+        "-UserDir=\"D:/UE project/SchoolLife/Saved/C01F2SaveRestore01/Users/ActivityCase\"",
+        "-C01F2SaveRestoreAudit",
+        "-ModelContextProtocolPort=8010",
+        "-windowed",
+        "-ResX=1280",
+        "-ResY=720",
+        "-abslog=\"D:/UE project/SchoolLife/Saved/C01F2SaveRestore01/ActivityBoot4.log\"",
+        "-ExecCmds=\"SchoolLife.C01Watch\""
+      ],
+      "PID": 8608
+    },
+    {
+      "name": "TravelLaunch1",
+      "Arguments": [
+        "\"D:/UE project/SchoolLife/SchoolLife.uproject\"",
+        "/Game/SchoolLife/Maps/Dev/C01_F2_Interface_01",
+        "-game",
+        "-UserDir=\"D:/UE project/SchoolLife/Saved/C01F2SaveRestore01/Users/TravelCase\"",
+        "-C01F2SaveRestoreAudit",
+        "-ModelContextProtocolPort=8010",
+        "-windowed",
+        "-ResX=1280",
+        "-ResY=720",
+        "-abslog=\"D:/UE project/SchoolLife/Saved/C01F2SaveRestore01/TravelBoot1.log\"",
+        "-ExecCmds=\"SchoolLife.C01Watch,SchoolLife.C01Prepare travel\""
+      ],
+      "PreviousPID": 8608,
+      "PID": 37500,
+      "At": "2026-10-21T02:11:52.7678390+08:00",
+      "PreviousExited": true
+    },
+    {
+      "name": "TravelLaunch2",
+      "PreviousExited": true,
+      "At": "2026-10-21T02:13:25.3101610+08:00",
+      "PID": 48456,
+      "Arguments": [
+        "\"D:/UE project/SchoolLife/SchoolLife.uproject\"",
+        "/Game/SchoolLife/Maps/Dev/C01_F2_Interface_01",
+        "-game",
+        "-UserDir=\"D:/UE project/SchoolLife/Saved/C01F2SaveRestore01/Users/TravelCase\"",
+        "-C01F2SaveRestoreAudit",
+        "-ModelContextProtocolPort=8010",
+        "-windowed",
+        "-ResX=1280",
+        "-ResY=720",
+        "-abslog=\"D:/UE project/SchoolLife/Saved/C01F2SaveRestore01/TravelBoot2.log\"",
+        "-ExecCmds=\"SchoolLife.C01Watch\""
+      ],
+      "PreviousPID": 37500
+    },
+    {
+      "name": "TravelLaunch3",
+      "At": "2026-10-21T02:20:31.1402938+08:00",
+      "Arguments": [
+        "\"D:/UE project/SchoolLife/SchoolLife.uproject\"",
+        "/Game/SchoolLife/Maps/Dev/C01_F2_Interface_01",
+        "-game",
+        "-UserDir=\"D:/UE project/SchoolLife/Saved/C01F2SaveRestore01/Users/TravelCase\"",
+        "-C01F2SaveRestoreAudit",
+        "-ModelContextProtocolPort=8010",
+        "-windowed",
+        "-ResX=1280",
+        "-ResY=720",
+        "-abslog=\"D:/UE project/SchoolLife/Saved/C01F2SaveRestore01/TravelBoot3.log\"",
+        "-ExecCmds=\"SchoolLife.C01Watch\""
+      ],
+      "PreviousExited": true,
+      "PreviousPID": 48456,
+      "PID": 28276
+    }
+  ],
+  "complete_snapshot_checks": {
+    "BeforeClass": {
+      "pid": "43928",
+      "minute": "60960",
+      "player_id": "4F07EE8F4470252CDD6B9A8C15F13EEC",
+      "npc_id": "3CE9922D41C18FE477598DB0AA3D81BE",
+      "live_equals_disk": true,
+      "snapshot_sha256": "4e88e028c40095cc8241f5bf4f1f53e7134eef6027b0eeed6ddb0c79046d514a",
+      "study": "0",
+      "fatigue": "0",
+      "class_mask": "0",
+      "shared": "0",
+      "rewarded": "0",
+      "pause": "1",
+      "fraction": "0.250000000000"
+    },
+    "BeforeClassColdRead": {
+      "pid": "41036",
+      "minute": "60960",
+      "player_id": "4F07EE8F4470252CDD6B9A8C15F13EEC",
+      "npc_id": "3CE9922D41C18FE477598DB0AA3D81BE",
+      "live_equals_disk": true,
+      "snapshot_sha256": "4e88e028c40095cc8241f5bf4f1f53e7134eef6027b0eeed6ddb0c79046d514a",
+      "study": "0",
+      "fatigue": "0",
+      "class_mask": "0",
+      "shared": "0",
+      "rewarded": "0",
+      "pause": "1",
+      "fraction": "0.250000000000"
+    },
+    "AfterClassSaved": {
+      "pid": "41036",
+      "minute": "61080",
+      "player_id": "4F07EE8F4470252CDD6B9A8C15F13EEC",
+      "npc_id": "3CE9922D41C18FE477598DB0AA3D81BE",
+      "live_equals_disk": true,
+      "snapshot_sha256": "6a131aace17b04eddbe6dbd94646371a3ef405f9985995d15e090a695f138b42",
+      "study": "1",
+      "fatigue": "2",
+      "class_mask": "1",
+      "shared": "120",
+      "rewarded": "1",
+      "pause": "1",
+      "fraction": "0.250000000000"
+    },
+    "FinalColdRead": {
+      "pid": "8608",
+      "minute": "61080",
+      "player_id": "4F07EE8F4470252CDD6B9A8C15F13EEC",
+      "npc_id": "3CE9922D41C18FE477598DB0AA3D81BE",
+      "live_equals_disk": true,
+      "snapshot_sha256": "6a131aace17b04eddbe6dbd94646371a3ef405f9985995d15e090a695f138b42",
+      "study": "1",
+      "fatigue": "2",
+      "class_mask": "1",
+      "shared": "120",
+      "rewarded": "1",
+      "pause": "1",
+      "fraction": "0.250000000000"
+    },
+    "FinalRepeat1": {
+      "pid": "8608",
+      "minute": "61080",
+      "player_id": "4F07EE8F4470252CDD6B9A8C15F13EEC",
+      "npc_id": "3CE9922D41C18FE477598DB0AA3D81BE",
+      "live_equals_disk": true,
+      "snapshot_sha256": "6a131aace17b04eddbe6dbd94646371a3ef405f9985995d15e090a695f138b42",
+      "study": "1",
+      "fatigue": "2",
+      "class_mask": "1",
+      "shared": "120",
+      "rewarded": "1",
+      "pause": "1",
+      "fraction": "0.250000000000"
+    },
+    "FinalRepeat2": {
+      "pid": "8608",
+      "minute": "61080",
+      "player_id": "4F07EE8F4470252CDD6B9A8C15F13EEC",
+      "npc_id": "3CE9922D41C18FE477598DB0AA3D81BE",
+      "live_equals_disk": true,
+      "snapshot_sha256": "6a131aace17b04eddbe6dbd94646371a3ef405f9985995d15e090a695f138b42",
+      "study": "1",
+      "fatigue": "2",
+      "class_mask": "1",
+      "shared": "120",
+      "rewarded": "1",
+      "pause": "1",
+      "fraction": "0.250000000000"
+    }
+  },
+  "s4": {
+    "source": "Direct current human message + developer 2026-10-21 Observations manual addition",
+    "result": "Specified local round trip without snag; preview/cancel normal; occlusion acceptable.",
+    "method": "User sustained WASD in non-audit-flag game PID40832 after actual F3; no new full trajectory/recording claimed.",
+    "not_whole_building": true
+  },
+  "recovery_points_cm": {
+    "ground_primary": [
+      4500,
+      7050,
+      1200
+    ],
+    "ground_backup": [
+      4500,
+      7130,
+      1200
+    ],
+    "npc_ground": [
+      4500,
+      6850,
+      1200
+    ],
+    "measured_player_center": [
+      4500,
+      7050,
+      1298
+    ],
+    "scaled_half_height_cm": 96,
+    "scaled_radius_cm": 34,
+    "distance_to_anchor_cm": 98,
+    "margin_to_230_cm": 132,
+    "measured_separation_cm": 200
+  },
+  "npc_final": {
+    "rows": 188,
+    "first": {
+      "platform_seconds": "17279442.521240",
+      "absolute_minute": "60840",
+      "x_cm": "-4439.241",
+      "y_cm": "-14828.989",
+      "z_cm": "98.150",
+      "sequence": "1",
+      "state": "1",
+      "actual_arrival": "-1"
+    },
+    "first_arrived": {
+      "platform_seconds": "17279598.192289",
+      "absolute_minute": "60868",
+      "x_cm": "4498.407",
+      "y_cm": "6821.285",
+      "z_cm": "1298.150",
+      "sequence": "1",
+      "state": "0",
+      "actual_arrival": "60868"
+    },
+    "last": {
+      "platform_seconds": "17279630.317053",
+      "absolute_minute": "60874",
+      "x_cm": "4498.407",
+      "y_cm": "6821.285",
+      "z_cm": "1298.150",
+      "sequence": "1",
+      "state": "0",
+      "actual_arrival": "60868"
+    },
+    "terminal": {
+      "confirmed": "Classroom",
+      "target": "Classroom",
+      "sequence": "1",
+      "departure": "60840",
+      "eta": "60855",
+      "actual": "60868"
+    },
+    "proof": "Physical time/elevation sequence + source-gated existing completion chain + terminal record, not raw callback packet or exact route timing."
+  },
+  "blocked_checks": {
+    "PrimaryBlockedBackupUsed": "1",
+    "BackupPosition": "X=4500.000 Y=7130.000 Z=1298.000",
+    "BothBlockedRejected": "1",
+    "FailureBusinessUnchanged": "1",
+    "PlayerUnchanged": "1",
+    "NPCUnchanged": "1",
+    "FileUnchanged": "1"
+  },
+  "legacy_checks": [
+    {
+      "schema": 1,
+      "checkpoint_version": "0",
+      "player": "X=-4439.241 Y=-14978.989 Z=98.000",
+      "grounded": "1",
+      "full_snapshot_equal": "1"
+    },
+    {
+      "schema": 2,
+      "checkpoint_version": "0",
+      "player": "X=-4439.241 Y=-14978.989 Z=98.000",
+      "grounded": "1",
+      "full_snapshot_equal": "1"
+    },
+    {
+      "schema": 3,
+      "checkpoint_version": "0",
+      "player": "X=-4439.241 Y=-14978.989 Z=98.000",
+      "grounded": "1",
+      "full_snapshot_equal": "1"
+    }
+  ],
+  "file_failure_checks": [
+    {
+      "Case": "MissingFileRead",
+      "SnapshotEqual": true,
+      "PlayerEqual": true,
+      "NPCEqual": true,
+      "NPCIdentityEqual": true
+    },
+    {
+      "Case": "CorruptFileRead",
+      "SnapshotEqual": true,
+      "PlayerEqual": true,
+      "NPCEqual": true,
+      "NPCIdentityEqual": true
+    }
+  ],
+  "automation": {
+    "total": 55,
+    "passed": 55,
+    "failed": 0,
+    "skipped": 0,
+    "tests": [
+      {
+        "name": "SchoolLife.Activity.BoundaryAndOnceOnlySettlement",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Activity.EligibilityAndSleepTargets",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Activity.ThreeLifeDays",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.CampusDay.DisjointSharedMinutesSaveAndOncePerDay",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.CampusDay.IllegalProgressAtomicRejection",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.CampusDay.KnownLegacyPlansAndHistory",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.CampusDay.QuizAfternoonOnlyAndLate",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.CampusDay.RestWaitAndNPCContext",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.CampusDay.SegmentAndWaitExpiredIntent",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.CampusDay.WindowsLateBudgetAndDuplicate",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.ClassQuiz.AbsencePauseAndSegmentedAdvance",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.ClassQuiz.SameMinuteRewardsAndThresholds",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.ClassQuiz.Schema1DirectCompatibility",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.ClassQuiz.Schema3RoundTripAndInvalidStates",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.ClassQuiz.ThreeDaysLearningChoices",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Clock.Accumulation",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Clock.BoundariesAndPause",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Clock.Calendar",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Commute.EstimateIsNotPhysicalArrival",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Commute.KnownOldMorningPlansAndFailureAtomicity",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Confirmation.FixedIntentRecheck",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Confirmation.ManualPauseAndSaveIndependent",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Confirmation.PaidRecoveryCancelAndQualificationRecheck",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Confirmation.PreviewCancelAndAutomaticGate",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.DailyRhythm.FixedActivityExcludesPassiveTick",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.DailyRhythm.LegacyMorningAndHistory",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.DailyRhythm.MorningArrivalAndClassContact",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.DailyRhythm.MorningWaitAndIntent",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Fatigue.OneSettlementMidnightAndQuizBoundary",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Fatigue.PaidRecordSchema2RoundTrip",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Fatigue.StartEligibilityAndRecoveryBoundaries",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Library.ChoiceCancelAndStaleIntent",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Library.DefinitionsAndClosingBoundaries",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Library.EquivalentDurationAndOnceOnlySettlement",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Library.SaveHistoryAndAtomicCorruptionRejection",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Library.StudyFeedsFutureQuizNeverRegradesSettledQuiz",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.NPC.PersistentRecordAndRequests",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Region.LegacyCheckpointAndRepeatedRestore",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Region.LoadingGateAndFraction",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Region.OffscreenScheduleWithoutRewards",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Save.C01LegacyOuterDefaults",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Save.C01SpatialEnvelope",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Save.ContinuationAndOnceOnlySettlement",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Save.FullSnapshotRoundTrip",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Save.IsolatedDiskFailures",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Save.RejectWithoutPartialStateChange",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Schedule.BoundaryOrderAndExecution",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Schedule.SevenDaysAndSegments",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Social.ContextAndThreshold",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Social.CooperationAndRetention",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Social.IntervalsAndSegmentation",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Social.TruthfulReadOnlyResponses",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Sprite.PartialWalkFallbackKeepsPhase",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Sprite.RelativeDirectionsAndHysteresis",
+        "state": "Success"
+      },
+      {
+        "name": "SchoolLife.Sprite.WalkClockAndIdleReset",
+        "state": "Success"
+      }
+    ],
+    "note": "Delivered current-run results reviewed; not rerun by planning window."
+  },
+  "builds": [
+    {
+      "Log": "BuildEditor.log",
+      "Result": "Result: Succeeded",
+      "Seconds": "Total execution time: 119.01 seconds",
+      "SHA256": "5000CF068EDCD1AD19282497769C5F6F94A180D958A985271A7C17244DFF44DE",
+      "sha_verified": true
+    },
+    {
+      "Log": "BuildEditorFinal.log",
+      "Result": "Result: Succeeded",
+      "Seconds": "Total execution time: 8.43 seconds",
+      "SHA256": "6A8660C07ECD7DB634C47253A03D23E00FA1B693C843E79B844B91B1A6C9BC15",
+      "sha_verified": true
+    },
+    {
+      "Log": "BuildEditorGoalFix.log",
+      "Result": "Result: Failed (OtherCompilationError)",
+      "Seconds": "Total execution time: 17.47 seconds",
+      "SHA256": "C24264F731DC0E126567CF8EE6A22A1A4BFEFE21DDB2801E2125D79AA4C04B7A",
+      "sha_verified": true
+    },
+    {
+      "Log": "BuildEditorGoalFix2.log",
+      "Result": "Result: Succeeded",
+      "Seconds": "Total execution time: 8.69 seconds",
+      "SHA256": "4F9FB3B4BD5AB7BB876350C6E5F4B90675C653CE9F6EC3DA400530ACE0D6F8FA",
+      "sha_verified": true
+    },
+    {
+      "Log": "BuildEditorRepeatFix.log",
+      "Result": "Result: Succeeded",
+      "Seconds": "Total execution time: 20.33 seconds",
+      "SHA256": "CB029FB487347C2E123D26E2514EBDF5FE8A5F52C4CA08A5BD6396A63F1B3FB0",
+      "sha_verified": true
+    },
+    {
+      "Log": "BuildEditorStandFix.log",
+      "Result": "Result: Succeeded",
+      "Seconds": "Total execution time: 37.58 seconds",
+      "SHA256": "937C4F526DCDE02E696D758EA9FAD50834755E3E46387DE05366FDC30CAA2C69",
+      "sha_verified": true
+    },
+    {
+      "Log": "BuildGame.log",
+      "Result": "Result: Succeeded",
+      "Seconds": "Total execution time: 120.28 seconds",
+      "SHA256": "DBF1EF418D934DE1C8746A4D82BF88DA11C949A7D22DFBA841C2D20B098B8A0C",
+      "sha_verified": true
+    },
+    {
+      "Log": "BuildGameGoalFix.log",
+      "Result": "Result: Succeeded",
+      "Seconds": "Total execution time: 52.42 seconds",
+      "SHA256": "2DD8124337746B856CC3E1CA4B937CA6BF52E0640AF8D61F08C8E2DFFF12EDDE",
+      "sha_verified": true
+    },
+    {
+      "Log": "BuildGameRepeatFix.log",
+      "Result": "Result: Succeeded",
+      "Seconds": "Total execution time: 45.74 seconds",
+      "SHA256": "ECC89BC57196CC2ADF0BA176483EF3599E790554D42A578BE31641F2C205700A",
+      "sha_verified": true
+    },
+    {
+      "Log": "BuildGameStandFix.log",
+      "Result": "Result: Succeeded",
+      "Seconds": "Total execution time: 66.29 seconds",
+      "SHA256": "DEC216DC038EE82537577E7A03875BEEC2415A294786F72BFAAD00669CCC8650",
+      "sha_verified": true
+    }
+  ],
+  "source_fingerprints": [
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeSaveGame.h",
+      "sha256": "914f492d70dafa56193e69a4182b4e701f29a610fad350c2f9247db5eba5519a"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeSessionSave.cpp",
+      "sha256": "25a68a90c60e507fd729ab5293af0ff9363cfbcbd4e3df4714c772ad074e4b58"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeSessionSubsystem.h",
+      "sha256": "acba25715601bc8685707fb2ac7f164c427211a3076d4fbce90c5e79d5cfced5"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldSave.cpp",
+      "sha256": "db39e0447191d57c5a5b6ff2346e2bd17bdda3880585d51858e70b4d00ad0596"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldC01Save.cpp",
+      "sha256": "03bdbf14d54e63242c514c618497c22dcdf64e086efdac7f782f054ebf601df1"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldSubsystem.cpp",
+      "sha256": "bf67128cfe3382153949d78e26f532409cfb354223706e6faf3919e7e012aca6"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldSubsystem.h",
+      "sha256": "8c0bc53793fc12f98e876d751dcc016fe75d9092844633a46b69dfcb56526646"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldActivityConfirmation.cpp",
+      "sha256": "9bba7de8c9a10107d5ac19864b79b134b06bdf1262de30dd21b1f80bfbb7ba91"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeWorldRegionTravel.cpp",
+      "sha256": "e2712e164f7f2a93a31be49e8769b32d6adbdad8dc0f1abe8874b8cbedcbe7a8"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeHUD.cpp",
+      "sha256": "6168c9adf879ccc192ea6639c6e8f322ddc86e6d3d512f9d05b5fe62f1fc4524"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/SchoolLifeC01SaveAudit.cpp",
+      "sha256": "6716ea812d9fba720c4f471eb865c9eb54ea0d18f5c4298d35ca0e19d51aca4f"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Source/SchoolLife/Tests/SchoolLifeSaveTests.cpp",
+      "sha256": "eab43c1f8845b3efc4e7e94fd08143bd4537d5cb8b704e3da7c60058b791a058"
+    }
+  ],
+  "unchanged_fingerprints": [
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\PackagedValidation\\UserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "sha256": "6f3ece982358a2e8000969bbd1245f6cbd9983c1d66e9ae0c01326c7d0cff798"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep5\\MainDayCheckpoint.sav",
+      "sha256": "41954ce01f86953266b316103a56756b07fb0f0c192e43636b0efbbde121d8cd"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep4\\LegacyCopies\\Schema1.sav",
+      "sha256": "46dd95e07ed039730854477729590a54f47ffe36f9dc4f814d616126c33c76e5"
+    },
+    {
+      "path": "Content/SchoolLife/Maps/CoastBlockout.umap",
+      "sha256": "45e88dc7dc0ed21501655a01b43f0095255fe5f1358ddb0ec798a607473062bf"
+    },
+    {
+      "path": "Config/DefaultEngine.ini",
+      "sha256": "c471cdb8eb2dbfc710ece9d7a643464ea1f4692c23aabd39c9472101c678dedd"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\FatiguePaidRecovery\\PaidCheckpoint.sav",
+      "sha256": "41195f3fe2479f9a3cb459ed17566626f909a7b2e57fb918ecc4fc7d9708798b"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep4\\LegacyCopies\\Schema2.sav",
+      "sha256": "e44e7e810e02e7fa16d8ef83507512335f2059d2b5aecd979687ad9c7bebfe0f"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep3\\EditorUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "sha256": "84b1e84ba671c80a1ad1c4c6fd61a02cbfaad4ce025b726540ca603f52a29d3d"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LibraryRoomStudyValidation\\PIECheckpoint.sav",
+      "sha256": "af9b564790265c8693de5f32d25df8472ae785ca28de585ed828de5222fdabda"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\FirstClassQuiz\\PackagedUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "sha256": "c61fdf256a0a3221b07ec4dd0b037245241fd7bbc6d2ea838ddb195bd174b585"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\FatiguePaidRecovery\\PackagedUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "sha256": "baf6da862dc6a57284cc4f745076ec41124c123c438e0c46c30affa24ff156dd"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LibraryRoomStudyValidation\\PackageUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "sha256": "a1d29ccb49c1fce24909c269db67b61214b7ccbb1f75d67006364ae03f2f4585"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\CampusDaySegmentsValidation\\EditorUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "sha256": "eb91d8516d25089a38766e53e3a9d1d478b132d11c70be33a83974451bc30edd"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep5\\LegacyCopies\\Schema3.sav",
+      "sha256": "7a3603c3347b9bc06cb2e54df9af1345bf1ee9d565bbe27f234f3c4dc2d5c13a"
+    },
+    {
+      "path": "Content/SchoolLife/Maps/Dev/C01_F2_Interface_01.umap",
+      "sha256": "4baa04c0a3bd82962be6b756c35b04b22badba8ddc6663e374176d859d0d1053"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep3\\LegacyCopies\\Schema1.sav",
+      "sha256": "46dd95e07ed039730854477729590a54f47ffe36f9dc4f814d616126c33c76e5"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\FirstClassQuiz\\LegacySchema1.sav",
+      "sha256": "46dd95e07ed039730854477729590a54f47ffe36f9dc4f814d616126c33c76e5"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LocalSaveLoad\\RestartCheckpoint.sav",
+      "sha256": "46dd95e07ed039730854477729590a54f47ffe36f9dc4f814d616126c33c76e5"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "sha256": "d217c4eb4acf98107f17b158e1efc9bcb8f682f3aeb4a226cc9f6324da0e1c7b"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\CampusDaySegmentsValidation\\PackageUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "sha256": "a9cb43f69c3a2077cd798489834b7cf34998bb6cb05baab7987ba05c2a214866"
+    },
+    {
+      "path": "Config/DefaultEditorPerProjectUserSettings.ini",
+      "sha256": "fca4a554f7d32ae3d6404e0d6b0914c634325e731e5ddded22ade52b123c2927"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep4\\LegacyCopies\\OldMorningSchema3.sav",
+      "sha256": "84b1e84ba671c80a1ad1c4c6fd61a02cbfaad4ce025b726540ca603f52a29d3d"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep4\\EditorUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "sha256": "79c275077ad503dd9764aa3632be6bb5ab5c10bde5e0f82618788e58964cb3a0"
+    },
+    {
+      "path": "Content/SchoolLife/Maps/GameplayLab.umap",
+      "sha256": "b17de64a7459fe49738293ec770f232287860ee0370d15294131e0907beb73b5"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\RegionConnectionStep2\\EditorUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "sha256": "23e534dc989436b93e279f3073fef5036b1e9988a9eb0f911ccda04f8c8968aa"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeBlockoutValidation\\UserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "sha256": "bba59ef957950fbf8fab89d86b6b60e161ed550725ec251d10853d85782dc085"
+    },
+    {
+      "path": "Config/DefaultInput.ini",
+      "sha256": "a4a0472581fd048b99436008ce746a697c523e40fcd18e7188cd103c1696a5b2"
+    },
+    {
+      "path": "Config/DefaultGame.ini",
+      "sha256": "b8fd058a3d3e9920a86b805925792ccf8b0069b2b9140ba49efed4a78606f975"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\CampusDaySegmentsValidation\\Midday.sav",
+      "sha256": "7a3603c3347b9bc06cb2e54df9af1345bf1ee9d565bbe27f234f3c4dc2d5c13a"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep4\\BeforeLegacySlot.sav",
+      "sha256": "79c275077ad503dd9764aa3632be6bb5ab5c10bde5e0f82618788e58964cb3a0"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\SL_BLD_C01_MAIN_01_TRIAL_01_REV_02.blend",
+      "sha256": "90137759b838d849395f9c0363cbb74f072aff8de4fef418668312b784086aa4"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\RegionConnectionStep3\\HumanUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "sha256": "ae90b029daa92adb466f13e997fb0415c6a628fdcd7fccf2b56e02a036f2ce86"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\CampusDaySegmentsValidation\\Complete.sav",
+      "sha256": "eb91d8516d25089a38766e53e3a9d1d478b132d11c70be33a83974451bc30edd"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\FirstClassQuiz\\EditorUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "sha256": "e44e7e810e02e7fa16d8ef83507512335f2059d2b5aecd979687ad9c7bebfe0f"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\SL_BLD_C01_MAIN_01_TRIAL_01_REV_02.fbx",
+      "sha256": "bf12172b5e28f82e2e5ae941e61d8d14bffd67b0b751a8f58e2e092dbffb209d"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep3\\LegacyCopies\\Schema3.sav",
+      "sha256": "7a3603c3347b9bc06cb2e54df9af1345bf1ee9d565bbe27f234f3c4dc2d5c13a"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LibraryRoomStudyValidation\\SummaryCheckpoint.sav",
+      "sha256": "7ba257680e1bee18b9017eb224bbc86a5a5758e9dd968ea753ecfb67eb228949"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep6\\AutoUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "sha256": "9825a8171900761dad95d7344ce92d5d65059b8ab62d7696bdf52481a3fe1c96"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LibraryRoomStudyValidation\\EditorUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "sha256": "af9b564790265c8693de5f32d25df8472ae785ca28de585ed828de5222fdabda"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep3\\BeforeNativeCorrupt.sav",
+      "sha256": "84b1e84ba671c80a1ad1c4c6fd61a02cbfaad4ce025b726540ca603f52a29d3d"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\DailyRhythmValidation\\EditorUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "sha256": "d877d3080d5a9119a759dfc262d7a678ca45df199f23a75c84820ea9f0b2c0f7"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep3\\LegacyCopies\\Schema2.sav",
+      "sha256": "e44e7e810e02e7fa16d8ef83507512335f2059d2b5aecd979687ad9c7bebfe0f"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep5\\LegacyCopies\\Schema1.sav",
+      "sha256": "46dd95e07ed039730854477729590a54f47ffe36f9dc4f814d616126c33c76e5"
+    },
+    {
+      "path": "D:\\Art Asset Library\\ArtSource\\Buildings\\SL_BLD_C01_MAIN_01\\Trial01\\Revision02\\GEOMETRY.json",
+      "sha256": "ce0abe83ae496f98e219bbd94ecfa29bbcaddbabcba25063404013aa1da9fae6"
+    },
+    {
+      "path": "Content/SchoolLife/Maps/CampusLifeBlockout.umap",
+      "sha256": "44fdd13420290da7d2d3f094ad7c0823a65cc1285a21dd613dacd3179d40455f"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep5\\LegacyCopies\\Schema2.sav",
+      "sha256": "e44e7e810e02e7fa16d8ef83507512335f2059d2b5aecd979687ad9c7bebfe0f"
+    },
+    {
+      "path": "Content/SchoolLife/Maps/LifeBlockout.umap",
+      "sha256": "c120bbe5aea31d74fdde6b80d4d20d29208cd470e5ed444df6af1a3ee12149f4"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep4\\LegacyCopies\\Schema3.sav",
+      "sha256": "7a3603c3347b9bc06cb2e54df9af1345bf1ee9d565bbe27f234f3c4dc2d5c13a"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeBlockoutValidation\\EditorUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "sha256": "a6d8457e7438bb47894aa45f2a0cd2fc18d78e33f19900a3429d7c4a779b429f"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\DailyRhythmValidation\\PackagedUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "sha256": "9fb3b3a09f00f3a46e46d54956fbb9d12d1d4bc4e6e9a08929ff1d624ba16975"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeBlockoutValidation\\PIECheckpoint.sav",
+      "sha256": "a6d8457e7438bb47894aa45f2a0cd2fc18d78e33f19900a3429d7c4a779b429f"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\DailyRhythmValidation\\PIECheckpoint.sav",
+      "sha256": "d877d3080d5a9119a759dfc262d7a678ca45df199f23a75c84820ea9f0b2c0f7"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\FatiguePaidRecovery\\EditorUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "sha256": "41195f3fe2479f9a3cb459ed17566626f909a7b2e57fb918ecc4fc7d9708798b"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep5\\EditorUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "sha256": "41954ce01f86953266b316103a56756b07fb0f0c192e43636b0efbbde121d8cd"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\FirstClassQuiz\\Schema2_QuizCheckpoint.sav",
+      "sha256": "e44e7e810e02e7fa16d8ef83507512335f2059d2b5aecd979687ad9c7bebfe0f"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeBlockoutValidation\\OldSaveInput.sav",
+      "sha256": "46dd95e07ed039730854477729590a54f47ffe36f9dc4f814d616126c33c76e5"
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\RegionConnectionStep3\\AutoUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "sha256": "1f372b213b143c02e50adb3f1ee4d8088f2c1967202ec5a27352e2a7db516f68"
+    }
+  ],
+  "evidence_files": [
+    {
+      "name": "ActivityComparison.json",
+      "bytes": 2336,
+      "sha256": "3e657d423d082c9cebc1f89251d721d425732612be25c36b6a37844a47cdd830"
+    },
+    {
+      "name": "ActivityLaunch1.json",
+      "bytes": 635,
+      "sha256": "1bb878f86e3746c9f3853b0af548168596092a2bf2e3bc0d7a31f492dfe10f22"
+    },
+    {
+      "name": "ActivityLaunch2.json",
+      "bytes": 613,
+      "sha256": "a28a07ee232be63990b1492f8aafb4d7946ecb3de49021d74a359236087f04ba"
+    },
+    {
+      "name": "ActivityLaunch3.json",
+      "bytes": 613,
+      "sha256": "dcf14c447a575d3f41d11c049526e66a9531a8b18567beeb96105539df3c8c91"
+    },
+    {
+      "name": "ActivityLaunch4.json",
+      "bytes": 612,
+      "sha256": "7f5e42e772a0eb5285033aafc77edb4c27f814743031838caf0696f1d09a0b80"
+    },
+    {
+      "name": "AfterBlocked.txt",
+      "bytes": 5438,
+      "sha256": "5770297c07130dc3d5c07439a2acdbb184d86f810fbf7a16e9dc6bc61ac4718e"
+    },
+    {
+      "name": "AfterClass.txt",
+      "bytes": 4505,
+      "sha256": "092f7efb5518425278c808cd5cffb63ada744c40f980f405bc2d2c7be4b57e21"
+    },
+    {
+      "name": "AfterClassSaved.txt",
+      "bytes": 5390,
+      "sha256": "2319b66292a02edb0fb10ce0cff6d2883d00720fc6cd09fc7c4073d385f9fe49"
+    },
+    {
+      "name": "AutomationFinal.json",
+      "bytes": 11003,
+      "sha256": "ee2000ac431bf7069c427cd9d08561473600a2ea32110bb7b1d74f91cf84d1c8"
+    },
+    {
+      "name": "BeforeClass.txt",
+      "bytes": 3619,
+      "sha256": "aea009b3d515d04ab0e3c9c00165f1d0580cfb9469df59cf14ad9783fde37d62"
+    },
+    {
+      "name": "BeforeClassColdBoot.txt",
+      "bytes": 3477,
+      "sha256": "fe30d92f0fa5807aeb3bb8cd684a77552e6bb0ebc11c6d8a07a6191f9fdb7998"
+    },
+    {
+      "name": "BeforeClassColdRead.txt",
+      "bytes": 3619,
+      "sha256": "ee011ed2bd1f3e927a21b1ae23536e7ed413c65b8efd4b79b216cd6ff4b87376"
+    },
+    {
+      "name": "Blocked.txt",
+      "bytes": 173,
+      "sha256": "6dc4f32de7d74e08a0f6aebe3136350ef2a3de412682dc22b3698acfffd47602"
+    },
+    {
+      "name": "BlockedRestore.png",
+      "bytes": 184844,
+      "sha256": "7e7a9bc479a12a6cfd5da3a5dab2483b40867b43a54521bee250d74fd2a08e72",
+      "format": "jpeg",
+      "width": 1922,
+      "height": 1128,
+      "hasAlpha": false,
+      "magic": "ffd8ffe000104a4649460001"
+    },
+    {
+      "name": "Builds.json",
+      "bytes": 2229,
+      "sha256": "e8e07742d49c9f2f702bc07f099de1e13c2d72d25b5747dc6516d142c8596951"
+    },
+    {
+      "name": "CampusBeforeC01Reject.txt",
+      "bytes": 4250,
+      "sha256": "b99b0103b468dc47efefebc057006867f8d6e04d412f70d295dbd06e0ef436d1"
+    },
+    {
+      "name": "CampusC01Rejected.txt",
+      "bytes": 4250,
+      "sha256": "b99b0103b468dc47efefebc057006867f8d6e04d412f70d295dbd06e0ef436d1"
+    },
+    {
+      "name": "CampusHomeRead.txt",
+      "bytes": 3197,
+      "sha256": "3de542711a1845ee56487eec15966050de23309dab00aa1d79930db807e273dc"
+    },
+    {
+      "name": "CampusHomeSaved.txt",
+      "bytes": 3197,
+      "sha256": "3de542711a1845ee56487eec15966050de23309dab00aa1d79930db807e273dc"
+    },
+    {
+      "name": "CampusLegacyRead.txt",
+      "bytes": 3197,
+      "sha256": "3de542711a1845ee56487eec15966050de23309dab00aa1d79930db807e273dc"
+    },
+    {
+      "name": "CancelThenReopen.txt",
+      "bytes": 3619,
+      "sha256": "453e58dff9982c911859b54cb0a595b7d170e1486edf07a50c5cb49f09073af2"
+    },
+    {
+      "name": "CoastBeforeRead.txt",
+      "bytes": 3074,
+      "sha256": "90aff75341d0ed05f5d9049983da55f03b9031027b8635fa903ce94ae5d9d9a4"
+    },
+    {
+      "name": "CoastReadBackCampus.txt",
+      "bytes": 3197,
+      "sha256": "61720c3101aadc6e2eb93de38209cd4f78aa68f821bcb41aa93c2e6e04f1e0d8"
+    },
+    {
+      "name": "ColdReadRepeated.png",
+      "bytes": 188076,
+      "sha256": "acf9467510d0d34afa2e47fad62b77486788d5cecfc5868bb81dd727bc623bb6",
+      "format": "jpeg",
+      "width": 1922,
+      "height": 1128,
+      "hasAlpha": false,
+      "magic": "ffd8ffe000104a4649460001"
+    },
+    {
+      "name": "ConfirmationF2Refused.txt",
+      "bytes": 3619,
+      "sha256": "ee011ed2bd1f3e927a21b1ae23536e7ed413c65b8efd4b79b216cd6ff4b87376"
+    },
+    {
+      "name": "CorruptFileRead.txt",
+      "bytes": 2281,
+      "sha256": "8e11afbb73546cb0dc060e22d05102261233dd1c28cb73330eeebea0856145e9"
+    },
+    {
+      "name": "EditorFinalLaunch.json",
+      "bytes": 416,
+      "sha256": "bb8abf5f4f1629df9b65f2011fb17d1536ada0b2154ad06ebc173e815d77d1ae"
+    },
+    {
+      "name": "FileFailureComparison.json",
+      "bytes": 305,
+      "sha256": "454c80fb7503160252f1d517bb77bc2fcd584b92e8e41cd47ea3a1f5a6871263"
+    },
+    {
+      "name": "FinalClassGoalFix.txt",
+      "bytes": 5387,
+      "sha256": "e58ba595913832b2c75326354e69f422f13b14bf92a3e62d17a281169c1b92ac"
+    },
+    {
+      "name": "FinalClassSeparated.png",
+      "bytes": 200177,
+      "sha256": "7d916f9eb49ba73e649806e0ca90d66cff4c8c4efa6a7451f297a046d7d8fa3a",
+      "format": "jpeg",
+      "width": 1922,
+      "height": 1128,
+      "hasAlpha": false,
+      "magic": "ffd8ffe000104a4649460001"
+    },
+    {
+      "name": "FinalColdBoot.txt",
+      "bytes": 4361,
+      "sha256": "835242b0be81a25c92423bfe934fd062998432fb643dae067ce28063b1c7f2a9"
+    },
+    {
+      "name": "FinalColdRead.txt",
+      "bytes": 5447,
+      "sha256": "ca0ce756e44150091b80795b8fd6c6532be2d93e6aa1e721d1109477f03d9ce2"
+    },
+    {
+      "name": "FinalNativeState.json",
+      "bytes": 7520,
+      "sha256": "d4222ed203601c42c75753e79be2bdc4e77c6e750eaee07efa853f664058f2be"
+    },
+    {
+      "name": "FinalReadGoalFix.png",
+      "bytes": 188828,
+      "sha256": "8abdf843394637607c8e381cd7b4191b4d06a9184fb4d48d2444d84d32b94267",
+      "format": "jpeg",
+      "width": 1922,
+      "height": 1128,
+      "hasAlpha": false,
+      "magic": "ffd8ffe000104a4649460001"
+    },
+    {
+      "name": "FinalRepeat1.txt",
+      "bytes": 5447,
+      "sha256": "ce53b7c0da42d63227836a5e52e702a965b42278566380dc7a7bde7a165d3bc6"
+    },
+    {
+      "name": "FinalRepeat2.txt",
+      "bytes": 5390,
+      "sha256": "ed66183de2c82f3b9938532ea5e85e944ca53acef4f542f3f51d0c324459a8c5"
+    },
+    {
+      "name": "G0Native.json",
+      "bytes": 5022,
+      "sha256": "cbe63b46f2c3ba631694a03e382cce4725b6c2dead492ecfb20a63ad56f5485f"
+    },
+    {
+      "name": "Legacy1Fixture.txt",
+      "bytes": 61,
+      "sha256": "a1264a5e146a77c662bea44ecfed3696f6f88021c84bfaa340be26df69352088"
+    },
+    {
+      "name": "Legacy1Read.txt",
+      "bytes": 3390,
+      "sha256": "cfdae56a5c495bc9e4d12c6d83fd6aa03b6e89dde1fe92f7736f8bb6a9088d5f"
+    },
+    {
+      "name": "Legacy2Fixture.txt",
+      "bytes": 61,
+      "sha256": "3d303783240537e074a3d0427599efa1c6b4f45ff5c7438aec059838a1c08c56"
+    },
+    {
+      "name": "Legacy2Read.txt",
+      "bytes": 3390,
+      "sha256": "0461e84098fb89e215e9fb19c204db5f16b2a867ab2444171f529efca4aab5a2"
+    },
+    {
+      "name": "Legacy3Fixture.txt",
+      "bytes": 61,
+      "sha256": "e66702da4892045d5c45c68360be8d387a5b59231afc0415a2f75ea37d263ac4"
+    },
+    {
+      "name": "Legacy3Read.txt",
+      "bytes": 3390,
+      "sha256": "38250e4c0d89b60da2d7eb7e127929ddfc8f5ff38c4393b75222452f6050dec7"
+    },
+    {
+      "name": "MissingFileRead.txt",
+      "bytes": 2289,
+      "sha256": "740c11b59fb4c88486dd81da239374ca0201b7968867c96b585bfeeaf270f392"
+    },
+    {
+      "name": "Protection.json",
+      "bytes": 10079,
+      "sha256": "f40a2cf16d763f2c824cd01f0386896d13697937bcf59edef8fe0e68398440ae"
+    },
+    {
+      "name": "TravelArrived.png",
+      "bytes": 184327,
+      "sha256": "ba713b1bdc719e524dc528957587b45a72bb3657b8828aab3e8daed871766226",
+      "format": "jpeg",
+      "width": 1922,
+      "height": 1128,
+      "hasAlpha": false,
+      "magic": "ffd8ffe000104a4649460001"
+    },
+    {
+      "name": "TravelArrived.txt",
+      "bytes": 3568,
+      "sha256": "289864bb03762b785237ff574e2fa8711962d1e2209bda590bfdf839eff6b575"
+    },
+    {
+      "name": "TravelColdBoot.txt",
+      "bytes": 3463,
+      "sha256": "ee4ca56e732f4c1693ec231dcf472fc201d642d02fbd73f83c62cec6a5003447"
+    },
+    {
+      "name": "TravelColdRead.txt",
+      "bytes": 3591,
+      "sha256": "7ead11ac1c8fa6024a98194a48a6d8b45ac2ef8ad3873dc13143560e1942bcd5"
+    },
+    {
+      "name": "TravelFinalColdBoot.txt",
+      "bytes": 3463,
+      "sha256": "565ff984a2c6b2da18aaad57a236a38a77427eb5c847069234bb230ef980a24a"
+    },
+    {
+      "name": "TravelFinalColdRead.txt",
+      "bytes": 3591,
+      "sha256": "aceb5d02adcae764ef2283a66184e5e7026f92b817d279a94332f5c7c548b264"
+    },
+    {
+      "name": "TravelFinalTrace.csv",
+      "bytes": 10822,
+      "sha256": "d7ba9e52a023c6f31ce90dc30991583ff523420fe93e646dbe4789c1bb42f65e"
+    },
+    {
+      "name": "TravelLaunch1.json",
+      "bytes": 637,
+      "sha256": "faab7413c14b7dba55688a38ee18189c097bb120b5e2c33be7364053fd452209"
+    },
+    {
+      "name": "TravelLaunch2.json",
+      "bytes": 609,
+      "sha256": "216e3871498bc09172175772ac2778d3627794021f7a70efd3e1ff90ec848cc2"
+    },
+    {
+      "name": "TravelLaunch3.json",
+      "bytes": 609,
+      "sha256": "31443346b6952a64a5015b47f4cca27198571a225106f29bf69e13d3cf3a1949"
+    },
+    {
+      "name": "TravelPausedAfterArrival.txt",
+      "bytes": 3586,
+      "sha256": "4842a67be430896fd9659aae9750a87e83cf36590689f1b957ca9b1478123d34"
+    },
+    {
+      "name": "TravelPlayerBlocked.txt",
+      "bytes": 3602,
+      "sha256": "b9435ae461cad36dd5a6899d48173d32c171fb42a3d20cce47d9761bd20e3f3d"
+    },
+    {
+      "name": "TravelPlayerBlockedTrace.csv",
+      "bytes": 16693,
+      "sha256": "de6ded2296754bbb9364cf69242c33e83bccbc3d53bfe687a532be88ff5211f1"
+    },
+    {
+      "name": "TravelSaved.txt",
+      "bytes": 3630,
+      "sha256": "21a2fb001c50462ae4b12be7275850a00ede0a1f26d125b085c0314b3fd5cd3a"
+    },
+    {
+      "name": "TravelSummary.json",
+      "bytes": 655,
+      "sha256": "82a999095fdbc0228e0561c629c2d0f2d7d33a2602819f08d9909f8d52c2faae"
+    }
+  ],
+  "readme_fingerprints": [
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2SaveRestore/Integration01/README.md",
+      "sha256": "505544999f538317cb3b28b1bfcb858495ce638b7a13c0d03ca0f24c69dbea8b"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2SaveRestore/Integration01/Implementation.md",
+      "sha256": "022edfba8ff8e47faee232055d904ec3f0e310eb41dcd15706756384e2ea3d80"
+    },
+    {
+      "path": "D:/UE project/SchoolLife/Docs/Validation/C01F2SaveRestore/Integration01/Observations.md",
+      "sha256": "ffed4b8cf0adc2fd43cfda33d7a29b1d6efd535dc998b08ab47f9f73eafdb635"
+    }
+  ],
+  "viewed_images": [
+    "ColdReadRepeated.png",
+    "FinalClassSeparated.png",
+    "TravelArrived.png",
+    "BlockedRestore.png"
+  ],
+  "unverified": [
+    "Other 10 stair directions per actor",
+    "Final seat binding/seating",
+    "RT01",
+    "Whole-building acceptance",
+    "Spawn allocation failure/crash injection",
+    "All viewpoints/crowd/full final art",
+    "Cooked shipping build"
+  ],
+  "next_recommendation": {
+    "stage": "C01 second-floor classroom-to-door player-view HD2D sample planning",
+    "purpose": "Use the now-persistent playable area to fix one consistent visual standard for entrances, original character visibility, material/pixel density and test labels.",
+    "owner": "This art planning chat; any later asset production or engine edit requires its own authorization.",
+    "new_task_card_issued": false
+  },
+  "image_format_note": "Five evidence files use .png names but actual JPEG/JFIF encoding, 1922x1128 opaque. Original bytes retained. Not a blocker under this task card; no native PNG deliverable was required for runtime screenshots."
+}

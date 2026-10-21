@@ -1,3 +1,7 @@
+# 当前：C01二层存读恢复集成01通过并收口 · 2026-10-21
+
+[阶段回审](Docs/AssetPlanning/BuildingProduction/review-C01-f2-save-restore-01.md)／[直接核验](Docs/AssetPlanning/BuildingProduction/C01/f2-save-restore-01-review-audit.json)。原卡S0—S8证据与用户S4确认满足范围：固定F2保存/安全恢复、活动前后冷重启/重复读防结算、NPC真实续行及旧档/阻挡/影响回归通过，无阻塞/重复确认要求。只读核源码/60证据/保护及原生当前图/PIE/五图clean，未改工程模型贴图或重测。其余10向/最终席/RT01/整栋保持。下一建议只限二层教室—门口HD2D样板规划（本美术规划聊天），未新发卡或启动。
+
 # 当前：C01接口局部收口，二层存读恢复开发卡已发布 · 2026-10-19
 
 用户已接受指定G2/G4为可用基准，不重复确认/实走；余10向未验，整栋仍不最终通过。[唯一后续开发卡](Docs/AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_F2_SAVE_RESTORE_01.md)供用户转交：基于现架构补同存档外层固定F2检查点、冷退出重启手动读取、NPC意图恢复及防重复结算，保原Schema/其他地图行为。当前仅规划发卡，未改工程/模型或运行测试，B01/RT01保持。

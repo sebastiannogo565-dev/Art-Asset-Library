@@ -1,3 +1,11 @@
+# 当前交接：C01二层存读恢复集成01通过，阶段收口 · 2026-10-21
+
+入口：[回审](AssetPlanning/BuildingProduction/review-C01-f2-save-restore-01.md)／[结构核验](AssetPlanning/BuildingProduction/C01/f2-save-restore-01-review-audit.json)。工程bb6256a1250cc5b9837df102f2dc44aed77a6f10及用户S4确认满足[原卡](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_F2_SAVE_RESTORE_01.md)范围，S0—S8直接通过，不再要求同一范围确认或重复补验。固定F2冷读小闭环可供后续开发使用；NPC目标偏移仅C01/Classroom同地点身体站位，不迁业务锚点/最终席。
+
+本轮已读原卡/完整报告及引用证据与源码，原生仅读当前图/PIE/五图dirty；没有启停PIE/存读/构建/补测或工程写入。工程远端/HEAD一致且干净；当前C01/PIE=false/五图clean，8000归正确编辑器22172。开发55测试/冷进程/人工操作均按其实际来源引用，不称本窗口重测。57保护指纹及2258文件直接核对一致，2773仍为开发报告范围；截图后缀与实际JPEG编码差异已说明，不阻碍原卡。
+
+保持未验：其余10向、最终席/入座、RT01、整栋及最终美术/全班人流，B01不变。唯一推荐下一阶段为“二层教室—门口玩家视角HD2D样板规划”，目的建立入口/人物/材色像素密度标准，所属本美术规划聊天；它只是建议，无新任务卡、无自动制作/开发授权。当前无需用户操作或再次确认本阶段通过，交接后停止。美术实际提交/推送/LFS/工作区见最终回复。
+
 # 当前交接：C01接口局部收口，转交二层存读恢复卡 · 2026-10-19
 
 用户已接受指定G2/G4为后续基准，无需再次确认/实施；其余10向及整栋最终状态保持。交给游戏开发聊天的唯一入口：[C01二层存读与恢复集成01](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_F2_SAVE_RESTORE_01.md)。本卡明确授权现测试图内必要存读恢复逻辑；原“不支持C01 F2/F3”已是历史阶段边界，不能作为本次成功标准。

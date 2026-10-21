@@ -1,3 +1,15 @@
+# C01二层存读与恢复集成01规划回审完成 · 2026-10-21
+
+已按[原卡](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_F2_SAVE_RESTORE_01.md)直接判定S0—S8范围通过并收口，见[回审](AssetPlanning/BuildingProduction/review-C01-f2-save-restore-01.md)/[核验](AssetPlanning/BuildingProduction/C01/f2-save-restore-01-review-audit.json)。完整报告/相关12源码/60证据、冷进程PID与同UserDir/全快照文本/反射比较/188点NPC轨迹、旧档与阻挡原子性、55测试及10构建日志相互核对；用户S4结果按原范围采信，不加视频或额外实走要求。
+
+直接核57项保护含45sav与2258导入文件SHA一致；开发2773总数与本窗口核验口径分开。五份.png后缀证据实际JPEG/1922×1128，记真实格式、不改字节，不作为卡外门槛。工程bb6256a/远端一致/干净；原生当前C01/PIE=false/五图clean，结束重读本图不变。仅美术11份相关文档/JSON/原卡状态更新，未改工程/资产/贴图或补测，不发新卡；正常提交推送并核远端/LFS/工作区后停止。唯一后续建议为本美术规划聊天的二层教室—门口HD2D样板规划，未授权执行。
+
+# C01二层存读与恢复集成01规划回审计划 · 2026-10-21
+
+本轮按原卡S0—S8回审游戏交付bb6256a1250cc5b9837df102f2dc44aed77a6f10及用户最新S4人工确认。读取原卡、完整报告/引用证据与相关实现，核冷进程链、完整业务比较、防重复、NPC真实续行、旧档/受阻和影响回归。证据满足原范围直接记录阶段通过，不追加条件或要求重复确认；历史G2/G4只继承。
+
+美术起点main/3bf5b1fabc6b50560dd7752398cb45d2c855e720，仅原3脚本；工程状态只读另核。可原生仅读当前地图/PIE/相关dirty以记录现在状态，不启停PIE、不存读/补测/改工程。更新审阅/证据及四交接与索引，列未覆盖项和一个下一阶段建议（目的及所属聊天），不发下一张任务卡。只提交相关美术文档正常推送，核远端/LFS/工作区后停止；其余10向、最终席/RT01/整栋状态保持。
+
 # C01接口局部收口与二层存读恢复任务卡完成 · 2026-10-19
 
 用户确认已记录到[原回审](AssetPlanning/BuildingProduction/review-C01-navigation-resume-01.md)，发布一张[开发卡](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_F2_SAVE_RESTORE_01.md)。只读核25份源码/测试/历史记录及3美术源指纹；现存档无地图/位置，Schema3支持1—3、Home保存/恢复与NPC地点重建明确。最小方案为同一USaveGame可选外层检查点，业务Schema不升级；C01固定F2、旧档Home、错图拒绝、同层主/备用及玩家/NPC联合预检、冷进程同隔离UserDir/手动F3、重复结算和兼容回归均列到卡。
