@@ -1,3 +1,9 @@
+# Schema4回件已核，仍限单NPC场景 · 2026-10-22
+
+已完成：[回件审阅](AssetPlanning/BuildingProduction/review-NPC-collection-save-01.md)及[数据核对](AssetPlanning/BuildingProduction/NPCCollectionSave01/review-evidence.json)。认可交付声明的数据底座/逐人社会事实、旧1—3到4迁移及原单NPC/C01兼容证据；原60名与新6具名结果、单项补注册、三次冷读完整Snapshot、区域28项和58原sav字节直接比较一致。原生当前Campus/PIE停止/五图clean，工程Git与远端c3c5d376一致；本窗口未运行构建/测试或存读。
+
+未覆盖/未授权：三NPC可玩/多人身体恢复或群体活动、新路线手感/整栋及原其余10向、最终席/RT01/B01/正式美术。World已明确拒多，不把数据夹具当人口。没有新卡、工程/模型/贴图改动，历史C01通过保持。仅美术文档提交推送后停止。
+
 # C01二层存读恢复集成01已通过原范围 · 2026-10-21
 
 已完成：[阶段收口](AssetPlanning/BuildingProduction/review-C01-f2-save-restore-01.md)及[直接核验](AssetPlanning/BuildingProduction/C01/f2-save-restore-01-review-audit.json)，原卡S0—S8通过，含用户最新S4人工确认，无本阶段阻塞或待重复确认项。活动前/后完整退出冷读、重复F3、NPC保存意图真实到达、旧Schema/缺坏档/错图/主备阻挡及受影响Campus/Coast回归都有对应证据。55/55是开发本轮测试结果，本窗口只审阅，未重跑。

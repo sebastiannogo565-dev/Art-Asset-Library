@@ -1,3 +1,15 @@
+# Schema4集合存档回件核对完成 · 2026-10-22
+
+[审阅](AssetPlanning/BuildingProduction/review-NPC-collection-save-01.md)/[核对JSON](AssetPlanning/BuildingProduction/NPCCollectionSave01/review-evidence.json)记录数据底座与原单NPC/C01兼容范围通过，不代表三NPC身体恢复。独立核原60名/新增6成功映射及单项注册复验、三个完整冷读快照、PIE区域28项、58原sav与开始副本直接字节一致；有效构建日志和22精选证据分来源，不运行新验收或新增哈希流程。
+
+工程c3c5d376/远端一致且干净，原生当前Campus/PIE=false/五图clean；历史连接阻塞已解除。只更新美术9份相关审阅交接文件，未改工程/模型/贴图/旧卡、不发下一任务。原C01与10向/最终席/RT01/B01状态保持。检查提交推送及远端/LFS/工作区后停止，实际Git见最终报告。
+
+# Schema4集合存档回件与C01兼容核对计划 · 2026-10-22
+
+用户交回c3c5d376fa47d36149afeeea35d75731c56de985供协调审阅。本窗口仅只读核本次5B任务依据、完整报告与关键结构/冷读/原生PIE证据，区分Schema4纯数据集合、逐人社交和仍限单NPC的World恢复，核旧1—3迁移与既有C01接口兼容；不按旧C01“Schema保持3”的当轮限制否定后续明确授权的升级，也不代替尚未交本窗口的其他协调验收。
+
+美术起点main/1754f4ee88520b55f24b1c0ecdc386a76d33d412，仅原3脚本；工程HEAD/远端c3c5d376一致、Git干净。只读源码/证据与必要当前原生状态，不启PIE/构建/测试/存读、不改工程/模型/贴图。记录审阅与交接，保持已收口C01及其余10向/最终席/RT01/整栋状态，不发新卡或自动启用三NPC。仅相关美术文档提交推送，核远端/LFS/工作区后停止。
+
 # C01二层存读与恢复集成01规划回审完成 · 2026-10-21
 
 已按[原卡](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_F2_SAVE_RESTORE_01.md)直接判定S0—S8范围通过并收口，见[回审](AssetPlanning/BuildingProduction/review-C01-f2-save-restore-01.md)/[核验](AssetPlanning/BuildingProduction/C01/f2-save-restore-01-review-audit.json)。完整报告/相关12源码/60证据、冷进程PID与同UserDir/全快照文本/反射比较/188点NPC轨迹、旧档与阻挡原子性、55测试及10构建日志相互核对；用户S4结果按原范围采信，不加视频或额外实走要求。

@@ -1,3 +1,11 @@
+# 当前交接：Schema4回件与C01兼容已核，停止待后续安排 · 2026-10-22
+
+入口：[集合存档回件审阅](AssetPlanning/BuildingProduction/review-NPC-collection-save-01.md)/[核对JSON](AssetPlanning/BuildingProduction/NPCCollectionSave01/review-evidence.json)，工程c3c5d376fa47d36149afeeea35d75731c56de985。数据底座/逐人Social和原单NPC恢复兼容证据成立；后续5B明确升级Schema4，旧C01卡的当轮Schema3约束保历史，不作为当前版本。
+
+已核66项有效覆盖（并非恢复注册名后再跑全66）、冷进程三次完整恢复、原生社交/C01真实续行及区域28项、58原sav直接字节保持。当前Campus、PIE=false、五图clean；本窗口只原生读取，未运行任何测试/存读/构建或改工程。工程Git干净/远端一致。
+
+产品仍1NPC，World拒绝多人联合恢复，三人仅数据夹具；不解锁三NPC场景/群体活动。C01既有指定收口、其余10向/最终席/RT01/整栋/B01及美术样板建议保持，无新增任务卡或自动派工。美术相关文档提交推送，实际哈希/LFS/工作区见最终交付；此处没有已授权的下一项制作/开发实施。
+
 # 当前交接：C01二层存读恢复集成01通过，阶段收口 · 2026-10-21
 
 入口：[回审](AssetPlanning/BuildingProduction/review-C01-f2-save-restore-01.md)／[结构核验](AssetPlanning/BuildingProduction/C01/f2-save-restore-01-review-audit.json)。工程bb6256a1250cc5b9837df102f2dc44aed77a6f10及用户S4确认满足[原卡](AssetPlanning/BuildingProduction/TaskCards/SL_BLD_C01_MAIN_01_F2_SAVE_RESTORE_01.md)范围，S0—S8直接通过，不再要求同一范围确认或重复补验。固定F2冷读小闭环可供后续开发使用；NPC目标偏移仅C01/Classroom同地点身体站位，不迁业务锚点/最终席。

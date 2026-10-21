@@ -1,3 +1,7 @@
+# 工程回件追加：Schema4集合底座，产品仍1NPC · 2026-10-22
+
+[回件审阅](Docs/AssetPlanning/BuildingProduction/review-NPC-collection-save-01.md)／[证据核对](Docs/AssetPlanning/BuildingProduction/NPCCollectionSave01/review-evidence.json)。本窗口认可报告声明的集合存档/逐人社交数据与原单NPC恢复兼容范围：旧1—3迁移、新写4、空间0/1保持；World仍明确拒绝多人恢复。66项有效覆盖、冷读/本轮PIE与58原sav保持已核，不称三NPC可玩。原C01收口/其余10向/最终席/RT01/B01不变，本轮只读回审，不新发卡或改工程美术。
+
 # 当前：C01二层存读恢复集成01通过并收口 · 2026-10-21
 
 [阶段回审](Docs/AssetPlanning/BuildingProduction/review-C01-f2-save-restore-01.md)／[直接核验](Docs/AssetPlanning/BuildingProduction/C01/f2-save-restore-01-review-audit.json)。原卡S0—S8证据与用户S4确认满足范围：固定F2保存/安全恢复、活动前后冷重启/重复读防结算、NPC真实续行及旧档/阻挡/影响回归通过，无阻塞/重复确认要求。只读核源码/60证据/保护及原生当前图/PIE/五图clean，未改工程模型贴图或重测。其余10向/最终席/RT01/整栋保持。下一建议只限二层教室—门口HD2D样板规划（本美术规划聊天），未新发卡或启动。

@@ -1,0 +1,1022 @@
+{
+  "date": "2026-10-22",
+  "art_base": "1754f4ee88520b55f24b1c0ecdc386a76d33d412",
+  "reviewed_engine_commit": "c3c5d376fa47d36149afeeea35d75731c56de985",
+  "implementation_base": "5d9f1a7b462cd34f5c8b5a5a19c2d2be0c5d4f83",
+  "scope": "Read-only review of declared 5B data contract and original single-NPC/C01 recovery compatibility, not multi-NPC playable-world acceptance.",
+  "decision": "Accept the delivered Schema4/per-person data baseline and specified one-NPC regression evidence; do not unlock multi-body world restoration.",
+  "checks": {
+    "errors": [],
+    "business_coverage": 66,
+    "original_names": 60,
+    "new_names": 6,
+    "registration_retest": 1,
+    "note": "66 main-run results retained; restored historical registration has separate 1/1 success. Not a second all-66 run.",
+    "region_checks": 28,
+    "protected_original_saves": 58,
+    "evidence_files": 22,
+    "source_assets_changed": false
+  },
+  "current_native": {
+    "at_utc": "2026-10-21T16:41:57.474Z",
+    "scope": "Read-only planning review; no execution of tests, save/load or PIE.",
+    "map": "/Game/SchoolLife/Maps/CampusLifeBlockout",
+    "pie": false,
+    "maps_dirty": [
+      {
+        "path": "/Game/SchoolLife/Maps/Dev/C01_F2_Interface_01",
+        "dirty": false
+      },
+      {
+        "path": "/Game/SchoolLife/Maps/CampusLifeBlockout",
+        "dirty": false
+      },
+      {
+        "path": "/Game/SchoolLife/Maps/CoastBlockout",
+        "dirty": false
+      },
+      {
+        "path": "/Game/SchoolLife/Maps/LifeBlockout",
+        "dirty": false
+      },
+      {
+        "path": "/Game/SchoolLife/Maps/GameplayLab",
+        "dirty": false
+      }
+    ]
+  },
+  "registration": {
+    "method": "60 original registration names compared individually against HEAD; 59 original plus6 new use unchanged valid Automation03 evidence; restored historical registration alone built and rerun. Not a new full-suite run.",
+    "originals": [
+      {
+        "name": "SchoolLife.Activity.BoundaryAndOnceOnlySettlement",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Activity.EligibilityAndSleepTargets",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Activity.ThreeLifeDays",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.CampusDay.DisjointSharedMinutesSaveAndOncePerDay",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.CampusDay.IllegalProgressAtomicRejection",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.CampusDay.KnownLegacyPlansAndHistory",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.CampusDay.QuizAfternoonOnlyAndLate",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.CampusDay.RestWaitAndNPCContext",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.CampusDay.SegmentAndWaitExpiredIntent",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.CampusDay.WindowsLateBudgetAndDuplicate",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.ClassQuiz.AbsencePauseAndSegmentedAdvance",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.ClassQuiz.SameMinuteRewardsAndThresholds",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.ClassQuiz.Schema1DirectCompatibility",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.ClassQuiz.Schema3RoundTripAndInvalidStates",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.ClassQuiz.ThreeDaysLearningChoices",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Clock.Accumulation",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Clock.BoundariesAndPause",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Clock.Calendar",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Commute.EstimateIsNotPhysicalArrival",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Commute.KnownOldMorningPlansAndFailureAtomicity",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Confirmation.FixedIntentRecheck",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Confirmation.ManualPauseAndSaveIndependent",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Confirmation.PaidRecoveryCancelAndQualificationRecheck",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Confirmation.PreviewCancelAndAutomaticGate",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.DailyRhythm.FixedActivityExcludesPassiveTick",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.DailyRhythm.LegacyMorningAndHistory",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.DailyRhythm.MorningArrivalAndClassContact",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.DailyRhythm.MorningWaitAndIntent",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Fatigue.OneSettlementMidnightAndQuizBoundary",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Fatigue.PaidRecordSchema2RoundTrip",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Fatigue.StartEligibilityAndRecoveryBoundaries",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Identity.MixedPhysicalAbstract",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Identity.RestoreIndexAndSingleSchema3",
+        "passedEvidence": "RegistrationOnly.json"
+      },
+      {
+        "name": "SchoolLife.Identity.SameSequenceIsolation",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Identity.UnknownIdentityAtomic",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Identity.WorldBindingReplacement",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Library.ChoiceCancelAndStaleIntent",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Library.DefinitionsAndClosingBoundaries",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Library.EquivalentDurationAndOnceOnlySettlement",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Library.SaveHistoryAndAtomicCorruptionRejection",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Library.StudyFeedsFutureQuizNeverRegradesSettledQuiz",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.NPC.PersistentRecordAndRequests",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Region.LegacyCheckpointAndRepeatedRestore",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Region.LoadingGateAndFraction",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Region.OffscreenScheduleWithoutRewards",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Save.C01LegacyOuterDefaults",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Save.C01SpatialEnvelope",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Save.ContinuationAndOnceOnlySettlement",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Save.FullSnapshotRoundTrip",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Save.IsolatedDiskFailures",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Save.RejectWithoutPartialStateChange",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Schedule.BoundaryOrderAndExecution",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Schedule.SevenDaysAndSegments",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Social.ContextAndThreshold",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Social.CooperationAndRetention",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Social.IntervalsAndSegmentation",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Social.TruthfulReadOnlyResponses",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Sprite.PartialWalkFallbackKeepsPhase",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Sprite.RelativeDirectionsAndHysteresis",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.Sprite.WalkClockAndIdleReset",
+        "passedEvidence": "Automation66.json"
+      }
+    ],
+    "new6": [
+      {
+        "name": "SchoolLife.NPCCollection.DailyRewardAndPerPersonPruning",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.NPCCollection.InvalidEntryRejectsEntireCandidate",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.NPCCollection.PerPersonContactAndPlayerBudget",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.NPCCollection.RealHistoricalPayloadsMigrate1To3",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.NPCCollection.ThreePersonDiskAndSessionLifetime",
+        "passedEvidence": "Automation66.json"
+      },
+      {
+        "name": "SchoolLife.NPCCollection.WorldSingleBodyGateAtomic",
+        "passedEvidence": "Automation66.json"
+      }
+    ]
+  },
+  "cold": {
+    "method": "Existing -game processes, development before setup, Computer Use SendInput R/E/Enter/F2/Alt+F4/F3; not human input, not PIE, not Cooked",
+    "source_pid": "38192",
+    "new_pid": "2852",
+    "slot": "D:/UE project/SchoolLife/Saved/C01F2SaveRestore01/Users/NPCCollectionSave01Cold/Saved/SaveGames/SchoolLife_Main.sav",
+    "preserved_player_id": "0BFBF8B24A2930356064CEA03985C6AC",
+    "preserved_npc_id": "D70D651844757F30C953BAA51788519A",
+    "read_count": 3,
+    "full_business_text_equal": true,
+    "one_body": true,
+    "case": "AtPlace, not an in-flight cold navigation claim",
+    "normal_exit_logs": {
+      "Cold01.log": {
+        "normal_exit": true
+      },
+      "Cold02.log": {
+        "normal_exit": true
+      }
+    }
+  },
+  "builds": {
+    "BuildEditor04.log": {
+      "success": true
+    },
+    "BuildEditor05Registration.log": {
+      "success": true
+    },
+    "BuildGame02.log": {
+      "success": true
+    }
+  },
+  "native_assertions": {
+    "PIESocial": {
+      "Test": "FIdentityScene",
+      "Success": "true",
+      "Errors": "0",
+      "Warnings": "0",
+      "Duration": "0.008208",
+      "Map": "/Game/SchoolLife/Maps/Dev/UEDPIE_0_C01_F2_Interface_01 NPC=05BD113D45C53AF8A08A6C89FCC8DFF1 bodies=1 class=1 study=1 fatigue=2"
+    },
+    "PIEC01Start": {
+      "Test": "FIdentityC01Start",
+      "Success": "true",
+      "Errors": "0",
+      "Warnings": "0",
+      "Duration": "0.020469"
+    },
+    "PIEC01Result": {
+      "Test": "FIdentityC01Result",
+      "Success": "true",
+      "Errors": "0",
+      "Warnings": "0",
+      "Duration": "0.000063",
+      "NPC": "CA9536864A1117B30146EDA1140F96C5 state=0 actual=60868 departure=60840 ETA=60855 position=X=4500.000 Y=6850.000 Z=1298.150"
+    },
+    "PIERegionAssert": {
+      "Test": "FRegionAssert",
+      "Success": "true",
+      "Errors": "0",
+      "Warnings": "0",
+      "Duration": "0.000008"
+    },
+    "PIERegionStop": {
+      "Test": "FRegionStop",
+      "Success": "true",
+      "Errors": "0",
+      "Warnings": "0",
+      "Duration": "0.000056"
+    }
+  },
+  "native_pie_delivery": {
+    "method": "native MCP list/describe/readback/load_level/StartPIE/Slate console Type; existing bounded IdentityPIE assertions and Region State production World APIs. Developer time/position preparation explicitly disclosed; no manual WASD/route test/UE Python/terminal HTTP.",
+    "editorProcesses": [
+      44644,
+      47296
+    ],
+    "isolatedUserDir": "D:/UE project/SchoolLife/Saved/NPCPersistentId01/Users/NPCCollectionSave01/RegionConnectionStep2/EditorUserData",
+    "productNPCCount": 1,
+    "businessSchema": 4,
+    "spatialVersions": [
+      0,
+      1
+    ],
+    "C01": {
+      "Social": "passed",
+      "CheckpointSaveReadAndStaleCallback": "passed",
+      "RealNavigationAfterRestore": "passed",
+      "NPCPersonId": "CA9536864A1117B30146EDA1140F96C5",
+      "departureAbsolute": 60840,
+      "expectedAbsolute": 60855,
+      "actualArrivalAbsolute": 60868,
+      "departureClock": "06:00",
+      "actualClock": "06:28",
+      "requestSequencePreserved": true,
+      "bodies": 1,
+      "studyAfterTravel": 0,
+      "finalPosition": [
+        4500,
+        6850,
+        1298.15
+      ]
+    },
+    "navigationSamples": [
+      {
+        "location": [
+          13.99097470528172,
+          -2576.51837435582,
+          750.9753531383917
+        ],
+        "approxLocal": "23:33:54"
+      },
+      {
+        "location": [
+          3022.5503696672395,
+          6049.903252403182,
+          898.1499967290222
+        ],
+        "approxLocal": "23:34:45"
+      },
+      {
+        "location": [
+          4500.0000020837915,
+          6849.999940563343,
+          1298.1500070413233
+        ],
+        "approxLocal": "23:35:33"
+      }
+    ],
+    "RegionState": {
+      "done": true,
+      "passed": true,
+      "checks": 28,
+      "movingDistanceCM": 0,
+      "evidence": "PIERegionState.json"
+    },
+    "firstRegionAttempt": "Rejected by existing raw-commandline forward-slash UserDir gate, not a production failure. Archived and relaunched same isolated directory with slash spelling. No source change; passed rerun.",
+    "final": {
+      "map": "/Game/SchoolLife/Maps/CampusLifeBlockout",
+      "PIE": false,
+      "mapsDirty": false,
+      "slate": "所有已保存",
+      "editorKeptOpen": 47296,
+      "runtimeStateGoldenOriginalBytesRestored": true,
+      "protectedSaveCount": 58,
+      "protectedSavesUnchanged": 58
+    }
+  },
+  "region": {
+    "done": true,
+    "passed": true,
+    "checks": [
+      {
+        "check": "Production E-preview/Enter-confirm API accepted",
+        "passed": true,
+        "minute": 60914
+      },
+      {
+        "check": "At07:20 Coast retains in-flight request and no body",
+        "passed": true,
+        "minute": 60920
+      },
+      {
+        "check": "Production E-preview/Enter-confirm API accepted",
+        "passed": true,
+        "minute": 60920
+      },
+      {
+        "check": "Return07:26 retains departure/ETA/sequence and resumes one body",
+        "passed": true,
+        "minute": 60926
+      },
+      {
+        "check": "Production E-preview/Enter-confirm API accepted",
+        "passed": true,
+        "minute": 60926
+      },
+      {
+        "check": "Developer boundary 480: abstract schedule, NPC0, no class rewards",
+        "passed": true,
+        "minute": 60960
+      },
+      {
+        "check": "Developer boundary 600: abstract schedule, NPC0, no class rewards",
+        "passed": true,
+        "minute": 61080
+      },
+      {
+        "check": "Developer boundary 620: abstract schedule, NPC0, no class rewards",
+        "passed": true,
+        "minute": 61100
+      },
+      {
+        "check": "Developer boundary 720: abstract schedule, NPC0, no class rewards",
+        "passed": true,
+        "minute": 61200
+      },
+      {
+        "check": "Developer boundary 780: abstract schedule, NPC0, no class rewards",
+        "passed": true,
+        "minute": 61260
+      },
+      {
+        "check": "Developer boundary 900: abstract schedule, NPC0, no class rewards",
+        "passed": true,
+        "minute": 61380
+      },
+      {
+        "check": "Developer boundary 1080: abstract schedule, NPC0, no class rewards",
+        "passed": true,
+        "minute": 61560
+      },
+      {
+        "check": "Developer boundary 1100: abstract schedule, NPC0, no class rewards",
+        "passed": true,
+        "minute": 61580
+      },
+      {
+        "check": "Developer boundary 1440: abstract schedule, NPC0, no class rewards",
+        "passed": true,
+        "minute": 61920
+      },
+      {
+        "check": "Midnight without sleep has no day summary",
+        "passed": true,
+        "minute": 61920
+      },
+      {
+        "check": "Developer rich checkpoint: three segments/social/library/payment",
+        "passed": true,
+        "minute": 61440
+      },
+      {
+        "check": "Production E-preview/Enter-confirm API accepted",
+        "passed": true,
+        "minute": 61440
+      },
+      {
+        "check": "Production Home F2 saves rich checkpoint",
+        "passed": true,
+        "minute": 61446
+      },
+      {
+        "check": "Production E-preview/Enter-confirm API accepted",
+        "passed": true,
+        "minute": 61446
+      },
+      {
+        "check": "Coast legal F3 stages candidate and loads Core",
+        "passed": true,
+        "minute": 61452
+      },
+      {
+        "check": "F3 exactly restores saved time/resources/class/quiz/fraction/F5 without6",
+        "passed": true,
+        "minute": 61446
+      },
+      {
+        "check": "Repeated Core F3 no payment or class/day reward",
+        "passed": true,
+        "minute": 61446
+      },
+      {
+        "check": "F3 safe Home within230cm",
+        "passed": true,
+        "minute": 61446
+      },
+      {
+        "check": "Production E-preview/Enter-confirm API accepted",
+        "passed": true,
+        "minute": 61446
+      },
+      {
+        "check": "Corrupt Coast F3 rejected in same map, full state unchanged",
+        "passed": true,
+        "minute": 61452
+      },
+      {
+        "check": "Unsupported Coast F3 rejected atomically",
+        "passed": true,
+        "minute": 61452
+      },
+      {
+        "check": "Restored isolated valid slot",
+        "passed": true,
+        "minute": 61452
+      },
+      {
+        "check": "Valid F3 after failed reads still exact and NPC1",
+        "passed": true,
+        "minute": 61446
+      }
+    ],
+    "moving_distance_cm": 0,
+    "note": "Developer position/time preparation + production confirmation APIs; moving distance is 0, not new route/WASD acceptance."
+  },
+  "protected_original_saves": [
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\CampusDaySegmentsValidation\\Complete.sav",
+      "length": 8460,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\CampusDaySegmentsValidation\\Midday.sav",
+      "length": 7984,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\DailyRhythmValidation\\PIECheckpoint.sav",
+      "length": 8090,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\FatiguePaidRecovery\\PaidCheckpoint.sav",
+      "length": 5461,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\FirstClassQuiz\\LegacySchema1.sav",
+      "length": 9071,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\FirstClassQuiz\\Schema2_QuizCheckpoint.sav",
+      "length": 10270,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LibraryRoomStudyValidation\\PIECheckpoint.sav",
+      "length": 6584,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LibraryRoomStudyValidation\\SummaryCheckpoint.sav",
+      "length": 6916,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeBlockoutValidation\\OldSaveInput.sav",
+      "length": 9071,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeBlockoutValidation\\PIECheckpoint.sav",
+      "length": 8249,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep3\\BeforeNativeCorrupt.sav",
+      "length": 4720,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep4\\BeforeLegacySlot.sav",
+      "length": 4776,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep5\\MainDayCheckpoint.sav",
+      "length": 8404,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LocalSaveLoad\\RestartCheckpoint.sav",
+      "length": 9071,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\NPCPersistentId01\\ColdSavedBeforeRead.sav",
+      "length": 8230,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 8835,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\C01F2SaveRestore01\\Golden\\AfterClass.sav",
+      "length": 8230,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\C01F2SaveRestore01\\Golden\\BeforeClass.sav",
+      "length": 4998,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\C01F2SaveRestore01\\Golden\\CampusHome.sav",
+      "length": 4293,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\C01F2SaveRestore01\\Golden\\Legacy1.sav",
+      "length": 4246,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\C01F2SaveRestore01\\Golden\\Legacy2.sav",
+      "length": 4293,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\C01F2SaveRestore01\\Golden\\Legacy3.sav",
+      "length": 4293,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\C01F2SaveRestore01\\Golden\\Travel.sav",
+      "length": 5056,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\C01F2SaveRestore01\\Users\\ActivityCase\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 8230,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\C01F2SaveRestore01\\Users\\NPCPersistentId01Cold\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 8230,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\C01F2SaveRestore01\\Users\\TravelCase\\Saved\\SaveGames\\IsolatedLegacy3Preserved.sav",
+      "length": 4293,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\C01F2SaveRestore01\\Users\\TravelCase\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 8230,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\CampusDaySegmentsValidation\\EditorUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 8460,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\CampusDaySegmentsValidation\\PackageUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 8190,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\DailyRhythmValidation\\EditorUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 8090,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\DailyRhythmValidation\\PackagedUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 5290,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\FatiguePaidRecovery\\EditorUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 5461,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\FatiguePaidRecovery\\PackagedUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 8778,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\FirstClassQuiz\\EditorUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 10270,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\FirstClassQuiz\\PackagedUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 4625,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LibraryRoomStudyValidation\\EditorUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 6584,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LibraryRoomStudyValidation\\PackageUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 6441,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeBlockoutValidation\\EditorUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 8249,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeBlockoutValidation\\UserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 8993,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep3\\LegacyCopies\\Schema1.sav",
+      "length": 9071,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep3\\LegacyCopies\\Schema2.sav",
+      "length": 10270,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep3\\LegacyCopies\\Schema3.sav",
+      "length": 7984,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep3\\EditorUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 4720,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep4\\LegacyCopies\\OldMorningSchema3.sav",
+      "length": 4720,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep4\\LegacyCopies\\Schema1.sav",
+      "length": 9071,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep4\\LegacyCopies\\Schema2.sav",
+      "length": 10270,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep4\\LegacyCopies\\Schema3.sav",
+      "length": 7984,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep4\\EditorUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 4776,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep5\\LegacyCopies\\Schema1.sav",
+      "length": 9071,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep5\\LegacyCopies\\Schema2.sav",
+      "length": 10270,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep5\\LegacyCopies\\Schema3.sav",
+      "length": 7984,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep5\\EditorUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 8404,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\LifeCoreStep6\\AutoUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 12969,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\NPCPersistentId01\\Users\\RegionConnectionStep2\\EditorUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 8474,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\PackagedValidation\\UserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 7665,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\RegionConnectionStep2\\EditorUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 8474,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\RegionConnectionStep3\\AutoUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 12955,
+      "bytes_equal": true
+    },
+    {
+      "path": "D:\\UE project\\SchoolLife\\Saved\\RegionConnectionStep3\\HumanUserData\\Saved\\SaveGames\\SchoolLife_Main.sav",
+      "length": 4230,
+      "bytes_equal": true
+    }
+  ],
+  "evidence_index": [
+    {
+      "name": "Automation66.json",
+      "bytes": 50271
+    },
+    {
+      "name": "Cold1AfterSave.txt",
+      "bytes": 6394
+    },
+    {
+      "name": "Cold2Boot.txt",
+      "bytes": 5297
+    },
+    {
+      "name": "Cold2Read1.txt",
+      "bytes": 6450
+    },
+    {
+      "name": "Cold2Read2.txt",
+      "bytes": 6450
+    },
+    {
+      "name": "Cold2Read3.txt",
+      "bytes": 6450
+    },
+    {
+      "name": "ColdComparison.json",
+      "bytes": 521
+    },
+    {
+      "name": "MCPClientDiagnostic.json",
+      "bytes": 4303
+    },
+    {
+      "name": "NativePIE.json",
+      "bytes": 2280
+    },
+    {
+      "name": "PIEC01Result.txt",
+      "bytes": 207
+    },
+    {
+      "name": "PIEC01Start.txt",
+      "bytes": 200
+    },
+    {
+      "name": "PIERegionAssert.txt",
+      "bytes": 75
+    },
+    {
+      "name": "PIERegionGateFailure.json",
+      "bytes": 421
+    },
+    {
+      "name": "PIERegionGolden.json",
+      "bytes": 5380
+    },
+    {
+      "name": "PIERegionStart.txt",
+      "bytes": 79
+    },
+    {
+      "name": "PIERegionStartFirst.txt",
+      "bytes": 75
+    },
+    {
+      "name": "PIERegionState.json",
+      "bytes": 3612
+    },
+    {
+      "name": "PIERegionStop.txt",
+      "bytes": 73
+    },
+    {
+      "name": "PIESocial.txt",
+      "bytes": 208
+    },
+    {
+      "name": "ProtectedSaves.json",
+      "bytes": 8837
+    },
+    {
+      "name": "RegistrationCoverage.json",
+      "bytes": 8680
+    },
+    {
+      "name": "RegistrationOnly.json",
+      "bytes": 548
+    }
+  ],
+  "source_review": [
+    "SchoolLifeSaveGame.h",
+    "SchoolLifeSessionCollectionSave.cpp",
+    "SchoolLifeSessionSave.cpp",
+    "SchoolLifeSessionSocial.cpp",
+    "SchoolLifeWorldSave.cpp",
+    "SchoolLifeWorldC01Save.cpp",
+    "SchoolLifeSessionRegionTravel.cpp",
+    "SchoolLifeWorldRegionTravel.cpp",
+    "Tests/SchoolLifeNPCCollectionSaveTests.cpp"
+  ],
+  "limits": [
+    "Product remains 1 NPC",
+    "Three-person fixtures cover Session/disk data only",
+    "World rejects multiple NPC restoration before mutation",
+    "C01 specified acceptance retained, no new whole-building/WASD acceptance",
+    "Other 10 stair directions / final seat / RT01 / B01 unchanged"
+  ],
+  "actions": {
+    "engineering_writes": 0,
+    "new_tests_or_builds": 0,
+    "pie_started": false,
+    "models_or_textures_changed": false,
+    "new_task_card": false,
+    "messages_to_other_threads": false
+  }
+}
